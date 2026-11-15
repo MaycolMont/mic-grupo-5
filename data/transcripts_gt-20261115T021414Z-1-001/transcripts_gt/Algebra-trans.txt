@@ -1,0 +1,2566 @@
+WEBVTT
+
+00:00:00.240 --> 00:00:04.789
+Perfecto. Okay, entonces para este curso de
+
+00:00:04.789 --> 00:00:07.810
+álgebra lineal, vamos a empezar con
+
+00:00:07.810 --> 00:00:11.629
+conceptos básicos. Usualmente, pues se
+
+00:00:11.629 --> 00:00:13.669
+suele iniciar o dar introducción con
+
+00:00:13.669 --> 00:00:15.770
+matrices, tipo de matrices y ese tipo de
+
+00:00:15.770 --> 00:00:18.650
+cosas. Pero, pues yo entiendo también que
+
+00:00:18.650 --> 00:00:21.170
+es algo que hoy ya vieron en clase o ya
+
+00:00:21.170 --> 00:00:24.170
+saben desde el pre. Pero si hay palabras o hay
+
+00:00:24.170 --> 00:00:25.790
+conceptos o tipos de matrices que no les
+
+00:00:25.790 --> 00:00:28.189
+queda claro, no tengan miedo de preguntar,
+
+00:00:28.189 --> 00:00:29.689
+tanto alzando el micrófono —no tengo
+
+00:00:29.689 --> 00:00:31.370
+problemas con que me interrumpan— o con
+
+00:00:31.370 --> 00:00:32.870
+que escriban al chat, pues voy a estar
+
+00:00:32.870 --> 00:00:35.150
+pendiente también de esta veces. Entonces,
+
+00:00:35.150 --> 00:00:38.150
+listo, para dar inicio a esta parte o a
+
+00:00:38.150 --> 00:00:40.729
+este curso en específico, creo que lo
+
+00:00:40.729 --> 00:00:41.750
+primordial y lo más importante,
+
+00:00:41.750 --> 00:00:44.810
+usualmente vamos a seguir el orden que
+
+00:00:44.810 --> 00:00:46.869
+está en el syllabus del curso. Entonces,
+
+00:00:46.869 --> 00:00:50.569
+la idea es que no vayamos en desorden,
+
+00:00:50.569 --> 00:00:53.090
+sino que vayamos a nivel o al ritmo que
+
+00:00:53.090 --> 00:00:54.650
+se supone que está planificado cada
+
+00:00:54.650 --> 00:00:55.610
+curso.
+
+00:00:55.610 --> 00:00:57.830
+Por lo tanto, va a haber un punto en el
+
+00:00:57.830 --> 00:00:59.810
+que llegamos a estar adelantados como
+
+00:00:59.810 --> 00:01:03.590
+por un uno o dos temas, no más de eso, lo
+
+00:01:03.600 --> 00:01:05.450
+cual es básicamente la idea de todo esto:
+
+00:01:05.450 --> 00:01:07.070
+entonces se vayan preparando tanto para
+
+00:01:07.070 --> 00:01:09.109
+reforzar el conocimiento que les quedó
+
+00:01:09.109 --> 00:01:11.510
+dudas en clase o, pues, para irse
+
+00:01:11.520 --> 00:01:13.789
+adelantando, y que sus notas lleguen a ser
+
+00:01:13.799 --> 00:01:16.550
+mejores a largo plazo. Por lo tanto, vamos
+
+00:01:16.560 --> 00:01:18.310
+a dar inicio, vamos a empezar con
+
+00:01:18.320 --> 00:01:21.469
+sistemas de ecuaciones. ¿Qué es un sistema
+
+00:01:21.469 --> 00:01:23.630
+de ecuaciones?
+
+00:01:23.640 --> 00:01:25.810
+Esto es algo que ya se ha estado viendo
+
+00:01:25.820 --> 00:01:28.730
+desde... desde la escuela creo, o desde el
+
+00:01:28.740 --> 00:01:29.870
+colegio.
+
+00:01:29.880 --> 00:01:32.270
+Desde el colegio lo más probable. Un sistema
+
+00:01:32.280 --> 00:01:33.950
+de ecuaciones, lo típico, te dan una
+
+00:01:33.960 --> 00:01:36.109
+llavecita y te dan, qué sé yo, dos
+
+00:01:36.119 --> 00:01:37.210
+ecuaciones:
+
+00:01:37.220 --> 00:01:42.490
+5x + 2y = 3
+
+00:01:42.500 --> 00:01:46.910
+3x + y = 7; qué sé yo, esto. Y te
+
+00:01:46.920 --> 00:01:48.890
+dice: "Encuentra la solución", y pues te
+
+00:01:48.890 --> 00:01:50.929
+enseñan muchas formas de hacerlo. Te
+
+00:01:50.939 --> 00:01:52.730
+enseñan a sumar una ecuación con la otra,
+
+00:01:52.740 --> 00:01:55.490
+te enseñan a despejar una y meterla en la
+
+00:01:55.500 --> 00:01:56.810
+otra. Hay muchas formas de resolver
+
+00:01:56.820 --> 00:01:58.810
+sistemas de ecuaciones, pero
+
+00:01:58.820 --> 00:02:01.429
+ya estamos en un punto de nuestra vida
+
+00:02:01.439 --> 00:02:05.450
+académica en la cual resulta relevante y
+
+00:02:05.460 --> 00:02:08.089
+aún más importante el entender por qué
+
+00:02:08.099 --> 00:02:10.010
+hacemos las cosas o, en específico, el
+
+00:02:10.020 --> 00:02:11.330
+entender qué es lo que estamos
+
+00:02:11.340 --> 00:02:13.850
+trabajando. Por lo tanto, ahorita vamos a
+
+00:02:13.860 --> 00:02:16.570
+dar una pequeña introducción a lo que
+
+00:02:16.580 --> 00:02:19.070
+detrás de toda esa llave, o detrás de
+
+00:02:19.080 --> 00:02:21.410
+todo ese conjunto de procesos o formas
+
+00:02:21.420 --> 00:02:23.150
+de resolver un sistema de ecuaciones, ¿qué
+
+00:02:23.160 --> 00:02:25.010
+es lo que estamos haciendo?
+
+00:02:25.020 --> 00:02:28.070
+Entonces, para esto hay que entender que
+
+00:02:28.080 --> 00:02:29.510
+un sistema de ecuaciones lineales, como
+
+00:02:29.520 --> 00:02:31.610
+el que teníamos antes,
+
+00:02:31.620 --> 00:02:33.890
+es esto: ecuaciones lineales, que si tú
+
+00:02:33.900 --> 00:02:36.350
+las despejas, pues técnicamente tienes
+
+00:02:36.360 --> 00:02:38.449
+las típicas funciones que, qué sé yo, esto es
+
+00:02:38.459 --> 00:02:44.890
+y = (3 - 5x) / 2, y esta de aquí
+
+00:02:44.890 --> 00:02:47.890
+es igual
+
+00:02:47.900 --> 00:02:53.210
+a y = 7 - 3x. Estas son funciones, claro,
+
+00:02:53.220 --> 00:02:54.890
+son funciones lineales. Terminan siendo,
+
+00:02:54.900 --> 00:03:00.470
+de otra forma, el f(x) = (3 - 5x) / 2
+
+00:03:00.480 --> 00:03:03.170
+y esto va a terminar siendo el g(x) = 7 - 3x.
+
+00:03:03.180 --> 00:03:07.309
+Las típicas ecuaciones
+
+00:03:07.319 --> 00:03:10.190
+lineales, ¿no? ¿Cómo son las ecuaciones
+
+00:03:10.190 --> 00:03:12.530
+lineales? Vamos a hacer un ejemplo
+
+00:03:12.540 --> 00:03:17.149
+sencillo, no necesariamente esta, pero las
+
+00:03:17.159 --> 00:03:19.490
+funciones lineales son... son rectas, son
+
+00:03:19.490 --> 00:03:20.710
+rectas.
+
+00:03:20.720 --> 00:03:22.790
+Son así,
+
+00:03:22.800 --> 00:03:25.850
+o son así,
+
+00:03:25.860 --> 00:03:28.910
+qué sé yo, o son así.
+
+00:03:28.920 --> 00:03:30.890
+Hay muchas formas de hacer ecuaciones
+
+00:03:30.900 --> 00:03:33.170
+lineales, pero la generalidad o la
+
+00:03:33.180 --> 00:03:34.910
+característica compartida que llegan a
+
+00:03:34.920 --> 00:03:36.229
+tener cada una de estas es que son
+
+00:03:36.239 --> 00:03:40.009
+rectas; y si son rectas, hay solo tres
+
+00:03:40.019 --> 00:04:02.470
+posibilidades con cualquier cantidad de
+
+00:04:02.480 --> 00:04:05.170
+rectas que haya. Por ejemplo, en este caso
+
+00:04:05.180 --> 00:04:08.830
+particular, vamos a llamarlo uno, en este
+
+00:04:08.840 --> 00:04:14.110
+caso uno,
+
+00:04:14.120 --> 00:04:17.250
+¿cuántas intersecciones hay? Hay solo una,
+
+00:04:17.260 --> 00:03:59.649
+aquí en ese punto,
+
+00:03:59.659 --> 00:04:04.610
+en este punto (x_0, y_0).
+
+00:04:04.620 --> 00:04:06.890
+Hay una intersección. ¿Puede haber más de
+
+00:04:06.890 --> 00:04:10.009
+una intersección? No, porque son rectas;
+
+00:04:10.019 --> 00:04:13.009
+esta línea verde no se va a
+
+00:04:13.019 --> 00:04:14.509
+doblar de casualidad y va a pasar por
+
+00:04:14.519 --> 00:04:16.969
+aquí otra vez. Esto va hasta el infinito,
+
+00:04:16.979 --> 00:04:19.569
+son rectas que se extienden. Por lo tanto,
+
+00:04:19.579 --> 00:04:22.430
+no llega a haber la posibilidad de que
+
+00:04:22.440 --> 00:04:24.650
+haya más de una solución. ¿A qué llamamos
+
+00:04:24.660 --> 00:04:27.050
+solución? Precisamente al punto en el
+
+00:04:27.060 --> 00:04:29.210
+cual se intersectan. ¿Por qué? Porque
+
+00:04:29.220 --> 00:04:32.150
+estamos analizandor rectas, ecuaciones que
+
+00:04:32.160 --> 00:04:34.249
+están en un sistema. Si estamos viendo
+
+00:04:34.259 --> 00:04:35.870
+un sistema, quiere decir que lo único que
+
+00:04:35.880 --> 00:04:40.129
+nos importa de esas rectas es si existe
+
+00:04:40.139 --> 00:04:43.370
+una solución que dé o que deje
+
+00:04:43.380 --> 00:04:44.870
+satisfecha tanto a la primera expresión
+
+00:04:44.870 --> 00:04:47.350
+como a la segunda.
+
+00:04:47.360 --> 00:04:49.550
+Es lo que buscamos aquí en un sistema de
+
+00:04:49.560 --> 00:04:51.710
+ecuaciones; es decir, a nivel analítico,
+
+00:04:51.720 --> 00:04:54.830
+que vamos a buscar un conjunto de puntos,
+
+00:04:54.840 --> 00:04:57.409
+un conjunto de soluciones que cumplan
+
+00:04:57.419 --> 00:04:59.650
+esta regla,
+
+00:04:59.660 --> 00:05:02.150
+la primera o la segunda; y a nivel
+
+00:05:02.160 --> 00:05:04.370
+gráfico, intersecciones de rectas.
+
+00:05:05.520 --> 00:05:07.909
+Ahora, dije que esa no era la única
+
+00:05:07.919 --> 00:05:09.950
+posibilidad con respecto a las rectas.
+
+00:05:09.960 --> 00:05:11.390
+¿Qué pasa también? ¿Qué puede llegar a
+
+00:05:11.400 --> 00:05:13.070
+pasar? Puede llegar a pasar que son
+
+00:05:13.080 --> 00:05:13.990
+rectas
+
+00:05:14.000 --> 00:05:16.610
+que no se chocan nunca, que no se
+
+00:05:16.620 --> 00:05:18.850
+intersectan nunca. Por ejemplo,
+
+00:05:18.860 --> 00:05:21.830
+digo esta
+
+00:05:21.840 --> 00:05:26.570
+y esta otra. Son rectas paralelas.
+
+00:05:26.580 --> 00:05:33.830
+Esta es la situación dos.
+
+01:05:33.840 --> 01:05:36.840
+Ahora, también existe una posibilidad que es esta de aquí
+
+01:05:36.850 --> 01:05:49.129
+—que solo hay tres realmente, solo hay tres—,
+
+01:05:49.139 --> 01:05:55.570
+que tengo esta recta roja,
+
+01:05:55.580 --> 01:05:58.909
+y tengo esta recta verde.
+
+01:05:58.919 --> 01:06:00.230
+Si se dan cuenta, coinciden. ¿Por
+
+01:06:00.240 --> 01:06:03.230
+qué? Porque son exactamente la misma
+
+01:06:03.240 --> 01:06:06.650
+recta. Si son exactamente la misma recta,
+
+01:06:06.660 --> 01:06:08.990
+si yo agarro... ya voy a moverlo para que
+
+01:06:09.000 --> 01:06:11.090
+lo puedan ver mejor...
+
+01:06:11.100 --> 01:06:13.430
+si yo lo muevo un poquito, ustedes se dan
+
+01:06:13.440 --> 01:06:15.170
+cuenta que coinciden totalmente. Entonces,
+
+01:06:15.180 --> 01:06:18.469
+¿en cuáles puntos o en qué puntos de todo
+
+01:06:18.479 --> 01:06:21.650
+el dominio de ambas rectas
+
+01:06:21.660 --> 01:06:25.670
+coincide la verde con la roja? En todas. Y
+
+01:06:25.680 --> 01:06:28.210
+como la recta se extiende infinitamente,
+
+01:06:28.220 --> 01:06:31.790
+entendemos o se dice usualmente que
+
+01:06:31.800 --> 01:06:34.490
+estas van a ser... este es un sistema,
+
+01:06:34.500 --> 01:06:37.430
+realmente es un sistema con infinitas
+
+01:06:37.440 --> 01:06:39.590
+soluciones. Eso es a lo que se conoce como
+
+01:06:39.600 --> 01:06:42.770
+un sistema con soluciones infinitas,
+
+01:06:42.780 --> 01:06:44.990
+y es lo que nos va a importar. Entonces,
+
+01:06:45.000 --> 01:06:48.050
+este es un concepto que usualmente no se
+
+01:06:48.060 --> 01:06:49.610
+explica, que hay profesores que realmente
+
+01:06:49.620 --> 01:06:51.469
+te dicen: "Okay, hay soluciones infinitas",
+
+01:06:51.479 --> 01:06:53.150
+pero ¿qué implica que haya soluciones
+
+01:06:53.160 --> 01:06:55.550
+infinitas? Implica que es la misma recta,
+
+01:06:55.560 --> 01:06:58.629
+no hay más. Entonces,
+
+01:06:58.639 --> 01:07:01.909
+opciones: uno, que coinciden en un solo
+
+01:07:01.919 --> 01:07:04.010
+punto —no puede coincidir en más, es decir,
+
+01:07:04.020 --> 01:07:07.570
+que solamente hay una solución—; dos, que
+
+01:07:07.580 --> 01:07:10.309
+no coinciden en ninguna; o tres, que
+
+01:07:10.319 --> 01:07:13.430
+coinciden absolutamente en todas. Ahora, para
+
+01:07:13.440 --> 01:07:14.890
+esto,
+
+01:07:14.900 --> 01:07:17.990
+existen formas, ¿no? La forma general, vamos
+
+01:07:18.000 --> 01:07:27.790
+a empezar con definiciones.
+
+01:07:27.800 --> 01:07:29.629
+Definiciones de saber qué es lo que
+
+01:07:29.639 --> 01:07:33.170
+estamos trabajando a nivel riguroso.
+
+01:07:33.170 --> 01:07:35.450
+Entonces, ¿qué dice aquí? Un sistema se
+
+01:07:35.460 --> 01:07:39.589
+define... un sistema de ecuaciones lineales
+
+01:07:39.599 --> 01:07:48.189
+de m ecuaciones
+
+01:07:48.199 --> 01:07:55.010
+con n variables, por supuesto,
+
+01:07:55.020 --> 01:07:57.710
+—n variables,
+
+01:07:57.720 --> 01:08:01.029
+o claro, o incógnitas, pueden ser
+
+01:08:01.039 --> 01:08:09.770
+x_1, x_2, x_3, ..., x_n—
+
+01:08:09.780 --> 01:08:17.330
+es un conjunto
+
+01:08:17.340 --> 01:08:23.210
+de la forma...
+
+01:08:23.220 --> 01:08:27.409
+Y aquí ya viene la forma general o cómo
+
+01:08:27.419 --> 01:08:30.170
+luce de forma general un sistema de
+
+01:08:30.180 --> 01:08:31.690
+ecuaciones.
+
+01:08:31.700 --> 01:08:34.269
+Y aquí tenemos: a_11
+
+01:08:34.279 --> 01:08:40.389
+x_1 + a_12 x_2
+
+01:08:40.399 --> 01:08:47.210
++ ... + a_1n
+
+01:08:47.220 --> 01:08:51.769
+x_n = b_1.
+
+01:08:51.779 --> 01:09:02.650
+Y tenemos: a_21 x_1 + a_22 x_2 +
+
+01:09:02.660 --> 01:09:06.769
+... + a_2n x_n = b_2.
+
+01:09:06.779 --> 01:09:10.550
+Entonces, aquí ya podemos ver el
+
+01:09:10.560 --> 01:09:16.070
+patrón, miren. Un texto va así también,
+
+01:09:16.080 --> 01:09:18.310
+de forma que aquí tenemos:
+
+01:09:18.320 --> 01:09:20.410
+a_m1
+
+01:09:20.420 --> 01:09:24.310
+x_1 + a_m2
+
+01:09:24.320 --> 01:09:25.930
+x_2
+
+01:09:25.940 --> 01:09:29.750
++ ... para acá también,
+
+01:09:29.760 --> 01:09:36.310
++ a_mn x_n = b_m.
+
+01:09:36.320 --> 01:09:38.509
+Todo esto pues con las llaves para
+
+01:09:38.519 --> 01:09:41.090
+denotar que esas tres ecuaciones o esas
+
+01:09:41.100 --> 01:09:44.210
+m ecuaciones están relacionadas de
+
+01:09:44.220 --> 01:09:45.949
+alguna forma, o es lo que yo busco. Busco
+
+01:09:45.959 --> 01:09:47.690
+ver si están relacionadas, cómo se
+
+01:09:47.700 --> 01:09:50.810
+relacionan por ese punto que, claro, ese
+
+01:09:50.820 --> 01:09:53.210
+conjunto solución es ese punto que deja
+
+01:09:53.220 --> 01:09:55.490
+satisfecha absolutamente las mismas
+
+01:09:55.500 --> 01:09:57.769
+ecuaciones.
+
+01:09:57.779 --> 01:10:00.370
+Ahora, para esto vamos a tener también...
+
+01:10:00.380 --> 01:10:03.050
+vamos a sacar información, vamos a sacar
+
+01:10:03.060 --> 01:10:06.650
+información. Primero vamos a separar esto
+
+01:10:06.660 --> 01:10:09.710
+en una forma matricial, porque este es un
+
+01:10:09.720 --> 01:10:13.670
+sistema de ecuaciones lineales en forma
+
+01:10:13.680 --> 01:10:18.730
+de ecuación.
+
+01:10:18.740 --> 01:10:21.110
+Now, vamos a llamar a esto también...
+
+01:10:21.120 --> 01:10:24.829
+vamos a poner aquí una barrita que se
+
+01:10:24.839 --> 01:10:28.389
+separe a una forma matricial.
+
+01:10:28.399 --> 01:10:31.630
+Aquí, esto vamos a formar aquí un sistema
+
+01:10:31.640 --> 01:10:34.370
+de ecuaciones lineales en su forma
+
+01:10:34.380 --> 01:10:39.769
+matricial.
+
+01:10:39.779 --> 01:10:41.930
+¿Cómo es la forma matricial de un sistema
+
+01:10:41.940 --> 01:10:45.310
+de ecuaciones? Pues, realmente es
+
+01:10:45.320 --> 01:10:48.490
+una matriz A,
+
+01:10:48.500 --> 01:10:50.170
+vamos a escribirla acá abajo, acá:
+
+01:10:50.180 --> 01:10:53.630
+es una matriz que se multiplica a una
+
+01:10:53.640 --> 01:10:57.590
+matriz X, que me da una matriz B. ¿Qué
+
+01:10:57.600 --> 01:10:59.990
+es la matriz A, la matriz X y la matriz B?
+
+01:11:00.000 --> 01:11:04.490
+¿De dónde sale todo esto? Sencillo. Esto es
+
+01:11:04.500 --> 01:11:08.090
+la matriz de coeficientes, la matriz de
+
+01:11:08.100 --> 01:11:12.290
+incógnitas y la matriz de términos
+
+01:11:12.300 --> 01:11:15.170
+independientes, claro.
+
+01:11:15.180 --> 01:11:17.810
+Términos independientes, y eso lo
+
+01:11:17.820 --> 01:11:19.250
+formamos, ¿cómo lo formamos?, a partir de
+
+01:11:19.260 --> 01:11:21.710
+esta forma de ecuaciones, realmente no
+
+01:11:21.720 --> 01:11:24.110
+hay bastante ciencia. Entonces, yo digo
+
+01:11:24.120 --> 01:11:29.170
+que A es igual a:
+
+01:11:29.180 --> 01:11:33.829
+[ a_11  a_12  ...  a_1n ]
+[ a_21  a_22  ...  a_2n ]
+[  :     :    .      :  ]
+[ a_m1  a_m2  ...  a_mn ]
+
+01:11:33.829 --> 01:11:38.350
+Genial. Mi matriz X va a ser mi matriz de
+
+01:11:38.360 --> 01:11:44.110
+incógnitas. ¿Cuál va a ser mi matriz?, que realmente es
+
+01:11:44.120 --> 01:11:46.250
+una matriz columna:
+
+01:11:46.260 --> 01:11:49.690
+[ x_1 ]
+[ x_2 ]
+[  :  ]
+[ x_n ]
+
+01:11:49.700 --> 01:11:55.130
+Y mi matriz B
+
+01:11:55.140 --> 01:12:00.410
+va a ser igual a, pues, la matriz columna de términos
+
+01:12:00.420 --> 01:12:02.030
+independientes:
+
+01:12:02.040 --> 01:12:04.430
+[ b_1 ]
+[ b_2 ]
+[  :  ]
+[ b_m ]
+
+01:12:04.440 --> 01:12:06.550
+Así es.
+
+01:12:06.560 --> 01:12:10.269
+Entonces, ahora entendemos por qué; porque
+
+01:12:10.279 --> 01:12:13.090
+si agarramos esas tres matrices y las
+
+01:12:13.100 --> 01:12:15.659
+multiplicamos, vamos a obtener precisamente esto.
+
+01:12:15.669 --> 01:12:18.770
+Claro, ¿por qué?, porque estas incógnitas
+
+01:12:18.780 --> 01:12:21.170
+se distribuyen a lo largo de todos estos,
+
+01:12:21.180 --> 01:12:23.630
+y pues luego vamos y se suman, porque así
+
+01:12:23.640 --> 01:12:25.750
+se multiplican matrices, ¿no? Sabemos cómo
+
+01:12:25.760 --> 01:12:27.710
+se multiplican matrices. Y que... y si lo
+
+01:12:27.720 --> 01:12:29.450
+igualamos a esta matriz B, pues vamos a
+
+01:12:29.460 --> 01:12:31.170
+tener, de hecho, nuestro sistema de
+
+01:12:31.180 --> 01:12:33.289
+ecuaciones en la forma tradicional, o en
+
+01:12:33.299 --> 01:12:35.390
+la forma que hemos visto desde el
+
+01:12:35.400 --> 01:12:37.370
+colegio. Pero ahora nos interesa esta
+
+01:12:37.380 --> 01:12:40.069
+forma matricial, esta es nuestra joyita,
+
+01:12:40.079 --> 01:12:43.349
+esto es lo que nos va a importar el día
+
+01:12:43.359 --> 01:12:45.359
+de hoy.
+
+01:12:45.359 --> 01:12:47.810
+¿Por qué nos va a importar? Porque vamos a
+
+01:12:47.820 --> 01:12:51.170
+aplicar conocimientos de matrices, vamos
+
+01:12:51.180 --> 01:12:53.470
+a desarrollar conocimientos de matrices
+
+01:12:53.480 --> 01:12:55.970
+que nos va a solucionar la vida y nos va
+
+01:12:55.980 --> 01:12:58.449
+a facilitar el hecho de encontrar este...
+
+01:12:58.459 --> 01:13:00.449
+sistema... las soluciones para este sistema
+
+01:13:00.459 --> 01:13:03.409
+de ecuaciones. ¿Por qué?, porque ¿cuántas
+
+01:13:03.419 --> 01:13:05.750
+formas conocemos de encontrar
+
+01:13:05.760 --> 01:13:08.119
+soluciones para la forma usual?, las que
+
+01:13:08.129 --> 01:13:10.619
+nos enseñaron en el colegio: la de reducción...
+
+01:13:10.629 --> 01:13:13.319
+para esto existe reducción, qué sé yo,
+
+01:13:13.319 --> 01:13:14.510
+igualación.
+
+01:13:14.520 --> 01:13:17.270
+Hay un montón de formas que hay para eso
+
+01:13:17.280 --> 01:13:19.549
+sobre el sistema de ecuaciones. Pero con
+
+01:13:19.559 --> 01:13:21.829
+matrices, llegamos a entender que hay un
+
+01:13:21.839 --> 01:13:24.109
+proceso más allá y hay una nueva forma;
+
+01:14:24.119 --> 01:14:25.750
+ahorita vamos a desbloquear una nueva
+
+01:14:25.760 --> 01:14:28.390
+habilidad matemática, que es el poder
+
+01:14:28.400 --> 01:14:29.930
+reducir matrices. Vamos a ver qué quiere
+
+01:14:29.940 --> 01:14:32.250
+decir esto. Pero antes de empezar con
+
+01:14:32.260 --> 01:14:33.849
+esto, vamos a darle nombre a estas tres
+
+01:14:33.859 --> 01:14:36.109
+situaciones que teníamos aquí arriba.
+
+01:14:36.119 --> 01:14:38.569
+Cuando en la situación uno decíamos que
+
+01:14:38.579 --> 01:14:41.150
+tenía solución, ahora
+
+01:14:41.160 --> 01:14:44.339
+a esto se lo va a llamar consistente.
+
+01:14:44.339 --> 01:14:47.329
+Tiene apellido esto, sí, tiene apellido:
+
+01:14:47.339 --> 01:14:51.559
+es consistente determinado.
+
+01:14:51.559 --> 01:14:54.609
+La situación dos, ¿tiene solución? No, no
+
+01:14:54.619 --> 01:14:57.069
+tiene solución. Se llama inconsistente, y
+
+01:14:57.069 --> 01:14:58.569
+ese se queda ahí no más:
+
+01:14:58.569 --> 01:15:00.269
+inconsistente.
+
+01:15:00.269 --> 01:15:03.049
+La tercera situación también tiene nombre. Sí, ¿cómo se llama? ¿Tiene
+
+01:15:05.380 --> 01:15:07.130
+solución? Sí, sí tiene solución;
+
+01:15:07.140 --> 01:15:09.309
+entonces, su primer nombre va a ser
+
+01:15:09.319 --> 01:15:11.109
+consistente.
+
+01:15:11.119 --> 01:15:13.559
+Ah, pero tiene que diferenciarse de
+
+01:15:13.569 --> 01:15:15.559
+alguna forma del de la primera situación:
+
+01:15:15.559 --> 01:15:18.329
+indeterminado.
+
+01:15:18.339 --> 01:15:21.829
+¿Por qué se llama o se usa la palabra
+
+01:15:21.839 --> 01:15:24.230
+consistente o inconsistente? Porque
+
+01:15:24.240 --> 01:15:26.599
+recuerden que estamos en un sistema de
+
+01:15:26.609 --> 01:15:29.329
+ecuaciones. El sistema de ecuaciones lo
+
+01:15:29.339 --> 01:15:31.910
+que busca es preguntar, es hacer una
+
+01:15:31.920 --> 01:14:34.530
+pregunta a voz alta; es decir: "Estos... estas
+
+01:14:34.540 --> 01:14:37.370
+m ecuaciones, estas dos ecuaciones que
+
+01:14:37.380 --> 01:14:39.930
+yo tengo aquí dentro de mis llaves,
+
+01:14:39.940 --> 01:14:42.190
+de alguna forma asumo que tienen solución",
+
+01:14:42.200 --> 01:14:44.220
+es decir, que tienen esa intersección.
+
+01:14:44.230 --> 01:14:46.440
+Ahora, si yo digo eso, yo digo: "Estas dos
+
+01:14:46.450 --> 01:14:48.380
+ecuaciones que están aquí..." —voy a ponerle
+
+01:14:48.390 --> 01:14:49.760
+una flechita, porque estoy que señalo
+
+01:14:49.770 --> 01:14:51.179
+y no me pueden ver—, entonces, yo... yo digo:
+
+01:15:51.180 --> 01:15:53.339
+"Esas dos ecuaciones que están ahí tienen
+
+01:15:53.340 --> 01:15:55.370
+solución", si tienen solución y lo que yo
+
+01:15:55.380 --> 01:15:57.170
+digo es verdad, entonces lo que digo es
+
+01:15:57.180 --> 01:15:59.390
+consistente, porque es cierto; y no
+
+01:15:59.400 --> 01:15:00.930
+solamente es cierto, sino que es
+
+01:15:00.940 --> 01:15:02.910
+determinado, porque puedo determinarlas.
+
+01:15:02.920 --> 01:15:05.450
+¿Cuántas hay? Hay una única; es tener única
+
+01:15:05.460 --> 01:15:07.750
+solución. La situación dos es si lo que yo
+
+01:15:07.760 --> 01:15:10.059
+digo: "Estas dos ecuaciones ahí tienen
+
+01:15:10.069 --> 01:15:12.839
+solución", y es mentira, entonces yo estoy
+
+01:15:12.839 --> 01:15:14.399
+diciendo inconsistencias, por eso se
+
+01:15:14.409 --> 01:15:15.930
+conoce como inconsistente, porque no
+
+01:15:15.940 --> 01:15:18.109
+tiene solución. Y la tercera pues es
+
+01:15:18.119 --> 01:15:20.109
+consistente, sí, porque lo que yo digo es
+
+01:15:20.119 --> 01:15:22.309
+cierto, sí tiene solución, pero tiene
+
+01:15:22.319 --> 01:15:24.289
+muchísimas; entonces, no es del todo
+
+01:15:24.299 --> 01:15:26.569
+determinado, va indeterminado. Se acabó.
+
+01:15:26.579 --> 01:15:29.030
+El sentido de esto aquí es poder
+
+01:15:29.040 --> 01:15:31.549
+no estudiar en el sentido riguroso de
+
+01:15:31.559 --> 01:15:33.409
+que tú te metes a las cosas y pues te
+
+01:15:33.419 --> 01:15:35.349
+las aprendes, y lees y lees,
+
+01:15:35.359 --> 01:15:37.450
+y te metes mucha... mucha información
+
+01:15:37.460 --> 01:15:39.409
+para que en el examen tú recuerdes
+
+01:15:39.419 --> 01:15:41.099
+cosas. El chiste de esto, y la
+
+01:15:41.109 --> 01:15:43.079
+forma en la que se aprende mucho mejor
+
+01:15:43.079 --> 01:15:45.339
+matemáticas, es cuando tú entiendes las
+
+01:15:45.349 --> 01:15:47.380
+cosas, y realmente no necesitas estudiar
+
+01:15:47.390 --> 01:15:49.079
+tanto, necesitas practicar, que es muy
+
+01:15:49.089 --> 01:15:50.640
+diferente, porque
+
+01:15:50.640 --> 01:15:52.549
+hace más divertido esto de aquí.
+
+01:15:52.559 --> 01:15:54.409
+Ahora, listo, una vez que terminamos
+
+01:15:54.419 --> 01:15:56.099
+con la introducción y la presentación
+
+01:15:56.109 --> 01:15:57.450
+de este tema,
+
+01:15:57.460 --> 01:15:59.390
+vamos a hacer una separación aquí,
+
+01:15:59.400 --> 01:16:01.829
+y vamos a entrar con...
+
+01:16:01.839 --> 01:16:04.109
+con definiciones. Vamos a ir con otra
+
+01:16:04.119 --> 01:16:05.339
+definición:
+
+01:16:05.349 --> 01:16:10.049
+definiciones, vamos a poner aquí uno.
+
+01:16:10.059 --> 01:16:12.190
+Bueno, aquí, entonces vamos a estar con la
+
+01:16:12.200 --> 01:16:21.739
+definición dos.
+
+01:16:21.740 --> 01:16:23.700
+Listo, ¿qué nos dice esta definición dos?
+
+01:16:23.710 --> 01:16:25.750
+Esta definición nos dice: "Mira, supón...
+
+01:16:25.760 --> 01:16:28.390
+supongamos
+
+01:16:28.400 --> 01:16:30.470
+que existen dos sistemas de ecuaciones"
+
+01:16:30.480 --> 01:16:32.450
+—no lo vamos a escribir con la forma de
+
+01:16:32.460 --> 01:16:34.380
+ecuación porque es muy largo, vamos a
+
+01:16:34.390 --> 01:16:36.410
+escribirlo pues con la forma de matrices
+
+01:16:36.420 --> 01:16:38.220
+que nos facilita hasta la escritura—:
+
+01:16:38.230 --> 01:16:40.859
+A . X = B
+
+01:16:40.859 --> 01:16:42.539
+y
+
+01:16:42.539 --> 01:16:45.309
+C . X = D, dos sistemas de ecuaciones,
+
+01:16:45.319 --> 01:16:48.339
+el primero de ecuaciones lineales, listo,
+
+01:16:48.339 --> 01:16:51.359
+de m y n incógnitas, lo típico, ¿no?
+
+01:16:51.359 --> 01:16:53.079
+Se dice
+
+01:16:53.079 --> 01:16:55.430
+que estos sistemas...
+
+01:16:55.440 --> 01:16:57.920
+que estos sistemas
+
+01:16:57.930 --> 01:17:00.299
+son equivalentes
+
+01:17:00.309 --> 01:17:03.119
+son equivalentes,
+
+01:17:03.119 --> 01:17:04.730
+si
+
+01:17:04.740 --> 01:17:07.970
+la matriz A ampliada a la matriz B,
+
+01:17:07.980 --> 01:17:11.270
+y la matriz C
+
+01:17:11.280 --> 01:17:13.559
+ampliada con la matriz D son
+
+01:17:13.569 --> 01:17:21.739
+equivalentes por fila.
+
+01:17:21.740 --> 01:17:24.599
+¿Qué quiere decir que sean equivalentes
+
+01:17:24.609 --> 01:17:27.109
+por fila? Vamos a hacer aquí una
+
+01:17:27.119 --> 01:17:28.329
+acotación:
+
+01:17:28.339 --> 01:17:31.910
+equivalentes por fila.
+
+01:17:31.920 --> 01:17:34.500
+Quiere decir que es un concepto tan
+
+01:17:34.510 --> 01:17:36.559
+sencillo como decir que a la matriz
+
+01:17:36.569 --> 01:17:39.190
+A ampliada a la matriz B, le voy a aplicar
+
+01:17:39.200 --> 01:17:41.569
+una serie de operaciones elementales por
+
+01:17:41.579 --> 01:17:43.799
+fila —que era la típica: agarro fila uno, la sumo
+
+01:17:43.809 --> 01:17:46.079
+con la fila dos; la fila uno la multiplico con
+
+01:17:46.089 --> 01:17:48.339
+el número dos, la resto; así,
+
+01:17:48.349 --> 01:17:50.630
+operaciones elementales por fila—.
+
+01:17:50.640 --> 01:17:53.339
+Si yo aplico todo eso, obtengo la matriz
+
+01:17:53.349 --> 01:17:54.609
+CD.
+
+01:17:54.619 --> 01:17:56.559
+Entonces se dice que la matriz ampliada AB es equivalente
+
+01:17:56.569 --> 01:17:58.859
+por fila a la matriz ampliada CD.
+
+01:17:58.859 --> 01:18:00.299
+Equivalencia por fila. Otra... otra
+
+01:18:00.309 --> 01:18:01.319
+acotación:
+
+01:18:01.329 --> 01:18:04.130
+¿qué significa esto?,
+
+01:18:04.140 --> 01:18:05.539
+(A|B),
+
+01:18:05.540 --> 01:18:07.359
+(C|D).
+
+01:18:07.359 --> 01:18:09.119
+¿Qué... qué implica esto? ¿Qué chota significa eso? Sencillo. Esto no es
+
+01:18:11.099 --> 01:18:13.339
+más que la matriz A —vamos a dar un
+
+01:18:13.339 --> 01:18:14.399
+ejemplo,
+
+01:18:14.409 --> 01:18:15.539
+la identidad—:
+
+01:18:15.540 --> 01:18:19.460
+[ 1  0  0 ]
+[ 0  1  0 ]
+[ 0  0  1 ]
+
+01:18:19.460 --> 01:18:22.019
+Ampliada quiere decir que yo pongo una...
+
+01:18:22.019 --> 01:18:24.019
+una línea, una barra como para saber que
+
+01:18:24.019 --> 01:18:25.540
+hasta aquí es la matriz A,
+
+01:18:25.540 --> 01:18:28.199
+y todo lo que está acá es otra matriz,
+
+01:18:28.200 --> 01:18:32.410
+que, qué sé yo: 
+[ 2  1  3 ]
+[ 4  5  6 ]
+[ 7  8  0 ]
+
+01:18:32.410 --> 01:18:35.099
+Y esto es
+
+01:18:35.099 --> 01:18:37.319
+B. Esto significa la barra. Pues, (C|D) es lo
+
+01:18:37.319 --> 01:18:39.119
+mismo, quiere decir que tengo: 
+[ 1  2  3 ]
+[ 4  5  6 ]
+[ 7  8  9 ]
+
+01:18:39.119 --> 01:18:41.569
+ampliada a otra matriz,
+
+01:18:41.579 --> 01:18:45.059
+[ 1  0  1 ]
+[ 2  3  5 ]
+[ 0  0  1 ]
+
+01:18:45.059 --> 01:18:46.559
+Todo esto es C
+
+01:18:46.559 --> 01:18:48.339
+y todo esto es D. Ahora, ¿por qué uno hace
+
+01:18:48.349 --> 01:18:50.089
+esto? ¿Por qué se toma la molestia de
+
+01:18:50.099 --> 01:18:51.540
+ampliarlo? Sencillo. Porque una matriz
+
+01:18:51.540 --> 01:18:53.339
+ampliada, yo digo que todo esto es una
+
+01:18:53.339 --> 01:18:54.609
+sola matriz.
+
+01:18:54.619 --> 01:18:56.559
+Si yo digo que todo eso es una sola
+
+01:18:56.569 --> 01:18:57.770
+matriz,
+
+01:18:57.770 --> 01:18:59.389
+entonces las operaciones elementales por
+
+01:18:59.399 --> 01:19:01.039
+fila que yo haga
+
+01:19:01.049 --> 01:19:03.319
+afectan a todo.
+
+01:19:03.319 --> 01:19:05.039
+Entonces, qué sé yo, si yo multiplico toda la
+
+01:19:05.049 --> 01:19:07.119
+fila uno por dos, afecta a todo esto,
+
+01:19:07.119 --> 01:19:09.339
+a todo esto. Es un solo bloque,
+
+01:19:09.349 --> 01:19:11.219
+la estoy ampliando, la estoy agarrando y
+
+01:19:11.219 --> 01:19:12.710
+la trabajo como si fuera una sola, pero
+
+01:19:12.720 --> 01:19:13.910
+muy grande.
+
+01:13:13.920 --> 01:13:15.930
+Es todo el concepto. Entonces, ¿qué implica
+
+01:13:15.940 --> 01:13:17.920
+esto para nuestra definición en el
+
+01:13:17.930 --> 01:13:19.450
+sistema de ecuaciones?
+
+01:13:19.460 --> 01:13:21.720
+Sencillo. Yo recuerdo que la matriz ampliada (A|B)
+
+01:13:21.730 --> 01:13:23.750
+es la matriz de coeficientes, la estoy
+
+01:13:23.760 --> 01:13:25.549
+ampliando a la matriz de términos
+
+01:13:25.559 --> 01:13:27.119
+independientes que ya la habíamos
+
+01:13:27.119 --> 01:13:28.319
+definido aquí,
+
+01:13:28.319 --> 01:13:29.579
+ya la habíamos definido aquí. Entonces, es
+
+01:13:29.579 --> 01:13:31.219
+simplemente eso: agarro la matriz de
+
+01:13:31.219 --> 01:13:33.409
+coeficientes y la extiendo... o la
+
+01:13:33.419 --> 01:13:35.039
+amplío con la matriz de términos
+
+01:13:35.049 --> 01:13:35.940
+independientes,
+
+01:13:35.940 --> 01:13:38.219
+y tengo que revisar eso, tengo que
+
+01:13:38.220 --> 01:13:39.659
+revisar si esas dos cosas son
+
+01:13:39.660 --> 01:13:42.119
+equivalentes por fila. Ahora, ¿por qué me
+
+01:13:42.119 --> 01:14:42.250
+explicas esto de que sean equivalentes
+
+01:14:42.260 --> 01:14:45.359
+por fila? ¿Qué me importa?
+
+01:13:45.359 --> 01:13:47.380
+Pues va a importar algo, va a importar
+
+01:13:47.390 --> 01:13:48.839
+algo, ya vamos a ver por qué.
+
+01:13:48.840 --> 01:13:50.750
+Vamos a irnos ahora por una definición
+
+01:13:50.760 --> 01:13:53.079
+tres, que va a ser importante...
+
+01:13:53.079 --> 01:13:54.420
+bueno no, esto ya no es una definición,
+
+01:13:54.420 --> 01:13:56.220
+esto es un teorema,
+
+01:13:56.230 --> 01:13:58.339
+así es, es un teorema. Ya empezamos con teoremas,
+
+01:13:58.339 --> 01:13:59.639
+primera clase del
+
+01:13:59.639 --> 01:20:01.370
+curso y ya empezamos... lo nombraremos
+
+01:20:01.370 --> 01:20:02.380
+así:
+
+01:20:02.380 --> 01:20:03.960
+teorema 1.
+
+01:20:03.960 --> 01:20:05.819
+¿Qué me dice este teorema, este resultado
+
+01:20:05.820 --> 01:20:06.900
+tan útil?
+
+01:20:06.900 --> 01:20:08.819
+Me dice: si dos sistemas de ecuaciones
+
+01:20:08.820 --> 01:20:10.439
+lineales
+
+01:20:10.440 --> 01:20:12.759
+son equivalentes,
+
+01:20:12.760 --> 01:20:15.549
+son equivalentes,
+
+01:20:15.559 --> 01:20:17.339
+entonces... entonces —esta es la parte
+
+01:20:17.339 --> 01:20:18.420
+que nos importa—, entonces
+
+01:20:18.420 --> 01:20:23.039
+tienen el mismo conjunto solución,
+
+01:20:23.039 --> 01:20:25.500
+el mismo conjunto solución. Y esta es
+
+01:20:25.510 --> 01:20:27.450
+la razón por la que recordamos o
+
+01:20:27.460 --> 01:20:29.450
+enunciamos esta definición dos, porque
+
+01:20:29.460 --> 01:20:31.950
+nos va a facilitar un montón la vida, un
+
+01:20:31.959 --> 01:20:34.020
+montón, ton, ton la vida.
+
+01:20:34.020 --> 01:20:35.339
+Ya vamos a ver por qué, ya vamos a ver
+
+01:20:35.340 --> 01:20:36.500
+por qué.
+
+01:20:36.500 --> 01:20:37.559
+Vamos a ver ahorita un ejemplo.
+
+01:20:37.559 --> 01:20:38.940
+Vamos con ejemplo,
+
+01:20:38.940 --> 01:20:41.119
+para que vayamos
+
+01:20:41.119 --> 01:20:43.079
+viendo que todo lo que estamos
+
+01:20:43.079 --> 01:20:44.819
+enunciando aquí es cierto, y no solo es
+
+01:20:44.820 --> 01:20:46.619
+cierto, sino que es útil, y no sea un
+
+01:20:46.619 --> 01:20:48.359
+montón de letras o palabras vacías
+
+01:20:48.359 --> 01:20:50.099
+que les estoy hablando porque estoy
+
+01:20:50.100 --> 01:20:51.140
+loquito.
+
+01:20:51.140 --> 01:20:52.319
+Vamos a ver este:
+
+01:20:52.319 --> 01:20:54.000
+vamos a pensar, okay.
+
+01:20:54.000 --> 01:20:54.900
+2x + y - z = 1
+
+01:20:54.900 --> 01:20:56.659
+mi primera ecuación. Mi segunda ecuación me dice:
+
+01:20:56.659 --> 01:20:58.200
+2x - y + 5z = 5
+
+01:20:58.200 --> 01:20:59.940
+y la tercera me dice que
+
+01:20:59.940 --> 01:21:02.119
+-y + 3z = 2; y pues, todo
+
+01:21:02.119 --> 01:21:04.500
+esto es un sistema de ecuaciones. Genial.
+
+01:21:04.500 --> 01:21:05.940
+Entonces,
+
+01:21:05.940 --> 01:21:07.799
+aplicando esto que tenemos aquí, esto que
+
+01:21:07.800 --> 01:21:09.600
+aprendimos aquí, vamos a formar primero
+
+01:21:09.600 --> 01:21:11.400
+nuestro (A|B), vamos a formar nuestra
+
+01:21:11.400 --> 01:21:12.720
+matriz ampliada.
+
+01:21:12.720 --> 01:21:14.400
+Entonces, la matriz ampliada,
+
+01:21:14.400 --> 01:21:16.119
+recordemos que es mi matriz de
+
+01:21:16.119 --> 01:21:17.339
+coeficientes:
+
+01:21:17.339 --> 01:21:18.359
+es 2,
+
+01:21:18.359 --> 01:21:20.039
+1, -1,
+
+01:21:20.039 --> 01:21:21.800
+2, -1, 5,
+
+01:21:21.800 --> 01:21:22.799
+y 0,
+
+01:21:22.799 --> 01:21:24.480
+-1, 3.
+
+01:21:24.480 --> 01:21:26.119
+Y esto lo voy a ampliar —claro,
+
+01:21:26.119 --> 01:21:27.740
+es lo que me está diciendo aquí, mi
+
+01:21:27.740 --> 01:21:29.339
+matriz ampliada hay que a la de términos
+
+01:21:29.339 --> 01:21:30.839
+independientes, o sea, lo que está después
+
+01:21:30.839 --> 01:21:32.280
+del igual, básicamente lo que no tiene
+
+01:21:32.280 --> 01:21:33.320
+incógnita—:
+
+01:21:33.320 --> 01:21:35.339
+1, 5, 2.
+
+01:21:35.339 --> 01:21:37.260
+Entonces, ya tengo esta forma matricial,
+
+01:21:37.260 --> 01:21:38.859
+ya la tengo, ya puedo aplicar lo que
+
+01:21:38.859 --> 01:21:40.319
+aprendimos más arriba.
+
+01:21:40.319 --> 01:21:41.899
+Vamos a encontrar una matriz que sea
+
+01:21:41.900 --> 01:21:43.619
+equivalente por fila... que sean
+
+01:21:43.619 --> 01:21:45.359
+equivalentes a esta matriz (A|B), es decir,
+
+01:21:45.359 --> 01:21:47.339
+tenemos que encontrar nuestra matriz (C|D),
+
+01:21:47.339 --> 01:21:48.859
+no la conozco, vamos a conocerla. ¿Qué
+
+01:21:48.859 --> 01:21:50.099
+tengo que hacer? Tengo que reducirlas por
+
+01:21:50.099 --> 01:21:51.559
+filas, claro, para encontrar una que sea
+
+01:21:51.559 --> 01:21:53.099
+equivalente, vamos a irla reduciendo.
+
+01:21:53.099 --> 01:21:55.020
+Es: 2, 1, -1, 1;
+
+01:21:55.020 --> 01:21:56.400
+vamos a hacerlo aquí abajo.
+
+01:21:56.400 --> 01:22:00.000
+Vamos a borrar esto para que no nos ocupe tanto
+
+01:22:00.000 --> 01:22:04.140
+espacio. Aquí voy a hacer fácilmente fila
+
+01:22:04.140 --> 01:22:05.700
+uno menos fila dos, porque este es mi
+
+01:22:05.700 --> 01:22:07.119
+pivote, tengo que hacer cero todo lo que
+
+01:22:07.119 --> 01:22:07.780
+está debajo;
+
+01:22:07.780 --> 01:22:09.140
+y pues la tercera no me importa, porque
+
+01:22:09.140 --> 01:22:10.079
+ya está hecho cero.
+
+01:22:10.079 --> 01:22:11.400
+Entonces, 2 - 2 = 0;
+
+01:22:11.400 --> 01:22:13.260
+1 - (-1), esto es dos;
+
+01:22:13.260 --> 01:22:14.000
+y
+
+01:22:14.000 --> 01:22:17.299
+-1 - 5, esto es menos 6;
+
+01:22:17.299 --> 01:22:19.460
+1 - 5 = -4. Y esta
+
+01:22:19.460 --> 01:22:21.420
+queda exactamente igual: fila tres y dos.
+
+01:22:21.420 --> 01:22:22.760
+Y acá: 0 + 2 . 0 = 0, 2 - 2, eso también es
+
+01:22:22.760 --> 01:22:23.880
+0; esto es menos 6 más
+
+01:22:23.880 --> 01:22:25.880
+6... menos seis más seis también es 0, y menos
+
+01:22:25.880 --> 01:22:27.319
+cuatro... menos cuatro más cuatro
+
+01:22:27.319 --> 01:22:28.800
+también es cero. ¡Genial!
+
+01:22:28.800 --> 01:22:29.819
+Entonces, recordemos que tenemos esta
+
+01:22:29.819 --> 01:22:30.780
+matriz ampliada aquí.
+
+01:22:30.780 --> 01:22:33.339
+Mi barrita usualmente no la pongo yo
+
+01:22:33.339 --> 01:22:34.500
+porque entiendo que esta es la matriz
+
+01:22:34.500 --> 01:22:35.940
+ampliada, la planteo así y luego sigo,
+
+01:22:35.940 --> 01:22:37.299
+porque una vez escribiendo esa barrita,
+
+01:22:37.299 --> 01:22:38.559
+la verdad me da pereza; entonces, si no la
+
+01:22:38.559 --> 01:22:39.720
+escribo pues es por eso realmente. Ahora,
+
+01:22:39.720 --> 01:22:42.119
+¿puedo seguir reduciendo esto? Tal vez... tal
+
+01:22:42.119 --> 01:22:43.339
+vez puedo andar dividiendo esto para dos,
+
+01:22:43.339 --> 01:22:44.240
+para que quede...
+
+01:22:44.240 --> 01:22:45.339
+para que queden los pivotes en uno,
+
+01:22:45.339 --> 01:22:46.440
+pero realmente si la dejamos ahí está
+
+01:22:46.440 --> 01:22:48.399
+perfecto, y esto es lo que quiero que
+
+01:22:48.399 --> 01:22:49.440
+vean, ¿por qué? Esto de aquí es
+
+01:22:49.440 --> 01:22:51.100
+la matriz CD.
+
+01:22:51.100 --> 01:22:52.299
+¿Por qué? Porque es lo que habíamos dicho
+
+01:22:52.299 --> 01:22:53.600
+antes: son equivalentes por fila. Es decir,
+
+01:22:53.600 --> 01:22:55.299
+que si yo a la matriz ampliada AB le
+
+01:22:55.299 --> 01:22:56.760
+aplico operaciones por fila, operaciones
+
+01:22:56.760 --> 01:22:58.100
+elementales, llego a la matriz CD. Sí, ya
+
+01:22:58.100 --> 01:22:59.400
+lo vimos, este es el proceso. Si se puede
+
+01:22:59.400 --> 01:23:00.659
+reducir y llegar a esta matriz, entonces,
+
+01:23:00.659 --> 01:23:01.920
+¿qué sabemos? Sabemos que hay...
+
+01:23:01.920 --> 01:23:03.299
+para escribirlo por aquí,
+
+01:23:03.299 --> 01:23:05.099
+la matriz ampliada AB es equivalente
+
+01:23:05.099 --> 01:23:05.980
+a la matriz
+
+01:23:05.980 --> 01:23:07.359
+CD. Listo. Entonces, ya sabemos que es
+
+01:23:07.359 --> 01:23:08.859
+equivalente. Podemos aplicar este teorema
+
+01:23:08.859 --> 01:23:10.119
+que está aquí, dice: "Mira, si dos sistemas
+
+01:23:10.119 --> 01:23:11.720
+de ecuaciones lineales son equivalentes,
+
+01:23:11.720 --> 01:23:12.720
+si se cumple el antecedente, entonces
+
+01:23:12.720 --> 01:23:13.839
+tienen el mismo conjunto solución".
+
+01:23:13.839 --> 01:23:15.179
+Exactamente el mismo. Ahora, ¿por qué me
+
+01:23:15.179 --> 01:23:16.440
+importa esto? Porque esto está mucho más
+
+01:23:16.440 --> 01:23:17.880
+sencillo de despejar, si te das cuenta.
+
+01:23:17.880 --> 01:23:19.140
+Eso está muy sencillo, ¿por qué?, porque me
+
+01:23:19.140 --> 01:23:20.919
+elimino de plano no solamente una
+
+01:23:20.919 --> 01:23:22.200
+incógnita, aquí ya no está, ya no me
+
+01:23:22.200 --> 01:23:23.760
+importa, sino que me eliminó toda una
+
+01:23:23.760 --> 01:23:24.500
+fila.
+
+01:23:24.500 --> 01:23:25.740
+No sé, esto está mucho más sencillo de
+
+01:23:25.740 --> 01:23:27.180
+despejar que la primera, y ese es el
+
+01:23:27.180 --> 01:23:28.619
+punto. Porque si ambas tienen el mismo
+
+01:23:28.619 --> 01:23:29.520
+sistema solución, y aquí me tengo que
+
+01:23:29.520 --> 01:23:31.020
+sacar la madre despejando o... o reduciendo
+
+01:23:31.020 --> 01:23:32.400
+o reemplazando, igualando, cualquier forma
+
+01:23:32.400 --> 01:23:33.420
+que hay antes sobre el sistema de
+
+01:23:33.420 --> 01:23:34.619
+ecuaciones, prefiero simplemente despejar
+
+01:23:34.619 --> 01:23:35.520
+acá, prefiero simplemente despejar acá.
+
+01:23:35.520 --> 01:23:36.780
+Porque si tienes el mismo sistema de
+
+01:23:36.780 --> 01:23:37.980
+solución, y me da lo mismo hacerlo aquí
+
+01:23:37.980 --> 01:23:39.119
+que hacerlo aquí, yo prefiero mil veces
+
+01:23:39.119 --> 01:23:40.119
+hacerlo en la que está más fácil.
+
+01:23:40.119 --> 01:23:41.339
+Eso es todo, ese es el sentido de reducir,
+
+01:23:41.339 --> 01:23:42.539
+y es la razón por la cual la llegamos a
+
+01:23:42.539 --> 01:23:43.740
+hacer. Ahora, hay una forma... hay dos formas
+
+01:23:43.740 --> 01:23:44.640
+de reducir esto.
+
+01:23:44.640 --> 01:23:45.900
+Esta es la forma escalonada, esto estamos
+
+01:23:45.900 --> 01:23:46.710
+escalonando;
+
+01:23:46.710 --> 01:23:47.460
+aquí está escalonada.
+
+01:23:47.460 --> 01:23:49.079
+And hay la escalonada reducida. ¿Cómo es la
+
+01:23:49.079 --> 01:23:49.919
+escalonada reducida? Es realmente seguir
+
+01:23:49.919 --> 01:23:51.119
+reduciendo esto para que me quede la
+
+01:23:51.119 --> 01:23:53.280
+forma de la identidad, ampliada aquí a,
+
+01:23:53.280 --> 01:23:54.120
+qué sé yo, a, b, c.
+
+01:23:54.120 --> 01:23:55.380
+Porque si bien aquí tenemos que
+
+01:23:55.380 --> 01:23:56.639
+hacer un esfuerzo extra por despejar, por
+
+01:23:56.639 --> 01:23:57.659
+ejemplo, aquí tendríamos que hacer:
+
+01:23:57.659 --> 01:24:00.059
+2y - 6z = -4,
+
+01:24:00.059 --> 01:24:01.200
+tenemos que ir despejando y hacer un
+
+01:24:01.200 --> 01:24:01.800
+pequeño esfuerzo extra.
+
+01:24:01.800 --> 01:24:03.059
+Aquí es básicamente al ojo, decimos que x
+
+01:24:03.059 --> 01:24:04.319
+es igual a a, que y es igual a b, y que
+
+01:24:04.319 --> 01:24:05.579
+z es igual a
+
+01:24:05.579 --> 01:24:06.440
+c.
+
+01:24:06.440 --> 01:24:07.619
+Aquí es automático. Pero, realmente, con que
+
+01:24:07.619 --> 01:24:08.579
+la escalones, está perfecto. Si quieres
+
+01:24:08.579 --> 01:24:09.659
+seguir y escalonarla hasta el final, pues
+
+01:24:09.659 --> 01:24:10.439
+también puedes hacerlo, está muy bien.
+
+01:24:10.439 --> 01:24:11.539
+Pero ambas te van a dar... te van a
+
+01:24:11.539 --> 01:24:12.659
+terminar dando lo mismo realmente, ahí es
+
+01:24:12.659 --> 01:24:13.619
+cuestión de gustos, cuestión de cómo se
+
+01:24:13.619 --> 01:24:14.640
+acostumbre, y también cuestión de tiempo,
+
+01:24:14.640 --> 01:24:15.359
+realmente.
+
+01:24:15.359 --> 01:24:17.119
+Entonces, ya por fin entendemos no solo
+
+01:24:17.119 --> 01:24:18.299
+por qué reducimos, cuál es el sentido
+
+01:24:18.299 --> 01:24:19.440
+de reducir, sino que también acabamos de
+
+01:24:19.440 --> 01:24:20.640
+desbloquear una nueva forma de...
+
+01:24:20.640 --> 01:24:21.899
+de... de...
+
+01:24:21.899 --> 01:24:23.099
+resolver, o de encontrar soluciones para
+
+01:24:23.099 --> 01:24:24.109
+sistemas de ecuaciones lineales.
+
+01:24:24.109 --> 01:24:25.139
+Ahora, vamos a ver ahorita, que ya sabemos
+
+01:24:25.139 --> 01:24:26.339
+reducir, sabemos cuál es la forma de
+
+01:24:26.339 --> 01:24:27.659
+estas reducciones, vamos a ver otro tema.
+
+01:24:27.659 --> 01:24:29.039
+Vamos a ver un teorema nuevo; la primera
+
+01:24:29.039 --> 01:24:30.119
+vez, una definición
+
+01:24:30.119 --> 01:24:31.559
+que haga... que tenga sentido, que cobre
+
+01:24:31.559 --> 01:24:32.760
+sentido este problema.
+
+01:24:32.760 --> 01:24:33.720
+Definición:
+
+01:24:33.720 --> 01:24:35.099
+¿qué me dice esta definición? Esta
+
+01:24:35.099 --> 01:24:36.599
+definición, vamos a ver, vamos a tratar
+
+01:24:36.599 --> 01:24:37.679
+del rango.
+
+01:24:37.679 --> 01:24:38.859
+Entonces,
+
+01:24:38.859 --> 01:24:40.319
+para esta definición, vamos a
+
+01:24:40.319 --> 01:24:42.199
+caracterizar a una matriz A; o sea, a una
+
+01:24:42.200 --> 01:24:43.619
+matriz de m x n, una matriz cualquiera,
+
+01:24:43.619 --> 01:24:44.420
+no me importa;
+
+01:24:44.420 --> 01:24:44.750
+y
+
+01:24:44.750 --> 01:24:46.119
+una matriz C que sea escalonada
+
+01:24:46.119 --> 01:24:48.299
+equivalente por fila a la matriz A —es eso,
+
+01:24:48.299 --> 01:24:49.440
+es equivalente a A—, perfecto.
+
+01:24:49.440 --> 01:24:51.119
+Entonces, se define el rango; para esto, se
+
+01:24:51.119 --> 01:24:51.960
+dice
+
+01:24:51.960 --> 01:24:53.339
+que el rango
+
+01:24:53.339 --> 01:24:54.660
+de A
+
+01:24:54.660 --> 01:24:55.740
+es el número
+
+01:24:55.740 --> 01:24:57.179
+de filas
+
+01:24:57.179 --> 01:24:58.260
+no nulas de C,
+
+01:24:58.260 --> 01:24:58.859
+seco.
+
+01:24:58.859 --> 01:25:00.260
+El rango se denota por
+
+01:25:00.260 --> 01:25:01.740
+Rango(A) = n
+
+01:25:01.740 --> 01:25:02.339
+o
+
+01:25:02.339 --> 01:25:03.420
+r(A) = n.
+
+01:25:03.420 --> 01:25:04.440
+Está... yo prefiero hacerlo así, la verdad,
+
+01:25:04.440 --> 01:25:05.280
+más rápido;
+
+01:25:05.280 --> 01:25:06.619
+pero con esta definición basta. Ahora,
+
+01:25:06.619 --> 01:25:08.039
+según este ejemplo, o esta
+
+01:25:08.039 --> 01:25:09.359
+caracterización, ¿cuál es el rango de esta
+
+01:25:09.359 --> 01:25:11.099
+matriz AB que tenemos aquí? Un segundo.
+
+01:25:11.099 --> 01:25:12.400
+Listo. Ahora, ¿cuál es el rango de esta
+
+01:25:12.400 --> 01:25:13.799
+matriz AB? Recordemos que el rango se
+
+01:25:13.799 --> 01:25:15.339
+define como el número de filas no nulas
+
+01:25:15.339 --> 01:25:17.339
+que hay al escalonar esa matriz. Entonces,
+
+01:25:17.339 --> 01:25:18.359
+vamos a quitar estas equis que había puesto aquí.
+
+01:25:19.080 --> 01:25:20.460
+No se puede hacerlo sin borrar todo.
+
+01:25:20.460 --> 01:25:21.840
+¡Genial!
+
+01:25:21.840 --> 01:25:22.560
+Ahora,
+
+01:25:22.560 --> 01:25:24.079
+¿cuántas filas no nulas tiene esta matriz
+
+01:25:24.079 --> 01:25:25.200
+CD? Vamos a ver. Tiene una, tiene dos. ¡Ah!,
+
+01:25:25.200 --> 01:25:26.339
+aquí no tiene, esta se hizo totalmente
+
+01:25:26.339 --> 01:25:27.319
+nula. Entonces, ¿cuál es el rango, entonces,
+
+01:25:27.319 --> 01:25:28.440
+de AB? Vamos a escribirlo,
+
+01:25:28.440 --> 01:25:29.819
+el rango
+
+01:25:29.819 --> 01:25:31.020
+de AB...
+
+01:25:31.020 --> 01:25:31.819
+A ver, estos,
+
+01:25:31.819 --> 01:25:33.119
+ya en función a esta definición, ya
+
+01:25:33.119 --> 01:25:34.619
+podemos saber cuál es el rango de una
+
+01:25:34.619 --> 01:25:35.819
+matriz, perfecto. Es algo que no sabíamos
+
+01:25:35.819 --> 01:25:36.840
+también, que ahora estamos aprendiendo.
+
+01:25:36.840 --> 01:25:37.980
+Ahora sí, con esta definición, el
+
+01:25:37.980 --> 01:25:39.540
+siguiente teorema va a tener todo el
+
+01:25:39.540 --> 01:25:40.560
+sentido del mundo.
+
+01:25:40.560 --> 01:25:41.720
+Teorema:
+
+01:25:41.720 --> 01:25:42.839
+¿qué me dice este teorema? Este teorema me
+
+01:25:42.839 --> 01:25:44.220
+cuenta, me explica
+
+01:25:44.220 --> 01:25:45.600
+que sea
+
+01:25:45.600 --> 01:25:47.359
+A una matriz cualquiera de orden m x n,
+
+01:25:47.359 --> 01:25:48.839
+y considerando
+
+01:25:48.839 --> 01:25:50.640
+que A . X = B
+
+01:25:50.640 --> 01:25:52.200
+un sistema de ecuaciones lineales,
+
+01:25:52.200 --> 01:25:53.520
+lo típico de mis ecuaciones y n
+
+01:25:53.520 --> 01:25:54.420
+incógnitas.
+
+01:25:54.420 --> 01:25:55.740
+Entonces,
+
+01:25:55.740 --> 01:25:56.880
+uno...
+
+01:25:56.880 --> 01:25:58.080
+me explica varias cosas, miren. Bueno, el
+
+01:25:58.080 --> 01:25:59.339
+sistema dado...
+
+01:25:59.339 --> 01:26:00.180
+Bueno, vamos a escribirlo como
+
+01:26:00.180 --> 01:26:01.380
+implicaciones. Si el rango
+
+01:26:01.380 --> 01:26:02.820
+de A
+
+01:26:02.820 --> 01:26:04.359
+es igual al rango
+
+01:26:04.359 --> 01:26:06.000
+de la matriz ampliada AB,
+
+01:26:06.000 --> 01:26:07.380
+then...
+
+01:26:07.380 --> 01:26:08.520
+entonces
+
+01:26:08.520 --> 01:26:09.960
+esto es consistente,
+
+01:26:09.960 --> 01:26:11.339
+el sistema de ecuaciones lineales es
+
+01:26:11.339 --> 01:26:12.300
+consistente.
+
+01:26:12.300 --> 01:26:14.039
+Vamos a ver si... si estamos... ya van a ver, si
+
+01:26:14.039 --> 01:26:15.540
+después le agregamos más cosas. 1.1:
+
+01:26:15.540 --> 01:26:16.740
+Ah, bueno, vamos a ponerlo como 1.1.
+
+01:26:16.740 --> 01:26:18.000
+¿Qué más me cuenta? Me dice:
+
+01:26:18.000 --> 01:26:19.500
+si... solamente si
+
+01:26:19.500 --> 01:26:20.520
+n
+
+01:26:20.520 --> 01:26:21.900
+es igual al rango
+
+01:26:21.900 --> 01:26:23.100
+de AB —bueno el rango de
+
+01:26:23.100 --> 01:26:24.420
+AB—, entonces esto
+
+01:26:24.420 --> 01:26:25.920
+es consistente determinado.
+
+01:26:25.920 --> 01:26:27.420
+¿Qué más me cuenta esto?
+
+01:26:27.420 --> 01:26:28.440
+Me dice que
+
+01:26:28.440 --> 01:26:29.520
+si el rango
+
+01:26:29.520 --> 01:26:30.900
+de AB
+
+01:26:30.900 --> 01:26:31.980
+es menor a
+
+01:26:31.980 --> 01:26:32.400
+n,
+
+01:26:32.400 --> 01:26:33.900
+entonces es consistente también,
+
+01:26:33.900 --> 01:26:35.340
+pero indeterminado.
+
+01:26:35.340 --> 01:26:36.420
+Indeterminado.
+
+01:26:36.420 --> 01:26:37.620
+Ahora, lo típico, ¿qué es n?
+
+01:26:37.620 --> 01:26:39.120
+¿De dónde me sacas n, genio? De aquí,
+
+01:26:39.120 --> 01:26:40.440
+recordemos también que X es el número o
+
+01:26:40.440 --> 01:26:41.820
+es la matriz de incógnitas
+
+01:26:41.820 --> 01:26:42.900
+de orden... tiene
+
+01:26:42.900 --> 01:26:43.920
+n filas y tiene una columna, es de orden
+
+01:26:43.920 --> 01:26:45.300
+n x 1. Entonces, básicamente, el número
+
+01:26:45.300 --> 01:26:46.620
+de incógnitas, n es el número de incógnitas.
+
+01:26:46.620 --> 01:26:48.000
+¿Qué más... qué más tenemos aquí? Dos:
+
+01:26:48.000 --> 01:26:49.440
+si el rango de A
+
+01:26:49.440 --> 01:26:50.820
+es menor
+
+01:26:50.820 --> 01:26:52.200
+al rango de AB,
+
+01:26:52.200 --> 01:26:53.340
+entonces esto es inconsistente.
+
+01:26:53.340 --> 01:26:54.660
+Así es, es inconsistente. Este es el
+
+01:26:54.660 --> 01:26:56.100
+teorema nuevo que estamos viendo y que
+
+01:26:56.100 --> 01:26:57.420
+vamos a ver que es cierto también, y que
+
+01:26:57.420 --> 01:26:58.800
+nos va a ayudar a poder saber qué
+
+01:26:58.800 --> 01:27:00.120
+esperarnos de un sistema antes de
+
+01:27:00.120 --> 01:27:01.380
+empezar a determinar solución. Solamente
+
+01:27:01.380 --> 01:27:02.700
+reduciéndolo ya podemos ir viendo qué
+
+01:27:02.700 --> 01:27:03.960
+podemos esperarnos gracias a este
+
+01:27:03.960 --> 01:27:04.620
+teorema.
+
+01:27:04.620 --> 01:27:05.940
+Vamos a ver el ejemplo que tenemos aquí,
+
+01:27:05.940 --> 01:27:06.600
+aquí arriba.
+
+01:27:06.600 --> 01:27:08.100
+A ver cuál es lo que tienen, cuál es el
+
+01:27:08.100 --> 01:27:08.820
+rango.
+
+01:27:08.820 --> 01:27:10.500
+Vamos a... sí, vamos a ver ese ejemplo, pero
+
+01:27:10.500 --> 01:27:11.400
+vamos a jalarme esto aquí porque...
+
+01:27:11.400 --> 01:27:13.500
+seleccionar rectángulo
+
+01:27:13.500 --> 01:27:14.880
+y vamos a ponerlo bonito.
+
+01:27:14.880 --> 01:27:16.140
+Vamos a poder...
+
+01:27:16.140 --> 01:27:17.340
+tres, vas a poner otra situación más aquí,
+
+01:27:17.340 --> 01:27:18.360
+se hacen muy parecidas.
+
+01:27:21.420 --> 01:27:22.560
+vamos a quitar esto y esto,
+
+01:27:22.560 --> 01:27:24.060
+y vamos a cambiar aquí por un número
+
+01:27:24.060 --> 01:27:25.200
+cualquiera, que sería siete.
+
+01:27:25.200 --> 01:27:26.580
+Bien, esto es mi matriz ampliada AB,
+
+01:27:26.580 --> 01:27:27.780
+bueno técnicamente CD.
+
+01:27:27.780 --> 01:27:29.400
+Y esta es otra matriz ampliada, qué sé yo,
+
+01:27:29.400 --> 01:27:30.240
+EF.
+
+01:27:32.760 --> 01:27:34.380
+Listo, en esta situación,
+
+01:27:34.380 --> 01:27:35.280
+esto es A, claro, esto termina siendo el
+
+01:27:35.280 --> 01:27:36.540
+número...
+
+01:27:36.540 --> 01:27:37.800
+estos... A, y esto es, a ver...
+
+01:27:37.800 --> 01:27:39.180
+¿Por qué hago esas aclaraciones? Para
+
+01:27:39.180 --> 01:27:39.900
+poder identificar, ir viendo este, por
+
+01:27:39.180 --> 01:27:39.900
+ejemplo,
+
+01:27:39.900 --> 01:27:41.220
+el punto uno y el punto dos, que me
+
+01:27:41.220 --> 01:27:42.480
+hablaba el rango de A y el rango de
+
+01:27:42.480 --> 01:27:43.200
+AB por separado.
+
+01:27:43.200 --> 01:27:44.880
+Aquí a priori parece ser igual en la
+
+01:27:44.880 --> 01:27:45.600
+primera situación.
+
+01:27:45.600 --> 01:27:46.920
+¿Por qué? Porque el rango de A, ¿cuánto es?
+
+01:27:46.920 --> 01:27:48.360
+El número es... es el número de filas no nulas
+
+01:27:48.360 --> 01:27:49.740
+que tenemos al reducir A. ¿Y cómo es la
+
+01:27:49.740 --> 01:27:51.120
+reducción de A? Es esta cosa que está
+
+01:27:51.120 --> 01:27:52.260
+en celeste.
+
+01:27:52.260 --> 01:27:53.520
+Esa es la reducción, ¿verdad? Y la de B... y
+
+01:27:53.520 --> 01:27:54.840
+la de AB es la que está en morado,
+
+01:27:54.840 --> 01:27:56.100
+es todo eso, básicamente.
+
+01:27:56.100 --> 01:27:57.300
+Vamos a hacer lo mismo acá:
+
+01:27:57.300 --> 01:27:58.560
+lo del morado es EF
+
+01:27:58.560 --> 01:27:59.640
+y lo de... y este es...
+
+01:28:10.560 --> 01:28:12.120
+esto.
+
+01:28:12.120 --> 01:28:13.800
+Sí, ¿cuál es el rango de A en este caso?
+
+01:28:13.800 --> 01:28:15.120
+El rango de A, el número de filas no
+
+01:28:15.120 --> 01:28:16.200
+nulas que está en la cajita celeste, es
+
+01:28:16.200 --> 01:28:17.400
+decir, uno y dos, es 2.
+
+01:28:17.400 --> 01:28:18.900
+Vamos a poner bien esto.
+
+01:28:18.900 --> 01:28:20.100
+¿Cuánto es el rango de AB?
+
+01:28:20.100 --> 01:28:21.420
+Es el número de filas no nulas de todo
+
+01:28:21.420 --> 01:28:22.680
+el conjunto de la matriz ampliada,
+
+01:28:22.680 --> 01:28:23.400
+entonces este también... ¡ah, mira!, son
+
+01:28:23.400 --> 01:28:24.400
+iguales.
+
+01:28:24.400 --> 01:28:25.140
+Casualidad. En esta situación, el rango
+
+01:28:25.140 --> 01:28:26.820
+de A sería el número... el número de filas no
+
+01:28:26.820 --> 01:28:28.020
+nulas que hay en la cajita celeste: dos.
+
+01:28:28.020 --> 01:28:29.460
+And el rango de la matriz ampliada AB, en
+
+01:28:29.460 --> 01:28:30.060
+este caso...
+
+01:28:30.060 --> 01:28:31.260
+bueno,
+
+01:28:31.260 --> 01:28:32.520
+es el número de filas no nulas que hay
+
+01:28:32.520 --> 01:28:33.900
+dentro de toda la cajita rosada; es decir,
+
+01:28:33.900 --> 01:28:35.340
+hay uno, dos... ¡ah, mira!, aquí no es nula
+
+01:28:35.340 --> 01:28:36.420
+totalmente, aquí no es totalmente nula, hay
+
+01:28:36.420 --> 01:28:37.440
+un 7, entonces hay tres filas.
+
+01:28:37.440 --> 01:28:38.940
+¡Ah, mira! Sí puede pasar que sean
+
+01:28:38.940 --> 01:28:40.320
+diferentes, sí sean diferentes el rango
+
+01:28:40.320 --> 01:28:41.520
+de la matriz A puede llegar a ser
+
+01:28:41.520 --> 01:28:42.360
+diferente al rango de la matriz ampliada
+
+01:28:42.360 --> 01:28:43.020
+AB.
+
+01:28:43.020 --> 01:28:44.220
+Entonces, en función de esto, cuando son
+
+01:28:44.220 --> 01:28:45.660
+iguales, tenemos el primer caso, es decir,
+
+01:28:45.660 --> 01:28:47.100
+sabemos que es consistente. Ya con esto
+
+01:28:47.100 --> 01:28:47.880
+nos esperamos...
+
+01:28:47.880 --> 01:28:49.140
+uno: tiene solución.
+
+01:28:49.140 --> 01:28:50.520
+Por teorema sabemos que tiene solución,
+
+01:28:50.520 --> 01:28:51.240
+genial. ¿Qué más?
+
+01:28:51.240 --> 01:28:52.440
+Mira aquí, en la primera situación, tiene... es
+
+01:28:52.440 --> 01:28:53.880
+igual, es decir, el número de incógnitas
+
+01:28:53.880 --> 01:28:55.200
+es igual al rango de la matriz ampliada,
+
+01:28:55.200 --> 01:28:56.280
+entonces es determinado. ¿Cuántas
+
+01:28:56.280 --> 01:28:57.600
+incógnitas tenía esto? Tenía uno, dos, tres.
+
+01:28:57.600 --> 01:28:58.920
+Entonces esto tiene
+
+01:28:58.920 --> 01:29:00.120
+tres incógnitas,
+
+01:29:00.120 --> 01:29:01.020
+y el rango
+
+01:29:01.020 --> 01:29:01.620
+de AB
+
+01:29:01.620 --> 01:29:02.160
+es 2.
+
+01:29:02.160 --> 01:29:03.480
+Okay, aquí ya no se cumple el 1.1, que es
+
+01:29:03.480 --> 01:29:04.680
+que sean iguales, pero sí se cumple el
+
+01:29:04.680 --> 01:29:05.880
+segundo: miren, hay más número de
+
+01:29:05.880 --> 01:29:07.020
+incógnitas... el número de incógnitas es
+
+01:29:07.020 --> 01:29:08.280
+mayor que el rango de la matriz, por lo
+
+01:29:08.280 --> 01:29:09.600
+tanto cae en la segunda situación, es
+
+01:29:09.600 --> 01:29:10.920
+decir, esto es consistente indeterminado...
+
+01:29:10.920 --> 01:29:12.120
+consistente... bueno no, vamos a escribir
+
+01:29:12.120 --> 01:29:12.600
+así,
+
+01:29:12.600 --> 01:29:13.140
+sabemos
+
+01:29:1

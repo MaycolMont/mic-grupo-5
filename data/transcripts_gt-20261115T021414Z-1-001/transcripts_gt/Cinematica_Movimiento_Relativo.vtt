@@ -1,0 +1,4117 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.719 --> 00:00:06.319 align:start position:0%
+Ya, listo. Entonces, cada observador,
+
+00:00:03.000 --> 00:00:08.920 align:start position:0%
+como yo les indicaba, tiene como eh un
+
+00:00:06.319 --> 00:00:11.160 align:start position:0%
+origen, ¿okay? Tiene una coordenada 0, 0, 0
+
+00:00:08.920 --> 00:00:13.280 align:start position:0%
+que le va a indicar su origen. Entonces,
+
+00:00:11.160 --> 00:00:16.640 align:start position:0%
+él va a ver la posición con respecto a
+
+00:00:13.280 --> 00:00:19.240 align:start position:0%
+su origen. Ya. Por lo tanto, la posición
+
+00:00:16.640 --> 00:00:21.400 align:start position:0%
+va a ser relativa, va a depender del
+
+00:00:19.240 --> 00:00:24.598 align:start position:0%
+observador. ¿Ya? Entonces, ya más
+
+00:00:21.400 --> 00:00:28.479 align:start position:0%
+adelante vamos a ver que la velocidad y
+
+00:00:24.599 --> 00:00:30.400 align:start position:0%
+la aceleración también dependen, pero
+
+00:00:28.480 --> 00:00:33.040 align:start position:0%
+más que el observador va a depender del
+
+00:00:30.400 --> 00:00:34.559 align:start position:0%
+sistema de referencia que elijas, ¿okay?
+
+00:00:33.040 --> 00:00:36.519 align:start position:0%
+Y vamos a ver cuál es la diferencia
+
+00:00:34.559 --> 00:00:39.480 align:start position:0%
+entre observador y sistema de
+
+00:00:36.520 --> 00:00:42.800 align:start position:0%
+referencia. Eh, yo lo, o sea, yo lo
+
+00:00:39.480 --> 00:00:44.879 align:start position:0%
+separo así, ¿okay? Yo separo en eh
+
+00:00:42.800 --> 00:00:46.559 align:start position:0%
+observador y sistema de referencia como
+
+00:00:44.879 --> 00:00:50.039 align:start position:0%
+que lo separo, pero en realidad tiene
+
+00:00:46.559 --> 00:00:51.718 align:start position:0%
+que ver eh entre sí. Entonces, a ver,
+
+00:00:50.039 --> 00:00:55.559 align:start position:0%
+primero
+
+00:00:51.719 --> 00:00:57.600 align:start position:0%
+supongamos que a tu izquierda
+
+00:00:55.559 --> 00:00:59.879 align:start position:0%
+ya estás en un cuarto y a tu izquierda
+
+00:00:57.600 --> 00:01:02.800 align:start position:0%
+estar ubicado eh una persona, ¿okay?
+
+00:00:59.879 --> 00:01:04.679 align:start position:0%
+Puede ser, qué sé yo, tu compañero.
+
+00:01:02.800 --> 00:01:07.600 align:start position:0%
+Entonces, tu compañero va a tener su
+
+00:01:04.680 --> 00:01:10.280 align:start position:0%
+origen acá. Entonces, el origen de tu
+
+00:01:07.600 --> 00:01:12.759 align:start position:0%
+compañero es 0, 0. Imaginemos que estamos
+
+00:01:10.280 --> 00:01:14.040 align:start position:0%
+viviendo en un plano de de dos
+
+00:01:12.759 --> 00:01:17.520 align:start position:0%
+dimensiones. ¿Okay? Y por eso es que
+
+00:01:14.040 --> 00:01:21.159 align:start position:0%
+tenemos simplemente el plano cartesiano,
+
+00:01:17.520 --> 00:01:23.320 align:start position:0%
+ya no tenemos el eh con el eje zeta, ¿no?
+
+00:01:21.159 --> 00:01:26.600 align:start position:0%
+Ya. Ahora, supongamos
+
+00:01:23.320 --> 00:01:28.360 align:start position:0%
+que eh tú estás ubicado a tu derecha,
+
+00:01:26.600 --> 00:01:31.199 align:start position:0%
+¿okay? Estás ubicado más o menos por acá
+
+00:01:28.360 --> 00:01:34.399 align:start position:0%
+y un poco hacia abajo, ¿no? ¿Por qué no?
+
+00:01:31.200 --> 00:01:37.200 align:start position:0%
+Entonces para ti tu origen es este, o
+
+00:01:34.399 --> 00:01:39.880 align:start position:0%
+sea, tu origen es 0, 0 es
+
+00:01:37.200 --> 00:01:41.640 align:start position:0%
+distinto al del otro observador. ¿Okay?
+
+00:01:39.880 --> 00:01:44.798 align:start position:0%
+Entonces, lo que yo les indicaba,
+
+00:01:41.640 --> 00:01:46.360 align:start position:0%
+supongamos que eh ya listo, a la
+
+00:01:44.799 --> 00:01:50.000 align:start position:0%
+izquierda está tu compañero y tú estás a
+
+00:01:46.360 --> 00:01:52.479 align:start position:0%
+la derecha y su y vamos a suponer que un
+
+00:01:50.000 --> 00:01:55.759 align:start position:0%
+objeto va a estar entre los dos, ¿okay?
+
+00:01:52.479 --> 00:01:57.479 align:start position:0%
+Vamos a tener un objeto como una esfera.
+
+00:01:55.759 --> 00:01:59.799 align:start position:0%
+Ya. Entonces, yo le pregunto a tu amigo,
+
+00:01:57.479 --> 00:02:01.560 align:start position:0%
+Oye, ¿sabes qué? La misma pregunta con
+
+00:01:59.799 --> 00:02:05.759 align:start position:0%
+la analogía de de los compañeros y la
+
+00:02:01.560 --> 00:02:08.399 align:start position:0%
+profesora. Eh, para ti esta pelota eh,
+
+00:02:05.759 --> 00:02:11.000 align:start position:0%
+¿a qué posición está? Entonces, el man
+
+00:02:08.399 --> 00:02:14.120 align:start position:0%
+mide desde el punto de la pelota hacia
+
+00:02:11.000 --> 00:02:17.200 align:start position:0%
+su origen. ¿Okay? Entonces, el vector de
+
+00:02:14.120 --> 00:02:22.080 align:start position:0%
+erre de posición para esta persona, que
+
+00:02:17.200 --> 00:02:25.319 align:start position:0%
+vamos a llamarle eh O y vamos a ponerle
+
+00:02:22.080 --> 00:02:29.120 align:start position:0%
+un apóstrofe, ¿okay? Y vamos a decir que
+
+00:02:25.319 --> 00:02:32.518 align:start position:0%
+eh tú tienes o vas a llamarte como O.
+
+00:02:29.120 --> 00:02:35.400 align:start position:0%
+¿Okay? Entonces, la posición desde la
+
+00:02:32.519 --> 00:02:38.680 align:start position:0%
+pelota, perdón, desde el origen hasta la
+
+00:02:35.400 --> 00:02:40.239 align:start position:0%
+pelota es un vector que va hacia acá.
+
+00:02:38.680 --> 00:02:42.159 align:start position:0%
+Ahora yo le pregunto, yo te pregunto a
+
+00:02:40.239 --> 00:02:43.840 align:start position:0%
+ti, ¿okay? Que tú tienes un marco,
+
+00:02:42.159 --> 00:02:45.720 align:start position:0%
+perdón, un sistema de coordenadas que
+
+00:02:43.840 --> 00:02:47.720 align:start position:0%
+está un poco más a la derecha, tú eres
+
+00:02:45.720 --> 00:02:50.040 align:start position:0%
+otro observador. Por lo tanto, la
+
+00:02:47.720 --> 00:02:54.159 align:start position:0%
+posición que tú vas a ver, que tú vas a
+
+00:02:50.040 --> 00:02:55.840 align:start position:0%
+ver con a la pelota va a ser a la
+
+00:02:54.159 --> 00:02:57.760 align:start position:0%
+izquierda,
+
+00:02:55.840 --> 00:02:59.920 align:start position:0%
+¿okay? Y va a ser un poco más largo, o
+
+00:02:57.760 --> 00:03:01.840 align:start position:0%
+sea, en magnitud va a valer más, ¿okay?
+
+00:02:59.920 --> 00:03:05.399 align:start position:0%
+Tú lo vas a tú lo vas a ver más distante
+
+00:03:01.840 --> 00:03:07.040 align:start position:0%
+en este caso. Por lo tanto, eh si te das
+
+00:03:05.400 --> 00:03:10.879 align:start position:0%
+cuenta
+
+00:03:07.040 --> 00:03:14.239 align:start position:0%
+eh esta posición va a ser relativa, va a
+
+00:03:10.879 --> 00:03:19.560 align:start position:0%
+ser la posición de la pelota pe con
+
+00:03:14.239 --> 00:03:22.680 align:start position:0%
+respecto al al observador O prima. Y
+
+00:03:19.560 --> 00:03:26.560 align:start position:0%
+este vector va a ser la posición de la
+
+00:03:22.680 --> 00:03:28.560 align:start position:0%
+pelota con respecto eh a O. ¿Okay?
+
+00:03:26.560 --> 00:03:31.400 align:start position:0%
+Entonces vamos a tener eh distintas
+
+00:03:28.560 --> 00:03:34.400 align:start position:0%
+posiciones. Ahora, por ejemplo, si yo
+
+00:03:31.400 --> 00:03:38.200 align:start position:0%
+coloco otro objeto, vamos a a colocar un
+
+00:03:34.400 --> 00:03:42.000 align:start position:0%
+una caja, por ejemplo, y vamos a trazar
+
+00:03:38.200 --> 00:03:44.679 align:start position:0%
+los eh vectores, ¿okay? Este vector de
+
+00:03:42.000 --> 00:03:47.080 align:start position:0%
+posición con respecto a O. Entonces,
+
+00:03:44.680 --> 00:03:50.280 align:start position:0%
+este es el vector de posición de la caja
+
+00:03:47.080 --> 00:03:52.640 align:start position:0%
+con respecto a O. Y ahora vamos a trazar
+
+00:03:50.280 --> 00:03:56.040 align:start position:0%
+eh esto para para que ustedes vean.
+
+00:03:52.640 --> 00:03:58.480 align:start position:0%
+Vamos a decir eh vamos a saber cuál es
+
+00:03:56.040 --> 00:04:00.519 align:start position:0%
+la posición de un observador con
+
+00:03:58.480 --> 00:04:04.159 align:start position:0%
+respecto al otro observador. ¿Cómo
+
+00:04:00.519 --> 00:04:07.079 align:start position:0%
+hacemos eso? Simplemente eh tras vemos
+
+00:04:04.159 --> 00:04:08.879 align:start position:0%
+que el origen de este observador, el
+
+00:04:07.079 --> 00:04:12.159 align:start position:0%
+origen de este y vamos a trazar un
+
+00:04:08.879 --> 00:04:14.720 align:start position:0%
+vector posición, ¿okay? Vamos a decir
+
+00:04:12.159 --> 00:04:19.159 align:start position:0%
+que este vector
+
+00:04:14.720 --> 00:04:22.600 align:start position:0%
+ya es eh la posición del observador o
+
+00:04:19.160 --> 00:04:25.280 align:start position:0%
+con respecto al observador O prima.
+
+00:04:22.600 --> 00:04:27.600 align:start position:0%
+¿Okay? ¿Para qué vamos a hacer eso? Ya
+
+00:04:25.280 --> 00:04:30.198 align:start position:0%
+para nosotros sacar la fórmula que
+
+00:04:27.600 --> 00:04:33.000 align:start position:0%
+nosotros lo usamos siempre, ¿ya? Pero no
+
+00:04:30.199 --> 00:04:35.360 align:start position:0%
+sabemos por qué la usamos. ¿Okay?
+
+00:04:33.000 --> 00:04:37.280 align:start position:0%
+Entonces, eh la fórmula es esta. Ya de
+
+00:04:35.360 --> 00:04:40.240 align:start position:0%
+una vez le les voy a poner la fórmula.
+
+00:04:37.280 --> 00:04:42.719 align:start position:0%
+Es que la posición
+
+00:04:40.240 --> 00:04:46.560 align:start position:0%
+de A con respecto a
+
+00:04:42.720 --> 00:04:50.800 align:start position:0%
+ce va a ser igual a la posición de A con
+
+00:04:46.560 --> 00:04:53.639 align:start position:0%
+respecto a be más la posición de be con
+
+00:04:50.800 --> 00:04:56.320 align:start position:0%
+respecto a ce. ¿Okay? Entonces, esta
+
+00:04:53.639 --> 00:04:58.240 align:start position:0%
+formulita la usamos eh a menudos.
+
+00:04:56.320 --> 00:05:00.240 align:start position:0%
+Seguramente no la usamos en términos de
+
+00:04:58.240 --> 00:05:02.440 align:start position:0%
+la posición, sino la usamos en términos
+
+00:05:00.240 --> 00:05:05.479 align:start position:0%
+de la velocidad. ¿Okay? Pero es lo
+
+00:05:02.440 --> 00:05:07.680 align:start position:0%
+mismo, ¿ya? Es es la misma fórmula. ¿Por
+
+00:05:05.479 --> 00:05:10.479 align:start position:0%
+qué? ¿De dónde sale esta fórmula? De
+
+00:05:07.680 --> 00:05:13.680 align:start position:0%
+esto. ¿Qué va a pasar si yo quiero saber
+
+00:05:10.479 --> 00:05:17.080 align:start position:0%
+la posición de la caja? Ya, la posición
+
+00:05:13.680 --> 00:05:20.080 align:start position:0%
+de la caja, pero con respecto al
+
+00:05:17.080 --> 00:05:22.359 align:start position:0%
+O prima, simplemente trazo desde su
+
+00:05:20.080 --> 00:05:23.758 align:start position:0%
+origen hacia la caja. Trazo un vector,
+
+00:05:22.360 --> 00:05:28.000 align:start position:0%
+¿verdad?
+
+00:05:23.759 --> 00:05:31.199 align:start position:0%
+Entonces, eh este vector eh va a ser erre
+
+00:05:28.000 --> 00:05:33.800 align:start position:0%
+eh caja con respecto al observador
+
+00:05:31.199 --> 00:05:37.319 align:start position:0%
+O prima. Ahora, si se dan cuenta y si
+
+00:05:33.800 --> 00:05:40.639 align:start position:0%
+saben sumar vectores, como se supone que
+
+00:05:37.319 --> 00:05:45.199 align:start position:0%
+todo el mundo sabemos sumar vectores,
+
+00:05:40.639 --> 00:05:47.680 align:start position:0%
+si yo sumo este vector que tengo acá más
+
+00:05:45.199 --> 00:05:50.360 align:start position:0%
+este vector,
+
+00:05:47.680 --> 00:05:54.520 align:start position:0%
+ya la suma, el resultado me tiene que
+
+00:05:50.360 --> 00:05:56.800 align:start position:0%
+dar eh por suma de vectores este vector
+
+00:05:54.520 --> 00:05:59.400 align:start position:0%
+que yo tracé, que es la posición de la
+
+00:05:56.800 --> 00:06:02.440 align:start position:0%
+caja con respecto a este observador. Por
+
+00:05:59.400 --> 00:06:04.440 align:start position:0%
+lo tanto, yo puedo decir intuitivamente
+
+00:06:02.440 --> 00:06:09.280 align:start position:0%
+y bueno, matemáticamente, ¿verdad?
+
+00:06:04.440 --> 00:06:12.080 align:start position:0%
+Justificado que la suma de este vector,
+
+00:06:09.280 --> 00:06:15.000 align:start position:0%
+ya, que es la posición de O eh con
+
+00:06:12.080 --> 00:06:17.560 align:start position:0%
+respecto a apóstrofe, más la posición de
+
+00:06:15.000 --> 00:06:21.039 align:start position:0%
+la caja con respecto a O, me tiene que
+
+00:06:17.560 --> 00:06:23.000 align:start position:0%
+dar de ley, o sea, de ley este vector de
+
+00:06:21.039 --> 00:06:25.039 align:start position:0%
+acá.
+
+00:06:23.000 --> 00:06:27.360 align:start position:0%
+Ya.
+
+00:06:25.039 --> 00:06:29.039 align:start position:0%
+Y vamos a reordenar un poco para que que
+
+00:06:27.360 --> 00:06:31.039 align:start position:0%
+quiero que se aprendan como que un
+
+00:06:29.039 --> 00:06:33.440 align:start position:0%
+truquillo para saber si tú estás
+
+00:06:31.039 --> 00:06:35.599 align:start position:0%
+haciendo bien. Okay. Y simplemente vamos
+
+00:06:33.440 --> 00:06:39.000 align:start position:0%
+a intercambiar eh por la propiedad
+
+00:06:35.599 --> 00:06:44.080 align:start position:0%
+comutativa estos términos. Vamos eh a
+
+00:06:39.000 --> 00:06:49.080 align:start position:0%
+poner que esto es igual a erre ce eh sobre O
+
+00:06:44.080 --> 00:06:51.359 align:start position:0%
+más erre o sobre O prima. ¿Okay?, ya. Yo
+
+00:06:49.080 --> 00:06:53.479 align:start position:0%
+quiero eh ponerlo así para para después
+
+00:06:51.360 --> 00:06:56.240 align:start position:0%
+enseñarles de alguna manera eh que se
+
+00:06:53.479 --> 00:06:58.318 align:start position:0%
+aprenda mucho más fácil esto. ¿Okay?
+
+00:06:56.240 --> 00:06:59.960 align:start position:0%
+Entonces, estamos justificando por qué
+
+00:06:58.319 --> 00:07:01.720 align:start position:0%
+tenemos que aprender esta fórmula. No
+
+00:06:59.960 --> 00:07:05.080 align:start position:0%
+estamos aprendiendo la fórmula así
+
+00:07:01.720 --> 00:07:08.360 align:start position:0%
+porque sí, si no hay un por qué. Okay.
+
+00:07:05.080 --> 00:07:09.758 align:start position:0%
+Entonces, eh, ¿qué va a pasar con la
+
+00:07:08.360 --> 00:07:12.280 align:start position:0%
+velocidad? ¿Qué va a pasar con la
+
+00:07:09.759 --> 00:07:14.599 align:start position:0%
+aceleración? Va a pasar lo mismo. ¿Por
+
+00:07:12.280 --> 00:07:18.198 align:start position:0%
+qué? Porque acuérdense que yo puedo
+
+00:07:14.599 --> 00:07:19.599 align:start position:0%
+derivar eh todo una una ecuación. Yo la
+
+00:07:18.199 --> 00:07:21.479 align:start position:0%
+puedo derivar. Si yo derivo a la
+
+00:07:19.599 --> 00:07:23.919 align:start position:0%
+izquierda, tengo que derivar a la
+
+00:07:21.479 --> 00:07:26.719 align:start position:0%
+derecha. Por lo tanto, derivamos todo
+
+00:07:23.919 --> 00:07:29.400 align:start position:0%
+con respecto al tiempo. Si tú derivas
+
+00:07:26.720 --> 00:07:32.680 align:start position:0%
+este término con respecto al tiempo, te
+
+00:07:29.400 --> 00:07:34.440 align:start position:0%
+va a dar la velocidad de de A con
+
+00:07:32.680 --> 00:07:38.080 align:start position:0%
+respecto a ce.
+
+00:07:34.440 --> 00:07:41.240 align:start position:0%
+y así así mismo en las otras, ¿no?
+
+00:07:38.080 --> 00:07:44.758 align:start position:0%
+Por lo tanto, eh de alguna forma estamos
+
+00:07:41.240 --> 00:07:48.479 align:start position:0%
+partiendo desde eh lo primitivo, lo
+
+00:07:44.759 --> 00:07:50.080 align:start position:0%
+esencial y estamos como decir eh sacando
+
+00:07:48.479 --> 00:07:52.680 align:start position:0%
+otras fórmulas que simplemente es la
+
+00:07:50.080 --> 00:07:55.080 align:start position:0%
+misma pero con otras eh otros parámetros
+
+00:07:52.680 --> 00:07:56.720 align:start position:0%
+que es la velocidad y vamos a ver que la
+
+00:07:55.080 --> 00:08:00.120 align:start position:0%
+aceleración se comporta de la misma
+
+00:07:56.720 --> 00:08:01.960 align:start position:0%
+forma, ¿okay? Velocidad de be con
+
+00:08:00.120 --> 00:08:05.159 align:start position:0%
+respecto a ce.
+
+00:08:01.960 --> 00:08:07.840 align:start position:0%
+Entonces, esta fórmula es la famosa
+
+00:08:05.159 --> 00:08:11.000 align:start position:0%
+que utilizamos en el curso,
+
+00:08:07.840 --> 00:08:14.119 align:start position:0%
+¿ya? Y ahora yo les voy a enseñar para
+
+00:08:11.000 --> 00:08:16.960 align:start position:0%
+que de alguna manera eh se les haga más
+
+00:08:14.120 --> 00:08:19.280 align:start position:0%
+fácil en distintos casos, ¿okay? Porque
+
+00:08:16.960 --> 00:08:23.198 align:start position:0%
+esta fórmula no se utiliza en todos los
+
+00:08:19.280 --> 00:08:26.520 align:start position:0%
+casos, o sea, en realidad sí, pero tú
+
+00:08:23.199 --> 00:08:29.440 align:start position:0%
+puedes aprenderte dos fórmulas ya para
+
+00:08:26.520 --> 00:08:31.159 align:start position:0%
+dos casos distintos y de alguna manera
+
+00:08:29.440 --> 00:08:32.479 align:start position:0%
+se te va a hacer mucho más fácil o por
+
+00:08:31.159 --> 00:08:34.599 align:start position:0%
+lo menos a mí se me hacía mucho más
+
+00:08:32.479 --> 00:08:36.880 align:start position:0%
+fácil y no me equivocaba o bueno,
+
+00:08:34.599 --> 00:08:38.599 align:start position:0%
+prácticamente eh sí le acertaba
+
+00:08:36.880 --> 00:08:41.279 align:start position:0%
+bastante.
+
+00:08:38.599 --> 00:08:42.440 align:start position:0%
+Entonces tenemos eh esta fórmula la
+
+00:08:41.279 --> 00:08:44.959 align:start position:0%
+vamos a dejar en términos de la
+
+00:08:42.440 --> 00:08:46.839 align:start position:0%
+velocidad porque me interesa. Okay, me
+
+00:08:44.959 --> 00:08:49.239 align:start position:0%
+interesa
+
+00:08:46.839 --> 00:08:52.480 align:start position:0%
+ahora, ¿por qué yo les dije que la
+
+00:08:49.240 --> 00:08:55.080 align:start position:0%
+posición vamos a tratar distinto a un
+
+00:08:52.480 --> 00:08:58.320 align:start position:0%
+sistema de referencia? Por este concepto
+
+00:08:55.080 --> 00:09:00.600 align:start position:0%
+que yo les yo les eh he traído, que en
+
+00:08:58.320 --> 00:09:03.399 align:start position:0%
+realidad no es mío, sino es de un
+
+00:09:00.600 --> 00:09:05.200 align:start position:0%
+profesor eh de la ESPOL, creo que era
+
+00:09:03.399 --> 00:09:07.720 align:start position:0%
+Alexander López.
+
+00:09:05.200 --> 00:09:11.320 align:start position:0%
+Okay, no me dio clases a mí, pero pero
+
+00:09:07.720 --> 00:09:14.079 align:start position:0%
+sí eh unos, perdón, no ayudantes, sino
+
+00:09:11.320 --> 00:09:16.040 align:start position:0%
+estudiantes del semestre pasado, pues
+
+00:09:14.079 --> 00:09:19.040 align:start position:0%
+eh me indicaron una diapositiva de él y
+
+00:09:16.040 --> 00:09:21.360 align:start position:0%
+pues pues vi, ¿okay? Esta definición es
+
+00:09:19.040 --> 00:09:23.920 align:start position:0%
+importante. ¿Por qué? Vamos a leerla.
+
+00:09:21.360 --> 00:09:27.079 align:start position:0%
+Todos los observadores, ¿okay?, que
+
+00:09:23.920 --> 00:09:29.680 align:start position:0%
+estén en reposo relativo respecto, esto
+
+00:09:27.079 --> 00:09:32.519 align:start position:0%
+es importante, ¿de respecto a quién?
+
+00:09:29.680 --> 00:09:35.000 align:start position:0%
+respecto a otro observador
+
+00:09:32.519 --> 00:09:37.160 align:start position:0%
+forma parte de un mismo sistema de
+
+00:09:35.000 --> 00:09:40.160 align:start position:0%
+referencia. ¿Okay? ¿Qué es resposo
+
+00:09:37.160 --> 00:09:42.519 align:start position:0%
+relativo? Ahora yo les pregunto, vamos a
+
+00:09:40.160 --> 00:09:45.560 align:start position:0%
+analizar o hacer analogía con la vida
+
+00:09:42.519 --> 00:09:47.959 align:start position:0%
+cotidiana. Si nosotros vamos en un bus y
+
+00:09:45.560 --> 00:09:51.920 align:start position:0%
+el bus está hecho madres, ¿okay? Está
+
+00:09:47.959 --> 00:09:54.319 align:start position:0%
+yendo a a 70 kilómetros por hora y ustedes saben
+
+00:09:51.920 --> 00:09:56.279 align:start position:0%
+cómo son los chóferes, ¿no? Que van eh
+
+00:09:54.320 --> 00:09:58.880 align:start position:0%
+superveloces.
+
+00:09:56.279 --> 00:10:00.560 align:start position:0%
+Entonces, eh si yo veo al compañero de
+
+00:09:58.880 --> 00:10:02.399 align:start position:0%
+al lado, okay, vamos a suponer que
+
+00:10:00.560 --> 00:10:04.920 align:start position:0%
+escogiste justo el bus con un compañero
+
+00:10:02.399 --> 00:10:08.000 align:start position:0%
+del colegio, de la universidad, entonces
+
+00:10:04.920 --> 00:10:10.319 align:start position:0%
+eh tú estás viendo que el man está en
+
+00:10:08.000 --> 00:10:14.240 align:start position:0%
+reposo contigo. O sea, tú no tú no lo
+
+00:10:10.320 --> 00:10:16.959 align:start position:0%
+ves, oye, eh te estás moviendo, ¿no? O
+
+00:10:14.240 --> 00:10:19.440 align:start position:0%
+tienes una velocidad de tanto o no. Si
+
+00:10:16.959 --> 00:10:22.119 align:start position:0%
+no lo ves sentadito como tú. Ya.
+
+00:10:19.440 --> 00:10:25.360 align:start position:0%
+Entonces entre los dos se están viendo
+
+00:10:22.120 --> 00:10:29.120 align:start position:0%
+que están en reposo, ¿ya? Y eso es a lo
+
+00:10:25.360 --> 00:10:32.720 align:start position:0%
+que llamamos reposo relativo. Cuando o con
+
+00:10:29.120 --> 00:10:35.399 align:start position:0%
+un obserador o con otro, ambos tienen como
+
+00:10:32.720 --> 00:10:37.839 align:start position:0%
+que la misma velocidad. Okay. Ya.
+
+00:10:35.399 --> 00:10:40.600 align:start position:0%
+Entonces, si ambos van con la velocidad
+
+00:10:37.839 --> 00:10:43.240 align:start position:0%
+del bus, entonces se van a ver en reposo
+
+00:10:40.600 --> 00:10:46.600 align:start position:0%
+relativo. ¿Qué va a pasar cuando los
+
+00:10:43.240 --> 00:10:49.600 align:start position:0%
+observadores están en reposo relativo?
+
+00:10:46.600 --> 00:10:51.920 align:start position:0%
+Ya van a formar un solo sistema de
+
+00:10:49.600 --> 00:10:53.639 align:start position:0%
+referencia. Por eso es que de alguna
+
+00:10:51.920 --> 00:10:56.199 align:start position:0%
+forma me gusta separar los conceptos.
+
+00:10:53.639 --> 00:11:00.800 align:start position:0%
+observador a sistema de referencia. ¿Por
+
+00:10:56.200 --> 00:11:03.279 align:start position:0%
+qué? Porque si eh, por ejemplo,
+
+00:11:00.800 --> 00:11:06.199 align:start position:0%
+yo te estoy diciendo que tu amigo está
+
+00:11:03.279 --> 00:11:08.800 align:start position:0%
+yendo en el bus contigo, por lo tanto,
+
+00:11:06.200 --> 00:11:12.760 align:start position:0%
+si yo te pregunto cuál es la velocidad
+
+00:11:08.800 --> 00:11:17.639 align:start position:0%
+de tu amigo, vamos a ponerle eh amigo
+
+00:11:12.760 --> 00:11:20.480 align:start position:0%
+con respecto eh a ti, ¿okay? ¿Cuál es la
+
+00:11:17.639 --> 00:11:22.560 align:start position:0%
+velocidad eh relativa? Va a ser cero.
+
+00:11:20.480 --> 00:11:26.959 align:start position:0%
+¿Por qué? porque ambos están en reposo
+
+00:11:22.560 --> 00:11:29.800 align:start position:0%
+relativo entre sí. Por lo tanto, ambos
+
+00:11:26.959 --> 00:11:33.719 align:start position:0%
+forman un solo sistema de referencia y
+
+00:11:29.800 --> 00:11:36.319 align:start position:0%
+ese es el como decir la justificación,
+
+00:11:33.720 --> 00:11:38.800 align:start position:0%
+porque en los problemas te dicen, eh,
+
+00:11:36.320 --> 00:11:40.440 align:start position:0%
+hállame la velocidad ya del, por
+
+00:11:38.800 --> 00:11:43.279 align:start position:0%
+ejemplo, del avión con respecto a la
+
+00:11:40.440 --> 00:11:46.639 align:start position:0%
+Tierra. Okay, ¿cuánto es? Pero es lo
+
+00:11:43.279 --> 00:11:49.839 align:start position:0%
+mismo decir, hállame la velocidad del
+
+00:11:46.639 --> 00:11:51.000 align:start position:0%
+avión con respecto a una persona en la
+
+00:11:49.839 --> 00:11:53.519 align:start position:0%
+tierra.
+
+00:11:51.000 --> 00:11:55.880 align:start position:0%
+Okay. Entonces, ¿por qué es lo mismo?
+
+00:11:53.519 --> 00:11:59.120 align:start position:0%
+Porque de alguna manera una persona en
+
+00:11:55.880 --> 00:12:01.439 align:start position:0%
+reposo, ahorita que yo estoy sentado ya
+
+00:11:59.120 --> 00:12:03.320 align:start position:0%
+yo no me estoy moviendo ni trasladando,
+
+00:12:01.440 --> 00:12:04.680 align:start position:0%
+yo tengo la misma velocidad que que
+
+00:12:03.320 --> 00:12:06.440 align:start position:0%
+tiene la Tierra, si se dan cuenta,
+
+00:12:04.680 --> 00:12:09.719 align:start position:0%
+porque yo estoy montado encima de la
+
+00:12:06.440 --> 00:12:12.320 align:start position:0%
+Tierra, ya yo estoy eh yo estoy parado
+
+00:12:09.720 --> 00:12:13.880 align:start position:0%
+en la Tierra, por lo tanto, y no me
+
+00:12:12.320 --> 00:12:16.440 align:start position:0%
+estoy moviendo, por lo tanto, hay un
+
+00:12:13.880 --> 00:12:18.959 align:start position:0%
+reposo relativo entre mi persona y entre
+
+00:12:16.440 --> 00:12:21.399 align:start position:0%
+la tierra. ¿Okay? Entonces, por eso que
+
+00:12:18.959 --> 00:12:23.800 align:start position:0%
+en algunos problemas da igual porque te
+
+00:12:21.399 --> 00:12:26.320 align:start position:0%
+pregunta lo mismo. Eh, por ejemplo, la
+
+00:12:23.800 --> 00:12:28.599 align:start position:0%
+velocidad de equis objeto con respecto a la
+
+00:12:26.320 --> 00:12:31.680 align:start position:0%
+Tierra, la velocidad de equis objeto con
+
+00:12:28.600 --> 00:12:35.279 align:start position:0%
+respecto a una persona en la orilla, la
+
+00:12:31.680 --> 00:12:37.239 align:start position:0%
+velocidad de de equis objeto con respecto a
+
+00:12:35.279 --> 00:12:40.439 align:start position:0%
+una persona en la tierra, ¿okay? Es lo
+
+00:12:37.240 --> 00:12:42.680 align:start position:0%
+mismo porque ambos forman parte de un
+
+00:12:40.440 --> 00:12:43.839 align:start position:0%
+mismo sistema de referencia. ¿Okay?
+
+00:12:42.680 --> 00:12:48.479 align:start position:0%
+Entonces, quiero que tengan bastante
+
+00:12:43.839 --> 00:12:50.800 align:start position:0%
+claro eso. Ahora, si yo les pregunto,
+
+00:12:48.480 --> 00:12:53.560 align:start position:0%
+eh, por ejemplo, tu amigo, el la misma
+
+00:12:50.800 --> 00:12:56.040 align:start position:0%
+situación, tu amigo y tú están en el bus
+
+00:12:53.560 --> 00:12:58.638 align:start position:0%
+y ven, ven a entrar a a cualquier
+
+00:12:56.040 --> 00:13:01.480 align:start position:0%
+pasajero, yo les pregunto, ¿la posición
+
+00:12:58.639 --> 00:13:04.639 align:start position:0%
+del pasajero con respecto a tu amigo ya
+
+00:13:01.480 --> 00:13:07.519 align:start position:0%
+es la misma del que la posición del ese
+
+00:13:04.639 --> 00:13:09.600 align:start position:0%
+pasajero con respecto a ti? No. ¿Por
+
+00:13:07.519 --> 00:13:11.920 align:start position:0%
+qué? Porque el observador tiene su
+
+00:13:09.600 --> 00:13:14.920 align:start position:0%
+propio origen. El observador tiene su
+
+00:13:11.920 --> 00:13:18.319 align:start position:0%
+propio origen 0, 0. ¿Okay? Tiene su propio
+
+00:13:14.920 --> 00:13:21.319 align:start position:0%
+origen. Entonces la posición sí varía.
+
+00:13:18.320 --> 00:13:23.480 align:start position:0%
+Ya. Pero cuando hablas de velocidad y
+
+00:13:21.320 --> 00:13:25.560 align:start position:0%
+cuando hablas de aceleración,
+
+00:13:23.480 --> 00:13:28.160 align:start position:0%
+ya ahí lo que te importa es analizar el
+
+00:13:25.560 --> 00:13:30.359 align:start position:0%
+sistema de referencia. ¿Okay? Entonces,
+
+00:13:28.160 --> 00:13:33.079 align:start position:0%
+más o menos es un poco complicado, yo
+
+00:13:30.360 --> 00:13:34.680 align:start position:0%
+creo que entenderlo a la a la primera,
+
+00:13:33.079 --> 00:13:36.719 align:start position:0%
+pero si tienen que repetir el video,
+
+00:13:34.680 --> 00:13:38.839 align:start position:0%
+repiten. ¿Okay? Si por lo menos yo lo
+
+00:13:36.720 --> 00:13:43.800 align:start position:0%
+veo así y de alguna forma se me hace
+
+00:13:38.839 --> 00:13:46.600 align:start position:0%
+mucho más fácil. ¿Okay? Entonces, eh
+
+00:13:43.800 --> 00:13:48.639 align:start position:0%
+vamos a hacer este truquillo que les
+
+00:13:46.600 --> 00:13:51.040 align:start position:0%
+quería enseñar.
+
+00:13:48.639 --> 00:13:55.759 align:start position:0%
+¿Cuál es el truquillo? Cuando ustedes eh
+
+00:13:51.040 --> 00:13:59.040 align:start position:0%
+hacen o formulan esto, tienen que tener
+
+00:13:55.759 --> 00:14:03.040 align:start position:0%
+en cuenta algo. ¿Qué es ese algo? Que los
+
+00:13:59.040 --> 00:14:05.880 align:start position:0%
+subíndices ya estén acordes.
+
+00:14:03.040 --> 00:14:09.120 align:start position:0%
+¿Por qué? Porque hay un tip, se podría
+
+00:14:05.880 --> 00:14:11.519 align:start position:0%
+decir, que vas a los subíndices, lo
+
+00:14:09.120 --> 00:14:13.399 align:start position:0%
+pones como un cociente, es decir, una
+
+00:14:11.519 --> 00:14:15.560 align:start position:0%
+división,
+
+00:14:13.399 --> 00:14:17.480 align:start position:0%
+¿ya? Y lo multiplicas.
+
+00:14:15.560 --> 00:14:20.719 align:start position:0%
+¿Okay? Multiplicas.
+
+00:14:17.480 --> 00:14:23.079 align:start position:0%
+Al hacer esto se te tienen que ir eh
+
+00:14:20.720 --> 00:14:26.120 align:start position:0%
+todo y tener la igualdad eh correcta.
+
+00:14:23.079 --> 00:14:28.359 align:start position:0%
+¿Okay? Entonces, yo simplifico o en el
+
+00:14:26.120 --> 00:14:31.199 align:start position:0%
+numerador y en el denominador y me sale
+
+00:14:28.360 --> 00:14:34.720 align:start position:0%
+lo mismo, ¿okay? Me sale una igualdad.
+
+00:14:31.199 --> 00:14:37.319 align:start position:0%
+Por lo tanto, yo sé que esta eh esta
+
+00:14:34.720 --> 00:14:39.480 align:start position:0%
+fórmula está correcta. Ahora, ¿por qué
+
+00:14:37.320 --> 00:14:42.880 align:start position:0%
+yo le indico esto? Capaz que ustedes
+
+00:14:39.480 --> 00:14:45.279 align:start position:0%
+piensan que esta es la única fórmula y y
+
+00:14:42.880 --> 00:14:48.680 align:start position:0%
+ya se trabaja todo con eso y es mentira.
+
+00:14:45.279 --> 00:14:50.720 align:start position:0%
+¿Por qué? Porque en el mundo existimos
+
+00:14:48.680 --> 00:14:53.519 align:start position:0%
+millones de observadores, ¿okay?
+
+00:14:50.720 --> 00:14:57.000 align:start position:0%
+Millones. Eh, el bus puede ser un
+
+00:14:53.519 --> 00:14:59.480 align:start position:0%
+sistema de referencia, un observador. Eh, un animal
+
+00:14:57.000 --> 00:15:01.440 align:start position:0%
+puede ser un observador, ¿no? Eh,
+
+00:14:59.480 --> 00:15:02.920 align:start position:0%
+existimos miles de personas, millones de
+
+00:15:01.440 --> 00:15:04.920 align:start position:0%
+personas que somos distintos
+
+00:15:02.920 --> 00:15:08.199 align:start position:0%
+observadores porque estamos en distintos
+
+00:15:04.920 --> 00:15:11.319 align:start position:0%
+lugares, ¿okay? Y nos movemos distintos.
+
+00:15:08.199 --> 00:15:13.800 align:start position:0%
+Por lo tanto, eh es un poco irracional
+
+00:15:11.320 --> 00:15:16.199 align:start position:0%
+pensar que simplemente vamos a tener
+
+00:15:13.800 --> 00:15:18.680 align:start position:0%
+siempre tres observadores o dos.
+
+00:15:16.199 --> 00:15:21.758 align:start position:0%
+Okay, entonces les voy a dar eh esta
+
+00:15:18.680 --> 00:15:23.959 align:start position:0%
+fórmula general para que ustedes tengan
+
+00:15:21.759 --> 00:15:25.560 align:start position:0%
+lo que sea de observadores y puedan
+
+00:15:23.959 --> 00:15:27.199 align:start position:0%
+formular.
+
+00:15:25.560 --> 00:15:30.359 align:start position:0%
+Entonces, vamos a decir y vamos a
+
+00:15:27.199 --> 00:15:33.599 align:start position:0%
+plantear eh una situación. Supongamos
+
+00:15:30.360 --> 00:15:37.199 align:start position:0%
+que tenemos un río, ¿okay? Tengamos un
+
+00:15:33.600 --> 00:15:39.560 align:start position:0%
+río y el río está yendo eh a una
+
+00:15:37.199 --> 00:15:41.839 align:start position:0%
+velocidad, ¿okay?
+
+00:15:39.560 --> 00:15:44.719 align:start position:0%
+Ya, el río está yendo a una velocidad.
+
+00:15:41.839 --> 00:15:47.360 align:start position:0%
+Vamos a poner que la velocidad del río
+
+00:15:44.720 --> 00:15:49.680 align:start position:0%
+con respecto a la tierra, porque el río
+
+00:15:47.360 --> 00:15:52.560 align:start position:0%
+se mueve en la tierra, ¿pues no? El el
+
+00:15:49.680 --> 00:15:56.079 align:start position:0%
+río no lo encontrar en un edificio, ¿no?
+
+00:15:52.560 --> 00:15:58.599 align:start position:0%
+El río está eh está encima de la Tierra,
+
+00:15:56.079 --> 00:16:00.040 align:start position:0%
+¿no? Por lo tanto, la velocidad del río
+
+00:15:58.600 --> 00:16:02.720 align:start position:0%
+con respecto a la Tierra, vamos a
+
+00:16:00.040 --> 00:16:05.639 align:start position:0%
+indicar que es a la derecha, ¿ya? Eh,
+
+00:16:02.720 --> 00:16:07.360 align:start position:0%
+con una magnitud de 2 metros por segundo,
+
+00:16:05.639 --> 00:16:09.959 align:start position:0%
+¿okay?
+
+00:16:07.360 --> 00:16:12.360 align:start position:0%
+y vamos a colocarle el vector unitario.
+
+00:16:09.959 --> 00:16:15.119 align:start position:0%
+Ahora, supongamos que justo ese día tú
+
+00:16:12.360 --> 00:16:17.079 align:start position:0%
+vas a viajar eh, no sé, vamos a decir
+
+00:16:15.120 --> 00:16:19.880 align:start position:0%
+que te vas a Miami y te vas a vacunar
+
+00:16:17.079 --> 00:16:23.519 align:start position:0%
+allá, que eso está en boca de todos. Por
+
+00:16:19.880 --> 00:16:25.920 align:start position:0%
+lo tanto, vamos a poner
+
+00:16:23.519 --> 00:16:29.920 align:start position:0%
+algo así. Yo yo no dibujo muy bien las
+
+00:16:25.920 --> 00:16:32.639 align:start position:0%
+eh los aviones. Okay, más o menos vamos
+
+00:16:29.920 --> 00:16:34.680 align:start position:0%
+a poner así. Okay. No sé si aquí tiene
+
+00:16:32.639 --> 00:16:36.639 align:start position:0%
+una cola. Creo que sí.
+
+00:16:34.680 --> 00:16:40.199 align:start position:0%
+Listo. Entonces vamos a indicar que la
+
+00:16:36.639 --> 00:16:43.920 align:start position:0%
+velocidad del avión
+
+00:16:40.199 --> 00:16:46.240 align:start position:0%
+ya con respecto a quién, a ver, el avión
+
+00:16:43.920 --> 00:16:48.160 align:start position:0%
+se está moviendo con respecto al viento,
+
+00:16:46.240 --> 00:16:49.920 align:start position:0%
+¿okay? Con respecto al aire. Por lo
+
+00:16:48.160 --> 00:16:52.519 align:start position:0%
+tanto, vamos a ponerle esa velocidad
+
+00:16:49.920 --> 00:16:55.360 align:start position:0%
+relativa. La velocidad del avión con
+
+00:16:52.519 --> 00:16:57.600 align:start position:0%
+respecto al viento es igual, vamos a
+
+00:16:55.360 --> 00:17:00.560 align:start position:0%
+decir que también se mueva a la derecha,
+
+00:16:57.600 --> 00:17:02.440 align:start position:0%
+pero este a 100 metros por segundo.
+
+00:17:00.560 --> 00:17:03.880 align:start position:0%
+Okay. A la derecha.
+
+00:17:02.440 --> 00:17:07.559 align:start position:0%
+Ahora vamos a ponerlo un poco más
+
+00:17:03.880 --> 00:17:10.640 align:start position:0%
+complejo y vamos a decir que tenemos eh
+
+00:17:07.559 --> 00:17:13.480 align:start position:0%
+en el río vamos a tener un barquito,
+
+00:17:10.640 --> 00:17:15.400 align:start position:0%
+¿okay? Vamos a tener este barquito
+
+00:17:13.480 --> 00:17:17.240 align:start position:0%
+y este barquito obviamente va a ser
+
+00:17:15.400 --> 00:17:19.520 align:start position:0%
+tripulado por alguien, ¿no? Entonces
+
+00:17:17.240 --> 00:17:22.199 align:start position:0%
+vamos a ponerle a la persona dentro así,
+
+00:17:19.520 --> 00:17:24.559 align:start position:0%
+eh vamos a decir que es una chica, ¿ya?
+
+00:17:22.199 --> 00:17:28.120 align:start position:0%
+Y pero la chica está yendo hacia la
+
+00:17:24.559 --> 00:17:30.559 align:start position:0%
+izquierda, ¿okay? Entonces, la velocidad
+
+00:17:28.119 --> 00:17:32.479 align:start position:0%
+del bote,
+
+00:17:30.559 --> 00:17:35.840 align:start position:0%
+¿ya? O de la chica, si lo quieres ver
+
+00:17:32.480 --> 00:17:38.880 align:start position:0%
+así, si se dan cuenta que ambos forman
+
+00:17:35.840 --> 00:17:40.879 align:start position:0%
+un mismo sistema de referencia porque la
+
+00:17:38.880 --> 00:17:43.039 align:start position:0%
+chica y el bote están yendo a la misma
+
+00:17:40.880 --> 00:17:45.200 align:start position:0%
+velocidad, por lo tanto forman el mismo
+
+00:17:43.039 --> 00:17:48.640 align:start position:0%
+sistema de referencia. Entonces, da
+
+00:17:45.200 --> 00:17:51.600 align:start position:0%
+igual si yo en eh esta velocidad te
+
+00:17:48.640 --> 00:17:55.640 align:start position:0%
+pongo la velocidad del bote con respecto
+
+00:17:51.600 --> 00:17:57.760 align:start position:0%
+al río, ya, por ejemplo, equis, ¿okay?
+
+00:17:55.640 --> 00:18:00.559 align:start position:0%
+y que yo te diga la velocidad de la
+
+00:17:57.760 --> 00:18:02.520 align:start position:0%
+chica con respecto al río, ¿okay? Va a
+
+00:18:00.559 --> 00:18:04.840 align:start position:0%
+ser lo mismo porque ambos tienen el
+
+00:18:02.520 --> 00:18:07.200 align:start position:0%
+mismo sistema de referencia, comparten
+
+00:18:04.840 --> 00:18:09.199 align:start position:0%
+velocidades, ¿okay?
+
+00:18:07.200 --> 00:18:11.360 align:start position:0%
+Eh, y bueno, ya vamos a ver que también
+
+00:18:09.200 --> 00:18:13.559 align:start position:0%
+tiene que compartir aceleraciones.
+
+00:18:11.360 --> 00:18:15.158 align:start position:0%
+Entonces, la velocidad del bote con
+
+00:18:13.559 --> 00:18:19.559 align:start position:0%
+respecto en dónde se está moviendo el
+
+00:18:15.159 --> 00:18:21.440 align:start position:0%
+bote, en el río. Okay, en el río.
+
+00:18:19.559 --> 00:18:24.960 align:start position:0%
+Ya. Entonces, vamos a decir que se está
+
+00:18:21.440 --> 00:18:28.320 align:start position:0%
+moviendo a menos 1 metros por segundo hacia la
+
+00:18:24.960 --> 00:18:32.000 align:start position:0%
+izquierda. Okay. Ahora, si se dan
+
+00:18:28.320 --> 00:18:33.840 align:start position:0%
+cuenta, he puesto eh bastantes,
+
+00:18:32.000 --> 00:18:35.400 align:start position:0%
+¿cómo decirlo,
+
+00:18:33.840 --> 00:18:36.760 align:start position:0%
+eh?
+
+00:18:35.400 --> 00:18:38.559 align:start position:0%
+Condiciones de alguna forma. Entonces, ustedes están
+
+00:18:36.760 --> 00:18:40.158 align:start position:0%
+medios mariados, están un pocos
+
+00:18:38.559 --> 00:18:43.760 align:start position:0%
+asustados porque no saben cómo plantear
+
+00:18:40.159 --> 00:18:45.679 align:start position:0%
+la fórmula. Entonces, vamos a a
+
+00:18:43.760 --> 00:18:49.760 align:start position:0%
+preguntarnos distintas cosas. Por
+
+00:18:45.679 --> 00:18:51.320 align:start position:0%
+ejemplo, si yo les pregunto, eh,
+
+00:18:49.760 --> 00:18:54.919 align:start position:0%
+a ver, déjame ver, eso está yendo
+
+00:18:51.320 --> 00:18:57.039 align:start position:0%
+izquierda. Ya. Si yo te pregunto, ¿cuál
+
+00:18:54.919 --> 00:19:00.480 align:start position:0%
+es la velocidad
+
+00:18:57.039 --> 00:19:03.679 align:start position:0%
+de la chica con respecto a una persona
+
+00:19:00.480 --> 00:19:07.360 align:start position:0%
+que está en el avión? O sea, a ver, y
+
+00:19:03.679 --> 00:19:09.440 align:start position:0%
+esto eh para repetirlo de nuevo, si yo
+
+00:19:07.360 --> 00:19:12.678 align:start position:0%
+te pregunto cuál es la velocidad de la
+
+00:19:09.440 --> 00:19:15.559 align:start position:0%
+chica con respecto al avión, es lo mismo
+
+00:19:12.679 --> 00:19:18.720 align:start position:0%
+que preguntarte la velocidad de la chica
+
+00:19:15.559 --> 00:19:21.280 align:start position:0%
+con respecto a un pasajero. ¿Por qué?
+
+00:19:18.720 --> 00:19:24.080 align:start position:0%
+Porque el pasajero está eh yendo a la
+
+00:19:21.280 --> 00:19:25.600 align:start position:0%
+misma velocidad que la avión. Okay. Ya.
+
+00:19:24.080 --> 00:19:27.399 align:start position:0%
+Bueno, ya no vamos a entrar en detalles
+
+00:19:25.600 --> 00:19:29.719 align:start position:0%
+como decir, "Oye, pero si el pasajero va
+
+00:19:27.400 --> 00:19:30.880 align:start position:0%
+al baño", ya no está yendo a la misma
+
+00:19:29.720 --> 00:19:34.240 align:start position:0%
+velocidad.
+
+00:19:30.880 --> 00:19:36.320 align:start position:0%
+Pero son cosas que son muy muy reales, o
+
+00:19:34.240 --> 00:19:39.720 align:start position:0%
+sea, estamos simplificando un poco el el
+
+00:19:36.320 --> 00:19:40.960 align:start position:0%
+esquema, pero entienden la idea. Okay.
+
+00:19:39.720 --> 00:19:43.640 align:start position:0%
+Entonces, ¿cuál es la velocidad de la
+
+00:19:40.960 --> 00:19:46.520 align:start position:0%
+chica con respecto al avión? Ya lo que
+
+00:19:43.640 --> 00:19:49.360 align:start position:0%
+ustedes tienen que hacer es simplemente
+
+00:19:46.520 --> 00:19:52.280 align:start position:0%
+hacer el truquillo que les dije. Ya
+
+00:19:49.360 --> 00:19:53.918 align:start position:0%
+vamos a bajar eh primero los subíndices
+
+00:19:52.280 --> 00:19:56.440 align:start position:0%
+ce sobre A.
+
+00:19:53.919 --> 00:19:58.960 align:start position:0%
+Y esto me y todo la sumatoria que yo
+
+00:19:56.440 --> 00:20:02.520 align:start position:0%
+pongo acá de velocidades me tiene que
+
+00:19:58.960 --> 00:20:05.000 align:start position:0%
+dar eh congruencia, es decir, me tiene
+
+00:20:02.520 --> 00:20:08.158 align:start position:0%
+que dar una igualdad de subíndices.
+
+00:20:05.000 --> 00:20:10.400 align:start position:0%
+Vamos a poner eh sobre, sobre, sobre. No sé si
+
+00:20:08.159 --> 00:20:13.400 align:start position:0%
+son tres o son dos, pero igual yo pongo
+
+00:20:10.400 --> 00:20:16.000 align:start position:0%
+tres por si acaso. Ahora, ¿dónde vamos a
+
+00:20:13.400 --> 00:20:19.000 align:start position:0%
+partir? Vamos a partir desde la chica, o
+
+00:20:16.000 --> 00:20:21.520 align:start position:0%
+sea, desde el numerador, por decir así.
+
+00:20:19.000 --> 00:20:23.600 align:start position:0%
+Entonces, vamos a poner la velocidad de
+
+00:20:21.520 --> 00:20:26.559 align:start position:0%
+la chica.
+
+00:20:23.600 --> 00:20:27.959 align:start position:0%
+Ya, la velocidad de la chica.
+
+00:20:26.559 --> 00:20:32.200 align:start position:0%
+Ahora, ¿la chica en dónde se está
+
+00:20:27.960 --> 00:20:36.760 align:start position:0%
+moviendo? O sea, eh eh están eh montada
+
+00:20:32.200 --> 00:20:38.919 align:start position:0%
+en en qué, como decir, eh en qué espacio
+
+00:20:36.760 --> 00:20:40.600 align:start position:0%
+ya. El espacio donde está la chica es el
+
+00:20:38.919 --> 00:20:43.640 align:start position:0%
+río, ¿okay?, se está moviendo a través
+
+00:20:40.600 --> 00:20:45.760 align:start position:0%
+del río. Por lo tanto, eh voy a poner la
+
+00:20:43.640 --> 00:20:47.840 align:start position:0%
+velocidad de la chica en donde se está
+
+00:20:45.760 --> 00:20:50.158 align:start position:0%
+moviendo en el río. Por lo tanto,
+
+00:20:47.840 --> 00:20:53.320 align:start position:0%
+tenemos primero comenzamos con el
+
+00:20:50.159 --> 00:20:54.720 align:start position:0%
+numerador, ya no importa lo que tengas
+
+00:20:53.320 --> 00:20:59.000 align:start position:0%
+abajo, ¿okay? Porque después se va a
+
+00:20:54.720 --> 00:21:01.520 align:start position:0%
+eliminar. Ahora, el río se está moviendo
+
+00:20:59.000 --> 00:21:04.799 align:start position:0%
+con respecto a alguien, ¿verdad? El río
+
+00:21:01.520 --> 00:21:07.520 align:start position:0%
+no es que está en el espacio y y se está
+
+00:21:04.799 --> 00:21:09.639 align:start position:0%
+eh moviendo con respecto a a ningún
+
+00:21:07.520 --> 00:21:12.679 align:start position:0%
+observador, si no se mueve con respecto
+
+00:21:09.640 --> 00:21:15.840 align:start position:0%
+a la Tierra. Por lo tanto, vamos a poner
+
+00:21:12.679 --> 00:21:18.080 align:start position:0%
+ahora vamos a seguir en orden. Si tú
+
+00:21:15.840 --> 00:21:21.120 align:start position:0%
+pusiste el río como denominador, ahora
+
+00:21:18.080 --> 00:21:23.439 align:start position:0%
+busca la velocidad del río con respecto
+
+00:21:21.120 --> 00:21:25.918 align:start position:0%
+en donde se está moviendo. Entonces
+
+00:21:23.440 --> 00:21:28.080 align:start position:0%
+ponemos la velocidad del río con
+
+00:21:25.919 --> 00:21:30.159 align:start position:0%
+respecto y en dónde se está en dónde se
+
+00:21:28.080 --> 00:21:33.158 align:start position:0%
+está moviendo en la Tierra. Por lo
+
+00:21:30.159 --> 00:21:36.840 align:start position:0%
+tanto, tenemos erre sobre te.
+
+00:21:33.159 --> 00:21:39.279 align:start position:0%
+Ya. Ahora, lo que nos falta ya para
+
+00:21:36.840 --> 00:21:42.840 align:start position:0%
+completar eh esta igualdad, si se dan
+
+00:21:39.279 --> 00:21:47.520 align:start position:0%
+cuenta que las erre se van, es tener una te
+
+00:21:42.840 --> 00:21:51.120 align:start position:0%
+arriba y una A abajo. ¿Okay? Entonces, si yo
+
+00:21:47.520 --> 00:21:53.520 align:start position:0%
+pongo esto, al final me va a dar eh la
+
+00:21:51.120 --> 00:21:55.039 align:start position:0%
+igualdad, ¿okay? Me va a dar correcto. Y
+
+00:21:53.520 --> 00:21:57.440 align:start position:0%
+ahí es cuando está planteado de una
+
+00:21:55.039 --> 00:22:00.960 align:start position:0%
+forma correcta, ¿ya? Entonces, esta es
+
+00:21:57.440 --> 00:22:03.840 align:start position:0%
+la velocidad de la Tierra con respecto
+
+00:22:00.960 --> 00:22:05.880 align:start position:0%
+al avión. ¿Okay? Con respecto al avión.
+
+00:22:03.840 --> 00:22:09.039 align:start position:0%
+Ahora, ustedes me preguntan, "Oye, yo
+
+00:22:05.880 --> 00:22:11.559 align:start position:0%
+nunca yo nunca nunca nunca he visto que
+
+00:22:09.039 --> 00:22:14.480 align:start position:0%
+pongan la velocidad de la Tierra con
+
+00:22:11.559 --> 00:22:17.240 align:start position:0%
+respecto a equis cosa. O sea, yo siempre he
+
+00:22:14.480 --> 00:22:19.039 align:start position:0%
+visto la velocidad de equis cosa con
+
+00:22:17.240 --> 00:22:21.440 align:start position:0%
+respecto a la tierra, ya. Pero nunca he
+
+00:22:19.039 --> 00:22:24.120 align:start position:0%
+visto esto. Entonces, ¿esto es correcto?"
+
+00:22:21.440 --> 00:22:25.760 align:start position:0%
+Y sí, porque como la Tierra es un,
+
+00:22:24.120 --> 00:22:29.360 align:start position:0%
+bueno, es un ser vivo, de hecho, y es un
+
+00:22:25.760 --> 00:22:31.279 align:start position:0%
+observador más, por lo tanto, eh va a
+
+00:22:29.360 --> 00:22:33.678 align:start position:0%
+tener, o sea, se lo considera como
+
+00:22:31.279 --> 00:22:35.880 align:start position:0%
+observador. Así que tú puedes decir la
+
+00:22:33.679 --> 00:22:38.520 align:start position:0%
+eh velocidad de la Tierra con respecto a
+
+00:22:35.880 --> 00:22:41.200 align:start position:0%
+mí, por ejemplo, o al revés, ¿ya? La
+
+00:22:38.520 --> 00:22:42.720 align:start position:0%
+única regla está en esto. Ya. Esto
+
+00:22:41.200 --> 00:22:46.200 align:start position:0%
+también es una fórmula que se deben
+
+00:22:42.720 --> 00:22:50.919 align:start position:0%
+aprender y es muy sencilla.
+
+00:22:46.200 --> 00:22:54.679 align:start position:0%
+La velocidad de A con respecto a be tiene
+
+00:22:50.919 --> 00:22:57.640 align:start position:0%
+que ser el negativo de la velocidad de be
+
+00:22:54.679 --> 00:23:01.840 align:start position:0%
+con respecto a A. Okay. Esto se aplica
+
+00:22:57.640 --> 00:23:05.880 align:start position:0%
+siempre, siempre, siempre. Por lo tanto,
+
+00:23:01.840 --> 00:23:09.158 align:start position:0%
+eh, si yo quiero poner, a ver, yo les
+
+00:23:05.880 --> 00:23:11.520 align:start position:0%
+pregunto, ¿tú tienes la velocidad de de
+
+00:23:09.159 --> 00:23:13.720 align:start position:0%
+la chica con respecto al río? Simón, sí
+
+00:23:11.520 --> 00:23:16.679 align:start position:0%
+la tienes porque es la misma que la del
+
+00:23:13.720 --> 00:23:18.400 align:start position:0%
+bote que yo te dije que es menos 1. Tú tienes
+
+00:23:16.679 --> 00:23:21.919 align:start position:0%
+la velocidad del río con respecto a la
+
+00:23:18.400 --> 00:23:23.600 align:start position:0%
+tierra, simón, es 2 metros a la derecha.
+
+00:23:21.919 --> 00:23:25.640 align:start position:0%
+Ahora yo te pregunto, ¿tú tienes la
+
+00:23:23.600 --> 00:23:31.000 align:start position:0%
+velocidad de la tierra con respecto al
+
+00:23:25.640 --> 00:23:34.760 align:start position:0%
+avión? Ya. Vamos a ver si eh esta
+
+00:23:31.000 --> 00:23:34.760 align:start position:0%
+velocidad me indica
+
+00:23:34.960 --> 00:23:41.240 align:start position:0%
+ya eh no la tienes. A ver, de hecho, de
+
+00:23:38.440 --> 00:23:43.440 align:start position:0%
+hecho, perdón, eh aquí me faltó otro
+
+00:23:41.240 --> 00:23:46.000 align:start position:0%
+otra velocidad. Se está moviendo con
+
+00:23:43.440 --> 00:23:47.480 align:start position:0%
+respecto eh al viento a la derecha.
+
+00:23:46.000 --> 00:23:50.679 align:start position:0%
+Entonces, debemos poner el viento,
+
+00:23:47.480 --> 00:23:52.600 align:start position:0%
+¿okay? La velocidad del viento con
+
+00:23:50.679 --> 00:23:54.679 align:start position:0%
+respecto a la Tierra, vamos a decir que
+
+00:23:52.600 --> 00:23:56.199 align:start position:0%
+es igual que justo el viento está
+
+00:23:54.679 --> 00:23:58.279 align:start position:0%
+soplando a la izquierda. Si bien que
+
+00:23:56.200 --> 00:24:00.640 align:start position:0%
+estoy complicando las cosas ya, pero no
+
+00:23:58.279 --> 00:24:02.840 align:start position:0%
+importa cuánto compliques las cosas,
+
+00:24:00.640 --> 00:24:05.039 align:start position:0%
+cuántos observadores pongas, siempre va
+
+00:24:02.840 --> 00:24:07.520 align:start position:0%
+a ser la misma técnica. Entonces va, ya
+
+00:24:05.039 --> 00:24:10.360 align:start position:0%
+vamos a ver que añadimos esto y se
+
+00:24:07.520 --> 00:24:12.480 align:start position:0%
+corrige solo y vamos a decir que el
+
+00:24:10.360 --> 00:24:14.360 align:start position:0%
+avión, perdón, que el viento está
+
+00:24:12.480 --> 00:24:15.600 align:start position:0%
+moviéndose con respecto a la Tierra
+
+00:24:14.360 --> 00:24:18.158 align:start position:0%
+porque el viento está en la Tierra,
+
+00:24:15.600 --> 00:24:22.080 align:start position:0%
+¿verdad? Se mueve en ese espacio. Va a
+
+00:24:18.159 --> 00:24:25.399 align:start position:0%
+ser de menos 10 metros por segundo a la izquierda.
+
+00:24:22.080 --> 00:24:27.360 align:start position:0%
+Okay, déjenme borrar
+
+00:24:25.399 --> 00:24:29.039 align:start position:0%
+esta parte.
+
+00:24:27.360 --> 00:24:33.199 align:start position:0%
+Entonces,
+
+00:24:29.039 --> 00:24:36.320 align:start position:0%
+ya vamos, eh,
+
+00:24:33.200 --> 00:24:40.240 align:start position:0%
+bueno, si ustedes quieren con eh,
+
+00:24:36.320 --> 00:24:42.200 align:start position:0%
+perdón, déjame ahí está dibujar acá.
+
+00:24:40.240 --> 00:24:43.799 align:start position:0%
+Ya vamos a añadir, no vamos a ni
+
+00:24:42.200 --> 00:24:46.760 align:start position:0%
+siquiera a borrar algo, sino vamos a
+
+00:24:43.799 --> 00:24:50.879 align:start position:0%
+añadir algo. ¿Por qué? Porque ya tú
+
+00:24:46.760 --> 00:24:53.399 align:start position:0%
+eliminaste te, ¿verdad? Ya tú eliminaste
+
+00:24:50.880 --> 00:24:55.399 align:start position:0%
+te. Entonces, bueno, esta igualdad ya
+
+00:24:53.399 --> 00:24:57.799 align:start position:0%
+está completada, mejor dicho, ya está
+
+00:24:55.399 --> 00:25:02.000 align:start position:0%
+completada.
+
+00:24:57.799 --> 00:25:06.399 align:start position:0%
+Eh, a ver, eh, CA es igual a CA. Ya,
+
+00:25:02.000 --> 00:25:09.960 align:start position:0%
+pero pero tú no tienes la velocidad de
+
+00:25:06.399 --> 00:25:12.199 align:start position:0%
+la Tierra con respecto al avión, ¿okay?
+
+00:25:09.960 --> 00:25:15.120 align:start position:0%
+Tú no la tienes en ningún lado te lo
+
+00:25:12.200 --> 00:25:17.440 align:start position:0%
+puse, ¿verdad? Entonces, ¿cómo
+
+00:25:15.120 --> 00:25:20.000 align:start position:0%
+averiguamos? Primero que es mejor
+
+00:25:17.440 --> 00:25:23.200 align:start position:0%
+siempre, siempre, siempre, siempre tener
+
+00:25:20.000 --> 00:25:25.880 align:start position:0%
+al revés, o sea, este subíndice eh no
+
+00:25:23.200 --> 00:25:28.279 align:start position:0%
+como que no está bien, no está tan bien.
+
+00:25:25.880 --> 00:25:30.120 align:start position:0%
+Entonces, lo vamos a poner, me interesa
+
+00:25:28.279 --> 00:25:31.679 align:start position:0%
+saber la velocidad del avión con
+
+00:25:30.120 --> 00:25:34.639 align:start position:0%
+respecto a la Tierra. Eso me interesa
+
+00:25:31.679 --> 00:25:37.240 align:start position:0%
+saber. Okay. Entonces, ustedes aplican
+
+00:25:34.640 --> 00:25:39.600 align:start position:0%
+lo que les enseñé, que simplemente es el
+
+00:25:37.240 --> 00:25:43.240 align:start position:0%
+negativo, ¿okay?. que simplemente es el
+
+00:25:39.600 --> 00:25:45.279 align:start position:0%
+negativo. Por lo tanto, de tener esta
+
+00:25:43.240 --> 00:25:49.480 align:start position:0%
+formulita,
+
+00:25:45.279 --> 00:25:53.559 align:start position:0%
+voy a pasar a tener la siguiente.
+
+00:25:49.480 --> 00:25:56.240 align:start position:0%
+Yo copio igual esto yo tengo, esto yo
+
+00:25:53.559 --> 00:25:59.639 align:start position:0%
+tengo, más la velocidad del río con
+
+00:25:56.240 --> 00:26:02.440 align:start position:0%
+respecto a la tierra, también tengo esto.
+
+00:25:59.640 --> 00:26:05.200 align:start position:0%
+Ya, pero en vez de más, este lo vamos a
+
+00:26:02.440 --> 00:26:07.600 align:start position:0%
+reemplazar por esto, ¿okay? Entonces me
+
+00:26:05.200 --> 00:26:10.960 align:start position:0%
+quedaría un menos en realidad.
+
+00:26:07.600 --> 00:26:13.480 align:start position:0%
+Ya. Ahora, el único parámetro que me
+
+00:26:10.960 --> 00:26:15.320 align:start position:0%
+falta es ese, ¿no? La velocidad del
+
+00:26:13.480 --> 00:26:17.520 align:start position:0%
+avión con respecto a la Tierra.
+
+00:26:15.320 --> 00:26:19.200 align:start position:0%
+Entonces, ¿cómo haríamos eso? Simplemente
+
+00:26:17.520 --> 00:26:22.240 align:start position:0%
+hacemos lo mismo, el mismo el mismo
+
+00:26:19.200 --> 00:26:24.640 align:start position:0%
+truco de acá. La velocidad del avión con
+
+00:26:22.240 --> 00:26:26.960 align:start position:0%
+respecto a un observador en la Tierra
+
+00:26:24.640 --> 00:26:29.120 align:start position:0%
+tiene que ser igual el avión en dónde se
+
+00:26:26.960 --> 00:26:31.960 align:start position:0%
+está moviendo a través del viento. Por
+
+00:26:29.120 --> 00:26:35.199 align:start position:0%
+lo tanto, la velocidad del avión con
+
+00:26:31.960 --> 00:26:37.279 align:start position:0%
+respecto al viento, ¿ya? más. Y el
+
+00:26:35.200 --> 00:26:39.640 align:start position:0%
+viento se está moviendo en dónde, en qué
+
+00:26:37.279 --> 00:26:41.880 align:start position:0%
+espacio en la Tierra. Por lo tanto, más
+
+00:26:39.640 --> 00:26:44.880 align:start position:0%
+la velocidad del viento con respecto a
+
+00:26:41.880 --> 00:26:48.039 align:start position:0%
+la Tierra. Vamos a poner su los
+
+00:26:44.880 --> 00:26:53.000 align:start position:0%
+subíndices. A sobre te tiene que ser igual a
+
+00:26:48.039 --> 00:26:55.559 align:start position:0%
+A sobre ve por ve sobre te. Se me va eh este
+
+00:26:53.000 --> 00:26:57.960 align:start position:0%
+término y me queda la igualdad. Por lo
+
+00:26:55.559 --> 00:27:00.480 align:start position:0%
+tanto, está muy bien desarrollado. Ahora
+
+00:26:57.960 --> 00:27:02.399 align:start position:0%
+yo tengo esto, simón, yo te dije que la
+
+00:27:00.480 --> 00:27:06.840 align:start position:0%
+velocidad del avión con respecto al
+
+00:27:02.399 --> 00:27:09.199 align:start position:0%
+viento era igual a 100 metros por segundo a
+
+00:27:06.840 --> 00:27:12.039 align:start position:0%
+la derecha. Yo tengo la velocidad del
+
+00:27:09.200 --> 00:27:14.840 align:start position:0%
+viento con respecto a la tierra también.
+
+00:27:12.039 --> 00:27:16.600 align:start position:0%
+Por lo tanto, yo tengo esto. Simplemente
+
+00:27:14.840 --> 00:27:20.240 align:start position:0%
+lo reemplazo acá cuando hay este
+
+00:27:16.600 --> 00:27:21.918 align:start position:0%
+resultado y ya tengo el resultado acá.
+
+00:27:20.240 --> 00:27:25.799 align:start position:0%
+Okay, si tienen que ver el video varias
+
+00:27:21.919 --> 00:27:27.840 align:start position:0%
+veces, por favor véanlo. Eh, pero yo les
+
+00:27:25.799 --> 00:27:29.440 align:start position:0%
+compliqué bastante. Nunca les van a
+
+00:27:27.840 --> 00:27:33.320 align:start position:0%
+tomar eso, o sea, nunca, olvídense.
+
+00:27:29.440 --> 00:27:35.640 align:start position:0%
+Nunca, nunca. Ya, pero yo les doy para
+
+00:27:33.320 --> 00:27:39.080 align:start position:0%
+que de alguna forma ustedes vean que
+
+00:27:35.640 --> 00:27:42.480 align:start position:0%
+supuestamente es complejo, ¿ya? Pero
+
+00:27:39.080 --> 00:27:45.600 align:start position:0%
+cuando tú dominas y tienes en tu cabeza
+
+00:27:42.480 --> 00:27:47.640 align:start position:0%
+ya primero el concepto que les dije que
+
+00:27:45.600 --> 00:27:50.439 align:start position:0%
+un observador es distinto que un sistema
+
+00:27:47.640 --> 00:27:52.679 align:start position:0%
+de referencia, ¿okay? es muy parecido.
+
+00:27:50.440 --> 00:27:55.120 align:start position:0%
+Ya yo lo quiero ver distinto. Eh, capaz
+
+00:27:52.679 --> 00:27:58.480 align:start position:0%
+que un libro me va a achacar y me dice
+
+00:27:55.120 --> 00:28:01.399 align:start position:0%
+que no, pero eh en la forma práctica
+
+00:27:58.480 --> 00:28:03.600 align:start position:0%
+sirve. Okay. Sirve. Por lo tanto, cuando
+
+00:28:01.399 --> 00:28:06.360 align:start position:0%
+hablamos de posición, ahí sí hablamos
+
+00:28:03.600 --> 00:28:09.240 align:start position:0%
+observador, porque ya la posición es
+
+00:28:06.360 --> 00:28:11.360 align:start position:0%
+depende depende de tu origen, ¿okay? Eh,
+
+00:28:09.240 --> 00:28:14.200 align:start position:0%
+cada uno como que mira las cosas desde
+
+00:28:11.360 --> 00:28:16.199 align:start position:0%
+su propia perspectiva, pero en cambio en
+
+00:28:14.200 --> 00:28:17.840 align:start position:0%
+términos de velocidad, en términos de
+
+00:28:16.200 --> 00:28:19.760 align:start position:0%
+aceleración,
+
+00:28:17.840 --> 00:28:22.559 align:start position:0%
+ahí sí te importa saber el sistema de
+
+00:28:19.760 --> 00:28:24.679 align:start position:0%
+referencia. Ahí sí te importa.
+
+00:28:22.559 --> 00:28:27.279 align:start position:0%
+Ya. Y por ejemplo, eh lo que yo les
+
+00:28:24.679 --> 00:28:29.159 align:start position:0%
+dije, acuérdense que, por ejemplo, la
+
+00:28:27.279 --> 00:28:32.039 align:start position:0%
+velocidad de la chica y el bote es la
+
+00:28:29.159 --> 00:28:34.080 align:start position:0%
+misma, por lo tanto, ambos forman el
+
+00:28:32.039 --> 00:28:36.879 align:start position:0%
+mismo sistema de referencia. Ya, no
+
+00:28:34.080 --> 00:28:39.000 align:start position:0%
+importa si tú te preguntas la velocidad
+
+00:28:36.880 --> 00:28:40.840 align:start position:0%
+de la chica con respecto al avión que
+
+00:28:39.000 --> 00:28:43.159 align:start position:0%
+preguntarse la velocidad del bote con
+
+00:28:40.840 --> 00:28:44.799 align:start position:0%
+respecto al avión. Es la misma pregunta,
+
+00:28:43.159 --> 00:28:47.320 align:start position:0%
+¿okay? Es la eh va a ser te va a salir
+
+00:28:44.799 --> 00:28:50.000 align:start position:0%
+lo mismo. Ya. Y lo que quiero que no se
+
+00:28:47.320 --> 00:28:52.760 align:start position:0%
+olviden es siempre comprobar con esta
+
+00:28:50.000 --> 00:28:54.559 align:start position:0%
+fórmula, o sea, siempre los subíndices
+
+00:28:52.760 --> 00:28:57.760 align:start position:0%
+eh lo tienen que bajar como si fuera
+
+00:28:54.559 --> 00:29:00.600 align:start position:0%
+divisiones y multiplicar los eh los
+
+00:28:57.760 --> 00:29:02.640 align:start position:0%
+subíndices de a la derecha, ¿okay? Los
+
+00:29:00.600 --> 00:29:04.760 align:start position:0%
+que están en la parte de la derecha,
+
+00:29:02.640 --> 00:29:07.039 align:start position:0%
+nada más. Y simplemente tienen que
+
+00:29:04.760 --> 00:29:09.840 align:start position:0%
+sumar, sumar, sumar hasta que les dé una
+
+00:29:07.039 --> 00:29:12.039 align:start position:0%
+congruencia, una igualdad. ¿Okay? Y
+
+00:29:09.840 --> 00:29:15.399 align:start position:0%
+siempre vayan en orden. O sea, como yo
+
+00:29:12.039 --> 00:29:17.279 align:start position:0%
+fui primero eh me preguntaron esto, yo
+
+00:29:15.399 --> 00:29:19.879 align:start position:0%
+fui en orden, comencé con la chica,
+
+00:29:17.279 --> 00:29:22.600 align:start position:0%
+porque este es el numerador y yo
+
+00:29:19.880 --> 00:29:24.399 align:start position:0%
+visualicé la chica se está moviendo a
+
+00:29:22.600 --> 00:29:26.360 align:start position:0%
+través de qué, a través de qué espacio?
+
+00:29:24.399 --> 00:29:29.199 align:start position:0%
+del río. Okay. Entonces, le pongo
+
+00:29:26.360 --> 00:29:31.120 align:start position:0%
+velocidad con respecto al río. Ahora, el
+
+00:29:29.200 --> 00:29:33.600 align:start position:0%
+río se está moviendo con respecto a
+
+00:29:31.120 --> 00:29:36.760 align:start position:0%
+algo, o sea, de ley, ya. Eh, no es que
+
+00:29:33.600 --> 00:29:39.120 align:start position:0%
+el río está en el espacio, ¿no? Por lo
+
+00:29:36.760 --> 00:29:40.840 align:start position:0%
+tanto, eh, el río con respecto a la
+
+00:29:39.120 --> 00:29:42.559 align:start position:0%
+Tierra. Entonces ahí se me va eliminando
+
+00:29:40.840 --> 00:29:46.240 align:start position:0%
+el río y yo wait, o sea, ya estoy
+
+00:29:42.559 --> 00:29:49.039 align:start position:0%
+avanzando algo, ¿no? Ahora, eh, para
+
+00:29:46.240 --> 00:29:51.799 align:start position:0%
+nosotros eliminar y alcanzar la letra A,
+
+00:29:49.039 --> 00:29:54.840 align:start position:0%
+ya y este ya es el paso último, entonces
+
+00:29:51.799 --> 00:29:57.120 align:start position:0%
+yo eh puedo poner esto, ¿okay? Ya puedo
+
+00:29:54.840 --> 00:29:59.559 align:start position:0%
+poner esto para eliminar la tierra, pero
+
+00:29:57.120 --> 00:30:02.439 align:start position:0%
+me queda eh la velocidad de la tierra
+
+00:29:59.559 --> 00:30:04.799 align:start position:0%
+con respecto al avión, ¿ya? Y eso eh
+
+00:30:02.440 --> 00:30:06.000 align:start position:0%
+prácticamente lo tienes que cambiar,
+
+00:30:04.799 --> 00:30:07.679 align:start position:0%
+¿okay?
+
+00:30:06.000 --> 00:30:09.440 align:start position:0%
+Entonces, lo tienes que cambiar por
+
+00:30:07.679 --> 00:30:12.399 align:start position:0%
+menos la velocidad del avión con
+
+00:30:09.440 --> 00:30:14.200 align:start position:0%
+respecto a la tierra. ¿Okay?
+
+00:30:12.399 --> 00:30:16.360 align:start position:0%
+Ya, por esta formulita que también
+
+00:30:14.200 --> 00:30:18.799 align:start position:0%
+acuérdense
+
+00:30:16.360 --> 00:30:20.479 align:start position:0%
+esta fórmula que les puse acá, ya no se
+
+00:30:18.799 --> 00:30:21.760 align:start position:0%
+vayan a olvidar eso. Eso aplica para
+
+00:30:20.480 --> 00:30:23.799 align:start position:0%
+todo, o sea, en tres dimensiones, dos
+
+00:30:21.760 --> 00:30:25.840 align:start position:0%
+dimensiones con observador, eh, con
+
+00:30:23.799 --> 00:30:29.000 align:start position:0%
+cualquier observador.
+
+00:30:25.840 --> 00:30:30.799 align:start position:0%
+Y nada más eh esto con respecto a la
+
+00:30:29.000 --> 00:30:34.960 align:start position:0%
+teoría de lo que sería el movimiento
+
+00:30:30.799 --> 00:30:36.440 align:start position:0%
+relativo. Ya, déjenme ver si es que, ah,
+
+00:30:34.960 --> 00:30:38.240 align:start position:0%
+cierto, les voy a dar los casos,
+
+00:30:36.440 --> 00:30:41.200 align:start position:0%
+¿verdad? Me me estaba olvidando de los
+
+00:30:38.240 --> 00:30:44.159 align:start position:0%
+casos. Ahora, si se dan cuenta que esto
+
+00:30:41.200 --> 00:30:46.480 align:start position:0%
+es complejo, ¿verdad? Ya esto es medio
+
+00:30:44.159 --> 00:30:48.039 align:start position:0%
+complejo y es medio difícil de entender.
+
+00:30:46.480 --> 00:30:50.000 align:start position:0%
+Ya tienes que saber muy bien lo que es
+
+00:30:48.039 --> 00:30:54.240 align:start position:0%
+sistema de referencia, lo que es un
+
+00:30:50.000 --> 00:30:57.080 align:start position:0%
+observador, cuál es diferencia. Pero si
+
+00:30:54.240 --> 00:30:59.159 align:start position:0%
+tú tienes un caso
+
+00:30:57.080 --> 00:31:01.639 align:start position:0%
+uno, que ya les voy a dar cuál es el
+
+00:30:59.159 --> 00:31:05.399 align:start position:0%
+caso uno. Ustedes van a aplicar
+
+00:31:01.639 --> 00:31:08.879 align:start position:0%
+simplemente esto, una resta de vectores,
+
+00:31:05.399 --> 00:31:12.518 align:start position:0%
+ya? Si te preguntan la velocidad de A
+
+00:31:08.880 --> 00:31:15.679 align:start position:0%
+con respecto a be, vas a hacer esto, la
+
+00:31:12.519 --> 00:31:19.320 align:start position:0%
+velocidad de A menos la velocidad de be.
+
+00:31:15.679 --> 00:31:22.440 align:start position:0%
+Okay. Esta simple ecuación es muy
+
+00:31:19.320 --> 00:31:27.320 align:start position:0%
+poderosa. En el caso uno, ¿cuál es el
+
+00:31:22.440 --> 00:31:29.919 align:start position:0%
+caso uno? El caso uno ya es cuando ambos
+
+00:31:27.320 --> 00:31:31.439 align:start position:0%
+objetos que se están comparando en
+
+00:31:29.919 --> 00:31:33.480 align:start position:0%
+velocidades,
+
+00:31:31.440 --> 00:31:36.639 align:start position:0%
+¿okay?
+
+00:31:33.480 --> 00:31:38.120 align:start position:0%
+Se mueven a través de un mismo espacio,
+
+00:31:36.639 --> 00:31:43.199 align:start position:0%
+a través de un mismo sistema de
+
+00:31:38.120 --> 00:31:45.639 align:start position:0%
+referencia. Ambos objetos se mueven
+
+00:31:43.200 --> 00:31:47.880 align:start position:0%
+a través del el mismo sistema de
+
+00:31:45.639 --> 00:31:49.439 align:start position:0%
+referencia o del mismo espacio, ¿okay?
+
+00:31:47.880 --> 00:31:52.039 align:start position:0%
+Vamos a decir que se mueven en la misma
+
+00:31:49.440 --> 00:31:57.080 align:start position:0%
+plataforma, ¿okay? Y vamos a ponerle que
+
+00:31:52.039 --> 00:31:59.399 align:start position:0%
+plataforma entre comillas porque eh
+
+00:31:57.080 --> 00:32:02.760 align:start position:0%
+plataforma. Estamos hablando de espacio
+
+00:31:59.399 --> 00:32:05.039 align:start position:0%
+o de sistema de referencia. Okay. Ahora,
+
+00:32:02.760 --> 00:32:07.399 align:start position:0%
+¿cuándo esto es válido? O o ¿A qué me
+
+00:32:05.039 --> 00:32:12.240 align:start position:0%
+refiero con la misma plataforma? Por
+
+00:32:07.399 --> 00:32:13.760 align:start position:0%
+ejemplo, si eh un avión,
+
+00:32:12.240 --> 00:32:16.919 align:start position:0%
+ya un avión, vamos a dibujar un avión
+
+00:32:13.760 --> 00:32:19.559 align:start position:0%
+que vamos a ver si me sale. Ya, ahí está
+
+00:32:16.919 --> 00:32:21.399 align:start position:0%
+más o menos el avión. Se está moviendo
+
+00:32:19.559 --> 00:32:26.158 align:start position:0%
+eh, con un vector hacia allá, o sea, con
+
+00:32:21.399 --> 00:32:29.120 align:start position:0%
+un ángulo de teta. Okay. Ahora, eh
+
+00:32:26.159 --> 00:32:31.880 align:start position:0%
+imaginemos que el viento está soplando
+
+00:32:29.120 --> 00:32:33.918 align:start position:0%
+ya, está yendo hacia hacia acá, por
+
+00:32:31.880 --> 00:32:36.880 align:start position:0%
+ejemplo. Okay. El viento, la velocidad
+
+00:32:33.919 --> 00:32:39.720 align:start position:0%
+del viento con respecto a la Tierra es
+
+00:32:36.880 --> 00:32:41.600 align:start position:0%
+tiene una dirección de tanto. ¿Qué va a
+
+00:32:39.720 --> 00:32:44.600 align:start position:0%
+pasar si tú tienes un avión que es
+
+00:32:41.600 --> 00:32:47.360 align:start position:0%
+vecino? Vamos a decir que es un avión eh
+
+00:32:44.600 --> 00:32:49.918 align:start position:0%
+que está muy cerca de este,
+
+00:32:47.360 --> 00:32:53.240 align:start position:0%
+¿ya? Pero en cambio este avión se está
+
+00:32:49.919 --> 00:32:55.840 align:start position:0%
+moviendo a la derecha. ¿Okay? Ahora yo
+
+00:32:53.240 --> 00:32:59.440 align:start position:0%
+les pregunto, si este video lo vamos a
+
+00:32:55.840 --> 00:33:01.240 align:start position:0%
+llamar A y este be, ¿cuál es la velocidad
+
+00:32:59.440 --> 00:33:03.760 align:start position:0%
+de A
+
+00:33:01.240 --> 00:33:06.320 align:start position:0%
+con respecto a be?
+
+00:33:03.760 --> 00:33:09.799 align:start position:0%
+Ya, si te preguntan eso, ahí tú primero
+
+00:33:06.320 --> 00:33:13.600 align:start position:0%
+dices: "Chuta, pero este man me enseñó
+
+00:33:09.799 --> 00:33:16.399 align:start position:0%
+que, a ver, el avión ya, a ver, el avión
+
+00:33:13.600 --> 00:33:17.918 align:start position:0%
+A se está moviendo." A ver, te preguntan
+
+00:33:16.399 --> 00:33:20.799 align:start position:0%
+esto, ¿verdad? Entonces, yo les dije
+
+00:33:17.919 --> 00:33:23.399 align:start position:0%
+primero comiencen con A.
+
+00:33:20.799 --> 00:33:24.918 align:start position:0%
+A ver, eh, déjenme ver. ¿Qué pregunta?
+
+00:33:23.399 --> 00:33:26.879 align:start position:0%
+Me tengo que ir. Muchas gracias. Dale,
+
+00:33:24.919 --> 00:33:28.880 align:start position:0%
+Joel.
+
+00:33:26.880 --> 00:33:31.279 align:start position:0%
+A ver, entonces
+
+00:33:28.880 --> 00:33:33.639 align:start position:0%
+me dicen la velocidad del avión, yo les
+
+00:33:31.279 --> 00:33:35.120 align:start position:0%
+enseño así, ¿no? Con respecto a dónde se
+
+00:33:33.639 --> 00:33:37.840 align:start position:0%
+está moviendo, se está moviendo a través
+
+00:33:35.120 --> 00:33:39.439 align:start position:0%
+del viento, ¿verdad? Ya. Ahora, y así
+
+00:33:37.840 --> 00:33:41.918 align:start position:0%
+comenzamos la velocidad del viento.
+
+00:33:39.440 --> 00:33:44.480 align:start position:0%
+Entonces, ¿en dónde se está moviendo? En
+
+00:33:41.919 --> 00:33:47.159 align:start position:0%
+la Tierra. Ahora, la velocidad de la
+
+00:33:44.480 --> 00:33:50.960 align:start position:0%
+Tierra con respecto a be, ¿ya?, y ahí
+
+00:33:47.159 --> 00:33:53.080 align:start position:0%
+eliminas todos los subíndices, pero este
+
+00:33:50.960 --> 00:33:54.760 align:start position:0%
+no es la forma práctica. ¿Okay? Esta no
+
+00:33:53.080 --> 00:33:58.559 align:start position:0%
+es la forma práctica porque estás en el
+
+00:33:54.760 --> 00:34:00.919 align:start position:0%
+caso uno. Tú dices el caso uno, bacán.
+
+00:33:58.559 --> 00:34:03.240 align:start position:0%
+Ya. ¿Por qué yo sé que se estamos
+
+00:34:00.919 --> 00:34:06.240 align:start position:0%
+hablando del caso uno? Porque ambos
+
+00:34:03.240 --> 00:34:08.199 align:start position:0%
+objetos se mueven en la misma
+
+00:34:06.240 --> 00:34:10.440 align:start position:0%
+plataforma, ¿okay? En la misma
+
+00:34:08.199 --> 00:34:14.000 align:start position:0%
+plataforma. ¿Cuál es esa plataforma o
+
+00:34:10.440 --> 00:34:17.200 align:start position:0%
+ese espacio? Es el viento. Este avión A
+
+00:34:14.000 --> 00:34:19.960 align:start position:0%
+se mueve a través del viento. Este avión
+
+00:34:17.199 --> 00:34:22.759 align:start position:0%
+be se mueve a través del viento. Por lo
+
+00:34:19.960 --> 00:34:24.119 align:start position:0%
+tanto, ambos se están moviendo en el
+
+00:34:22.760 --> 00:34:27.720 align:start position:0%
+mismo espacio, a través del mismo
+
+00:34:24.119 --> 00:34:30.079 align:start position:0%
+espacio. Entonces, tienes el caso uno y
+
+00:34:27.719 --> 00:34:34.598 align:start position:0%
+simplemente vas a hacer esto. La
+
+00:34:30.079 --> 00:34:38.200 align:start position:0%
+velocidad de A sobre be es igual a la
+
+00:34:34.599 --> 00:34:40.839 align:start position:0%
+resta de velocidades nada más. Okay, no
+
+00:34:38.199 --> 00:34:45.040 align:start position:0%
+se vayan a complicar. Y se preguntan,
+
+00:34:40.839 --> 00:34:48.040 align:start position:0%
+oye, esta velocidad A es con respecto a
+
+00:34:45.040 --> 00:34:51.079 align:start position:0%
+algo y sí, las velocidades A y la
+
+00:34:48.040 --> 00:34:54.320 align:start position:0%
+velocidad be es con respecto a la misma
+
+00:34:51.079 --> 00:34:56.320 align:start position:0%
+plataforma. Okay. Entonces, en teoría,
+
+00:34:54.320 --> 00:34:59.839 align:start position:0%
+por ejemplo, eh ah, yo les indiqué,
+
+00:34:56.320 --> 00:35:04.599 align:start position:0%
+¿verdad?, que la velocidad del avión con
+
+00:34:59.839 --> 00:35:07.000 align:start position:0%
+respecto al viento era este vector
+
+00:35:04.599 --> 00:35:10.280 align:start position:0%
+y la velocidad del avión be con respecto
+
+00:35:07.000 --> 00:35:11.920 align:start position:0%
+al viento era este vector. Por lo tanto,
+
+00:35:10.280 --> 00:35:14.440 align:start position:0%
+esta velocidad es la que tienes que
+
+00:35:11.920 --> 00:35:17.800 align:start position:0%
+poner acá y esta velocidad es la que
+
+00:35:14.440 --> 00:35:20.880 align:start position:0%
+tienes que poner acá. ¿Okay?
+
+00:35:17.800 --> 00:35:23.920 align:start position:0%
+Ya. Y si se dan cuenta y somos un poco
+
+00:35:20.880 --> 00:35:27.040 align:start position:0%
+eh curiosos, ya vamos a ponerlos con
+
+00:35:23.920 --> 00:35:31.240 align:start position:0%
+subíndices para que ustedes vean.
+
+00:35:27.040 --> 00:35:35.520 align:start position:0%
+Ya, menos la velocidad del viento con
+
+00:35:31.240 --> 00:35:37.640 align:start position:0%
+respecto al avión, al avión be.
+
+00:35:35.520 --> 00:35:40.800 align:start position:0%
+Déjenme borrar acá. Vamos a poner eh
+
+00:35:37.640 --> 00:35:43.118 align:start position:0%
+avión be.
+
+00:35:40.800 --> 00:35:45.800 align:start position:0%
+Ya. Si ustedes son eh curiosos, van a
+
+00:35:43.119 --> 00:35:47.720 align:start position:0%
+ver algo muy importante. A ver. Y vamos
+
+00:35:45.800 --> 00:35:48.839 align:start position:0%
+a poner la velocidad de A con respecto a
+
+00:35:47.720 --> 00:35:51.799 align:start position:0%
+be.
+
+00:35:48.839 --> 00:35:53.599 align:start position:0%
+Ya vamos a decir, vamos a reemplazar
+
+00:35:51.800 --> 00:35:56.520 align:start position:0%
+esto.
+
+00:35:53.599 --> 00:35:59.960 align:start position:0%
+Ya yo les dije que la velocidad de equis
+
+00:35:56.520 --> 00:36:02.720 align:start position:0%
+cosa con respecto a equis cosa siempre es
+
+00:35:59.960 --> 00:36:04.800 align:start position:0%
+igual a menos y intercambias los
+
+00:36:02.720 --> 00:36:07.240 align:start position:0%
+subíndices.
+
+00:36:04.800 --> 00:36:12.040 align:start position:0%
+Okay. Por lo tanto, multiplicamos un
+
+00:36:07.240 --> 00:36:13.839 align:start position:0%
+menos. Este se hace más. Entonces esto
+
+00:36:12.040 --> 00:36:18.480 align:start position:0%
+tiene que ser igual a esto. Entonces
+
+00:36:13.839 --> 00:36:24.240 align:start position:0%
+reemplazo la velocidad de A sobre be.
+
+00:36:18.480 --> 00:36:26.680 align:start position:0%
+más la velocidad de be sobre ve.
+
+00:36:24.240 --> 00:36:29.598 align:start position:0%
+Okay, vamos a ponerle acá los estos
+
+00:36:26.680 --> 00:36:32.919 align:start position:0%
+gorritos. Entonces, si hacemos el truco
+
+00:36:29.599 --> 00:36:36.400 align:start position:0%
+de los subíndices para ver si está bien,
+
+00:36:32.920 --> 00:36:42.520 align:start position:0%
+nos vamos a dar cuenta que A sobre be es
+
+00:36:36.400 --> 00:36:47.720 align:start position:0%
+igual a A sobre ve por be sobre ve. Ah,
+
+00:36:42.520 --> 00:36:51.079 align:start position:0%
+perdón. A ver, acá sería Ah, no, a ver.
+
+00:36:47.720 --> 00:36:55.040 align:start position:0%
+Aquí me equivoqué. Es be.
+
+00:36:51.079 --> 00:37:00.480 align:start position:0%
+Es be. Acá estamos hablando de be sobre ve
+
+00:36:55.040 --> 00:37:03.640 align:start position:0%
+y por lo tanto acá sería ve sobre be.
+
+00:37:00.480 --> 00:37:06.280 align:start position:0%
+Okay. Entonces, si se dan cuenta que se
+
+00:37:03.640 --> 00:37:08.319 align:start position:0%
+va a eliminar, ¿okay? Se va a eliminar y
+
+00:37:06.280 --> 00:37:10.760 align:start position:0%
+se va a cumplir la regla de
+
+00:37:08.319 --> 00:37:12.759 align:start position:0%
+verificación,
+
+00:37:10.760 --> 00:37:15.599 align:start position:0%
+¿ya? Y vamos a tener la igualdad. Por lo
+
+00:37:12.760 --> 00:37:19.079 align:start position:0%
+tanto, esta fórmula es válida solo en el
+
+00:37:15.599 --> 00:37:21.359 align:start position:0%
+caso uno, solo en el primer caso. ¿Okay?
+
+00:37:19.079 --> 00:37:24.760 align:start position:0%
+Ya. En el caso dos que vamos a ver
+
+00:37:21.359 --> 00:37:26.960 align:start position:0%
+ahora, el caso dos es cuando
+
+00:37:24.760 --> 00:37:29.599 align:start position:0%
+efectivamente tienes la fórmula que yo
+
+00:37:26.960 --> 00:37:32.560 align:start position:0%
+les indiqué al principio, por ejemplo,
+
+00:37:29.599 --> 00:37:36.160 align:start position:0%
+que la posición de A con respecto a ce
+
+00:37:32.560 --> 00:37:38.880 align:start position:0%
+tiene que ser igual a A con respecto a be
+
+00:37:36.160 --> 00:37:41.399 align:start position:0%
+más la posición de be con respecto a ce.
+
+00:37:38.880 --> 00:37:43.640 align:start position:0%
+Si tú derivas esta fórmula, te va a
+
+00:37:41.400 --> 00:37:48.240 align:start position:0%
+salir la que siempre usamos, ¿okay? La
+
+00:37:43.640 --> 00:37:50.520 align:start position:0%
+que siempre se usa y es como que eh la
+
+00:37:48.240 --> 00:37:52.879 align:start position:0%
+vieja confiable, ¿no?
+
+00:37:50.520 --> 00:37:56.119 align:start position:0%
+Así que ese va a ser el caso dos.
+
+00:37:52.880 --> 00:37:59.280 align:start position:0%
+Entonces, el caso dos es cuando eh ambos
+
+00:37:56.119 --> 00:38:02.760 align:start position:0%
+sujetos se están moviendo en distintos
+
+00:37:59.280 --> 00:38:06.040 align:start position:0%
+eh por decir espacios. Por ejemplo, en
+
+00:38:02.760 --> 00:38:08.880 align:start position:0%
+el ejemplo que les puse de el río, ¿no?
+
+00:38:06.040 --> 00:38:12.960 align:start position:0%
+La chica se movía a través del río,
+
+00:38:08.880 --> 00:38:16.440 align:start position:0%
+¿verdad? Ya. Y si yo quería saber cuál
+
+00:38:12.960 --> 00:38:18.880 align:start position:0%
+era su velocidad con respecto al avión,
+
+00:38:16.440 --> 00:38:21.920 align:start position:0%
+ya tenía que hacer necesariamente esta
+
+00:38:18.880 --> 00:38:24.040 align:start position:0%
+fórmula. ¿Por qué? Porque el avión no se
+
+00:38:21.920 --> 00:38:26.000 align:start position:0%
+mueve en el río. El avión no se mueve,
+
+00:38:24.040 --> 00:38:29.640 align:start position:0%
+sino en el aire, ¿verdad?
+
+00:38:26.000 --> 00:38:31.079 align:start position:0%
+Okay. Entonces son distintas,
+
+00:38:29.640 --> 00:38:33.560 align:start position:0%
+como decir, se mueven a través de
+
+00:38:31.079 --> 00:38:36.040 align:start position:0%
+distintas cosas. Eh, ahí sí de ley es el
+
+00:38:33.560 --> 00:38:37.799 align:start position:0%
+caso dos. El caso dos ahí sí no puedes
+
+00:38:36.040 --> 00:38:40.040 align:start position:0%
+escapar.
+
+00:38:37.800 --> 00:38:43.079 align:start position:0%
+Ya. Entonces, espero que esta teoría
+
+00:38:40.040 --> 00:38:45.520 align:start position:0%
+esté un poco eh
+
+00:38:43.079 --> 00:38:47.520 align:start position:0%
+digerida de alguna forma y vamos a
+
+00:38:45.520 --> 00:38:49.720 align:start position:0%
+practicar. Okay. No sé si tiene alguna
+
+00:38:47.520 --> 00:38:52.200 align:start position:0%
+pregunta. Así fue muy confuso, me dicen.
+
+00:38:49.720 --> 00:38:55.720 align:start position:0%
+Okay. O sea, si si en realidad no se
+
+00:38:52.200 --> 00:38:57.919 align:start position:0%
+entendió, eh, me dicen ya antes de hacer
+
+00:38:55.720 --> 00:39:00.319 align:start position:0%
+estos ejercicios.
+
+00:38:57.920 --> 00:39:02.920 align:start position:0%
+Ya.
+
+00:39:00.319 --> 00:39:06.119 align:start position:0%
+A ver, eh, vamos a ver qué me dice.
+
+00:39:02.920 --> 00:39:09.599 align:start position:0%
+Puedes volver al caso uno. Ya. A ver, a
+
+00:39:06.119 --> 00:39:12.440 align:start position:0%
+ver, Patricio. El caso uno, ya
+
+00:39:09.599 --> 00:39:14.760 align:start position:0%
+simplemente es la resta, ¿okay?
+
+00:39:12.440 --> 00:39:17.640 align:start position:0%
+Simplemente es la resta. Por ejemplo, te
+
+00:39:14.760 --> 00:39:20.319 align:start position:0%
+indicen la velocidad de A con respecto a
+
+00:39:17.640 --> 00:39:23.000 align:start position:0%
+be es la resta de ambas velocidades,
+
+00:39:20.319 --> 00:39:25.480 align:start position:0%
+¿okay? Siempre es la resta, pero siempre
+
+00:39:23.000 --> 00:39:27.599 align:start position:0%
+cuando ambos objetos se mueven en la
+
+00:39:25.480 --> 00:39:30.240 align:start position:0%
+misma plataforma, o sea, se están
+
+00:39:27.599 --> 00:39:32.440 align:start position:0%
+moviendo eh en el mismo escenario,
+
+00:39:30.240 --> 00:39:36.040 align:start position:0%
+¿okay?, entre comillas, por ejemplo, si
+
+00:39:32.440 --> 00:39:39.880 align:start position:0%
+tú vas en tu bici, eh yo no sé dibujar
+
+00:39:36.040 --> 00:39:42.279 align:start position:0%
+bisis, pero si tú vas en tus bicis,
+
+00:39:39.880 --> 00:39:44.760 align:start position:0%
+ya tú vas contento, tú te estás moviendo
+
+00:39:42.280 --> 00:39:46.880 align:start position:0%
+en la tierra, ¿verdad? O sea, o a no ser
+
+00:39:44.760 --> 00:39:50.040 align:start position:0%
+que tú montes la bicicleta en el bus,
+
+00:39:46.880 --> 00:39:52.440 align:start position:0%
+pero no en la tierra. Supongamos que te
+
+00:39:50.040 --> 00:39:56.040 align:start position:0%
+estás moviendo hacia la derecha y viene
+
+00:39:52.440 --> 00:39:58.880 align:start position:0%
+una persona trotando ya en la tierra, ya
+
+00:39:56.040 --> 00:40:00.560 align:start position:0%
+no va a trotar en el carro, ¿verdad? Ya
+
+00:39:58.880 --> 00:40:02.760 align:start position:0%
+esta persona está trotando a la
+
+00:40:00.560 --> 00:40:05.920 align:start position:0%
+izquierda.
+
+00:40:02.760 --> 00:40:09.119 align:start position:0%
+Entonces te pregunta, la velocidad de la
+
+00:40:05.920 --> 00:40:12.920 align:start position:0%
+bicicleta con respecto a la persona,
+
+00:40:09.119 --> 00:40:16.319 align:start position:0%
+¿cuánto va a ser? Y ahí tú recuerdas. A
+
+00:40:12.920 --> 00:40:19.200 align:start position:0%
+ver, la bicicleta se mueve en la tierra
+
+00:40:16.319 --> 00:40:22.040 align:start position:0%
+y la persona está trotando en la tierra,
+
+00:40:19.200 --> 00:40:24.439 align:start position:0%
+por lo tanto, ambos objetos están
+
+00:40:22.040 --> 00:40:26.440 align:start position:0%
+moviendo en la misma plataforma, ¿okay?
+
+00:40:24.440 --> 00:40:29.280 align:start position:0%
+En el mismo espacio. Entonces,
+
+00:40:26.440 --> 00:40:32.400 align:start position:0%
+simplemente, ah, okay, es la resta, ya
+
+00:40:29.280 --> 00:40:35.599 align:start position:0%
+está, no me complicó la vida. Ya, y es
+
+00:40:32.400 --> 00:40:37.560 align:start position:0%
+la resta. Y yo esta velocidad es con
+
+00:40:35.599 --> 00:40:39.319 align:start position:0%
+respecto a esa plataforma, o sea, es la
+
+00:40:37.560 --> 00:40:41.839 align:start position:0%
+velocidad de la bicicleta con respecto a
+
+00:40:39.319 --> 00:40:44.119 align:start position:0%
+la tierra. Y esta velocidad también es
+
+00:40:41.839 --> 00:40:47.240 align:start position:0%
+con respecto a la Tierra, ¿ya? O sea, a
+
+00:40:44.119 --> 00:40:48.960 align:start position:0%
+esa plataforma, a ese espacio en común.
+
+00:40:47.240 --> 00:40:51.118 align:start position:0%
+¿Okay? Entonces, y ahí te va a dar la
+
+00:40:48.960 --> 00:40:52.720 align:start position:0%
+velocidad relativa, o sea, ya está.
+
+00:40:51.119 --> 00:40:54.560 align:start position:0%
+Simplemente es una resta y no se
+
+00:40:52.720 --> 00:40:57.520 align:start position:0%
+complique.
+
+00:40:54.560 --> 00:41:01.200 align:start position:0%
+Eh, vamos a hacer ejercicio. No sé si
+
+00:40:57.520 --> 00:41:04.960 align:start position:0%
+Joel, ahí si entendiste mejor.
+
+00:41:01.200 --> 00:41:04.960 align:start position:0%
+A ver, me dices, ah,
+
+00:41:05.119 --> 00:41:08.760 align:start position:0%
+igual igual forma vamos a ver algunos
+
+00:41:06.800 --> 00:41:11.119 align:start position:0%
+ejercicios para que que quede un poco
+
+00:41:08.760 --> 00:41:15.200 align:start position:0%
+más claro.
+
+00:41:11.119 --> 00:41:18.119 align:start position:0%
+Déjame déjame ver acá.
+
+00:41:15.200 --> 00:41:20.960 align:start position:0%
+Ya. Bueno, este en Bueno, vamos a hacer
+
+00:41:18.119 --> 00:41:23.640 align:start position:0%
+este, ¿por qué no?
+
+00:41:20.960 --> 00:41:27.119 align:start position:0%
+Vamos a tener dos aviones,
+
+00:41:23.640 --> 00:41:30.400 align:start position:0%
+ya dos aviones se acercan en el espacio
+
+00:41:27.119 --> 00:41:33.000 align:start position:0%
+eh aéreo y tienen velocidades constantes
+
+00:41:30.400 --> 00:41:35.640 align:start position:0%
+a la derecha, a la derecha y el viento
+
+00:41:33.000 --> 00:41:37.440 align:start position:0%
+está a la derecha. ¿Okay?
+
+00:41:35.640 --> 00:41:39.480 align:start position:0%
+Mientras que el viento está soplando,
+
+00:41:37.440 --> 00:41:42.800 align:start position:0%
+como se muestra en la figura. ¿Cuál
+
+00:41:39.480 --> 00:41:46.720 align:start position:0%
+debería ser la dirección a la que debe
+
+00:41:42.800 --> 00:41:49.280 align:start position:0%
+dirigirse el avión be si desea chocar
+
+00:41:46.720 --> 00:41:51.720 align:start position:0%
+perpendicularmente con A?
+
+00:41:49.280 --> 00:41:54.880 align:start position:0%
+O sea, ¿cuál es la dirección de este
+
+00:41:51.720 --> 00:41:59.720 align:start position:0%
+avioncito para que termine de chocar en
+
+00:41:54.880 --> 00:42:02.599 align:start position:0%
+esta dirección? O sea, tiene que ir así
+
+00:41:59.720 --> 00:42:04.480 align:start position:0%
+recto. Okay.
+
+00:42:02.599 --> 00:42:08.280 align:start position:0%
+Ya. Para poder chocarse con este avión
+
+00:42:04.480 --> 00:42:11.200 align:start position:0%
+A. Entonces, ¿cómo vamos a hacer eso?
+
+00:42:08.280 --> 00:42:14.520 align:start position:0%
+A ver, eh, primero
+
+00:42:11.200 --> 00:42:18.799 align:start position:0%
+que tú quieres que la velocidad del
+
+00:42:14.520 --> 00:42:20.920 align:start position:0%
+avión be sea para abajo, o sea, sea menos jota.
+
+00:42:18.800 --> 00:42:23.200 align:start position:0%
+No, da igual el número acá, o sea, te da
+
+00:42:20.920 --> 00:42:25.440 align:start position:0%
+igual el número, puede ser uno, puede
+
+00:42:23.200 --> 00:42:27.240 align:start position:0%
+ser dos, puede ser tres, da igual, pero
+
+00:42:25.440 --> 00:42:29.760 align:start position:0%
+la dirección te importa porque tú
+
+00:42:27.240 --> 00:42:32.359 align:start position:0%
+quieres chocar perpendicularmente,
+
+00:42:29.760 --> 00:42:35.839 align:start position:0%
+¿okay? Entonces, vamos a a decir eso.
+
+00:42:32.359 --> 00:42:38.759 align:start position:0%
+Por lo tanto, esto tiene que trazarse
+
+00:42:35.839 --> 00:42:41.240 align:start position:0%
+así, ¿no? Es un vector hacia abajo. Ya,
+
+00:42:38.760 --> 00:42:44.559 align:start position:0%
+esta es la resultante.
+
+00:42:41.240 --> 00:42:47.319 align:start position:0%
+Ahora vamos a aplicar la fórmula eh la
+
+00:42:44.559 --> 00:42:49.960 align:start position:0%
+típica, ¿no? Vamos a decir que la
+
+00:42:47.319 --> 00:42:53.920 align:start position:0%
+velocidad de de be con respecto a la
+
+00:42:49.960 --> 00:42:55.920 align:start position:0%
+Tierra es la velocidad de be con respecto
+
+00:42:53.920 --> 00:42:58.119 align:start position:0%
+a dónde se esté moviendo. Se está
+
+00:42:55.920 --> 00:43:00.960 align:start position:0%
+moviendo a través del viento. ¡Chévere!
+
+00:42:58.119 --> 00:43:03.480 align:start position:0%
+Okay, a través del viento más la
+
+00:43:00.960 --> 00:43:05.760 align:start position:0%
+velocidad y el viento se mueve a través
+
+00:43:03.480 --> 00:43:07.960 align:start position:0%
+de la Tierra. Los subíndices se
+
+00:43:05.760 --> 00:43:12.400 align:start position:0%
+cancelan, simón.
+
+00:43:07.960 --> 00:43:15.319 align:start position:0%
+Y y queda perfecto. Entonces, eh sabemos
+
+00:43:12.400 --> 00:43:18.160 align:start position:0%
+que este vector va a ser la suma de dos
+
+00:43:15.319 --> 00:43:21.079 align:start position:0%
+vectores, ¿okay? Entonces, de alguna
+
+00:43:18.160 --> 00:43:23.920 align:start position:0%
+forma, estos dos vectores, la resultante
+
+00:43:21.079 --> 00:43:25.520 align:start position:0%
+me tiene que dar hacia abajo. Entonces,
+
+00:43:23.920 --> 00:43:28.640 align:start position:0%
+vamos a averiguar si tenemos alguno de
+
+00:43:25.520 --> 00:43:31.000 align:start position:0%
+los vectores. Tenemos la velocidad del
+
+00:43:28.640 --> 00:43:33.640 align:start position:0%
+viento con respecto a la Tierra.
+
+00:43:31.000 --> 00:43:36.720 align:start position:0%
+Tenemos, simón, ¿cómo es? El vector es
+
+00:43:33.640 --> 00:43:40.040 align:start position:0%
+hacia la derecha. Por lo tanto, vamos a
+
+00:43:36.720 --> 00:43:43.399 align:start position:0%
+tener este vector hacia la derecha y
+
+00:43:40.040 --> 00:43:46.680 align:start position:0%
+tengo que encontrar la dirección del
+
+00:43:43.400 --> 00:43:50.319 align:start position:0%
+otro vector para que al sumar me dé la
+
+00:43:46.680 --> 00:43:52.240 align:start position:0%
+resultante hacia abajo.
+
+00:43:50.319 --> 00:43:55.720 align:start position:0%
+Entonces, ¿cuál es ese vector? ¿En qué
+
+00:43:52.240 --> 00:43:59.279 align:start position:0%
+dirección debe ir? En esta dirección.
+
+00:43:55.720 --> 00:44:02.040 align:start position:0%
+¿Por qué? Porque si yo eh hago la suma,
+
+00:43:59.280 --> 00:44:05.920 align:start position:0%
+coloco este vector
+
+00:44:02.040 --> 00:44:09.000 align:start position:0%
+y eh seguido del otro coloco este,
+
+00:44:05.920 --> 00:44:11.520 align:start position:0%
+me la suma siempre va desde la cola del
+
+00:44:09.000 --> 00:44:14.920 align:start position:0%
+primero hasta la punta del segundo,
+
+00:44:11.520 --> 00:44:16.880 align:start position:0%
+¿okay? Entonces, eh así es que tú vayas
+
+00:44:14.920 --> 00:44:18.720 align:start position:0%
+la dirección, ¿okay? Sabiendo de
+
+00:44:16.880 --> 00:44:21.480 align:start position:0%
+antemano la dirección de la velocidad
+
+00:44:18.720 --> 00:44:24.558 align:start position:0%
+del viento y sabiendo que tú quieres que
+
+00:44:21.480 --> 00:44:26.599 align:start position:0%
+vaya hacia abajo, ¿ya? Porque eso te lo
+
+00:44:24.559 --> 00:44:29.480 align:start position:0%
+dice el problema, que se choque
+
+00:44:26.599 --> 00:44:32.240 align:start position:0%
+perpendicularmente
+
+00:44:29.480 --> 00:44:35.400 align:start position:0%
+y nada, eh la respuesta es sería un
+
+00:44:32.240 --> 00:44:38.839 align:start position:0%
+vector con esta dirección.
+
+00:44:35.400 --> 00:44:42.319 align:start position:0%
+Eh, entonces sería eh este no es, no es,
+
+00:44:38.839 --> 00:44:47.400 align:start position:0%
+no es, no es, sería este
+
+00:44:42.319 --> 00:44:47.400 align:start position:0%
+o sea eh sería E, ¿ok?
+
+00:44:47.559 --> 00:44:53.839 align:start position:0%
+Ahora vamos a hacer, uy, son las 9:54.
+
+00:44:51.960 --> 00:44:55.760 align:start position:0%
+Bueno, 9:53.
+
+00:44:53.839 --> 00:44:57.400 align:start position:0%
+Ya se terminan las 10, así que bueno, si
+
+00:44:55.760 --> 00:45:00.720 align:start position:0%
+tienen preguntas me dicen. De hecho,
+
+00:44:57.400 --> 00:45:04.240 align:start position:0%
+íbamos a ver movimiento curvilíneo, pero
+
+00:45:00.720 --> 00:45:06.799 align:start position:0%
+eh solo es una hora ya, así que vamos a
+
+00:45:04.240 --> 00:45:10.078 align:start position:0%
+hacer estas preguntas rápido. A ver,
+
+00:45:06.800 --> 00:45:13.280 align:start position:0%
+tenemos eh me dicen, tenemos una
+
+00:45:10.079 --> 00:45:15.960 align:start position:0%
+partícula que se mueve en el plano y
+
+00:45:13.280 --> 00:45:18.240 align:start position:0%
+tenemos dos observadores inerciales.
+
+00:45:15.960 --> 00:45:19.839 align:start position:0%
+Vamos a definir qué es un observador
+
+00:45:18.240 --> 00:45:22.439 align:start position:0%
+inercial.
+
+00:45:19.839 --> 00:45:25.119 align:start position:0%
+El observador que es inercial es porque
+
+00:45:22.440 --> 00:45:27.480 align:start position:0%
+la velocidad es constante, es decir, que
+
+00:45:25.119 --> 00:45:29.319 align:start position:0%
+la aceleración es igual a cero. No va a
+
+00:45:27.480 --> 00:45:32.640 align:start position:0%
+tener aceleración.
+
+00:45:29.319 --> 00:45:35.279 align:start position:0%
+Ya. Entonces, si ves a un a una
+
+00:45:32.640 --> 00:45:36.839 align:start position:0%
+bicicleta, por ejemplo, pedaleando
+
+00:45:35.280 --> 00:45:40.599 align:start position:0%
+constantemente a una velocidad
+
+00:45:36.839 --> 00:45:45.119 align:start position:0%
+constante, ese observador es inercial.
+
+00:45:40.599 --> 00:45:48.760 align:start position:0%
+Si tú ves a un carro yendo a 60 kilómetros por hora,
+
+00:45:45.119 --> 00:45:51.359 align:start position:0%
+eh, y no no varía la velocidad, ese el
+
+00:45:48.760 --> 00:45:53.400 align:start position:0%
+carro es un observador inercial. ¿Okay?
+
+00:45:51.359 --> 00:45:56.119 align:start position:0%
+Entonces,
+
+00:45:53.400 --> 00:45:58.880 align:start position:0%
+te está diciendo que vas a tener una
+
+00:45:56.119 --> 00:46:01.520 align:start position:0%
+partícula y dos observadores con
+
+00:45:58.880 --> 00:46:03.920 align:start position:0%
+velocidades constantes, ¿okay?
+
+00:46:01.520 --> 00:46:06.880 align:start position:0%
+en movimiento relativo entre sí, es
+
+00:46:03.920 --> 00:46:10.440 align:start position:0%
+decir, que no están en reposo entre sí,
+
+00:46:06.880 --> 00:46:13.920 align:start position:0%
+no están en reposo relativo, no están en
+
+00:46:10.440 --> 00:46:16.319 align:start position:0%
+reposo relativo.
+
+00:46:13.920 --> 00:46:18.800 align:start position:0%
+¿Okay? Entonces, lo que quiere decir es
+
+00:46:16.319 --> 00:46:21.480 align:start position:0%
+que, por ejemplo, un observador puede
+
+00:46:18.800 --> 00:46:24.200 align:start position:0%
+tener una velocidad eh
+
+00:46:21.480 --> 00:46:26.119 align:start position:0%
+hacia, por ejemplo, esta dirección y el
+
+00:46:24.200 --> 00:46:29.200 align:start position:0%
+otro puede tener la velocidad hacia
+
+00:46:26.119 --> 00:46:30.800 align:start position:0%
+abajo, por ejemplo. Okay.
+
+00:46:29.200 --> 00:46:34.279 align:start position:0%
+Ya no se están moviendo a la misma
+
+00:46:30.800 --> 00:46:36.800 align:start position:0%
+velocidad, no están en reposo relativo.
+
+00:46:34.280 --> 00:46:39.960 align:start position:0%
+Ahora me preguntan,
+
+00:46:36.800 --> 00:46:43.520 align:start position:0%
+eh, okay,
+
+00:46:39.960 --> 00:46:47.520 align:start position:0%
+¿es correcto afirmar que el vector de
+
+00:46:43.520 --> 00:46:49.640 align:start position:0%
+posición instantánea de la partícula es
+
+00:46:47.520 --> 00:46:52.359 align:start position:0%
+el mismo?
+
+00:46:49.640 --> 00:46:56.078 align:start position:0%
+A ver, lo que yo les dije es que cada
+
+00:46:52.359 --> 00:46:59.160 align:start position:0%
+observador va a ver distinto
+
+00:46:56.079 --> 00:47:02.160 align:start position:0%
+ya el vector de posición porque cada uno
+
+00:46:59.160 --> 00:47:05.960 align:start position:0%
+tiene su propio origen. Ya acuérdense
+
+00:47:02.160 --> 00:47:08.118 align:start position:0%
+del del de la situación de la del aula
+
+00:47:05.960 --> 00:47:10.680 align:start position:0%
+de estudiantes, ¿okay? el que se sienta
+
+00:47:08.119 --> 00:47:12.640 align:start position:0%
+primero ve a la profesora más cerca que
+
+00:47:10.680 --> 00:47:16.319 align:start position:0%
+el que se sienta al último. Por lo
+
+00:47:12.640 --> 00:47:19.640 align:start position:0%
+tanto, la posición siempre, casi siempre
+
+00:47:16.319 --> 00:47:21.880 align:start position:0%
+es relativa, a no ser que estén eh en el
+
+00:47:19.640 --> 00:47:25.480 align:start position:0%
+mismo el mismo punto de espacio, están
+
+00:47:21.880 --> 00:47:27.440 align:start position:0%
+juntitos, ya esa es la única condición,
+
+00:47:25.480 --> 00:47:29.839 align:start position:0%
+pero si no siempre va a ser distinta.
+
+00:47:27.440 --> 00:47:32.680 align:start position:0%
+Por lo tanto, esto es falso, ya porque
+
+00:47:29.839 --> 00:47:35.799 align:start position:0%
+son observadores distintos.
+
+00:47:32.680 --> 00:47:38.359 align:start position:0%
+Ahora me dicen, me dicen lo mismo, que
+
+00:47:35.800 --> 00:47:40.680 align:start position:0%
+una partícula que se mueve en el plano y
+
+00:47:38.359 --> 00:47:44.040 align:start position:0%
+tengo dos observadores con velocidades
+
+00:47:40.680 --> 00:47:46.160 align:start position:0%
+constantes y distintas porque están en
+
+00:47:44.040 --> 00:47:48.920 align:start position:0%
+movimiento relativo, no están en reposo
+
+00:47:46.160 --> 00:47:51.720 align:start position:0%
+relativo. Okay.
+
+00:47:48.920 --> 00:47:54.480 align:start position:0%
+Entonces, a ver, déjame, déjame ver que
+
+00:47:51.720 --> 00:47:58.359 align:start position:0%
+no veo acá. Entonces, es correcto
+
+00:47:54.480 --> 00:48:00.280 align:start position:0%
+afirmar que el vector de velocidad
+
+00:47:58.359 --> 00:48:02.400 align:start position:0%
+instantánea
+
+00:48:00.280 --> 00:48:05.559 align:start position:0%
+es el mismo para ambos.
+
+00:48:02.400 --> 00:48:08.359 align:start position:0%
+Entonces, vamos a observar esto.
+
+00:48:05.559 --> 00:48:10.440 align:start position:0%
+A ver, eh
+
+00:48:08.359 --> 00:48:11.960 align:start position:0%
+cuando ustedes hablan de un sistema de
+
+00:48:10.440 --> 00:48:16.280 align:start position:0%
+referencia,
+
+00:48:11.960 --> 00:48:18.280 align:start position:0%
+ya es porque eh los observadores
+
+00:48:16.280 --> 00:48:20.680 align:start position:0%
+ya en cuestión
+
+00:48:18.280 --> 00:48:22.280 align:start position:0%
+están eh en reposo relativo. Yo les
+
+00:48:20.680 --> 00:48:24.520 align:start position:0%
+dije, ¿no? Este concepto de acá,
+
+00:48:22.280 --> 00:48:27.119 align:start position:0%
+acuérdense de este concepto de el de
+
+00:48:24.520 --> 00:48:29.680 align:start position:0%
+arriba,
+
+00:48:27.119 --> 00:48:32.599 align:start position:0%
+cuando están en reposo relativo forman
+
+00:48:29.680 --> 00:48:37.118 align:start position:0%
+un mismo sistema de referencia.
+
+00:48:32.599 --> 00:48:40.240 align:start position:0%
+Okay. Entonces, yo les puse esto, por
+
+00:48:37.119 --> 00:48:42.000 align:start position:0%
+ejemplo, el ejemplo de la del bote de la
+
+00:48:40.240 --> 00:48:46.118 align:start position:0%
+chica.
+
+00:48:42.000 --> 00:48:50.400 align:start position:0%
+Ya. Si yo quiero saber la velocidad de
+
+00:48:46.119 --> 00:48:53.000 align:start position:0%
+la partícula, ¿okay?, es lo mismo decir
+
+00:48:50.400 --> 00:48:55.880 align:start position:0%
+la velocidad de la partícula con
+
+00:48:53.000 --> 00:48:58.599 align:start position:0%
+respecto a la chica,
+
+00:48:55.880 --> 00:49:01.240 align:start position:0%
+¿ya?, que decir La velocidad del bote
+
+00:48:58.599 --> 00:49:03.280 align:start position:0%
+con respecto a la chica. ¿Por qué?
+
+00:49:01.240 --> 00:49:05.799 align:start position:0%
+Porque ambos se están moviendo con la
+
+00:49:03.280 --> 00:49:09.200 align:start position:0%
+misma velocidad, ambos son un solo
+
+00:49:05.799 --> 00:49:11.599 align:start position:0%
+sistema de referencia. ¿Okay? Ahora yo
+
+00:49:09.200 --> 00:49:13.919 align:start position:0%
+les pregunto, vamos ahora a suponer,
+
+00:49:11.599 --> 00:49:17.359 align:start position:0%
+vamos a dejar el mismo la misma
+
+00:49:13.920 --> 00:49:19.799 align:start position:0%
+partícula ahí, pero vamos a poner eh los
+
+00:49:17.359 --> 00:49:21.759 align:start position:0%
+observadores inerciales. Vamos a decir
+
+00:49:19.799 --> 00:49:23.880 align:start position:0%
+que uno se está moviendo a a la
+
+00:49:21.760 --> 00:49:25.000 align:start position:0%
+izquierda.
+
+00:49:23.880 --> 00:49:26.880 align:start position:0%
+Okay. Uno se está moviendo a la
+
+00:49:25.000 --> 00:49:30.480 align:start position:0%
+izquierda. Vamos a decir que es un un
+
+00:49:26.880 --> 00:49:33.119 align:start position:0%
+chico así todo punk se está moviendo a
+
+00:49:30.480 --> 00:49:36.359 align:start position:0%
+la izquierda y vamos a decir que es una
+
+00:49:33.119 --> 00:49:39.240 align:start position:0%
+chica, la otra observadora que se está
+
+00:49:36.359 --> 00:49:41.359 align:start position:0%
+moviendo a la derecha.
+
+00:49:39.240 --> 00:49:43.439 align:start position:0%
+Entonces yo les pregunto, ¿forma un solo
+
+00:49:41.359 --> 00:49:46.000 align:start position:0%
+sistema de referencia?
+
+00:49:43.440 --> 00:49:48.040 align:start position:0%
+No, ¿verdad? No están formando un solo
+
+00:49:46.000 --> 00:49:50.160 align:start position:0%
+sistema de referencia. Entonces, si yo
+
+00:49:48.040 --> 00:49:53.599 align:start position:0%
+les pregunto la velocidad de la
+
+00:49:50.160 --> 00:49:55.759 align:start position:0%
+partícula con respecto a la chica, vamos
+
+00:49:53.599 --> 00:49:58.599 align:start position:0%
+a dejar de hecho,
+
+00:49:55.760 --> 00:50:01.319 align:start position:0%
+vamos a dejar, vamos a hacer acá ya, si
+
+00:49:58.599 --> 00:50:04.040 align:start position:0%
+yo les pregunto la velocidad de la
+
+00:50:01.319 --> 00:50:07.040 align:start position:0%
+partícula con respecto a la chica es lo
+
+00:50:04.040 --> 00:50:09.680 align:start position:0%
+mismo que decir la velocidad de la
+
+00:50:07.040 --> 00:50:13.319 align:start position:0%
+partícula con respecto al chico,
+
+00:50:09.680 --> 00:50:15.440 align:start position:0%
+¿ustedes qué me van a decir? ¿Sí o no?
+
+00:50:13.319 --> 00:50:17.720 align:start position:0%
+Ya. A ver si está Natasha está
+
+00:50:15.440 --> 00:50:20.119 align:start position:0%
+atendiendo en conjunto a a Patricio,
+
+00:50:17.720 --> 00:50:23.118 align:start position:0%
+creo que está.
+
+00:50:20.119 --> 00:50:24.720 align:start position:0%
+Ya. No, exacto. No, porque forman
+
+00:50:23.119 --> 00:50:27.160 align:start position:0%
+distintos sistemas de referencia.
+
+00:50:24.720 --> 00:50:30.040 align:start position:0%
+Entonces esto es una desigualdad,
+
+00:50:27.160 --> 00:50:33.078 align:start position:0%
+desigualdad. Por lo tanto, lo que me
+
+00:50:30.040 --> 00:50:36.520 align:start position:0%
+dice es correcto afirmar que el vector
+
+00:50:33.079 --> 00:50:39.920 align:start position:0%
+de velocidad instantánea es el mismo.
+
+00:50:36.520 --> 00:50:42.000 align:start position:0%
+Falso. Si estuviesen en un mismo sistema
+
+00:50:39.920 --> 00:50:44.799 align:start position:0%
+de referencia, ahí sí hubiera sido
+
+00:50:42.000 --> 00:50:47.920 align:start position:0%
+verdadero. ¿Okay?
+
+00:50:44.799 --> 00:50:49.960 align:start position:0%
+Ahora, eh, vamos a hacer la siguiente
+
+00:50:47.920 --> 00:50:52.720 align:start position:0%
+pregunta.
+
+00:50:49.960 --> 00:50:55.240 align:start position:0%
+Me dicen la misma situación, ¿okay? Ojo
+
+00:50:52.720 --> 00:50:57.240 align:start position:0%
+con esta pregunta. La misma situación.
+
+00:50:55.240 --> 00:50:59.839 align:start position:0%
+Sin embargo, ahora no me preguntan por
+
+00:50:57.240 --> 00:51:03.078 align:start position:0%
+la velocidad de la partícula, sino por
+
+00:50:59.839 --> 00:51:04.759 align:start position:0%
+la aceleración de la partícula. ¿Okay?
+
+00:51:03.079 --> 00:51:06.960 align:start position:0%
+Entonces,
+
+00:51:04.760 --> 00:51:09.720 align:start position:0%
+quiero que de alguna forma hagan
+
+00:51:06.960 --> 00:51:13.160 align:start position:0%
+analogía, ¿okay?
+
+00:51:09.720 --> 00:51:15.359 align:start position:0%
+Yo les pregunto, si este man está yendo
+
+00:51:13.160 --> 00:51:17.558 align:start position:0%
+a velocidad constante, que yo les dije
+
+00:51:15.359 --> 00:51:21.400 align:start position:0%
+porque son inerciales,
+
+00:51:17.559 --> 00:51:23.040 align:start position:0%
+¿verdad? La chica a velocidad constante,
+
+00:51:21.400 --> 00:51:25.480 align:start position:0%
+distintas velocidades, pero velocidad
+
+00:51:23.040 --> 00:51:28.440 align:start position:0%
+constante, quiere decir que la
+
+00:51:25.480 --> 00:51:31.960 align:start position:0%
+aceleración del chico es cero y la
+
+00:51:28.440 --> 00:51:33.760 align:start position:0%
+aceleración de la chica es cero.
+
+00:51:31.960 --> 00:51:36.079 align:start position:0%
+Entonces, yo sé que eh muy sencillo
+
+00:51:33.760 --> 00:51:37.760 align:start position:0%
+hasta ahora, ¿no? Entonces, yo les
+
+00:51:36.079 --> 00:51:41.440 align:start position:0%
+pregunto,
+
+00:51:37.760 --> 00:51:45.839 align:start position:0%
+la aceleración de la chica
+
+00:51:41.440 --> 00:51:50.119 align:start position:0%
+con respecto al chico, ¿cuánto es?
+
+00:51:45.839 --> 00:51:53.400 align:start position:0%
+Va a valer igual a cero. ¿Por qué?
+
+00:51:50.119 --> 00:51:54.880 align:start position:0%
+Primero porque eh tiene tienen cero
+
+00:51:53.400 --> 00:51:57.079 align:start position:0%
+ambos de aceleración, entonces no va a
+
+00:51:54.880 --> 00:52:00.119 align:start position:0%
+haber aceleración eh relativa entre
+
+00:51:57.079 --> 00:52:02.359 align:start position:0%
+ellos. Ahora les pongo este ejemplo para
+
+00:52:00.119 --> 00:52:05.480 align:start position:0%
+que no se confundan y para que los tenga
+
+00:52:02.359 --> 00:52:07.759 align:start position:0%
+eh bien digerido esto. Si yo te si yo
+
+00:52:05.480 --> 00:52:10.119 align:start position:0%
+digo que la aceleración del chico en equis
+
+00:52:07.760 --> 00:52:11.880 align:start position:0%
+caso, que en equis caso, en otro caso es
+
+00:52:10.119 --> 00:52:14.880 align:start position:0%
+otra situación
+
+00:52:11.880 --> 00:52:18.920 align:start position:0%
+es igual a 5 i
+
+00:52:14.880 --> 00:52:21.240 align:start position:0%
+menos 2 jota metros sobre segundos al cuadrado y la
+
+00:52:18.920 --> 00:52:24.160 align:start position:0%
+aceleración de la chica es el mismo
+
+00:52:21.240 --> 00:52:26.520 align:start position:0%
+vector, el mismo vector.
+
+00:52:24.160 --> 00:52:30.319 align:start position:0%
+Yo les pregunto, la aceleración que
+
+00:52:26.520 --> 00:52:32.400 align:start position:0%
+tiene la chica con respecto a al chico,
+
+00:52:30.319 --> 00:52:34.680 align:start position:0%
+¿cuánto va a valer? Ya ahí sí me
+
+00:52:32.400 --> 00:52:37.240 align:start position:0%
+gustaría que responda. ¿Cuánto ustedes
+
+00:52:34.680 --> 00:52:39.839 align:start position:0%
+creen que va a valer
+
+00:52:37.240 --> 00:52:43.839 align:start position:0%
+la aceleración relativa?
+
+00:52:39.839 --> 00:52:46.799 align:start position:0%
+A ver, eh, eso para que me respondan
+
+00:52:43.839 --> 00:52:50.960 align:start position:0%
+Natasha y y Patricio.
+
+00:52:46.799 --> 00:52:53.680 align:start position:0%
+Ya, si se equivocan mejor para mí, ¿no?
+
+00:52:50.960 --> 00:52:57.599 align:start position:0%
+Ya. Ambos tienen misma aceleración.
+
+00:52:53.680 --> 00:52:57.598 align:start position:0%
+Okay. Ambos tienen misma aceleración.
+
+00:52:59.119 --> 00:53:06.839 align:start position:0%
+Cero porque se resta. Exacto. Exacto.
+
+00:53:03.200 --> 00:53:09.399 align:start position:0%
+Eh, a ver cómo decirlo
+
+00:53:06.839 --> 00:53:13.000 align:start position:0%
+veanlo que de alguna véanlo como las
+
+00:53:09.400 --> 00:53:14.960 align:start position:0%
+velocidades, ¿okay? O sea, cuando ambos
+
+00:53:13.000 --> 00:53:17.599 align:start position:0%
+tienen la misma velocidad forman un solo
+
+00:53:14.960 --> 00:53:19.400 align:start position:0%
+sistema de referencia. ¿Okay? Ahora,
+
+00:53:17.599 --> 00:53:22.160 align:start position:0%
+cuando ambos tienen la misma
+
+00:53:19.400 --> 00:53:26.799 align:start position:0%
+aceleración, la aceleración con respecto
+
+00:53:22.160 --> 00:53:29.160 align:start position:0%
+a a entre sí va a ser cero. Eh, vamos de
+
+00:53:26.799 --> 00:53:32.599 align:start position:0%
+esta forma. Estás en el avión, vas a
+
+00:53:29.160 --> 00:53:34.520 align:start position:0%
+partir a Miami a que te vacune, ¿ya?
+
+00:53:32.599 --> 00:53:36.160 align:start position:0%
+Entonces, eh, capaz que me van a
+
+00:53:34.520 --> 00:53:39.920 align:start position:0%
+cancelar este video, imagínate que
+
+00:53:36.160 --> 00:53:43.640 align:start position:0%
+YouTube me dice, me me coloca un strike.
+
+00:53:39.920 --> 00:53:45.640 align:start position:0%
+Bueno, eh, entonces vas en el avión y
+
+00:53:43.640 --> 00:53:47.279 align:start position:0%
+vas con tu familia. Vamos, estás sentado
+
+00:53:45.640 --> 00:53:49.160 align:start position:0%
+al lado de tu mamá.
+
+00:53:47.280 --> 00:53:51.319 align:start position:0%
+Comienza a despegar el avión. Entonces,
+
+00:53:49.160 --> 00:53:54.118 align:start position:0%
+¿qué estás qué estás sintiendo tú?
+
+00:53:51.319 --> 00:53:56.880 align:start position:0%
+Aceleración, ¿verdad? Ya estás
+
+00:53:54.119 --> 00:53:59.160 align:start position:0%
+acelerando, acelerándote y tu mamá
+
+00:53:56.880 --> 00:54:01.799 align:start position:0%
+también que está al lado tuyo. Entonces,
+
+00:53:59.160 --> 00:54:03.440 align:start position:0%
+tú observas a tu mamá, ¿ya? Y yo te
+
+00:54:01.799 --> 00:54:05.640 align:start position:0%
+pregunto, ¿tú ves que se está
+
+00:54:03.440 --> 00:54:08.680 align:start position:0%
+acelerando? Entonces, seguramente tú
+
+00:54:05.640 --> 00:54:11.279 align:start position:0%
+dices, "No." ¿Por qué? Porque ambos
+
+00:54:08.680 --> 00:54:14.839 align:start position:0%
+tienen la misma aceleración. Entonces,
+
+00:54:11.280 --> 00:54:17.400 align:start position:0%
+ambos como que dicen, "Okay, eh, no te
+
+00:54:14.839 --> 00:54:19.920 align:start position:0%
+estás acelerando porque tengo la misma
+
+00:54:17.400 --> 00:54:25.760 align:start position:0%
+aceleración que tú." Es eh es lo que va
+
+00:54:19.920 --> 00:54:29.160 align:start position:0%
+a pasar. ¿Okay? Por lo tanto, eh
+
+00:54:25.760 --> 00:54:31.280 align:start position:0%
+cuando esto pasa que ambos tengan la
+
+00:54:29.160 --> 00:54:36.558 align:start position:0%
+misma aceleración,
+
+00:54:31.280 --> 00:54:40.720 align:start position:0%
+ya, ahí sí, ahí sí va a ser verdadero que
+
+00:54:36.559 --> 00:54:43.280 align:start position:0%
+si tienes una partícula acelerándose
+
+00:54:40.720 --> 00:54:46.319 align:start position:0%
+eh a esa dirección,
+
+00:54:43.280 --> 00:54:48.720 align:start position:0%
+ya aceleración de la partícula,
+
+00:54:46.319 --> 00:54:51.079 align:start position:0%
+ahí sí la aceleración de la partícula
+
+00:54:48.720 --> 00:54:53.759 align:start position:0%
+con respecto al chico
+
+00:54:51.079 --> 00:54:57.839 align:start position:0%
+va a ser la misma que la aceleración de
+
+00:54:53.760 --> 00:55:02.200 align:start position:0%
+la partícula con respecto a la chica.
+
+00:54:57.839 --> 00:55:04.078 align:start position:0%
+Se va a dar. ¿Por qué? Porque no hay
+
+00:55:02.200 --> 00:55:07.399 align:start position:0%
+aceleración relativa entre las dos.
+
+00:55:04.079 --> 00:55:13.319 align:start position:0%
+Entre los dos no hay. Okay. Por lo
+
+00:55:07.400 --> 00:55:15.079 align:start position:0%
+tanto, eh va a ser verdadero. Ya en eh
+
+00:55:13.319 --> 00:55:17.319 align:start position:0%
+lo hice con la aceleración para que vean
+
+00:55:15.079 --> 00:55:20.000 align:start position:0%
+que también toma aceleración ya. y
+
+00:55:17.319 --> 00:55:23.880 align:start position:0%
+espero que no se hayan confundido con
+
+00:55:20.000 --> 00:55:25.319 align:start position:0%
+con esto. Okay, ya. Eh, las velocidades,
+
+00:55:23.880 --> 00:55:27.480 align:start position:0%
+eso sí, espero que lo tengan bastante
+
+00:55:25.319 --> 00:55:30.319 align:start position:0%
+claro, porque lo repetí bastante y creo
+
+00:55:27.480 --> 00:55:31.640 align:start position:0%
+que también fui muy claro con con qué es
+
+00:55:30.319 --> 00:55:33.400 align:start position:0%
+un observador, que es un sistema de
+
+00:55:31.640 --> 00:55:35.640 align:start position:0%
+referencia.
+
+00:55:33.400 --> 00:55:38.880 align:start position:0%
+Y lo último que les tenía para ustedes
+
+00:55:35.640 --> 00:55:41.920 align:start position:0%
+era esta pregunta,
+
+00:55:38.880 --> 00:55:44.920 align:start position:0%
+¿ya? Pero esta pregunta tienes que saber
+
+00:55:41.920 --> 00:55:48.520 align:start position:0%
+eh qué es la aceleración normal, la
+
+00:55:44.920 --> 00:55:51.440 align:start position:0%
+aceleración tangencial. ¿Ya?
+
+00:55:48.520 --> 00:55:53.839 align:start position:0%
+Y que es la aceleración total.
+
+00:55:51.440 --> 00:55:55.359 align:start position:0%
+Ahora, eh, supongo yo que ustedes ya
+
+00:55:53.839 --> 00:55:57.279 align:start position:0%
+saben, por lo tanto, vamos a hacerla
+
+00:55:55.359 --> 00:56:00.279 align:start position:0%
+simplemente para acabar la clase con
+
+00:55:57.280 --> 00:56:02.480 align:start position:0%
+esta pregunta. Tenemos una partícula que
+
+00:56:00.280 --> 00:56:05.440 align:start position:0%
+se mueve a un plano con rapidez
+
+00:56:02.480 --> 00:56:08.079 align:start position:0%
+constante, o sea, que la magnitud de la
+
+00:56:05.440 --> 00:56:12.440 align:start position:0%
+velocidad es un número. Es un número ka
+
+00:56:08.079 --> 00:56:14.480 align:start position:0%
+donde ka va a pertenecer a eh todos los
+
+00:56:12.440 --> 00:56:16.680 align:start position:0%
+enteros.
+
+00:56:14.480 --> 00:56:20.000 align:start position:0%
+Okay, puede ser negativo, positivo, lo
+
+00:56:16.680 --> 00:56:22.038 align:start position:0%
+que sea, y dirección variable, es decir,
+
+00:56:20.000 --> 00:56:25.599 align:start position:0%
+que la velocidad
+
+00:56:22.039 --> 00:56:29.119 align:start position:0%
+en términos del vector va a variar.
+
+00:56:25.599 --> 00:56:32.039 align:start position:0%
+Entonces, es verdad, eh, entonces es
+
+00:56:29.119 --> 00:56:35.280 align:start position:0%
+verdad que la velocidad siempre es
+
+00:56:32.039 --> 00:56:40.240 align:start position:0%
+perpendicular a la posición.
+
+00:56:35.280 --> 00:56:40.240 align:start position:0%
+¿Ya? Entonces, a ver, eh,
+
+00:56:40.960 --> 00:56:46.280 align:start position:0%
+¿cómo cómo decirlo? Cuando ustedes se
+
+00:56:44.240 --> 00:56:49.879 align:start position:0%
+mueven,
+
+00:56:46.280 --> 00:56:53.000 align:start position:0%
+ya o cualquier observador se mueve,
+
+00:56:49.880 --> 00:56:55.960 align:start position:0%
+la velocidad siempre va tangente a la
+
+00:56:53.000 --> 00:56:58.240 align:start position:0%
+trayectoria. En cualquier punto, tú
+
+00:56:55.960 --> 00:57:00.720 align:start position:0%
+dices, "En este punto la velocidad,
+
+00:56:58.240 --> 00:57:02.038 align:start position:0%
+¿hacia dónde va?" Tangente. En este
+
+00:57:00.720 --> 00:57:04.118 align:start position:0%
+punto, ¿hacia dónde va la velocidad?
+
+00:57:02.039 --> 00:57:07.559 align:start position:0%
+Tangente.
+
+00:57:04.119 --> 00:57:11.559 align:start position:0%
+¿Okay? Entonces, de alguna forma,
+
+00:57:07.559 --> 00:57:15.839 align:start position:0%
+eh, se podría decir que esto no es
+
+00:57:11.559 --> 00:57:20.400 align:start position:0%
+cierto. Okay, esto no es cierto.
+
+00:57:15.839 --> 00:57:22.880 align:start position:0%
+Ya. Eh, a ver, déjame ver.
+
+00:57:20.400 --> 00:57:25.880 align:start position:0%
+Si yo les coloco que se está moviendo en
+
+00:57:22.880 --> 00:57:25.880 align:start position:0%
+círculo.
+
+00:57:26.280 --> 00:57:31.720 align:start position:0%
+Ya. Bueno, aunque en el círculo sí se
+
+00:57:29.079 --> 00:57:34.119 align:start position:0%
+cumple. Sí, se cumple porque la posición
+
+00:57:31.720 --> 00:57:35.919 align:start position:0%
+está hallada desde el origen y la
+
+00:57:34.119 --> 00:57:37.920 align:start position:0%
+velocidad es siempre tangente a la
+
+00:57:35.920 --> 00:57:40.240 align:start position:0%
+trayectoria, por lo tanto, ahí sí siempre
+
+00:57:37.920 --> 00:57:42.319 align:start position:0%
+se cumple. Vamos a analizar, vamos a
+
+00:57:40.240 --> 00:57:46.319 align:start position:0%
+darle como standby porque el ejemplo de
+
+00:57:42.319 --> 00:57:49.279 align:start position:0%
+círculo se cumple, ¿okay?
+
+00:57:46.319 --> 00:57:51.720 align:start position:0%
+Sería efe.
+
+00:57:49.280 --> 00:57:54.079 align:start position:0%
+Ah, déjame ver.
+
+00:57:51.720 --> 00:57:56.000 align:start position:0%
+A ver, vamos a ver la be. Su velocidad
+
+00:57:54.079 --> 00:58:00.880 align:start position:0%
+siempre es perpendicular a la
+
+00:57:56.000 --> 00:58:03.000 align:start position:0%
+aceleración. Y sí, ahora, ¿por qué?
+
+00:58:00.880 --> 00:58:05.559 align:start position:0%
+Déjame...
+
+00:58:03.000 --> 00:58:08.400 align:start position:0%
+Solo be. Dice Patricio, dice solo be.
+
+00:58:05.559 --> 00:58:12.119 align:start position:0%
+Vamos a ver.
+
+00:58:08.400 --> 00:58:14.319 align:start position:0%
+Cuando la rapidez es constante, pero la
+
+00:58:12.119 --> 00:58:16.760 align:start position:0%
+dirección varía, tienes presencia de
+
+00:58:14.319 --> 00:58:18.520 align:start position:0%
+esto, está presente, o sea, te dice
+
+00:58:16.760 --> 00:58:21.799 align:start position:0%
+presente,
+
+00:58:18.520 --> 00:58:24.000 align:start position:0%
+¿okay? Cuando este ocurra. Por lo tanto,
+
+00:58:21.799 --> 00:58:26.839 align:start position:0%
+la aceleración normal siempre va a ser
+
+00:58:24.000 --> 00:58:32.240 align:start position:0%
+eh perpendicular a la velocidad. Ya, eso
+
+00:58:26.839 --> 00:58:33.960 align:start position:0%
+sí, entonces de cajón be sí es.
+
+00:58:32.240 --> 00:58:36.520 align:start position:0%
+Pero la posición no tiene la misma
+
+00:58:33.960 --> 00:58:40.640 align:start position:0%
+dirección que la y la velocidad, ¿eh?
+
+00:58:36.520 --> 00:58:43.759 align:start position:0%
+No, no, no. No, por ejemplo, en en
+
+00:58:40.640 --> 00:58:45.359 align:start position:0%
+el en el ejemplo del círculo, tú mides
+
+00:58:43.760 --> 00:58:47.640 align:start position:0%
+del origen, ¿verdad? Si hace un
+
+00:58:45.359 --> 00:58:49.880 align:start position:0%
+movimiento circular, la posición se mide
+
+00:58:47.640 --> 00:58:51.558 align:start position:0%
+desde acá. Y, por ejemplo, si tú hallas
+
+00:58:49.880 --> 00:58:55.319 align:start position:0%
+en este punto, la velocidad está yendo
+
+00:58:51.559 --> 00:58:57.680 align:start position:0%
+hacia acá, ¿okay? No es lo mismo.
+
+00:58:55.319 --> 00:59:00.520 align:start position:0%
+Ese era el desplazamiento. Exacto.
+
+00:58:57.680 --> 00:59:04.359 align:start position:0%
+Exacto. Ya. Ahí sí. Ahí sí recuperaste
+
+00:59:00.520 --> 00:59:07.240 align:start position:0%
+el 10. Okay. ce, la posición siempre es
+
+00:59:04.359 --> 00:59:08.799 align:start position:0%
+perpendicular a la aceleración.
+
+00:59:07.240 --> 00:59:11.680 align:start position:0%
+Ya.
+
+00:59:08.799 --> 00:59:14.920 align:start position:0%
+Y eh
+
+00:59:11.680 --> 00:59:16.960 align:start position:0%
+no, de hecho, en este ejemplo, ya, por
+
+00:59:14.920 --> 00:59:19.359 align:start position:0%
+ejemplo, en este punto, la aceleración
+
+00:59:16.960 --> 00:59:22.240 align:start position:0%
+como es normal, es hacia dentro de la
+
+00:59:19.359 --> 00:59:26.200 align:start position:0%
+curva y es tangente eh a la trayectoria.
+
+00:59:22.240 --> 00:59:29.240 align:start position:0%
+en ese punto y la posición en realidad
+
+00:59:26.200 --> 00:59:32.118 align:start position:0%
+es son están antiparalelos ya, pero no
+
+00:59:29.240 --> 00:59:34.439 align:start position:0%
+están formando 90 grados, ¿okay? No están
+
+00:59:32.119 --> 00:59:35.640 align:start position:0%
+formando. Entonces esta esta de ley no
+
+00:59:34.440 --> 00:59:37.880 align:start position:0%
+es ¿por qué? Porque tenemos un
+
+00:59:35.640 --> 00:59:40.078 align:start position:0%
+contraejemplo. Okay, ya con un
+
+00:59:37.880 --> 00:59:42.920 align:start position:0%
+contraejemplo, eh puedes justificar
+
+00:59:40.079 --> 00:59:45.559 align:start position:0%
+tranquilamente y no pasa nada. Entonces,
+
+00:59:42.920 --> 00:59:47.520 align:start position:0%
+ah, me dicen, solo A y be son ciertas,
+
+00:59:45.559 --> 00:59:51.079 align:start position:0%
+solo A y ce son ciertas. A ver, todo lo
+
+00:59:47.520 --> 00:59:53.880 align:start position:0%
+que tenga ce es eh no es
+
+00:59:51.079 --> 00:59:56.200 align:start position:0%
+ya. Ahora, la velocidad siempre es
+
+00:59:53.880 --> 00:59:59.839 align:start position:0%
+perpendicular a la posición. Es que en
+
+00:59:56.200 --> 01:00:01.919 align:start position:0%
+este ejemplo sí, ¿ya? Y se está moviendo
+
+00:59:59.839 --> 01:00:05.119 align:start position:0%
+en un plano.
+
+01:00:01.920 --> 01:00:07.400 align:start position:0%
+Ya. En teoría podríamos decir que
+
+01:00:05.119 --> 01:00:10.880 align:start position:0%
+también es verdadera. ¿Por qué? Porque
+
+01:00:07.400 --> 01:00:15.319 align:start position:0%
+en el ejemplo de del círculo,
+
+01:00:10.880 --> 01:00:18.559 align:start position:0%
+la posición en este punto este vector y
+
+01:00:15.319 --> 01:00:20.640 align:start position:0%
+el vector velocidad es tangente y está
+
+01:00:18.559 --> 01:00:22.920 align:start position:0%
+formando 90 grados.
+
+01:00:20.640 --> 01:00:26.319 align:start position:0%
+¿Okay? Y en todos los puntos va a ser eh
+
+01:00:22.920 --> 01:00:29.839 align:start position:0%
+de la misma manera, forman 90 grados. Por lo
+
+01:00:26.319 --> 01:00:33.880 align:start position:0%
+tanto, vamos a seleccionar la de. Okay.
+
+01:00:29.839 --> 01:00:36.599 align:start position:0%
+Eh, esto no traía respuestas, pero yo
+
+01:00:33.880 --> 01:00:41.079 align:start position:0%
+seleccionaría esta, ¿okay? Por el
+
+01:00:36.599 --> 01:00:42.880 align:start position:0%
+ejemplo que les digo. Ya. Aun eh,
+
+01:00:41.079 --> 01:00:44.839 align:start position:0%
+no, espérate, de hecho, de hecho, creo
+
+01:00:42.880 --> 01:00:47.720 align:start position:0%
+que así siempre se cumple. Si tuviéramos
+
+01:00:44.839 --> 01:00:49.960 align:start position:0%
+una trayectoria equis, okay, creo que
+
+01:00:47.720 --> 01:00:52.200 align:start position:0%
+también se cumpliría,
+
+01:00:49.960 --> 01:00:54.319 align:start position:0%
+pero es que hay en cambios el origen.
+
+01:00:52.200 --> 01:00:58.319 align:start position:0%
+¿Cuál es el origen? Entonces, por eso es
+
+01:00:54.319 --> 01:00:59.720 align:start position:0%
+que un poco la confusión ya, porque si
+
+01:00:58.319 --> 01:01:02.000 align:start position:0%
+lo tomamos el origen desde acá, por
+
+01:00:59.720 --> 01:01:07.520 align:start position:0%
+ejemplo, pero es que no tiene sentido
+
+01:01:02.000 --> 01:01:09.280 align:start position:0%
+tomar el origen desde ahí. Ya, pero
+
+01:01:07.520 --> 01:01:11.000 align:start position:0%
+en este ejemplo sí se cumple. Y yo creo
+
+01:01:09.280 --> 01:01:12.920 align:start position:0%
+que cuando te dicen esto es que te
+
+01:01:11.000 --> 01:01:16.160 align:start position:0%
+tienes que imaginar que se está moviendo
+
+01:01:12.920 --> 01:01:19.400 align:start position:0%
+en círculo así como eh como si fuera un
+
+01:01:16.160 --> 01:01:22.920 align:start position:0%
+bucle. Ujum. Así que por esa razón
+
+01:01:19.400 --> 01:01:25.680 align:start position:0%
+marcamos eh solo A y be.
+
+01:01:22.920 --> 01:01:28.359 align:start position:0%
+Así que bueno, son las 10:09.
+
+01:01:25.680 --> 01:01:30.160 align:start position:0%
+Vamos a dejar hasta aquí la clase. Eh,
+
+01:01:28.359 --> 01:01:33.279 align:start position:0%
+cualquier cosa me escriben. Ah, cierto,
+
+01:01:30.160 --> 01:01:34.558 align:start position:0%
+verdad. Eh ya que están los dos, eh,
+
+01:01:33.280 --> 01:01:40.000 align:start position:0%
+Natasha, creo que es la primera vez que
+
+01:01:34.559 --> 01:01:44.920 align:start position:0%
+vienes, vamos eh a darles
+
+01:01:40.000 --> 01:01:48.119 align:start position:0%
+el enlace que recién hice el día de hoy,
+
+01:01:44.920 --> 01:01:50.319 align:start position:0%
+donde aquí este va a ser el grupo de de
+
+01:01:48.119 --> 01:01:53.119 align:start position:0%
+física
+
+01:01:50.319 --> 01:01:54.640 align:start position:0%
+donde vamos a tener en la descripción eh
+
+01:01:53.119 --> 01:01:56.559 align:start position:0%
+siempre las ayudantías en Zoom para que no
+
+01:01:54.640 --> 01:01:58.920 align:start position:0%
+estén buscando en no sé si en el Excel,
+
+01:01:56.559 --> 01:02:00.079 align:start position:0%
+no sé que les mandaron a ustedes ya para
+
+01:01:58.920 --> 01:02:02.599 align:start position:0%
+que ustedes puedan hacer clic y
+
+01:02:00.079 --> 01:02:05.680 align:start position:0%
+directamente lo les vaya a la
+
+01:02:02.599 --> 01:02:08.920 align:start position:0%
+clase. Las ayudantías grabadas, eh que aquí
+
+01:02:05.680 --> 01:02:10.598 align:start position:0%
+voy a poner todas las clases.
+
+01:02:08.920 --> 01:02:13.079 align:start position:0%
+Le les recomiendo ver estas clases de
+
+01:02:10.599 --> 01:02:15.160 align:start position:0%
+César Izquierdo, que es un youtuber que
+
+01:02:13.079 --> 01:02:17.640 align:start position:0%
+no sé por qué he dejado de subir, pero
+
+01:02:15.160 --> 01:02:18.920 align:start position:0%
+es muy bueno, es demasiado bueno.
+
+01:02:17.640 --> 01:02:21.440 align:start position:0%
+Entonces, les va a llevar a este
+
+01:02:18.920 --> 01:02:23.440 align:start position:0%
+playlist. Eh, no sé si voy a dejar de
+
+01:02:21.440 --> 01:02:26.760 align:start position:0%
+grabar, ¿okay?
+
+01:02:23.440 --> 01:02:29.000 align:start position:0%
+Eh bueno, gracias chicos, voy a dejar
+
+01:02:26.760 --> 01:02:29.000 align:start position:0%
+de grabar.
+

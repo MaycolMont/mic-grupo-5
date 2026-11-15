@@ -1,0 +1,3619 @@
+WEBVTT
+
+00:00:16.880 --> 00:00:21.550
+Okay. Último tema del capítulo 3: EIGRP.
+
+00:00:21.550 --> 00:00:23.529
+Vamos es a hablar un poquito de los
+
+00:00:23.529 --> 00:00:27.639
+protocolos de enrutamiento y a hablar algo
+
+00:00:27.639 --> 00:00:32.670
+de la configuración.
+
+00:00:32.670 --> 00:00:35.310
+Esta sesión tiene tres partes. La primera
+
+00:00:35.310 --> 00:00:36.930
+es una introducción al protocolo de
+
+00:00:36.930 --> 00:00:38.070
+enrutamiento. Nosotros ya estuvimos
+
+00:00:38.070 --> 00:00:42.510
+revisando al menos de forma ligera los
+
+00:00:42.510 --> 00:00:45.450
+protocolos de enrutamiento y vamos a
+
+00:00:45.450 --> 00:00:46.590
+hablar de las características de
+
+00:00:46.590 --> 00:00:49.260
+funcionamiento de EIGRP y configuración
+
+00:00:49.260 --> 00:00:55.830
+tanto en IPv4 e IPv6.
+
+00:00:55.840 --> 00:00:57.540
+Cuando nosotros hablamos de protocolos
+
+00:00:57.540 --> 00:01:00.510
+de enrutamiento, hay que tener ese cuadro
+
+00:01:00.510 --> 00:01:03.810
+de forma que se lo puedan graham, en sí,
+
+00:01:03.820 --> 00:01:06.960
+para aquellos que son de Telemática o, sí, para los que van
+
+00:01:06.960 --> 00:01:08.940
+todo este camino de redes, y que les
+
+00:01:08.940 --> 00:01:10.290
+gustó la parte de redes, si quieren
+
+00:01:10.300 --> 00:01:13.040
+seguir avanzando es necesariamente
+
+00:01:13.050 --> 00:01:16.170
+aprenderse este tipo de protocolos
+
+00:01:16.180 --> 00:01:18.640
+que voy a poder utilizar.
+
+00:01:18.650 --> 00:01:21.190
+Si yo me baso en este cuadro conceptual,
+
+00:01:21.200 --> 00:01:23.020
+como dice, tengo muchos protocolos de
+
+00:01:23.030 --> 00:01:25.270
+enrutamiento que están separados en dos
+
+00:01:25.270 --> 00:01:27.490
+clasificaciones. La primera son
+
+00:01:27.500 --> 00:01:30.490
+protocolos de borde interior, los que voy
+
+00:01:30.490 --> 00:01:33.820
+a poder utilizar dentro de mi red, y los
+
+00:01:33.830 --> 00:01:36.340
+protocolos de borde exterior, los que
+
+00:01:36.350 --> 00:01:38.230
+van a ser utilizados por
+
+00:01:38.240 --> 00:01:40.450
+proveedores de internet o fuera de la
+
+00:01:40.460 --> 00:01:41.820
+red.
+
+00:01:41.830 --> 00:01:43.680
+Cuando yo trabajo a nivel de redes de
+
+00:01:43.690 --> 00:01:46.710
+datos y en el mundo de redes internas,
+
+00:01:46.720 --> 00:01:51.080
+yo tengo dos subclasificaciones. El primer
+
+00:01:51.090 --> 00:01:54.310
+protocolo,
+
+00:01:54.320 --> 00:01:56.110
+protocolos de enrutamiento por vector
+
+00:01:56.120 --> 00:01:58.960
+distancia. El segundo, protocolo de
+
+00:01:58.970 --> 00:02:01.020
+enrutamiento por estado de enlace.
+
+00:02:01.030 --> 00:02:03.460
+Dependiendo de cuál yo use, van a haber
+
+00:02:03.470 --> 00:02:05.140
+ciertas características cada uno de
+
+00:02:05.150 --> 00:02:07.359
+ellos, y así mismos, voy a poder
+
+00:02:07.369 --> 00:02:09.999
+utilizar o llegar a una ruta o utilizar
+
+00:02:10.009 --> 00:02:12.640
+una ruta dependiendo de este tipo de
+
+00:02:12.650 --> 00:02:15.610
+protocolo. Si yo me voy a la parte de
+
+00:02:15.620 --> 00:02:18.280
+protocolos de exterior, yo tengo un protocolo de
+
+00:02:18.290 --> 00:02:20.320
+enrutamiento basado en camino, basado en encaminamiento,
+
+00:02:20.330 --> 00:02:22.720
+en donde el más
+
+00:02:22.730 --> 00:02:26.140
+conocido es el BGP. Como ven, esto ya
+
+00:02:26.150 --> 00:02:28.150
+es un nivel de redes avanzadas, así que
+
+00:02:28.160 --> 00:02:30.880
+simplemente es conocerlo. Sin embargo, a
+
+00:02:30.890 --> 00:02:36.100
+nivel de redes internas,
+
+00:02:36.110 --> 00:02:38.500
+si yo me voy a la parte de protocolos de
+
+00:02:38.510 --> 00:02:41.070
+enrutamiento de vector distancia, yo tengo
+
+00:02:41.080 --> 00:02:44.020
+Rip versión 1 o Rip versión 2, que ya
+
+00:02:44.030 --> 00:02:45.850
+prácticamente no se les usa mucho, va a
+
+00:02:45.860 --> 00:02:48.460
+depender solamente como laboratorio si
+
+00:02:48.470 --> 00:02:51.250
+quieren conocer este tipo de protocolo.
+
+00:02:51.260 --> 00:02:55.860
+El otro es el protocolo
+
+00:02:55.870 --> 00:02:58.589
+el protocolo de enrutamiento de borde
+
+00:02:58.599 --> 00:03:02.399
+interior, el IGP, y el protocolo EIGRP,
+
+00:03:02.409 --> 00:03:04.619
+que en cambio es el mismo protocolo pero
+
+00:03:04.629 --> 00:03:07.170
+mejorado, el enhanced, la E.
+
+00:03:07.180 --> 00:03:08.759
+Si yo me voy a los protocolos de
+
+00:03:08.769 --> 00:03:11.099
+enrutamiento de estado de enlace, es que yo
+
+00:03:11.109 --> 00:03:16.500
+tengo el que se conoce como OSPF y IS-IS.
+
+00:03:16.510 --> 00:03:19.390
+OSPF y IS-IS se lo ven, como digo, en
+
+00:03:19.400 --> 00:03:21.280
+otras materias, nosotros vamos ahorita
+
+00:03:21.290 --> 00:03:23.830
+solamente a ver el EIGRP, un protocolo
+
+00:03:23.840 --> 00:03:26.140
+basado en vector distancia, por dos
+
+00:03:26.150 --> 00:03:29.559
+razones... bueno, por una razón muy grande.
+
+00:03:29.569 --> 00:03:32.440
+La primera, como dice ahí, está en la
+
+00:03:32.450 --> 00:03:35.289
+clasificación de vector distancia. Sin
+
+00:03:35.299 --> 00:03:39.039
+embargo, como ser un protocolo... al ser un
+
+00:03:39.049 --> 00:03:41.739
+protocolo mejorado, tiene ciertas
+
+00:03:41.749 --> 00:03:44.979
+características de enrutamiento de
+
+00:03:44.989 --> 00:03:47.150
+estado de enlace.
+
+00:03:47.160 --> 00:03:49.430
+Por eso es que vamos a ver este para
+
+00:03:49.440 --> 00:03:51.500
+entender algunos aspectos de un
+
+00:03:51.500 --> 00:03:55.680
+protocolo de enrutamiento como tal.
+
+00:03:55.690 --> 00:03:58.020
+Algo interesante que a modo de
+
+00:03:58.030 --> 00:04:00.600
+conocimiento general, bueno, cuando yo trabajo
+
+00:04:00.610 --> 00:04:02.490
+con protocolos de vector distancia, y
+
+00:04:02.500 --> 00:04:03.840
+quizás los de Computación habrán
+
+00:04:03.850 --> 00:04:06.540
+escuchado más ese término, yo trabajo con el
+
+00:04:06.550 --> 00:04:09.060
+algoritmo de Bellman-Ford. Si yo trabajo en
+
+00:04:09.070 --> 00:04:11.610
+cambio con el EIGRP, sólo para este
+
+00:04:11.620 --> 00:04:13.800
+este EIGRP, como les estaba diciendo, al
+
+00:04:13.810 --> 00:04:15.450
+ser un protocolo que tiene ciertas
+
+00:04:15.460 --> 00:04:17.729
+características de OSPF, tiene su propio
+
+00:04:17.739 --> 00:04:19.800
+algoritmo. El algoritmo con el que
+
+00:04:19.810 --> 00:04:22.530
+trabaja se llama DUAL, Algoritmo por
+
+00:04:22.540 --> 00:04:24.600
+Actualización de Difusiones o envío de
+
+00:04:24.600 --> 00:04:28.080
+mensajes. OSPF, creo que sí es el más
+
+00:04:28.090 --> 00:04:31.590
+conocido debido a que trabaja con el
+
+00:04:31.600 --> 00:04:33.990
+algoritmo de Dijkstra, el algoritmo de,
+
+01:04:34.000 --> 01:04:36.840
+para encontrar los caminos más cortos; y
+
+01:04:36.850 --> 01:04:38.370
+IS-IS y BGP en cambio ya tienen
+
+01:04:38.380 --> 01:04:40.650
+otro mecanismo diferente.
+
+01:04:40.660 --> 01:04:44.350
+Consultas hasta ahí.
+
+01:04:44.360 --> 01:04:48.980
+Profe, ¿y EIGRP también no trabaja con Dijkstra?
+
+01:04:48.990 --> 01:04:52.510
+No, el EIGRP tiene su propio algoritmo
+
+01:04:52.520 --> 01:04:56.840
+llamado DUAL, y DUAL lo que hace es
+
+01:04:56.850 --> 01:05:00.050
+utilizar una serie de mensajes. Recuerden
+
+01:05:00.060 --> 01:05:01.250
+que cuando yo mando un mensaje, un
+
+01:05:01.260 --> 01:05:03.470
+paquete a través de IP que se
+
+01:05:03.480 --> 01:05:05.810
+circula por la red, el EIGRP tiene sus
+
+01:05:05.820 --> 01:05:08.300
+propios mensajes para conocer qué es lo
+
+01:05:08.310 --> 01:05:13.940
+que pasa en la red interna.
+
+01:05:13.950 --> 01:05:19.280
+¿Alguna otra consulta?
+
+01:05:19.290 --> 01:05:23.610
+No. Perfecto.
+
+01:05:23.620 --> 01:05:26.760
+Okay, entonces como regla así general para
+
+01:05:26.770 --> 01:05:29.010
+todos, sería bueno que al menos conozcan
+
+01:05:29.020 --> 01:05:30.420
+esta pequeña clasificación de los
+
+01:05:30.430 --> 01:05:32.640
+protocolos más básicos que pueden
+
+01:05:32.650 --> 01:05:34.590
+ustedes encontrarse a lo largo del
+
+01:05:34.600 --> 01:05:36.300
+camino de redes o cualquier otra materia
+
+01:05:36.310 --> 01:05:41.930
+superior que vayan a ver a nivel de pregrado.
+
+01:05:41.940 --> 01:05:46.110
+Perfecto.
+
+01:05:46.120 --> 01:05:48.480
+Características básicas de EIGRP: Primero,
+
+01:05:48.490 --> 01:05:51.780
+este es un protocolo propietario de
+
+01:05:51.790 --> 01:05:55.320
+Cisco, es decir, solamente lo van a poder
+
+01:05:55.330 --> 01:05:58.200
+encontrar o configurar en routers marca Cisco.
+
+01:05:58.210 --> 01:06:01.320
+Si ustedes tienen algún otro router,
+
+01:06:01.330 --> 01:06:03.570
+por ejemplo, un router MikroTik o router
+
+01:06:03.580 --> 01:06:06.570
+IBM, no van a poder configurar este
+
+01:06:06.580 --> 01:06:10.800
+protocolo, y ahí en vez de usar el EIGRP,
+
+01:06:10.810 --> 01:06:13.469
+utilizábamos OSPF para que al menos haya
+
+01:06:13.479 --> 01:06:15.910
+una conexión entre dos marcas distintas de enrutadores.
+
+01:06:15.920 --> 01:06:18.640
+EIGRP fue lanzado en el 2013 de forma
+
+01:06:18.650 --> 01:06:22.210
+como un estándar abierto para que la
+
+01:06:22.220 --> 01:06:24.040
+comunidad pueda empezar a desarrollarse
+
+01:06:24.050 --> 01:06:26.140
+y tengan otros protocolos y que puedan
+
+01:06:26.150 --> 01:06:28.330
+conocer al menos el algoritmo que fluye
+
+01:06:28.340 --> 01:06:30.570
+a través de este protocolo.
+
+01:06:30.580 --> 01:06:32.850
+Les había dicho, es un protocolo basado en
+
+01:06:32.860 --> 01:06:36.330
+vector distancia, pero avanzado,
+
+01:06:36.340 --> 01:06:39.240
+la cual coge ciertas características de OSPF,
+
+01:06:39.250 --> 01:06:41.760
+de estado de enlace, debido a que un
+
+01:06:41.770 --> 01:06:43.709
+protocolo de estado de enlace también manda
+
+01:06:43.719 --> 01:06:45.990
+difusión, utiliza ciertos mensajes para
+
+01:06:46.000 --> 01:06:48.420
+poder conocer su red, y eso es lo que
+
+01:06:48.430 --> 01:06:52.860
+tiene EIGRP, esa parte de conocimiento o
+
+01:06:52.870 --> 01:06:55.200
+de tratar de encontrar qué sucede en su
+
+01:06:55.210 --> 01:06:58.320
+red para poder ya sea actualizarse,
+
+01:06:58.330 --> 01:07:02.460
+actualizar la tabla de enrutamiento...
+
+01:07:02.470 --> 01:07:05.100
+perdón, actualizar la tabla de enrutamiento y
+
+01:07:05.110 --> 01:07:07.230
+demás otra información.
+
+01:07:07.240 --> 01:07:09.480
+El algoritmo que se usa, como dice ahí, es
+
+01:07:09.490 --> 01:07:11.820
+DUAL, ese algoritmo por actualización de
+
+01:07:11.830 --> 01:07:14.460
+difusión, es decir, yo voy a poder mandar
+
+01:07:14.470 --> 01:07:16.170
+mensajes a mi red dependiendo...
+
+01:07:16.180 --> 01:07:57.170
+perdón, disculpen.
+
+01:07:57.180 --> 01:08:01.410
+Okay, chicos, disculpen.
+
+01:08:01.420 --> 01:08:02.880
+Entonces, estaba diciendo que tenemos DUAL, y el
+
+01:08:02.890 --> 01:08:04.890
+algoritmo DUAL se basa en envío de
+
+01:08:04.890 --> 01:08:07.860
+mensajes, envío de mensajes ya sea a un
+
+01:08:07.870 --> 01:08:10.590
+solo router, envío de mensajes a un grupo
+
+01:08:08.600 --> 01:08:11.850
+de routers
+
+01:08:11.860 --> 01:08:14.070
+o a todos los routers, a todos los routers
+
+01:08:14.080 --> 01:08:16.390
+que tengan en su propia área,
+
+01:08:16.400 --> 01:08:19.420
+ya sea, dice, para calcular el mejor
+
+01:08:19.430 --> 01:08:22.570
+camino hacia un destino y tanto asimismo
+
+01:08:22.580 --> 01:08:24.460
+un camino de vuelta, el mejor
+
+01:08:24.470 --> 01:08:26.590
+camino que se pueda tener de un punto a
+
+01:08:26.600 --> 01:08:29.190
+otro.
+
+01:08:29.200 --> 01:08:32.560
+Este punto es el que más mi interesa:
+
+01:08:32.570 --> 01:08:34.570
+establecimiento de adyacencia de
+
+01:08:34.580 --> 01:08:36.240
+vecinos.
+
+01:08:36.250 --> 01:08:39.630
+Y para esto, lo que voy a hacer es que
+
+01:08:39.640 --> 01:08:42.930
+tengo aquí un pequeño... no un ejercicio, sino
+
+01:08:42.940 --> 01:08:44.680
+más bien el esquema.
+
+01:08:44.690 --> 01:08:47.590
+Estoy diciendo que EIGRP trabaja de
+
+01:08:47.600 --> 01:08:50.610
+forma de conocimiento mediante mensajes.
+
+01:08:50.620 --> 01:08:53.030
+Sin embargo,
+
+01:08:53.040 --> 01:08:54.980
+cada router, cuando yo trato de
+
+01:08:54.990 --> 01:08:57.980
+configurar el EIGRP para que funcione en
+
+01:08:57.990 --> 01:09:00.680
+cada uno de ellos, lo que yo tengo que
+
+01:09:00.690 --> 01:09:04.639
+recordar en la configuración, es decir, si
+
+01:09:04.649 --> 01:09:06.769
+yo estoy en el router 3, en este de
+
+01:09:06.779 --> 01:09:11.129
+aquí, router 1 3, ¿quiénes son mis vecinos?
+
+01:09:11.129 --> 01:09:14.400
+Los vecinos es este,
+
+01:09:14.410 --> 01:09:18.930
+nada más. Si yo estoy en el router 1 4,
+
+01:09:18.940 --> 01:09:20.430
+el router 1 4 tiene que hacerse esa
+
+01:09:20.440 --> 01:09:24.790
+pregunta: ¿Quiénes son mis vecinos?
+
+01:09:24.790 --> 01:09:31.020
+Los vecinos de él son uno, dos, tres,
+
+01:09:31.030 --> 01:09:34.320
+cuatro. Esa pregunta se tienen que hacer por
+
+01:09:34.330 --> 01:09:37.230
+cada router para identificar cuáles son
+
+01:09:37.240 --> 01:09:40.170
+sus vecinos, y a eso es lo que se conoce
+
+01:09:40.180 --> 01:09:42.540
+como la adyacencia de los vecinos, para
+
+01:09:42.550 --> 01:09:45.330
+poder decir: este router tiene
+
+01:09:45.340 --> 01:09:48.060
+adyacencia o está en su vecindario el
+
+01:09:48.070 --> 01:09:54.210
+router 1 3, 1 2, 1 5, 1 1. Lo mismo si yo me
+
+01:09:54.220 --> 01:09:56.700
+pregunto por el router 1 5, me hago la, el
+
+01:09:56.710 --> 01:09:59.070
+mismo producto, ¿quiénes están en mi
+
+01:09:59.080 --> 01:09:00.810
+vecindad, quiénes son mis vecinos,
+
+01:09:00.820 --> 01:09:02.540
+con quién yo tengo adyacencia?
+
+01:09:02.550 --> 01:09:05.310
+Este, con esto,
+
+01:09:05.320 --> 01:09:07.650
+y con esto.
+
+01:09:07.660 --> 01:09:09.790
+Entonces, esa es una característica
+
+01:09:09.800 --> 01:09:12.940
+importante de EIGRP. Si ustedes con esa
+
+01:09:12.950 --> 01:09:15.310
+parte que estoy diciendo, que reconocen
+
+01:09:15.320 --> 01:09:18.040
+cuáles son los vecinos y las adyacencias
+
+01:09:18.050 --> 01:09:20.319
+de un router a otro,
+
+01:09:20.329 --> 01:09:22.629
+aprendieron el EIGRP, pero así de
+
+01:09:22.639 --> 01:09:25.890
+simple es la configuración.
+
+01:09:25.900 --> 01:09:28.500
+Cuando yo trabajo con un EIGRP, y
+
+01:09:28.510 --> 01:09:30.480
+recuerden que si estuviera hablando de
+
+01:09:30.490 --> 01:09:33.270
+en la capa 4, cuando al menos se inició este
+
+01:09:33.280 --> 01:09:35.730
+mundo del modelo OSI, yo les dije que en
+
+01:09:35.740 --> 01:09:37.560
+la capa 4 ustedes iban a tener el
+
+01:09:37.570 --> 01:09:40.230
+protocolo TCP, protocolo UDP para
+
+01:09:40.240 --> 01:09:42.120
+mandar mensajes, yo se los... no sé si
+
+01:09:42.130 --> 01:09:44.070
+recuerdan.
+
+01:09:44.080 --> 01:09:46.890
+Sin embargo, el EIGRP tiene su propio
+
+01:09:46.900 --> 01:09:49.530
+protocolo de transporte. El protocolo de
+
+01:09:49.540 --> 01:09:53.880
+transporte EIGRP se llama RTP, Protocolo
+
+01:09:53.890 --> 01:09:57.810
+de Transporte Confiable, la cual se usa
+
+01:09:57.820 --> 01:10:00.570
+este tipo de protocolo de transporte
+
+01:10:00.580 --> 01:11:02.940
+para el envío de todos los mensajes que
+
+01:11:02.950 --> 01:11:06.020
+fluyen a lo largo de toda la red.
+
+01:11:06.030 --> 01:11:09.680
+Otro punto, esas actualizaciones o ese
+
+01:11:09.690 --> 01:11:12.230
+envío de mensajes en la red, como dije,
+
+01:11:12.240 --> 01:11:14.930
+puede ser unicast,
+
+01:11:14.940 --> 01:11:17.540
+es decir, envío a un solo router; puede
+
+01:11:17.550 --> 01:11:20.000
+ser parcial, mando a un conjunto de
+
+01:11:20.010 --> 01:11:22.730
+routers; o puede ser a toda la red, un
+
+01:11:22.740 --> 01:11:25.760
+multicast. Todo va a depender de qué es
+
+01:11:25.770 --> 01:11:28.580
+lo que sucede en la red. ¿Se agregó un
+
+01:11:28.590 --> 01:11:30.950
+nuevo router? Hay que... si se agregó un
+
+01:11:30.960 --> 01:11:33.050
+nuevo router, hay que avisar a toda la
+
+01:11:33.060 --> 01:11:36.170
+red que hay un nuevo cambio. ¿Se quitó un
+
+01:11:36.180 --> 01:11:39.590
+router? Hay que avisar a la red que hay
+
+01:11:39.600 --> 01:11:43.780
+ese cambio, que existe ese cambio.
+
+01:11:43.790 --> 01:11:45.700
+Y ahí es que se envían todos los
+
+01:11:45.710 --> 01:11:48.520
+diferentes mensajes por cualquier vía,
+
+01:11:48.530 --> 01:11:55.040
+este, unicast, multicast, o parciales.
+
+01:11:55.050 --> 01:12:00.270
+¿Consultas hasta ahí en las características?
+
+01:12:00.280 --> 01:12:02.230
+Interesante.
+
+01:12:02.240 --> 01:12:09.890
+Aprenderé los protocolos.
+
+01:12:09.900 --> 01:12:12.510
+No. Adelante, Angélica.
+
+01:12:12.520 --> 01:12:16.800
+¿Sí se me escucha? Ya, es una pregunta.
+
+01:12:16.810 --> 01:12:18.480
+Usted cuando dice que cuando hay un
+
+01:12:18.490 --> 01:12:20.760
+cambio, hay que avisarle a toda la red, ¿a
+
+01:12:20.770 --> 01:12:23.010
+qué se refiere? Porque no sé si entendí
+
+01:12:23.020 --> 01:12:25.350
+mal, pero al tener esto de los vecinos,
+
+01:12:25.360 --> 01:12:27.450
+¿no se supone que ya no es necesario que
+
+01:12:27.460 --> 01:12:30.639
+toda la red conozca toda la topología?
+
+01:12:30.649 --> 01:12:34.220
+Correcto, correcto, correcto, correcto.
+
+01:12:34.230 --> 01:12:37.040
+Cuando digamos que este es el cambio,
+
+01:12:37.050 --> 01:12:42.950
+este... este es el router,
+
+01:12:42.960 --> 01:12:47.400
+esta línea se elimina,
+
+01:12:47.410 --> 01:12:51.500
+¿qué sucede?
+
+01:12:51.510 --> 01:12:53.879
+No hay esa línea, sin embargo, el vecino
+
+01:12:53.889 --> 01:12:59.090
+reconoce que ya no hay ese... ese... ese camino
+
+01:12:59.100 --> 01:13:02.759
+hacia el router. Por lo tanto, debe
+
+01:13:02.769 --> 01:13:06.059
+enviar actualizaciones de que este
+
+01:13:06.069 --> 01:13:08.759
+camino ya no existe, y esas
+
+01:13:08.769 --> 01:13:12.449
+actualizaciones las envía a todos sus
+
+01:13:12.459 --> 01:13:14.309
+vecinos para que, al mismo tiempo, se
+
+01:13:14.319 --> 01:13:17.129
+actualicen las tablas de enrutamiento de
+
+01:13:17.139 --> 01:13:19.379
+cada uno de ellos.
+
+01:13:19.389 --> 01:13:23.860
+¿Y esa actualización sólo llega hasta ahí, hasta el vecino, o los vecinos también avisan a los otros vecinos?
+
+01:13:23.870 --> 01:13:25.810
+Los vecinos, dependiendo si este vecino o este de aquí, este de aquí,
+
+01:13:25.820 --> 01:13:27.519
+en el momento que se actualiza su tabla de
+
+01:13:27.529 --> 01:13:29.890
+enrutamiento
+
+01:13:29.900 --> 01:13:33.519
+y no hubo ningún desfase con respecto a
+
+01:13:33.529 --> 01:13:35.100
+hasta dónde quiera llegar o algo, no
+
+01:13:35.110 --> 01:13:37.050
+avisa, porque el momento que le llega
+
+01:13:37.060 --> 01:13:38.489
+un paquete a este de aquí,
+
+01:13:38.499 --> 01:13:41.129
+y digamos que trata de dejar de enviarlo
+
+01:13:41.139 --> 01:13:43.589
+a este punto de acá, lo único que él va
+
+01:13:43.599 --> 01:13:46.439
+a saber, es decir, que tiene que tratar de
+
+01:13:46.449 --> 01:13:49.310
+enviar a este punto de aquí, pero este le va a decir: "no, ya no existe, ya no tengo ese camino".
+
+01:13:49.320 --> 01:13:51.590
+Y para esto es que existen... cuando
+
+01:13:51.600 --> 01:13:53.540
+trabajo con el EIGRP, yo no solamente tengo
+
+01:13:53.550 --> 01:13:55.220
+una tabla de enrutamiento como lo hemos
+
+01:13:55.230 --> 01:13:57.680
+estado viendo en el enrutamiento estático, que era
+
+01:13:57.690 --> 01:13:59.480
+lo que quería llegar.
+
+01:13:59.490 --> 01:14:01.110
+Recuerden, cuando yo trabajaba con enrutamiento
+
+01:14:01.120 --> 01:14:04.109
+estático, yo les decía: "hagan un show ip
+
+01:14:04.119 --> 01:14:06.600
+route" y veían la tabla de enrutamiento,
+
+01:14:06.610 --> 01:14:08.820
+y ustedes podían ver las líneas de la red a la
+
+01:14:08.830 --> 01:14:10.650
+cual ustedes pueden alcanzar por una
+
+01:14:10.660 --> 01:14:13.390
+interfaz, ¿verdad? Eso es lo que es, y sí se acuerdan de esta parte que acabamos
+
+01:14:13.400 --> 01:14:18.310
+de ver en enrutamiento estático.
+
+01:14:18.320 --> 01:14:20.380
+Pero si llega a ver este cambio de que
+
+01:14:20.390 --> 01:14:22.930
+hay una falla o un problema o se cayó un
+
+01:14:22.940 --> 01:14:24.610
+router, o una interfaz no vale, hay que
+
+01:14:24.620 --> 01:14:28.810
+hacer actualizaciones, es decir, enviar
+
+01:14:28.820 --> 01:14:30.400
+mensajes de que la red tome sus medidas
+
+01:14:30.410 --> 01:14:33.020
+y que se vuelva de nuevo
+
+01:14:33.030 --> 01:14:36.200
+a tener un consenso de que todos
+
+01:14:36.210 --> 01:14:40.010
+los routers conozcan qué es lo que ha
+
+01:14:40.020 --> 01:14:42.620
+pasado. Para eso el EIGRP tiene tres tablas de
+
+01:14:42.630 --> 01:14:44.960
+enrutamiento.
+
+01:14:44.970 --> 01:14:47.260
+La primera es la que ustedes ya conocen,
+
+01:14:47.270 --> 01:14:52.199
+la tabla de enrutamiento normal, en la cual
+
+01:14:52.209 --> 01:14:55.350
+ustedes van a tener la dirección de red,
+
+01:14:55.360 --> 01:14:56.730
+el salto y la interfaz por la cual tiene
+
+01:14:56.740 --> 01:14:57.970
+que salir.
+
+01:14:57.980 --> 01:15:01.420
+Sin embargo, el EIGRP tiene dos tablas
+
+01:15:01.430 --> 01:15:03.430
+adicionales.
+
+01:15:03.440 --> 01:15:06.030
+La primera es la tabla de vecinos, en la
+
+01:15:06.040 --> 01:15:09.220
+cual... en la tabla de vecinos lo que va a
+
+01:15:09.230 --> 01:15:12.690
+decir es que cada router va a tener su
+
+01:15:12.700 --> 01:15:15.820
+propia tabla de vecinos y va a
+
+01:15:15.830 --> 01:15:17.250
+configurar su vecindario.
+
+01:15:17.260 --> 01:15:20.330
+Este sólo va a tener estos dos, este sólo
+
+01:15:20.340 --> 01:15:22.380
+estos dos, y este obvio tenía los cuatro,
+
+01:15:22.390 --> 01:15:26.280
+esa es su tabla de vecinos.
+
+01:15:26.290 --> 01:15:27.900
+Siguiente, la tabla de topologías, y esta
+
+01:15:27.910 --> 01:15:30.840
+es la que interesa en la parte de
+
+01:15:30.850 --> 01:15:32.430
+actualizaciones, porque la tabla de
+
+01:15:32.440 --> 01:15:35.369
+topología a mí me va a indicar es
+
+01:15:35.379 --> 01:15:39.329
+cuál va a ser... aquí viene el nuevo
+
+01:15:39.339 --> 01:15:42.569
+concepto... cuál va a ser mi sucesor
+
+01:15:42.579 --> 01:15:45.500
+y cuál es mi sucesor factible, debido a que el
+
+01:15:45.510 --> 01:15:49.610
+sucesor viene a ser el primer enlace en
+
+01:15:49.620 --> 01:15:51.080
+el cual se encuentra también en la tabla
+
+01:15:51.090 --> 01:15:53.450
+de enrutamiento.
+
+01:15:53.460 --> 01:15:55.850
+Si ese sucesor se llega a caer y
+
+01:15:55.860 --> 01:15:58.190
+digamos que existe otra línea por allá
+
+01:15:58.200 --> 01:16:01.730
+que llegue al router que se cayó, o si
+
+01:16:01.740 --> 01:16:05.000
+ya no existe o no sé, es por uno u otro
+
+01:16:05.010 --> 01:16:08.930
+motivo,
+
+01:16:08.940 --> 01:16:12.320
+si ese es el sucesor, sigue a traer
+
+01:16:12.330 --> 01:16:14.269
+el sucesor factible que el EIGRP ha
+
+01:16:14.279 --> 01:16:18.199
+calculado ya, porque ya conoce toda la
+
+01:16:18.209 --> 01:16:21.139
+topología de la red, y dicen: "no, mi
+
+01:16:21.149 --> 01:16:24.050
+sucesor se cayó, sin embargo, yo conozco
+
+01:16:24.060 --> 01:16:26.300
+que para llegar a ese mismo destino se
+
+01:16:26.310 --> 01:16:28.060
+puede ir por otra ruta", y para eso es que
+
+01:16:28.070 --> 01:16:31.170
+él también calcula un sucesor factible
+
+01:16:31.180 --> 01:16:34.890
+para, en el momento que ese sucesor se
+
+01:16:34.900 --> 01:16:37.470
+caiga, tener una ruta alterna.
+
+01:16:37.480 --> 01:16:40.320
+Una vez que pasa a ese cambio, el
+
+01:16:40.330 --> 01:16:44.730
+sucesor factible se configura en la
+
+01:16:44.740 --> 01:16:47.280
+tabla de enrutamiento como sucesor, y
+
+01:16:47.290 --> 01:16:50.280
+vuelve otra vez el EIGRP a mandar una serie
+
+01:16:50.290 --> 01:16:53.120
+de mensajes, porque hay que volver a
+
+01:16:53.130 --> 01:16:55.560
+calcular sucesores factibles y armar una
+
+01:16:55.570 --> 01:16:56.790
+nueva tabla de topología basado en los...
+
+01:16:56.800 --> 01:16:59.410
+en los cambios que han habido.
+
+01:16:59.420 --> 01:17:03.220
+Para eso es estas tres tablas: tabla de
+
+01:17:03.230 --> 01:17:05.830
+vecinos, conocer... cada router conoce su
+
+01:17:05.840 --> 01:17:09.340
+vecindario; tabla de topología, cada router
+
+01:17:09.350 --> 01:17:12.670
+debe conocer al menos ciertas cosas de
+
+01:17:12.680 --> 01:17:14.920
+la topología de toda la red para saber cuál
+
+01:17:14.930 --> 01:17:17.980
+va a ser el sucesor y el sucesor
+
+01:17:17.990 --> 01:17:19.780
+factible; y la tabla de enrutamiento, en la
+
+01:17:19.790 --> 01:17:23.990
+cual se encuentra el sucesor, que sería
+
+01:17:24.000 --> 01:17:27.620
+el camino más óptimo que el EIGRP ha
+
+01:17:27.630 --> 01:17:30.620
+encontrado hacia un destino.
+
+01:17:30.630 --> 01:17:34.610
+¿Preguntas? ¿Se entendió o se me perdieron?
+
+01:17:34.620 --> 01:17:36.620
+Vamos, chicos, preguntas.
+
+01:17:36.630 --> 01:17:39.330
+No, ¿estamos bien entonces? Perfecto.
+
+01:17:39.340 --> 01:17:42.810
+Como yo tengo que enviar mensajes, el EIGRP
+
+01:17:42.820 --> 01:17:35.750
+tiene cinco tipos de mensajes para poder...
+
+01:18:35.760 --> 01:18:39.710
+o que fluyen a lo largo de toda la red.
+
+01:18:39.720 --> 01:18:44.690
+El primero, updates, actualizaciones. Las
+
+01:18:44.700 --> 01:18:47.029
+actualizaciones contienen información de
+
+01:18:47.039 --> 01:18:50.720
+las rutas que envían ciertas...
+
+01:18:50.730 --> 01:18:53.000
+ciertos valores de métrica o ciertos
+
+01:18:53.010 --> 01:18:56.630
+valores de cambio de topología; dice, ah,
+
+01:18:56.640 --> 01:18:57.789
+también dicen que es confiable.
+
+01:18:57.799 --> 01:18:59.810
+Interesante, cuando yo trabajo con
+
+01:18:59.820 --> 01:19:01.669
+mensajes updates se envían de forma
+
+01:19:01.679 --> 01:19:03.260
+confiable, es decir, que debe
+
+01:19:03.270 --> 01:19:07.120
+obligatoriamente llegar a los routers;
+
+01:19:07.130 --> 01:19:09.760
+son enviadas de forma múltiple, es decir,
+
+01:19:09.770 --> 01:19:14.870
+a un grupo de routers;
+
+01:19:14.880 --> 01:19:17.540
+y bueno, posiblemente se... sabían, cuando
+
+01:19:17.550 --> 01:19:19.640
+hay nuevos vecinos, cuando hubo un cambio,
+
+01:19:19.650 --> 01:19:22.130
+hubo un nuevo router que se agregó,
+
+01:19:22.140 --> 01:19:24.340
+esas son actualizaciones.
+
+01:19:24.350 --> 01:19:27.760
+Un mensaje de query, o de solicitud, se
+
+01:19:27.770 --> 01:19:29.620
+envía dependiendo de qué es que un
+
+01:19:29.630 --> 01:19:31.779
+router está solicitando algún evento;
+
+01:19:31.789 --> 01:19:33.460
+solicitan, o solicita, una nueva
+
+01:19:33.470 --> 01:19:35.520
+actualización o algo de que haya pasado.
+
+01:19:35.530 --> 01:19:37.750
+Los routers envían este tipo de
+
+01:19:37.760 --> 01:19:39.970
+solicitudes cuando ellos se dan cuenta
+
+01:19:39.980 --> 01:19:43.150
+que han perdido, o se ha perdido, un
+
+01:19:43.160 --> 01:19:46.990
+camino en particular de la red,
+
+01:19:46.990 --> 01:19:47.000
+y hay que buscar una alternativa, un
+
+01:19:49.720 --> 01:19:49.730
+camino alterno hacia un mismo destino.
+
+01:19:49.730 --> 01:19:53.100
+Reply es la respuesta que se envía a
+
+01:19:53.110 --> 01:19:57.330
+las queries, a los queries, a las
+
+01:19:57.340 --> 01:19:59.190
+solicitudes de los routers.
+
+01:19:59.200 --> 01:20:01.100
+Esas respuestas
+
+01:20:01.110 --> 01:20:03.630
+son enviadas en formas únicas, porque el
+
+01:20:03.640 --> 01:20:06.780
+momento que ya el query fue enviado de
+
+01:20:06.790 --> 01:20:10.080
+forma multicast a algunos routers, el router que le contesta,
+
+01:20:10.090 --> 01:20:12.360
+perdón, el router que le contesta, le
+
+01:20:12.370 --> 01:20:14.520
+envía directamente al router que hizo su
+
+01:20:14.530 --> 01:20:16.500
+solicitud.
+
+01:20:16.510 --> 01:20:18.690
+Hello... el hello es muy, muy interesante y
+
+01:20:18.700 --> 01:20:20.590
+muy... este...
+
+01:20:20.600 --> 01:20:23.950
+muy beneficioso a lo largo de trabajar
+
+01:20:23.960 --> 01:20:27.610
+con EIGRP.
+
+01:20:27.620 --> 01:20:29.650
+Y él lo dice, usado para
+
+01:20:29.660 --> 01:20:31.580
+descubrir a los vecinos.
+
+01:20:31.590 --> 01:20:34.670
+El momento que ustedes configuran el EIGRP
+
+01:20:34.680 --> 01:20:36.700
+y colocan el primer comando del EIGRP
+
+01:20:36.710 --> 01:20:39.490
+para agregar un vecino, o conocer cuáles
+
+01:20:39.500 --> 01:20:42.190
+son sus vecinos, conocer el vecindario de
+
+01:20:42.200 --> 01:20:45.190
+ese router, se envían paquetes hello para
+
+01:20:45.200 --> 01:20:47.440
+decir: "hey, hola, hola, hola".
+
+01:20:47.450 --> 01:20:51.580
+Sin embargo, el hello no necesita respuesta
+
+01:20:51.590 --> 01:20:56.029
+obligatoriamente, no necesita que se
+
+01:20:56.039 --> 01:20:59.599
+envíe una respuesta de los routers
+
+01:20:59.609 --> 01:21:01.219
+vecinos, no es necesario.
+
+01:21:01.229 --> 01:21:02.840
+Y tenemos el siguiente paquete que es el
+
+01:21:02.850 --> 01:21:06.300
+acknowledgement, los ACK.
+
+01:21:06.310 --> 01:21:09.000
+Los ACK
+
+01:21:09.010 --> 01:21:11.790
+se envían en respuesta tanto a updates como
+
+01:21:11.800 --> 01:21:15.170
+a unicast, y generalmente no son... no se
+
+01:21:15.180 --> 01:21:18.230
+envían de forma confiable, es decir, que
+
+01:21:18.240 --> 01:21:22.760
+pueden llegarle los ACK al router
+
+01:21:22.770 --> 01:21:25.010
+como no.
+
+01:21:25.020 --> 01:21:27.080
+Sin embargo, de estos de estos cinco mensajes, el
+
+01:21:27.090 --> 01:21:29.670
+que le estaba diciendo, el que más me
+
+01:21:29.680 --> 01:21:33.780
+interesa es en que entiendan hello,
+
+01:21:33.790 --> 01:21:35.190
+porque es lo que va a decir si un router
+
+01:21:35.200 --> 01:21:38.340
+se cae o está activo.
+
+01:21:38.350 --> 01:21:42.299
+Vamos a leer lo que dice aquí cuando los
+
+01:21:42.309 --> 01:21:46.259
+mensajes hello son usados para
+
+01:21:46.269 --> 01:21:49.499
+descubrir, dice, vecinos.
+
+01:21:49.509 --> 01:21:51.060
+Así que si yo trato de encontrar a mi
+
+01:21:51.070 --> 01:21:52.919
+vecindario, porque mediante mi vecindario
+
+01:21:52.929 --> 01:21:55.799
+es que voy a poder armar mis tres tablas
+
+01:21:55.809 --> 01:21:57.719
+de enrutamiento, que son necesarias para
+
+01:21:57.729 --> 01:21:59.789
+conocer toda la topología.
+
+01:21:59.799 --> 01:22:02.070
+Se envían mensajes para mantener, dice,
+
+01:22:02.080 --> 01:22:06.000
+adyacencias, conocer los vecinos, y
+
+01:22:06.010 --> 01:22:08.640
+generalmente es el paquete hello.
+
+01:22:08.650 --> 01:22:11.790
+Envío mediante mensajes IPv4 o IP...
+
+01:22:11.800 --> 01:22:14.700
+v6 de forma multicast, tanto los cuales...
+
+01:22:14.710 --> 01:22:18.149
+Recuerden cuando estuvimos hablando de
+
+01:22:18.159 --> 01:22:20.789
+direccionamiento con clase, les dije que
+
+01:22:20.799 --> 01:22:24.060
+existen ciertos tipos de direcciones que
+
+01:22:24.070 --> 01:22:25.950
+son reservadas. Por ejemplo, EIGRP
+
+01:22:25.960 --> 01:22:27.870
+utiliza en IP versión 4 la 224.0.0.10
+
+01:22:27.880 --> 01:22:30.990
+para mandar mensajes multicast, o en
+
+01:22:31.000 --> 01:22:35.610
+IP versión 6 la FF02::A para mandar
+
+01:22:35.620 --> 01:22:39.289
+mensajes multicast.
+
+01:22:39.299 --> 01:22:42.680
+El envío, como estaba... cuando yo trato de
+
+01:22:42.690 --> 01:22:36.009
+conocer nuevos vecinos o saber si es que
+
+01:22:56.009 --> 01:22:58.560
+un vecino se ha caído o mantener aquí
+
+01:22:58.570 --> 01:23:01.220
+adyacencia de entre vecinos,
+
+01:23:01.220 --> 01:23:04.010
+el tiempo periódico que se envía un
+
+01:23:04.010 --> 01:23:04.020
+mensaje hello para conocer si ha pasado
+
+01:23:04.020 --> 01:23:07.159
+algo con el vecino es de 5 segundos. Cada
+
+01:23:07.169 --> 01:23:10.909
+5 segundos van a tener que enviar
+
+01:23:10.919 --> 01:23:13.490
+sus mensajes, mensajes, mensajes, mensajes,
+
+01:23:13.500 --> 01:23:16.460
+es decir, van a ver muchos paquetes hello
+
+01:23:16.470 --> 01:23:19.610
+fluyendo a través de toda su red.
+
+01:23:19.620 --> 01:23:24.230
+Sin embargo,
+
+01:23:24.240 --> 01:23:26.150
+si un router, por ejemplo, lo que sucedió aquí,
+
+01:23:26.160 --> 01:23:29.970
+este router está tratando de enviar
+
+01:23:29.980 --> 01:23:32.549
+mensajes... envió, 5 segundos,
+
+01:23:32.559 --> 01:23:36.330
+envió, envió, tratando de conocer qué está
+
+01:23:36.340 --> 01:23:39.480
+pasando con este router. Si este router
+
+01:23:39.490 --> 01:23:42.549
+no contesta
+
+01:23:42.549 --> 01:23:44.430
+al tercer intento,
+
+01:23:44.440 --> 01:23:47.080
+se considera que ese vecino se ha caído
+
+01:23:47.090 --> 01:23:49.990
+y empieza, ahora sí, el cálculo de la
+
+01:23:50.000 --> 01:23:52.840
+nueva topología, el nuevo sucesor factible
+
+01:23:52.850 --> 01:23:55.780
+pasa ahora a ser sucesor para tener
+
+01:23:55.790 --> 01:23:59.080
+armado una topología totalmente estable.
+
+01:23:59.090 --> 01:24:04.010
+Consultas.
+
+01:24:04.020 --> 01:24:10.240
+Pero, ¿él sólo tiene... ? Escucho, Érik, adelante.
+
+01:24:10.250 --> 01:24:14.650
+Solamente una pregunta. ¿Y si la red es
+
+01:24:14.660 --> 01:24:17.270
+demasiado grande, no se tendrían que
+
+01:24:17.280 --> 01:24:20.419
+andar calculando las tablas de
+
+01:24:20.429 --> 01:24:23.840
+enrutamiento a cada rato? Porque, mientras
+
+01:24:23.850 --> 01:24:26.000
+más grande sea la red, es más
+
+01:24:26.010 --> 01:24:27.290
+probable que hayan problemas con los
+
+01:24:27.300 --> 01:24:29.090
+enrutadores, se caigan, entonces...
+
+01:24:29.100 --> 01:24:32.440
+Okay, pero es que, en teoría, no. Cuando ya la
+
+01:24:32.450 --> 01:24:39.120
+red está toda armada, ya la red
+
+01:24:39.130 --> 01:24:41.920
+converge, es decir, ya todos nos
+
+01:24:41.930 --> 01:24:44.530
+conocen, todo está totalmente tranquilo
+
+01:24:44.540 --> 01:24:47.500
+y todos ya deberían al menos tener
+
+01:24:47.510 --> 01:24:49.690
+armado su tabla de enrutamiento para
+
+01:24:49.700 --> 01:24:52.000
+saber cuál es su sucesor.
+
+01:24:52.010 --> 01:24:54.370
+Esas actualizaciones... ese
+
+01:24:54.380 --> 01:24:56.530
+movimiento brusco de que se envían muchos
+
+01:24:56.540 --> 01:24:58.350
+mensajes de queries o updates,
+
+01:24:58.360 --> 01:25:00.790
+depende si es que hay un nuevo... un cambio
+
+01:25:00.800 --> 01:25:06.310
+en la red. Se agregó un router,
+
+01:25:06.310 --> 01:25:08.380
+se quitó un cable, se tienen que
+
+01:25:08.380 --> 01:25:10.990
+enviar mensajes.
+
+01:25:10.990 --> 01:25:13.960
+Pero eso no sucede siempre.
+
+01:25:13.960 --> 01:25:16.610
+El único mensaje que sí se tiene que
+
+01:25:16.620 --> 01:25:21.049
+enviar es el paquete hello
+
+01:25:21.049 --> 01:25:24.440
+para poder decir: "hey, hello,
+
+01:25:24.440 --> 01:25:25.700
+hello, hello". Tres
+
+01:25:25.710 --> 01:25:27.889
+veces no me contestó, hay que hacer un
+
+01:25:27.889 --> 01:25:29.930
+cálculo.
+
+01:25:29.930 --> 01:25:33.470
+Y eso va a depender si es que el router
+
+01:25:33.480 --> 01:25:34.940
+está bueno, si es que el cable está bueno
+
+01:25:34.940 --> 01:25:37.820
+o algo está fallando, y el administrador
+
+01:25:37.830 --> 01:25:41.919
+de redes tiene que estar monitoreando
+
+01:25:41.919 --> 01:25:45.489
+eso también.
+
+01:25:45.499 --> 01:25:47.739
+Porque como usted mismo dijo, si es grande,
+
+01:25:47.749 --> 01:25:50.049
+y ya estuvimos viendo lo tedioso que es
+
+01:25:50.059 --> 01:25:52.720
+crear una ruta estática, un
+
+01:25:52.730 --> 01:25:54.759
+enrutamiento estático, entonces hay que
+
+01:25:54.759 --> 01:25:57.999
+hacerlo con protocolos de enrutamiento y
+
+01:25:57.999 --> 01:26:08.530
+la convergencia es muy, muy rápida,
+
+01:26:08.540 --> 01:26:13.240
+este... es alrededor de milisegundos la
+
+01:26:08.540 --> 01:26:13.240
+convergencia.
+
+01:26:13.250 --> 01:26:17.760
+Seguimos entonces, estaba hablando de los
+
+01:26:17.770 --> 01:26:20.740
+tipos de mensajes. Vamos a ver aquí algo
+
+01:26:20.750 --> 01:26:23.110
+más en detalle de ellos. El paquete de
+
+01:26:23.120 --> 01:26:27.670
+actualizaciones es enviado justamente
+
+01:26:27.680 --> 01:26:29.740
+para propagar información de
+
+01:26:29.750 --> 01:26:32.350
+enrutamiento, sólo cuando es necesario,
+
+01:26:32.360 --> 01:26:34.950
+nada más, cuando hay algún cambio.
+
+01:26:34.960 --> 01:26:38.159
+Este tipo de actualizaciones se envía
+
+01:26:38.169 --> 01:26:40.590
+parcial o en grupo.
+
+01:26:40.600 --> 01:26:43.600
+Sin embargo, para el envío de esas
+
+01:26:43.610 --> 01:26:47.260
+actualizaciones, como estoy mandando
+
+01:26:47.270 --> 01:26:48.700
+utilizando el protocolo confiable RTP, yo
+
+01:26:47.270 --> 01:26:51.669
+necesito una respuesta, un ACK. Sin
+
+01:26:51.679 --> 01:26:55.150
+embargo, un ACK no necesariamente le va
+
+01:26:55.160 --> 01:26:57.820
+a llegar al router que ha enviado esas
+
+01:26:57.830 --> 01:26:59.680
+actualizaciones, porque lo hacen...
+
+01:26:59.690 --> 01:27:01.390
+éstos se envían de forma no confiable.
+
+01:27:01.400 --> 01:27:05.960
+Ahora, si yo tengo un query, un mensaje
+
+01:27:05.970 --> 01:27:08.570
+query, es decir, mando una solicitud, es usado
+
+01:27:08.580 --> 01:27:11.900
+dice que cuando buscan una red, cuando se
+
+01:27:11.910 --> 01:27:14.420
+busca un nuevo camino o un camino alterno,
+
+01:27:14.430 --> 01:27:17.270
+cuando hubo el sucesor se cayó y
+
+01:27:17.280 --> 01:27:19.630
+pasamos ahora a trabajar con su sucesor
+
+01:27:19.630 --> 01:27:21.500
+factible, si ese cambio... ahí usamos los queries,
+
+01:27:21.510 --> 01:27:24.190
+los cuales, dice, se entregan de forma
+
+01:27:24.200 --> 01:27:26.750
+confiable, el cual puede ser multicast o
+
+01:27:26.760 --> 01:27:31.180
+dirigido a un solo router, unicast. Y la
+
+01:27:31.190 --> 01:27:35.150
+respuesta es que así son obligatorias,
+
+01:27:35.160 --> 01:27:37.340
+las respuestas se entregan de forma
+
+01:27:37.350 --> 01:27:39.440
+confiable, es decir, el router que está
+
+01:27:39.450 --> 01:27:41.750
+solicitando necesita conocer las
+
+01:27:41.750 --> 01:27:49.010
+respuestas.
+
+01:27:49.020 --> 01:27:53.860
+Okay, viene aquí la trama.
+
+01:27:53.870 --> 01:27:55.900
+Nosotros hemos estado viendo todo este
+
+01:27:55.910 --> 01:27:58.810
+tipo de encapsulamiento, que cada capa le
+
+01:27:58.820 --> 01:28:02.880
+agrega diferentes cabeceras. En la capa 3,
+
+01:28:02.890 --> 01:28:06.190
+hemos dicho que agrega ciertas cabeceras,
+
+01:28:06.200 --> 01:28:07.690
+por ejemplo, de direccionamiento IP origen,
+
+01:28:07.700 --> 01:28:10.660
+de un IP destino, el tipo de protocolo,
+
+01:28:10.670 --> 01:28:12.850
+la versión. Miremos, cuando yo estoy
+
+01:28:12.860 --> 01:28:14.830
+mandando, si se fijan, estoy mandando es
+
+01:28:14.840 --> 01:28:17.260
+un paquete, pero un paquete de un
+
+01:28:17.270 --> 01:28:19.660
+protocolo para que conozca enrutamiento,
+
+01:28:19.670 --> 01:28:21.490
+se conozca o tengan que hacerse adyacencia a toda
+
+01:28:21.500 --> 01:28:24.270
+la red, no es un paquete de datos.
+
+01:28:24.280 --> 01:28:26.560
+Entonces quiere decir que estoy
+
+01:28:26.570 --> 01:28:28.330
+trabajando con un protocolo, del
+
+01:28:28.340 --> 01:28:30.340
+protocolo tienes que enviar ciertas
+
+01:28:30.340 --> 01:28:32.290
+cabeceras también.
+
+01:28:32.300 --> 01:28:36.280
+Y lo único que hace es decir: "okay, yo voy a
+
+01:28:36.290 --> 01:28:38.980
+trabajar con mensajes EIGRP, y lo que
+
+01:28:38.990 --> 01:28:41.470
+interesa aquí es agregar qué tipo de
+
+01:28:41.480 --> 01:28:43.900
+mensajes yo voy a enviar como un código".
+
+01:28:43.910 --> 01:28:50.659
+Simplemente, update es 1, query 3, reply
+
+01:28:50.659 --> 01:28:50.669
+4, y el hello 5.
+
+01:28:50.669 --> 01:28:54.649
+Y ahora, fíjense qué más está ahí, el campo
+
+01:28:54.659 --> 01:28:56.299
+naranja me indica que también
+
+01:28:56.309 --> 01:28:59.710
+necesitamos tener un sistema autónomo.
+
+01:28:59.720 --> 01:29:01.570
+¿Por qué?
+
+01:29:01.580 --> 01:29:04.370
+Nos venimos acá.
+
+01:29:04.380 --> 01:29:07.670
+Cuando yo configuro un protocolo de
+
+01:06:07.680 --> 01:29:11.450
+vector distancia, no es necesario tener
+
+01:29:11.460 --> 01:29:14.390
+un sistema autónomo. Sin embargo, yo les
+
+01:29:14.400 --> 01:29:18.020
+estaba diciendo que el EIGRP tiene ciertas
+
+01:29:18.030 --> 01:29:19.970
+características de un protocolo de
+
+01:29:19.980 --> 01:29:23.820
+estado de enlace como el OSPF.
+
+01:29:23.830 --> 01:29:26.850
+Lo que indica un sistema autónomo es que
+
+01:29:26.860 --> 01:29:29.980
+vamos a trabajar todos en conjunto,
+
+01:29:29.990 --> 01:30:34.180
+la cual, cuando yo configuro el EIGRP, todos
+
+01:30:34.190 --> 01:30:36.580
+los routers deben especificar que en el
+
+01:30:36.590 --> 01:30:39.580
+sistema autónomo están ellos, o se
+
+01:30:39.590 --> 01:30:42.460
+encuentran ellos en esa misma red. Por lo
+
+01:30:42.470 --> 01:30:45.190
+tanto, si voy a trabajar con todos estos
+
+01:30:45.200 --> 01:30:49.570
+routers en el EIGRP, todos estos routers
+
+01:30:49.580 --> 01:30:52.440
+deben llevar el mismo sistema autónomo.
+
+01:30:52.450 --> 01:30:55.120
+Si yo aquí configuro el sistema autónomo
+
+01:30:55.130 --> 01:30:56.730
+10,
+
+01:30:56.740 --> 01:31:00.990
+todos deben tener sistema autónomo 10. En
+
+01:31:01.000 --> 01:31:02.730
+el momento que hay ese cambio, yo le digo:
+
+01:31:02.740 --> 01:31:05.430
+"sistema autónomo 5", lo que hago es tratar
+
+01:31:05.440 --> 01:31:08.160
+de aislar una porción de red para que
+
+01:31:08.170 --> 01:31:11.160
+funcione en otro sistema autónomo, y para
+
+01:31:11.170 --> 01:31:12.930
+que exista una convergencia entre dos
+
+01:31:12.940 --> 01:31:15.480
+sistemas autónomos, debo colocar un router
+
+01:31:15.490 --> 01:31:17.460
+de borde que me permita configurar o
+
+01:31:17.470 --> 01:31:19.560
+trabajar con ellos; pero como digo, esto
+
+01:31:19.570 --> 01:31:21.840
+ya es un poco más a niveles de internet
+
+01:31:21.850 --> 01:31:23.080
+bobs.
+
+01:31:23.090 --> 01:31:25.030
+Pero hasta ahí quiero que quede claro:
+
+01:31:25.040 --> 01:31:27.820
+cuando yo trabajo en
+
+01:31:27.830 --> 01:31:31.539
+el EIGRP y yo deseo que todos mis routers
+
+01:31:31.549 --> 01:31:35.049
+de esa red converjan, conozcan la
+
+01:31:35.059 --> 01:31:37.899
+topología, todos deben ser configurados
+
+01:31:37.909 --> 01:31:42.940
+en un mismo sistema autónomo.
+
+01:31:42.940 --> 01:31:45.879
+Entonces, los mensajes que van a ser
+
+01:31:45.889 --> 01:31:49.600
+enviados deben llevar también el sistema
+
+01:31:49.610 --> 01:31:52.299
+autónomo para que se identifiquen los
+
+01:31:52.309 --> 01:32:02.280
+routers que van a recibir esos mensajes.
+
+01:32:02.280 --> 01:32:06.000
+Cuando yo trabajo con protocolos de
+
+01:32:06.010 --> 01:32:09.940
+estado de enlace, como dice, OSPF,
+
+01:32:09.950 --> 01:32:14.070
+yo debo configurar un router ID.
+
+01:32:14.080 --> 01:32:16.200
+Y como les dije exactamente que
+
+01:32:16.210 --> 01:32:17.880
+trabajamos con ciertas características
+
+01:32:17.890 --> 01:32:21.600
+de OSPF, el EIGRP también necesita un router ID,
+
+01:32:21.610 --> 01:32:24.690
+el router ID, y es el que va a
+
+01:32:24.700 --> 01:32:27.360
+identificar a su router
+
+01:32:27.370 --> 01:32:29.880
+para poder decir: "okay, quién está mandando
+
+01:32:29.890 --> 01:32:32.280
+el query, conozco un router ID.
+
+01:32:32.290 --> 01:32:34.500
+Quién está solicitando
+
+01:32:34.510 --> 01:32:37.410
+actualizaciones, ese router ID", para
+
+01:32:37.420 --> 01:32:39.360
+poder ser identificado en todo su
+
+01:32:39.370 --> 01:32:42.990
+sistema autónomo. El router ID no es
+
+01:32:42.990 --> 01:32:44.610
+más que
+
+01:32:44.620 --> 01:32:47.880
+la dirección IP con mayor valor
+
+01:32:47.890 --> 01:32:51.530
+configurada en los routers. Por ejemplo,
+
+01:32:51.540 --> 01:32:55.950
+si este router tiene... siempre la interfaz
+
+01:32:55.960 --> 01:32:56.530
+configurada aquí: 172.16.3.2, acá 192.168.10.9,
+
+01:32:56.530 --> 01:33:04.400
+perdón, y esta 172.16.2.1,
+
+01:33:04.410 --> 01:33:12.230
+y tiene otra... okay, y tiene esta interfaz
+
+01:33:12.240 --> 01:33:15.320
+que está a 200.165.200.225, y dice:
+
+01:33:15.330 --> 01:33:20.330
+"ah, okay, el router ID va a ser este de
+
+01:33:20.340 --> 01:33:23.720
+aquí,
+
+01:33:23.730 --> 01:33:25.490
+la interfaz de mayor valor".
+
+01:33:25.500 --> 01:33:32.290
+Esta es la 172.16.3.1,
+
+01:33:32.300 --> 01:33:36.280
+y entonces 192.168.10.5, y 172.16.1.0,
+
+01:33:36.290 --> 01:33:42.990
+la de mayor valor: 192.168.10.5.
+
+01:33:43.000 --> 01:33:44.960
+Lo interesante es que el router ID
+
+01:33:44.970 --> 01:33:47.890
+se configura automáticamente en el
+
+01:33:47.890 --> 01:33:51.530
+momento que ustedes ya configuran o
+
+01:33:51.540 --> 01:33:52.460
+habilitan el EIGRP en un router, eso ustedes no
+
+01:33:52.460 --> 01:33:55.140
+configuran. Sin embargo, es bueno conocer
+
+01:33:55.150 --> 01:33:58.180
+qué es lo que significa el router ID,
+
+01:33:58.190 --> 01:33:00.430
+y es eso simplemente: es el identificador
+
+01:33:00.440 --> 01:33:04.240
+de ese router dentro de una red EIGRP, y se
+
+01:33:04.250 --> 01:33:07.980
+configura con la dirección
+
+01:33:07.990 --> 01:33:10.960
+IP mayor,
+
+01:33:10.970 --> 01:33:14.050
+si la mayor IP que tengamos configurado
+
+01:33:14.060 --> 01:33:16.270
+de todas las interfaces del router.
+
+01:33:16.280 --> 01:33:18.910
+Lo opuesto pasa cuando yo trabajo con IP
+
+01:33:18.920 --> 01:33:22.620
+versión 6. En IP versión 6, yo puedo
+
+01:33:22.630 --> 01:33:25.110
+tener configuradas las
+
+01:33:25.120 --> 01:33:28.720
+interfaces con dirección IP versión 6, sin
+
+01:33:28.730 --> 01:33:31.720
+embargo, el router ID en configuración
+
+01:33:31.730 --> 01:33:34.900
+IP versión 6 debe ser configurado el
+
+01:33:34.910 --> 01:33:36.220
+direccionamiento IP versión 4.
+
+01:33:36.230 --> 01:33:38.919
+¿Cómo configuro el EIGRP?
+
+01:33:38.929 --> 01:33:44.049
+Sencillo.
+
+01:33:44.059 --> 01:33:47.049
+Ingreso al modo de configuración global
+
+01:33:47.059 --> 01:33:54.820
+y digo: "router eigrp" y especifico el
+
+01:33:54.830 --> 01:33:57.400
+sistema autónomo en el cual yo voy a
+
+01:33:57.410 --> 01:34:01.840
+trabajar, router eigrp 10, router
+
+01:34:01.850 --> 01:34:04.810
+eigrp 5, router eigrp 8, y es en esa misma línea:
+
+01:34:04.820 --> 01:34:08.139
+"router eigrp" y el sistema autónomo, debe estar
+
+01:34:08.149 --> 01:34:10.570
+en todos los routers que ustedes
+
+01:34:10.580 --> 01:34:15.340
+configuren en esa misma red.
+
+01:34:15.350 --> 01:34:19.290
+Luego viene eigrp router-id y dirección
+
+01:34:19.300 --> 01:34:22.720
+en IP versión 4. Esto puede ser
+
+01:34:22.730 --> 01:34:24.760
+ustedes mismos que la asignen, o que el
+
+01:34:24.770 --> 01:34:27.240
+router lo configure automáticamente.
+
+01:34:27.250 --> 01:34:31.619
+Adelante, Rafael.
+
+01:34:31.629 --> 01:34:34.260
+Profe, yo tengo una duda con respecto a lo de lo...
+
+01:34:34.270 --> 01:34:36.960
+que hablamos de los sucesores factibles, ¿nos podría
+
+01:34:36.970 --> 01:34:38.960
+poner la diapositiva anterior?
+
+01:34:38.970 --> 01:34:42.139
+No, no, no, la anterior.
+
+01:34:42.149 --> 01:34:46.519
+Después, o sea... digamos que yo, por
+
+01:34:46.529 --> 01:34:48.680
+ejemplo, tengo dispositivos conectados al
+
+01:34:48.690 --> 01:34:52.669
+R1, pues, no... hay dispositivos
+
+01:34:52.679 --> 01:34:57.400
+conectados, de tres, y yo quiero enviar
+
+01:34:57.410 --> 01:35:00.460
+paquetes pues desde un dispositivo en la
+
+01:35:00.470 --> 01:35:03.070
+red uno a un dispositivo en R3, y se cae,
+
+01:35:03.070 --> 01:35:04.330
+por ejemplo, la, el enlace, porque entre
+
+01:35:04.340 --> 01:35:07.450
+una y otra tres, igual, ¿ya varían los
+
+01:35:07.460 --> 01:35:10.330
+paquetes?
+
+01:35:10.340 --> 01:35:13.660
+A ver si si le estoy entendiendo.
+
+01:35:13.670 --> 01:35:15.320
+Usted desea enviar de aquí acá, y se
+
+01:35:15.330 --> 01:35:20.330
+cae este enlace.
+
+01:35:20.340 --> 01:35:23.720
+Ya, pero tiene una ruta alterna.
+
+01:35:23.730 --> 01:35:25.490
+Así, eso es lo que se practica, por
+
+01:35:25.500 --> 01:35:29.650
+ejemplo, de los sucesores factibles.
+
+01:35:29.650 --> 01:35:33.010
+Porque claro, eso es lo que me falta
+
+01:35:33.020 --> 01:35:35.380
+todavía explicar: cómo es que se calcula.
+
+01:35:35.390 --> 01:35:37.090
+Y a eso ya, ya mismo voy a eso, porque yo solo
+
+01:35:37.100 --> 01:35:39.490
+les he dicho que hay un sucesor
+
+01:35:39.500 --> 01:35:40.900
+y hay sucesores factibles. El sucesor, el
+
+01:35:40.910 --> 01:35:45.040
+que va a estar en la tabla de
+
+01:35:45.050 --> 01:35:45.059
+enrutamiento, así de simple, pero falta ver
+
+01:35:45.059 --> 01:35:47.279
+ahora cómo es que se calcula todo,
+
+01:35:47.279 --> 01:35:49.379
+porque hay ciertas reglas que se deben
+
+01:35:49.389 --> 01:35:54.640
+cumplir, y a eso voy. Buena pregunta,
+
+01:35:54.650 --> 01:35:57.190
+ya voy a ir a eso.
+
+01:35:57.190 --> 01:35:59.859
+Mientras tanto,
+
+01:35:59.869 --> 01:36:06.390
+¿dónde nos quedamos? Para configurarlo, el router ID en
+
+01:36:06.400 --> 01:36:08.680
+una dirección en IP versión 4, a pesar de
+
+01:36:08.690 --> 01:36:10.570
+que trabajen en presencia de...
+
+01:36:10.580 --> 01:36:13.690
+IP versión 6,
+
+01:36:13.700 --> 01:36:16.120
+con el trabajo de una dirección IP
+
+01:36:16.130 --> 01:36:18.329
+versión 4 de loopback puede ser usada
+
+01:36:18.339 --> 01:36:19.920
+como router ID. ¿Alguien de los
+
+01:36:19.930 --> 01:36:21.690
+presentes sabe qué es una dirección de
+
+01:36:21.700 --> 01:36:23.999
+loopback?
+
+01:36:24.009 --> 01:36:50.120
+No se peleen, chicos.
+
+01:36:50.130 --> 01:36:51.830
+No.
+
+01:36:51.840 --> 01:36:59.690
+Okay.
+
+01:36:59.700 --> 01:37:01.430
+Se acuerdan que yo ya les he dicho que
+
+01:37:01.440 --> 01:37:05.210
+para poder ver la configuración, entonces,
+
+01:37:05.220 --> 01:37:07.340
+ifconfig, ¿verdad?,
+
+01:37:07.350 --> 01:37:10.690
+tienen ustedes
+
+01:37:10.700 --> 01:37:12.579
+para poder ver la configuración de su red,
+
+01:37:12.589 --> 01:37:19.800
+verdad, mi dirección es 192.168.100.5.
+
+01:37:19.810 --> 01:37:21.970
+Sin embargo,
+
+01:37:21.980 --> 01:37:24.590
+cada máquina que ustedes...
+
+01:37:24.600 --> 01:37:28.170
+o su propia máquina puede ser alcanzada,
+
+01:37:28.180 --> 01:37:32.010
+si trabajan de forma local en su misma
+
+01:37:32.020 --> 01:37:34.980
+máquina, pueden ser alcanzadas de dos
+
+01:37:34.990 --> 01:37:36.890
+formas:
+
+01:37:36.900 --> 01:37:38.930
+con la dirección IP
+
+01:37:38.940 --> 01:37:40.910
+que les da el router, como quieran
+
+01:37:40.920 --> 01:37:46.099
+ustedes, si la 192.168.100.5, o con la
+
+01:37:46.109 --> 01:37:49.339
+dirección del loopback de las máquinas, que
+
+01:37:49.349 --> 01:37:54.860
+generalmente... déjenme ver si la encuentro...
+
+01:37:54.870 --> 01:37:59.050
+no me aparece aquí, pero es la... sí, de
+
+01:37:59.060 --> 01:38:06.960
+127.0.0.1. Creo que era lo que iba a decir, Angélica.
+
+01:38:06.970 --> 01:38:11.110
+No me aparece a mí aquí.
+
+01:38:11.120 --> 01:38:13.240
+Es la dirección de loopback de su
+
+01:38:13.250 --> 01:38:16.349
+propia máquina. Entonces,
+
+01:38:16.359 --> 01:38:18.329
+por ejemplo, ¿dónde podrían usar esto?
+
+01:38:18.339 --> 01:38:19.920
+Cuando ustedes... aquellos que son de
+
+01:38:19.930 --> 01:38:21.690
+Computación o Telemática, y quieran
+
+01:38:21.700 --> 01:38:23.999
+trabajar con servidores, o trabajar con
+
+01:38:24.009 --> 01:38:25.859
+aplicaciones web, desarrollar aplicaciones,
+
+01:38:25.869 --> 01:38:28.349
+para testear este tipo de aplicaciones,
+
+01:38:28.359 --> 01:38:30.120
+ver algo de microservicios, ver
+
+01:38:30.130 --> 01:38:31.589
+comunicación y demás,
+
+01:38:31.599 --> 01:38:34.079
+ustedes testean no con la dirección que
+
+01:38:34.089 --> 01:38:36.029
+les da el router, porque esa varía, puede
+
+01:38:36.039 --> 01:38:36.979
+cambiar dependiendo de su ubicación,
+
+01:38:36.989 --> 01:38:39.319
+entonces utilizan la dirección de loopback
+
+01:38:39.329 --> 01:38:42.450
+127.0.0.1 para que se haga referencia
+
+01:38:42.460 --> 01:38:45.660
+siempre a su máquina. Son cositas hay de,
+
+01:38:45.670 --> 01:38:48.210
+de envío de paquetes tanto de comunicación
+
+01:38:48.220 --> 01:38:49.670
+local.
+
+01:38:49.680 --> 01:38:52.430
+Sin embargo, si nos enfocamos ahora aquí,
+
+01:38:52.440 --> 01:38:56.859
+en la parte del router, si yo... si yo deseo
+
+01:38:56.869 --> 01:39:00.839
+que no se autoconfigure el router ID
+
+01:39:00.849 --> 01:39:03.609
+por el número de las interfaces o
+
+01:39:03.619 --> 01:39:05.079
+configuración de las redes de las
+
+01:39:05.089 --> 01:39:07.390
+interfaces, sino que yo deseo configurar
+
+01:39:07.400 --> 01:39:08.740
+eso,
+
+01:39:08.750 --> 01:39:08.750
+esos,
+
+01:39:08.750 --> 01:39:11.710
+aparte de tener esto de aquí, es que yo puedo
+
+01:39:11.720 --> 01:39:14.890
+crear una interfaz de loopback.
+
+01:39:14.900 --> 01:39:16.840
+Al interfaz del loopback yo solamente lo voy a
+
+01:39:16.840 --> 01:39:16.850
+poder
+
+01:39:16.850 --> 01:39:20.080
+hacer ping y localmente, no desde
+
+01:39:20.090 --> 01:39:23.470
+afuera, no desde el router hasta el router,
+
+01:39:23.480 --> 01:39:25.810
+no va a poder hacerlo, simplemente es mi
+
+01:39:25.820 --> 01:39:30.250
+lugar, y crea una interfaz loopback.
+
+01:39:30.260 --> 01:39:33.610
+La interesa es, yo mismo las creé, no se
+
+01:39:33.620 --> 01:39:35.680
+configuran dependiendo de que coloco un
+
+01:39:35.680 --> 01:39:37.990
+cable, es Fast, es Giga de internet,
+
+01:39:37.990 --> 01:39:38.000
+es serial, no. Es una interfaz del lugar
+
+01:39:38.000 --> 01:39:41.200
+que yo las creé, y las creo simplemente
+
+01:39:41.210 --> 01:39:43.540
+decir "interfaz loopback" un número que yo
+
+01:39:43.540 --> 01:39:46.030
+quiero darle, y le configuro una
+
+01:39:46.040 --> 01:39:47.950
+dirección IP. Y como estoy configurando
+
+01:39:47.960 --> 01:39:50.710
+una dirección de una interfaz de loopback,
+
+01:39:50.720 --> 01:39:52.320
+las loopback son las que les van a
+
+01:39:52.330 --> 01:39:55.150
+ganar absolutamente a todas las
+
+01:39:55.160 --> 01:39:57.130
+interfaces, y esa interfaz, entonces,
+
+01:39:57.140 --> 01:40:00.790
+configuradas como loopback es la que va a
+
+01:40:00.790 --> 01:40:08.950
+tomar como router ID.
+
+01:40:08.960 --> 01:40:23.930
+Perfecto, consultas, se perdieron o sí.
+
+01:40:23.940 --> 01:40:26.740
+No, es perfecto.
+
+01:40:26.750 --> 01:40:28.930
+Ahora,
+
+01:40:28.940 --> 01:40:31.470
+y yo les estaba diciendo
+
+01:40:31.480 --> 01:40:35.330
+que los routers,
+
+01:40:35.340 --> 01:40:37.670
+en cada router EIGRP, ustedes deben
+
+01:40:37.680 --> 01:40:40.520
+conocer sus vecinos, y yo les dije al
+
+01:40:40.530 --> 01:40:42.530
+inicio,
+
+01:40:42.540 --> 01:40:45.140
+a hacerse la pregunta: ¿quiénes son mis
+
+01:40:45.150 --> 01:40:47.350
+vecinos?
+
+01:40:47.360 --> 01:40:50.200
+Porque si ya ustedes conocen los vecinos
+
+01:40:50.210 --> 01:40:51.790
+de cada router,
+
+01:40:51.800 --> 01:40:53.530
+ahora sólo hay que configurarlo y decir:
+
+01:40:53.540 --> 01:40:55.040
+"okay,
+
+01:40:55.050 --> 01:40:58.940
+router eigrp 1, habilite el sistema
+
+01:40:58.950 --> 01:41:02.980
+autónomo 1 en EIGRP y digo:
+
+01:41:02.990 --> 01:41:04.620
+yo,
+
+01:41:04.630 --> 01:41:09.120
+router 1, tiene sus vecinos la red
+
+01:41:09.130 --> 01:41:12.320
+esta y la red
+
+01:41:12.320 --> 01:41:14.780
+esta".
+
+01:41:14.790 --> 01:41:17.810
+Así de simple, y ahí ustedes ya
+
+01:41:17.820 --> 01:41:20.030
+habilitaron EIGRP, pero ¿qué quiero
+
+01:41:20.040 --> 01:41:22.940
+quede claro? Hay que hacer eso
+
+01:41:22.950 --> 01:41:26.000
+dependiendo de cada router. Este router 1
+
+01:41:26.010 --> 01:41:29.600
+debe configurar el vecino: está este, este,
+
+01:41:29.600 --> 01:41:31.880
+este y es este.
+
+01:41:31.890 --> 01:41:34.140
+Este router debe solamente configurar,
+
+01:41:31.890 --> 01:41:34.150
+en un sistema autónomo el mismo, sólo
+
+01:41:34.150 --> 01:41:38.470
+este,
+
+01:41:38.470 --> 01:41:38.480
+y es este de acá, este de aquí.
+
+01:41:38.480 --> 01:41:41.140
+Sin embargo, si ustedes se fijan ahí,
+
+01:41:41.150 --> 01:41:44.500
+están diciendo: "porque mi vecino es la
+
+01:41:44.510 --> 01:41:48.880
+red 172.16.0.0, y también es la red 192 y
+
+01:41:48.890 --> 01:41:50.840
+demás", un etcétera.
+
+01:41:50.850 --> 01:41:53.960
+Pero cuando yo coloco así, existe un
+
+01:41:53.970 --> 01:41:57.120
+problema muy grande en el EIGRP,
+
+01:41:57.130 --> 01:42:01.260
+que se le conoce como la sumarización de las redes.
+
+01:42:01.270 --> 01:42:04.530
+Cuando yo trabajo de esta forma, se...
+
+01:42:04.540 --> 01:42:08.240
+viene el problema: si yo coloco, por ejemplo,
+
+01:42:08.250 --> 01:42:10.480
+172.16.0.0,
+
+01:42:10.490 --> 01:42:14.109
+estoy sumarizando. Recuerden cuando vimos la red...
+
+01:42:14.119 --> 01:42:16.600
+válidas, y que podían agrupar, y este tipo
+
+01:42:16.610 --> 01:42:20.110
+de agrupaciones que se... redes más grandes,
+
+01:42:20.120 --> 01:42:21.820
+si tenían pequeñas, hacer las redes grandes.
+
+01:42:21.830 --> 01:42:26.040
+Cuando yo trabajo con EIGRP, EIGRP lo
+
+01:42:26.050 --> 01:42:29.280
+hace automáticamente. ¿Qué quiere decir? Si
+
+01:42:29.290 --> 01:42:33.390
+yo coloco
+
+01:42:33.400 --> 01:42:36.000
+las redes de la 172.16.0.0, me va a
+
+01:42:36.010 --> 01:42:40.560
+sumarizar la red 1.0 y la 3.0, y de
+
+01:42:40.570 --> 01:42:44.880
+distinta máscara, y eso no quiero, porque
+
+01:42:44.890 --> 01:42:46.920
+yo les he dicho, yo ya no trabajo con
+
+01:42:46.930 --> 01:42:48.930
+direccionamiento con clase, sino ahora
+
+01:42:48.940 --> 01:42:51.390
+con direccionamiento classless, y sin
+
+01:42:51.400 --> 01:42:54.210
+clase significa que yo tengo una máscara
+
+01:42:54.220 --> 01:42:57.210
+variable: una máscara 24, una máscara de
+
+01:42:57.220 --> 01:42:59.460
+30, una máscara de 28, dependiendo de la
+
+01:42:59.470 --> 01:43:02.610
+máscara que yo tenga. Entonces, para evitar
+
+01:43:02.620 --> 01:43:06.120
+ese problema, es que ahora viene el uso
+
+01:43:06.130 --> 01:43:08.660
+de la máscara, ¿y cómo lo configuro?
+
+01:43:08.670 --> 01:43:11.180
+Sencillo.
+
+01:43:11.190 --> 01:43:14.390
+Ya no digo network y simplemente la
+
+01:43:14.400 --> 01:43:17.089
+dirección de red, sino que viene el
+
+01:43:17.099 --> 01:43:21.000
+concepto aquí de la wildcard mask,
+
+01:43:21.010 --> 01:43:23.400
+que no es más que otra cosa que la
+
+01:43:23.410 --> 01:43:25.809
+inversa de la máscara.
+
+01:43:25.819 --> 01:43:28.799
+Si mi máscara es, por ejemplo,
+
+01:43:28.809 --> 01:43:36.160
+máscara 255.255.255.252, para encontrar
+
+01:43:36.170 --> 01:43:40.329
+la wildcard hago una simple resta, una
+
+01:43:40.339 --> 01:43:43.839
+resta de todos los bits de una máscara
+
+01:43:43.849 --> 01:43:48.130
+de 32, menos una máscara, la que yo tengo
+
+01:43:48.140 --> 01:43:49.480
+en mi red.
+
+01:43:49.490 --> 01:43:53.289
+Esa resta me va a dar mi wildcard mask, y es
+
+01:43:53.299 --> 01:43:59.300
+la que yo coloco aquí.
+
+01:43:59.310 --> 01:44:02.480
+Okay, esa es la única pega que hay que
+
+01:44:02.490 --> 01:44:05.090
+tener presente y en cuenta cuando
+
+01:44:05.090 --> 01:44:08.990
+configuran el EIGRP: ya no es máscara, es la wildcard.
+
+01:44:08.990 --> 01:44:14.819
+Perfecto.
+
+01:44:14.829 --> 01:44:19.299
+¿Alguna duda con ese de ahí? Ya
+
+01:44:19.309 --> 01:44:21.339
+evitó lo de la sumarización,
+
+01:44:21.349 --> 01:44:24.880
+porque es lo que digo, es: "okay, esta red con
+
+01:44:24.890 --> 01:44:27.970
+esta wildcard es la única que va a
+
+01:44:27.980 --> 01:44:30.339
+hacer... o, mejor dicho, es la
+
+01:44:30.349 --> 01:44:31.839
+única que van a encontrar paquetes de
+
+01:44:31.849 --> 01:44:33.640
+este tipo de red, de esta red como tal".
+
+01:44:33.640 --> 01:44:35.859
+Ya no me... ya no está sumarizada, no
+
+01:44:35.869 --> 01:44:37.329
+está en la red general grande
+
+01:44:37.339 --> 01:44:39.910
+dependiendo de la clase, sino con la
+
+01:44:39.920 --> 01:44:46.570
+máscara.
+
+01:44:46.580 --> 01:45:05.280
+Consultas, preguntas.
+
+01:45:05.290 --> 01:45:07.320
+Okay, chicos, nos tomamos entonces unos
+
+01:45:07.330 --> 01:45:09.090
+cinco minutos
+
+01:45:09.100 --> 01:50:26.650
+y regresamos.
+
+01:50:26.660 --> 01:50:29.830
+Okay, chicos, están por favor levanten la mano para
+
+01:50:29.840 --> 01:50:41.309
+continuar.
+
+01:50:41.319 --> 01:50:50.500
+Pueden bajarla, gracias.
+
+01:50:50.510 --> 01:50:54.200
+Tiene el micrófono activo, Érik.
+
+01:50:54.210 --> 01:50:55.970
+Bien.
+
+01:50:55.980 --> 01:50:58.370
+Ustedes conocen el comando ya show ip
+
+01:50:58.380 --> 01:51:02.000
+route, sin embargo, si queremos ver a los
+
+01:51:02.010 --> 01:51:04.280
+vecinos del router, ustedes tienen el comando
+
+01:51:04.290 --> 01:51:05.420
+show
+
+01:51:05.430 --> 01:51:09.230
+ip eigrp neighbors. Con show ip eigrp
+
+01:51:09.240 --> 01:51:11.320
+neighbors ustedes van a poder encontrar
+
+01:51:11.330 --> 01:51:15.140
+los vecinos, las direcciones IP, la
+
+01:51:15.150 --> 01:51:17.090
+interfaz por la cual ustedes van a poder
+
+01:51:17.100 --> 01:51:22.099
+alcanzar ese vecino, y el hold time.
+
+01:51:22.109 --> 01:51:24.470
+Que cada vez que se envía un paquete
+
+01:51:24.480 --> 01:51:28.759
+hello, y este contesta, este hold time se
+
+01:51:28.769 --> 01:51:32.569
+reinicia a 15 segundos. Si llega a ser 0,
+
+01:51:32.579 --> 01:51:37.009
+significa que no logró alcanzarse en los
+
+01:51:37.019 --> 01:51:40.220
+tres consecutivos hello, hay que calcular
+
+01:51:40.230 --> 01:51:42.470
+un sucesor factible.
+
+01:51:42.480 --> 01:51:45.410
+Y un up time desde la fecha, desde la hora
+
+01:51:45.420 --> 01:51:48.710
+en la cual se tiene adyacencia, o se creó una tabla de vecinos.
+
+01:51:48.720 --> 01:51:53.400
+Ahora viene el concepto clave que creo
+
+01:51:53.410 --> 01:51:55.830
+que me preguntó... Rafael, creo que fue,
+
+01:51:55.840 --> 01:51:59.920
+cómo es que se calcula en este tipo de
+
+01:51:59.930 --> 01:52:02.460
+sucesores el sucesor factible.
+
+01:52:02.470 --> 01:52:05.309
+Todo esto depende de dos cosas claves.
+
+01:52:05.319 --> 01:52:09.700
+Ven que nosotros trabajábamos con el show
+
+01:52:09.710 --> 01:52:13.240
+ip route, viendo la tabla de enrutamiento,
+
+01:52:13.250 --> 01:52:15.070
+nosotros teníamos: conectado y decía que esta es
+
+01:52:15.080 --> 01:52:19.480
+mi red, y tenemos esto... él, teníamos la
+
+01:52:19.490 --> 01:52:21.880
+dirección y era la loopback, perfecto; si era
+
+01:52:21.890 --> 01:52:25.480
+estático, la S, y demás.
+
+01:52:25.490 --> 01:52:28.599
+Sin embargo, cuando yo trabajo con
+
+01:52:28.609 --> 01:52:30.640
+protocolos de enrutamiento: Rip versión 1, Rip versión 2,
+
+01:52:30.650 --> 01:52:34.270
+EIGRP, EIGRP, OSPF, IS-IS, BGP, el que
+
+01:52:34.280 --> 01:52:37.329
+ustedes deseen,
+
+01:52:37.339 --> 01:52:39.079
+hay dos cosas claves
+
+01:52:39.089 --> 01:52:42.570
+en este cuadrito.
+
+01:52:42.580 --> 01:52:44.790
+El primero significa la distancia
+
+01:52:44.800 --> 01:52:48.390
+administrativa,
+
+01:52:48.400 --> 01:52:50.120
+y el segundo la métrica.
+
+01:52:50.130 --> 01:52:54.650
+Primer punto, la distancia administrativa
+
+01:52:54.660 --> 01:52:58.100
+es una de las medidas que se usa,
+
+01:52:58.110 --> 01:53:00.170
+utilizan los routers para seleccionar la
+
+01:53:00.180 --> 01:53:03.290
+mejor ruta, y cuando hay varios
+
+01:53:03.300 --> 01:53:07.160
+protocolos configurados en un mismo
+
+01:53:07.170 --> 01:53:09.080
+router, porque incluso ustedes lo pueden
+
+01:53:09.090 --> 01:53:10.400
+hacer: en un mismo router vamos a poder configurar
+
+01:53:10.410 --> 01:53:12.620
+Rip versión 2, OSPF, EIGRP.
+
+01:53:12.630 --> 01:53:16.280
+Sin embargo, ¿quién entra en acción? ¿Quién
+
+01:53:16.290 --> 01:53:19.280
+entra en acción?
+
+01:53:19.290 --> 01:53:20.990
+¿Quién toma la batuta de todo el... en
+
+01:53:20.990 --> 01:53:23.450
+cambio, el enrutamiento? Primero va a
+
+01:53:23.460 --> 01:53:26.330
+depender de la distancia administrativa.
+
+01:53:26.340 --> 01:53:28.130
+La distancia administrativa de EIGRP es 90,
+
+01:53:28.140 --> 01:53:32.360
+y eso ya es regla. Distancia
+
+01:53:32.370 --> 01:53:36.080
+administrativa de OSPF es 110,
+
+01:53:36.090 --> 01:53:39.410
+sin embargo, la distancia administrativa de
+
+01:53:39.420 --> 01:53:41.450
+Rip es 120. Entonces, si yo configuro los
+
+01:53:41.460 --> 01:53:46.160
+tres protocolos, el que va a tomar la
+
+01:53:46.170 --> 01:53:49.070
+batuta es EIGRP en routers cisco, eso
+
+01:53:49.080 --> 01:53:52.760
+quiero que quede claro, en routers cisco. Si se
+
+01:53:52.770 --> 01:53:54.770
+configuró en routers que tal vez no son cisco,
+
+01:53:54.780 --> 01:53:58.570
+el que tomaría la batuta sería OSPF.
+
+01:53:58.570 --> 01:54:02.360
+Todo por distancia administrativa. Una
+
+01:54:02.370 --> 01:54:05.660
+vez que sabemos quién va a ser el que va
+
+01:54:05.670 --> 01:54:11.300
+a tomar a lo largo de toda la red por
+
+01:54:11.310 --> 01:54:14.360
+distancia administrativa, hay que ahora ver
+
+01:54:14.370 --> 01:54:16.059
+las métricas.
+
+01:54:16.069 --> 01:54:18.189
+Y la métrica no es más que nada, es un
+
+01:54:18.199 --> 01:54:20.620
+análisis que se basa en algoritmos
+
+01:54:20.630 --> 01:54:23.979
+dependiendo del protocolo, y en la cual
+
+01:54:23.989 --> 01:54:26.380
+utiliza, por ejemplo, el número de saltos
+
+01:54:26.390 --> 01:54:28.870
+que le toman llegar al destino, el pulso,
+
+01:54:28.880 --> 01:54:31.749
+los costes, el ancho de banda y muchas
+
+01:54:31.759 --> 01:54:33.939
+otras variables para poder calcular la
+
+01:54:33.949 --> 01:54:36.130
+métrica, dependiendo de la métrica como
+
+01:54:36.140 --> 01:54:38.109
+dijo Rafael. Okay,
+
+01:54:38.119 --> 01:54:38.119
+si yo lo conozco...
+
+01:54:38.119 --> 01:54:41.080
+métrica aquí para llegar a este destino
+
+01:54:41.090 --> 01:54:43.870
+y métrica están...
+
+01:54:43.880 --> 01:54:46.380
+por este camino mi métrica va a ser... por
+
+01:54:46.390 --> 01:54:49.140
+este camino mayor, porque hay dos saltos;
+
+01:54:49.150 --> 01:54:52.529
+este es un solo salto.
+
+01:54:52.529 --> 01:54:55.320
+Entonces por eso, porque la métrica es
+
+01:54:55.330 --> 01:54:58.110
+más baja, este es mi sucesor, esta será mi
+
+01:54:58.120 --> 01:55:02.370
+sucesor factible. Si mi sucesor se cae,
+
+01:55:02.380 --> 01:55:05.600
+debe empezar mi sucesor factible a tomar...
+
+01:55:05.610 --> 01:55:08.760
+a reacomodarse en la tabla de enrutamiento
+
+01:55:08.770 --> 01:55:11.850
+también, pero todos dependiendo de la
+
+01:55:11.860 --> 01:55:14.490
+métrica una vez que se tiene ya el
+
+01:55:14.500 --> 01:55:15.990
+protocolo de enrutamiento que va a
+
+01:55:15.990 --> 01:55:17.820
+trabajar.
+
+01:55:17.830 --> 01:55:20.000
+Si hubiera... conozco ahí entonces que se
+
+01:55:20.010 --> 01:55:22.460
+calcula la métrica, y la métrica depende
+
+01:55:22.470 --> 01:55:25.100
+de muchas cosas.
+
+01:55:25.110 --> 01:55:26.320
+EIGRP toma en consideración dos cosas
+
+01:55:26.330 --> 01:55:29.720
+importantes: la primera, el ancho de banda,
+
+01:55:29.730 --> 01:55:33.530
+y el retardo que tiene ese ese cambio.
+
+01:55:33.540 --> 01:55:38.599
+De la ecuación para calcular la métrica,
+
+01:55:38.609 --> 01:55:42.049
+utiliza 5 constantes:
+
+01:55:42.059 --> 01:55:45.630
+ancho de banda, carga, retardo, y
+
+01:55:45.640 --> 01:55:50.519
+confiabilidad. Sin embargo,
+
+01:55:50.529 --> 01:55:53.460
+por defecto solamente utiliza el ancho
+
+01:55:53.470 --> 01:55:56.970
+de banda y el retardo, el resto se puede
+
+01:55:56.980 --> 01:55:59.849
+obviar o viene, mejor, no nos viene
+
+01:55:59.859 --> 01:56:03.240
+configurado. Pero si ustedes, al momento,
+
+01:56:03.250 --> 01:56:05.490
+son administradores de redes y quieren
+
+01:56:05.500 --> 01:56:07.800
+ustedes mismos configurar la métrica,
+
+01:56:07.810 --> 01:56:09.990
+configurar el mejor camino, no dejárselo
+
+01:56:10.000 --> 01:56:12.480
+al EIGRP, ustedes lo que hacen es
+
+01:56:12.490 --> 01:56:14.880
+jugar con las métricas, y agregan los
+
+01:56:14.880 --> 01:56:17.820
+pesos
+
+01:56:17.830 --> 01:56:19.569
+a cada una de las constantes para decir:
+
+01:56:19.579 --> 01:56:22.599
+"okay, yo no quiero que el EIGRP tome este... este
+
+01:56:22.609 --> 01:56:25.599
+camino como ustedes lo calculan, sino que quiero
+
+01:56:25.609 --> 01:56:27.519
+que tome este porque yo sé que este es
+
+01:56:27.529 --> 01:56:29.319
+más rápido", y lo configuró, que le cambié
+
+01:56:29.329 --> 01:56:32.739
+las métricas, y de esa forma, ustedes van
+
+01:56:32.749 --> 01:56:35.049
+a poder tener que el EIGRP obligatoriamente tome
+
+01:56:35.059 --> 01:56:38.499
+como sucesor ese camino.
+
+01:56:38.509 --> 01:56:44.780
+¿Cómo es que las cosas... ? Recuerden que
+
+01:56:44.790 --> 01:56:47.180
+yo les dije,
+
+01:56:47.190 --> 01:56:48.500
+routers que tenían su interfaz y tenían
+
+01:56:48.510 --> 01:56:54.050
+para poder observar información de la
+
+01:56:54.060 --> 01:56:55.550
+interfaz, en donde la interfaz, ustedes... yo
+
+01:56:55.560 --> 01:56:58.430
+les dije que pueden ver cuál es la
+
+01:56:58.440 --> 01:56:59.960
+dirección si estaban como dce o dte,
+
+01:56:59.970 --> 01:57:03.160
+tipo de protocolo si está activo, y demás
+
+01:57:03.170 --> 01:57:07.760
+otra información. Y aquí es la que
+
+01:57:07.770 --> 01:57:09.550
+ustedes van a poder encontrar en las
+
+01:57:09.560 --> 01:57:12.140
+variables, bueno, cuáles funcionan, la
+
+01:57:12.150 --> 01:57:17.630
+métrica del EIGRP. Para claros de EIGRP, OSPF más
+
+01:57:17.630 --> 01:57:19.220
+tienen otro tipo de forma de cálculo de
+
+01:57:19.230 --> 01:57:23.450
+métrica: primero, el ancho de banda, el
+
+01:57:23.460 --> 01:57:27.260
+retardo, la confiabilidad, que el 255
+
+01:57:27.270 --> 01:57:30.110
+sólo, sí, por 5, significa que es muy, muy
+
+01:57:30.120 --> 01:57:33.590
+confiable este cable; transferencia de
+
+01:57:33.600 --> 01:57:39.109
+carga, y transferencia de salida: TX, RX.
+
+01:57:39.119 --> 01:57:41.790
+Sin embargo, como digo, solamente en la
+
+01:57:41.800 --> 01:57:44.700
+métrica por defecto toma es el ancho de
+
+01:57:44.710 --> 01:57:48.120
+banda y el retardo.
+
+01:57:48.130 --> 01:57:50.880
+Ahora, por cable, si ustedes tienen un
+
+01:57:50.890 --> 01:57:52.830
+cable... si van a trabajar con... y tienen
+
+01:57:52.840 --> 01:57:56.010
+compás con Giga, y están utilizando el EIGRP,
+
+01:57:56.020 --> 01:57:58.530
+el retardo por cada uno de ellos ya es
+
+01:57:58.540 --> 01:58:02.610
+base: porque Ethernet tienes 1000, por Fast 100,
+
+01:58:02.620 --> 01:58:05.790
+Giga tiene 10... y por el resto, y hace eso
+
+01:58:05.800 --> 01:58:08.040
+nuestro tipo de cálculo que asuma... más bajo,
+
+01:58:08.050 --> 01:58:09.870
+que casi iniciando el programa, Token Ring
+
+01:58:09.880 --> 01:58:13.320
+y FDDI, y entonces tiene un retardo ya
+
+01:58:13.330 --> 01:58:16.440
+estándar, y es el que se utiliza a lo largo de
+
+01:58:16.450 --> 01:58:20.030
+la métrica.
+
+01:58:20.030 --> 01:58:25.809
+Consultas.
+
+01:58:25.819 --> 01:58:29.130
+En el anterior...
+
+01:58:29.140 --> 01:58:32.039
+profe, ¿y no sé... también he visto, creo
+
+01:58:32.049 --> 01:58:34.410
+que la distancia administrativa puede
+
+01:58:34.420 --> 01:58:36.630
+tomar valores, por ejemplo, como de 170?
+
+01:58:36.640 --> 01:58:39.089
+¿Por qué pasa eso?
+
+01:58:39.099 --> 01:58:40.799
+Pero es que depende del protocolo, ¿qué
+
+01:58:40.809 --> 01:58:44.309
+protocolo vio que estaba con 170? Yo creo
+
+01:58:44.319 --> 01:58:47.130
+que fue EIGRP también, porque
+
+01:58:47.140 --> 01:58:49.589
+puede hacer creo que 90 o 170.
+
+01:58:49.599 --> 01:58:54.569
+Sí, puede ser, pero es que depende de la
+
+01:58:54.579 --> 01:58:55.759
+infraestructura que vaya a utilizar,
+
+01:58:55.769 --> 01:58:59.999
+perfectamente 90 es interno y el externo
+
+01:58:59.999 --> 01:59:01.769
+es el que utiliza el 170, si mal no
+
+01:59:01.779 --> 01:59:03.590
+recuerdo.
+
+01:59:03.600 --> 01:59:07.550
+Sí, creo que sí, creo que sí. En internas 90
+
+01:59:07.560 --> 01:59:11.170
+y externa, 170, y ahí...
+
+01:59:11.180 --> 01:59:19.349
+OSPF 110, Rip versión 2, 120,
+
+01:59:19.359 --> 01:59:23.170
+son los que más recuerdo del protocolo
+
+01:59:23.180 --> 01:59:25.839
+que se va a usar. De ahí, por ejemplo, si
+
+01:59:25.849 --> 01:59:28.630
+trabajamos con BGP, el BGP trabaja para
+
+01:59:28.640 --> 01:59:31.809
+exteriores, BGP en cambio es protocolo de
+
+01:59:31.819 --> 01:59:33.940
+gateway de borde, configurados los
+
+01:59:33.950 --> 01:59:36.480
+enrutadores y trabajan en otro mecanismo,
+
+01:59:36.490 --> 01:59:40.270
+peor si, por ejemplo, funciono con el MPLS. Creo
+
+01:59:40.280 --> 01:59:42.700
+que tenía un tema de MPLS, el proyecto
+
+01:59:42.710 --> 01:59:46.150
+de... se trabaja con etiquetas, en la
+
+01:59:46.160 --> 01:59:48.730
+cual MPLS, como básico, es que cada
+
+01:59:48.740 --> 01:59:50.559
+protocolo... en un enrutador es el que dice:
+
+01:59:50.569 --> 01:59:52.420
+"mira, no me importa qué tipo de protocolo
+
+01:59:52.430 --> 01:59:54.769
+tengas interno,
+
+01:59:54.779 --> 01:59:57.199
+dame tú la trama, que yo me encargo de
+
+01:59:57.209 --> 01:59:59.329
+enviar el paquete, no me interesa lo que
+
+01:59:59.339 --> 01:00:01.640
+tú tengas dentro". Algo así es lo que dice
+
+01:00:01.640 --> 01:00:02.920
+en esencia.
+
+01:00:02.920 --> 01:00:04.839
+Entonces va a depender del tipo de
+
+01:00:04.849 --> 01:00:06.970
+protocolo, por ver por ahora simplemente
+
+01:00:06.980 --> 01:00:09.460
+de redes internas, que es los que estamos
+
+01:00:09.470 --> 01:00:11.620
+viendo, y de redes interiores, y
+
+01:00:11.630 --> 01:00:13.660
+específicamente de vectores distancia,
+
+01:00:13.670 --> 01:00:17.559
+que, la distancia administrativa es 90, el
+
+01:00:17.569 --> 01:00:20.589
+resto simplemente como conocimiento
+
+01:00:20.589 --> 01:00:23.950
+general para ustedes, esto no es que
+
+01:00:23.960 --> 01:00:26.859
+vengan examen de redes ni nada de eso, porque no se
+
+01:00:26.869 --> 01:00:29.070
+toma eso.
+
+01:00:29.080 --> 01:00:45.430
+Okay, ¿hasta ahí otra consulta?
+
+01:00:45.440 --> 01:00:50.890
+Sigamos entonces.
+
+01:00:50.900 --> 01:00:54.329
+Okay, y tienen ustedes el comando show ip
+
+01:00:54.339 --> 01:00:57.579
+protocols, y ustedes van a poder
+
+01:00:57.589 --> 01:01:06.230
+observar... ya no los vecinos,
+
+01:01:06.240 --> 01:01:08.580
+bueno... ya no los vecinos, sino más bien la
+
+01:01:08.590 --> 01:01:11.220
+topología para poder encontrar quién va
+
+01:01:11.230 --> 01:01:14.310
+a ser sucesor, quién sucesor factible y
+
+01:01:14.320 --> 01:01:16.500
+demás. Entonces ustedes van a poder mirar
+
+01:01:16.510 --> 01:01:18.000
+cuál es el siguiente salto, que sería
+
+01:01:18.010 --> 01:01:20.760
+su respectivo...
+
+01:01:20.770 --> 01:01:23.070
+van a poder encontrar la distancia
+
+01:01:23.080 --> 01:01:25.710
+factible, que es la que calcula el propio
+
+01:01:25.720 --> 01:01:28.560
+router, y una distancia reportada, que es
+
+01:01:28.570 --> 01:01:30.660
+la que en cambio el router a la cual
+
+01:01:30.670 --> 01:01:33.930
+desea alcanzar le reporta como distancia,
+
+01:01:33.940 --> 01:01:36.330
+la distancia al router que está
+
+01:01:36.340 --> 01:01:40.200
+solicitando, y por la interfaz de salida
+
+01:01:40.210 --> 01:01:44.700
+de ese router, generalmente, como condición,
+
+01:01:44.710 --> 01:01:47.130
+la distancia reportada por un router
+
+01:01:47.140 --> 01:01:50.760
+es menor a la distancia factible
+
+01:01:50.770 --> 01:01:53.310
+calculada por el router de origen, del
+
+01:01:53.320 --> 01:01:55.680
+router que está tratando de calcular su
+
+01:01:55.690 --> 01:01:59.880
+tabla de topología.
+
+01:01:59.890 --> 01:02:03.120
+Y cómo es que pasa la convergencia? Cómo
+
+01:02:03.130 --> 01:02:05.220
+es que el algoritmo igual trata de que
+
+01:02:05.230 --> 01:02:08.430
+converja toda la red? Simple, como ya les
+
+01:02:08.440 --> 01:02:10.380
+expliqué:
+
+01:02:10.390 --> 01:02:12.769
+pérdida de conectividad de un sucesor,
+
+01:02:12.779 --> 01:02:15.089
+pregunta primero si hay un sucesor
+
+01:02:15.099 --> 01:02:20.039
+factible, si lo hay, ¿qué pasa?, lo promueve
+
+01:02:20.049 --> 01:02:22.280
+a sucesor,
+
+01:02:22.290 --> 01:02:24.900
+agrega a la tabla de enrutamiento, porque
+
+01:02:24.910 --> 01:02:26.760
+en la de enrutamiento que van a estar todas
+
+01:02:26.770 --> 01:02:28.350
+las redes primarias por donde tienen que,
+
+01:02:28.360 --> 01:02:30.810
+todos los que se van a enrutar o van a
+
+01:02:30.820 --> 01:02:34.770
+elegir una salida. Se debe seleccionar un
+
+01:02:34.780 --> 01:02:36.840
+nuevo sucesor, porque hace selección no...
+
+01:02:36.850 --> 01:02:39.660
+está instalada ya en la tabla de enrutamiento, y
+
+01:02:39.670 --> 01:02:42.030
+finalmente se necesita calcular un nuevo
+
+01:02:42.040 --> 01:02:44.370
+sucesor factible, si es que lo hay, ¿verdad?
+
+01:02:44.380 --> 01:02:46.110
+Y si es que es ahí, en esta tabla de
+
+01:02:46.120 --> 01:02:47.880
+topología,
+
+01:02:47.890 --> 01:02:52.110
+sino al sucesor factible...
+
+01:02:52.120 --> 01:02:55.240
+se dice que el destino o la red
+
+01:02:55.250 --> 01:02:58.540
+se está activa, pero es que no, no, no se
+
+01:02:58.550 --> 01:03:01.210
+logra alcanzar, se puede decir, y se trata
+
+01:03:01.220 --> 01:03:03.100
+de enviar mensajes, se envían
+
+01:03:03.110 --> 01:03:05.680
+solicitudes a todos los routers para que
+
+01:03:05.690 --> 01:03:07.900
+se pueda tratar de llegar a una
+
+01:03:07.910 --> 01:03:09.499
+convergencia.
+
+01:03:09.499 --> 01:03:13.849
+Uno o más routers nuevos; si no, no lo hay,
+
+01:03:13.859 --> 01:03:16.669
+okay, lastimosamente no, no sabemos cómo
+
+01:03:16.669 --> 01:03:19.159
+llegar a ese periodo, se remueve la...
+
+01:03:19.169 --> 01:03:21.229
+tabla de enrutamiento, será un... la tabla
+
+01:03:21.239 --> 01:03:24.679
+de topología, y hay una ruta nueva o un
+
+01:03:24.689 --> 01:03:26.629
+nuevo router para que nos permita poder
+
+01:03:26.639 --> 01:03:30.049
+llegar, okay, se selecciona ese sucesor y
+
+01:03:30.059 --> 01:03:32.419
+se calcula un sucesor factible de nuevo
+
+01:03:32.429 --> 01:03:36.019
+para esta ruta, y puede coincidir, a veces,
+
+01:03:36.029 --> 01:03:37.279
+que el sucesor sea el mismo sucesor
+
+01:03:37.289 --> 01:03:39.379
+factible, y si se perdieron los dos, la
+
+01:03:39.389 --> 01:03:45.640
+tabla de topología murió.
+
+01:03:45.650 --> 01:03:48.220
+Si nos referimos ahora, en cambio, a este,
+
+01:03:48.230 --> 01:03:50.079
+versión 6 con respecto a lo que estudiamos
+
+01:03:50.089 --> 01:03:51.370
+y se está hablando de configuración y
+
+01:03:51.380 --> 01:03:54.190
+versión 4, la única diferencia que
+
+01:03:54.190 --> 01:03:55.809
+ustedes van a poder encontrar entre
+
+01:03:55.819 --> 01:03:57.069
+ambas versiones de direccionamiento del
+
+01:03:57.079 --> 01:04:01.059
+protocolo IP es, obvio, la dirección multi-
+
+01:04:01.059 --> 01:04:04.180
+cast, y en la parte de seguridad: en el
+
+01:04:04.190 --> 01:04:06.549
+versión 4, la versión 4, la parte de
+
+01:04:06.559 --> 01:04:09.069
+autenticación a nivel de protocolos,
+
+01:04:09.079 --> 01:04:12.220
+encapsulamiento en redes WAN,
+
+01:04:12.230 --> 01:04:16.330
+es texto plano o MD5, y en cambio en IP
+
+01:04:16.340 --> 01:04:19.800
+versión 6, solo es MD5.
+
+01:04:19.810 --> 01:04:23.790
+MD5 es una forma de encriptar o cifrar
+
+01:04:23.800 --> 01:04:27.240
+las, sí, serían las contraseñas o
+
+01:04:27.250 --> 01:04:29.610
+cifrados, la data que se están enviando por
+
+01:04:29.620 --> 01:04:35.440
+un canal de comunicación, ese es MD5.
+
+01:04:35.450 --> 01:04:40.090
+Y para hacer configuración en el EIGRP IP
+
+01:04:40.100 --> 01:04:42.920
+versión 6 yo tengo...
+
+01:04:42.930 --> 01:04:46.220
+ya no puedo decir un IP address y la
+
+01:04:46.230 --> 01:04:49.220
+dirección IPv4, sino que tengo que
+
+01:04:49.230 --> 01:04:51.290
+activar IPv6 en los
+
+01:04:51.300 --> 01:04:55.160
+enrutadores. Para activarlo, yo tengo... me
+
+01:04:55.170 --> 01:04:58.069
+tenía que activar... yo tengo que decir que
+
+01:04:58.079 --> 01:05:00.770
+voy a trabajar ipv6 unicast-
+
+01:05:00.780 --> 01:05:04.790
+routing e indicar ipv6 router
+
+01:05:04.800 --> 01:05:09.020
+eigrp sistema autónomo 2,
+
+01:05:09.030 --> 01:05:10.700
+eigrp mi router-id, y fíjense que sigue siendo
+
+01:05:10.710 --> 01:05:13.430
+trabajando en dirección IPv4, a pesar de
+
+01:05:13.440 --> 01:05:15.970
+que estoy activa en versión 6, y
+
+01:05:15.980 --> 01:05:19.350
+configuro mis vecinos.
+
+01:05:19.360 --> 01:05:23.070
+Y para activarlos, lastimosamente, o
+
+01:05:23.080 --> 01:05:24.690
+bueno, no lastimosamente, IP versión 6
+
+01:05:24.700 --> 01:05:27.660
+tiene algunas formas de trabajar el
+
+01:05:27.670 --> 01:05:29.670
+direccionamiento. Una de ellas es la
+
+01:05:29.680 --> 01:05:32.190
+conocida como link-local, link-local
+
+01:05:32.200 --> 01:05:34.110
+address, y se configura en las interfaz.
+
+01:05:34.120 --> 01:05:36.180
+Esto lo veremos en mayor detalle en el
+
+01:05:36.190 --> 01:05:38.070
+siguiente capítulo: cómo hacemos ese, es
+
+01:05:38.080 --> 01:05:39.720
+el reconocimiento de este tipo de
+
+01:05:39.730 --> 01:05:40.890
+direccionamiento IP versión 6 voy a
+
+01:05:40.900 --> 01:05:44.320
+trabajar.
+
+01:05:44.320 --> 01:05:46.660
+Con versión 6 es exactamente lo mismo
+
+01:05:46.670 --> 01:05:49.360
+configurar,
+
+01:05:49.370 --> 01:05:53.050
+configurar, configurar, configurar,
+
+01:05:53.060 --> 01:05:55.060
+sin embargo, quiero que quede
+
+01:05:55.070 --> 01:05:57.490
+claro: el router ID debe ser en
+
+01:05:57.500 --> 01:05:58.970
+versión 4,
+
+01:05:58.980 --> 01:06:02.660
+de eso no nos salvamos.
+
+01:06:02.660 --> 01:06:05.190
+Y puedo utilizar los comandos que ya
+
+01:06:05.190 --> 01:06:08.120
+ustedes conocen: show ipv6
+
+01:06:08.130 --> 01:06:11.530
+interface brief, pero con versión 6.
+
+01:06:11.540 --> 01:06:14.950
+Si quiero agregar una dirección a una
+
+01:06:14.960 --> 01:06:17.710
+interfaz, ya no es ip address, sino ipv6
+
+01:06:17.720 --> 01:06:21.690
+address y la dirección, o
+
+01:06:21.690 --> 01:06:24.070
+ipv6 address la dirección y que
+
+01:06:24.080 --> 01:06:25.600
+voy a trabajar link-local. Como digo,
+
+01:06:25.610 --> 01:06:27.550
+esto lo veremos mayor detalle cuando
+
+01:06:27.560 --> 01:06:28.780
+veamos versión 6 en el próximo
+
+01:06:28.780 --> 01:06:31.690
+capítulo.
+
+01:06:31.700 --> 01:06:35.440
+Y fíjense, show ipv6, show ipv6, show ipv6,
+
+01:06:35.450 --> 01:06:39.280
+protocols y demás, y lo mismo si hacen
+
+01:06:39.290 --> 01:06:41.200
+ustedes en cambio un show ipv6
+
+01:06:41.210 --> 01:06:43.420
+neighbors para ver los vecinos. Si
+
+01:06:43.430 --> 01:06:45.790
+están con versión 6, les va a salir lo
+
+01:06:45.800 --> 01:06:48.300
+mismo que saldría con versión 4:
+
+01:06:48.310 --> 01:06:51.150
+la dirección, la interfaz a la que se
+
+01:06:51.160 --> 01:06:55.620
+asocia, el hold time, y el tiempo que lleva...
