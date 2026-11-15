@@ -1,0 +1,12 @@
+librosa
+soundfile
+numpy
+pandas
+torch
+transformers
+jiwer
+vosk
+openai-whisper
+tqdm
+pytest
+jupyter
