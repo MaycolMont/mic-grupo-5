@@ -1,0 +1,2511 @@
+{
+  "clase_id": "clase09",
+  "audio_stem": "yt_sistemas-de-control_20221025_007",
+  "audio_path": "data/interim/wav_16k/yt_sistemas-de-control_20221025_007.wav",
+  "duracion_audio_seg": 4185.769,
+  "palabras_gt": 10611,
+  "palabras_reconocidas": 6109,
+  "ratio_anclaje": 0.1653,
+  "chunks": [
+    {
+      "sample_id": "clase09_seg0001",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0001.wav",
+      "inicio": 21.454,
+      "fin": 34.096,
+      "duracion_seg": 12.641,
+      "gt_original": "Bueno, muy buenas tardes con todos, bienvenidos a nuestra clase de hoy no, voy a compartir pantalla Que voy a compartir la pantalla entonces. A ver.",
+      "gt_normalizado": "bueno muy buenas tardes con todos bienvenidos a nuestra clase de hoy no voy a compartir pantalla que voy a compartir la pantalla entonces a ver"
+    },
+    {
+      "sample_id": "clase09_seg0002",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0002.wav",
+      "inicio": 36.39,
+      "fin": 56.31,
+      "duracion_seg": 19.92,
+      "gt_original": "Por favor me confirman que si se esté viendo la pantalla con pizarra. Me confirman por favor. Sí, sí se ve. Ya, gracias. Hoy tenemos algo parecido a lo que estábamos diciendo, ¿verdad?",
+      "gt_normalizado": "por favor me confirman que si se esté viendo la pantalla con pizarra me confirman por favor sí sí se ve ya gracias hoy tenemos algo parecido a lo que estábamos diciendo verdad"
+    },
+    {
+      "sample_id": "clase09_seg0003",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0003.wav",
+      "inicio": 61.35,
+      "fin": 72.12,
+      "duracion_seg": 10.77,
+      "gt_original": "vamos a hacer un poquito Vamos a hablar de sistemas electromecánicos. Y la verdad que la agenda de hoy es apretada y ni se diga la del día todo este curso",
+      "gt_normalizado": "vamos a hacer un poquito vamos a hablar de sistemas electromecánicos y la verdad que la agenda de hoy es apretada y ni se diga la del día todo este curso"
+    },
+    {
+      "sample_id": "clase09_seg0004",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0004.wav",
+      "inicio": 72.488,
+      "fin": 94.26,
+      "duracion_seg": 21.772,
+      "gt_original": "es apretado. Sistemas electromecánicos. Sí, qué son los sistemas electromecánicos, sistemas que como su nombre lo dice, combinan los sistemas eléctricos con los sistemas mecánicos de rotación. Básicamente estamos hablando de los motores. Por eso es que aquí él menciona la palabra servomecanismos y específicamente vamos a modelar el famoso servomotor o servomecanismo de corriente continua.",
+      "gt_normalizado": "es apretado sistemas electromecánicos sí qué son los sistemas electromecánicos sistemas que como su nombre lo dice combinan los sistemas eléctricos con los sistemas mecánicos de rotación básicamente estamos hablando de los motores por eso es que aquí él menciona la palabra servomecanismos y específicamente vamos a modelar el famoso servomotor o servomecanismo de corriente continua"
+    },
+    {
+      "sample_id": "clase09_seg0005",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0005.wav",
+      "inicio": 95.52,
+      "fin": 105.631,
+      "duracion_seg": 10.111,
+      "gt_original": "También conocido como motor DC. ¿Ustedes ya tomaron los cursos de maquinaria eléctrica? ¿Cómo se llama el curso que tienen que tomar en, creo que ahí se defiere automatización con electricidad,",
+      "gt_normalizado": "también conocido como motor dc ustedes ya tomaron los cursos de maquinaria eléctrica cómo se llama el curso que tienen que tomar en creo que ahí se defiere automatización con electricidad"
+    },
+    {
+      "sample_id": "clase09_seg0006",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0006.wav",
+      "inicio": 106.493,
+      "fin": 121.529,
+      "duracion_seg": 15.036,
+      "gt_original": "¿verdad? Sí. Hay maquinaria eléctrica 1, maquinaria eléctrica 2 en el caso de potencia. Potencia ve eléctrica 1 y eléctrica 2 y en cambio, este, auto creo que solo ven una ahora, ¿no? Sí, solo una. Máquinas eléctricas. Ajá, máquinas eléctricas. Correcto. Correcto,",
+      "gt_normalizado": "verdad sí hay maquinaria eléctrica 1 maquinaria eléctrica 2 en el caso de potencia potencia ve eléctrica 1 y eléctrica 2 y en cambio este auto creo que solo ven una ahora no sí solo una máquinas eléctricas ajá máquinas eléctricas correcto correcto"
+    },
+    {
+      "sample_id": "clase09_seg0007",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0007.wav",
+      "inicio": 123.87,
+      "fin": 137.858,
+      "duracion_seg": 13.988,
+      "gt_original": "antes veían las dos, pero bueno. Bueno, si han tomado ustedes y en su nivel ya lo tomaron, ¿algunos de ustedes o no el curso de? Am, actualmente, recién. Recién las estamos tomando. En mi caso no. Correcto. Entonces bueno, cuando queremos hablar un poquito más",
+      "gt_normalizado": "antes veían las dos pero bueno bueno si han tomado ustedes y en su nivel ya lo tomaron algunos de ustedes o no el curso de am actualmente recién recién las estamos tomando en mi caso no correcto entonces bueno cuando queremos hablar un poquito más"
+    },
+    {
+      "sample_id": "clase09_seg0008",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0008.wav",
+      "inicio": 138.542,
+      "fin": 158.13,
+      "duracion_seg": 19.588,
+      "gt_original": "de la esencia magnética del motor, su componente y su interior, pues eso lo tratamos en los cursos de maquinarias, ¿no? Y que los estudiantes de las dos especialidades que están presentes tienen su espacio, ¿verdad? Y ahí es donde se va a hablar o se debería hablar más en detalle de lo que les estoy mostrando yo en esta diapositiva, ¿verdad? Que son las partes constitutivas de un motor.",
+      "gt_normalizado": "de la esencia magnética del motor su componente y su interior pues eso lo tratamos en los cursos de maquinarias no y que los estudiantes de las dos especialidades que están presentes tienen su espacio verdad y ahí es donde se va a hablar o se debería hablar más en detalle de lo que les estoy mostrando yo en esta diapositiva verdad que son las partes constitutivas de un motor"
+    },
+    {
+      "sample_id": "clase09_seg0009",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0009.wav",
+      "inicio": 158.67,
+      "fin": 173.34,
+      "duracion_seg": 14.67,
+      "gt_original": "Tenemos eh la parte fija y la parte móvil de los motores, ¿verdad? En la parte fija hablamos del estator, del inductor, la carcasa en sí, que es la parte fija, completamente fija del motor,",
+      "gt_normalizado": "tenemos eh la parte fija y la parte móvil de los motores verdad en la parte fija hablamos del estator del inductor la carcasa en sí que es la parte fija completamente fija del motor"
+    },
+    {
+      "sample_id": "clase09_seg0010",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0010.wav",
+      "inicio": 173.85,
+      "fin": 194.79,
+      "duracion_seg": 20.94,
+      "gt_original": "los polos principales y el devanado del inductor, y en cambio, acá abajo hablamos de la parte rotativa donde está el colector, están las delgas que son estas plaquitas de cobre que se utilizan para inducir el voltaje o el movimiento, el devanado del inducido y el núcleo del inducido. Como les digo, esta no es una clase de maquinaria, así como no es una clase de electricidad y tampoco es una clase, luego vamos",
+      "gt_normalizado": "los polos principales y el devanado del inductor y en cambio acá abajo hablamos de la parte rotativa donde está el colector están las delgas que son estas plaquitas de cobre que se utilizan para inducir el voltaje o el movimiento el devanado del inducido y el núcleo del inducido como les digo esta no es una clase de maquinaria así como no es una clase de electricidad y tampoco es una clase luego vamos"
+    },
+    {
+      "sample_id": "clase09_seg0011",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0011.wav",
+      "inicio": 195.47,
+      "fin": 215.41,
+      "duracion_seg": 19.94,
+      "gt_original": "a ver termodinámica, también vamos a ver hidrostática, etcétera, etcétera, ¿verdad? Lo que tratamos aquí es de recoger, muchos dicen que esta es un, hay una materia integradora, pero esta es la pre materia integradora, ¿verdad? Tratamos de recoger ecuaciones de principios físicos que son conocidos para tratar de combinar hasta cierto punto ciertos sistemas, ¿no?",
+      "gt_normalizado": "a ver termodinámica también vamos a ver hidrostática etcétera etcétera verdad lo que tratamos aquí es de recoger muchos dicen que esta es un hay una materia integradora pero esta es la pre materia integradora verdad tratamos de recoger ecuaciones de principios físicos que son conocidos para tratar de combinar hasta cierto punto ciertos sistemas no"
+    },
+    {
+      "sample_id": "clase09_seg0012",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0012.wav",
+      "inicio": 217.17,
+      "fin": 229.98,
+      "duracion_seg": 12.81,
+      "gt_original": "Esencia del sistema, yo, como un motor, con una generación de corriente alterna, genero un campo magnético, ¿verdad? Sobre la parte del estator, de la parte fija de la carcasa, ese campo magnético",
+      "gt_normalizado": "esencia del sistema yo como un motor con una generación de corriente alterna genero un campo magnético verdad sobre la parte del estator de la parte fija de la carcasa ese campo magnético"
+    },
+    {
+      "sample_id": "clase09_seg0013",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0013.wav",
+      "inicio": 230.49,
+      "fin": 251.64,
+      "duracion_seg": 21.15,
+      "gt_original": "induce, ¿verdad? Por las leyes del magnetismo, un movimiento sobre el rotor, ¿verdad? Que básicamente está colocado a una serie de placas y de un devanado magnético que por eso se lo llama el inducido, porque sobre él se induce ese torque, ¿verdad? Y pues claro, como lo tengo yo con un eje de rotación libre, en ese eje, en ese motor inducido comienza a existir la rotación.",
+      "gt_normalizado": "induce verdad por las leyes del magnetismo un movimiento sobre el rotor verdad que básicamente está colocado a una serie de placas y de un devanado magnético que por eso se lo llama el inducido porque sobre él se induce ese torque verdad y pues claro como lo tengo yo con un eje de rotación libre en ese eje en ese motor inducido comienza a existir la rotación"
+    },
+    {
+      "sample_id": "clase09_seg0014",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0014.wav",
+      "inicio": 252.54,
+      "fin": 277.225,
+      "duracion_seg": 24.685,
+      "gt_original": "La gran ventaja de la configuración motor de corriente continua es que en teoría nosotros podemos controlar la velocidad del motor propiamente por él. Sin embargo, en términos de eficiencia, todos ustedes conocen que los motores de inducción, jaula de ardilla, los famosos motores AC son un poquito más eficientes y son los que más se utilizan en la industria. Sin embargo, modelando un motor de corriente continua podemos tener una idea mucho más genérica del funcionamiento de estos",
+      "gt_normalizado": "la gran ventaja de la configuración motor de corriente continua es que en teoría nosotros podemos controlar la velocidad del motor propiamente por él sin embargo en términos de eficiencia todos ustedes conocen que los motores de inducción jaula de ardilla los famosos motores ac son un poquito más eficientes y son los que más se utilizan en la industria sin embargo modelando un motor de corriente continua podemos tener una idea mucho más genérica del funcionamiento de estos"
+    },
+    {
+      "sample_id": "clase09_seg0015",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0015.wav",
+      "inicio": 277.225,
+      "fin": 293.053,
+      "duracion_seg": 15.828,
+      "gt_original": "sistemas, ¿no? Entonces no olvidarse que el estator es la parte fija del motor donde está la carcasa, donde está el circuito de alimentación, el circuito eléctrico de potencia, y el rotor en cambio es la parte móvil, ¿verdad? Donde está toda la parte inducida del motor. La que genera el movimiento.",
+      "gt_normalizado": "sistemas no entonces no olvidarse que el estator es la parte fija del motor donde está la carcasa donde está el circuito de alimentación el circuito eléctrico de potencia y el rotor en cambio es la parte móvil verdad donde está toda la parte inducida del motor la que genera el movimiento"
+    },
+    {
+      "sample_id": "clase09_seg0016",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0016.wav",
+      "inicio": 295.26,
+      "fin": 308.58,
+      "duracion_seg": 13.32,
+      "gt_original": "Entonces, yo les decía, ¿verdad? Que a nosotros al final de los finales nos interesa la perspectiva del modelamiento, y este diagrama que ustedes están viendo aquí del motor DC es el que el que básicamente nos va a interesar a nosotros, ¿verdad?",
+      "gt_normalizado": "entonces yo les decía verdad que a nosotros al final de los finales nos interesa la perspectiva del modelamiento y este diagrama que ustedes están viendo aquí del motor dc es el que el que básicamente nos va a interesar a nosotros verdad"
+    },
+    {
+      "sample_id": "clase09_seg0017",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0017.wav",
+      "inicio": 309.18,
+      "fin": 323.13,
+      "duracion_seg": 13.95,
+      "gt_original": "Nosotros vamos a decir, y bueno, aquí hay diferentes formas de dibujarlo. Yo lo voy a dibujar un tanto diferente en la diapositiva, pero que se va a parecer más a la a las siguientes diapositivas.",
+      "gt_normalizado": "nosotros vamos a decir y bueno aquí hay diferentes formas de dibujarlo yo lo voy a dibujar un tanto diferente en la diapositiva pero que se va a parecer más a la a las siguientes diapositivas"
+    },
+    {
+      "sample_id": "clase09_seg0018",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0018.wav",
+      "inicio": 324.27,
+      "fin": 334.27,
+      "duracion_seg": 10.0,
+      "gt_original": "Eléctricamente hablando, nosotros tenemos dos circuitos. Primero, tengo el denominado circuito de armadura, ¿verdad? Que",
+      "gt_normalizado": "eléctricamente hablando nosotros tenemos dos circuitos primero tengo el denominado circuito de armadura verdad que"
+    },
+    {
+      "sample_id": "clase09_seg0019",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0019.wav",
+      "inicio": 341.04,
+      "fin": 353.654,
+      "duracion_seg": 12.614,
+      "gt_original": "en su representación vamos a suponer que tiene una resistencia de armadura y una inductancia de armadura. Esta armadura es la, como lo está mostrando la el dibujo, ¿verdad? Se",
+      "gt_normalizado": "en su representación vamos a suponer que tiene una resistencia de armadura y una inductancia de armadura esta armadura es la como lo está mostrando la el dibujo verdad se"
+    },
+    {
+      "sample_id": "clase09_seg0020",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0020.wav",
+      "inicio": 355.29,
+      "fin": 365.34,
+      "duracion_seg": 10.05,
+      "gt_original": "pudiese pensar que es eh la parte eléctrica rotatoria, ¿verdad? ¿Por qué? Porque como ustedes ven eh estos",
+      "gt_normalizado": "pudiese pensar que es eh la parte eléctrica rotatoria verdad por qué porque como ustedes ven eh estos"
+    },
+    {
+      "sample_id": "clase09_seg0021",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0021.wav",
+      "inicio": 365.76,
+      "fin": 379.361,
+      "duracion_seg": 13.601,
+      "gt_original": "elementos que ustedes tienen aquí en la parte superior, se los conoce como las escobillas del motor, ¿verdad? Que en teoría, y por eso se llama DC, al girar generan un voltaje que se conoce con el nombre de la fuerza contraelectromotriz. Vb es",
+      "gt_normalizado": "elementos que ustedes tienen aquí en la parte superior se los conoce como las escobillas del motor verdad que en teoría y por eso se llama dc al girar generan un voltaje que se conoce con el nombre de la fuerza contraelectromotriz vb es"
+    },
+    {
+      "sample_id": "clase09_seg0022",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0022.wav",
+      "inicio": 383.01,
+      "fin": 396.67,
+      "duracion_seg": 13.66,
+      "gt_original": "la fuerza contraelectromotriz. Que es directamente proporcional al eje o a la velocidad de rotación. Entonces, si mi, en el sistema mecánico de rotación, mi dirección de rotación es theta m, se",
+      "gt_normalizado": "la fuerza contraelectromotriz que es directamente proporcional al eje o a la velocidad de rotación entonces si mi en el sistema mecánico de rotación mi dirección de rotación es theta m se"
+    },
+    {
+      "sample_id": "clase09_seg0023",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0023.wav",
+      "inicio": 397.05,
+      "fin": 407.7,
+      "duracion_seg": 10.65,
+      "gt_original": "puede decir que habrá un torque de motor inducido sobre la carga, y nosotros sabemos que esta carga seguramente tendrá su inductancia, su perdón, su inercia, seguramente tendrá su",
+      "gt_normalizado": "puede decir que habrá un torque de motor inducido sobre la carga y nosotros sabemos que esta carga seguramente tendrá su inductancia su perdón su inercia seguramente tendrá su"
+    },
+    {
+      "sample_id": "clase09_seg0024",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0024.wav",
+      "inicio": 408.33,
+      "fin": 420.433,
+      "duracion_seg": 12.103,
+      "gt_original": "coeficiente de amortiguación. A través del circuito de armadura que vendría a ser la parte del rotor, circula lo que nosotros conocemos como la corriente de armadura, y además nosotros vamos a suponer que",
+      "gt_normalizado": "coeficiente de amortiguación a través del circuito de armadura que vendría a ser la parte del rotor circula lo que nosotros conocemos como la corriente de armadura y además nosotros vamos a suponer que"
+    },
+    {
+      "sample_id": "clase09_seg0025",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0025.wav",
+      "inicio": 421.08,
+      "fin": 434.071,
+      "duracion_seg": 12.991,
+      "gt_original": "con unas siglas ea tenemos un voltaje que se aplica sobre la armadura. Al mismo tiempo, en la parte fija del motor, está lo que se conoce como el circuito de campo. ¿Sí? Que como lo está",
+      "gt_normalizado": "con unas siglas ea tenemos un voltaje que se aplica sobre la armadura al mismo tiempo en la parte fija del motor está lo que se conoce como el circuito de campo sí que como lo está"
+    },
+    {
+      "sample_id": "clase09_seg0026",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0026.wav",
+      "inicio": 435.48,
+      "fin": 447.18,
+      "duracion_seg": 11.7,
+      "gt_original": "mostrando la diapositiva, también genera un vf y tiene una resistencia de campo rf de field y una inductancia de campo. En el circuito de campo corre o circula la corriente de campo.",
+      "gt_normalizado": "mostrando la diapositiva también genera un vf y tiene una resistencia de campo rf de field y una inductancia de campo en el circuito de campo corre o circula la corriente de campo"
+    },
+    {
+      "sample_id": "clase09_seg0027",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0027.wav",
+      "inicio": 448.2,
+      "fin": 458.638,
+      "duracion_seg": 10.438,
+      "gt_original": "Y básicamente, jóvenes, ese es el modelo circuital de lo que vimos acá. De lo que es el circuito estatórico y el circuito rotórico.",
+      "gt_normalizado": "y básicamente jóvenes ese es el modelo circuital de lo que vimos acá de lo que es el circuito estatórico y el circuito rotórico"
+    },
+    {
+      "sample_id": "clase09_seg0028",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0028.wav",
+      "inicio": 459.09,
+      "fin": 478.347,
+      "duracion_seg": 19.257,
+      "gt_original": "La parte fija vendría a ser el campo y la parte móvil vendría a ser la armadura, aunque realmente tengan cuidado allí porque uno piensa, oiga, ¿cómo? si el circuito rotatorio estuviera moviéndose se me van a enredar los cables o lo que yo sé. Justamente para eso está la escobilla y por eso se llama motor",
+      "gt_normalizado": "la parte fija vendría a ser el campo y la parte móvil vendría a ser la armadura aunque realmente tengan cuidado allí porque uno piensa oiga cómo si el circuito rotatorio estuviera moviéndose se me van a enredar los cables o lo que yo sé justamente para eso está la escobilla y por eso se llama motor"
+    },
+    {
+      "sample_id": "clase09_seg0029",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0029.wav",
+      "inicio": 478.817,
+      "fin": 503.37,
+      "duracion_seg": 24.553,
+      "gt_original": "DC. En realidad el circuito de armadura es un circuito fijo eléctricamente, la resistencia que ustedes vieron aquí no está girando, ni la inductancia está girando, lo que está girando es este rotor, ¿verdad? Y a lo que él gira, esto es como la ruleta, cuando tiran como en el jueguito ese de la de las escobillas, hay como el jueguito ese de la ruleta, ¿no? que usted sabe dónde ganará, que arriba hay dos cosas que están fijas y a lo que va pasando el la ruleta los va rozando, ¿verdad? Bueno, estos terminales",
+      "gt_normalizado": "dc en realidad el circuito de armadura es un circuito fijo eléctricamente la resistencia que ustedes vieron aquí no está girando ni la inductancia está girando lo que está girando es este rotor verdad y a lo que él gira esto es como la ruleta cuando tiran como en el jueguito ese de la de las escobillas hay como el jueguito ese de la ruleta no que usted sabe dónde ganará que arriba hay dos cosas que están fijas y a lo que va pasando el la ruleta los va rozando verdad bueno estos terminales"
+    },
+    {
+      "sample_id": "clase09_seg0030",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0030.wav",
+      "inicio": 503.37,
+      "fin": 519.6,
+      "duracion_seg": 16.23,
+      "gt_original": "eléctricos a los que va pasando, van rectificando la corriente alterna y van generando una corriente continua que es la fuerza contraelectromotriz. Y la cantidad de voltaje que va generando depende de la velocidad, o sea, si él gira más genera más voltaje en las escobillas, si él gira menos genera menos voltaje",
+      "gt_normalizado": "eléctricos a los que va pasando van rectificando la corriente alterna y van generando una corriente continua que es la fuerza contraelectromotriz y la cantidad de voltaje que va generando depende de la velocidad o sea si él gira más genera más voltaje en las escobillas si él gira menos genera menos voltaje"
+    },
+    {
+      "sample_id": "clase09_seg0031",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0031.wav",
+      "inicio": 519.969,
+      "fin": 540.135,
+      "duracion_seg": 20.166,
+      "gt_original": "en las escobillas. Verán que nuestra explicación es netamente circuital y no magnética. ¿Sí? Algunas asunciones de este sistema tal como está planteado, vamos a suponer que es un motor ideal sin pérdidas, lo cual quiere decir que toda la potencia eléctrica que transferimos se traduce en potencia mecánica. Como",
+      "gt_normalizado": "en las escobillas verán que nuestra explicación es netamente circuital y no magnética sí algunas asunciones de este sistema tal como está planteado vamos a suponer que es un motor ideal sin pérdidas lo cual quiere decir que toda la potencia eléctrica que transferimos se traduce en potencia mecánica como"
+    },
+    {
+      "sample_id": "clase09_seg0032",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0032.wav",
+      "inicio": 540.661,
+      "fin": 556.201,
+      "duracion_seg": 15.539,
+      "gt_original": "ya les dije, el voltaje, a ver bueno eso se puede, esa primera asunción se puede representar en una pequeña primera ecuación. ¿Cuál es la potencia eléctrica, muchachos? ¿Cuál es la potencia eléctrica? V por I. Correcto, entonces si ustedes se dan cuenta la transferencia, a ver si me explico, la transferencia",
+      "gt_normalizado": "ya les dije el voltaje a ver bueno eso se puede esa primera asunción se puede representar en una pequeña primera ecuación cuál es la potencia eléctrica muchachos cuál es la potencia eléctrica v por i correcto entonces si ustedes se dan cuenta la transferencia a ver si me explico la transferencia"
+    },
+    {
+      "sample_id": "clase09_seg0033",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0033.wav",
+      "inicio": 556.92,
+      "fin": 567.99,
+      "duracion_seg": 11.07,
+      "gt_original": "entre electricidad y mecánica ocurre aquí, ¿verdad? Entonces, lo que él está diciendo es que Vb por Ia, ¿sí? y por favor",
+      "gt_normalizado": "entre electricidad y mecánica ocurre aquí verdad entonces lo que él está diciendo es que vb por ia sí y por favor"
+    },
+    {
+      "sample_id": "clase09_seg0034",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0034.wav",
+      "inicio": 569.13,
+      "fin": 582.69,
+      "duracion_seg": 13.56,
+      "gt_original": "ver que ambas son, vamos a asumir las variables, el voltaje de la fuerza contraelectromotriz por la corriente de la armadura que sería la potencia en ese lugar resaltado. Esa es la potencia eléctrica es igual a la potencia mecánica. La potencia mecánica",
+      "gt_normalizado": "ver que ambas son vamos a asumir las variables el voltaje de la fuerza contraelectromotriz por la corriente de la armadura que sería la potencia en ese lugar resaltado esa es la potencia eléctrica es igual a la potencia mecánica la potencia mecánica"
+    },
+    {
+      "sample_id": "clase09_seg0035",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0035.wav",
+      "inicio": 583.135,
+      "fin": 602.37,
+      "duracion_seg": 19.235,
+      "gt_original": "pueden sacarla por las analogías, pero vendría a ser el torque del motor que sería como la fuerza por la velocidad, ¿verdad? Que es la velocidad angular del motor. Aquí escribí mal, tengo que corregir mis diapositivas. Omega m de t, ¿no? ¿Sí me explico, no? Esto es potencia eléctrica",
+      "gt_normalizado": "pueden sacarla por las analogías pero vendría a ser el torque del motor que sería como la fuerza por la velocidad verdad que es la velocidad angular del motor aquí escribí mal tengo que corregir mis diapositivas omega m de t no sí me explico no esto es potencia eléctrica"
+    },
+    {
+      "sample_id": "clase09_seg0036",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0036.wav",
+      "inicio": 607.98,
+      "fin": 625.374,
+      "duracion_seg": 17.394,
+      "gt_original": "y esto es potencia mecánica. Esta ecuación lo único que me dice es que no hay pérdidas, muchachos, no hay pérdidas. La otra ecuación que él me dice es que el voltaje de la fuerza contraelectromotriz, ese vb de t,",
+      "gt_normalizado": "y esto es potencia mecánica esta ecuación lo único que me dice es que no hay pérdidas muchachos no hay pérdidas la otra ecuación que él me dice es que el voltaje de la fuerza contraelectromotriz ese vb de t"
+    },
+    {
+      "sample_id": "clase09_seg0037",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0037.wav",
+      "inicio": 626.88,
+      "fin": 641.254,
+      "duracion_seg": 14.374,
+      "gt_original": "es proporcional, aquí vamos a poner proporcional a una constante, al flujo magnético, vamos a llamarlo phi de t, por la velocidad angular omega m de t. ¿De acuerdo? Es",
+      "gt_normalizado": "es proporcional aquí vamos a poner proporcional a una constante al flujo magnético vamos a llamarlo phi de t por la velocidad angular omega m de t de acuerdo es"
+    },
+    {
+      "sample_id": "clase09_seg0038",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0038.wav",
+      "inicio": 643.32,
+      "fin": 655.95,
+      "duracion_seg": 12.63,
+      "gt_original": "decir, como yo les dije, ¿no? esa cantidad de voltaje llamada fuerza contraelectromotriz, depende del campo magnético que genera el circuito de campo y depende de la velocidad de rotación del motor.",
+      "gt_normalizado": "decir como yo les dije no esa cantidad de voltaje llamada fuerza contraelectromotriz depende del campo magnético que genera el circuito de campo y depende de la velocidad de rotación del motor"
+    },
+    {
+      "sample_id": "clase09_seg0039",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0039.wav",
+      "inicio": 658.44,
+      "fin": 668.82,
+      "duracion_seg": 10.38,
+      "gt_original": "Tercero, lo que habíamos dicho que es también, es que el flujo magnético, realmente el flujo magnético, aquí es la parte que no se ve, la parte intangible, ¿verdad? Es que este flujo magnético",
+      "gt_normalizado": "tercero lo que habíamos dicho que es también es que el flujo magnético realmente el flujo magnético aquí es la parte que no se ve la parte intangible verdad es que este flujo magnético"
+    },
+    {
+      "sample_id": "clase09_seg0040",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0040.wav",
+      "inicio": 669.509,
+      "fin": 687.75,
+      "duracion_seg": 18.241,
+      "gt_original": "viene por el circuito de campo, viene por la inducción de voltaje, ¿verdad? Si no hay ese flujo magnético no hay el movimiento del rotor. El flujo magnético es directamente proporcional a la corriente de campo if de t. O sea, depende de cuánta corriente yo inyecte aquí, cuánto flujo yo inyecto para acá.",
+      "gt_normalizado": "viene por el circuito de campo viene por la inducción de voltaje verdad si no hay ese flujo magnético no hay el movimiento del rotor el flujo magnético es directamente proporcional a la corriente de campo if de t o sea depende de cuánta corriente yo inyecte aquí cuánto flujo yo inyecto para acá"
+    },
+    {
+      "sample_id": "clase09_seg0041",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0041.wav",
+      "inicio": 693.36,
+      "fin": 701.658,
+      "duracion_seg": 8.298,
+      "gt_original": "Por tanto, dice él, el torque del motor depende del flujo y de la corriente de armadura, o sea, despejando la primera en la segunda ecuación, eh, el",
+      "gt_normalizado": "por tanto dice él el torque del motor depende del flujo y de la corriente de armadura o sea despejando la primera en la segunda ecuación eh el"
+    },
+    {
+      "sample_id": "clase09_seg0042",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0042.wav",
+      "inicio": 709.26,
+      "fin": 710.25,
+      "duracion_seg": 0.99,
+      "gt_original": "torque del motor",
+      "gt_normalizado": "torque del motor"
+    },
+    {
+      "sample_id": "clase09_seg0043",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0043.wav",
+      "inicio": 717.99,
+      "fin": 728.95,
+      "duracion_seg": 10.96,
+      "gt_original": "despejando de la primera, ¿no? Fíjense ustedes que vamos a decir que torque del motor por omega del motor de t es igual al vb que es k1",
+      "gt_normalizado": "despejando de la primera no fíjense ustedes que vamos a decir que torque del motor por omega del motor de t es igual al vb que es k1"
+    },
+    {
+      "sample_id": "clase09_seg0044",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0044.wav",
+      "inicio": 730.2,
+      "fin": 740.458,
+      "duracion_seg": 10.258,
+      "gt_original": "por phi de t y por omega m de t y por ia de t, ¿verdad, muchachos? Aquí podemos cancelar omega m con omega m. Y de ahí",
+      "gt_normalizado": "por phi de t y por omega m de t y por ia de t verdad muchachos aquí podemos cancelar omega m con omega m y de ahí"
+    },
+    {
+      "sample_id": "clase09_seg0045",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0045.wav",
+      "inicio": 741.661,
+      "fin": 755.998,
+      "duracion_seg": 14.337,
+      "gt_original": "decimos que el torque del motor, el torque inducido en el motor, el torque mecánico resultante es igual a la constante k1 por el flujo magnético y por la corriente de armadura, ¿están de acuerdo con esta asunción?",
+      "gt_normalizado": "decimos que el torque del motor el torque inducido en el motor el torque mecánico resultante es igual a la constante k1 por el flujo magnético y por la corriente de armadura están de acuerdo con esta asunción"
+    },
+    {
+      "sample_id": "clase09_seg0046",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0046.wav",
+      "inicio": 756.805,
+      "fin": 768.584,
+      "duracion_seg": 11.779,
+      "gt_original": "Y a su vez, la ecuación más general es que el torque mecánico generado es k1 por kf por",
+      "gt_normalizado": "y a su vez la ecuación más general es que el torque mecánico generado es k1 por kf por"
+    },
+    {
+      "sample_id": "clase09_seg0047",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0047.wav",
+      "inicio": 768.99,
+      "fin": 779.804,
+      "duracion_seg": 10.814,
+      "gt_original": "la corriente de campo y por la corriente de armadura. Esta es la ecuación más importante, muchachos, que tenemos que rescatar de esta parte. ¿Qué me pueden decir de esa ecuación?",
+      "gt_normalizado": "la corriente de campo y por la corriente de armadura esta es la ecuación más importante muchachos que tenemos que rescatar de esta parte qué me pueden decir de esa ecuación"
+    },
+    {
+      "sample_id": "clase09_seg0048",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0048.wav",
+      "inicio": 780.441,
+      "fin": 797.814,
+      "duracion_seg": 17.373,
+      "gt_original": "Esa es la ecuación que es la conversión, la que hace electromecánico el sistema. ¿Por qué? A ver, ¿quién me lo quiere explicar en sus palabras? Esta es la ecuación que hace que el sistema sea electromecánico. ¿Por qué? Porque relaciona una variable mecánica que es el torque con variables eléctricas que sería la corriente",
+      "gt_normalizado": "esa es la ecuación que es la conversión la que hace electromecánico el sistema por qué a ver quién me lo quiere explicar en sus palabras esta es la ecuación que hace que el sistema sea electromecánico por qué porque relaciona una variable mecánica que es el torque con variables eléctricas que sería la corriente"
+    },
+    {
+      "sample_id": "clase09_seg0049",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0049.wav",
+      "inicio": 798.336,
+      "fin": 814.95,
+      "duracion_seg": 16.614,
+      "gt_original": "y la, sí la corriente en esa expresión. Relaciona más variables. Correcto. Las dos corrientes en los dos circuitos, ¿no? En el circuito de campo y en el circuito de armadura. Sí, esta es la ecuación clave de este modelamiento, muchachos. Esta es la ecuación clave. Que el torque",
+      "gt_normalizado": "y la sí la corriente en esa expresión relaciona más variables correcto las dos corrientes en los dos circuitos no en el circuito de campo y en el circuito de armadura sí esta es la ecuación clave de este modelamiento muchachos esta es la ecuación clave que el torque"
+    },
+    {
+      "sample_id": "clase09_seg0050",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0050.wav",
+      "inicio": 816.39,
+      "fin": 834.466,
+      "duracion_seg": 18.076,
+      "gt_original": "dependa de la corriente de campo y de la corriente de armadura. Y de por supuesto las constantes respectivas. Excelente. ¿Preguntas hasta allí? Por supuesto, tengo un problema, ¿no? Y el problema es que él depende de las",
+      "gt_normalizado": "dependa de la corriente de campo y de la corriente de armadura y de por supuesto las constantes respectivas excelente preguntas hasta allí por supuesto tengo un problema no y el problema es que él depende de las"
+    },
+    {
+      "sample_id": "clase09_seg0051",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0051.wav",
+      "inicio": 835.176,
+      "fin": 846.36,
+      "duracion_seg": 11.184,
+      "gt_original": "dos corrientes. Por lo tanto, existen dos casos, ¿verdad? Dos casos para para esta problemática. El denominado control por armadura.",
+      "gt_normalizado": "dos corrientes por lo tanto existen dos casos verdad dos casos para para esta problemática el denominado control por armadura"
+    },
+    {
+      "sample_id": "clase09_seg0052",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0052.wav",
+      "inicio": 846.76,
+      "fin": 857.07,
+      "duracion_seg": 10.31,
+      "gt_original": "En el control por armadura, lo que vamos a hacer es que se mantiene, vamos a mantener constante,",
+      "gt_normalizado": "en el control por armadura lo que vamos a hacer es que se mantiene vamos a mantener constante"
+    },
+    {
+      "sample_id": "clase09_seg0053",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0053.wav",
+      "inicio": 860.431,
+      "fin": 873.55,
+      "duracion_seg": 13.119,
+      "gt_original": "constante fasorialmente hablando, ¿no? Es decir una corriente alterna que no cambia ni en frecuencia ni en amplitud, ¿no? Se mantiene constante la corriente de",
+      "gt_normalizado": "constante fasorialmente hablando no es decir una corriente alterna que no cambia ni en frecuencia ni en amplitud no se mantiene constante la corriente de"
+    },
+    {
+      "sample_id": "clase09_seg0054",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0054.wav",
+      "inicio": 876.881,
+      "fin": 893.989,
+      "duracion_seg": 17.109,
+      "gt_original": "campo. Si la corriente de campo se mantiene constante, podemos decir que el torque del motor, lo que está aquí dicho, ¿no? Es igual a k1, que es una constante, ¿verdad? kf, que es una constante. Voy a ponerla con mayúscula If porque ahora If es ¿qué, muchachos?",
+      "gt_normalizado": "campo si la corriente de campo se mantiene constante podemos decir que el torque del motor lo que está aquí dicho no es igual a k1 que es una constante verdad kf que es una constante voy a ponerla con mayúscula if porque ahora if es qué muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0055",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0055.wav",
+      "inicio": 895.2,
+      "fin": 907.86,
+      "duracion_seg": 12.66,
+      "gt_original": "Constante. Constante, por ia de t. Entonces todo esto es una sola constante que la vamos a llamar kt. Entonces podemos decir que el torque del motor",
+      "gt_normalizado": "constante constante por ia de t entonces todo esto es una sola constante que la vamos a llamar kt entonces podemos decir que el torque del motor"
+    },
+    {
+      "sample_id": "clase09_seg0056",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0056.wav",
+      "inicio": 911.1,
+      "fin": 921.33,
+      "duracion_seg": 10.23,
+      "gt_original": "es kt por la corriente de armadura. Este ejemplo, el control por armadura es el que vamos a desarrollar en todo detalle",
+      "gt_normalizado": "es kt por la corriente de armadura este ejemplo el control por armadura es el que vamos a desarrollar en todo detalle"
+    },
+    {
+      "sample_id": "clase09_seg0057",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0057.wav",
+      "inicio": 921.944,
+      "fin": 939.84,
+      "duracion_seg": 17.896,
+      "gt_original": "en esta clase, porque es el que más se utiliza. Por simple idea similar al teorema de superposición, el segundo caso también es Es obvio, es evidente, el control por campo, ¿verdad? ¿Qué creen que va a pasar por por lógica consecuencia? ¿A quién vamos a mantener constante? A la Ia. Corriente de armadura. Vamos a mantener constante",
+      "gt_normalizado": "en esta clase porque es el que más se utiliza por simple idea similar al teorema de superposición el segundo caso también es es obvio es evidente el control por campo verdad qué creen que va a pasar por por lógica consecuencia a quién vamos a mantener constante a la ia corriente de armadura vamos a mantener constante"
+    },
+    {
+      "sample_id": "clase09_seg0058",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0058.wav",
+      "inicio": 940.231,
+      "fin": 953.144,
+      "duracion_seg": 12.914,
+      "gt_original": "a la corriente de armadura. Muchachos, el kahoot de hoy día adivinen qué les voy a preguntar. Adivinen",
+      "gt_normalizado": "a la corriente de armadura muchachos el kahoot de hoy día adivinen qué les voy a preguntar adivinen"
+    },
+    {
+      "sample_id": "clase09_seg0059",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0059.wav",
+      "inicio": 953.602,
+      "fin": 965.734,
+      "duracion_seg": 12.132,
+      "gt_original": "qué les voy a preguntar en el kahoot de hoy día. Segurísimo les voy a preguntar en el control por armadura ¿quién se mantiene constante? En el control por campo ¿quién se mantiene constante?, ¿verdad? Una de esas va porque",
+      "gt_normalizado": "qué les voy a preguntar en el kahoot de hoy día segurísimo les voy a preguntar en el control por armadura quién se mantiene constante en el control por campo quién se mantiene constante verdad una de esas va porque"
+    },
+    {
+      "sample_id": "clase09_seg0060",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0060.wav",
+      "inicio": 966.355,
+      "fin": 980.809,
+      "duracion_seg": 14.454,
+      "gt_original": "va, ¿no? ¿Sí o no? Así que pilas, pilas. En el control por campo vamos a mantener constante la corriente de armadura, viendo la fórmula de arriba sería k1 por kf por Ia, ¿verdad? por If de t, ¿cierto?",
+      "gt_normalizado": "va no sí o no así que pilas pilas en el control por campo vamos a mantener constante la corriente de armadura viendo la fórmula de arriba sería k1 por kf por ia verdad por if de t cierto"
+    },
+    {
+      "sample_id": "clase09_seg0061",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0061.wav",
+      "inicio": 985.53,
+      "fin": 1000.14,
+      "duracion_seg": 14.61,
+      "gt_original": "Y estas tres constantes van a tener la constante que la voy a llamar kmf. O sea que aquí el torque del motor va a ser igual a kmf por if de t. ¿Sí, muchachos?",
+      "gt_normalizado": "y estas tres constantes van a tener la constante que la voy a llamar kmf o sea que aquí el torque del motor va a ser igual a kmf por if de t sí muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0062",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0062.wav",
+      "inicio": 1006.05,
+      "fin": 1016.16,
+      "duracion_seg": 10.11,
+      "gt_original": "Ahora bien, ya para entrar a modelar directamente, déjenme colocarles o complementar esto con las ecuaciones eléctricas, ¿sí?",
+      "gt_normalizado": "ahora bien ya para entrar a modelar directamente déjenme colocarles o complementar esto con las ecuaciones eléctricas sí"
+    },
+    {
+      "sample_id": "clase09_seg0063",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0063.wav",
+      "inicio": 1018.05,
+      "fin": 1028.839,
+      "duracion_seg": 10.789,
+      "gt_original": "Las ecuaciones eléctricas del sistema son dos. Vamos a hacer la de campo primero que es la más fácil. La de campo, muchachos. Ésta.",
+      "gt_normalizado": "las ecuaciones eléctricas del sistema son dos vamos a hacer la de campo primero que es la más fácil la de campo muchachos ésta"
+    },
+    {
+      "sample_id": "clase09_seg0064",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0064.wav",
+      "inicio": 1030.703,
+      "fin": 1048.65,
+      "duracion_seg": 17.947,
+      "gt_original": "¿De acuerdo? La ecuación de campo es sencilla. Simplemente diría que vf de t. Muchachos, una ecuación eléctrica súper sencilla, ¿no? Ésta, de este circuito.",
+      "gt_normalizado": "de acuerdo la ecuación de campo es sencilla simplemente diría que vf de t muchachos una ecuación eléctrica súper sencilla no ésta de este circuito"
+    },
+    {
+      "sample_id": "clase09_seg0065",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0065.wav",
+      "inicio": 1049.79,
+      "fin": 1061.108,
+      "duracion_seg": 11.318,
+      "gt_original": "La del campo dice que vf de t es igual a ¿qué voltaje, muchachos? Voltaje de Rf más el voltaje del inductor. Más el voltaje del inductor, ¿verdad? O sea que sería",
+      "gt_normalizado": "la del campo dice que vf de t es igual a qué voltaje muchachos voltaje de rf más el voltaje del inductor más el voltaje del inductor verdad o sea que sería"
+    },
+    {
+      "sample_id": "clase09_seg0066",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0066.wav",
+      "inicio": 1061.574,
+      "fin": 1072.756,
+      "duracion_seg": 11.182,
+      "gt_original": "la que está allí, ¿verdad? vf de t es igual a la Rf por la if de t más Lf por d if de t a dt,",
+      "gt_normalizado": "la que está allí verdad vf de t es igual a la rf por la if de t más lf por d if de t a dt"
+    },
+    {
+      "sample_id": "clase09_seg0067",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0067.wav",
+      "inicio": 1074.57,
+      "fin": 1089.09,
+      "duracion_seg": 14.52,
+      "gt_original": "¿cierto? Voltaje de la resistencia más voltaje del inductor, R por i más L por di/dt. Es lo que está aquí en la diapositiva, muchachos, ¿no? Y en el, en la armadura, muchachos.",
+      "gt_normalizado": "cierto voltaje de la resistencia más voltaje del inductor r por i más l por di dt es lo que está aquí en la diapositiva muchachos no y en el en la armadura muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0068",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0068.wav",
+      "inicio": 1089.481,
+      "fin": 1100.125,
+      "duracion_seg": 10.644,
+      "gt_original": "Ups. En la armadura Esta es la ecuación de de campo. Y la corriente de armadura.",
+      "gt_normalizado": "ups en la armadura esta es la ecuación de de campo y la corriente de armadura"
+    },
+    {
+      "sample_id": "clase09_seg0069",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0069.wav",
+      "inicio": 1103.82,
+      "fin": 1117.05,
+      "duracion_seg": 13.23,
+      "gt_original": "Podemos decir que, si vemos el circuito de armadura, mejor lo vemos acá. El circuito de armadura es este, ups, qué bestia. El circuito de armadura es este de acá, ¿verdad? ¿Cómo sería la ecuación eléctrica del circuito de armadura?",
+      "gt_normalizado": "podemos decir que si vemos el circuito de armadura mejor lo vemos acá el circuito de armadura es este ups qué bestia el circuito de armadura es este de acá verdad cómo sería la ecuación eléctrica del circuito de armadura"
+    },
+    {
+      "sample_id": "clase09_seg0070",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0070.wav",
+      "inicio": 1121.46,
+      "fin": 1134.245,
+      "duracion_seg": 12.785,
+      "gt_original": "Ea es igual a resistencia A por Ia. Así es. Más La por la derivada de Ia. Correcto. Y más Vb,",
+      "gt_normalizado": "ea es igual a resistencia a por ia así es más la por la derivada de ia correcto y más vb"
+    },
+    {
+      "sample_id": "clase09_seg0071",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0071.wav",
+      "inicio": 1135.11,
+      "fin": 1149.094,
+      "duracion_seg": 13.984,
+      "gt_original": "¿no? Y más la fuerza contraelectromotriz Vb, ¿no? ¿Cierto? Sí. Entonces nuestra voltaje de armadura Ea de t es igual a Ra",
+      "gt_normalizado": "no y más la fuerza contraelectromotriz vb no cierto sí entonces nuestra voltaje de armadura ea de t es igual a ra"
+    },
+    {
+      "sample_id": "clase09_seg0072",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0072.wav",
+      "inicio": 1155.42,
+      "fin": 1171.38,
+      "duracion_seg": 15.96,
+      "gt_original": "por Ia de t más La por d Ia de t a dt y más Vb de t. O sea, la única diferencia es que este circuito eléctrico tiene esa fuerza contraelectromotriz ahí en contra, ¿no? Listo, muchachos. Esos son los insumos que necesitamos para hacer los controles completos",
+      "gt_normalizado": "por ia de t más la por d ia de t a dt y más vb de t o sea la única diferencia es que este circuito eléctrico tiene esa fuerza contraelectromotriz ahí en contra no listo muchachos esos son los insumos que necesitamos para hacer los controles completos"
+    },
+    {
+      "sample_id": "clase09_seg0073",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0073.wav",
+      "inicio": 1171.95,
+      "fin": 1182.63,
+      "duracion_seg": 10.68,
+      "gt_original": "del sistema. ¿Ok? Entonces, lo presentémoslo a manera de ejemplo. ¿Alguna pregunta hasta allí? Ahí están ya escritas todas las ecuaciones",
+      "gt_normalizado": "del sistema ok entonces lo presentémoslo a manera de ejemplo alguna pregunta hasta allí ahí están ya escritas todas las ecuaciones"
+    },
+    {
+      "sample_id": "clase09_seg0074",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0074.wav",
+      "inicio": 1183.52,
+      "fin": 1199.19,
+      "duracion_seg": 15.67,
+      "gt_original": "que yo necesito. ¿Alguna pregunta hasta allí? Profe, ¿podría repetir lo de antes de control por campo? Por favor. Es el control por armadura, ¿verdad? En el control por armadura lo que hacemos es que mantenemos constante la corriente",
+      "gt_normalizado": "que yo necesito alguna pregunta hasta allí profe podría repetir lo de antes de control por campo por favor es el control por armadura verdad en el control por armadura lo que hacemos es que mantenemos constante la corriente"
+    },
+    {
+      "sample_id": "clase09_seg0075",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0075.wav",
+      "inicio": 1199.731,
+      "fin": 1211.867,
+      "duracion_seg": 12.136,
+      "gt_original": "de campo. ¿Sí? Arriba está la fórmula mágica, ¿no? Que es esta. La fórmula completa, el torque depende de la corriente de campo y de la corriente de armadura. Entonces lo que hacemos es una especie de análisis",
+      "gt_normalizado": "de campo sí arriba está la fórmula mágica no que es esta la fórmula completa el torque depende de la corriente de campo y de la corriente de armadura entonces lo que hacemos es una especie de análisis"
+    },
+    {
+      "sample_id": "clase09_seg0076",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0076.wav",
+      "inicio": 1212.325,
+      "fin": 1233.082,
+      "duracion_seg": 20.757,
+      "gt_original": "de superposición. Si quiero que la corriente de armadura mande, entonces mantengo constante el campo. Si quiero que el campo mande, entonces mantengo constante la armadura. No puedo mover las dos porque si muevo las dos, sería un control no lineal. ¿Sí me explico? Y tendríamos que linealizarlo. Sí puedo, pero se me complicaría,",
+      "gt_normalizado": "de superposición si quiero que la corriente de armadura mande entonces mantengo constante el campo si quiero que el campo mande entonces mantengo constante la armadura no puedo mover las dos porque si muevo las dos sería un control no lineal sí me explico y tendríamos que linealizarlo sí puedo pero se me complicaría"
+    },
+    {
+      "sample_id": "clase09_seg0077",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0077.wav",
+      "inicio": 1233.813,
+      "fin": 1249.08,
+      "duracion_seg": 15.267,
+      "gt_original": "¿no? Tendría que linealizarlo como vimos el otro día en la otra clase. Pero en realidad en los sistemas eléctricos de los motores, no se hace eso, sino que se hace control de campo o control de armadura. Uno de los dos controles. ¿Estamos?",
+      "gt_normalizado": "no tendría que linealizarlo como vimos el otro día en la otra clase pero en realidad en los sistemas eléctricos de los motores no se hace eso sino que se hace control de campo o control de armadura uno de los dos controles estamos"
+    },
+    {
+      "sample_id": "clase09_seg0078",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0078.wav",
+      "inicio": 1256.58,
+      "fin": 1257.894,
+      "duracion_seg": 1.314,
+      "gt_original": "Entonces, vamos a",
+      "gt_normalizado": "entonces vamos a"
+    },
+    {
+      "sample_id": "clase09_seg0079",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0079.wav",
+      "inicio": 1263.123,
+      "fin": 1274.29,
+      "duracion_seg": 11.167,
+      "gt_original": "hacer el ahora el motor DC controlado por armadura. Y",
+      "gt_normalizado": "hacer el ahora el motor dc controlado por armadura y"
+    },
+    {
+      "sample_id": "clase09_seg0080",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0080.wav",
+      "inicio": 1282.86,
+      "fin": 1293.78,
+      "duracion_seg": 10.92,
+      "gt_original": "en el caso del control DC controlado por armadura, vamos a hacerlo ya a manera de representación completa, ¿no? Entonces, ¿cómo o cuáles son los elementos?",
+      "gt_normalizado": "en el caso del control dc controlado por armadura vamos a hacerlo ya a manera de representación completa no entonces cómo o cuáles son los elementos"
+    },
+    {
+      "sample_id": "clase09_seg0081",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0081.wav",
+      "inicio": 1294.239,
+      "fin": 1307.366,
+      "duracion_seg": 13.128,
+      "gt_original": "Voy a ser lo más explícito posible para evitar confusiones. Vamos a hacer el dibujito, muchachos. Vamos a suponer, como les había dicho allí, que la entrada al sistema es el voltaje ea de t, ea de t, perdón, que",
+      "gt_normalizado": "voy a ser lo más explícito posible para evitar confusiones vamos a hacer el dibujito muchachos vamos a suponer como les había dicho allí que la entrada al sistema es el voltaje ea de t ea de t perdón que"
+    },
+    {
+      "sample_id": "clase09_seg0082",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0082.wav",
+      "inicio": 1307.97,
+      "fin": 1318.734,
+      "duracion_seg": 10.764,
+      "gt_original": "tengo una resistencia de armadura, que tengo una inductancia de armadura. Luego viene la parte de las escobillas del motor. Y",
+      "gt_normalizado": "tengo una resistencia de armadura que tengo una inductancia de armadura luego viene la parte de las escobillas del motor y"
+    },
+    {
+      "sample_id": "clase09_seg0083",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0083.wav",
+      "inicio": 1320.977,
+      "fin": 1332.948,
+      "duracion_seg": 11.972,
+      "gt_original": "vamos a suponer, a pesar de que lo escribo así, ¿verdad? ustedes ya me entienden. Vamos a escribirlo recto para que se entienda mejor. Que de ese motor viene una carga rotatoria, ¿verdad? Donde",
+      "gt_normalizado": "vamos a suponer a pesar de que lo escribo así verdad ustedes ya me entienden vamos a escribirlo recto para que se entienda mejor que de ese motor viene una carga rotatoria verdad donde"
+    },
+    {
+      "sample_id": "clase09_seg0084",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0084.wav",
+      "inicio": 1333.62,
+      "fin": 1345.18,
+      "duracion_seg": 11.56,
+      "gt_original": "esa carga rotatoria tiene una inercia Jm, J del motor, inercia del motor, y que tiene una amortiguación rotatoria que vamos a suponer que es Dm.",
+      "gt_normalizado": "esa carga rotatoria tiene una inercia jm j del motor inercia del motor y que tiene una amortiguación rotatoria que vamos a suponer que es dm"
+    },
+    {
+      "sample_id": "clase09_seg0085",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0085.wav",
+      "inicio": 1346.73,
+      "fin": 1357.2,
+      "duracion_seg": 10.47,
+      "gt_original": "Supongamos que la fuerza del motor, ¿verdad? está en esta dirección, theta m, y esa fuerza mecánica es el famoso tm de t. Además, vamos a suponer",
+      "gt_normalizado": "supongamos que la fuerza del motor verdad está en esta dirección theta m y esa fuerza mecánica es el famoso tm de t además vamos a suponer"
+    },
+    {
+      "sample_id": "clase09_seg0086",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0086.wav",
+      "inicio": 1357.819,
+      "fin": 1370.7,
+      "duracion_seg": 12.881,
+      "gt_original": "que, como lo dice él allá, tenemos el campo fijo. ¿Qué quiere decir esto del campo fijo, muchachos?",
+      "gt_normalizado": "que como lo dice él allá tenemos el campo fijo qué quiere decir esto del campo fijo muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0087",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0087.wav",
+      "inicio": 1371.81,
+      "fin": 1387.62,
+      "duracion_seg": 15.81,
+      "gt_original": "¿Qué quiere decir eso del campo fijo? Que la corriente de ese circuito es constante. Que esa corriente es constante. Lo que nosotros queremos encontrar, que es lo que vamos a hacer ahora, es",
+      "gt_normalizado": "qué quiere decir eso del campo fijo que la corriente de ese circuito es constante que esa corriente es constante lo que nosotros queremos encontrar que es lo que vamos a hacer ahora es"
+    },
+    {
+      "sample_id": "clase09_seg0088",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0088.wav",
+      "inicio": 1388.55,
+      "fin": 1399.881,
+      "duracion_seg": 11.331,
+      "gt_original": "cuánto es el theta m del motor para el voltaje de entrada, ¿verdad? O sea, si queremos hacerlo como diagrama de bloques, quiero",
+      "gt_normalizado": "cuánto es el theta m del motor para el voltaje de entrada verdad o sea si queremos hacerlo como diagrama de bloques quiero"
+    },
+    {
+      "sample_id": "clase09_seg0089",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0089.wav",
+      "inicio": 1400.49,
+      "fin": 1415.34,
+      "duracion_seg": 14.85,
+      "gt_original": "hallar esa función de transferencia que me transfiera la señal desde el voltaje Ea de S hasta el theta m de S. ¿Estamos de acuerdo, muchachos? Ahí están planteadas las variables que me interesan. Ok, estamos",
+      "gt_normalizado": "hallar esa función de transferencia que me transfiera la señal desde el voltaje ea de s hasta el theta m de s estamos de acuerdo muchachos ahí están planteadas las variables que me interesan ok estamos"
+    },
+    {
+      "sample_id": "clase09_seg0090",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0090.wav",
+      "inicio": 1436.91,
+      "fin": 1447.289,
+      "duracion_seg": 10.379,
+      "gt_original": "claros en la problemática. A ver, pero vamos viendo cómo va a funcionar esto antes de hacer cualquier ecuación. La fuerza eléctrica generará una corriente, ¿verdad? Como el",
+      "gt_normalizado": "claros en la problemática a ver pero vamos viendo cómo va a funcionar esto antes de hacer cualquier ecuación la fuerza eléctrica generará una corriente verdad como el"
+    },
+    {
+      "sample_id": "clase09_seg0091",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0091.wav",
+      "inicio": 1447.68,
+      "fin": 1462.97,
+      "duracion_seg": 15.29,
+      "gt_original": "campo está fijo, está fijo en su generación AC, ¿verdad? está induciendo voltaje sobre el rotor, más el valor del inducido, de la armadura, generarán un flujo magnético, ese flujo magnético hará que el motor se mueva y generará el voltaje de la fuerza",
+      "gt_normalizado": "campo está fijo está fijo en su generación ac verdad está induciendo voltaje sobre el rotor más el valor del inducido de la armadura generarán un flujo magnético ese flujo magnético hará que el motor se mueva y generará el voltaje de la fuerza"
+    },
+    {
+      "sample_id": "clase09_seg0092",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0092.wav",
+      "inicio": 1463.591,
+      "fin": 1473.663,
+      "duracion_seg": 10.072,
+      "gt_original": "contraelectromotriz Vb de t, ¿cierto? Con ese voltaje de la fuerza contraelectromotriz Vb de t, que es el que va aquí, ¿no?",
+      "gt_normalizado": "contraelectromotriz vb de t cierto con ese voltaje de la fuerza contraelectromotriz vb de t que es el que va aquí no"
+    },
+    {
+      "sample_id": "clase09_seg0093",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0093.wav",
+      "inicio": 1474.83,
+      "fin": 1490.97,
+      "duracion_seg": 16.14,
+      "gt_original": "Podemos plantear el circuito de armadura. Por supuesto, tendríamos que plantear que por aquí de una vez circula la corriente de armadura. Con la ecuación que vimos anteriormente vamos a tener la ecuación del torque y con la ecuación del torque vamos a hacer el circuito mecánico de rotación como aprendimos en la clase pasada",
+      "gt_normalizado": "podemos plantear el circuito de armadura por supuesto tendríamos que plantear que por aquí de una vez circula la corriente de armadura con la ecuación que vimos anteriormente vamos a tener la ecuación del torque y con la ecuación del torque vamos a hacer el circuito mecánico de rotación como aprendimos en la clase pasada"
+    },
+    {
+      "sample_id": "clase09_seg0094",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0094.wav",
+      "inicio": 1491.51,
+      "fin": 1508.25,
+      "duracion_seg": 16.74,
+      "gt_original": "para encontrar el valor de theta m. ¿De acuerdo? Entonces a ver, muchachos, dense unas cachetaditas, vamos, que esta es la parte que tienen que entender porque esto para ustedes tiene que ser como agüita de todos los días. El deber de esta semana es todo de esto. ¿Sí? Por favor, ¿alguna pregunta previa?",
+      "gt_normalizado": "para encontrar el valor de theta m de acuerdo entonces a ver muchachos dense unas cachetaditas vamos que esta es la parte que tienen que entender porque esto para ustedes tiene que ser como agüita de todos los días el deber de esta semana es todo de esto sí por favor alguna pregunta previa"
+    },
+    {
+      "sample_id": "clase09_seg0095",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0095.wav",
+      "inicio": 1516.29,
+      "fin": 1532.4,
+      "duracion_seg": 16.11,
+      "gt_original": "Para ir ganando tiempo, voy a trabajar de una vez con el circuito transformado, o sea que este inductor es s La, ¿verdad? Esto será Ea de s, esto será Ia de s, esto será Vb de s, ¿no? También aquí será Tm de s. Eh, ¿cuál era la",
+      "gt_normalizado": "para ir ganando tiempo voy a trabajar de una vez con el circuito transformado o sea que este inductor es s la verdad esto será ea de s esto será ia de s esto será vb de s no también aquí será tm de s eh cuál era la"
+    },
+    {
+      "sample_id": "clase09_seg0096",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0096.wav",
+      "inicio": 1535.19,
+      "fin": 1545.75,
+      "duracion_seg": 10.56,
+      "gt_original": "impedancia de la de la carga de la inercia? s cuadrado Jm. s cuadrado Jm, y del amortiguador de rotación?",
+      "gt_normalizado": "impedancia de la de la carga de la inercia s cuadrado jm s cuadrado jm y del amortiguador de rotación"
+    },
+    {
+      "sample_id": "clase09_seg0097",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0097.wav",
+      "inicio": 1546.237,
+      "fin": 1557.629,
+      "duracion_seg": 11.392,
+      "gt_original": "Dm por s. s Dm. ¿De acuerdo? A ver muchachos, entonces vamos ahora sí, vamos a calentar los motores. Primero voy a plantear la ecuación eléctrica",
+      "gt_normalizado": "dm por s s dm de acuerdo a ver muchachos entonces vamos ahora sí vamos a calentar los motores primero voy a plantear la ecuación eléctrica"
+    },
+    {
+      "sample_id": "clase09_seg0098",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0098.wav",
+      "inicio": 1558.44,
+      "fin": 1572.803,
+      "duracion_seg": 14.364,
+      "gt_original": "que está aquí, ¿verdad? Sí, vamos a plantear la ecuación eléctrica, ya hace un ratito la escribí en forma diferencial, ahora ya la voy a escribir en forma laplaciana. A qué es igual, a ver díctenme, ¿a qué es igual Ea de S? Esa es la primera ecuación. A Ra",
+      "gt_normalizado": "que está aquí verdad sí vamos a plantear la ecuación eléctrica ya hace un ratito la escribí en forma diferencial ahora ya la voy a escribir en forma laplaciana a qué es igual a ver díctenme a qué es igual ea de s esa es la primera ecuación a ra"
+    },
+    {
+      "sample_id": "clase09_seg0099",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0099.wav",
+      "inicio": 1576.08,
+      "fin": 1588.049,
+      "duracion_seg": 11.969,
+      "gt_original": "por Ia de s. Si podemos de una vez como haciendo el análisis de malla, podemos decir así, ¿verdad? Sí, sí, ¿verdad? Sí. Sí. ¿Están de acuerdo conmigo, ¿verdad?",
+      "gt_normalizado": "por ia de s si podemos de una vez como haciendo el análisis de malla podemos decir así verdad sí sí verdad sí sí están de acuerdo conmigo verdad"
+    },
+    {
+      "sample_id": "clase09_seg0100",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0100.wav",
+      "inicio": 1588.89,
+      "fin": 1599.06,
+      "duracion_seg": 10.17,
+      "gt_original": "Y más Vb de s. ¿No debo de explicar esto mucho o sí? ¿Están de acuerdo con esa primera ecuación? Sí. Sí. Es esta ecuación, ¿verdad?",
+      "gt_normalizado": "y más vb de s no debo de explicar esto mucho o sí están de acuerdo con esa primera ecuación sí sí es esta ecuación verdad"
+    },
+    {
+      "sample_id": "clase09_seg0101",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0101.wav",
+      "inicio": 1601.55,
+      "fin": 1612.395,
+      "duracion_seg": 10.845,
+      "gt_original": "Sí, muchachos. Sí, profe, sí. Listo. Esa ecuación es buena, es la la necesitamos, ¿no? Ahora bien,",
+      "gt_normalizado": "sí muchachos sí profe sí listo esa ecuación es buena es la la necesitamos no ahora bien"
+    },
+    {
+      "sample_id": "clase09_seg0102",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0102.wav",
+      "inicio": 1616.73,
+      "fin": 1627.237,
+      "duracion_seg": 10.507,
+      "gt_original": "Recuerden ustedes que, es más, estas ecuaciones buenas las voy a ir enmarcando porque hay unas que son preliminares pero esta ecuación es buena. Recuerden ustedes que",
+      "gt_normalizado": "recuerden ustedes que es más estas ecuaciones buenas las voy a ir enmarcando porque hay unas que son preliminares pero esta ecuación es buena recuerden ustedes que"
+    },
+    {
+      "sample_id": "clase09_seg0103",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0103.wav",
+      "inicio": 1627.98,
+      "fin": 1650.491,
+      "duracion_seg": 22.511,
+      "gt_original": "la velocidad angular que sería la omega del motor, ¿a qué es igual la velocidad angular? ¿Es qué? La derivada del desplazamiento sobre el tiempo. Y en laplace ¿qué es decir que omega m de s es igual a s por theta m de s, ¿verdad? Sí, muchachos.",
+      "gt_normalizado": "la velocidad angular que sería la omega del motor a qué es igual la velocidad angular es qué la derivada del desplazamiento sobre el tiempo y en laplace qué es decir que omega m de s es igual a s por theta m de s verdad sí muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0104",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0104.wav",
+      "inicio": 1655.79,
+      "fin": 1672.23,
+      "duracion_seg": 16.44,
+      "gt_original": "Ahora bien. Ahora bien, qué quería yo, estoy perdiendo mis... Ahora bien, muchachos. Esta ecuación también la necesito. También la necesito porque me va a permitir relacionar el theta con el omega en cualquier momento, ¿cierto muchachos?",
+      "gt_normalizado": "ahora bien ahora bien qué quería yo estoy perdiendo mis ahora bien muchachos esta ecuación también la necesito también la necesito porque me va a permitir relacionar el theta con el omega en cualquier momento cierto muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0105",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0105.wav",
+      "inicio": 1673.25,
+      "fin": 1684.461,
+      "duracion_seg": 11.211,
+      "gt_original": "Ahora bien, ¿qué me dijo el ejercicio, qué me dice la teoría sobre la fuerza contraelectromotriz? Me dice que la Vb de t, ¿verdad? Que es",
+      "gt_normalizado": "ahora bien qué me dijo el ejercicio qué me dice la teoría sobre la fuerza contraelectromotriz me dice que la vb de t verdad que es"
+    },
+    {
+      "sample_id": "clase09_seg0106",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0106.wav",
+      "inicio": 1685.582,
+      "fin": 1696.46,
+      "duracion_seg": 10.878,
+      "gt_original": "la fuerza contraelectromotriz, él me dijo que de manera general era qué. k1 por el flujo y por omega m, ¿no? ¿Sí se acuerdan, ¿no? k1",
+      "gt_normalizado": "la fuerza contraelectromotriz él me dijo que de manera general era qué k1 por el flujo y por omega m no sí se acuerdan no k1"
+    },
+    {
+      "sample_id": "clase09_seg0107",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0107.wav",
+      "inicio": 1699.08,
+      "fin": 1711.86,
+      "duracion_seg": 12.78,
+      "gt_original": "por el flujo que es constante y por la omega m de t. ¿Por qué el flujo es constante, muchachos? ¿Quién me dice por qué el flujo que aquí era phi de t, ¿no? ¿Por qué la corriente",
+      "gt_normalizado": "por el flujo que es constante y por la omega m de t por qué el flujo es constante muchachos quién me dice por qué el flujo que aquí era phi de t no por qué la corriente"
+    },
+    {
+      "sample_id": "clase09_seg0108",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0108.wav",
+      "inicio": 1712.307,
+      "fin": 1725.67,
+      "duracion_seg": 13.363,
+      "gt_original": "del campo es constante? Correcto, flujo constante, vamos a anotarlo allí. Constante, porque If es constante, ¿no?",
+      "gt_normalizado": "del campo es constante correcto flujo constante vamos a anotarlo allí constante porque if es constante no"
+    },
+    {
+      "sample_id": "clase09_seg0109",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0109.wav",
+      "inicio": 1727.16,
+      "fin": 1740.551,
+      "duracion_seg": 13.391,
+      "gt_original": "Por lo tanto, esto es una constante que la voy a llamar, la multiplicación de esos dos es una constante que la voy a llamar kb. Traducido al mundo laplaciano quiere decir entonces que Vb de s es igual a la constante kb",
+      "gt_normalizado": "por lo tanto esto es una constante que la voy a llamar la multiplicación de esos dos es una constante que la voy a llamar kb traducido al mundo laplaciano quiere decir entonces que vb de s es igual a la constante kb"
+    },
+    {
+      "sample_id": "clase09_seg0110",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0110.wav",
+      "inicio": 1741.29,
+      "fin": 1751.58,
+      "duracion_seg": 10.29,
+      "gt_original": "por omega m de s. ¿Están de acuerdo conmigo hasta allí? Profe, ¿podría repetir",
+      "gt_normalizado": "por omega m de s están de acuerdo conmigo hasta allí profe podría repetir"
+    },
+    {
+      "sample_id": "clase09_seg0111",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0111.wav",
+      "inicio": 1752.316,
+      "fin": 1767.131,
+      "duracion_seg": 14.816,
+      "gt_original": "por qué es constante? Porque estamos haciendo control por armadura, eso qué quiere decir. Que el campo es fijo y que If es constante. Y si ves las",
+      "gt_normalizado": "por qué es constante porque estamos haciendo control por armadura eso qué quiere decir que el campo es fijo y que if es constante y si ves las"
+    },
+    {
+      "sample_id": "clase09_seg0112",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0112.wav",
+      "inicio": 1771.83,
+      "fin": 1782.629,
+      "duracion_seg": 10.799,
+      "gt_original": "ecuaciones que planteamos anteriormente, las primeritas, aquí está, aquí está la respuesta exacta a lo que tú me preguntaste. ¿A qué es igual el flujo? Es",
+      "gt_normalizado": "ecuaciones que planteamos anteriormente las primeritas aquí está aquí está la respuesta exacta a lo que tú me preguntaste a qué es igual el flujo es"
+    },
+    {
+      "sample_id": "clase09_seg0113",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0113.wav",
+      "inicio": 1783.415,
+      "fin": 1797.03,
+      "duracion_seg": 13.615,
+      "gt_original": "igual a una constante kf por If. Si If es constante, si If es constante, ¿qué pasa? Hay entonces alguna constante. El flujo también es constante. ¿Sí, está claro el razonamiento?",
+      "gt_normalizado": "igual a una constante kf por if si if es constante si if es constante qué pasa hay entonces alguna constante el flujo también es constante sí está claro el razonamiento"
+    },
+    {
+      "sample_id": "clase09_seg0114",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0114.wav",
+      "inicio": 1798.043,
+      "fin": 1808.22,
+      "duracion_seg": 10.177,
+      "gt_original": "Sí, profesor, gracias. Listo. Van tres ecuaciones que ya las tenemos claritas, ¿no? Eh, ahora bien, la siguiente ecuación",
+      "gt_normalizado": "sí profesor gracias listo van tres ecuaciones que ya las tenemos claritas no eh ahora bien la siguiente ecuación"
+    },
+    {
+      "sample_id": "clase09_seg0115",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0115.wav",
+      "inicio": 1809.45,
+      "fin": 1821.87,
+      "duracion_seg": 12.42,
+      "gt_original": "sería la ecuación del torque motor para el control por armadura. ¿Qué dijimos? Aquí estaba, la ecuación del torque motor, para, ya la habíamos hecho. Para control por armadura, esta es la ecuación general del torque del",
+      "gt_normalizado": "sería la ecuación del torque motor para el control por armadura qué dijimos aquí estaba la ecuación del torque motor para ya la habíamos hecho para control por armadura esta es la ecuación general del torque del"
+    },
+    {
+      "sample_id": "clase09_seg0116",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0116.wav",
+      "inicio": 1822.444,
+      "fin": 1832.779,
+      "duracion_seg": 10.335,
+      "gt_original": "motor, esta, ¿no? Pero cuando hacemos control por armadura lo que ya habíamos dicho, ¿no? Este k1 es constante, kf es constante e if también es constante, ¿verdad? Porque es control por armadura. Por lo",
+      "gt_normalizado": "motor esta no pero cuando hacemos control por armadura lo que ya habíamos dicho no este k1 es constante kf es constante e if también es constante verdad porque es control por armadura por lo"
+    },
+    {
+      "sample_id": "clase09_seg0117",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0117.wav",
+      "inicio": 1833.155,
+      "fin": 1843.564,
+      "duracion_seg": 10.409,
+      "gt_original": "tanto, Tm de t es kt por Ia de t. Esto ya lo habíamos escrito, ¿sí, muchachos? O sea el torque depende de Ia en el control por armadura, ¿no? Entonces,",
+      "gt_normalizado": "tanto tm de t es kt por ia de t esto ya lo habíamos escrito sí muchachos o sea el torque depende de ia en el control por armadura no entonces"
+    },
+    {
+      "sample_id": "clase09_seg0118",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0118.wav",
+      "inicio": 1844.116,
+      "fin": 1854.943,
+      "duracion_seg": 10.826,
+      "gt_original": "¿cómo lo escribo eso acá? Si, lo escribimos en dos partes para que quede clarito. Tm de t es igual a kt por i de",
+      "gt_normalizado": "cómo lo escribo eso acá si lo escribimos en dos partes para que quede clarito tm de t es igual a kt por i de"
+    },
+    {
+      "sample_id": "clase09_seg0119",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0119.wav",
+      "inicio": 1856.061,
+      "fin": 1876.279,
+      "duracion_seg": 20.218,
+      "gt_original": "armadura de t, entonces me queda que el torque motor de s es igual a la constante kt por la corriente de armadura de s. Ahí está la otra ecuación. ¿Sí, muchachos? ¿Preguntas hasta allí de estas ecuaciones? Solo",
+      "gt_normalizado": "armadura de t entonces me queda que el torque motor de s es igual a la constante kt por la corriente de armadura de s ahí está la otra ecuación sí muchachos preguntas hasta allí de estas ecuaciones solo"
+    },
+    {
+      "sample_id": "clase09_seg0120",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0120.wav",
+      "inicio": 1884.99,
+      "fin": 1901.49,
+      "duracion_seg": 16.5,
+      "gt_original": "me falta una ecuación por derivar. Solo me falta una ecuación por derivar que es la ecuación mecánica, eh, que vendría a ser la ecuación que sale de esta parte, ¿verdad? Que es la que aprendimos a hacer la clase pasada,",
+      "gt_normalizado": "me falta una ecuación por derivar solo me falta una ecuación por derivar que es la ecuación mecánica eh que vendría a ser la ecuación que sale de esta parte verdad que es la que aprendimos a hacer la clase pasada"
+    },
+    {
+      "sample_id": "clase09_seg0121",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0121.wav",
+      "inicio": 1903.08,
+      "fin": 1913.732,
+      "duracion_seg": 10.652,
+      "gt_original": "¿sí? Me voy a llevar el dibujito para el otro lado para poderla, para que ustedes la puedan ver sin riesgo, ups, perdón. Sin riesgo a que a que no la entiendan. Solo",
+      "gt_normalizado": "sí me voy a llevar el dibujito para el otro lado para poderla para que ustedes la puedan ver sin riesgo ups perdón sin riesgo a que a que no la entiendan solo"
+    },
+    {
+      "sample_id": "clase09_seg0122",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0122.wav",
+      "inicio": 1917.45,
+      "fin": 1931.699,
+      "duracion_seg": 14.249,
+      "gt_original": "me falta una ecuación más. Que es ésta. La ecuación mecánica. La ecuación mecánica va a ser concentrada en esta parte, muchachos. ¿Se acuerdan cómo era la ecuación según la ley de nodos?",
+      "gt_normalizado": "me falta una ecuación más que es ésta la ecuación mecánica la ecuación mecánica va a ser concentrada en esta parte muchachos se acuerdan cómo era la ecuación según la ley de nodos"
+    },
+    {
+      "sample_id": "clase09_seg0123",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0123.wav",
+      "inicio": 1933.86,
+      "fin": 1944.87,
+      "duracion_seg": 11.01,
+      "gt_original": "Sumatoria de torques, ¿verdad? En este caso es ¿qué? Tm de s. Tm de s. ¿Es igual a qué, muchachos? A theta m de s multiplicado",
+      "gt_normalizado": "sumatoria de torques verdad en este caso es qué tm de s tm de s es igual a qué muchachos a theta m de s multiplicado"
+    },
+    {
+      "sample_id": "clase09_seg0124",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0124.wav",
+      "inicio": 1946.01,
+      "fin": 1956.877,
+      "duracion_seg": 10.867,
+      "gt_original": "por la suma de las impedancias, sí. s cuadrado Jm más s Dm. Nada más, muchachos. ¿Sí o no?",
+      "gt_normalizado": "por la suma de las impedancias sí s cuadrado jm más s dm nada más muchachos sí o no"
+    },
+    {
+      "sample_id": "clase09_seg0125",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0125.wav",
+      "inicio": 1959.33,
+      "fin": 1970.059,
+      "duracion_seg": 10.729,
+      "gt_original": "Nada más. No tengo otra ecuación. El resto es matemáticas. Hasta ahí hay el análisis, el resto es matemáticas. Y",
+      "gt_normalizado": "nada más no tengo otra ecuación el resto es matemáticas hasta ahí hay el análisis el resto es matemáticas y"
+    },
+    {
+      "sample_id": "clase09_seg0126",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0126.wav",
+      "inicio": 1972.86,
+      "fin": 1984.521,
+      "duracion_seg": 11.661,
+      "gt_original": "lo primero que voy a hacer es que la voy a convertir en diagrama de bloques. Preguntas hasta allí. O sea, todo mi análisis se reduce, se reduce a cinco ecuaciones, las cinco ecuaciones",
+      "gt_normalizado": "lo primero que voy a hacer es que la voy a convertir en diagrama de bloques preguntas hasta allí o sea todo mi análisis se reduce se reduce a cinco ecuaciones las cinco ecuaciones"
+    },
+    {
+      "sample_id": "clase09_seg0127",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0127.wav",
+      "inicio": 1985.255,
+      "fin": 2003.53,
+      "duracion_seg": 18.275,
+      "gt_original": "que están en rectángulo, ¿sí? La ecuación del circuito de armadura, la ecuación que deriva la velocidad de la desplazamiento angular, la ecuación de la fuerza contraelectromotriz, la ecuación del torque del motor y la ecuación del sistema mecánico de rotación. Y",
+      "gt_normalizado": "que están en rectángulo sí la ecuación del circuito de armadura la ecuación que deriva la velocidad de la desplazamiento angular la ecuación de la fuerza contraelectromotriz la ecuación del torque del motor y la ecuación del sistema mecánico de rotación y"
+    },
+    {
+      "sample_id": "clase09_seg0128",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0128.wav",
+      "inicio": 2005.41,
+      "fin": 2020.29,
+      "duracion_seg": 14.88,
+      "gt_original": "ahora aquí viene el arte. Sí, sí, dime, dime antes de seguir. Podría mostrar la penúltima ecuación por favor. Sí. Y ahora aquí viene el arte, muchachos. El arte es que ustedes piensen en la información como un flujo para armar un diagrama de bloques",
+      "gt_normalizado": "ahora aquí viene el arte sí sí dime dime antes de seguir podría mostrar la penúltima ecuación por favor sí y ahora aquí viene el arte muchachos el arte es que ustedes piensen en la información como un flujo para armar un diagrama de bloques"
+    },
+    {
+      "sample_id": "clase09_seg0129",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0129.wav",
+      "inicio": 2020.68,
+      "fin": 2033.908,
+      "duracion_seg": 13.228,
+      "gt_original": "del sistema. Sí, o sea, la variable tal se va a convertir en la que sigue y en la que sigue y en la que sigue. Y piense en el flujo de la energía. El sistema, la entrada del sistema comienza por el voltaje Ea. Entonces",
+      "gt_normalizado": "del sistema sí o sea la variable tal se va a convertir en la que sigue y en la que sigue y en la que sigue y piense en el flujo de la energía el sistema la entrada del sistema comienza por el voltaje ea entonces"
+    },
+    {
+      "sample_id": "clase09_seg0130",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0130.wav",
+      "inicio": 2035.418,
+      "fin": 2047.86,
+      "duracion_seg": 12.442,
+      "gt_original": "nosotros vamos a trabajar en esta primera ecuación, muchachos, en esta, y vamos a tratar de generar la corriente o de despejar la corriente Ia de allí. Entonces muchachos, de esa primera ecuación,",
+      "gt_normalizado": "nosotros vamos a trabajar en esta primera ecuación muchachos en esta y vamos a tratar de generar la corriente o de despejar la corriente ia de allí entonces muchachos de esa primera ecuación"
+    },
+    {
+      "sample_id": "clase09_seg0131",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0131.wav",
+      "inicio": 2048.602,
+      "fin": 2063.747,
+      "duracion_seg": 15.145,
+      "gt_original": "estoy calculando que tenga el espacio adecuado. De esa primera ecuación, despéjenme por favor la corriente Ia. ¿A qué es igual la corriente Ia? La corriente Ia de s es igual a Ea de s",
+      "gt_normalizado": "estoy calculando que tenga el espacio adecuado de esa primera ecuación despéjenme por favor la corriente ia a qué es igual la corriente ia la corriente ia de s es igual a ea de s"
+    },
+    {
+      "sample_id": "clase09_seg0132",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0132.wav",
+      "inicio": 2083.71,
+      "fin": 2092.68,
+      "duracion_seg": 8.97,
+      "gt_original": "menos Vb de s sobre Ra más s La. Y miren el dibujito que voy a hacer muchachos y díganme si están de acuerdo. A ver, aquí viene el",
+      "gt_normalizado": "menos vb de s sobre ra más s la y miren el dibujito que voy a hacer muchachos y díganme si están de acuerdo a ver aquí viene el"
+    },
+    {
+      "sample_id": "clase09_seg0133",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0133.wav",
+      "inicio": 2113.813,
+      "fin": 2125.185,
+      "duracion_seg": 11.372,
+      "gt_original": "corazón de este curso muchachos, aquí esto es el corazón de este curso. ¿Se entiende, muchachos, o no, que esta ecuación que está aquí es este diagrama de bloque que está aquí?",
+      "gt_normalizado": "corazón de este curso muchachos aquí esto es el corazón de este curso se entiende muchachos o no que esta ecuación que está aquí es este diagrama de bloque que está aquí"
+    },
+    {
+      "sample_id": "clase09_seg0134",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0134.wav",
+      "inicio": 2127.75,
+      "fin": 2138.73,
+      "duracion_seg": 10.98,
+      "gt_original": "¿Qué me dicen? Sí. Sí. Sí. Ese diagrama de bloques, aquí como que se unen todos los conceptos que venimos hablando del día uno, ese diagrama de bloques",
+      "gt_normalizado": "qué me dicen sí sí sí ese diagrama de bloques aquí como que se unen todos los conceptos que venimos hablando del día uno ese diagrama de bloques"
+    },
+    {
+      "sample_id": "clase09_seg0135",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0135.wav",
+      "inicio": 2139.3,
+      "fin": 2149.77,
+      "duracion_seg": 10.47,
+      "gt_original": "simboliza el hecho de que este voltaje se convierta en esta corriente, se transfiera a esa corriente. ¿Sí, muchachos?",
+      "gt_normalizado": "simboliza el hecho de que este voltaje se convierta en esta corriente se transfiera a esa corriente sí muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0136",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0136.wav",
+      "inicio": 2151.54,
+      "fin": 2167.99,
+      "duracion_seg": 16.45,
+      "gt_original": "Claro, me quedó un nodo abierto que es el Vb de s, por eso yo le decía que este es como un jueguito, más adelante hay que cerrar el nodo. ¿Preguntas hasta allí? Esto para mí es clave para todos, que esta ecuación se traduce en este diagrama de bloques. Yo",
+      "gt_normalizado": "claro me quedó un nodo abierto que es el vb de s por eso yo le decía que este es como un jueguito más adelante hay que cerrar el nodo preguntas hasta allí esto para mí es clave para todos que esta ecuación se traduce en este diagrama de bloques yo"
+    },
+    {
+      "sample_id": "clase09_seg0137",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0137.wav",
+      "inicio": 2169.403,
+      "fin": 2184.9,
+      "duracion_seg": 15.497,
+      "gt_original": "creo que eso está claro. Ahora, la pregunta es, ¿pero por qué no despejó Vb, por qué no despejó Ia? Porque Ia es la que, esto es como un juego, muchachos, piensen en el juego. Eh, cuando yo destapo un naipe, ese naipe me va a ayudar a destapar el que sigue. ¿Qué será? el solitario.",
+      "gt_normalizado": "creo que eso está claro ahora la pregunta es pero por qué no despejó vb por qué no despejó ia porque ia es la que esto es como un juego muchachos piensen en el juego eh cuando yo destapo un naipe ese naipe me va a ayudar a destapar el que sigue qué será el solitario"
+    },
+    {
+      "sample_id": "clase09_seg0138",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0138.wav",
+      "inicio": 2185.529,
+      "fin": 2203.17,
+      "duracion_seg": 17.641,
+      "gt_original": "Si ustedes prestaron atención a las ecuaciones, para poder encontrar el torque del motor necesito la corriente de armadura. Y cuando tenga el torque del motor voy a derivar la posición angular. Entonces esto es como que el uno va empujando al otro. Y la manera de verlo no es una adivinanza, es simplemente ver cómo fluye la energía",
+      "gt_normalizado": "si ustedes prestaron atención a las ecuaciones para poder encontrar el torque del motor necesito la corriente de armadura y cuando tenga el torque del motor voy a derivar la posición angular entonces esto es como que el uno va empujando al otro y la manera de verlo no es una adivinanza es simplemente ver cómo fluye la energía"
+    },
+    {
+      "sample_id": "clase09_seg0139",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0139.wav",
+      "inicio": 2203.77,
+      "fin": 2228.58,
+      "duracion_seg": 24.81,
+      "gt_original": "del sistema. El voltaje fluye en corriente, la corriente fluye en torque y el torque fluye en posición angular y velocidad. Sí, me ibas a decir algo por favor. Sí ingeniero, este, lo que está haciendo es ver cuál es la entrada a la salida de una parte para luego ver cuál es la entrada y la salida de la otra. Correcto. Y ahí es que vienen nuestros famosos problemas de control, comenzamos a mezclar sistemas, lo que preguntaba el",
+      "gt_normalizado": "del sistema el voltaje fluye en corriente la corriente fluye en torque y el torque fluye en posición angular y velocidad sí me ibas a decir algo por favor sí ingeniero este lo que está haciendo es ver cuál es la entrada a la salida de una parte para luego ver cuál es la entrada y la salida de la otra correcto y ahí es que vienen nuestros famosos problemas de control comenzamos a mezclar sistemas lo que preguntaba el"
+    },
+    {
+      "sample_id": "clase09_seg0140",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0140.wav",
+      "inicio": 2228.58,
+      "fin": 2240.43,
+      "duracion_seg": 11.85,
+      "gt_original": "compañero hace un rato, ese es el mismo chiste del péndulo con las con los amortiguadores, con los resortes, ¿verdad? Un sistema físico tiene algo en común con otro y le da alimentación.",
+      "gt_normalizado": "compañero hace un rato ese es el mismo chiste del péndulo con las con los amortiguadores con los resortes verdad un sistema físico tiene algo en común con otro y le da alimentación"
+    },
+    {
+      "sample_id": "clase09_seg0141",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0141.wav",
+      "inicio": 2241.84,
+      "fin": 2255.52,
+      "duracion_seg": 13.68,
+      "gt_original": "Entonces, eh, voy a poner aquí un visto para decir que esta ecuación ya la representé, ¿ok? Ahora, tengo viva la corriente de armadura. La siguiente ecuación es facilita de representar, porque sería,",
+      "gt_normalizado": "entonces eh voy a poner aquí un visto para decir que esta ecuación ya la representé ok ahora tengo viva la corriente de armadura la siguiente ecuación es facilita de representar porque sería"
+    },
+    {
+      "sample_id": "clase09_seg0142",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0142.wav",
+      "inicio": 2256.48,
+      "fin": 2271.72,
+      "duracion_seg": 15.24,
+      "gt_original": "ups, sería esta de aquí. Sería ésta, muchachos, que esa corriente de armadura se convierte en qué. Ésta, muchachos. ¿En qué se convierte la corriente? En el torque. En el torque del motor.",
+      "gt_normalizado": "ups sería esta de aquí sería ésta muchachos que esa corriente de armadura se convierte en qué ésta muchachos en qué se convierte la corriente en el torque en el torque del motor"
+    },
+    {
+      "sample_id": "clase09_seg0143",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0143.wav",
+      "inicio": 2276.22,
+      "fin": 2300.43,
+      "duracion_seg": 24.21,
+      "gt_original": "Simplemente vengo y la multiplico, ¿verdad? La corriente de armadura por la constante, ¿cómo se llamaba la constante? Kt me parece, ¿no? Sí. Y se convierte en el torque del motor. Y ya tengo, miren, ya tengo la segunda ecuación representada, ¿no? Ya tengo la segunda ecuación representada. ¿Sí, muchachos?",
+      "gt_normalizado": "simplemente vengo y la multiplico verdad la corriente de armadura por la constante cómo se llamaba la constante kt me parece no sí y se convierte en el torque del motor y ya tengo miren ya tengo la segunda ecuación representada no ya tengo la segunda ecuación representada sí muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0144",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0144.wav",
+      "inicio": 2307.63,
+      "fin": 2322.139,
+      "duracion_seg": 14.509,
+      "gt_original": "La siguiente ecuación es, quiero que lo piensen como que fuera una cadena, ¿verdad? Exacto, así quiero que lo piensen, como que fuera una cadena de información, pero es es realmente una cadena de energía, ¿no? Si lo van viendo, es una cadena de energía que se va convirtiendo de un lado al otro. ¿Cuál creen que es la siguiente ecuación?",
+      "gt_normalizado": "la siguiente ecuación es quiero que lo piensen como que fuera una cadena verdad exacto así quiero que lo piensen como que fuera una cadena de información pero es es realmente una cadena de energía no si lo van viendo es una cadena de energía que se va convirtiendo de un lado al otro cuál creen que es la siguiente ecuación"
+    },
+    {
+      "sample_id": "clase09_seg0145",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0145.wav",
+      "inicio": 2323.847,
+      "fin": 2334.384,
+      "duracion_seg": 10.537,
+      "gt_original": "A ver. La del torque. Ésta. Ésta, ¿verdad? Ajá. El torque se va a convertir",
+      "gt_normalizado": "a ver la del torque ésta ésta verdad ajá el torque se va a convertir"
+    },
+    {
+      "sample_id": "clase09_seg0146",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0146.wav",
+      "inicio": 2335.285,
+      "fin": 2348.581,
+      "duracion_seg": 13.296,
+      "gt_original": "en qué? En theta. Ajá. Theta del motor es igual a 1 sobre s cuadrado Jm más s",
+      "gt_normalizado": "en qué en theta ajá theta del motor es igual a 1 sobre s cuadrado jm más s"
+    },
+    {
+      "sample_id": "clase09_seg0147",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0147.wav",
+      "inicio": 2350.08,
+      "fin": 2364.585,
+      "duracion_seg": 14.505,
+      "gt_original": "Dm. Perdón que me salió feíto, porque me quedé sin espacio. por Tm de s. ¿Cierto? Demasiado feíto. Me lo voy a volver a escribir. 1 sobre s al",
+      "gt_normalizado": "dm perdón que me salió feíto porque me quedé sin espacio por tm de s cierto demasiado feíto me lo voy a volver a escribir 1 sobre s al"
+    },
+    {
+      "sample_id": "clase09_seg0148",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0148.wav",
+      "inicio": 2365.05,
+      "fin": 2376.51,
+      "duracion_seg": 11.46,
+      "gt_original": "cuadrado Jm más s Dm por torque de motor, ¿están de acuerdo? O sea que aquí tengo que abrir un bloque que diga",
+      "gt_normalizado": "cuadrado jm más s dm por torque de motor están de acuerdo o sea que aquí tengo que abrir un bloque que diga"
+    },
+    {
+      "sample_id": "clase09_seg0149",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0149.wav",
+      "inicio": 2378.85,
+      "fin": 2393.857,
+      "duracion_seg": 15.007,
+      "gt_original": "así, ¿verdad? Le saqué factor común a a esa s que tiene, ¿verdad? Y vamos a mover todo esto más a casito para que me dé",
+      "gt_normalizado": "así verdad le saqué factor común a a esa s que tiene verdad y vamos a mover todo esto más a casito para que me dé"
+    },
+    {
+      "sample_id": "clase09_seg0150",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0150.wav",
+      "inicio": 2409.72,
+      "fin": 2428.981,
+      "duracion_seg": 19.261,
+      "gt_original": "Entonces esto que está aquí es theta m de s. ¿Están de acuerdo, muchachos? Sí. Ahora bien, me quedaron libres unas ecuaciones pero son las que me van a servir para cerrar el lazo, porque fíjense a ver piensen, ¿qué vamos a hacer con las dos que quedaron",
+      "gt_normalizado": "entonces esto que está aquí es theta m de s están de acuerdo muchachos sí ahora bien me quedaron libres unas ecuaciones pero son las que me van a servir para cerrar el lazo porque fíjense a ver piensen qué vamos a hacer con las dos que quedaron"
+    },
+    {
+      "sample_id": "clase09_seg0151",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0151.wav",
+      "inicio": 2429.558,
+      "fin": 2453.461,
+      "duracion_seg": 23.902,
+      "gt_original": "sin vistear? Ahí se puede sacar con theta podemos sacar omega e, o sea podemos dejar en términos de omega s y omega s lo podemos dejar en términos de bb y ahí enlazar esas dos ecuaciones. Correcto, correcto. O sea, si lo queremos ver así como un bloque, ¿verdad? es más, lo puedo dibujar ya hasta como porque, ¿por qué lo dibujo ya como realimentación? porque recuerden que la salida del sistema era theta m, ya llegué a la salida, ¿me explico?",
+      "gt_normalizado": "sin vistear ahí se puede sacar con theta podemos sacar omega e o sea podemos dejar en términos de omega s y omega s lo podemos dejar en términos de bb y ahí enlazar esas dos ecuaciones correcto correcto o sea si lo queremos ver así como un bloque verdad es más lo puedo dibujar ya hasta como porque por qué lo dibujo ya como realimentación porque recuerden que la salida del sistema era theta m ya llegué a la salida me explico"
+    },
+    {
+      "sample_id": "clase09_seg0152",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0152.wav",
+      "inicio": 2454.24,
+      "fin": 2467.633,
+      "duracion_seg": 13.393,
+      "gt_original": "No voy a seguir dibujando para la derecha si esa ya es la salida, ¿no? ¿Sí me explico, ¿no? Entonces digo que este amigo multiplica por s y aquí ya tengo omega m de s, ¿verdad? Y",
+      "gt_normalizado": "no voy a seguir dibujando para la derecha si esa ya es la salida no sí me explico no entonces digo que este amigo multiplica por s y aquí ya tengo omega m de s verdad y"
+    },
+    {
+      "sample_id": "clase09_seg0153",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0153.wav",
+      "inicio": 2468.749,
+      "fin": 2478.76,
+      "duracion_seg": 10.01,
+      "gt_original": "esto multiplica por kb y ahí cierro el lazo, ¿verdad? Y ya tendría bb. ¿Están de acuerdo? Y",
+      "gt_normalizado": "esto multiplica por kb y ahí cierro el lazo verdad y ya tendría bb están de acuerdo y"
+    },
+    {
+      "sample_id": "clase09_seg0154",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0154.wav",
+      "inicio": 2481.69,
+      "fin": 2492.13,
+      "duracion_seg": 10.44,
+      "gt_original": "ya lo hicimos, muchachos. Ya lo hicimos. Ya sacaron su ecuación del motor de corriente continua con control por armadura.",
+      "gt_normalizado": "ya lo hicimos muchachos ya lo hicimos ya sacaron su ecuación del motor de corriente continua con control por armadura"
+    },
+    {
+      "sample_id": "clase09_seg0155",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0155.wav",
+      "inicio": 2498.52,
+      "fin": 2509.56,
+      "duracion_seg": 11.04,
+      "gt_original": "Bueno, puede ser que el ejercicio o la aplicación me pida dibujar el diagrama de bloques, pero realmente, ¿cuál era la pregunta? La pregunta no era el diagrama de bloques. ¿Cuál era la pregunta? Función de transferencia.",
+      "gt_normalizado": "bueno puede ser que el ejercicio o la aplicación me pida dibujar el diagrama de bloques pero realmente cuál era la pregunta la pregunta no era el diagrama de bloques cuál era la pregunta función de transferencia"
+    },
+    {
+      "sample_id": "clase09_seg0156",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0156.wav",
+      "inicio": 2510.272,
+      "fin": 2521.29,
+      "duracion_seg": 11.018,
+      "gt_original": "Pero, ¿ya entendieron por qué vimos eso al principio del, antes de ver los modelos, vimos eso, ¿verdad? ¿Qué aprendimos a hacer? De ahí se puede sacar. Reducir bloques.",
+      "gt_normalizado": "pero ya entendieron por qué vimos eso al principio del antes de ver los modelos vimos eso verdad qué aprendimos a hacer de ahí se puede sacar reducir bloques"
+    },
+    {
+      "sample_id": "clase09_seg0157",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0157.wav",
+      "inicio": 2522.04,
+      "fin": 2541.045,
+      "duracion_seg": 19.005,
+      "gt_original": "Reduciendo bloques podemos sacar la función de transferencia, y en realidad pues esta está sencillo, ¿verdad? Porque no hay mayor cosa, no hay, no hay que mover puntos que eran los feítos, ¿no? Esta es una sola G si se quiere, y esta es una sola H si se quiere. Sí, dígame. Este, al final estamos hablando que la salida sería el theta, pero",
+      "gt_normalizado": "reduciendo bloques podemos sacar la función de transferencia y en realidad pues esta está sencillo verdad porque no hay mayor cosa no hay no hay que mover puntos que eran los feítos no esta es una sola g si se quiere y esta es una sola h si se quiere sí dígame este al final estamos hablando que la salida sería el theta pero"
+    },
+    {
+      "sample_id": "clase09_seg0158",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0158.wav",
+      "inicio": 2541.736,
+      "fin": 2559.63,
+      "duracion_seg": 17.894,
+      "gt_original": "estamos reaccionando el theta con el torque. Entonces, ¿puedo decir que la potencia eléctrica, o sea la potencia del circuito sería la potencia que tendría el motor? Correcto, es que por eso decíamos que no hay pérdidas, ¿no? Asumimos que no hay pérdidas. Toda la potencia eléctrica se tradujo en potencia",
+      "gt_normalizado": "estamos reaccionando el theta con el torque entonces puedo decir que la potencia eléctrica o sea la potencia del circuito sería la potencia que tendría el motor correcto es que por eso decíamos que no hay pérdidas no asumimos que no hay pérdidas toda la potencia eléctrica se tradujo en potencia"
+    },
+    {
+      "sample_id": "clase09_seg0159",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0159.wav",
+      "inicio": 2560.237,
+      "fin": 2572.44,
+      "duracion_seg": 12.203,
+      "gt_original": "mecánica. Ya, gracias. Entonces, muchachos, a ver si podemos hacerlo a de simple vista, a qué es igual theta m de s para ea de s. Eso es un g sobre 1 más gh, ¿sí o no, muchachos?",
+      "gt_normalizado": "mecánica ya gracias entonces muchachos a ver si podemos hacerlo a de simple vista a qué es igual theta m de s para ea de s eso es un g sobre 1 más gh sí o no muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0160",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0160.wav",
+      "inicio": 2574.24,
+      "fin": 2586.418,
+      "duracion_seg": 12.178,
+      "gt_original": "Donde esta es la súper g y esta es la súper h. ¿Sí, están de acuerdo conmigo? Sí. Sí. La súper g sería Kt sobre Ra más s",
+      "gt_normalizado": "donde esta es la súper g y esta es la súper h sí están de acuerdo conmigo sí sí la súper g sería kt sobre ra más s"
+    },
+    {
+      "sample_id": "clase09_seg0161",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0161.wav",
+      "inicio": 2594.1,
+      "fin": 2605.33,
+      "duracion_seg": 11.23,
+      "gt_original": "La por s S Jm más Dm. Esa es la súper g, ¿verdad? Es la cascada de los tres. Por 1 más todo eso igualito que sería S",
+      "gt_normalizado": "la por s s jm más dm esa es la súper g verdad es la cascada de los tres por 1 más todo eso igualito que sería s"
+    },
+    {
+      "sample_id": "clase09_seg0162",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0162.wav",
+      "inicio": 2607.15,
+      "fin": 2624.191,
+      "duracion_seg": 17.041,
+      "gt_original": "por Kb y por Kt sobre ese denominador que es Ra más s La por s s Jm más Dm. Estas s se simplifican, ¿verdad? Y de hecho dense cuenta de que, no lo",
+      "gt_normalizado": "por kb y por kt sobre ese denominador que es ra más s la por s s jm más dm estas s se simplifican verdad y de hecho dense cuenta de que no lo"
+    },
+    {
+      "sample_id": "clase09_seg0163",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0163.wav",
+      "inicio": 2624.551,
+      "fin": 2643.93,
+      "duracion_seg": 19.379,
+      "gt_original": "quería decir al último, pero, ¿qué tal si el ejercicio me hubiera dicho que la salida no era eh theta sino omega m? Si me hubieran dicho que la salida sea omega m, o sea la velocidad, un control de velocidad del motor. Fíjense ustedes que la única diferencia es que hubiéramos eliminado de entrada esta s, ¿no? que es lo que se simplifica, igual se simplifica. ¿Sí me explico?",
+      "gt_normalizado": "quería decir al último pero qué tal si el ejercicio me hubiera dicho que la salida no era eh theta sino omega m si me hubieran dicho que la salida sea omega m o sea la velocidad un control de velocidad del motor fíjense ustedes que la única diferencia es que hubiéramos eliminado de entrada esta s no que es lo que se simplifica igual se simplifica sí me explico"
+    },
+    {
+      "sample_id": "clase09_seg0164",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0164.wav",
+      "inicio": 2644.59,
+      "fin": 2655.444,
+      "duracion_seg": 10.854,
+      "gt_original": "Para que theta se convierta en en omega, hay que multiplicarla por s con lo que haríamos de simplificar lo mismo que ocurrió acá abajo. Entonces, nuestro theta m de s para ea de s",
+      "gt_normalizado": "para que theta se convierta en en omega hay que multiplicarla por s con lo que haríamos de simplificar lo mismo que ocurrió acá abajo entonces nuestro theta m de s para ea de s"
+    },
+    {
+      "sample_id": "clase09_seg0165",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0165.wav",
+      "inicio": 2657.19,
+      "fin": 2669.322,
+      "duracion_seg": 12.132,
+      "gt_original": "es igual a en el denominador S por Ra más s La por s Jm más Dm más Kb por Kt. Y en el numerador",
+      "gt_normalizado": "es igual a en el denominador s por ra más s la por s jm más dm más kb por kt y en el numerador"
+    },
+    {
+      "sample_id": "clase09_seg0166",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0166.wav",
+      "inicio": 2676.0,
+      "fin": 2696.19,
+      "duracion_seg": 20.19,
+      "gt_original": "solamente Kt. ¿Cierto, muchachos? Que si vemos la diapositiva donde se hizo todo lo mismo que yo estoy diciendo eh es esta expresión que está aquí. No sé si la ven, pero es esta expresión que está aquí. Esa es la, la que yo también saqué abajo, ¿sí la ven?",
+      "gt_normalizado": "solamente kt cierto muchachos que si vemos la diapositiva donde se hizo todo lo mismo que yo estoy diciendo eh es esta expresión que está aquí no sé si la ven pero es esta expresión que está aquí esa es la la que yo también saqué abajo sí la ven"
+    },
+    {
+      "sample_id": "clase09_seg0167",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0167.wav",
+      "inicio": 2706.319,
+      "fin": 2717.385,
+      "duracion_seg": 11.067,
+      "gt_original": "Sí, porque lo que pasa es que da lo mismo, ¿no? pero aquí si no la simplifico, no puedo simplificarla y me queda igual por una s acá, ¿no? Entonces este",
+      "gt_normalizado": "sí porque lo que pasa es que da lo mismo no pero aquí si no la simplifico no puedo simplificarla y me queda igual por una s acá no entonces este"
+    },
+    {
+      "sample_id": "clase09_seg0168",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0168.wav",
+      "inicio": 2717.79,
+      "fin": 2731.47,
+      "duracion_seg": 13.68,
+      "gt_original": "también es por s, esa me faltó. Aquí me faltó que es más s por kb y por kt. Yo sé que la puse que la simplificaba, pero después verán ustedes que se hace",
+      "gt_normalizado": "también es por s esa me faltó aquí me faltó que es más s por kb y por kt yo sé que la puse que la simplificaba pero después verán ustedes que se hace"
+    },
+    {
+      "sample_id": "clase09_seg0169",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0169.wav",
+      "inicio": 2732.04,
+      "fin": 2756.611,
+      "duracion_seg": 24.571,
+      "gt_original": "una mega simplificación de denominadores, entonces si ya simplifiqué la s ya no la podía hacer, no sé si me explico, ¿no? Y es por eso que queda esa s grande allí. Y por favor eh, en este ejemplo, muchas veces en algunos ejercicios me dan esas variantes, por ejemplo aquí lo que él me dice es, asuma que esta La es pequeñita, ¿verdad? Si la La es pequeñita pues se puede simplificar a algo como lo que ustedes",
+      "gt_normalizado": "una mega simplificación de denominadores entonces si ya simplifiqué la s ya no la podía hacer no sé si me explico no y es por eso que queda esa s grande allí y por favor eh en este ejemplo muchas veces en algunos ejercicios me dan esas variantes por ejemplo aquí lo que él me dice es asuma que esta la es pequeñita verdad si la la es pequeñita pues se puede simplificar a algo como lo que ustedes"
+    },
+    {
+      "sample_id": "clase09_seg0170",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0170.wav",
+      "inicio": 2756.611,
+      "fin": 2767.693,
+      "duracion_seg": 11.082,
+      "gt_original": "están viendo allí. Vamos a hacerlo porque es importante para lo que sigue. Si la",
+      "gt_normalizado": "están viendo allí vamos a hacerlo porque es importante para lo que sigue si la"
+    },
+    {
+      "sample_id": "clase09_seg0171",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0171.wav",
+      "inicio": 2769.199,
+      "fin": 2780.67,
+      "duracion_seg": 11.471,
+      "gt_original": "impedancia, si la inductancia es mucho menor que Ra, ¿verdad? Eh, nos va a quedar que theta m de s, a ver, pero, no aclarar que esta es la solución",
+      "gt_normalizado": "impedancia si la inductancia es mucho menor que ra verdad eh nos va a quedar que theta m de s a ver pero no aclarar que esta es la solución"
+    },
+    {
+      "sample_id": "clase09_seg0172",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0172.wav",
+      "inicio": 2781.27,
+      "fin": 2792.884,
+      "duracion_seg": 11.614,
+      "gt_original": "completa, ¿no muchachos? Esta es la solución completa. Pero esta simplificación, theta m por ea de s, es igual a vamos a hacer la matemática,",
+      "gt_normalizado": "completa no muchachos esta es la solución completa pero esta simplificación theta m por ea de s es igual a vamos a hacer la matemática"
+    },
+    {
+      "sample_id": "clase09_seg0173",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0173.wav",
+      "inicio": 2793.877,
+      "fin": 2804.89,
+      "duracion_seg": 11.013,
+      "gt_original": "Kt por S Ra por S Jm más Dm",
+      "gt_normalizado": "kt por s ra por s jm más dm"
+    },
+    {
+      "sample_id": "clase09_seg0174",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0174.wav",
+      "inicio": 2806.5,
+      "fin": 2824.525,
+      "duracion_seg": 18.025,
+      "gt_original": "más S Kb Kt. Vamos a poner a todas las S juntas, esto es S al cuadrado Ra Jm más S que multiplica a Ra Dm más Kb Kt",
+      "gt_normalizado": "más s kb kt vamos a poner a todas las s juntas esto es s al cuadrado ra jm más s que multiplica a ra dm más kb kt"
+    },
+    {
+      "sample_id": "clase09_seg0175",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0175.wav",
+      "inicio": 2832.9,
+      "fin": 2843.5,
+      "duracion_seg": 10.6,
+      "gt_original": "sobre Kt. ¿Cierto? Y si lo que queremos es eh dejar al término que está allí junto, lo que tenemos que hacer es dividir,",
+      "gt_normalizado": "sobre kt cierto y si lo que queremos es eh dejar al término que está allí junto lo que tenemos que hacer es dividir"
+    },
+    {
+      "sample_id": "clase09_seg0176",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0176.wav",
+      "inicio": 2844.87,
+      "fin": 2854.968,
+      "duracion_seg": 10.098,
+      "gt_original": "dividir para Ra Jm a ambos términos. Divido para Ra Jm y divido para Ra Jm.",
+      "gt_normalizado": "dividir para ra jm a ambos términos divido para ra jm y divido para ra jm"
+    },
+    {
+      "sample_id": "clase09_seg0177",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0177.wav",
+      "inicio": 2857.08,
+      "fin": 2876.338,
+      "duracion_seg": 19.258,
+      "gt_original": "Sí, si yo hago eso esto es igual a en el denominador, en el numerador es Kt sobre Ra Jm, en el denominador es s al cuadrado más s por 1 sobre Ra Jm Ra",
+      "gt_normalizado": "sí si yo hago eso esto es igual a en el denominador en el numerador es kt sobre ra jm en el denominador es s al cuadrado más s por 1 sobre ra jm ra"
+    },
+    {
+      "sample_id": "clase09_seg0178",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0178.wav",
+      "inicio": 2881.62,
+      "fin": 2894.213,
+      "duracion_seg": 12.593,
+      "gt_original": "Dm más Kb Kt. ¿Cierto? Y con la última simplificación que ya me toca llevármela para el otro lado. Entonces",
+      "gt_normalizado": "dm más kb kt cierto y con la última simplificación que ya me toca llevármela para el otro lado entonces"
+    },
+    {
+      "sample_id": "clase09_seg0179",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0179.wav",
+      "inicio": 2902.416,
+      "fin": 2912.609,
+      "duracion_seg": 10.192,
+      "gt_original": "podemos decir que theta m de s sobre ea de s es igual a Kt sobre Ra Jm y acá sacando",
+      "gt_normalizado": "podemos decir que theta m de s sobre ea de s es igual a kt sobre ra jm y acá sacando"
+    },
+    {
+      "sample_id": "clase09_seg0180",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0180.wav",
+      "inicio": 2918.403,
+      "fin": 2931.697,
+      "duracion_seg": 13.294,
+      "gt_original": "factor común s que multiplica a s más podemos decir para sacar el factor común aquí que es 1 sobre Jm, es decir, meter el Ra",
+      "gt_normalizado": "factor común s que multiplica a s más podemos decir para sacar el factor común aquí que es 1 sobre jm es decir meter el ra"
+    },
+    {
+      "sample_id": "clase09_seg0181",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0181.wav",
+      "inicio": 2932.86,
+      "fin": 2945.03,
+      "duracion_seg": 12.17,
+      "gt_original": "allí, ¿verdad? Si meto el Ra allí se simplifica, con lo que me quedaría solo Dm. Y acá no se me simplifica, por lo tanto lo tengo que dejar ahí Kb Kt Ra.",
+      "gt_normalizado": "allí verdad si meto el ra allí se simplifica con lo que me quedaría solo dm y acá no se me simplifica por lo tanto lo tengo que dejar ahí kb kt ra"
+    },
+    {
+      "sample_id": "clase09_seg0182",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0182.wav",
+      "inicio": 2952.24,
+      "fin": 2954.617,
+      "duracion_seg": 2.377,
+      "gt_original": "Déjenme ver qué pasa. Nadie me",
+      "gt_normalizado": "déjenme ver qué pasa nadie me"
+    },
+    {
+      "sample_id": "clase09_seg0183",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0183.wav",
+      "inicio": 2963.792,
+      "fin": 2964.648,
+      "duracion_seg": 0.856,
+      "gt_original": "habló. Eh. Ya,",
+      "gt_normalizado": "habló eh ya"
+    },
+    {
+      "sample_id": "clase09_seg0184",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0184.wav",
+      "inicio": 2972.97,
+      "fin": 2984.76,
+      "duracion_seg": 11.79,
+      "gt_original": "entonces, esa es mi ecuación, que esta es solo válida si el Ra es despreciable. Ahí también está el diagrama de bloques del del sistema. Ustedes van a ver que hay una pequeña diferencia y que, y que luego le va,",
+      "gt_normalizado": "entonces esa es mi ecuación que esta es solo válida si el ra es despreciable ahí también está el diagrama de bloques del del sistema ustedes van a ver que hay una pequeña diferencia y que y que luego le va"
+    },
+    {
+      "sample_id": "clase09_seg0185",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0185.wav",
+      "inicio": 2985.172,
+      "fin": 2998.826,
+      "duracion_seg": 13.654,
+      "gt_original": "va a hacer sentido, les voy a traer este ejemplo, porque, como vamos a hablar más adelante, no tiene sentido físico que pongamos un bloque con, ya lo dije la otra vez, con, con más, con letras s en el numerador, más eses en el numerador que en el denominador.",
+      "gt_normalizado": "va a hacer sentido les voy a traer este ejemplo porque como vamos a hablar más adelante no tiene sentido físico que pongamos un bloque con ya lo dije la otra vez con con más con letras s en el numerador más eses en el numerador que en el denominador"
+    },
+    {
+      "sample_id": "clase09_seg0186",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0186.wav",
+      "inicio": 2999.352,
+      "fin": 3009.6,
+      "duracion_seg": 10.248,
+      "gt_original": "Siempre el de, número de polos debe ser mayor que el número de ceros, pero eso lo vamos a hablar más adelante en detalle. Preguntas, muchachos. Preguntas.",
+      "gt_normalizado": "siempre el de número de polos debe ser mayor que el número de ceros pero eso lo vamos a hablar más adelante en detalle preguntas muchachos preguntas"
+    },
+    {
+      "sample_id": "clase09_seg0187",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0187.wav",
+      "inicio": 3015.93,
+      "fin": 3040.17,
+      "duracion_seg": 24.24,
+      "gt_original": "Preguntas hasta allí. Si estamos en un ejercicio similar, ¿cómo, o sea, siempre que, si este ejercicio tuviera valores, podemos hacer siempre esa aproximación de que si La es mucho menor a Ra llegamos a esa respuesta o ya con la respuesta inicial es suficiente? Aquí, un ejemplo el que vamos a hacer ya mismito, por ejemplo yo ya le digo que ya no le pongo a la La, o sea en ejercicios de papel hay que decirle pues, ¿no? Yo le tengo que decir. ¿Sí me explico?",
+      "gt_normalizado": "preguntas hasta allí si estamos en un ejercicio similar cómo o sea siempre que si este ejercicio tuviera valores podemos hacer siempre esa aproximación de que si la es mucho menor a ra llegamos a esa respuesta o ya con la respuesta inicial es suficiente aquí un ejemplo el que vamos a hacer ya mismito por ejemplo yo ya le digo que ya no le pongo a la la o sea en ejercicios de papel hay que decirle pues no yo le tengo que decir sí me explico"
+    },
+    {
+      "sample_id": "clase09_seg0188",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0188.wav",
+      "inicio": 3045.81,
+      "fin": 3057.444,
+      "duracion_seg": 11.634,
+      "gt_original": "Cuando hacer o no esa asunción. Pero por lo general es justamente la hacemos también para facilitar la determinación de constantes, que es el siguiente tema, ¿no?",
+      "gt_normalizado": "cuando hacer o no esa asunción pero por lo general es justamente la hacemos también para facilitar la determinación de constantes que es el siguiente tema no"
+    },
+    {
+      "sample_id": "clase09_seg0189",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0189.wav",
+      "inicio": 3061.38,
+      "fin": 3083.234,
+      "duracion_seg": 21.854,
+      "gt_original": "Muchachos, yo no he hecho aquí el control por campo. Pero, pero en realidad el control por campo es más simple porque ya no considero a la fuerza contraelectromotriz, y ya no tengo el ramal, o sea, es un solo lazo abierto, ya no hay la h, digamos así, solamente hay g y no hay h. Y y de allí pues el procedimiento es exactamente el mismo,",
+      "gt_normalizado": "muchachos yo no he hecho aquí el control por campo pero pero en realidad el control por campo es más simple porque ya no considero a la fuerza contraelectromotriz y ya no tengo el ramal o sea es un solo lazo abierto ya no hay la h digamos así solamente hay g y no hay h y y de allí pues el procedimiento es exactamente el mismo"
+    },
+    {
+      "sample_id": "clase09_seg0190",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0190.wav",
+      "inicio": 3083.589,
+      "fin": 3103.075,
+      "duracion_seg": 19.486,
+      "gt_original": "¿no? Es es más sencillo el control por campo. Por favor, eso de seguro hay un ejercicio en el deber que les pide control por campo, también en el libro guía, que es el libro de Dorf, está tanto el control por armadura que acabo de hacer como el control por campo, si llegasen a tener la necesidad de algo que no entiendan, pero les digo, la verdad es que es súper intuitivo. ¿Qué es esto de la",
+      "gt_normalizado": "no es es más sencillo el control por campo por favor eso de seguro hay un ejercicio en el deber que les pide control por campo también en el libro guía que es el libro de dorf está tanto el control por armadura que acabo de hacer como el control por campo si llegasen a tener la necesidad de algo que no entiendan pero les digo la verdad es que es súper intuitivo qué es esto de la"
+    },
+    {
+      "sample_id": "clase09_seg0191",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0191.wav",
+      "inicio": 3103.83,
+      "fin": 3115.618,
+      "duracion_seg": 11.788,
+      "gt_original": "determinación de constantes? Bueno, eh, muchas veces eh, estas constantes que que estamos manejando aquí, por ejemplo, miren el diagrama de bloques, Kb, Kt, la misma Ra,",
+      "gt_normalizado": "determinación de constantes bueno eh muchas veces eh estas constantes que que estamos manejando aquí por ejemplo miren el diagrama de bloques kb kt la misma ra"
+    },
+    {
+      "sample_id": "clase09_seg0192",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0192.wav",
+      "inicio": 3116.34,
+      "fin": 3129.301,
+      "duracion_seg": 12.961,
+      "gt_original": "son difíciles de medir eh o de determinar, ¿verdad? Cuando uno tiene un motor real, ¿cierto? Eh, muchas de ellas requerirán pruebas",
+      "gt_normalizado": "son difíciles de medir eh o de determinar verdad cuando uno tiene un motor real cierto eh muchas de ellas requerirán pruebas"
+    },
+    {
+      "sample_id": "clase09_seg0193",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0193.wav",
+      "inicio": 3129.985,
+      "fin": 3153.3,
+      "duracion_seg": 23.315,
+      "gt_original": "de laboratorio. Entonces, lo que les voy a enseñar aquí es un pequeño método para encontrar en forma experimental las constantes que necesitamos para trabajar con el motor. Eh el método que se va a utilizar es el denominado, la denominada prueba prueba del dinamómetro. ¿Para qué sirve un dinamómetro, muchachos?",
+      "gt_normalizado": "de laboratorio entonces lo que les voy a enseñar aquí es un pequeño método para encontrar en forma experimental las constantes que necesitamos para trabajar con el motor eh el método que se va a utilizar es el denominado la denominada prueba prueba del dinamómetro para qué sirve un dinamómetro muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0194",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0194.wav",
+      "inicio": 3160.53,
+      "fin": 3175.268,
+      "duracion_seg": 14.738,
+      "gt_original": "¿Para qué sirve un dinamómetro? Eh, creo que transforma energía mecánica en energía eléctrica. Sí, y lo que hacemos con el dinamómetro mediante eso es medir, ¿verdad? Muchas veces. Por ejemplo, ¿un tacómetro qué es un tacómetro?",
+      "gt_normalizado": "para qué sirve un dinamómetro eh creo que transforma energía mecánica en energía eléctrica sí y lo que hacemos con el dinamómetro mediante eso es medir verdad muchas veces por ejemplo un tacómetro qué es un tacómetro"
+    },
+    {
+      "sample_id": "clase09_seg0195",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0195.wav",
+      "inicio": 3178.77,
+      "fin": 3190.53,
+      "duracion_seg": 11.76,
+      "gt_original": "Mide la velocidad. Es un medidor de velocidad del motor, ¿verdad? Nos va a permitir medir la velocidad de un motor y el dinamómetro adicionalmente nos va a permitir medir el torque, ¿verdad?",
+      "gt_normalizado": "mide la velocidad es un medidor de velocidad del motor verdad nos va a permitir medir la velocidad de un motor y el dinamómetro adicionalmente nos va a permitir medir el torque verdad"
+    },
+    {
+      "sample_id": "clase09_seg0196",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0196.wav",
+      "inicio": 3194.31,
+      "fin": 3205.954,
+      "duracion_seg": 11.644,
+      "gt_original": "Entonces, lo que nosotros vamos a hacer es una especie de prueba del motor, ¿verdad? Para poder establecer eh, para poder establecer esas constantes.",
+      "gt_normalizado": "entonces lo que nosotros vamos a hacer es una especie de prueba del motor verdad para poder establecer eh para poder establecer esas constantes"
+    },
+    {
+      "sample_id": "clase09_seg0197",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0197.wav",
+      "inicio": 3206.37,
+      "fin": 3221.925,
+      "duracion_seg": 15.555,
+      "gt_original": "Entonces muchachos eh, volvamos al al al circuito de campo que que planteamos originalmente, me voy a quedar sólo con el circuito de campo. Y de una vez ya en el mundo... esto era",
+      "gt_normalizado": "entonces muchachos eh volvamos al al al circuito de campo que que planteamos originalmente me voy a quedar sólo con el circuito de campo y de una vez ya en el mundo esto era"
+    },
+    {
+      "sample_id": "clase09_seg0198",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0198.wav",
+      "inicio": 3232.26,
+      "fin": 3247.547,
+      "duracion_seg": 15.287,
+      "gt_original": "ea de s, esto es La, esto es Vb de s y esto es ia de s, ¿verdad? Nosotros habíamos dicho, ya lo dijimos varias veces, que Ra, que Ea de s es",
+      "gt_normalizado": "ea de s esto es la esto es vb de s y esto es ia de s verdad nosotros habíamos dicho ya lo dijimos varias veces que ra que ea de s es"
+    },
+    {
+      "sample_id": "clase09_seg0199",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0199.wav",
+      "inicio": 3255.783,
+      "fin": 3269.341,
+      "duracion_seg": 13.558,
+      "gt_original": "igual a ia de s por Ra más s La más Vb de s, ¿verdad? Otra vez vamos a asumir que La es",
+      "gt_normalizado": "igual a ia de s por ra más s la más vb de s verdad otra vez vamos a asumir que la es"
+    },
+    {
+      "sample_id": "clase09_seg0200",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0200.wav",
+      "inicio": 3271.02,
+      "fin": 3281.52,
+      "duracion_seg": 10.5,
+      "gt_original": "muy pequeño comparado con la resistencia para eliminar este término, ¿no? Y lo que sí vamos a hacer de una vez es eh colocar las dos ecuaciones que también conocemos,",
+      "gt_normalizado": "muy pequeño comparado con la resistencia para eliminar este término no y lo que sí vamos a hacer de una vez es eh colocar las dos ecuaciones que también conocemos"
+    },
+    {
+      "sample_id": "clase09_seg0201",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0201.wav",
+      "inicio": 3282.0,
+      "fin": 3293.601,
+      "duracion_seg": 11.601,
+      "gt_original": "la que dice que la fuerza contraelectromotriz es igual a Kb por omega m de s y que el",
+      "gt_normalizado": "la que dice que la fuerza contraelectromotriz es igual a kb por omega m de s y que el"
+    },
+    {
+      "sample_id": "clase09_seg0202",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0202.wav",
+      "inicio": 3294.84,
+      "fin": 3315.914,
+      "duracion_seg": 21.074,
+      "gt_original": "torque del motor es igual a Kt por ia de s. Entonces, en esta pequeña representación, que me la toca, me llevo esto para el otro lado. En esta pequeña representación matemática, En esta",
+      "gt_normalizado": "torque del motor es igual a kt por ia de s entonces en esta pequeña representación que me la toca me llevo esto para el otro lado en esta pequeña representación matemática en esta"
+    },
+    {
+      "sample_id": "clase09_seg0203",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0203.wav",
+      "inicio": 3323.041,
+      "fin": 3341.71,
+      "duracion_seg": 18.669,
+      "gt_original": "pequeña representación matemática, muchachos, me toca decir que ea de s es igual a en vez de ia vamos a decir que es torque del motor de s sobre Kt",
+      "gt_normalizado": "pequeña representación matemática muchachos me toca decir que ea de s es igual a en vez de ia vamos a decir que es torque del motor de s sobre kt"
+    },
+    {
+      "sample_id": "clase09_seg0204",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0204.wav",
+      "inicio": 3348.9,
+      "fin": 3359.348,
+      "duracion_seg": 10.448,
+      "gt_original": "por Ra y en vez de bb vamos a decir que es Kb por omega de s. O sea, reemplazo es esta ecuación, estas dos valores los reemplazamos en la ecuación",
+      "gt_normalizado": "por ra y en vez de bb vamos a decir que es kb por omega de s o sea reemplazo es esta ecuación estas dos valores los reemplazamos en la ecuación"
+    },
+    {
+      "sample_id": "clase09_seg0205",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0205.wav",
+      "inicio": 3360.105,
+      "fin": 3370.644,
+      "duracion_seg": 10.54,
+      "gt_original": "de arriba, ¿verdad muchachos? Reordenando la ecuación me queda que Ra sobre Kt por tm de s",
+      "gt_normalizado": "de arriba verdad muchachos reordenando la ecuación me queda que ra sobre kt por tm de s"
+    },
+    {
+      "sample_id": "clase09_seg0206",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0206.wav",
+      "inicio": 3372.45,
+      "fin": 3382.74,
+      "duracion_seg": 10.29,
+      "gt_original": "más Kb por omega m de s es igual a ea de s. Y sacando la antitransformada de Laplace, o sea, si me la llevo en el tiempo,",
+      "gt_normalizado": "más kb por omega m de s es igual a ea de s y sacando la antitransformada de laplace o sea si me la llevo en el tiempo"
+    },
+    {
+      "sample_id": "clase09_seg0207",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0207.wav",
+      "inicio": 3383.67,
+      "fin": 3400.51,
+      "duracion_seg": 16.84,
+      "gt_original": "no tengo problema porque no tengo derivadas aquí, ¿verdad muchachos? No tengo ningún problema. Como no tengo derivadas, esta que está aquí",
+      "gt_normalizado": "no tengo problema porque no tengo derivadas aquí verdad muchachos no tengo ningún problema como no tengo derivadas esta que está aquí"
+    },
+    {
+      "sample_id": "clase09_seg0208",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0208.wav",
+      "inicio": 3400.945,
+      "fin": 3415.954,
+      "duracion_seg": 15.009,
+      "gt_original": "es una ecuación lineal. Sí, muchachos. Y esa ecuación lineal, esto lo han hecho ustedes un millón veces en ingeniería, ¿verdad? Yo la puedo graficar en un",
+      "gt_normalizado": "es una ecuación lineal sí muchachos y esa ecuación lineal esto lo han hecho ustedes un millón veces en ingeniería verdad yo la puedo graficar en un"
+    },
+    {
+      "sample_id": "clase09_seg0209",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0209.wav",
+      "inicio": 3416.61,
+      "fin": 3428.68,
+      "duracion_seg": 12.07,
+      "gt_original": "plano donde yo tenga omega del motor versus el torque del motor. Y yo les digo, muchachos, que esa ecuación corresponde a",
+      "gt_normalizado": "plano donde yo tenga omega del motor versus el torque del motor y yo les digo muchachos que esa ecuación corresponde a"
+    },
+    {
+      "sample_id": "clase09_seg0210",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0210.wav",
+      "inicio": 3430.02,
+      "fin": 3446.236,
+      "duracion_seg": 16.216,
+      "gt_original": "diferentes líneas rectas para diferentes valores de ea. Por ejemplo, para un ea1 y para un ea2. Son lineales, ¿verdad? ¿Por qué lineales? Porque esto es una constante y esto es una constante, ¿sí me explico?",
+      "gt_normalizado": "diferentes líneas rectas para diferentes valores de ea por ejemplo para un ea1 y para un ea2 son lineales verdad por qué lineales porque esto es una constante y esto es una constante sí me explico"
+    },
+    {
+      "sample_id": "clase09_seg0211",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0211.wav",
+      "inicio": 3446.708,
+      "fin": 3457.29,
+      "duracion_seg": 10.582,
+      "gt_original": "Claro, y vamos a asumir también a ea constante, o sea, vamos a hacer una línea para cada uno de ellos. Ya pues, aquí depende de la matemática que usted le quiera dar, pero esto en en matemáticas lo hicieron mil veces, muchachos.",
+      "gt_normalizado": "claro y vamos a asumir también a ea constante o sea vamos a hacer una línea para cada uno de ellos ya pues aquí depende de la matemática que usted le quiera dar pero esto en en matemáticas lo hicieron mil veces muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0212",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0212.wav",
+      "inicio": 3457.879,
+      "fin": 3468.892,
+      "duracion_seg": 11.013,
+      "gt_original": "T torque del motor, entonces es igual a... Kb por, bueno esto sería",
+      "gt_normalizado": "t torque del motor entonces es igual a kb por bueno esto sería"
+    },
+    {
+      "sample_id": "clase09_seg0213",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0213.wav",
+      "inicio": 3478.17,
+      "fin": 3485.35,
+      "duracion_seg": 7.18,
+      "gt_original": "negativo, ¿no? Más ea de t por Kt sobre Ra.",
+      "gt_normalizado": "negativo no más ea de t por kt sobre ra"
+    },
+    {
+      "sample_id": "clase09_seg0214",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0214.wav",
+      "inicio": 3493.47,
+      "fin": 3509.018,
+      "duracion_seg": 15.548,
+      "gt_original": "Muchachos, esto lo hicimos mil veces en matemáticas. ¿Se acuerdan que hacíamos una tablita, que decíamos omega m versus tm? Si omega m es cero, ¿a qué es igual tm, muchachos? ¿Se acuerdan de matemáticas? A Kt sobre Ra. Si",
+      "gt_normalizado": "muchachos esto lo hicimos mil veces en matemáticas se acuerdan que hacíamos una tablita que decíamos omega m versus tm si omega m es cero a qué es igual tm muchachos se acuerdan de matemáticas a kt sobre ra si"
+    },
+    {
+      "sample_id": "clase09_seg0215",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0215.wav",
+      "inicio": 3515.52,
+      "fin": 3528.91,
+      "duracion_seg": 13.39,
+      "gt_original": "omega m es cero, desaparece este término, ¿verdad? Entonces el torque del motor es Kt por Ra. Kt sobre Ra, ¿verdad? ¿Sí,",
+      "gt_normalizado": "omega m es cero desaparece este término verdad entonces el torque del motor es kt por ra kt sobre ra verdad sí"
+    },
+    {
+      "sample_id": "clase09_seg0216",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0216.wav",
+      "inicio": 3529.559,
+      "fin": 3541.877,
+      "duracion_seg": 12.318,
+      "gt_original": "muchachos? Por Ea, ¿cierto? ¿Y qué pasa si, en cambio, yo digo ahora que tm es cero? ¿A qué es igual omega",
+      "gt_normalizado": "muchachos por ea cierto y qué pasa si en cambio yo digo ahora que tm es cero a qué es igual omega"
+    },
+    {
+      "sample_id": "clase09_seg0217",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0217.wav",
+      "inicio": 3542.76,
+      "fin": 3556.051,
+      "duracion_seg": 13.291,
+      "gt_original": "m, muchachos, si tm es cero? Bueno, se despeja esa cuestión y sería igual Kt con Kt, Ra con Ra se van. Si Ea es igual a cero, perdón, si tm es igual a cero, eh,",
+      "gt_normalizado": "m muchachos si tm es cero bueno se despeja esa cuestión y sería igual kt con kt ra con ra se van si ea es igual a cero perdón si tm es igual a cero eh"
+    },
+    {
+      "sample_id": "clase09_seg0218",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0218.wav",
+      "inicio": 3557.1,
+      "fin": 3573.345,
+      "duracion_seg": 16.245,
+      "gt_original": "simplemente es Kb, ¿no? Omega es igual a Ea sobre Kb. Sí, porque lo que yo haría es eliminar esta",
+      "gt_normalizado": "simplemente es kb no omega es igual a ea sobre kb sí porque lo que yo haría es eliminar esta"
+    },
+    {
+      "sample_id": "clase09_seg0219",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0219.wav",
+      "inicio": 3574.17,
+      "fin": 3589.654,
+      "duracion_seg": 15.484,
+      "gt_original": "ecuación, elimino él con él, él con él, y omega m es Ea sobre Kb. ¿Sí, muchachos? Entonces, ¿qué quiere decir? Que estos son los puntos, ¿verdad? ¿Sí me explico, muchachos, no? Este es el",
+      "gt_normalizado": "ecuación elimino él con él él con él y omega m es ea sobre kb sí muchachos entonces qué quiere decir que estos son los puntos verdad sí me explico muchachos no este es el"
+    },
+    {
+      "sample_id": "clase09_seg0220",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0220.wav",
+      "inicio": 3590.107,
+      "fin": 3604.486,
+      "duracion_seg": 14.379,
+      "gt_original": "punto cuando tm es cero, que sería igual a Kt sobre Ra por Ea, Ea2 en este caso, ¿no? Y este sería el punto cuando omega m es, a ver, es al revés,",
+      "gt_normalizado": "punto cuando tm es cero que sería igual a kt sobre ra por ea ea2 en este caso no y este sería el punto cuando omega m es a ver es al revés"
+    },
+    {
+      "sample_id": "clase09_seg0221",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0221.wav",
+      "inicio": 3605.014,
+      "fin": 3619.44,
+      "duracion_seg": 14.426,
+      "gt_original": "¿no? Éste es el punto cuando omega m es cero, cuando omega m es cero ese es el valor del torque del motor, ¿verdad? Y en cambio, cuando torque del motor es cero esto es",
+      "gt_normalizado": "no éste es el punto cuando omega m es cero cuando omega m es cero ese es el valor del torque del motor verdad y en cambio cuando torque del motor es cero esto es"
+    },
+    {
+      "sample_id": "clase09_seg0222",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0222.wav",
+      "inicio": 3620.52,
+      "fin": 3632.901,
+      "duracion_seg": 12.381,
+      "gt_original": "ea sobre kb. Ahora, muchachos, ese valor que está allí, miren ustedes, ¿qué significa que el torque sea cero? Que el",
+      "gt_normalizado": "ea sobre kb ahora muchachos ese valor que está allí miren ustedes qué significa que el torque sea cero que el"
+    },
+    {
+      "sample_id": "clase09_seg0223",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0223.wav",
+      "inicio": 3636.66,
+      "fin": 3645.966,
+      "duracion_seg": 9.306,
+      "gt_original": "torque del motor sea cero, o sea, este punto, ¿no? Torque de motor cero. Que el",
+      "gt_normalizado": "torque del motor sea cero o sea este punto no torque de motor cero que el"
+    },
+    {
+      "sample_id": "clase09_seg0224",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0224.wav",
+      "inicio": 3650.97,
+      "fin": 3654.31,
+      "duracion_seg": 3.34,
+      "gt_original": "motor está apagado. No. Está trabado.",
+      "gt_normalizado": "motor está apagado no está trabado"
+    },
+    {
+      "sample_id": "clase09_seg0225",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0225.wav",
+      "inicio": 3659.79,
+      "fin": 3683.532,
+      "duracion_seg": 23.742,
+      "gt_original": "Pero no, pues no está trabado porque la velocidad es máxima. Si te das cuenta, mira el diagrama, el plano. El torque es cero pero ¿qué le pasa a la velocidad? Sí lo ven en este punto, ¿qué le pasa a la velocidad angular? Es máxima. Es máxima, pero el torque es cero, muchachos. Ésta es la condición que nosotros",
+      "gt_normalizado": "pero no pues no está trabado porque la velocidad es máxima si te das cuenta mira el diagrama el plano el torque es cero pero qué le pasa a la velocidad sí lo ven en este punto qué le pasa a la velocidad angular es máxima es máxima pero el torque es cero muchachos ésta es la condición que nosotros"
+    },
+    {
+      "sample_id": "clase09_seg0226",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0226.wav",
+      "inicio": 3691.98,
+      "fin": 3705.42,
+      "duracion_seg": 13.44,
+      "gt_original": "decimos sin carga. ¿Qué pasa cuando tenemos un motor al vacío? que gira, que gira. El motor gira a su máxima velocidad, ¿cierto? Y no hay torque, porque no hay carga que absorba ese torque, dicho de otra forma. Entonces esa es la condición",
+      "gt_normalizado": "decimos sin carga qué pasa cuando tenemos un motor al vacío que gira que gira el motor gira a su máxima velocidad cierto y no hay torque porque no hay carga que absorba ese torque dicho de otra forma entonces esa es la condición"
+    },
+    {
+      "sample_id": "clase09_seg0227",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0227.wav",
+      "inicio": 3706.012,
+      "fin": 3718.489,
+      "duracion_seg": 12.477,
+      "gt_original": "de carga. En cambio, en el otro caso es lo contrario, ¿verdad? Es lo que ustedes decían, está como que trabado, él está dando el máximo de fuerza, ¿verdad? Él está dando lo más que puede, pero no logra ¿qué? No logra",
+      "gt_normalizado": "de carga en cambio en el otro caso es lo contrario verdad es lo que ustedes decían está como que trabado él está dando el máximo de fuerza verdad él está dando lo más que puede pero no logra qué no logra"
+    },
+    {
+      "sample_id": "clase09_seg0228",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0228.wav",
+      "inicio": 3720.54,
+      "fin": 3740.141,
+      "duracion_seg": 19.601,
+      "gt_original": "girar. No logra girar, ¿verdad? Ese es el par máximo o trabado, como ustedes lo decían. Entonces, muchachos, me llevo este dibujito para aquí, me llevo este dibujito para aquí, De estos",
+      "gt_normalizado": "girar no logra girar verdad ese es el par máximo o trabado como ustedes lo decían entonces muchachos me llevo este dibujito para aquí me llevo este dibujito para aquí de estos"
+    },
+    {
+      "sample_id": "clase09_seg0229",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0229.wav",
+      "inicio": 3745.38,
+      "fin": 3755.49,
+      "duracion_seg": 10.11,
+      "gt_original": "dibujitos se llega a la conclusión de estas dos ecuaciones que están allí. La división de las constantes Kt sobre Ra es igual al torque par máximo",
+      "gt_normalizado": "dibujitos se llega a la conclusión de estas dos ecuaciones que están allí la división de las constantes kt sobre ra es igual al torque par máximo"
+    },
+    {
+      "sample_id": "clase09_seg0230",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0230.wav",
+      "inicio": 3757.17,
+      "fin": 3767.94,
+      "duracion_seg": 10.77,
+      "gt_original": "dividido para Ea, es decir es un despeje, estoy diciendo que aquí está el torque del par máximo, ¿verdad? ¿Sí me explico? Y en cambio",
+      "gt_normalizado": "dividido para ea es decir es un despeje estoy diciendo que aquí está el torque del par máximo verdad sí me explico y en cambio"
+    },
+    {
+      "sample_id": "clase09_seg0231",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0231.wav",
+      "inicio": 3768.3,
+      "fin": 3779.595,
+      "duracion_seg": 11.295,
+      "gt_original": "la otra constante, que es Kb, es igual a Ea sobre la velocidad del motor sin carga. O sea, aquí está",
+      "gt_normalizado": "la otra constante que es kb es igual a ea sobre la velocidad del motor sin carga o sea aquí está"
+    },
+    {
+      "sample_id": "clase09_seg0232",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0232.wav",
+      "inicio": 3782.1,
+      "fin": 3793.74,
+      "duracion_seg": 11.64,
+      "gt_original": "la omega sin carga. Muchachos, con estas curvas que pueden ser sacadas experimentalmente con la prueba del dinamómetro podemos encontrar experimentalmente",
+      "gt_normalizado": "la omega sin carga muchachos con estas curvas que pueden ser sacadas experimentalmente con la prueba del dinamómetro podemos encontrar experimentalmente"
+    },
+    {
+      "sample_id": "clase09_seg0233",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0233.wav",
+      "inicio": 3795.09,
+      "fin": 3814.138,
+      "duracion_seg": 19.048,
+      "gt_original": "las constantes del motor. Preguntas, muchachos. Preguntas. Esta parte para mí es importante porque yo la puedo repetir como cacharraco loco, pero necesito que la entienda. A ver, quiero que alguien",
+      "gt_normalizado": "las constantes del motor preguntas muchachos preguntas esta parte para mí es importante porque yo la puedo repetir como cacharraco loco pero necesito que la entienda a ver quiero que alguien"
+    },
+    {
+      "sample_id": "clase09_seg0234",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0234.wav",
+      "inicio": 3814.717,
+      "fin": 3828.33,
+      "duracion_seg": 13.613,
+      "gt_original": "me explique por qué esta que voy a resaltar es la llamada condición sin carga. ¿Por qué? ¿Por qué? Porque no hay oposición al giro del motor, no hay una carga.",
+      "gt_normalizado": "me explique por qué esta que voy a resaltar es la llamada condición sin carga por qué por qué porque no hay oposición al giro del motor no hay una carga"
+    },
+    {
+      "sample_id": "clase09_seg0235",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0235.wav",
+      "inicio": 3829.17,
+      "fin": 3844.29,
+      "duracion_seg": 15.12,
+      "gt_original": "No hay torque que vencer, estamos al aire libre, es un motor encendido, es cuando ustedes encienden el motor y prrrr tira su máxima velocidad, no tiene torque que vencer, no hay carga, la velocidad es máxima, es la máxima velocidad posible. Y la corriente es la mínima.",
+      "gt_normalizado": "no hay torque que vencer estamos al aire libre es un motor encendido es cuando ustedes encienden el motor y prrrr tira su máxima velocidad no tiene torque que vencer no hay carga la velocidad es máxima es la máxima velocidad posible y la corriente es la mínima"
+    },
+    {
+      "sample_id": "clase09_seg0236",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0236.wav",
+      "inicio": 3845.07,
+      "fin": 3859.168,
+      "duracion_seg": 14.098,
+      "gt_original": "Correcto, ¿y qué pasa si le ponemos, claro, porque el torque va directo con la corriente, ya lo vimos, ¿no? Torque va directamente relacionado con la corriente, cierto. ¿Y qué pasa si le comenzamos a poner una carga y le comienza a costar más al motor moverla? La velocidad",
+      "gt_normalizado": "correcto y qué pasa si le ponemos claro porque el torque va directo con la corriente ya lo vimos no torque va directamente relacionado con la corriente cierto y qué pasa si le comenzamos a poner una carga y le comienza a costar más al motor moverla la velocidad"
+    },
+    {
+      "sample_id": "clase09_seg0237",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0237.wav",
+      "inicio": 3859.561,
+      "fin": 3871.53,
+      "duracion_seg": 11.969,
+      "gt_original": "va a comenzar a qué? La velocidad va a comenzar a bajar, ¿verdad? Y el torque que él tiene que entregar, la potencia eléctrica comienza a entregar es mayor también, ¿verdad? Hasta qué circunstancia que ocurre acá arriba?",
+      "gt_normalizado": "va a comenzar a qué la velocidad va a comenzar a bajar verdad y el torque que él tiene que entregar la potencia eléctrica comienza a entregar es mayor también verdad hasta qué circunstancia que ocurre acá arriba"
+    },
+    {
+      "sample_id": "clase09_seg0238",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0238.wav",
+      "inicio": 3872.077,
+      "fin": 3884.22,
+      "duracion_seg": 12.143,
+      "gt_original": "En esa circunstancia él está dando lo máximo que él puede, no todos los motores pueden mover todas las cargas, ¿verdad? ¿Qué es lo que va a pasar cuando el motor esté dando su torque máximo? Ya él no se va a mover,",
+      "gt_normalizado": "en esa circunstancia él está dando lo máximo que él puede no todos los motores pueden mover todas las cargas verdad qué es lo que va a pasar cuando el motor esté dando su torque máximo ya él no se va a mover"
+    },
+    {
+      "sample_id": "clase09_seg0239",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0239.wav",
+      "inicio": 3884.7,
+      "fin": 3903.9,
+      "duracion_seg": 19.2,
+      "gt_original": "la corriente va a subir alto y ahí es cuando se queman los motores, ¿cierto? Cuando yo estoy dando lo máximo de torque, lo máximo de corriente y no hay movimiento. ¿De acuerdo? Entonces lo único que hacemos con la prueba del dinamómetro es encontrar esos dos puntos y a partir de esos dos puntos encontrar las constantes. ¿Qué les parece, muchachos? Comentarios.",
+      "gt_normalizado": "la corriente va a subir alto y ahí es cuando se queman los motores cierto cuando yo estoy dando lo máximo de torque lo máximo de corriente y no hay movimiento de acuerdo entonces lo único que hacemos con la prueba del dinamómetro es encontrar esos dos puntos y a partir de esos dos puntos encontrar las constantes qué les parece muchachos comentarios"
+    },
+    {
+      "sample_id": "clase09_seg0240",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0240.wav",
+      "inicio": 3911.52,
+      "fin": 3930.136,
+      "duracion_seg": 18.616,
+      "gt_original": "Comentarios. ¿Cómo sería experimentalmente la prueba del dinamómetro? ¿Cómo cogería el motor? Bueno, necesitas un banco de pruebas, ¿verdad? Para tener el motor con su respectivo tacómetro y su medidor de, su dinamómetro en sí que es el que te va a medir la fuerza, ¿verdad? La distancia debe ser un, con una",
+      "gt_normalizado": "comentarios cómo sería experimentalmente la prueba del dinamómetro cómo cogería el motor bueno necesitas un banco de pruebas verdad para tener el motor con su respectivo tacómetro y su medidor de su dinamómetro en sí que es el que te va a medir la fuerza verdad la distancia debe ser un con una"
+    },
+    {
+      "sample_id": "clase09_seg0241",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0241.wav",
+      "inicio": 3931.68,
+      "fin": 3946.199,
+      "duracion_seg": 14.519,
+      "gt_original": "distancia conocida, ¿verdad? De tal manera que se puede inferir el torque. Y y justo la prueba del dinamómetro es comenzar a poner cargas, ¿verdad? A poner la máxima carga y a dejarlo libre, ¿verdad? Y medir la velocidad en ambos casos y el torque en ambos casos, me explico. De",
+      "gt_normalizado": "distancia conocida verdad de tal manera que se puede inferir el torque y y justo la prueba del dinamómetro es comenzar a poner cargas verdad a poner la máxima carga y a dejarlo libre verdad y medir la velocidad en ambos casos y el torque en ambos casos me explico de"
+    },
+    {
+      "sample_id": "clase09_seg0242",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0242.wav",
+      "inicio": 3947.73,
+      "fin": 3961.783,
+      "duracion_seg": 14.053,
+      "gt_original": "manera un poco convencional podría, o sea tratar de trabar el eje con un palo o algo para tratar de. Claro. Sí. Con el riesgo de que se te puede quemar el motor, ¿no? Así he visto que hacen, digamos cuando rebobinan. Ajá,",
+      "gt_normalizado": "manera un poco convencional podría o sea tratar de trabar el eje con un palo o algo para tratar de claro sí con el riesgo de que se te puede quemar el motor no así he visto que hacen digamos cuando rebobinan ajá"
+    },
+    {
+      "sample_id": "clase09_seg0243",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0243.wav",
+      "inicio": 3963.21,
+      "fin": 3988.069,
+      "duracion_seg": 24.859,
+      "gt_original": "claro, es que tienes que cuando entregas esa vaina tienes que hacer pruebas de esfuerzo, ¿no? Muchachos, yo no he hecho aquí el control por campo. Pero el control por campo es más simple porque ya no considero a la fuerza contraelectromotriz y ya no tengo el ramal, o sea, es un solo lazo abierto, ya no hay la H, digamos así, solamente hay G y no hay H. Y de allí el procedimiento es exactamente el mismo, ¿no? Es más sencillo el control por",
+      "gt_normalizado": "claro es que tienes que cuando entregas esa vaina tienes que hacer pruebas de esfuerzo no muchachos yo no he hecho aquí el control por campo pero el control por campo es más simple porque ya no considero a la fuerza contraelectromotriz y ya no tengo el ramal o sea es un solo lazo abierto ya no hay la h digamos así solamente hay g y no hay h y de allí el procedimiento es exactamente el mismo no es más sencillo el control por"
+    },
+    {
+      "sample_id": "clase09_seg0244",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0244.wav",
+      "inicio": 3988.069,
+      "fin": 4012.292,
+      "duracion_seg": 24.223,
+      "gt_original": "campo. Por favor, seguro hay un ejercicio del deber que les pide control por campo. También en el libro guía, que es el libro de Dorf, está tanto el control por armadura que acabo de hacer como el control por campo, si llegasen a tener la necesidad de algo que no entiendan, pero les digo, la verdad es que es súper intuitivo. ¿Qué es esto de la determinación de constantes? Bueno, muchas veces estas constantes que estamos manejando aquí, por ejemplo, miren el diagrama de bloques, Kb, Kt, la misma Ra, son difíciles de medir o de determinar, ¿verdad? Cuando uno tiene un motor real, ¿cierto? Muchas de ellas",
+      "gt_normalizado": "campo por favor seguro hay un ejercicio del deber que les pide control por campo también en el libro guía que es el libro de dorf está tanto el control por armadura que acabo de hacer como el control por campo si llegasen a tener la necesidad de algo que no entiendan pero les digo la verdad es que es súper intuitivo qué es esto de la determinación de constantes bueno muchas veces estas constantes que estamos manejando aquí por ejemplo miren el diagrama de bloques kb kt la misma ra son difíciles de medir o de determinar verdad cuando uno tiene un motor real cierto muchas de ellas"
+    },
+    {
+      "sample_id": "clase09_seg0245",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0245.wav",
+      "inicio": 4012.292,
+      "fin": 4029.973,
+      "duracion_seg": 17.681,
+      "gt_original": "requerirán pruebas de laboratorio. Entonces, lo que les voy a enseñar aquí es un pequeño método para encontrar en forma experimental las constantes que necesitamos para trabajar con el motor. El método que se va a utilizar es la denominada prueba del dinamómetro.",
+      "gt_normalizado": "requerirán pruebas de laboratorio entonces lo que les voy a enseñar aquí es un pequeño método para encontrar en forma experimental las constantes que necesitamos para trabajar con el motor el método que se va a utilizar es la denominada prueba del dinamómetro"
+    },
+    {
+      "sample_id": "clase09_seg0246",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0246.wav",
+      "inicio": 4073.73,
+      "fin": 4082.82,
+      "duracion_seg": 9.09,
+      "gt_original": "¿Para qué sirve un dinamómetro, muchachos? ¿Para qué sirve un dinamómetro? Creo que transforma energía mecánica en energía eléctrica. Sí, y lo que hacemos con el dinamómetro mediante eso es medir, ¿verdad? Muchas veces. Por ejemplo, ¿un tacómetro qué es un tacómetro? Mide la velocidad. Es un medidor de velocidad del motor, ¿verdad? Nos va a permitir medir la velocidad de un motor y el dinamómetro adicionalmente nos va a permitir medir el torque, ¿verdad? Entonces, lo que nosotros vamos a hacer es una especie de prueba del motor para poder establecer esas constantes. Entonces muchachos, volvamos al circuito de campo que planteamos originalmente, me voy a quedar sólo con el circuito de campo. Y de una vez ya en el mundo... esto era ea de s, esto es La, esto es Vb de s y esto es ia de s, ¿verdad? Nosotros habíamos dicho, ya lo dijimos varias veces, que Ea de s es igual a ia de s por Ra más s La más Vb de s, ¿verdad? Otra vez vamos a asumir que La es muy pequeño comparado con la resistencia para eliminar este término, ¿no? Y lo que sí vamos a hacer de una vez es colocar las dos ecuaciones que también conocemos, la que dice que la fuerza contraelectromotriz es igual a Kb por omega m de",
+      "gt_normalizado": "para qué sirve un dinamómetro muchachos para qué sirve un dinamómetro creo que transforma energía mecánica en energía eléctrica sí y lo que hacemos con el dinamómetro mediante eso es medir verdad muchas veces por ejemplo un tacómetro qué es un tacómetro mide la velocidad es un medidor de velocidad del motor verdad nos va a permitir medir la velocidad de un motor y el dinamómetro adicionalmente nos va a permitir medir el torque verdad entonces lo que nosotros vamos a hacer es una especie de prueba del motor para poder establecer esas constantes entonces muchachos volvamos al circuito de campo que planteamos originalmente me voy a quedar sólo con el circuito de campo y de una vez ya en el mundo esto era ea de s esto es la esto es vb de s y esto es ia de s verdad nosotros habíamos dicho ya lo dijimos varias veces que ea de s es igual a ia de s por ra más s la más vb de s verdad otra vez vamos a asumir que la es muy pequeño comparado con la resistencia para eliminar este término no y lo que sí vamos a hacer de una vez es colocar las dos ecuaciones que también conocemos la que dice que la fuerza contraelectromotriz es igual a kb por omega m de"
+    },
+    {
+      "sample_id": "clase09_seg0247",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0247.wav",
+      "inicio": 4099.77,
+      "fin": 4122.42,
+      "duracion_seg": 22.65,
+      "gt_original": "y que el torque del motor es igual a Kt por ia de s. Entonces, en esta pequeña representación matemática, me toca decir que ea de s es igual a en vez de ia vamos a decir que es torque del motor de s sobre Kt por Ra y en vez de bb vamos a decir que es Kb por omega de s. O sea, reemplazo estas dos ecuaciones en la de arriba, ¿verdad muchachos? Reordenando la ecuación me queda que Ra sobre Kt por tm de s más Kb por omega m de s es igual a ea de s. Y sacando la antitransformada de Laplace, o sea, si me la llevo en el tiempo, no tengo problema porque no tengo derivadas aquí, ¿verdad muchachos? No tengo ningún problema. Como no tengo derivadas, esta que está aquí es una ecuación lineal. Sí, muchachos.",
+      "gt_normalizado": "y que el torque del motor es igual a kt por ia de s entonces en esta pequeña representación matemática me toca decir que ea de s es igual a en vez de ia vamos a decir que es torque del motor de s sobre kt por ra y en vez de bb vamos a decir que es kb por omega de s o sea reemplazo estas dos ecuaciones en la de arriba verdad muchachos reordenando la ecuación me queda que ra sobre kt por tm de s más kb por omega m de s es igual a ea de s y sacando la antitransformada de laplace o sea si me la llevo en el tiempo no tengo problema porque no tengo derivadas aquí verdad muchachos no tengo ningún problema como no tengo derivadas esta que está aquí es una ecuación lineal sí muchachos"
+    },
+    {
+      "sample_id": "clase09_seg0248",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0248.wav",
+      "inicio": 4128.75,
+      "fin": 4153.749,
+      "duracion_seg": 24.999,
+      "gt_original": "Y esa ecuación lineal, esto lo han hecho ustedes un millón de veces en ingeniería, ¿verdad? Yo la puedo graficar en un plano donde yo tenga omega del motor versus el torque del motor. Y yo les digo, muchachos, que esa ecuación corresponde a diferentes líneas rectas para diferentes valores de ea. Por ejemplo, para un ea1 y para un ea2. Son lineales, ¿verdad? ¿Por qué lineales? Porque esto es una constante y esto es una constante, ¿sí me explico? Claro, y vamos a asumir también a ea constante, o sea, vamos a hacer una línea para cada uno de ellos. Ya pues, aquí depende de la matemática que usted le quiera dar, pero esto en matemáticas lo hicieron mil veces, muchachos. Torque del motor, entonces es igual a... Kb por, bueno esto sería negativo, ¿no? Más ea de t por Kt sobre Ra. Muchachos, esto lo hicimos mil veces en matemáticas. ¿Se acuerdan que hacíamos una tablita, que decíamos omega m versus tm? Si omega m es cero, ¿a qué es igual tm, muchachos? ¿Se acuerdan de matemáticas? A Kt sobre Ra. Si omega m es cero, desaparece este término, ¿verdad? Entonces el torque del motor es Kt por Ra. Kt sobre Ra, ¿verdad? ¿Sí, muchachos? Por Ea, ¿cierto? ¿Y qué pasa si, en cambio, yo digo ahora que tm es cero? ¿A qué es igual omega m, muchachos, si tm es cero? Bueno, se despeja esa cuestión y sería igual Kt con Kt, Ra con Ra se van. Si tm es igual a cero, eh, simplemente es Kb, ¿no? Omega es igual a Ea sobre Kb. Sí, porque lo que yo haría es eliminar esta ecuación, elimino él con él, él con él, y omega m es Ea sobre Kb. ¿Sí, muchachos? Entonces, ¿qué quiere decir? Que estos son los puntos, ¿verdad? ¿Sí me explico, muchachos, no? Este es el punto cuando tm es cero, que sería igual a Kt sobre Ra por Ea, Ea2 en este caso, ¿no? Y este sería el punto cuando omega m es, a ver, es al revés, ¿no? Éste es el punto cuando omega m es cero, cuando omega m es cero ese es el valor del torque del motor, ¿verdad? Y en cambio, cuando torque del motor es cero esto es ea sobre kb. Ahora, muchachos, ese valor que está allí, miren ustedes, ¿qué significa que el torque sea cero? Que el torque del motor sea cero, o sea, este punto, ¿no? Torque de motor cero. Que el motor está apagado. No. Está trabado. Pero no, pues no está trabado porque la velocidad es máxima. Si te das cuenta, mira el diagrama, el plano. El torque es cero pero ¿qué le pasa a la velocidad? Sí lo ven en este punto, ¿qué le pasa a la velocidad angular? Es máxima. Es máxima, pero el torque es cero, muchachos. Ésta es la condición que nosotros decimos sin carga. ¿Qué pasa cuando tenemos un motor al vacío? que gira, que gira. El motor gira a su máxima velocidad, ¿cierto? Y no hay torque, porque no hay carga que absorba ese torque, dicho de otra forma. Entonces esa es la condición de carga. En cambio, en el otro caso es lo contrario, ¿verdad? Es lo que ustedes decían, está como que trabado, él está dando el máximo de fuerza, ¿verdad? Él está dando lo más que puede, pero no logra ¿qué? No logra girar. No logra girar, ¿verdad? Ese es el par máximo o trabado, como ustedes lo decían. Entonces, muchachos, me llevo este dibujito para aquí, me llevo este dibujito para aquí. De estos dibujitos se llega a la conclusión de estas dos ecuaciones que están allí. La división de las constantes Kt sobre Ra es igual al torque par máximo dividido para Ea, es decir es un despeje, estoy diciendo que aquí está el torque del par máximo, ¿verdad? ¿Sí me explico? Y en cambio la otra constante, que es Kb, es igual a Ea sobre la velocidad del motor sin carga. O sea, aquí está la omega sin carga. Con estas curvas que pueden ser sacadas experimentalmente con la prueba del dinamómetro podemos encontrar experimentalmente las constantes del motor. Preguntas, muchachos. Preguntas. Esta parte para mí es importante porque yo la puedo repetir como cacharraco",
+      "gt_normalizado": "y esa ecuación lineal esto lo han hecho ustedes un millón de veces en ingeniería verdad yo la puedo graficar en un plano donde yo tenga omega del motor versus el torque del motor y yo les digo muchachos que esa ecuación corresponde a diferentes líneas rectas para diferentes valores de ea por ejemplo para un ea1 y para un ea2 son lineales verdad por qué lineales porque esto es una constante y esto es una constante sí me explico claro y vamos a asumir también a ea constante o sea vamos a hacer una línea para cada uno de ellos ya pues aquí depende de la matemática que usted le quiera dar pero esto en matemáticas lo hicieron mil veces muchachos torque del motor entonces es igual a kb por bueno esto sería negativo no más ea de t por kt sobre ra muchachos esto lo hicimos mil veces en matemáticas se acuerdan que hacíamos una tablita que decíamos omega m versus tm si omega m es cero a qué es igual tm muchachos se acuerdan de matemáticas a kt sobre ra si omega m es cero desaparece este término verdad entonces el torque del motor es kt por ra kt sobre ra verdad sí muchachos por ea cierto y qué pasa si en cambio yo digo ahora que tm es cero a qué es igual omega m muchachos si tm es cero bueno se despeja esa cuestión y sería igual kt con kt ra con ra se van si tm es igual a cero eh simplemente es kb no omega es igual a ea sobre kb sí porque lo que yo haría es eliminar esta ecuación elimino él con él él con él y omega m es ea sobre kb sí muchachos entonces qué quiere decir que estos son los puntos verdad sí me explico muchachos no este es el punto cuando tm es cero que sería igual a kt sobre ra por ea ea2 en este caso no y este sería el punto cuando omega m es a ver es al revés no éste es el punto cuando omega m es cero cuando omega m es cero ese es el valor del torque del motor verdad y en cambio cuando torque del motor es cero esto es ea sobre kb ahora muchachos ese valor que está allí miren ustedes qué significa que el torque sea cero que el torque del motor sea cero o sea este punto no torque de motor cero que el motor está apagado no está trabado pero no pues no está trabado porque la velocidad es máxima si te das cuenta mira el diagrama el plano el torque es cero pero qué le pasa a la velocidad sí lo ven en este punto qué le pasa a la velocidad angular es máxima es máxima pero el torque es cero muchachos ésta es la condición que nosotros decimos sin carga qué pasa cuando tenemos un motor al vacío que gira que gira el motor gira a su máxima velocidad cierto y no hay torque porque no hay carga que absorba ese torque dicho de otra forma entonces esa es la condición de carga en cambio en el otro caso es lo contrario verdad es lo que ustedes decían está como que trabado él está dando el máximo de fuerza verdad él está dando lo más que puede pero no logra qué no logra girar no logra girar verdad ese es el par máximo o trabado como ustedes lo decían entonces muchachos me llevo este dibujito para aquí me llevo este dibujito para aquí de estos dibujitos se llega a la conclusión de estas dos ecuaciones que están allí la división de las constantes kt sobre ra es igual al torque par máximo dividido para ea es decir es un despeje estoy diciendo que aquí está el torque del par máximo verdad sí me explico y en cambio la otra constante que es kb es igual a ea sobre la velocidad del motor sin carga o sea aquí está la omega sin carga con estas curvas que pueden ser sacadas experimentalmente con la prueba del dinamómetro podemos encontrar experimentalmente las constantes del motor preguntas muchachos preguntas esta parte para mí es importante porque yo la puedo repetir como cacharraco"
+    },
+    {
+      "sample_id": "clase09_seg0249",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0249.wav",
+      "inicio": 4153.749,
+      "fin": 4178.735,
+      "duracion_seg": 24.986,
+      "gt_original": "loco, pero necesito que la entienda. A ver, quiero que alguien me explique por qué esta que voy a resaltar es la llamada condición sin carga. ¿Por qué? ¿Por qué? Porque no hay oposición al giro del motor, no hay una carga. No hay torque que vencer, estamos al aire libre, es un motor encendido, es cuando ustedes encienden el motor y prrrr tira su máxima velocidad, no tiene torque que vencer, no hay carga, la velocidad es máxima, es la máxima velocidad posible. Y la corriente es la mínima. Correcto, ¿y qué pasa si le ponemos, claro, porque el torque va directo con la corriente, ya lo vimos, ¿no? Torque va directamente relacionado con la corriente, cierto. ¿Y qué pasa si le comenzamos a poner una carga y le comienza a costar más al motor moverla? La velocidad va a comenzar a bajar, ¿verdad? Y el torque que él tiene que entregar, la potencia eléctrica comienza a entregar es mayor también, ¿verdad? Hasta qué circunstancia que ocurre acá arriba? En esa circunstancia él está dando lo máximo que él puede, no todos los motores pueden mover todas las cargas, ¿verdad? ¿Qué es lo que va a pasar cuando el motor esté dando su torque máximo? Ya él no se va a mover, la corriente va a subir alto y ahí es cuando se queman los motores, ¿cierto? Cuando yo estoy dando lo máximo de torque, lo máximo de corriente y no hay movimiento. ¿De acuerdo? Entonces lo único que hacemos con la prueba del dinamómetro es encontrar esos dos puntos y a partir de esos dos puntos encontrar las constantes. ¿Qué les parece, muchachos? Comentarios. Comentarios. ¿Cómo sería experimentalmente la prueba del dinamómetro? ¿Cómo cogería el motor? Bueno, necesitas un banco de pruebas, ¿verdad? Para tener el motor con su respectivo tacómetro y su medidor de, su dinamómetro en sí que es el que te va a medir la fuerza, ¿verdad? La distancia debe ser con una distancia conocida, ¿verdad? De tal manera que se puede inferir el torque. Y justo la prueba del dinamómetro es comenzar a poner cargas, ¿verdad? A poner la máxima carga y a dejarlo libre, ¿verdad? Y medir la velocidad en ambos casos y el torque en ambos casos, me explico. De manera un poco convencional podría, o sea tratar de trabar el eje con un palo o algo para tratar de. Claro. Sí. Con el riesgo de que se te puede quemar el motor, ¿no? Así he visto que hacen, digamos cuando rebobinan. Ajá, claro, es que tienes que cuando entregas esa vaina tienes que hacer pruebas de esfuerzo, ¿no? Muchachos, este es el ejemplo que tenemos que hacer pero que estoy clarísimo que por el tiempo no lo voy a poder terminar. Quisiera en esta clase dejarlo planteado. N1 es 100, N2 es 1000. Eh, mi JL es 700 kilogramos sobre metros cuadrados y mi amortiguación es 800 newton metro segundo radián. Eh, es un control por campo, por armadura, perdón. Tiene un campo fijo. Eh, vamos a suponer que esta es la dirección del motor y por esto es la dirección theta L que quiere decir de la carga, ¿no? Theta M, theta L. Aquí está la EA, aquí está la IA. Y ahí está la BB. Además de eso nos dan como dato la curva del motor, ¿no? Ups. Y nos dicen que esto es torque de motor para omega de motor. Y que los puntos de medición son 50 y 500. Para un EA, acuérdese que esto es para un EA de 100 voltios, ¿no? El omega M está dado en radianes sobre segundo y el torque del motor en newton metro. ¿Qué es lo que me pide? Que está ahí resuelto, hallar el theta L de S para el EA de S. ¿Cuáles son las diferencias? Que vamos, esto lo vamos a hacer numéricamente y las constantes las vamos a sacar de la curva. ¿Cuáles son las otras diferencias? Que eh tengo los engranes, ¿verdad? Tengo los engranes, ¿verdad? Pero yo puedo convertirlo al mismo problema original, ¿cómo lo convierto al mismo problema original? Reflejándolo. Reflejándolo, de hecho en la diapositiva si se",
+      "gt_normalizado": "loco pero necesito que la entienda a ver quiero que alguien me explique por qué esta que voy a resaltar es la llamada condición sin carga por qué por qué porque no hay oposición al giro del motor no hay una carga no hay torque que vencer estamos al aire libre es un motor encendido es cuando ustedes encienden el motor y prrrr tira su máxima velocidad no tiene torque que vencer no hay carga la velocidad es máxima es la máxima velocidad posible y la corriente es la mínima correcto y qué pasa si le ponemos claro porque el torque va directo con la corriente ya lo vimos no torque va directamente relacionado con la corriente cierto y qué pasa si le comenzamos a poner una carga y le comienza a costar más al motor moverla la velocidad va a comenzar a bajar verdad y el torque que él tiene que entregar la potencia eléctrica comienza a entregar es mayor también verdad hasta qué circunstancia que ocurre acá arriba en esa circunstancia él está dando lo máximo que él puede no todos los motores pueden mover todas las cargas verdad qué es lo que va a pasar cuando el motor esté dando su torque máximo ya él no se va a mover la corriente va a subir alto y ahí es cuando se queman los motores cierto cuando yo estoy dando lo máximo de torque lo máximo de corriente y no hay movimiento de acuerdo entonces lo único que hacemos con la prueba del dinamómetro es encontrar esos dos puntos y a partir de esos dos puntos encontrar las constantes qué les parece muchachos comentarios comentarios cómo sería experimentalmente la prueba del dinamómetro cómo cogería el motor bueno necesitas un banco de pruebas verdad para tener el motor con su respectivo tacómetro y su medidor de su dinamómetro en sí que es el que te va a medir la fuerza verdad la distancia debe ser con una distancia conocida verdad de tal manera que se puede inferir el torque y justo la prueba del dinamómetro es comenzar a poner cargas verdad a poner la máxima carga y a dejarlo libre verdad y medir la velocidad en ambos casos y el torque en ambos casos me explico de manera un poco convencional podría o sea tratar de trabar el eje con un palo o algo para tratar de claro sí con el riesgo de que se te puede quemar el motor no así he visto que hacen digamos cuando rebobinan ajá claro es que tienes que cuando entregas esa vaina tienes que hacer pruebas de esfuerzo no muchachos este es el ejemplo que tenemos que hacer pero que estoy clarísimo que por el tiempo no lo voy a poder terminar quisiera en esta clase dejarlo planteado n1 es 100 n2 es 1000 eh mi jl es 700 kilogramos sobre metros cuadrados y mi amortiguación es 800 newton metro segundo radián eh es un control por campo por armadura perdón tiene un campo fijo eh vamos a suponer que esta es la dirección del motor y por esto es la dirección theta l que quiere decir de la carga no theta m theta l aquí está la ea aquí está la ia y ahí está la bb además de eso nos dan como dato la curva del motor no ups y nos dicen que esto es torque de motor para omega de motor y que los puntos de medición son 50 y 500 para un ea acuérdese que esto es para un ea de 100 voltios no el omega m está dado en radianes sobre segundo y el torque del motor en newton metro qué es lo que me pide que está ahí resuelto hallar el theta l de s para el ea de s cuáles son las diferencias que vamos esto lo vamos a hacer numéricamente y las constantes las vamos a sacar de la curva cuáles son las otras diferencias que eh tengo los engranes verdad tengo los engranes verdad pero yo puedo convertirlo al mismo problema original cómo lo convierto al mismo problema original reflejándolo reflejándolo de hecho en la diapositiva si se"
+    },
+    {
+      "sample_id": "clase09_seg0250",
+      "clase_id": "clase09",
+      "ruta_audio": "data/processed/chunks/clase09/clase09_seg0250.wav",
+      "inicio": 4178.735,
+      "fin": 4185.76,
+      "duracion_seg": 7.025,
+      "gt_original": "dieron cuenta les resumí eso, ¿no? Eso es lo que hay que hacer, ¿cierto? Muchachos, si esta fuera una clase relajada, bonita, yo haría ahorita, me encantaría hacer un taller y dividirnos en grupos que cada uno lo haga y me lo entregue, etcétera, etcétera, pero esta clase no es una clase relajada, ya se dieron cuenta, ¿no? Esta clase es una clase donde tenemos tanto material que no lo voy a poder hacer así. Sin embargo, lo que quiero, como eso tiene respuesta, ¿verdad? Lo que les quiero proponer, muchachos, es que y además esto es lo del deber de esta semana, es que ustedes lo hagan e intenten llegar a la respuesta que está allí, ¿sí? Yo lo que voy a hacer es que yo les voy a subir un videíto de 10 minutos luego resolviéndolo yo también, ¿les parece? Pero para que esto sirva primero necesito que ustedes intenten hacerlo. Tienen todas las herramientas y ya creo que me van entendiendo, ¿no? Que aquí la el chiste, la dinámica aquí es comenzamos a mezclar los sistemas, ¿no? Comenzamos a mezclar las cosas las unas con las otras. ¿Si estamos claros, por favor?",
+      "gt_normalizado": "dieron cuenta les resumí eso no eso es lo que hay que hacer cierto muchachos si esta fuera una clase relajada bonita yo haría ahorita me encantaría hacer un taller y dividirnos en grupos que cada uno lo haga y me lo entregue etcétera etcétera pero esta clase no es una clase relajada ya se dieron cuenta no esta clase es una clase donde tenemos tanto material que no lo voy a poder hacer así sin embargo lo que quiero como eso tiene respuesta verdad lo que les quiero proponer muchachos es que y además esto es lo del deber de esta semana es que ustedes lo hagan e intenten llegar a la respuesta que está allí sí yo lo que voy a hacer es que yo les voy a subir un videíto de 10 minutos luego resolviéndolo yo también les parece pero para que esto sirva primero necesito que ustedes intenten hacerlo tienen todas las herramientas y ya creo que me van entendiendo no que aquí la el chiste la dinámica aquí es comenzamos a mezclar los sistemas no comenzamos a mezclar las cosas las unas con las otras si estamos claros por favor"
+    }
+  ]
+}

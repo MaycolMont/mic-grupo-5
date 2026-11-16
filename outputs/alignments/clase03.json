@@ -1,0 +1,2571 @@
+{
+  "clase_id": "clase03",
+  "audio_stem": "yt_electricidad-basica_20220706_9uk_5Sp1_i8",
+  "audio_path": "data/interim/wav_16k/yt_electricidad-basica_20220706_9uk_5Sp1_i8.wav",
+  "duracion_audio_seg": 4513.739,
+  "palabras_gt": 9858,
+  "palabras_reconocidas": 6868,
+  "ratio_anclaje": 0.4264,
+  "chunks": [
+    {
+      "sample_id": "clase03_seg0001",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0001.wav",
+      "inicio": 60.0,
+      "fin": 68.61,
+      "duracion_seg": 8.61,
+      "gt_original": "Muy bien. Entonces, nos habíamos quedado en uno de los problemas de los... Parece que nos quedamos en este",
+      "gt_normalizado": "muy bien entonces nos habíamos quedado en uno de los problemas de los parece que nos quedamos en este"
+    },
+    {
+      "sample_id": "clase03_seg0002",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0002.wav",
+      "inicio": 77.696,
+      "fin": 99.99,
+      "duracion_seg": 22.294,
+      "gt_original": "problema. Creo que con ustedes ya habíamos avanzado un poquito más de este ejercicio. Este es el del otro curso. Muy bien, entonces no importa. Lo empezamos, lo reiniciamos el ejercicio porque al dar la clase al otro curso borré lo que ya habíamos hecho de este, pero la idea pues es",
+      "gt_normalizado": "problema creo que con ustedes ya habíamos avanzado un poquito más de este ejercicio este es el del otro curso muy bien entonces no importa lo empezamos lo reiniciamos el ejercicio porque al dar la clase al otro curso borré lo que ya habíamos hecho de este pero la idea pues es"
+    },
+    {
+      "sample_id": "clase03_seg0003",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0003.wav",
+      "inicio": 127.77,
+      "fin": 139.56,
+      "duracion_seg": 11.79,
+      "gt_original": "básicamente la misma, ¿no? Entonces tenemos aquí, aquí decíamos que teníamos una carga que estaba siendo alimentada por una fuente de voltaje Vs. Aquí",
+      "gt_normalizado": "básicamente la misma no entonces tenemos aquí aquí decíamos que teníamos una carga que estaba siendo alimentada por una fuente de voltaje vs aquí"
+    },
+    {
+      "sample_id": "clase03_seg0004",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0004.wav",
+      "inicio": 140.13,
+      "fin": 154.098,
+      "duracion_seg": 13.968,
+      "gt_original": "tenemos una impedancia de línea, y esta impedancia de línea pues llegaba a la alimentación de dos carguitas: carga L1, carga L2 donde se sabe el voltaje en los terminales de la carga. Aquí dice que el voltaje en los terminales de la carga es de $250\\text{ a 0^\\circ$ y de la",
+      "gt_normalizado": "tenemos una impedancia de línea y esta impedancia de línea pues llegaba a la alimentación de dos carguitas carga l1 carga l2 donde se sabe el voltaje en los terminales de la carga aquí dice que el voltaje en los terminales de la carga es de 250 text a 0 circ y de la"
+    },
+    {
+      "sample_id": "clase03_seg0005",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0005.wav",
+      "inicio": 156.3,
+      "fin": 170.73,
+      "duracion_seg": 14.43,
+      "gt_original": "carga 1 nos habían dicho que la potencia activa consumida era $8\\text{ kW}$ a un factor de potencia de $0.8$ en adelanto; y la carga 2 en cambio nos habían dado la potencia aparente, que era $20\\text{ kVA}$ con un factor de potencia de $0.6$.",
+      "gt_normalizado": "carga 1 nos habían dicho que la potencia activa consumida era 8 text kw a un factor de potencia de 0 8 en adelanto y la carga 2 en cambio nos habían dado la potencia aparente que era 20 text kva con un factor de potencia de 0 6"
+    },
+    {
+      "sample_id": "clase03_seg0006",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0006.wav",
+      "inicio": 173.01,
+      "fin": 187.45,
+      "duracion_seg": 14.44,
+      "gt_original": "Entonces habíamos dicho que, en primer lugar, pues, nos piden el factor de potencia de la carga total. Habíamos dicho que el factor de potencia de la carga total implicaba que necesitábamos saber o",
+      "gt_normalizado": "entonces habíamos dicho que en primer lugar pues nos piden el factor de potencia de la carga total habíamos dicho que el factor de potencia de la carga total implicaba que necesitábamos saber o"
+    },
+    {
+      "sample_id": "clase03_seg0007",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0007.wav",
+      "inicio": 187.98,
+      "fin": 200.95,
+      "duracion_seg": 12.97,
+      "gt_original": "la impedancia equivalente de la carga total o la potencia compleja de la carga total, porque en ambos casos teníamos el ángulo de la carga; y el factor de potencia es el coseno del ángulo de la carga. El",
+      "gt_normalizado": "la impedancia equivalente de la carga total o la potencia compleja de la carga total porque en ambos casos teníamos el ángulo de la carga y el factor de potencia es el coseno del ángulo de la carga el"
+    },
+    {
+      "sample_id": "clase03_seg0008",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0008.wav",
+      "inicio": 202.38,
+      "fin": 213.55,
+      "duracion_seg": 11.17,
+      "gt_original": "llevar las impedancias en este caso no puede ser tan importante porque estamos igual trabajando con potencias. Entonces lo que hacemos es calcular cuál es la potencia de cada una de las cargas. ¿Cuál es la potencia compleja de la carga 1?",
+      "gt_normalizado": "llevar las impedancias en este caso no puede ser tan importante porque estamos igual trabajando con potencias entonces lo que hacemos es calcular cuál es la potencia de cada una de las cargas cuál es la potencia compleja de la carga 1"
+    },
+    {
+      "sample_id": "clase03_seg0009",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0009.wav",
+      "inicio": 215.52,
+      "fin": 226.53,
+      "duracion_seg": 11.01,
+      "gt_original": "Entonces hemos dicho que la potencia compleja está formada por la magnitud y el ángulo, ¿de verdad? Magnitud y el ángulo.",
+      "gt_normalizado": "entonces hemos dicho que la potencia compleja está formada por la magnitud y el ángulo de verdad magnitud y el ángulo"
+    },
+    {
+      "sample_id": "clase03_seg0010",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0010.wav",
+      "inicio": 227.61,
+      "fin": 240.99,
+      "duracion_seg": 13.38,
+      "gt_original": "Donde la magnitud $S_1$, que es la potencia compleja, se la podría calcular como la potencia activa dividida por el factor de potencia; y el ángulo lo podemos calcular como el arcocoseno",
+      "gt_normalizado": "donde la magnitud s 1 que es la potencia compleja se la podría calcular como la potencia activa dividida por el factor de potencia y el ángulo lo podemos calcular como el arcocoseno"
+    },
+    {
+      "sample_id": "clase03_seg0011",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0011.wav",
+      "inicio": 244.05,
+      "fin": 256.98,
+      "duracion_seg": 12.93,
+      "gt_original": "del factor de potencia, ¿no? El ángulo es el arcocoseno del factor de potencia. Pero habíamos mencionado que esta carga estaba en adelanto. Y puesto que estaba en adelanto, ¿qué se infiere que esté en adelanto? Adelanto",
+      "gt_normalizado": "del factor de potencia no el ángulo es el arcocoseno del factor de potencia pero habíamos mencionado que esta carga estaba en adelanto y puesto que estaba en adelanto qué se infiere que esté en adelanto adelanto"
+    },
+    {
+      "sample_id": "clase03_seg0012",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0012.wav",
+      "inicio": 259.26,
+      "fin": 275.58,
+      "duracion_seg": 16.32,
+      "gt_original": "significa que, en este caso, el ángulo de la corriente es mayor que el ángulo del voltaje, porque la corriente adelanta al voltaje. La corriente tiene un ángulo mayor que el voltaje. Y si la corriente adelanta al voltaje,",
+      "gt_normalizado": "significa que en este caso el ángulo de la corriente es mayor que el ángulo del voltaje porque la corriente adelanta al voltaje la corriente tiene un ángulo mayor que el voltaje y si la corriente adelanta al voltaje"
+    },
+    {
+      "sample_id": "clase03_seg0013",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0013.wav",
+      "inicio": 276.18,
+      "fin": 286.32,
+      "duracion_seg": 10.14,
+      "gt_original": "entonces el ángulo de la impedancia es negativo, porque recuerden que el ángulo de la impedancia es voltaje menos corriente. Entonces aquí nos está haciendo falta agregarle un signo menos al arcocoseno.",
+      "gt_normalizado": "entonces el ángulo de la impedancia es negativo porque recuerden que el ángulo de la impedancia es voltaje menos corriente entonces aquí nos está haciendo falta agregarle un signo menos al arcocoseno"
+    },
+    {
+      "sample_id": "clase03_seg0014",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0014.wav",
+      "inicio": 288.48,
+      "fin": 300.39,
+      "duracion_seg": 11.91,
+      "gt_original": "Entonces, ¿cuánto es la potencia activa? La potencia activa era $8000$, el factor de potencia es $0.8$, y el ángulo pues sería el arcocoseno de $0.8$ con un",
+      "gt_normalizado": "entonces cuánto es la potencia activa la potencia activa era 8000 el factor de potencia es 0 8 y el ángulo pues sería el arcocoseno de 0 8 con un"
+    },
+    {
+      "sample_id": "clase03_seg0015",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0015.wav",
+      "inicio": 301.17,
+      "fin": 314.265,
+      "duracion_seg": 13.095,
+      "gt_original": "signo negativo. Y ya ese sería, por tanto, nuestro número complejo, pues en este caso ya llevado a rectangulares nos daba $8000 j6000\\text{ VA}$. En cuanto a la",
+      "gt_normalizado": "signo negativo y ya ese sería por tanto nuestro número complejo pues en este caso ya llevado a rectangulares nos daba 8000 j6000 text va en cuanto a la"
+    },
+    {
+      "sample_id": "clase03_seg0016",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0016.wav",
+      "inicio": 318.698,
+      "fin": 331.84,
+      "duracion_seg": 13.142,
+      "gt_original": "carga 2, la lógica era la misma, sólo que aquí ya nos dan directamente pues la aparente, y el ángulo en cambio era arcocoseno del factor de potencia. En",
+      "gt_normalizado": "carga 2 la lógica era la misma sólo que aquí ya nos dan directamente pues la aparente y el ángulo en cambio era arcocoseno del factor de potencia en"
+    },
+    {
+      "sample_id": "clase03_seg0017",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0017.wav",
+      "inicio": 333.07,
+      "fin": 355.89,
+      "duracion_seg": 22.82,
+      "gt_original": "este caso el ángulo es atraso. Atraso significa que la corriente atrasa al voltaje, es decir, la corriente tiene un ángulo menor que el voltaje, entonces el ángulo de la impedancia va a ser positivo, por eso se lo ponemos con el signo positivo. Eso de ahí, ya llevado a polares, pues nos va a dar que es igual a $12000 j16000$. Y",
+      "gt_normalizado": "este caso el ángulo es atraso atraso significa que la corriente atrasa al voltaje es decir la corriente tiene un ángulo menor que el voltaje entonces el ángulo de la impedancia va a ser positivo por eso se lo ponemos con el signo positivo eso de ahí ya llevado a polares pues nos va a dar que es igual a 12000 j16000 y"
+    },
+    {
+      "sample_id": "clase03_seg0018",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0018.wav",
+      "inicio": 362.43,
+      "fin": 375.06,
+      "duracion_seg": 12.63,
+      "gt_original": "luego pues, ya si queríamos cuál era el S total de la carga, simplemente lo que hacíamos era sumar las potencias complejas. Nosotros podemos sumar siempre las potencias activas,",
+      "gt_normalizado": "luego pues ya si queríamos cuál era el s total de la carga simplemente lo que hacíamos era sumar las potencias complejas nosotros podemos sumar siempre las potencias activas"
+    },
+    {
+      "sample_id": "clase03_seg0019",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0019.wav",
+      "inicio": 375.84,
+      "fin": 387.49,
+      "duracion_seg": 11.65,
+      "gt_original": "las reactivas o las complejas. Las aparentes no, porque obviamente son las magnitudes. No vamos a poder... no podemos sumar simplemente la magnitud de dos números complejos y pensar que nos va a dar la magnitud del tercer número complejo, ¿verdad? Si",
+      "gt_normalizado": "las reactivas o las complejas las aparentes no porque obviamente son las magnitudes no vamos a poder no podemos sumar simplemente la magnitud de dos números complejos y pensar que nos va a dar la magnitud del tercer número complejo verdad si"
+    },
+    {
+      "sample_id": "clase03_seg0020",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0020.wav",
+      "inicio": 388.29,
+      "fin": 405.21,
+      "duracion_seg": 16.92,
+      "gt_original": "sumamos esos dos números complejos, pues obtenemos $20000$ y $-6000\\text{ con j16000$ nos da j10000$. Lo que a la vez es igual a, $22360.68$ a un ángulo de $26.57^\\circ$.",
+      "gt_normalizado": "sumamos esos dos números complejos pues obtenemos 20000 y 6000 text con j16000 nos da j10000 lo que a la vez es igual a 22360 68 a un ángulo de 26 57 circ"
+    },
+    {
+      "sample_id": "clase03_seg0021",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0021.wav",
+      "inicio": 416.4,
+      "fin": 429.09,
+      "duracion_seg": 12.69,
+      "gt_original": "Ahora sí ya tenemos el ángulo, que era lo que necesitábamos. Entonces, el factor de potencia total de la carga simplemente era el coseno de esos $26.57^\\circ$,",
+      "gt_normalizado": "ahora sí ya tenemos el ángulo que era lo que necesitábamos entonces el factor de potencia total de la carga simplemente era el coseno de esos 26 57 circ"
+    },
+    {
+      "sample_id": "clase03_seg0022",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0022.wav",
+      "inicio": 432.57,
+      "fin": 443.25,
+      "duracion_seg": 10.68,
+      "gt_original": "lo cual nos va a dar $0.8944$. Pero para hablar del factor de potencia también tenemos que decir si está en atraso o en adelanto, ¿no? Y en este caso sería en atraso,",
+      "gt_normalizado": "lo cual nos va a dar 0 8944 pero para hablar del factor de potencia también tenemos que decir si está en atraso o en adelanto no y en este caso sería en atraso"
+    },
+    {
+      "sample_id": "clase03_seg0023",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0023.wav",
+      "inicio": 450.96,
+      "fin": 466.27,
+      "duracion_seg": 15.31,
+      "gt_original": "porque el ángulo es positivo. Tenemos que siempre decir eso para que, en el caso de que alguien quiera hacer la recuperación del ángulo partiendo del factor de potencia, no tenga inconvenientes. Hasta esta parte de aquí, de lo que nos quedamos la clase anterior, ¿alguien tiene alguna pregunta? El",
+      "gt_normalizado": "porque el ángulo es positivo tenemos que siempre decir eso para que en el caso de que alguien quiera hacer la recuperación del ángulo partiendo del factor de potencia no tenga inconvenientes hasta esta parte de aquí de lo que nos quedamos la clase anterior alguien tiene alguna pregunta el"
+    },
+    {
+      "sample_id": "clase03_seg0024",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0024.wav",
+      "inicio": 486.42,
+      "fin": 503.52,
+      "duracion_seg": 17.1,
+      "gt_original": "literal B simplemente nos decía cuánto es la aparente, y la aparente pues es la magnitud de la compleja. La compleja ya la teníamos aquí, entonces la aparente simplemente sería $22360.68\\text{ VA}$ o $22.360\\text{ kVA}$, que es lo mismo. Y",
+      "gt_normalizado": "literal b simplemente nos decía cuánto es la aparente y la aparente pues es la magnitud de la compleja la compleja ya la teníamos aquí entonces la aparente simplemente sería 22360 68 text va o 22 360 text kva que es lo mismo y"
+    },
+    {
+      "sample_id": "clase03_seg0025",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0025.wav",
+      "inicio": 508.893,
+      "fin": 523.32,
+      "duracion_seg": 14.427,
+      "gt_original": "luego, pues, nos dicen cuál es el valor de la corriente $I_S$. Y la corriente $I_S$ es la que circula por aquí, es la que viene por este ramo. Entonces, ¿cómo podemos hacer para calcular la",
+      "gt_normalizado": "luego pues nos dicen cuál es el valor de la corriente i s y la corriente i s es la que circula por aquí es la que viene por este ramo entonces cómo podemos hacer para calcular la"
+    },
+    {
+      "sample_id": "clase03_seg0026",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0026.wav",
+      "inicio": 524.43,
+      "fin": 534.936,
+      "duracion_seg": 10.506,
+      "gt_original": "corriente $I_S$? Está de todas maneras sencilla gracias a que nosotros tenemos la potencia aparente de la carga total. Porque, porque si",
+      "gt_normalizado": "corriente i s está de todas maneras sencilla gracias a que nosotros tenemos la potencia aparente de la carga total porque porque si"
+    },
+    {
+      "sample_id": "clase03_seg0027",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0027.wav",
+      "inicio": 535.65,
+      "fin": 546.6,
+      "duracion_seg": 10.95,
+      "gt_original": "recordamos la $S$ de la carga total, ¿a cuánto es igual? Pues es igual al voltaje que ven las dos cargas",
+      "gt_normalizado": "recordamos la s de la carga total a cuánto es igual pues es igual al voltaje que ven las dos cargas"
+    },
+    {
+      "sample_id": "clase03_seg0028",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0028.wav",
+      "inicio": 547.32,
+      "fin": 557.79,
+      "duracion_seg": 10.47,
+      "gt_original": "multiplicado por el conjugado de la corriente. ¿Cuál es el voltaje que ven las dos cargas en paralelo? Son estos $250$. Entonces este voltaje de aquí es el voltaje de la carga. ¿Y cuál es la",
+      "gt_normalizado": "multiplicado por el conjugado de la corriente cuál es el voltaje que ven las dos cargas en paralelo son estos 250 entonces este voltaje de aquí es el voltaje de la carga y cuál es la"
+    },
+    {
+      "sample_id": "clase03_seg0029",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0029.wav",
+      "inicio": 559.32,
+      "fin": 583.879,
+      "duracion_seg": 24.559,
+      "gt_original": "corriente? La corriente es justamente esta $I_S$ que viene por aquí. Es decir, estas dos cargas están en paralelo, pero si sumamos la corriente $I_1$ y la corriente $I_2$ que circulan por ahí, nos da $I_S$. Entonces la carga total se la podría calcular directamente como el voltaje de las dos cargas —porque en ambas es el mismo, porque están en paralelo— y la corriente total que circula por las dos cargas, que viene a ser $I_S$, que obviamente se está",
+      "gt_normalizado": "corriente la corriente es justamente esta i s que viene por aquí es decir estas dos cargas están en paralelo pero si sumamos la corriente i 1 y la corriente i 2 que circulan por ahí nos da i s entonces la carga total se la podría calcular directamente como el voltaje de las dos cargas porque en ambas es el mismo porque están en paralelo y la corriente total que circula por las dos cargas que viene a ser i s que obviamente se está"
+    },
+    {
+      "sample_id": "clase03_seg0030",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0030.wav",
+      "inicio": 583.879,
+      "fin": 594.87,
+      "duracion_seg": 10.991,
+      "gt_original": "dividiendo entre $I_1$ e $I_2$. Lo importante es que podemos nosotros aquí despejar $I_S$. ¿Cuánto sería entonces $I_S$? Si despejamos $I_S$, el voltaje de la carga pasa al otro lado a dividir, y como está en",
+      "gt_normalizado": "dividiendo entre i 1 e i 2 lo importante es que podemos nosotros aquí despejar i s cuánto sería entonces i s si despejamos i s el voltaje de la carga pasa al otro lado a dividir y como está en"
+    },
+    {
+      "sample_id": "clase03_seg0031",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0031.wav",
+      "inicio": 598.955,
+      "fin": 610.32,
+      "duracion_seg": 11.365,
+      "gt_original": "conjugado, al despejar el conjugado quedaría esto. Entonces la corriente simplemente sería la $S$ total de la carga —que es $20000 j10000$",
+      "gt_normalizado": "conjugado al despejar el conjugado quedaría esto entonces la corriente simplemente sería la s total de la carga que es 20000 j10000"
+    },
+    {
+      "sample_id": "clase03_seg0032",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0032.wav",
+      "inicio": 616.77,
+      "fin": 634.23,
+      "duracion_seg": 17.46,
+      "gt_original": "en conjugado, que sería cambiado el signo de la parte imaginaria o cambiado el signo de la parte rectangular— dividido para el voltaje, que aquí vemos claramente que es $250\\text{ a 0^\\circ$. $250\\text{ a 0^\\circ$ es $250\\text{ real}$, entonces nos está quedando $20000$ divididos para $250$,",
+      "gt_normalizado": "en conjugado que sería cambiado el signo de la parte imaginaria o cambiado el signo de la parte rectangular dividido para el voltaje que aquí vemos claramente que es 250 text a 0 circ 250 text a 0 circ es 250 text real entonces nos está quedando 20000 divididos para 250"
+    },
+    {
+      "sample_id": "clase03_seg0033",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0033.wav",
+      "inicio": 635.79,
+      "fin": 656.16,
+      "duracion_seg": 20.37,
+      "gt_original": "lo cual nos daría $80$, ¿verdad?, j20$. Y eso pues habría que llevarlo a coordenadas polares. Déjenme hacer el cálculo rápidamente, sí, es $80 j40$. $80 j40$, y ahora si",
+      "gt_normalizado": "lo cual nos daría 80 verdad j20 y eso pues habría que llevarlo a coordenadas polares déjenme hacer el cálculo rápidamente sí es 80 j40 80 j40 y ahora si"
+    },
+    {
+      "sample_id": "clase03_seg0034",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0034.wav",
+      "inicio": 675.36,
+      "fin": 689.01,
+      "duracion_seg": 13.65,
+      "gt_original": "hacemos el cálculo de lo que deba ser... Y listo. Entonces, esto de aquí nos da $89.4427$",
+      "gt_normalizado": "hacemos el cálculo de lo que deba ser y listo entonces esto de aquí nos da 89 4427"
+    },
+    {
+      "sample_id": "clase03_seg0035",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0035.wav",
+      "inicio": 695.43,
+      "fin": 698.67,
+      "duracion_seg": 3.24,
+      "gt_original": "con un ángulo de $-26.5651^\\circ\\text{ A}$. Y ahí",
+      "gt_normalizado": "con un ángulo de 26 5651 circ text a y ahí"
+    },
+    {
+      "sample_id": "clase03_seg0036",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0036.wav",
+      "inicio": 710.491,
+      "fin": 727.78,
+      "duracion_seg": 17.289,
+      "gt_original": "tendríamos entonces la corriente total que circula por las cargas. Y por último, el ejercicio nos pide calcular las potencias de pérdida, es decir, la potencia de la línea. Habíamos dicho que la línea, la potencia que circula por la línea se está, en este caso, desaprovechando, la estamos perdiendo. En",
+      "gt_normalizado": "tendríamos entonces la corriente total que circula por las cargas y por último el ejercicio nos pide calcular las potencias de pérdida es decir la potencia de la línea habíamos dicho que la línea la potencia que circula por la línea se está en este caso desaprovechando la estamos perdiendo en"
+    },
+    {
+      "sample_id": "clase03_seg0037",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0037.wav",
+      "inicio": 728.31,
+      "fin": 748.35,
+      "duracion_seg": 20.04,
+      "gt_original": "este caso, dado que ya tenemos la corriente $I_S$, lo más sencillo es calcularlo como la norma de esto al cuadrado multiplicado por la resistencia de la línea. La norma de esta corriente al cuadrado pues sería $89.4427$ elevado al cuadrado y pues la resistencia vemos que es $0.05$.",
+      "gt_normalizado": "este caso dado que ya tenemos la corriente i s lo más sencillo es calcularlo como la norma de esto al cuadrado multiplicado por la resistencia de la línea la norma de esta corriente al cuadrado pues sería 89 4427 elevado al cuadrado y pues la resistencia vemos que es 0 05"
+    },
+    {
+      "sample_id": "clase03_seg0038",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0038.wav",
+      "inicio": 754.08,
+      "fin": 760.65,
+      "duracion_seg": 6.57,
+      "gt_original": "Y ya, calculamos esto de aquí y esto sale $400\\text{ W}$. Y listo, ahí",
+      "gt_normalizado": "y ya calculamos esto de aquí y esto sale 400 text w y listo ahí"
+    },
+    {
+      "sample_id": "clase03_seg0039",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0039.wav",
+      "inicio": 772.625,
+      "fin": 781.48,
+      "duracion_seg": 8.855,
+      "gt_original": "tendríamos hecho entonces el cálculo, ya habríamos terminado pues el problema de potencias complejas. ¿Preguntas al respecto? Y",
+      "gt_normalizado": "tendríamos hecho entonces el cálculo ya habríamos terminado pues el problema de potencias complejas preguntas al respecto y"
+    },
+    {
+      "sample_id": "clase03_seg0040",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0040.wav",
+      "inicio": 808.41,
+      "fin": 819.48,
+      "duracion_seg": 11.07,
+      "gt_original": "hablando de cosas que se me estaban olvidando, no olviden que el día de mañana tenemos lección, ¿no? ¿De qué capítulo? El día de mañana",
+      "gt_normalizado": "hablando de cosas que se me estaban olvidando no olviden que el día de mañana tenemos lección no de qué capítulo el día de mañana"
+    },
+    {
+      "sample_id": "clase03_seg0041",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0041.wav",
+      "inicio": 821.88,
+      "fin": 836.13,
+      "duracion_seg": 14.25,
+      "gt_original": "tenemos lección de laboratorio, de laboratorio. Sí. La materia es una sola, ¿no? No olviden que el día de mañana tenemos lección de laboratorio a las 9 de la noche.",
+      "gt_normalizado": "tenemos lección de laboratorio de laboratorio sí la materia es una sola no no olviden que el día de mañana tenemos lección de laboratorio a las 9 de la noche"
+    },
+    {
+      "sample_id": "clase03_seg0042",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0042.wav",
+      "inicio": 842.67,
+      "fin": 845.79,
+      "duracion_seg": 3.12,
+      "gt_original": "¿Mañana es 24, no? No se olviden, esto es",
+      "gt_normalizado": "mañana es 24 no no se olviden esto es"
+    },
+    {
+      "sample_id": "clase03_seg0043",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0043.wav",
+      "inicio": 851.49,
+      "fin": 860.49,
+      "duracion_seg": 9.0,
+      "gt_original": "para absolutamente toditos los paralelos de laboratorio. ¿Preguntas al respecto de esto de potencia compleja? ¿Avanzamos con el material? Muy bien.",
+      "gt_normalizado": "para absolutamente toditos los paralelos de laboratorio preguntas al respecto de esto de potencia compleja avanzamos con el material muy bien"
+    },
+    {
+      "sample_id": "clase03_seg0044",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0044.wav",
+      "inicio": 865.65,
+      "fin": 885.19,
+      "duracion_seg": 19.54,
+      "gt_original": "Profe, este ¿más o menos cómo sería la lección? De opción múltiple. La mayoría de problemas son de opción múltiple, son ejercicios chiquitos. Simplemente preguntas relacionadas con el laboratorio. Por ejemplo, cómo se mide corriente, cómo se mide voltaje; un",
+      "gt_normalizado": "profe este más o menos cómo sería la lección de opción múltiple la mayoría de problemas son de opción múltiple son ejercicios chiquitos simplemente preguntas relacionadas con el laboratorio por ejemplo cómo se mide corriente cómo se mide voltaje un"
+    },
+    {
+      "sample_id": "clase03_seg0045",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0045.wav",
+      "inicio": 905.22,
+      "fin": 911.38,
+      "duracion_seg": 6.16,
+      "gt_original": "ejercicio de un circuito pequeño en el que se coloca un ampedímetro, un voltímetro y digan cuánto es la corriente medida por el amperímetro, cuánto es el voltaje medido por el voltímetro, y así. Ah, ya, listo, gracias. Sí, la mayoría opción múltiple, pero sí hay un par de problemitas. Muy bien, entonces continuamos con el ejercicio... Estamos viendo potencia. Un",
+      "gt_normalizado": "ejercicio de un circuito pequeño en el que se coloca un ampedímetro un voltímetro y digan cuánto es la corriente medida por el amperímetro cuánto es el voltaje medido por el voltímetro y así ah ya listo gracias sí la mayoría opción múltiple pero sí hay un par de problemitas muy bien entonces continuamos con el ejercicio estamos viendo potencia un"
+    },
+    {
+      "sample_id": "clase03_seg0046",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0046.wav",
+      "inicio": 942.15,
+      "fin": 947.82,
+      "duracion_seg": 5.67,
+      "gt_original": "segundito, por favor, que no me acuerdo dónde dejé la... A ver, déjenme ver dónde dejé la",
+      "gt_normalizado": "segundito por favor que no me acuerdo dónde dejé la a ver déjenme ver dónde dejé la"
+    },
+    {
+      "sample_id": "clase03_seg0047",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0047.wav",
+      "inicio": 959.1,
+      "fin": 964.62,
+      "duracion_seg": 5.52,
+      "gt_original": "pizarra de hoy día. Ya. Muy bien, entonces ahora vamos a hacer un",
+      "gt_normalizado": "pizarra de hoy día ya muy bien entonces ahora vamos a hacer un"
+    },
+    {
+      "sample_id": "clase03_seg0048",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0048.wav",
+      "inicio": 1004.22,
+      "fin": 1026.66,
+      "duracion_seg": 22.44,
+      "gt_original": "análisis un poco más detallado de todo lo que corresponde a... todo lo que corresponde al factor de potencia y el tipo de cargas. Vamos a analizar qué significa el factor de potencia en primer lugar, y luego de eso pues vamos a analizar",
+      "gt_normalizado": "análisis un poco más detallado de todo lo que corresponde a todo lo que corresponde al factor de potencia y el tipo de cargas vamos a analizar qué significa el factor de potencia en primer lugar y luego de eso pues vamos a analizar"
+    },
+    {
+      "sample_id": "clase03_seg0049",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0049.wav",
+      "inicio": 1033.11,
+      "fin": 1043.31,
+      "duracion_seg": 10.2,
+      "gt_original": "cómo podemos nosotros hacer un mejoramiento del factor de potencia dependiendo de la situación en la que nos encontramos. Entonces, para esto",
+      "gt_normalizado": "cómo podemos nosotros hacer un mejoramiento del factor de potencia dependiendo de la situación en la que nos encontramos entonces para esto"
+    },
+    {
+      "sample_id": "clase03_seg0050",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0050.wav",
+      "inicio": 1044.06,
+      "fin": 1057.86,
+      "duracion_seg": 13.8,
+      "gt_original": "vamos nosotros a considerar, primeramente pues, una carga... pero antes vamos a ver el tipo de cargas. Existen ciertas cargas que se conocen como cargas capacitivas o cargas en adelante. Si",
+      "gt_normalizado": "vamos nosotros a considerar primeramente pues una carga pero antes vamos a ver el tipo de cargas existen ciertas cargas que se conocen como cargas capacitivas o cargas en adelante si"
+    },
+    {
+      "sample_id": "clase03_seg0051",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0051.wav",
+      "inicio": 1058.642,
+      "fin": 1080.296,
+      "duracion_seg": 21.654,
+      "gt_original": "recuerdan ustedes que la impedancia del capacitor es $-j \\times \\frac{1}{\\omega C}$. La impedancia del capacitor tiene siempre el signo negativo. Esto quiere decir que la amplitud de la impedancia del capacitor es $\\frac{1}{\\omega C}$ y el ángulo de $j$ es $90^\\circ$, el ángulo de $-j$ es $-90^\\circ$.",
+      "gt_normalizado": "recuerdan ustedes que la impedancia del capacitor es j times frac 1 omega c la impedancia del capacitor tiene siempre el signo negativo esto quiere decir que la amplitud de la impedancia del capacitor es frac 1 omega c y el ángulo de j es 90 circ el ángulo de j es 90 circ"
+    },
+    {
+      "sample_id": "clase03_seg0052",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0052.wav",
+      "inicio": 1083.96,
+      "fin": 1094.25,
+      "duracion_seg": 10.29,
+      "gt_original": "Eso quiere decir que el factor de potencia de una carga puramente capacitiva, o sea un capacitor purito, tendría que ser coseno de $-90^\\circ$,",
+      "gt_normalizado": "eso quiere decir que el factor de potencia de una carga puramente capacitiva o sea un capacitor purito tendría que ser coseno de 90 circ"
+    },
+    {
+      "sample_id": "clase03_seg0053",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0053.wav",
+      "inicio": 1095.63,
+      "fin": 1109.22,
+      "duracion_seg": 13.59,
+      "gt_original": "lo cual nos da $0$. Si hay alguna carga que tiene factor de potencia en adelante, eso significa inmediatamente que el ángulo de dicha carga",
+      "gt_normalizado": "lo cual nos da 0 si hay alguna carga que tiene factor de potencia en adelante eso significa inmediatamente que el ángulo de dicha carga"
+    },
+    {
+      "sample_id": "clase03_seg0054",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0054.wav",
+      "inicio": 1109.73,
+      "fin": 1127.82,
+      "duracion_seg": 18.09,
+      "gt_original": "es negativo. Pero la única forma de que el ángulo de la carga sea negativo es que haya un capacitor involucrado dentro de la carga, es decir, que la carga podría estar compuesta por una resistencia y un capacitor, o una resistencia y un capacitor. Debe haber un capacitor metido allí, porque el capacitor es el responsable de que el signo se vuelva negativo.",
+      "gt_normalizado": "es negativo pero la única forma de que el ángulo de la carga sea negativo es que haya un capacitor involucrado dentro de la carga es decir que la carga podría estar compuesta por una resistencia y un capacitor o una resistencia y un capacitor debe haber un capacitor metido allí porque el capacitor es el responsable de que el signo se vuelva negativo"
+    },
+    {
+      "sample_id": "clase03_seg0055",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0055.wav",
+      "inicio": 1129.98,
+      "fin": 1141.62,
+      "duracion_seg": 11.64,
+      "gt_original": "Entonces por eso siempre que nosotros tengamos cargas en adelante, también se le suele llamar como carga capacitiva o en adelante, porque el capacitor es el responsable de que el signo sea negativo. O sea, aquí",
+      "gt_normalizado": "entonces por eso siempre que nosotros tengamos cargas en adelante también se le suele llamar como carga capacitiva o en adelante porque el capacitor es el responsable de que el signo sea negativo o sea aquí"
+    },
+    {
+      "sample_id": "clase03_seg0056",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0056.wav",
+      "inicio": 1142.01,
+      "fin": 1159.11,
+      "duracion_seg": 17.1,
+      "gt_original": "tenemos el ejemplo... el ejemplo clásico de una fuente que representa el generador, una línea, y la carga como tal. Aquí estamos haciendo un ejemplo con números ya, a la fuente pues $120\\text{ a 0^\\circ$, la línea de $0.1 j0.4$",
+      "gt_normalizado": "tenemos el ejemplo el ejemplo clásico de una fuente que representa el generador una línea y la carga como tal aquí estamos haciendo un ejemplo con números ya a la fuente pues 120 text a 0 circ la línea de 0 1 j0 4"
+    },
+    {
+      "sample_id": "clase03_seg0057",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0057.wav",
+      "inicio": 1159.98,
+      "fin": 1176.4,
+      "duracion_seg": 16.42,
+      "gt_original": "y pues la carga que vale $5$ y un resistor en serie con un capacitor, $5$ y el capacitor $-j5$ de impedancia. Nos vamos repasando lo que el cálculo pues de la potencia activa, la potencia reactiva, el factor de potencia y la potencia aparente. En",
+      "gt_normalizado": "y pues la carga que vale 5 y un resistor en serie con un capacitor 5 y el capacitor j5 de impedancia nos vamos repasando lo que el cálculo pues de la potencia activa la potencia reactiva el factor de potencia y la potencia aparente en"
+    },
+    {
+      "sample_id": "clase03_seg0058",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0058.wav",
+      "inicio": 1178.664,
+      "fin": 1189.56,
+      "duracion_seg": 10.896,
+      "gt_original": "este caso pues, si nosotros quisiéramos hacer el cálculo de las potencias partiendo de la corriente, lo primero que tendremos que calcular es precisamente la corriente, la corriente que circula por todo el circuito. Y pues,",
+      "gt_normalizado": "este caso pues si nosotros quisiéramos hacer el cálculo de las potencias partiendo de la corriente lo primero que tendremos que calcular es precisamente la corriente la corriente que circula por todo el circuito y pues"
+    },
+    {
+      "sample_id": "clase03_seg0059",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0059.wav",
+      "inicio": 1190.749,
+      "fin": 1203.23,
+      "duracion_seg": 12.482,
+      "gt_original": "la corriente que circula por todo el circuito sería la fuente, que es $120\\text{ a 0^\\circ$, dividido para la impedancia total. La impedancia total sería la suma de la impedancia de la línea con la impedancia de la carga: $0.1 5 5.1$, $0.4 j5 -j4.6$.",
+      "gt_normalizado": "la corriente que circula por todo el circuito sería la fuente que es 120 text a 0 circ dividido para la impedancia total la impedancia total sería la suma de la impedancia de la línea con la impedancia de la carga 0 1 5 5 1 0 4 j5 j4 6"
+    },
+    {
+      "sample_id": "clase03_seg0060",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0060.wav",
+      "inicio": 1208.28,
+      "fin": 1220.55,
+      "duracion_seg": 12.27,
+      "gt_original": "Y este sería por tanto el valor de la corriente. ¿Qué más necesito para poder hacer los cálculos de la potencia en la carga?, porque nos piden en la carga. El voltaje en los terminales de la carga, es decir, el voltaje aquí en este punto de aquí y la",
+      "gt_normalizado": "y este sería por tanto el valor de la corriente qué más necesito para poder hacer los cálculos de la potencia en la carga porque nos piden en la carga el voltaje en los terminales de la carga es decir el voltaje aquí en este punto de aquí y la"
+    },
+    {
+      "sample_id": "clase03_seg0061",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0061.wav",
+      "inicio": 1220.94,
+      "fin": 1233.48,
+      "duracion_seg": 12.54,
+      "gt_original": "tierra, o este voltaje que está en esta carga, que es lo mismo. Entonces, dado que ya tengo la corriente, para calcular el voltaje solamente me falta multiplicar",
+      "gt_normalizado": "tierra o este voltaje que está en esta carga que es lo mismo entonces dado que ya tengo la corriente para calcular el voltaje solamente me falta multiplicar"
+    },
+    {
+      "sample_id": "clase03_seg0062",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0062.wav",
+      "inicio": 1233.99,
+      "fin": 1249.982,
+      "duracion_seg": 15.992,
+      "gt_original": "esto por la corriente como tal, ¿no? La podemos a ver si en este caso aquí está hecho usar un divisor de voltaje. El voltaje de las fuentes se está dividiendo entre las dos impedancias: la impedancia que está aquí, que es $5 j5$, dividido por la impedancia total, que es $5.1 j4.6$.",
+      "gt_normalizado": "esto por la corriente como tal no la podemos a ver si en este caso aquí está hecho usar un divisor de voltaje el voltaje de las fuentes se está dividiendo entre las dos impedancias la impedancia que está aquí que es 5 j5 dividido por la impedancia total que es 5 1 j4 6"
+    },
+    {
+      "sample_id": "clase03_seg0063",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0063.wav",
+      "inicio": 1251.84,
+      "fin": 1268.94,
+      "duracion_seg": 17.1,
+      "gt_original": "Eso nos da pues este valor, y ella es tanto el voltaje de la carga como la corriente de la carga. En este caso pues, nos damos cuenta de que el ángulo de la corriente es $42.049^\\circ$ y el ángulo del voltaje es $-2.95^\\circ$. Es",
+      "gt_normalizado": "eso nos da pues este valor y ella es tanto el voltaje de la carga como la corriente de la carga en este caso pues nos damos cuenta de que el ángulo de la corriente es 42 049 circ y el ángulo del voltaje es 2 95 circ es"
+    },
+    {
+      "sample_id": "clase03_seg0064",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0064.wav",
+      "inicio": 1269.961,
+      "fin": 1280.82,
+      "duracion_seg": 10.859,
+      "gt_original": "decir, el ángulo de la corriente es más grande que el ángulo del voltaje, lo cual ya lo esperábamos. Verdad, hacia un capacitor la carga esté más adelante, es decir, que esté en adelante. Es que la corriente adelanta",
+      "gt_normalizado": "decir el ángulo de la corriente es más grande que el ángulo del voltaje lo cual ya lo esperábamos verdad hacia un capacitor la carga esté más adelante es decir que esté en adelante es que la corriente adelanta"
+    },
+    {
+      "sample_id": "clase03_seg0065",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0065.wav",
+      "inicio": 1281.54,
+      "fin": 1292.25,
+      "duracion_seg": 10.71,
+      "gt_original": "al voltaje. En el diagrama fasorial, adelanta quiere decir que en el sentido de la rotación el fasor de corriente tiene un ángulo superior al fasor de voltaje. ¿Cuál es el ángulo de diferencia? Los $45^\\circ$,",
+      "gt_normalizado": "al voltaje en el diagrama fasorial adelanta quiere decir que en el sentido de la rotación el fasor de corriente tiene un ángulo superior al fasor de voltaje cuál es el ángulo de diferencia los 45 circ"
+    },
+    {
+      "sample_id": "clase03_seg0066",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0066.wav",
+      "inicio": 1294.045,
+      "fin": 1311.13,
+      "duracion_seg": 17.085,
+      "gt_original": "porque ese es el ángulo de la carga. La carga es $5 j5$, que sería una magnitud de $5\\sqrt{2}$ y un ángulo de $-45^\\circ$. Esa es la situación que tenemos en el momento. Si calculamos la potencia activa sería la norma de la corriente al cuadrado por la resistencia, que es $5$, y la reactiva la norma de la corriente al cuadrado por $-5$,",
+      "gt_normalizado": "porque ese es el ángulo de la carga la carga es 5 j5 que sería una magnitud de 5 sqrt 2 y un ángulo de 45 circ esa es la situación que tenemos en el momento si calculamos la potencia activa sería la norma de la corriente al cuadrado por la resistencia que es 5 y la reactiva la norma de la corriente al cuadrado por 5"
+    },
+    {
+      "sample_id": "clase03_seg0067",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0067.wav",
+      "inicio": 1316.55,
+      "fin": 1338.63,
+      "duracion_seg": 22.08,
+      "gt_original": "que es la reactancia. Y ahí nos damos cuenta de algo interesante: la potencia activa que se consume es $1.5\\text{ kW}$, pero la potencia reactiva que se consume es $-1.5\\text{ kVAR}$, es decir que esta carga está entregando potencia reactiva. Esta",
+      "gt_normalizado": "que es la reactancia y ahí nos damos cuenta de algo interesante la potencia activa que se consume es 1 5 text kw pero la potencia reactiva que se consume es 1 5 text kvar es decir que esta carga está entregando potencia reactiva esta"
+    },
+    {
+      "sample_id": "clase03_seg0068",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0068.wav",
+      "inicio": 1347.18,
+      "fin": 1361.5,
+      "duracion_seg": 14.32,
+      "gt_original": "carga entrega potencia reactiva. Si queremos la potencia compleja, obviamente es la composición del número complejo de la activa que es la parte real y la parte imaginaria que es la reactiva. Obviamente el número de la potencia compleja ya sabemos el ángulo, es el mismo que era delante de la carga. El",
+      "gt_normalizado": "carga entrega potencia reactiva si queremos la potencia compleja obviamente es la composición del número complejo de la activa que es la parte real y la parte imaginaria que es la reactiva obviamente el número de la potencia compleja ya sabemos el ángulo es el mismo que era delante de la carga el"
+    },
+    {
+      "sample_id": "clase03_seg0069",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0069.wav",
+      "inicio": 1361.88,
+      "fin": 1378.08,
+      "duracion_seg": 16.2,
+      "gt_original": "factor de potencia sería a $0.7071$ en adelante. Pero lo más importante de todo esto es que esta carga entrega potencia reactiva. ¿Qué era la potencia reactiva? De la clase de potencia, ¿qué hemos dicho que era esa Q? ¿Cuál es el significado físico de Q?",
+      "gt_normalizado": "factor de potencia sería a 0 7071 en adelante pero lo más importante de todo esto es que esta carga entrega potencia reactiva qué era la potencia reactiva de la clase de potencia qué hemos dicho que era esa q cuál es el significado físico de q"
+    },
+    {
+      "sample_id": "clase03_seg0070",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0070.wav",
+      "inicio": 1383.48,
+      "fin": 1394.94,
+      "duracion_seg": 11.46,
+      "gt_original": "La amplitud de la señal sinusoidal, simplemente pues en la carga la forma de la potencia instantánea... sinusoidal la forma de la potencia instantánea",
+      "gt_normalizado": "la amplitud de la señal sinusoidal simplemente pues en la carga la forma de la potencia instantánea sinusoidal la forma de la potencia instantánea"
+    },
+    {
+      "sample_id": "clase03_seg0071",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0071.wav",
+      "inicio": 1398.841,
+      "fin": 1411.23,
+      "duracion_seg": 12.389,
+      "gt_original": "específicamente en capacitores e inductores es puramente sinusoidal, y es la amplitud. Entonces, que sean negativos no tiene mucho mucha importancia desde el punto de vista de esto, simplemente quiere decir que está...",
+      "gt_normalizado": "específicamente en capacitores e inductores es puramente sinusoidal y es la amplitud entonces que sean negativos no tiene mucho mucha importancia desde el punto de vista de esto simplemente quiere decir que está"
+    },
+    {
+      "sample_id": "clase03_seg0072",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0072.wav",
+      "inicio": 1412.01,
+      "fin": 1423.29,
+      "duracion_seg": 11.28,
+      "gt_original": "la potencia del capacitor y la del inductor no están en fase, sino que hay un desfase de $180^\\circ$. Sin embargo, que sea esta negativa con respecto al inductor que es positiva, existe una ventaja,",
+      "gt_normalizado": "la potencia del capacitor y la del inductor no están en fase sino que hay un desfase de 180 circ sin embargo que sea esta negativa con respecto al inductor que es positiva existe una ventaja"
+    },
+    {
+      "sample_id": "clase03_seg0073",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0073.wav",
+      "inicio": 1423.89,
+      "fin": 1436.55,
+      "duracion_seg": 12.66,
+      "gt_original": "porque la carga capacitiva la podemos utilizar para proveer la potencia reactiva que necesita la carga inductiva. Entonces podemos utilizar este truquito para reducir la carga neta que está siendo vista,",
+      "gt_normalizado": "porque la carga capacitiva la podemos utilizar para proveer la potencia reactiva que necesita la carga inductiva entonces podemos utilizar este truquito para reducir la carga neta que está siendo vista"
+    },
+    {
+      "sample_id": "clase03_seg0074",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0074.wav",
+      "inicio": 1436.91,
+      "fin": 1451.22,
+      "duracion_seg": 14.31,
+      "gt_original": "porque la impedancia del capacitor se cancela con la impedancia del inductor. Pero en todo caso recuerden, siempre, absolutamente siempre, si nosotros tenemos una carga en adelante, la carga lo que va a hacer es consumir potencia activa y va a entregar potencia reactiva.",
+      "gt_normalizado": "porque la impedancia del capacitor se cancela con la impedancia del inductor pero en todo caso recuerden siempre absolutamente siempre si nosotros tenemos una carga en adelante la carga lo que va a hacer es consumir potencia activa y va a entregar potencia reactiva"
+    },
+    {
+      "sample_id": "clase03_seg0075",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0075.wav",
+      "inicio": 1453.92,
+      "fin": 1464.93,
+      "duracion_seg": 11.01,
+      "gt_original": "¿Qué ocurre con una carga en atraso, o una carga inductiva? Podemos una idea similar. Aquí tenemos la fuente, la línea y la carga inductiva.",
+      "gt_normalizado": "qué ocurre con una carga en atraso o una carga inductiva podemos una idea similar aquí tenemos la fuente la línea y la carga inductiva"
+    },
+    {
+      "sample_id": "clase03_seg0076",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0076.wav",
+      "inicio": 1466.7,
+      "fin": 1477.74,
+      "duracion_seg": 11.04,
+      "gt_original": "La carga inductiva de $3 j4$, la misma impedancia de línea, y hacemos el cálculo de la misma manera: el voltaje lo podemos calcular como el divisor de voltaje, de los $120$ dividido entre las dos impedancias, $3$ bajo y $4$ arriba, y la suma abajo, ¿no? Y no sea esto; y la corriente pues como el voltaje dividido por la suma de las impedancias.",
+      "gt_normalizado": "la carga inductiva de 3 j4 la misma impedancia de línea y hacemos el cálculo de la misma manera el voltaje lo podemos calcular como el divisor de voltaje de los 120 dividido entre las dos impedancias 3 bajo y 4 arriba y la suma abajo no y no sea esto y la corriente pues como el voltaje dividido por la suma de las impedancias"
+    },
+    {
+      "sample_id": "clase03_seg0077",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0077.wav",
+      "inicio": 1482.39,
+      "fin": 1495.71,
+      "duracion_seg": 13.32,
+      "gt_original": "Ahora, el ángulo de la corriente es $-54^\\circ$ y el ángulo del voltaje es $-1.70^\\circ$. Este número de aquí es más negativo, es decir, que la corriente tiene menor ángulo que el voltaje. La corriente atrasa al voltaje. En el",
+      "gt_normalizado": "ahora el ángulo de la corriente es 54 circ y el ángulo del voltaje es 1 70 circ este número de aquí es más negativo es decir que la corriente tiene menor ángulo que el voltaje la corriente atrasa al voltaje en el"
+    },
+    {
+      "sample_id": "clase03_seg0078",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0078.wav",
+      "inicio": 1496.43,
+      "fin": 1508.79,
+      "duracion_seg": 12.36,
+      "gt_original": "diagrama fasorial, el fasor de corriente está antes que el fasor de voltaje, como atrasándose. Y eso tiene sentido así porque el ángulo que lo separa es $53.13^\\circ$, que justamente es el ángulo de la impedancia.",
+      "gt_normalizado": "diagrama fasorial el fasor de corriente está antes que el fasor de voltaje como atrasándose y eso tiene sentido así porque el ángulo que lo separa es 53 13 circ que justamente es el ángulo de la impedancia"
+    },
+    {
+      "sample_id": "clase03_seg0079",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0079.wav",
+      "inicio": 1510.26,
+      "fin": 1525.83,
+      "duracion_seg": 15.57,
+      "gt_original": "La potencia activa nos va a dar la corriente por la resistencia y la reactiva la corriente al cuadrado multiplicado por las reactancias, ¿no?, que en este caso es $4$. Aquí consumimos potencia activa y también consumimos potencia reactiva,",
+      "gt_normalizado": "la potencia activa nos va a dar la corriente por la resistencia y la reactiva la corriente al cuadrado multiplicado por las reactancias no que en este caso es 4 aquí consumimos potencia activa y también consumimos potencia reactiva"
+    },
+    {
+      "sample_id": "clase03_seg0080",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0080.wav",
+      "inicio": 1526.28,
+      "fin": 1543.236,
+      "duracion_seg": 16.956,
+      "gt_original": "lo cual es una característica de las cargas en atraso. Si una carga es en atraso, quiere decir que de ley en algún lado tiene inductores, es una carga inductiva o en atraso. La compleja pues es la composición de las dos potencias y el factor de potencia sabemos que es el mismo ángulo, el de la potencia compleja que el de la impedancia, y",
+      "gt_normalizado": "lo cual es una característica de las cargas en atraso si una carga es en atraso quiere decir que de ley en algún lado tiene inductores es una carga inductiva o en atraso la compleja pues es la composición de las dos potencias y el factor de potencia sabemos que es el mismo ángulo el de la potencia compleja que el de la impedancia y"
+    },
+    {
+      "sample_id": "clase03_seg0081",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0081.wav",
+      "inicio": 1544.31,
+      "fin": 1552.2,
+      "duracion_seg": 7.89,
+      "gt_original": "sería $0.6$ en atraso en este caso. ¿Qué otro tipo de carga existe? La carga que se conoce como carga puramente resistiva.",
+      "gt_normalizado": "sería 0 6 en atraso en este caso qué otro tipo de carga existe la carga que se conoce como carga puramente resistiva"
+    },
+    {
+      "sample_id": "clase03_seg0082",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0082.wav",
+      "inicio": 1558.05,
+      "fin": 1573.41,
+      "duracion_seg": 15.36,
+      "gt_original": "Es la carga puramente resistiva pues una carga puramente resistiva está compuesta sólo por un resistor. En este caso pues el cálculo se hace de la misma manera, la diferencia es que el ángulo del voltaje y el ángulo de la corriente nos van a dar iguales,",
+      "gt_normalizado": "es la carga puramente resistiva pues una carga puramente resistiva está compuesta sólo por un resistor en este caso pues el cálculo se hace de la misma manera la diferencia es que el ángulo del voltaje y el ángulo de la corriente nos van a dar iguales"
+    },
+    {
+      "sample_id": "clase03_seg0083",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0083.wav",
+      "inicio": 1574.04,
+      "fin": 1591.2,
+      "duracion_seg": 17.16,
+      "gt_original": "porque, porque el ángulo de la impedancia en este caso es $0^\\circ$, porque la resistencia, esa impedancia, recuerden que sólo tiene parte real. Un número real puro tiene unos ángulos de $0^\\circ$.",
+      "gt_normalizado": "porque porque el ángulo de la impedancia en este caso es 0 circ porque la resistencia esa impedancia recuerden que sólo tiene parte real un número real puro tiene unos ángulos de 0 circ"
+    },
+    {
+      "sample_id": "clase03_seg0084",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0084.wav",
+      "inicio": 1591.89,
+      "fin": 1602.12,
+      "duracion_seg": 10.23,
+      "gt_original": "Entonces recuerden que eso es en la diferencia de ángulo entre el voltaje y la corriente, es decir que el ángulo del voltaje debe ser igual que el ángulo de la corriente, como vemos aquí, están en fase.",
+      "gt_normalizado": "entonces recuerden que eso es en la diferencia de ángulo entre el voltaje y la corriente es decir que el ángulo del voltaje debe ser igual que el ángulo de la corriente como vemos aquí están en fase"
+    },
+    {
+      "sample_id": "clase03_seg0085",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0085.wav",
+      "inicio": 1605.06,
+      "fin": 1616.88,
+      "duracion_seg": 11.82,
+      "gt_original": "El diagrama fasorial pues tiene los dos... los dos factores con la misma... con el mismo ángulo. La potencia activa sería toda la potencia y la reactiva sería cero. La potencia compleja",
+      "gt_normalizado": "el diagrama fasorial pues tiene los dos los dos factores con la misma con el mismo ángulo la potencia activa sería toda la potencia y la reactiva sería cero la potencia compleja"
+    },
+    {
+      "sample_id": "clase03_seg0086",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0086.wav",
+      "inicio": 1617.45,
+      "fin": 1631.61,
+      "duracion_seg": 14.16,
+      "gt_original": "sería un número real de hecho. Y el factor de potencia sería uno. ¿Qué característica tiene el factor de potencia de las cargas puramente resistivas?, que al ser uno no está en adelante o atrás, simplemente es uno. Este es un",
+      "gt_normalizado": "sería un número real de hecho y el factor de potencia sería uno qué característica tiene el factor de potencia de las cargas puramente resistivas que al ser uno no está en adelante o atrás simplemente es uno este es un"
+    },
+    {
+      "sample_id": "clase03_seg0087",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0087.wav",
+      "inicio": 1633.11,
+      "fin": 1644.66,
+      "duracion_seg": 11.55,
+      "gt_original": "valor ideal, esto es lo que idealmente nosotros quisiéramos. Quisiéramos que toda la potencia se esté utilizando en la carga, en que el resistor es el único que consume potencia. Entonces",
+      "gt_normalizado": "valor ideal esto es lo que idealmente nosotros quisiéramos quisiéramos que toda la potencia se esté utilizando en la carga en que el resistor es el único que consume potencia entonces"
+    },
+    {
+      "sample_id": "clase03_seg0088",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0088.wav",
+      "inicio": 1645.35,
+      "fin": 1661.08,
+      "duracion_seg": 15.73,
+      "gt_original": "idealmente nosotros queremos que toda la energía que estamos poniendo se convierta en potencia que está siendo aprovechada por el resistor. La potencia reactiva, ¿para qué se utiliza? Hemos hablado que es el pico de la potencia de la señal de la onda de potencia del capacitor y el inductor, y",
+      "gt_normalizado": "idealmente nosotros queremos que toda la energía que estamos poniendo se convierta en potencia que está siendo aprovechada por el resistor la potencia reactiva para qué se utiliza hemos hablado que es el pico de la potencia de la señal de la onda de potencia del capacitor y el inductor y"
+    },
+    {
+      "sample_id": "clase03_seg0089",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0089.wav",
+      "inicio": 1661.611,
+      "fin": 1675.08,
+      "duracion_seg": 13.469,
+      "gt_original": "es la que se utiliza para crear, para mantener el campo eléctrico del capacitor y el campo magnético del inductor. Entonces no se aprovecha directamente para convertirse en energía aprovechada por la carga, sino que se utiliza para mantener",
+      "gt_normalizado": "es la que se utiliza para crear para mantener el campo eléctrico del capacitor y el campo magnético del inductor entonces no se aprovecha directamente para convertirse en energía aprovechada por la carga sino que se utiliza para mantener"
+    },
+    {
+      "sample_id": "clase03_seg0090",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0090.wav",
+      "inicio": 1675.74,
+      "fin": 1688.752,
+      "duracion_seg": 13.012,
+      "gt_original": "el campo magnético del inductor y el campo eléctrico del capacitor. Ustedes dirán: \"Bueno, ¿pero para qué sirve eso?\". El campo eléctrico del capacitor sirve para guardar energía, el campo magnético del inductor sirve para mover, para hacerlo",
+      "gt_normalizado": "el campo magnético del inductor y el campo eléctrico del capacitor ustedes dirán bueno pero para qué sirve eso el campo eléctrico del capacitor sirve para guardar energía el campo magnético del inductor sirve para mover para hacerlo"
+    },
+    {
+      "sample_id": "clase03_seg0091",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0091.wav",
+      "inicio": 1689.48,
+      "fin": 1704.39,
+      "duracion_seg": 14.91,
+      "gt_original": "el enlace magnético que utilizan los transformadores eléctricos o los motores eléctricos. También tenemos el motor eléctrico, para poder rotar tiene que haber un enlace magnético entre el rotor y el estator. Pero, ¿cómo crea ese campo magnético? Un campo magnético depende de una corriente.",
+      "gt_normalizado": "el enlace magnético que utilizan los transformadores eléctricos o los motores eléctricos también tenemos el motor eléctrico para poder rotar tiene que haber un enlace magnético entre el rotor y el estator pero cómo crea ese campo magnético un campo magnético depende de una corriente"
+    },
+    {
+      "sample_id": "clase03_seg0092",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0092.wav",
+      "inicio": 1704.87,
+      "fin": 1715.67,
+      "duracion_seg": 10.8,
+      "gt_original": "Entonces eso de ahí representa la potencia reactiva. A más de ser el pico de potencia que me representa toda la energía que necesitamos para mantener el campo magnético o el campo eléctrico en estos",
+      "gt_normalizado": "entonces eso de ahí representa la potencia reactiva a más de ser el pico de potencia que me representa toda la energía que necesitamos para mantener el campo magnético o el campo eléctrico en estos"
+    },
+    {
+      "sample_id": "clase03_seg0093",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0093.wav",
+      "inicio": 1716.06,
+      "fin": 1729.83,
+      "duracion_seg": 13.77,
+      "gt_original": "dispositivos, capacitores e inductor. Pero no es energía que se está aprovechando. Tenemos que ponerle así, o sea, y si esa inductancia del motor no la podemos quitar, si no tuviera eso inductancia pues no rotaría el motor.",
+      "gt_normalizado": "dispositivos capacitores e inductor pero no es energía que se está aprovechando tenemos que ponerle así o sea y si esa inductancia del motor no la podemos quitar si no tuviera eso inductancia pues no rotaría el motor"
+    },
+    {
+      "sample_id": "clase03_seg0094",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0094.wav",
+      "inicio": 1730.7,
+      "fin": 1744.62,
+      "duracion_seg": 13.92,
+      "gt_original": "Entonces necesitamos colocarlo aunque no lo estemos aprovechando en conversión de energía. Vamos a hacer un pequeño análisis rápido de qué es lo que existe, cuál es la carga más común que nosotros vamos a encontrar.",
+      "gt_normalizado": "entonces necesitamos colocarlo aunque no lo estemos aprovechando en conversión de energía vamos a hacer un pequeño análisis rápido de qué es lo que existe cuál es la carga más común que nosotros vamos a encontrar"
+    },
+    {
+      "sample_id": "clase03_seg0095",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0095.wav",
+      "inicio": 1747.32,
+      "fin": 1759.53,
+      "duracion_seg": 12.21,
+      "gt_original": "Digamos en residencias e industrias, ¿qué es mucho más común, cargas inductivas o cargas capacitivas? Digamos esto que está aquí es una bomba que dentro de sí tiene un motorcito.",
+      "gt_normalizado": "digamos en residencias e industrias qué es mucho más común cargas inductivas o cargas capacitivas digamos esto que está aquí es una bomba que dentro de sí tiene un motorcito"
+    },
+    {
+      "sample_id": "clase03_seg0096",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0096.wav",
+      "inicio": 1760.79,
+      "fin": 1770.87,
+      "duracion_seg": 10.08,
+      "gt_original": "Y el motorcito de la bomba es lo que se conoce como motor AC, motor de corriente alterna. ¿En dónde además tenemos nosotros motores de corriente alterna? Son motores que operan",
+      "gt_normalizado": "y el motorcito de la bomba es lo que se conoce como motor ac motor de corriente alterna en dónde además tenemos nosotros motores de corriente alterna son motores que operan"
+    },
+    {
+      "sample_id": "clase03_seg0097",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0097.wav",
+      "inicio": 1771.71,
+      "fin": 1783.692,
+      "duracion_seg": 11.982,
+      "gt_original": "obviamente con alimentación alterna, ¿no? Como por ejemplo los $120\\text{ V}$ AC que tenemos nosotros en el tomacorriente de las casas.",
+      "gt_normalizado": "obviamente con alimentación alterna no como por ejemplo los 120 text v ac que tenemos nosotros en el tomacorriente de las casas"
+    },
+    {
+      "sample_id": "clase03_seg0098",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0098.wav",
+      "inicio": 1784.16,
+      "fin": 1798.83,
+      "duracion_seg": 14.67,
+      "gt_original": "Motores vamos a encontrar en las bombas, vamos a encontrar en los compresores, en las bandas transportadoras —las bandas transportadoras siempre va a haber un motor que hay que realizar la rotación de la banda, ¿no?, donde se llevan las cositas dentro de la industria—,",
+      "gt_normalizado": "motores vamos a encontrar en las bombas vamos a encontrar en los compresores en las bandas transportadoras las bandas transportadoras siempre va a haber un motor que hay que realizar la rotación de la banda no donde se llevan las cositas dentro de la industria"
+    },
+    {
+      "sample_id": "clase03_seg0099",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0099.wav",
+      "inicio": 1800.96,
+      "fin": 1814.07,
+      "duracion_seg": 13.11,
+      "gt_original": "cortadoras, licuadoras, grúas. Es la carga más común que nosotros vamos a encontrar en la industria y también de hecho en residencias, porque obviamente los compresores están en los refrigeradores y en los aires acondicionados. ¿Cuál es",
+      "gt_normalizado": "cortadoras licuadoras grúas es la carga más común que nosotros vamos a encontrar en la industria y también de hecho en residencias porque obviamente los compresores están en los refrigeradores y en los aires acondicionados cuál es"
+    },
+    {
+      "sample_id": "clase03_seg0100",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0100.wav",
+      "inicio": 1815.213,
+      "fin": 1834.83,
+      "duracion_seg": 19.617,
+      "gt_original": "el modelo equivalente de un motor de corriente alterna? Hecho con los circuitos, no son más que modelos matemáticos. ¿Cuál es el modelo matemático del motor de corriente alterna? En este que estamos viendo aquí, si se dan cuenta que tenemos resistencias e inductancia principalmente. Entonces la carga del motor es de hecho inductiva, es lógico, ¿no? Necesitamos justamente inductores para poder",
+      "gt_normalizado": "el modelo equivalente de un motor de corriente alterna hecho con los circuitos no son más que modelos matemáticos cuál es el modelo matemático del motor de corriente alterna en este que estamos viendo aquí si se dan cuenta que tenemos resistencias e inductancia principalmente entonces la carga del motor es de hecho inductiva es lógico no necesitamos justamente inductores para poder"
+    },
+    {
+      "sample_id": "clase03_seg0101",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0101.wav",
+      "inicio": 1835.19,
+      "fin": 1851.1,
+      "duracion_seg": 15.91,
+      "gt_original": "hacer el enlace magnético entre el rotor y el estator, y que dé vueltas el motor. ¿Qué es lo que más tenemos? Eso digamos en industrias y en el hogar, es lo que más vamos a encontrar: son motores de corriente alterna, es decir que la carga va a ser principalmente de tipo inductivo. ¿Y",
+      "gt_normalizado": "hacer el enlace magnético entre el rotor y el estator y que dé vueltas el motor qué es lo que más tenemos eso digamos en industrias y en el hogar es lo que más vamos a encontrar son motores de corriente alterna es decir que la carga va a ser principalmente de tipo inductivo y"
+    },
+    {
+      "sample_id": "clase03_seg0102",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0102.wav",
+      "inicio": 1852.11,
+      "fin": 1863.39,
+      "duracion_seg": 11.28,
+      "gt_original": "ahora cómo llega la energía hasta la industria, la residencia? Realmente tenemos que utilizar una línea, una línea que lleva la energía, que lleva la corriente desde donde están los generadores",
+      "gt_normalizado": "ahora cómo llega la energía hasta la industria la residencia realmente tenemos que utilizar una línea una línea que lleva la energía que lleva la corriente desde donde están los generadores"
+    },
+    {
+      "sample_id": "clase03_seg0103",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0103.wav",
+      "inicio": 1865.04,
+      "fin": 1877.94,
+      "duracion_seg": 12.9,
+      "gt_original": "hasta la carga, que llega... llega algún momento hasta la carga. Esos cablecitos existen de dos tipos: el que se conoce como transmisión y el que se conoce como distribución.",
+      "gt_normalizado": "hasta la carga que llega llega algún momento hasta la carga esos cablecitos existen de dos tipos el que se conoce como transmisión y el que se conoce como distribución"
+    },
+    {
+      "sample_id": "clase03_seg0104",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0104.wav",
+      "inicio": 1878.57,
+      "fin": 1889.79,
+      "duracion_seg": 11.22,
+      "gt_original": "Básicamente transmisión es cuando hablamos de voltajes mucho más grandes, en distribución encontramos voltajes grandes pero un poco menos grandes. En transmisión el voltaje por ejemplo puede ser $230\\text{ mil}$ y $30\\text{ mil}$",
+      "gt_normalizado": "básicamente transmisión es cuando hablamos de voltajes mucho más grandes en distribución encontramos voltajes grandes pero un poco menos grandes en transmisión el voltaje por ejemplo puede ser 230 text mil y 30 text mil"
+    },
+    {
+      "sample_id": "clase03_seg0105",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0105.wav",
+      "inicio": 1890.42,
+      "fin": 1909.17,
+      "duracion_seg": 18.75,
+      "gt_original": "voltios trifásico, y el de distribución puede ser $13\\text{ mil }800$. Son un poquito más chiquitos. ¿Por qué son más grandes los voltajes? Para que la corriente sea más chiquita en la parte más grande de la distribución del sistema eléctrico. En todo caso, independiente de cuál de las dos sea, este es el modelo equivalente de la",
+      "gt_normalizado": "voltios trifásico y el de distribución puede ser 13 text mil 800 son un poquito más chiquitos por qué son más grandes los voltajes para que la corriente sea más chiquita en la parte más grande de la distribución del sistema eléctrico en todo caso independiente de cuál de las dos sea este es el modelo equivalente de la"
+    },
+    {
+      "sample_id": "clase03_seg0106",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0106.wav",
+      "inicio": 1909.62,
+      "fin": 1920.75,
+      "duracion_seg": 11.13,
+      "gt_original": "línea de transmisión o de distribución, si ven que el modelo está compuesto por varias inductancias y resistencias puestas en serie, pero justamente",
+      "gt_normalizado": "línea de transmisión o de distribución si ven que el modelo está compuesto por varias inductancias y resistencias puestas en serie pero justamente"
+    },
+    {
+      "sample_id": "clase03_seg0107",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0107.wav",
+      "inicio": 1921.288,
+      "fin": 1931.88,
+      "duracion_seg": 10.592,
+      "gt_original": "no quedan completamente en serie porque en el camino de ellas se coloca capacitancia y resistencia. ¿Cuál es la idea? La inductancia aparece porque estos cables, debido a su posición, vamos a",
+      "gt_normalizado": "no quedan completamente en serie porque en el camino de ellas se coloca capacitancia y resistencia cuál es la idea la inductancia aparece porque estos cables debido a su posición vamos a"
+    },
+    {
+      "sample_id": "clase03_seg0108",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0108.wav",
+      "inicio": 1932.806,
+      "fin": 1942.86,
+      "duracion_seg": 10.054,
+      "gt_original": "encontrar nosotros que hay un área transversal en el camino entre el cable y la tierra, y en ese área transversal se ha producido inducción electromagnética,",
+      "gt_normalizado": "encontrar nosotros que hay un área transversal en el camino entre el cable y la tierra y en ese área transversal se ha producido inducción electromagnética"
+    },
+    {
+      "sample_id": "clase03_seg0109",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0109.wav",
+      "inicio": 1943.22,
+      "fin": 1954.86,
+      "duracion_seg": 11.64,
+      "gt_original": "porque el voltaje y la corriente de alterna están variando en el tiempo, entonces va a haber voltaje inducido. Y si hay voltajes inducidos, el modelo equivalente debe tener inductancia. Tiene resistencias",
+      "gt_normalizado": "porque el voltaje y la corriente de alterna están variando en el tiempo entonces va a haber voltaje inducido y si hay voltajes inducidos el modelo equivalente debe tener inductancia tiene resistencias"
+    },
+    {
+      "sample_id": "clase03_seg0110",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0110.wav",
+      "inicio": 1955.34,
+      "fin": 1969.56,
+      "duracion_seg": 14.22,
+      "gt_original": "porque obviamente son cables, y la corriente al pasar por el cable pues se pierde energía. Ahora, algo interesante que a veces uno no se pone a pensar es qué... los cables que aparecen entre las torres",
+      "gt_normalizado": "porque obviamente son cables y la corriente al pasar por el cable pues se pierde energía ahora algo interesante que a veces uno no se pone a pensar es qué los cables que aparecen entre las torres"
+    },
+    {
+      "sample_id": "clase03_seg0111",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0111.wav",
+      "inicio": 1971.39,
+      "fin": 1983.48,
+      "duracion_seg": 12.09,
+      "gt_original": "son conductores. Y el piso, el piso es la tierra, que también es un conductor. Y en medio de esos dos conductores está el aire, que es un dieléctrico.",
+      "gt_normalizado": "son conductores y el piso el piso es la tierra que también es un conductor y en medio de esos dos conductores está el aire que es un dieléctrico"
+    },
+    {
+      "sample_id": "clase03_seg0112",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0112.wav",
+      "inicio": 1985.34,
+      "fin": 2005.2,
+      "duracion_seg": 19.86,
+      "gt_original": "Entonces, aquí tenemos nosotros un conductor, otro conductor y en medio un dieléctrico, entonces allí habría una capacitancia. En cualquier circuito eléctrico donde existe un punto entre dos conductores separados por un dieléctrico, tenemos una capacitancia. Entonces el modelo equivalente de esto también va a tener aquí un capacitor.",
+      "gt_normalizado": "entonces aquí tenemos nosotros un conductor otro conductor y en medio un dieléctrico entonces allí habría una capacitancia en cualquier circuito eléctrico donde existe un punto entre dos conductores separados por un dieléctrico tenemos una capacitancia entonces el modelo equivalente de esto también va a tener aquí un capacitor"
+    },
+    {
+      "sample_id": "clase03_seg0113",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0113.wav",
+      "inicio": 2008.17,
+      "fin": 2022.72,
+      "duracion_seg": 14.55,
+      "gt_original": "El hecho de que en el cable hay energía eléctrica y hay energía eléctrica en el piso, en la tierra, y esa carga intenta unirse una con la otra, no lo puede hacer porque el aire se lo impide.",
+      "gt_normalizado": "el hecho de que en el cable hay energía eléctrica y hay energía eléctrica en el piso en la tierra y esa carga intenta unirse una con la otra no lo puede hacer porque el aire se lo impide"
+    },
+    {
+      "sample_id": "clase03_seg0114",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0114.wav",
+      "inicio": 2023.44,
+      "fin": 2048.069,
+      "duracion_seg": 24.629,
+      "gt_original": "Pero, pues, ciertas micro... microcantidades de portadores de energía se disparan de un lado al otro y pasan a través de la resistencia del aire, entonces por eso también hay que colocar aquí en medio una resistencia. Por eso el modelo equivalente tiene estos cuatro componentes. ¿Qué es importante? Estos componentes de la resistencia y la capacitancia, esta resistencia que está aquí es extremadamente grande, la que está en el camino del medio,",
+      "gt_normalizado": "pero pues ciertas micro microcantidades de portadores de energía se disparan de un lado al otro y pasan a través de la resistencia del aire entonces por eso también hay que colocar aquí en medio una resistencia por eso el modelo equivalente tiene estos cuatro componentes qué es importante estos componentes de la resistencia y la capacitancia esta resistencia que está aquí es extremadamente grande la que está en el camino del medio"
+    },
+    {
+      "sample_id": "clase03_seg0115",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0115.wav",
+      "inicio": 2048.22,
+      "fin": 2063.64,
+      "duracion_seg": 15.42,
+      "gt_original": "porque... porque pues es la resistencia del aire. Y la posibilidad de que una cantidad de carga pase a través del aire desde la línea que está bien arriba hasta el suelo es muy difícil. Y esta capacitancia que está aquí es muy chiquita, de manera que la impedancia capacitiva es extremadamente grande.",
+      "gt_normalizado": "porque porque pues es la resistencia del aire y la posibilidad de que una cantidad de carga pase a través del aire desde la línea que está bien arriba hasta el suelo es muy difícil y esta capacitancia que está aquí es muy chiquita de manera que la impedancia capacitiva es extremadamente grande"
+    },
+    {
+      "sample_id": "clase03_seg0116",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0116.wav",
+      "inicio": 2064.75,
+      "fin": 2076.031,
+      "duracion_seg": 11.281,
+      "gt_original": "Entonces el modelo equivalente detallado de una línea suele tener todos estos componentes, pero se suele simplificar ese modelo equivalente simplemente a esto que está aquí. Y se",
+      "gt_normalizado": "entonces el modelo equivalente detallado de una línea suele tener todos estos componentes pero se suele simplificar ese modelo equivalente simplemente a esto que está aquí y se"
+    },
+    {
+      "sample_id": "clase03_seg0117",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0117.wav",
+      "inicio": 2077.47,
+      "fin": 2094.81,
+      "duracion_seg": 17.34,
+      "gt_original": "suele ignorar la rama de en medio porque... porque la impedancia equivalente de esta rama del medio es muy muy muy grande. Se la tiene que tener en cuenta sólo para ciertos casos particulares, pero principalmente este podría ser el modelo equivalente, ¿no? Y como ustedes se dan cuenta, esto también es de corte inductivo.",
+      "gt_normalizado": "suele ignorar la rama de en medio porque porque la impedancia equivalente de esta rama del medio es muy muy muy grande se la tiene que tener en cuenta sólo para ciertos casos particulares pero principalmente este podría ser el modelo equivalente no y como ustedes se dan cuenta esto también es de corte inductivo"
+    },
+    {
+      "sample_id": "clase03_seg0118",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0118.wav",
+      "inicio": 2098.56,
+      "fin": 2110.62,
+      "duracion_seg": 12.06,
+      "gt_original": "Veamos, si el capacitor no lo vamos a tomar mucho en cuenta, el modelo es de corte inductivo. Además tenemos en industrias y en otro tipo de operaciones tenemos los contactores o relés y los pistones.",
+      "gt_normalizado": "veamos si el capacitor no lo vamos a tomar mucho en cuenta el modelo es de corte inductivo además tenemos en industrias y en otro tipo de operaciones tenemos los contactores o relés y los pistones"
+    },
+    {
+      "sample_id": "clase03_seg0119",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0119.wav",
+      "inicio": 2111.49,
+      "fin": 2122.41,
+      "duracion_seg": 10.92,
+      "gt_original": "Entonces, los contactores ¿qué son? Son un mecanismo en el cual una bobina es alimentada con energía y el campo magnético de esa bobina cierra",
+      "gt_normalizado": "entonces los contactores qué son son un mecanismo en el cual una bobina es alimentada con energía y el campo magnético de esa bobina cierra"
+    },
+    {
+      "sample_id": "clase03_seg0120",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0120.wav",
+      "inicio": 2124.27,
+      "fin": 2135.91,
+      "duracion_seg": 11.64,
+      "gt_original": "dos... dos contactos. Magnéticamente movemos con el campo magnético un metal para que estos dos metales se pongan en contacto y permiten el paso de corriente, entonces es como un switch que es",
+      "gt_normalizado": "dos dos contactos magnéticamente movemos con el campo magnético un metal para que estos dos metales se pongan en contacto y permiten el paso de corriente entonces es como un switch que es"
+    },
+    {
+      "sample_id": "clase03_seg0121",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0121.wav",
+      "inicio": 2136.27,
+      "fin": 2148.66,
+      "duracion_seg": 12.39,
+      "gt_original": "operado. Cuando la bobina recibe energía se cierra, y cuando la bobina no tiene energía se queda abierta. En todo caso lo importante de todo esto es que esto lo van a ver en detalle en instrumentación industrial. Lo importante es que también es un inductor.",
+      "gt_normalizado": "operado cuando la bobina recibe energía se cierra y cuando la bobina no tiene energía se queda abierta en todo caso lo importante de todo esto es que esto lo van a ver en detalle en instrumentación industrial lo importante es que también es un inductor"
+    },
+    {
+      "sample_id": "clase03_seg0122",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0122.wav",
+      "inicio": 2149.29,
+      "fin": 2173.911,
+      "duracion_seg": 24.621,
+      "gt_original": "Y para los pistones, los pistones normalmente reciben el aire a presión que mueve el pistón desde una válvula, pero la válvula suele ser típicamente una electroválvula. Una electroválvula donde los contactos metálicos se mueven gracias a la acción de una inductancia también. De todo esto lo importante es que casi todas las cargas que ustedes van a",
+      "gt_normalizado": "y para los pistones los pistones normalmente reciben el aire a presión que mueve el pistón desde una válvula pero la válvula suele ser típicamente una electroválvula una electroválvula donde los contactos metálicos se mueven gracias a la acción de una inductancia también de todo esto lo importante es que casi todas las cargas que ustedes van a"
+    },
+    {
+      "sample_id": "clase03_seg0123",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0123.wav",
+      "inicio": 2173.911,
+      "fin": 2189.82,
+      "duracion_seg": 15.909,
+      "gt_original": "encontrar a nivel industrial son de hecho inductivas. Así la carga más común que nosotros encontramos es inductiva. ¿Y dónde quedó el capacitor? Vemos las capacitancias. Realmente existe que se pueden utilizar para características particulares,",
+      "gt_normalizado": "encontrar a nivel industrial son de hecho inductivas así la carga más común que nosotros encontramos es inductiva y dónde quedó el capacitor vemos las capacitancias realmente existe que se pueden utilizar para características particulares"
+    },
+    {
+      "sample_id": "clase03_seg0124",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0124.wav",
+      "inicio": 2190.27,
+      "fin": 2201.19,
+      "duracion_seg": 10.92,
+      "gt_original": "pero de manera natural la carga eléctrica que usted va a encontrar en industrias y en hogares es inductiva. Ahora ¿qué problema nosotros tenemos con todo esto?",
+      "gt_normalizado": "pero de manera natural la carga eléctrica que usted va a encontrar en industrias y en hogares es inductiva ahora qué problema nosotros tenemos con todo esto"
+    },
+    {
+      "sample_id": "clase03_seg0125",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0125.wav",
+      "inicio": 2201.7,
+      "fin": 2216.22,
+      "duracion_seg": 14.52,
+      "gt_original": "Tenemos pues que la carga va a ser principalmente inductiva, así se va a tener aquí un resistor y va a tener una inductancia. Entonces, digamos que la resistencia pues tiene una resistencia y la inductancia tiene una impedancia inductiva de este",
+      "gt_normalizado": "tenemos pues que la carga va a ser principalmente inductiva así se va a tener aquí un resistor y va a tener una inductancia entonces digamos que la resistencia pues tiene una resistencia y la inductancia tiene una impedancia inductiva de este"
+    },
+    {
+      "sample_id": "clase03_seg0126",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0126.wav",
+      "inicio": 2216.88,
+      "fin": 2235.36,
+      "duracion_seg": 18.48,
+      "gt_original": "tipo, ¿no? Y nosotros la vamos a alimentar a través de una impedancia de línea desde un generador. ¿Cuál es el efecto que tiene a ser más grande esta parte inductiva de la impedancia? Si la",
+      "gt_normalizado": "tipo no y nosotros la vamos a alimentar a través de una impedancia de línea desde un generador cuál es el efecto que tiene a ser más grande esta parte inductiva de la impedancia si la"
+    },
+    {
+      "sample_id": "clase03_seg0127",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0127.wav",
+      "inicio": 2237.25,
+      "fin": 2253.0,
+      "duracion_seg": 15.75,
+      "gt_original": "carga estuviera compuesta sólo por la resistencia, nosotros tenemos que llevar una cierta magnitud de la corriente de línea. Pero si además de la resistencia tenemos también una reactancia, la magnitud de esta corriente va a necesitar ser más grande y más grande porque",
+      "gt_normalizado": "carga estuviera compuesta sólo por la resistencia nosotros tenemos que llevar una cierta magnitud de la corriente de línea pero si además de la resistencia tenemos también una reactancia la magnitud de esta corriente va a necesitar ser más grande y más grande porque"
+    },
+    {
+      "sample_id": "clase03_seg0128",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0128.wav",
+      "inicio": 2253.87,
+      "fin": 2266.38,
+      "duracion_seg": 12.51,
+      "gt_original": "también vamos a tener que alimentar una reactancia. La magnitud de la corriente va a ser cada vez más grande a pesar de que la resistencia no cambie, a pesar de que la resistencia es la única que en realidad consume potencia.",
+      "gt_normalizado": "también vamos a tener que alimentar una reactancia la magnitud de la corriente va a ser cada vez más grande a pesar de que la resistencia no cambie a pesar de que la resistencia es la única que en realidad consume potencia"
+    },
+    {
+      "sample_id": "clase03_seg0129",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0129.wav",
+      "inicio": 2268.33,
+      "fin": 2279.34,
+      "duracion_seg": 11.01,
+      "gt_original": "Entonces si nosotros tenemos un factor de potencia que es mucho menor que 1, si tenemos una carga en adelanto, eso no es bueno, ¿porque no es bueno? Porque",
+      "gt_normalizado": "entonces si nosotros tenemos un factor de potencia que es mucho menor que 1 si tenemos una carga en adelanto eso no es bueno porque no es bueno porque"
+    },
+    {
+      "sample_id": "clase03_seg0130",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0130.wav",
+      "inicio": 2281.65,
+      "fin": 2301.21,
+      "duracion_seg": 19.56,
+      "gt_original": "para la misma carga va a requerirse más corriente a través de los cables si esta J XL es demasiado grande. ¿Qué es lo que nosotros quisiéramos? Quisiéramos que el factor de potencia sea muy muy cercano al 1, es decir que casi todo se utilice en el resistor y no tengamos que poner energía en el campo magnético del inductor. No se",
+      "gt_normalizado": "para la misma carga va a requerirse más corriente a través de los cables si esta j xl es demasiado grande qué es lo que nosotros quisiéramos quisiéramos que el factor de potencia sea muy muy cercano al 1 es decir que casi todo se utilice en el resistor y no tengamos que poner energía en el campo magnético del inductor no se"
+    },
+    {
+      "sample_id": "clase03_seg0131",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0131.wav",
+      "inicio": 2301.575,
+      "fin": 2319.33,
+      "duracion_seg": 17.755,
+      "gt_original": "puede quitar eso, porque eso no puede ser igual a uno, tiene que haber el campo magnético. Pero en la medida de lo posible, quisiéramos que sea lo más chiquita posible. Entonces, ¿qué es la solución que se encuentra para estos casos, para los casos en los cuales tenemos una carga demasiado inductiva? Nosotros habíamos visto que el inductor",
+      "gt_normalizado": "puede quitar eso porque eso no puede ser igual a uno tiene que haber el campo magnético pero en la medida de lo posible quisiéramos que sea lo más chiquita posible entonces qué es la solución que se encuentra para estos casos para los casos en los cuales tenemos una carga demasiado inductiva nosotros habíamos visto que el inductor"
+    },
+    {
+      "sample_id": "clase03_seg0132",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0132.wav",
+      "inicio": 2320.59,
+      "fin": 2332.86,
+      "duracion_seg": 12.27,
+      "gt_original": "consume potencia reactiva, pero hay un dispositivo que entrega potencia reactiva, que es el capacitor. Entonces la solución que se encuentra típicamente es conectar aquí en paralelo con la carga, un capacitor, de",
+      "gt_normalizado": "consume potencia reactiva pero hay un dispositivo que entrega potencia reactiva que es el capacitor entonces la solución que se encuentra típicamente es conectar aquí en paralelo con la carga un capacitor de"
+    },
+    {
+      "sample_id": "clase03_seg0133",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0133.wav",
+      "inicio": 2339.1,
+      "fin": 2350.26,
+      "duracion_seg": 11.16,
+      "gt_original": "forma que la fuente esté entregando la parte activa y, obviamente, un poquitito de la potencia reactiva, y el capacitor se está encargando de entregarle al inductor",
+      "gt_normalizado": "forma que la fuente esté entregando la parte activa y obviamente un poquitito de la potencia reactiva y el capacitor se está encargando de entregarle al inductor"
+    },
+    {
+      "sample_id": "clase03_seg0134",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0134.wav",
+      "inicio": 2350.74,
+      "fin": 2362.29,
+      "duracion_seg": 11.55,
+      "gt_original": "la potencia reactiva, porque el capacitor no consume potencia reactiva, la entrega. Y a este proceso se le conoce como mejoramiento del factor de potencia. Esa es",
+      "gt_normalizado": "la potencia reactiva porque el capacitor no consume potencia reactiva la entrega y a este proceso se le conoce como mejoramiento del factor de potencia esa es"
+    },
+    {
+      "sample_id": "clase03_seg0135",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0135.wav",
+      "inicio": 2364.99,
+      "fin": 2382.52,
+      "duracion_seg": 17.53,
+      "gt_original": "la idea en general. Vamos a ponerle números para ver cómo queda ese cálculo y cómo funciona este mejoramiento del factor de potencia. Empecemos por el ejercicio básico. Este es el que hicimos hace poquito en la parte inductiva, ¿no? Teníamos la fuente, la",
+      "gt_normalizado": "la idea en general vamos a ponerle números para ver cómo queda ese cálculo y cómo funciona este mejoramiento del factor de potencia empecemos por el ejercicio básico este es el que hicimos hace poquito en la parte inductiva no teníamos la fuente la"
+    },
+    {
+      "sample_id": "clase03_seg0136",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0136.wav",
+      "inicio": 2383.399,
+      "fin": 2400.16,
+      "duracion_seg": 16.761,
+      "gt_original": "línea y la carga. Ya vemos cómo calculamos la corriente, que es la fuente dividida para la impedancia total. Está calculada pues la potencia activa, la potencia reactiva, la potencia compleja y el ángulo de la potencia compleja. El coseno del factor de potencia en este caso nos había salido $0.6$",
+      "gt_normalizado": "línea y la carga ya vemos cómo calculamos la corriente que es la fuente dividida para la impedancia total está calculada pues la potencia activa la potencia reactiva la potencia compleja y el ángulo de la potencia compleja el coseno del factor de potencia en este caso nos había salido 0 6"
+    },
+    {
+      "sample_id": "clase03_seg0137",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0137.wav",
+      "inicio": 2401.71,
+      "fin": 2414.4,
+      "duracion_seg": 12.69,
+      "gt_original": "en atraso, y el voltaje en los terminales de la carga nos estaba dando $211.4749\\text{ V}$. ¿Qué ocurre cuando nosotros conectamos en paralelo con",
+      "gt_normalizado": "en atraso y el voltaje en los terminales de la carga nos estaba dando 211 4749 text v qué ocurre cuando nosotros conectamos en paralelo con"
+    },
+    {
+      "sample_id": "clase03_seg0138",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0138.wav",
+      "inicio": 2414.76,
+      "fin": 2429.28,
+      "duracion_seg": 14.52,
+      "gt_original": "la carga un capacitor para mejorar el factor de potencia? En este caso la carga equivalente que está viendo el sistema eléctrico es la composición de el resistor, el inductor en paralelo eso con la capacitancia, ¿verdad?",
+      "gt_normalizado": "la carga un capacitor para mejorar el factor de potencia en este caso la carga equivalente que está viendo el sistema eléctrico es la composición de el resistor el inductor en paralelo eso con la capacitancia verdad"
+    },
+    {
+      "sample_id": "clase03_seg0139",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0139.wav",
+      "inicio": 2429.76,
+      "fin": 2446.05,
+      "duracion_seg": 16.29,
+      "gt_original": "Aquí yo estoy colocando la capacitancia de $-j9.1844\\text{ }\\Omega$. Si en este caso quisiéramos calcular la corriente, sería pues la fuente dividida para esta impedancia sumada con la carga equivalente de esto, que es el paralelo entre $-j9.1844$ y $3 j4$,",
+      "gt_normalizado": "aquí yo estoy colocando la capacitancia de j9 1844 text omega si en este caso quisiéramos calcular la corriente sería pues la fuente dividida para esta impedancia sumada con la carga equivalente de esto que es el paralelo entre j9 1844 y 3 j4"
+    },
+    {
+      "sample_id": "clase03_seg0140",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0140.wav",
+      "inicio": 2447.94,
+      "fin": 2462.55,
+      "duracion_seg": 14.61,
+      "gt_original": "¿verdad? Y esa corriente nos da $15.14$ a un ángulo de $-25.45^\\circ$. ¿Qué notamos aquí de la magnitud de la corriente con respecto al caso sin el capacitor? ¿Qué pasó con esa corriente? Fue más chiquita, ¿verdad? Entonces, a",
+      "gt_normalizado": "verdad y esa corriente nos da 15 14 a un ángulo de 25 45 circ qué notamos aquí de la magnitud de la corriente con respecto al caso sin el capacitor qué pasó con esa corriente fue más chiquita verdad entonces a"
+    },
+    {
+      "sample_id": "clase03_seg0141",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0141.wav",
+      "inicio": 2463.3,
+      "fin": 2482.74,
+      "duracion_seg": 19.44,
+      "gt_original": "través del cable, a pesar de que la carga va a seguir recibiendo la potencia, nos damos cuenta de que la corriente es más chiquita cuando tenemos conectado al capacitor al lado. ¿Por qué? Porque parte de la potencia reactiva que requiere el inductor viene del capacitor. Entonces, parte de la energía para la... no",
+      "gt_normalizado": "través del cable a pesar de que la carga va a seguir recibiendo la potencia nos damos cuenta de que la corriente es más chiquita cuando tenemos conectado al capacitor al lado por qué porque parte de la potencia reactiva que requiere el inductor viene del capacitor entonces parte de la energía para la no"
+    },
+    {
+      "sample_id": "clase03_seg0142",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0142.wav",
+      "inicio": 2483.506,
+      "fin": 2496.97,
+      "duracion_seg": 13.464,
+      "gt_original": "energía, pero la potencia de esa señal de potencia sinusoidal que se consume en inductores y capacitor, parte de lo del capacitor... viene del... parte de lo del inductor viene del capacitor. Una partecita chiquita todavía viene de",
+      "gt_normalizado": "energía pero la potencia de esa señal de potencia sinusoidal que se consume en inductores y capacitor parte de lo del capacitor viene del parte de lo del inductor viene del capacitor una partecita chiquita todavía viene de"
+    },
+    {
+      "sample_id": "clase03_seg0143",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0143.wav",
+      "inicio": 2497.5,
+      "fin": 2512.02,
+      "duracion_seg": 14.52,
+      "gt_original": "la fuente, y obviamente la fuente sí tiene que entregar la potencia pero que consume el resistor, que en promedio es positiva, ¿no? Entonces por eso la corriente disminuye de... de ámbitos... de magnitud. ¿Qué ocurre con el voltaje? Pues el voltaje sería los $120$ de la fuente",
+      "gt_normalizado": "la fuente y obviamente la fuente sí tiene que entregar la potencia pero que consume el resistor que en promedio es positiva no entonces por eso la corriente disminuye de de ámbitos de magnitud qué ocurre con el voltaje pues el voltaje sería los 120 de la fuente"
+    },
+    {
+      "sample_id": "clase03_seg0144",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0144.wav",
+      "inicio": 2512.41,
+      "fin": 2530.23,
+      "duracion_seg": 17.82,
+      "gt_original": "menos lo que cae aquí en la... en la línea. Lo que cae en la línea es la corriente $I_L$ por la impedancia de línea. Este es el voltaje en los terminales de la carga, o sea entre este punto de aquí y el punto de tierra, o este voltaje que está en esta carga, que es lo mismo. Nos damos cuenta que en el primer caso el voltaje en los terminales de la carga era $111$ y en el segundo caso $116$.",
+      "gt_normalizado": "menos lo que cae aquí en la en la línea lo que cae en la línea es la corriente i l por la impedancia de línea este es el voltaje en los terminales de la carga o sea entre este punto de aquí y el punto de tierra o este voltaje que está en esta carga que es lo mismo nos damos cuenta que en el primer caso el voltaje en los terminales de la carga era 111 y en el segundo caso 116"
+    },
+    {
+      "sample_id": "clase03_seg0145",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0145.wav",
+      "inicio": 2531.58,
+      "fin": 2547.3,
+      "duracion_seg": 15.72,
+      "gt_original": "El voltaje creció, ¿por qué creció el voltaje?, porque la corriente disminuyó y por tanto la caída en la impedancia de línea también disminuyó. Entonces, mejorar el factor de potencia también mejora el voltaje en los terminales de la carga, bueno tomamos en cuenta la impedancia de la línea. Podemos",
+      "gt_normalizado": "el voltaje creció por qué creció el voltaje porque la corriente disminuyó y por tanto la caída en la impedancia de línea también disminuyó entonces mejorar el factor de potencia también mejora el voltaje en los terminales de la carga bueno tomamos en cuenta la impedancia de la línea podemos"
+    },
+    {
+      "sample_id": "clase03_seg0146",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0146.wav",
+      "inicio": 2547.898,
+      "fin": 2563.8,
+      "duracion_seg": 15.902,
+      "gt_original": "sacar con la potencia equivalente con el producto del voltaje del fasor de voltaje con el conjugado de la corriente, y obtenemos pues estos dos valores. Y ¿cuánto es el factor de potencia? El factor de potencia, como ustedes saben, es el coseno del ángulo. El ángulo",
+      "gt_normalizado": "sacar con la potencia equivalente con el producto del voltaje del fasor de voltaje con el conjugado de la corriente y obtenemos pues estos dos valores y cuánto es el factor de potencia el factor de potencia como ustedes saben es el coseno del ángulo el ángulo"
+    },
+    {
+      "sample_id": "clase03_seg0147",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0147.wav",
+      "inicio": 2568.39,
+      "fin": 2581.98,
+      "duracion_seg": 13.59,
+      "gt_original": "en este caso fue $23^\\circ$ y nos da $0.92$ en atraso. Antes nos estaba dando $0.6$ en atraso, y ordenados $0.92$ en atraso. Entonces, gracias a la conexión de este capacitor dentro de ese arreglo, hemos mejorado el factor de potencia. Esto de",
+      "gt_normalizado": "en este caso fue 23 circ y nos da 0 92 en atraso antes nos estaba dando 0 6 en atraso y ordenados 0 92 en atraso entonces gracias a la conexión de este capacitor dentro de ese arreglo hemos mejorado el factor de potencia esto de"
+    },
+    {
+      "sample_id": "clase03_seg0148",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0148.wav",
+      "inicio": 2583.18,
+      "fin": 2595.42,
+      "duracion_seg": 12.24,
+      "gt_original": "mejorar el factor de potencia es el primer cachuelo que hace... que pueda ser un ingeniero eléctrico del ESPOL típico. Digamos, es súper común que una industria tenga un factor de potencia muy grave, es muy chiquito en el... en atraso, y que",
+      "gt_normalizado": "mejorar el factor de potencia es el primer cachuelo que hace que pueda ser un ingeniero eléctrico del espol típico digamos es súper común que una industria tenga un factor de potencia muy grave es muy chiquito en el en atraso y que"
+    },
+    {
+      "sample_id": "clase03_seg0149",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0149.wav",
+      "inicio": 2595.965,
+      "fin": 2609.19,
+      "duracion_seg": 13.225,
+      "gt_original": "pues la empresa eléctrica... la empresa eléctrica te pone una multa si tu factor de potencia es demasiado bajo, porque, porque quiere decir que a la empresa eléctrica para darte la misma cantidad de energía le cuesta",
+      "gt_normalizado": "pues la empresa eléctrica la empresa eléctrica te pone una multa si tu factor de potencia es demasiado bajo porque porque quiere decir que a la empresa eléctrica para darte la misma cantidad de energía le cuesta"
+    },
+    {
+      "sample_id": "clase03_seg0150",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0150.wav",
+      "inicio": 2609.97,
+      "fin": 2628.148,
+      "duracion_seg": 18.178,
+      "gt_original": "pasar corrientes más grandes a través de los cables. Yo te quieres y que tiene que incrementar el tamaño de los cables, el calibre, y pues los aislamientos tiene que tener mucho más cuidado. Entonces la empresa eléctrica multa si tu factor de potencia es demasiado bajo. Y por el ocasión, industria, típicamente es comprar un banco de capacitores",
+      "gt_normalizado": "pasar corrientes más grandes a través de los cables yo te quieres y que tiene que incrementar el tamaño de los cables el calibre y pues los aislamientos tiene que tener mucho más cuidado entonces la empresa eléctrica multa si tu factor de potencia es demasiado bajo y por el ocasión industria típicamente es comprar un banco de capacitores"
+    },
+    {
+      "sample_id": "clase03_seg0151",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0151.wav",
+      "inicio": 2628.9,
+      "fin": 2644.95,
+      "duracion_seg": 16.05,
+      "gt_original": "y conectarlo en paralelo con las cargas de la industria. Y para saber cuánto tiene, de qué tamaño tiene que hacer ese banco de capacitores, pues lo que se hace típicamente es contratar a un ingeniero eléctrico para que haga el dimensionamiento, la compra y la conexión. Esto de",
+      "gt_normalizado": "y conectarlo en paralelo con las cargas de la industria y para saber cuánto tiene de qué tamaño tiene que hacer ese banco de capacitores pues lo que se hace típicamente es contratar a un ingeniero eléctrico para que haga el dimensionamiento la compra y la conexión esto de"
+    },
+    {
+      "sample_id": "clase03_seg0152",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0152.wav",
+      "inicio": 2650.59,
+      "fin": 2664.75,
+      "duracion_seg": 14.16,
+      "gt_original": "aquí se compra típicamente, se compra especificando cuánto es el valor de la potencia... cuál es el valor de la potencia reactiva que el banco de capacitores, aunque también se puede calcular pues cuál es la capacitancia equivalente de ese... de ese banco de capacitores, ¿no?",
+      "gt_normalizado": "aquí se compra típicamente se compra especificando cuánto es el valor de la potencia cuál es el valor de la potencia reactiva que el banco de capacitores aunque también se puede calcular pues cuál es la capacitancia equivalente de ese de ese banco de capacitores no"
+    },
+    {
+      "sample_id": "clase03_seg0153",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0153.wav",
+      "inicio": 2665.89,
+      "fin": 2683.02,
+      "duracion_seg": 17.13,
+      "gt_original": "Eso es uno de los primeros ejercicios que hacemos en potencia y el problema típico de examen es mejorar el factor de potencia que necesita la carga, como se ve en cuenta aquí, el factor de potencia nos dio un valor cerrado porque lo que hice antes fue calcular cuánta salida de esta capacitancia, justamente lo que vamos a ver ahora, el",
+      "gt_normalizado": "eso es uno de los primeros ejercicios que hacemos en potencia y el problema típico de examen es mejorar el factor de potencia que necesita la carga como se ve en cuenta aquí el factor de potencia nos dio un valor cerrado porque lo que hice antes fue calcular cuánta salida de esta capacitancia justamente lo que vamos a ver ahora el"
+    },
+    {
+      "sample_id": "clase03_seg0154",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0154.wav",
+      "inicio": 2688.09,
+      "fin": 2691.33,
+      "duracion_seg": 3.24,
+      "gt_original": "método para poder hacer ese mejoramiento del factor de potencia plantea avanzar con el método. Hasta aquí, ¿alguna pregunta? Vamos un",
+      "gt_normalizado": "método para poder hacer ese mejoramiento del factor de potencia plantea avanzar con el método hasta aquí alguna pregunta vamos un"
+    },
+    {
+      "sample_id": "clase03_seg0155",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0155.wav",
+      "inicio": 2724.972,
+      "fin": 2729.86,
+      "duracion_seg": 4.888,
+      "gt_original": "segundito, están llamándome de la facultad, un momentito, regreso. Mil",
+      "gt_normalizado": "segundito están llamándome de la facultad un momentito regreso mil"
+    },
+    {
+      "sample_id": "clase03_seg0156",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0156.wav",
+      "inicio": 2765.85,
+      "fin": 2776.26,
+      "duracion_seg": 10.41,
+      "gt_original": "disculpas, vamos entonces a continuar. Veamos lo que es el método de mejoramiento del factor de potencia. Este es el ejercicio típico, aquí pues tenemos nosotros un sistema, en este caso no estamos colocando, en el típico",
+      "gt_normalizado": "disculpas vamos entonces a continuar veamos lo que es el método de mejoramiento del factor de potencia este es el ejercicio típico aquí pues tenemos nosotros un sistema en este caso no estamos colocando en el típico"
+    },
+    {
+      "sample_id": "clase03_seg0157",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0157.wav",
+      "inicio": 2786.43,
+      "fin": 2801.85,
+      "duracion_seg": 15.42,
+      "gt_original": "colocamos a Berlín, en solamente fuente y carga. La idea es que la impedancia de línea está tan chiquita que la estamos despreciando. Aquí la fuente decimos que es de $4160\\text{ a 0^\\circ$,",
+      "gt_normalizado": "colocamos a berlín en solamente fuente y carga la idea es que la impedancia de línea está tan chiquita que la estamos despreciando aquí la fuente decimos que es de 4160 text a 0 circ"
+    },
+    {
+      "sample_id": "clase03_seg0158",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0158.wav",
+      "inicio": 2802.99,
+      "fin": 2814.745,
+      "duracion_seg": 11.755,
+      "gt_original": "la carga es $3 j3$, y nos piden mejorar el factor de potencia de $0.95$ en atraso. Entonces,",
+      "gt_normalizado": "la carga es 3 j3 y nos piden mejorar el factor de potencia de 0 95 en atraso entonces"
+    },
+    {
+      "sample_id": "clase03_seg0159",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0159.wav",
+      "inicio": 2815.29,
+      "fin": 2831.85,
+      "duracion_seg": 16.56,
+      "gt_original": "¿cómo haríamos para resolver este problema? Nos dicen que quieren que mejoremos el factor de potencia a $0.95$ en atraso. Si nos dicen eso pues lo primero que nosotros necesitamos saber es cuánto es el factor de potencia en este momento, es decir, qué tan macro... qué tan grave es el asunto.",
+      "gt_normalizado": "cómo haríamos para resolver este problema nos dicen que quieren que mejoremos el factor de potencia a 0 95 en atraso si nos dicen eso pues lo primero que nosotros necesitamos saber es cuánto es el factor de potencia en este momento es decir qué tan macro qué tan grave es el asunto"
+    },
+    {
+      "sample_id": "clase03_seg0160",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0160.wav",
+      "inicio": 2832.99,
+      "fin": 2847.94,
+      "duracion_seg": 14.95,
+      "gt_original": "Entonces primeramente vamos a analizar cuál es el valor en el caso original, eso siempre hay que hacerlo. Partimos de hacer el cálculo para el caso original. En el caso original, ¿qué requerimos? Requerimos los",
+      "gt_normalizado": "entonces primeramente vamos a analizar cuál es el valor en el caso original eso siempre hay que hacerlo partimos de hacer el cálculo para el caso original en el caso original qué requerimos requerimos los"
+    },
+    {
+      "sample_id": "clase03_seg0161",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0161.wav",
+      "inicio": 2851.05,
+      "fin": 2869.89,
+      "duracion_seg": 18.84,
+      "gt_original": "valores originales de consumo de potencia y el factor de potencia. Entonces, para hacer el cálculo inicial pues calculamos la corriente, la corriente que circula al principio sería $4160\\text{ a 0^\\circ$ dividido para la impedancia que es $3 j3$, lo cual nos da $980.5214$",
+      "gt_normalizado": "valores originales de consumo de potencia y el factor de potencia entonces para hacer el cálculo inicial pues calculamos la corriente la corriente que circula al principio sería 4160 text a 0 circ dividido para la impedancia que es 3 j3 lo cual nos da 980 5214"
+    },
+    {
+      "sample_id": "clase03_seg0162",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0162.wav",
+      "inicio": 2875.11,
+      "fin": 2885.97,
+      "duracion_seg": 10.86,
+      "gt_original": "con un ángulo de $-45^\\circ$. La potencia activa pues viene a ser la corriente al cuadrado multiplicado por la resistencia que es $3$,",
+      "gt_normalizado": "con un ángulo de 45 circ la potencia activa pues viene a ser la corriente al cuadrado multiplicado por la resistencia que es 3"
+    },
+    {
+      "sample_id": "clase03_seg0163",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0163.wav",
+      "inicio": 2887.77,
+      "fin": 2905.92,
+      "duracion_seg": 18.15,
+      "gt_original": "lo cual nos da $2.884267\\text{ MW}$. Y la reactiva sería esto por la $j3$, también es por $3$, lo cual obviamente nos va a dar el mismo numerito, es decir, $2.884267\\text{ MVAR}$. Y",
+      "gt_normalizado": "lo cual nos da 2 884267 text mw y la reactiva sería esto por la j3 también es por 3 lo cual obviamente nos va a dar el mismo numerito es decir 2 884267 text mvar y"
+    },
+    {
+      "sample_id": "clase03_seg0164",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0164.wav",
+      "inicio": 2914.62,
+      "fin": 2938.23,
+      "duracion_seg": 23.61,
+      "gt_original": "el factor de potencia es el coseno del ángulo, coseno de $45^\\circ$, lo cual en este caso nos da a $0.7071$ en atraso. Ese es el caso original, el factor de potencia general era $0.7071$. Necesitamos mejorarlo a $0.95$. Entonces vamos a ir analizando cómo nos queda el caso ya con la mejora.",
+      "gt_normalizado": "el factor de potencia es el coseno del ángulo coseno de 45 circ lo cual en este caso nos da a 0 7071 en atraso ese es el caso original el factor de potencia general era 0 7071 necesitamos mejorarlo a 0 95 entonces vamos a ir analizando cómo nos queda el caso ya con la mejora"
+    },
+    {
+      "sample_id": "clase03_seg0165",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0165.wav",
+      "inicio": 2944.98,
+      "fin": 2962.98,
+      "duracion_seg": 18.0,
+      "gt_original": "Para esto, casi siempre ustedes van a hacer un dibujito que se conoce como el triángulo de potencias. El ángulo, ¿de dónde lo sacó?, de la potencia compleja. Como les había mencionado, el ángulo es el ángulo de la potencia compleja o de la carga, es el mismo. Esto de",
+      "gt_normalizado": "para esto casi siempre ustedes van a hacer un dibujito que se conoce como el triángulo de potencias el ángulo de dónde lo sacó de la potencia compleja como les había mencionado el ángulo es el ángulo de la potencia compleja o de la carga es el mismo esto de"
+    },
+    {
+      "sample_id": "clase03_seg0166",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0166.wav",
+      "inicio": 2969.79,
+      "fin": 2981.74,
+      "duracion_seg": 11.95,
+      "gt_original": "aquí viene a ser el ángulo de la impedancia, de la impedancia $3 j3$ tiene ángulo $45$ claramente porque tiene el mismo valor en real e imaginario, también se lo puede calcular de la",
+      "gt_normalizado": "aquí viene a ser el ángulo de la impedancia de la impedancia 3 j3 tiene ángulo 45 claramente porque tiene el mismo valor en real e imaginario también se lo puede calcular de la"
+    },
+    {
+      "sample_id": "clase03_seg0167",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0167.wav",
+      "inicio": 2982.75,
+      "fin": 2998.53,
+      "duracion_seg": 15.78,
+      "gt_original": "potencia compleja, cualquiera de los dos. No están prestando atención me parece. Muy bien, entonces ¿cuál es el valor del triángulo de potencias? El triángulo de potencias pues es la",
+      "gt_normalizado": "potencia compleja cualquiera de los dos no están prestando atención me parece muy bien entonces cuál es el valor del triángulo de potencias el triángulo de potencias pues es la"
+    },
+    {
+      "sample_id": "clase03_seg0168",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0168.wav",
+      "inicio": 3000.42,
+      "fin": 3012.78,
+      "duracion_seg": 12.36,
+      "gt_original": "gráfica en el plano complejo del fasor de potencias. Entonces, por ejemplo, aquí sería el valor de la potencia compleja original. El valor de la",
+      "gt_normalizado": "gráfica en el plano complejo del fasor de potencias entonces por ejemplo aquí sería el valor de la potencia compleja original el valor de la"
+    },
+    {
+      "sample_id": "clase03_seg0169",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0169.wav",
+      "inicio": 3019.38,
+      "fin": 3026.91,
+      "duracion_seg": 7.53,
+      "gt_original": "potencia compleja original pues tiene un ángulo de $45^\\circ$. Este de aquí no está quedando tan a $45^\\circ$. Ahí más o menos,",
+      "gt_normalizado": "potencia compleja original pues tiene un ángulo de 45 circ este de aquí no está quedando tan a 45 circ ahí más o menos"
+    },
+    {
+      "sample_id": "clase03_seg0170",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0170.wav",
+      "inicio": 3031.98,
+      "fin": 3043.62,
+      "duracion_seg": 11.64,
+      "gt_original": "ahí tendríamos la potencia compleja original. Aquí tenemos pues la parte real, la parte real viene a ser la potencia activa, y la parte",
+      "gt_normalizado": "ahí tendríamos la potencia compleja original aquí tenemos pues la parte real la parte real viene a ser la potencia activa y la parte"
+    },
+    {
+      "sample_id": "clase03_seg0171",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0171.wav",
+      "inicio": 3046.65,
+      "fin": 3056.7,
+      "duracion_seg": 10.05,
+      "gt_original": "imaginaria viene a ser la potencia reactiva. Entonces,",
+      "gt_normalizado": "imaginaria viene a ser la potencia reactiva entonces"
+    },
+    {
+      "sample_id": "clase03_seg0172",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0172.wav",
+      "inicio": 3057.93,
+      "fin": 3069.94,
+      "duracion_seg": 12.01,
+      "gt_original": "ese es el triángulo de potencia, lo sabemos dibujar en varias ocasiones porque nos da una idea gráfica de cuánto es la parte activa y la parte reactiva que",
+      "gt_normalizado": "ese es el triángulo de potencia lo sabemos dibujar en varias ocasiones porque nos da una idea gráfica de cuánto es la parte activa y la parte reactiva que"
+    },
+    {
+      "sample_id": "clase03_seg0173",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0173.wav",
+      "inicio": 3070.407,
+      "fin": 3084.87,
+      "duracion_seg": 14.463,
+      "gt_original": "componen a la potencia como tal. Entonces, aquí tenemos pues el triangulito de potencia, imagínense que todas las líneas son rectas. Y lo que es",
+      "gt_normalizado": "componen a la potencia como tal entonces aquí tenemos pues el triangulito de potencia imagínense que todas las líneas son rectas y lo que es"
+    },
+    {
+      "sample_id": "clase03_seg0174",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0174.wav",
+      "inicio": 3085.86,
+      "fin": 3095.91,
+      "duracion_seg": 10.05,
+      "gt_original": "importante es que el ángulo que esté por aquí pues sería $45^\\circ$. Ya sabemos que la potencia compleja y la impedancia tienen el mismo ángulo. ¿Y qué es lo que",
+      "gt_normalizado": "importante es que el ángulo que esté por aquí pues sería 45 circ ya sabemos que la potencia compleja y la impedancia tienen el mismo ángulo y qué es lo que"
+    },
+    {
+      "sample_id": "clase03_seg0175",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0175.wav",
+      "inicio": 3096.48,
+      "fin": 3106.68,
+      "duracion_seg": 10.2,
+      "gt_original": "nosotros queremos que ocurra una vez conectamos el capacitor? Una vez que conectamos el capacitor queremos que esto se reduzca, y que",
+      "gt_normalizado": "nosotros queremos que ocurra una vez conectamos el capacitor una vez que conectamos el capacitor queremos que esto se reduzca y que"
+    },
+    {
+      "sample_id": "clase03_seg0176",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0176.wav",
+      "inicio": 3110.49,
+      "fin": 3121.77,
+      "duracion_seg": 11.28,
+      "gt_original": "tenga un nuevo valor de potencia compleja. ¿Cuál es el ángulo que queremos que exista ahora cuando ya hacemos esa reducción del ángulo? Como lo podemos",
+      "gt_normalizado": "tenga un nuevo valor de potencia compleja cuál es el ángulo que queremos que exista ahora cuando ya hacemos esa reducción del ángulo como lo podemos"
+    },
+    {
+      "sample_id": "clase03_seg0177",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0177.wav",
+      "inicio": 3122.4,
+      "fin": 3134.04,
+      "duracion_seg": 11.64,
+      "gt_original": "saber fácilmente, porque nos piden que el factor de potencia de nuevo sea de $0.95$. Entonces, ¿cuál es el valor nuevo que nos piden de ángulo?",
+      "gt_normalizado": "saber fácilmente porque nos piden que el factor de potencia de nuevo sea de 0 95 entonces cuál es el valor nuevo que nos piden de ángulo"
+    },
+    {
+      "sample_id": "clase03_seg0178",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0178.wav",
+      "inicio": 3134.61,
+      "fin": 3147.18,
+      "duracion_seg": 12.57,
+      "gt_original": "El nuevo valor del ángulo sería pues el arcocoseno del factor de potencia que ahora nos piden. Si quieren que el factor de potencia sea $0.95$ en atraso,",
+      "gt_normalizado": "el nuevo valor del ángulo sería pues el arcocoseno del factor de potencia que ahora nos piden si quieren que el factor de potencia sea 0 95 en atraso"
+    },
+    {
+      "sample_id": "clase03_seg0179",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0179.wav",
+      "inicio": 3148.05,
+      "fin": 3159.75,
+      "duracion_seg": 11.7,
+      "gt_original": "el ángulo debió haber sido $18.194872^\\circ$. Ese es el nuevo valor del ángulo que nos están solicitando. Esto",
+      "gt_normalizado": "el ángulo debió haber sido 18 194872 circ ese es el nuevo valor del ángulo que nos están solicitando esto"
+    },
+    {
+      "sample_id": "clase03_seg0180",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0180.wav",
+      "inicio": 3161.07,
+      "fin": 3171.3,
+      "duracion_seg": 10.23,
+      "gt_original": "qué significa? Significa que esta potencia compleja nueva va a tener un ángulo menor, porque estoy dibujando el fasor de nuevo",
+      "gt_normalizado": "qué significa significa que esta potencia compleja nueva va a tener un ángulo menor porque estoy dibujando el fasor de nuevo"
+    },
+    {
+      "sample_id": "clase03_seg0181",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0181.wav",
+      "inicio": 3171.66,
+      "fin": 3186.75,
+      "duracion_seg": 15.09,
+      "gt_original": "sin alterar la parte real, porque yo no estoy cambiando la resistencia, la resistencia es la única que consume potencia activa, no se está viendo afectada por el cambio de la conexión del capacitor. El capacitor lo único que va a cambiar es el consumo de reactivos.",
+      "gt_normalizado": "sin alterar la parte real porque yo no estoy cambiando la resistencia la resistencia es la única que consume potencia activa no se está viendo afectada por el cambio de la conexión del capacitor el capacitor lo único que va a cambiar es el consumo de reactivos"
+    },
+    {
+      "sample_id": "clase03_seg0182",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0182.wav",
+      "inicio": 3187.8,
+      "fin": 3199.62,
+      "duracion_seg": 11.82,
+      "gt_original": "En esta conexión, porque la fuente está totalmente aplicada aquí, es como que está en redundancia la carga con el capacitor, no importa que yo conecte en paralelo, la de acá no se ve afectada, la carga neta y la resistencia no va a",
+      "gt_normalizado": "en esta conexión porque la fuente está totalmente aplicada aquí es como que está en redundancia la carga con el capacitor no importa que yo conecte en paralelo la de acá no se ve afectada la carga neta y la resistencia no va a"
+    },
+    {
+      "sample_id": "clase03_seg0183",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0183.wav",
+      "inicio": 3200.22,
+      "fin": 3213.78,
+      "duracion_seg": 13.56,
+      "gt_original": "cambiar su valor neto de potencia activa, y reunida con el consumo. Entonces la activa no se modifica, el fasor va a cambiar de ángulo pero sin cambiar la activa. ¿Qué es lo que sí va a modificarse? Entonces la reactiva. Es decir, que",
+      "gt_normalizado": "cambiar su valor neto de potencia activa y reunida con el consumo entonces la activa no se modifica el fasor va a cambiar de ángulo pero sin cambiar la activa qué es lo que sí va a modificarse entonces la reactiva es decir que"
+    },
+    {
+      "sample_id": "clase03_seg0184",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0184.wav",
+      "inicio": 3215.04,
+      "fin": 3234.66,
+      "duracion_seg": 19.62,
+      "gt_original": "ese va a ser el nuevo valor de potencia reactiva que va a estar apareciendo aquí en el triángulo de potencias. La potencia original está disminuyendo un poco gracias al efecto de quién? Del capacitor. Entonces,",
+      "gt_normalizado": "ese va a ser el nuevo valor de potencia reactiva que va a estar apareciendo aquí en el triángulo de potencias la potencia original está disminuyendo un poco gracias al efecto de quién del capacitor entonces"
+    },
+    {
+      "sample_id": "clase03_seg0185",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0185.wav",
+      "inicio": 3239.97,
+      "fin": 3257.61,
+      "duracion_seg": 17.64,
+      "gt_original": "el capacitor tiene una potencia reactiva negativa, porque sabemos la entrega, lo que está ocurriendo es que la potencia original más la capacitiva que es negativa, nos está dando un nuevo valor de potencia reactiva que se está disminuyendo. Es este gráficos atrás lo hacen casi siempre, tenemos hermosamente el futuro de potencia",
+      "gt_normalizado": "el capacitor tiene una potencia reactiva negativa porque sabemos la entrega lo que está ocurriendo es que la potencia original más la capacitiva que es negativa nos está dando un nuevo valor de potencia reactiva que se está disminuyendo es este gráficos atrás lo hacen casi siempre tenemos hermosamente el futuro de potencia"
+    },
+    {
+      "sample_id": "clase03_seg0186",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0186.wav",
+      "inicio": 3258.09,
+      "fin": 3273.85,
+      "duracion_seg": 15.76,
+      "gt_original": "porque es una ilustración que nos permite entender qué es lo que está ocurriendo allí. Entonces, y hacemos veamos qué pasa: primero vamos a usar algo de trigonometría. Si nosotros sacamos la tangente del nuevo ángulo, la",
+      "gt_normalizado": "porque es una ilustración que nos permite entender qué es lo que está ocurriendo allí entonces y hacemos veamos qué pasa primero vamos a usar algo de trigonometría si nosotros sacamos la tangente del nuevo ángulo la"
+    },
+    {
+      "sample_id": "clase03_seg0187",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0187.wav",
+      "inicio": 3275.25,
+      "fin": 3291.18,
+      "duracion_seg": 15.93,
+      "gt_original": "tangente es la parte imaginaria, perdón, como es el nuevo ángulo, eso sería la potencia reactiva nueva dividido para la potencia activa. La potencia activa es la misma en el original que en el nuevo, entonces si de aquí despejamos este",
+      "gt_normalizado": "tangente es la parte imaginaria perdón como es el nuevo ángulo eso sería la potencia reactiva nueva dividido para la potencia activa la potencia activa es la misma en el original que en el nuevo entonces si de aquí despejamos este"
+    },
+    {
+      "sample_id": "clase03_seg0188",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0188.wav",
+      "inicio": 3291.54,
+      "fin": 3311.31,
+      "duracion_seg": 19.77,
+      "gt_original": "valor, de hecho ya tenemos cuál es la magnitud de la potencia reactiva nueva, porque todos esos valores ya los conocemos. ¿Cuál es la potencia activa original? Ya lo habíamos calculado arriba, era $2.884267\\text{ MW}$",
+      "gt_normalizado": "valor de hecho ya tenemos cuál es la magnitud de la potencia reactiva nueva porque todos esos valores ya los conocemos cuál es la potencia activa original ya lo habíamos calculado arriba era 2 884267 text mw"
+    },
+    {
+      "sample_id": "clase03_seg0189",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0189.wav",
+      "inicio": 3318.27,
+      "fin": 3332.04,
+      "duracion_seg": 13.77,
+      "gt_original": "y el ángulo también ya lo teníamos, fue lo que acá acabamos de calcular hace cinco segundos, que es el ángulo de $18.194872^\\circ$. Lo estoy volviendo a escribir ahora para que cuando revisen no haya dudas.",
+      "gt_normalizado": "y el ángulo también ya lo teníamos fue lo que acá acabamos de calcular hace cinco segundos que es el ángulo de 18 194872 circ lo estoy volviendo a escribir ahora para que cuando revisen no haya dudas"
+    },
+    {
+      "sample_id": "clase03_seg0190",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0190.wav",
+      "inicio": 3342.93,
+      "fin": 3344.38,
+      "duracion_seg": 1.45,
+      "gt_original": "Entonces este valor que",
+      "gt_normalizado": "entonces este valor que"
+    },
+    {
+      "sample_id": "clase03_seg0191",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0191.wav",
+      "inicio": 3360.18,
+      "fin": 3375.75,
+      "duracion_seg": 15.57,
+      "gt_original": "esté aquí sería igual a $0.9483\\text{ MVAR}$. Siempre que este mejor valor siempre nos queda que la potencia la activa nueva original por la tangente del ángulo, pero es mejor volver a hacer el gráfico para recordar cómo hacerlo. Y basándonos en el gráfico, ¿cómo podríamos calcular cuál es el valor de la potencia que da el capacitador como tal? Podemos",
+      "gt_normalizado": "esté aquí sería igual a 0 9483 text mvar siempre que este mejor valor siempre nos queda que la potencia la activa nueva original por la tangente del ángulo pero es mejor volver a hacer el gráfico para recordar cómo hacerlo y basándonos en el gráfico cómo podríamos calcular cuál es el valor de la potencia que da el capacitador como tal podemos"
+    },
+    {
+      "sample_id": "clase03_seg0192",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0192.wav",
+      "inicio": 3396.19,
+      "fin": 3416.04,
+      "duracion_seg": 19.85,
+      "gt_original": "usar reactancia por corriente al cuadrado, no veamos aquí en el gráfico, si se dan cuenta que están sumándose las potencias reactivas, o sea, ¿qué hemos dicho ahorita de que nos dé la potencia nueva? Hemos dicho que la potencia nueva es el resultado de sumarle a la original",
+      "gt_normalizado": "usar reactancia por corriente al cuadrado no veamos aquí en el gráfico si se dan cuenta que están sumándose las potencias reactivas o sea qué hemos dicho ahorita de que nos dé la potencia nueva hemos dicho que la potencia nueva es el resultado de sumarle a la original"
+    },
+    {
+      "sample_id": "clase03_seg0193",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0193.wav",
+      "inicio": 3418.931,
+      "fin": 3432.21,
+      "duracion_seg": 13.279,
+      "gt_original": "la capacitiva. O sea, restarle en la magnitud sumarle si las cuentas como negativas. Entonces una vez que hacen el despeje, la del capacitor, que es la que nos interesa calcular,",
+      "gt_normalizado": "la capacitiva o sea restarle en la magnitud sumarle si las cuentas como negativas entonces una vez que hacen el despeje la del capacitor que es la que nos interesa calcular"
+    },
+    {
+      "sample_id": "clase03_seg0194",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0194.wav",
+      "inicio": 3432.9,
+      "fin": 3448.59,
+      "duracion_seg": 15.69,
+      "gt_original": "simplemente sería la nueva menos la original, y estas dos ya las tenemos, acabamos de calcular cuál es el nuevo valor de la potencia reactiva, y ya teníamos cuál era",
+      "gt_normalizado": "simplemente sería la nueva menos la original y estas dos ya las tenemos acabamos de calcular cuál es el nuevo valor de la potencia reactiva y ya teníamos cuál era"
+    },
+    {
+      "sample_id": "clase03_seg0195",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0195.wav",
+      "inicio": 3462.54,
+      "fin": 3466.08,
+      "duracion_seg": 3.54,
+      "gt_original": "el valor original. El valor original de la potencia reactiva es el que está por acá. Entonces",
+      "gt_normalizado": "el valor original el valor original de la potencia reactiva es el que está por acá entonces"
+    },
+    {
+      "sample_id": "clase03_seg0196",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0196.wav",
+      "inicio": 3472.56,
+      "fin": 3496.14,
+      "duracion_seg": 23.58,
+      "gt_original": "el valor de la potencia reactiva que nos va a dar el capacitor va a ser $-1.936254\\text{ MVAR}$. Para qué calculamos la potencia reactiva, típicamente como cuando ustedes compran un banco de capacitores, este es el valor que les piden. Les piden un banco de capacitores que trabaje a qué voltajes y de cuánta potencia reactiva que entregue, pero si quieren saber el valor de la capacitancia, no solo el de la potencia que da el banco de capacitores, sino el valor neto de la capacitancia,",
+      "gt_normalizado": "el valor de la potencia reactiva que nos va a dar el capacitor va a ser 1 936254 text mvar para qué calculamos la potencia reactiva típicamente como cuando ustedes compran un banco de capacitores este es el valor que les piden les piden un banco de capacitores que trabaje a qué voltajes y de cuánta potencia reactiva que entregue pero si quieren saber el valor de la capacitancia no solo el de la potencia que da el banco de capacitores sino el valor neto de la capacitancia"
+    },
+    {
+      "sample_id": "clase03_seg0197",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0197.wav",
+      "inicio": 3496.56,
+      "fin": 3507.31,
+      "duracion_seg": 10.75,
+      "gt_original": "lo que hacemos es trabajar con la fórmula un poquito. La potencia reactiva para cuando tendríamos los elementos pasivos en paralelo, recuerden ustedes que",
+      "gt_normalizado": "lo que hacemos es trabajar con la fórmula un poquito la potencia reactiva para cuando tendríamos los elementos pasivos en paralelo recuerden ustedes que"
+    },
+    {
+      "sample_id": "clase03_seg0198",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0198.wav",
+      "inicio": 3507.88,
+      "fin": 3520.44,
+      "duracion_seg": 12.56,
+      "gt_original": "era pues voltaje al cuadrado, la normal del voltaje al cuadrado, dividido para la reactancia capacitiva. Entonces de aquí podemos sacar el valor de la reactancia capacitiva, pues que es voltaje al cuadrado",
+      "gt_normalizado": "era pues voltaje al cuadrado la normal del voltaje al cuadrado dividido para la reactancia capacitiva entonces de aquí podemos sacar el valor de la reactancia capacitiva pues que es voltaje al cuadrado"
+    },
+    {
+      "sample_id": "clase03_seg0199",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0199.wav",
+      "inicio": 3520.95,
+      "fin": 3539.865,
+      "duracion_seg": 18.915,
+      "gt_original": "dividido para la potencia reactiva. Típicamente la reactancia del capacitor se la pone en términos absolutos, entonces si queremos ese valor pues sería simplemente todo en valor absoluto. El voltaje de la fuente en este caso era $4160$ y la reactancia como",
+      "gt_normalizado": "dividido para la potencia reactiva típicamente la reactancia del capacitor se la pone en términos absolutos entonces si queremos ese valor pues sería simplemente todo en valor absoluto el voltaje de la fuente en este caso era 4160 y la reactancia como"
+    },
+    {
+      "sample_id": "clase03_seg0200",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0200.wav",
+      "inicio": 3540.96,
+      "fin": 3555.78,
+      "duracion_seg": 14.82,
+      "gt_original": "tal era $1.936254\\text{ M}$. Eso nos va a dar $8.937670\\text{ }\\Omega$. Esa es la reactancia capacitiva.",
+      "gt_normalizado": "tal era 1 936254 text m eso nos va a dar 8 937670 text omega esa es la reactancia capacitiva"
+    },
+    {
+      "sample_id": "clase03_seg0201",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0201.wav",
+      "inicio": 3556.35,
+      "fin": 3567.0,
+      "duracion_seg": 10.65,
+      "gt_original": "Como ustedes recordarán, si es que recuerdan, la reactancia era $\\frac{1}{\\omega C}$, es decir, que si queremos sacar el valor de $C$, es $\\frac{1}{\\omega \\times X_C}$.",
+      "gt_normalizado": "como ustedes recordarán si es que recuerdan la reactancia era frac 1 omega c es decir que si queremos sacar el valor de c es frac 1 omega times x c"
+    },
+    {
+      "sample_id": "clase03_seg0202",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0202.wav",
+      "inicio": 3568.95,
+      "fin": 3581.34,
+      "duracion_seg": 12.39,
+      "gt_original": "Dependerá de la frecuencia, aquí nos dijeron que la frecuencia es de $60\\text{ Hz}$, entonces $\\omega$ es $2\\pi \\times 60$ y la reactancia pues la acabamos de calcular, y pues eso nos",
+      "gt_normalizado": "dependerá de la frecuencia aquí nos dijeron que la frecuencia es de 60 text hz entonces omega es 2 pi times 60 y la reactancia pues la acabamos de calcular y pues eso nos"
+    },
+    {
+      "sample_id": "clase03_seg0203",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0203.wav",
+      "inicio": 3584.551,
+      "fin": 3600.242,
+      "duracion_seg": 15.691,
+      "gt_original": "da $296.79\\text{ }\\mu\\text{F}$. Típicamente las capacitancias están en microfaradios, en el más raro de los casos llega a los milifaradios, y pues ahí habríamos terminado el cálculo del",
+      "gt_normalizado": "da 296 79 text mu text f típicamente las capacitancias están en microfaradios en el más raro de los casos llega a los milifaradios y pues ahí habríamos terminado el cálculo del"
+    },
+    {
+      "sample_id": "clase03_seg0204",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0204.wav",
+      "inicio": 3600.78,
+      "fin": 3615.27,
+      "duracion_seg": 14.49,
+      "gt_original": "mejoramiento de factor de potencia. Ahí ya está, con esa capacitancia, con una capacitancia que tiene una impedancia de $-j8.937670\\text{ }\\Omega$, vamos a tener que el factor de potencia queda completamente mejorado. Se lo puede",
+      "gt_normalizado": "mejoramiento de factor de potencia ahí ya está con esa capacitancia con una capacitancia que tiene una impedancia de j8 937670 text omega vamos a tener que el factor de potencia queda completamente mejorado se lo puede"
+    },
+    {
+      "sample_id": "clase03_seg0205",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0205.wav",
+      "inicio": 3618.24,
+      "fin": 3630.51,
+      "duracion_seg": 12.27,
+      "gt_original": "confirmar bastante sencillo. ¿Cuál es el valor, el factor de potencia mejorado? Es el factor de potencia de la carga equivalente que se ve aquí, ¿verdad? Entonces, si nos",
+      "gt_normalizado": "confirmar bastante sencillo cuál es el valor el factor de potencia mejorado es el factor de potencia de la carga equivalente que se ve aquí verdad entonces si nos"
+    },
+    {
+      "sample_id": "clase03_seg0206",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0206.wav",
+      "inicio": 3632.131,
+      "fin": 3648.09,
+      "duracion_seg": 15.959,
+      "gt_original": "dijeran calcule la impedancia equivalente, sería pues el $3 j3$, que era la rama original, en paralelo con la nueva impedancia, que es el capacitor, que es $-jX_C$ y $X_C$ vale $8.937670$. Si",
+      "gt_normalizado": "dijeran calcule la impedancia equivalente sería pues el 3 j3 que era la rama original en paralelo con la nueva impedancia que es el capacitor que es jx c y x c vale 8 937670 si"
+    },
+    {
+      "sample_id": "clase03_seg0207",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0207.wav",
+      "inicio": 3654.09,
+      "fin": 3669.9,
+      "duracion_seg": 15.81,
+      "gt_original": "sacamos el paralelo de esas dos cosas, vamos a encontrar que nos da $5.7$ con un ángulo de $18.194872^\\circ$. Entonces el factor de potencia nos está dando el coseno de $18.194872^\\circ$,",
+      "gt_normalizado": "sacamos el paralelo de esas dos cosas vamos a encontrar que nos da 5 7 con un ángulo de 18 194872 circ entonces el factor de potencia nos está dando el coseno de 18 194872 circ"
+    },
+    {
+      "sample_id": "clase03_seg0208",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0208.wav",
+      "inicio": 3675.48,
+      "fin": 3695.312,
+      "duracion_seg": 19.832,
+      "gt_original": "lo que es igual a $0.95$ en atraso, que es justamente lo que nos piden, ¿no? Entonces efectivamente ese valor de capacitor es el que necesitábamos para mejorar ese factor de potencia. ¿Preguntas hasta aquí? Entonces, ¿en los casos",
+      "gt_normalizado": "lo que es igual a 0 95 en atraso que es justamente lo que nos piden no entonces efectivamente ese valor de capacitor es el que necesitábamos para mejorar ese factor de potencia preguntas hasta aquí entonces en los casos"
+    },
+    {
+      "sample_id": "clase03_seg0209",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0209.wav",
+      "inicio": 3711.299,
+      "fin": 3724.78,
+      "duracion_seg": 13.481,
+      "gt_original": "generales, profe, siempre tenemos un cable inductivo a la cual la única manera de mejorarlo es agregarle un capacitor? O sea, siempre, o sea, por lo general ocurre siempre este caso en la vida real, eso es lo que nos piden. Es lo que siempre ocurre, no es que por lo general sino siempre ocurre, la carga siempre es",
+      "gt_normalizado": "generales profe siempre tenemos un cable inductivo a la cual la única manera de mejorarlo es agregarle un capacitor o sea siempre o sea por lo general ocurre siempre este caso en la vida real eso es lo que nos piden es lo que siempre ocurre no es que por lo general sino siempre ocurre la carga siempre es"
+    },
+    {
+      "sample_id": "clase03_seg0210",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0210.wav",
+      "inicio": 3726.93,
+      "fin": 3739.21,
+      "duracion_seg": 12.28,
+      "gt_original": "inductiva. Como la carga siempre es inductiva, para mejorar el factor de potencia tienes que conectar un capacitor. Es lo que ocurre en la realidad y es el problema que se pone también en exámenes y lecciones, precisamente porque es al que se van a enfrentar, ¿no?",
+      "gt_normalizado": "inductiva como la carga siempre es inductiva para mejorar el factor de potencia tienes que conectar un capacitor es lo que ocurre en la realidad y es el problema que se pone también en exámenes y lecciones precisamente porque es al que se van a enfrentar no"
+    },
+    {
+      "sample_id": "clase03_seg0211",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0211.wav",
+      "inicio": 3739.62,
+      "fin": 3752.4,
+      "duracion_seg": 12.78,
+      "gt_original": "Y el método que acabamos de ver se aplica siempre para resolver todos esos problemas. O sea, este método que acabo de hacer aquí es así, igualito, exactamente como lo acabo de hacer aquí lo hacen cada vez que les pidan que mejoren el factor de potencia.",
+      "gt_normalizado": "y el método que acabamos de ver se aplica siempre para resolver todos esos problemas o sea este método que acabo de hacer aquí es así igualito exactamente como lo acabo de hacer aquí lo hacen cada vez que les pidan que mejoren el factor de potencia"
+    },
+    {
+      "sample_id": "clase03_seg0212",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0212.wav",
+      "inicio": 3752.82,
+      "fin": 3767.22,
+      "duracion_seg": 14.4,
+      "gt_original": "Profe, ¿y si yo tuviera un circuito sumamente grande, tengo que hacer el equivalente de todo eso y a eso agregarle un capacitor? Correcto, pero, digamos, lo típico no es que tengas uno sumamente grande. Cuando ya estamos hablando de un sistema",
+      "gt_normalizado": "profe y si yo tuviera un circuito sumamente grande tengo que hacer el equivalente de todo eso y a eso agregarle un capacitor correcto pero digamos lo típico no es que tengas uno sumamente grande cuando ya estamos hablando de un sistema"
+    },
+    {
+      "sample_id": "clase03_seg0213",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0213.wav",
+      "inicio": 3768.45,
+      "fin": 3785.64,
+      "duracion_seg": 17.19,
+      "gt_original": "eléctrico de potencia, entonces siempre va a tener más o menos la misma forma, siempre va a tener una fuente de alimentación, una impedancia, puede tener una impedancia de línea o puede no tenerla, puede estar simplificada, y lo máximo que tú vas a encontrarte es que aquí está conectado a varias cargas en paralelo. O sea, en el",
+      "gt_normalizado": "eléctrico de potencia entonces siempre va a tener más o menos la misma forma siempre va a tener una fuente de alimentación una impedancia puede tener una impedancia de línea o puede no tenerla puede estar simplificada y lo máximo que tú vas a encontrarte es que aquí está conectado a varias cargas en paralelo o sea en el"
+    },
+    {
+      "sample_id": "clase03_seg0214",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0214.wav",
+      "inicio": 3788.513,
+      "fin": 3803.56,
+      "duracion_seg": 15.047,
+      "gt_original": "más grave de todos los casos lo que vas a tener es varias impedancias de carga, que obviamente están en paralelo. Si tienes la impedancia la puedes reducir en paralelo, y si no, de todas maneras todo lo que tienes que saber es ¿qué datos necesitábamos nosotros de la carga equivalente para poder hacer el mejoramiento de factor de potencia? Necesitábamos el",
+      "gt_normalizado": "más grave de todos los casos lo que vas a tener es varias impedancias de carga que obviamente están en paralelo si tienes la impedancia la puedes reducir en paralelo y si no de todas maneras todo lo que tienes que saber es qué datos necesitábamos nosotros de la carga equivalente para poder hacer el mejoramiento de factor de potencia necesitábamos el"
+    },
+    {
+      "sample_id": "clase03_seg0215",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0215.wav",
+      "inicio": 3809.52,
+      "fin": 3829.65,
+      "duracion_seg": 20.13,
+      "gt_original": "factor de potencia original, el voltaje en la carga, la potencia original y la potencia reactiva original. Entonces eso lo puedes calcular incluso si no tienes la impedancia, como lo hicimos en el primer ejercicio, que teníamos varias cargas en paralelo que no nos daban las impedancias, nos daban eran los",
+      "gt_normalizado": "factor de potencia original el voltaje en la carga la potencia original y la potencia reactiva original entonces eso lo puedes calcular incluso si no tienes la impedancia como lo hicimos en el primer ejercicio que teníamos varias cargas en paralelo que no nos daban las impedancias nos daban eran los"
+    },
+    {
+      "sample_id": "clase03_seg0216",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0216.wav",
+      "inicio": 3830.042,
+      "fin": 3842.49,
+      "duracion_seg": 12.448,
+      "gt_original": "datos de consumo; y de todas maneras calculamos el voltaje en los terminales, calculamos la potencia compleja total cuya parte real pues era la activa original y la reactiva original, e igualmente calculamos el factor de potencia, ¿no? ¿Sí",
+      "gt_normalizado": "datos de consumo y de todas maneras calculamos el voltaje en los terminales calculamos la potencia compleja total cuya parte real pues era la activa original y la reactiva original e igualmente calculamos el factor de potencia no sí"
+    },
+    {
+      "sample_id": "clase03_seg0217",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0217.wav",
+      "inicio": 3843.805,
+      "fin": 3856.89,
+      "duracion_seg": 13.085,
+      "gt_original": "recuerdas el caso anterior? Sí, sí, profe. O sea, entonces, este es el diagrama más complejo que puedes encontrar. Pueden",
+      "gt_normalizado": "recuerdas el caso anterior sí sí profe o sea entonces este es el diagrama más complejo que puedes encontrar pueden"
+    },
+    {
+      "sample_id": "clase03_seg0218",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0218.wav",
+      "inicio": 3871.86,
+      "fin": 3878.15,
+      "duracion_seg": 6.29,
+      "gt_original": "ser más cargas en paralelo, pero eso es lo más complejo. No suele ser un",
+      "gt_normalizado": "ser más cargas en paralelo pero eso es lo más complejo no suele ser un"
+    },
+    {
+      "sample_id": "clase03_seg0219",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0219.wav",
+      "inicio": 3890.13,
+      "fin": 3900.36,
+      "duracion_seg": 10.23,
+      "gt_original": "circuito general para revisar los métodos, ya es un poco más aplicado. Ya, profe, entiendo. Muchas gracias. Gracias a ti. Bueno,",
+      "gt_normalizado": "circuito general para revisar los métodos ya es un poco más aplicado ya profe entiendo muchas gracias gracias a ti bueno"
+    },
+    {
+      "sample_id": "clase03_seg0220",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0220.wav",
+      "inicio": 3903.84,
+      "fin": 3921.66,
+      "duracion_seg": 17.82,
+      "gt_original": "Alvarado está claro en la jugada. ¿El resto cómo estamos? Se han quedado calladitos, cuando se quedan así es cuando me empieza a preocupar. Recuerden que tenemos lección el viernes de la siguiente semana del capítulo 2, que es este capítulo que estamos viendo ahorita justamente. Entra hasta lo que acabamos de ver.",
+      "gt_normalizado": "alvarado está claro en la jugada el resto cómo estamos se han quedado calladitos cuando se quedan así es cuando me empieza a preocupar recuerden que tenemos lección el viernes de la siguiente semana del capítulo 2 que es este capítulo que estamos viendo ahorita justamente entra hasta lo que acabamos de ver"
+    },
+    {
+      "sample_id": "clase03_seg0221",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0221.wav",
+      "inicio": 3924.03,
+      "fin": 3936.72,
+      "duracion_seg": 12.69,
+      "gt_original": "Entonces, las lecciones... estamos en la ESPOL, ¿no?, las lecciones son acerca de lo típico, pero siempre tienen alguna variación para revisar que realmente hayan entendido el material, pero",
+      "gt_normalizado": "entonces las lecciones estamos en la espol no las lecciones son acerca de lo típico pero siempre tienen alguna variación para revisar que realmente hayan entendido el material pero"
+    },
+    {
+      "sample_id": "clase03_seg0222",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0222.wav",
+      "inicio": 3937.32,
+      "fin": 3949.77,
+      "duracion_seg": 12.45,
+      "gt_original": "tienen que haberlo entendido para que les salga bien, si tienen dudas tienen que consultar. Recuerden que no tenemos ayudante en el curso porque nadie aplicó, entonces, por favor, repasen todito esto y hagan las preguntas que haya que hacer al menos el día martes.",
+      "gt_normalizado": "tienen que haberlo entendido para que les salga bien si tienen dudas tienen que consultar recuerden que no tenemos ayudante en el curso porque nadie aplicó entonces por favor repasen todito esto y hagan las preguntas que haya que hacer al menos el día martes"
+    },
+    {
+      "sample_id": "clase03_seg0223",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0223.wav",
+      "inicio": 3955.47,
+      "fin": 3970.02,
+      "duracion_seg": 14.55,
+      "gt_original": "El martes hacemos un par de ejercicios de esto. Vamos a terminar con esta pequeña sección con lo último que nos falta, que es precisamente el teorema de la máxima transferencia de potencia. Vamos haciendo un Zoom primero.",
+      "gt_normalizado": "el martes hacemos un par de ejercicios de esto vamos a terminar con esta pequeña sección con lo último que nos falta que es precisamente el teorema de la máxima transferencia de potencia vamos haciendo un zoom primero"
+    },
+    {
+      "sample_id": "clase03_seg0224",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0224.wav",
+      "inicio": 3976.306,
+      "fin": 3987.4,
+      "duracion_seg": 11.094,
+      "gt_original": "Como lo hablamos cuando comenzamos con el capítulo de fasores, dado que se cumplía la ley de Ohm en fasores y dado que",
+      "gt_normalizado": "como lo hablamos cuando comenzamos con el capítulo de fasores dado que se cumplía la ley de ohm en fasores y dado que"
+    },
+    {
+      "sample_id": "clase03_seg0225",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0225.wav",
+      "inicio": 3988.83,
+      "fin": 4000.68,
+      "duracion_seg": 11.85,
+      "gt_original": "se pueden sumar los fasores sin tener problemas para recuperar las señales originales, se puede aplicar pues el teorema de Thévenin y el teorema de Norton, es decir que absolutamente cualquier red eléctrica se la",
+      "gt_normalizado": "se pueden sumar los fasores sin tener problemas para recuperar las señales originales se puede aplicar pues el teorema de thévenin y el teorema de norton es decir que absolutamente cualquier red eléctrica se la"
+    },
+    {
+      "sample_id": "clase03_seg0226",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0226.wav",
+      "inicio": 4001.07,
+      "fin": 4014.84,
+      "duracion_seg": 13.77,
+      "gt_original": "puede representar, en el caso de Thévenin, con un fasor de voltaje de Thévenin y un fasor de impedancia de Thévenin. Y la pregunta que nos podemos hacer es ¿será que existe algo similar a lo que encontramos con DC? Es",
+      "gt_normalizado": "puede representar en el caso de thévenin con un fasor de voltaje de thévenin y un fasor de impedancia de thévenin y la pregunta que nos podemos hacer es será que existe algo similar a lo que encontramos con dc es"
+    },
+    {
+      "sample_id": "clase03_seg0227",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0227.wav",
+      "inicio": 4017.12,
+      "fin": 4036.83,
+      "duracion_seg": 19.71,
+      "gt_original": "decir, un valor de la impedancia de carga que nos permita maximizar el valor de la potencia que está llegando a la carga como tal. Obviamente la que vamos a maximizar es la potencia activa, porque es la que nos interesa. Nos interesa que la carga reciba la mayor cantidad posible de potencia activa.",
+      "gt_normalizado": "decir un valor de la impedancia de carga que nos permita maximizar el valor de la potencia que está llegando a la carga como tal obviamente la que vamos a maximizar es la potencia activa porque es la que nos interesa nos interesa que la carga reciba la mayor cantidad posible de potencia activa"
+    },
+    {
+      "sample_id": "clase03_seg0228",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0228.wav",
+      "inicio": 4037.52,
+      "fin": 4052.62,
+      "duracion_seg": 15.1,
+      "gt_original": "Entonces, ¿qué valor de la impedancia de carga nos va a poder maximizar eso? La lógica que vamos a seguir para hacer este cálculo es la misma que seguimos cuando estábamos en DC. En DC ¿qué hicimos? Calculamos la corriente. La corriente que circula por aquí es el voltaje de Thévenin dividido para la suma de las impedancias, obviamente la impedancia de",
+      "gt_normalizado": "entonces qué valor de la impedancia de carga nos va a poder maximizar eso la lógica que vamos a seguir para hacer este cálculo es la misma que seguimos cuando estábamos en dc en dc qué hicimos calculamos la corriente la corriente que circula por aquí es el voltaje de thévenin dividido para la suma de las impedancias obviamente la impedancia de"
+    },
+    {
+      "sample_id": "clase03_seg0229",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0229.wav",
+      "inicio": 4054.232,
+      "fin": 4065.76,
+      "duracion_seg": 11.528,
+      "gt_original": "carga y la impedancia de Thévenin tienen parte real y parte imaginaria, sumamos las partes reales y las partes imaginarias, y la potencia es pues la norma de la corriente al cuadrado por la resistencia de la carga, ¿no?",
+      "gt_normalizado": "carga y la impedancia de thévenin tienen parte real y parte imaginaria sumamos las partes reales y las partes imaginarias y la potencia es pues la norma de la corriente al cuadrado por la resistencia de la carga no"
+    },
+    {
+      "sample_id": "clase03_seg0230",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0230.wav",
+      "inicio": 4066.74,
+      "fin": 4077.12,
+      "duracion_seg": 10.38,
+      "gt_original": "Ponemos esto acá dentro. Dado que nos piden la magnitud de la corriente, la magnitud de la corriente sería la magnitud del numerador dividido para la magnitud del denominador. La magnitud del numerador es el fasor de voltaje, y el",
+      "gt_normalizado": "ponemos esto acá dentro dado que nos piden la magnitud de la corriente la magnitud de la corriente sería la magnitud del numerador dividido para la magnitud del denominador la magnitud del numerador es el fasor de voltaje y el"
+    },
+    {
+      "sample_id": "clase03_seg0231",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0231.wav",
+      "inicio": 4077.69,
+      "fin": 4089.93,
+      "duracion_seg": 12.24,
+      "gt_original": "denominador, al estar en rectangulares, su magnitud sería pues la raíz cuadrada del cuadrado de la parte real más el cuadrado de la parte imaginaria. Como es raíz cuadrada y está elevado al cuadrado, abajo nos queda cancelado todo. ¿Cuál es",
+      "gt_normalizado": "denominador al estar en rectangulares su magnitud sería pues la raíz cuadrada del cuadrado de la parte real más el cuadrado de la parte imaginaria como es raíz cuadrada y está elevado al cuadrado abajo nos queda cancelado todo cuál es"
+    },
+    {
+      "sample_id": "clase03_seg0232",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0232.wav",
+      "inicio": 4091.79,
+      "fin": 4106.67,
+      "duracion_seg": 14.88,
+      "gt_original": "la diferencia principal que va a haber al momento de aplicar el máximo... al aplicar la maximización de este de este resultado? El problema radica en que, al ser un número complejo lo que estamos buscando, estamos buscando $Z_L$, estamos buscando un número que tiene parte real",
+      "gt_normalizado": "la diferencia principal que va a haber al momento de aplicar el máximo al aplicar la maximización de este de este resultado el problema radica en que al ser un número complejo lo que estamos buscando estamos buscando z l estamos buscando un número que tiene parte real"
+    },
+    {
+      "sample_id": "clase03_seg0233",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0233.wav",
+      "inicio": 4107.27,
+      "fin": 4120.33,
+      "duracion_seg": 13.06,
+      "gt_original": "y parte imaginaria, vamos a necesitar encontrar dos valores, no solamente uno. Entonces vamos a tener que maximizar esta potencia en términos de la resistencia de carga y de la reactancia de carga, por",
+      "gt_normalizado": "y parte imaginaria vamos a necesitar encontrar dos valores no solamente uno entonces vamos a tener que maximizar esta potencia en términos de la resistencia de carga y de la reactancia de carga por"
+    },
+    {
+      "sample_id": "clase03_seg0234",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0234.wav",
+      "inicio": 4121.22,
+      "fin": 4145.01,
+      "duracion_seg": 23.79,
+      "gt_original": "lo tanto vamos a sacar la derivada parcial de esta potencia con respecto a la reactancia, igualarla a cero, para calcular el valor de la reactancia que maximiza, y la derivada parcial de esta potencia con respecto a la resistencia igualada a cero para ver cuál es el valor de resistencia que lo maximiza. Entonces la matemática asociada con esto pues se vuelve un poco más compleja. En general, números complejos siempre vuelve más compleja la matemática, de ahí viene su nombre.",
+      "gt_normalizado": "lo tanto vamos a sacar la derivada parcial de esta potencia con respecto a la reactancia igualarla a cero para calcular el valor de la reactancia que maximiza y la derivada parcial de esta potencia con respecto a la resistencia igualada a cero para ver cuál es el valor de resistencia que lo maximiza entonces la matemática asociada con esto pues se vuelve un poco más compleja en general números complejos siempre vuelve más compleja la matemática de ahí viene su nombre"
+    },
+    {
+      "sample_id": "clase03_seg0235",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0235.wav",
+      "inicio": 4146.84,
+      "fin": 4171.5,
+      "duracion_seg": 24.66,
+      "gt_original": "Para el caso de la reactancia, pues derivamos con respecto a $X_L$ el resultado que teníamos acá arriba y despejamos $X_L$, y nos va a dar como resultado que $X_L$ es igual al negativo de la reactancia de Thévenin. Y en el caso de la resistencia, nos va a dar que... la matemática la revisan ustedes, que la resistencia de carga debe ser igual a la resistencia de Thévenin. Entonces nos queda, al final de hacer todos estos",
+      "gt_normalizado": "para el caso de la reactancia pues derivamos con respecto a x l el resultado que teníamos acá arriba y despejamos x l y nos va a dar como resultado que x l es igual al negativo de la reactancia de thévenin y en el caso de la resistencia nos va a dar que la matemática la revisan ustedes que la resistencia de carga debe ser igual a la resistencia de thévenin entonces nos queda al final de hacer todos estos"
+    },
+    {
+      "sample_id": "clase03_seg0236",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0236.wav",
+      "inicio": 4171.509,
+      "fin": 4182.66,
+      "duracion_seg": 11.151,
+      "gt_original": "cálculos, que la resistencia de carga que maximiza es la resistencia de Thévenin, y la reactancia de carga que maximiza es la reactancia de Thévenin. Eso quiere decir entonces que ¿qué operación nos",
+      "gt_normalizado": "cálculos que la resistencia de carga que maximiza es la resistencia de thévenin y la reactancia de carga que maximiza es la reactancia de thévenin eso quiere decir entonces que qué operación nos"
+    },
+    {
+      "sample_id": "clase03_seg0237",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0237.wav",
+      "inicio": 4183.502,
+      "fin": 4201.03,
+      "duracion_seg": 17.528,
+      "gt_original": "permite cambiarle el signo a la reactancia, que es la parte imaginaria de la impedancia? El conjugado. Entonces, ¿cuál es el valor de $Z_L$ que tenemos que colocar en los terminales de la carga para poder realizar esa maximización? Es el conjugado de",
+      "gt_normalizado": "permite cambiarle el signo a la reactancia que es la parte imaginaria de la impedancia el conjugado entonces cuál es el valor de z l que tenemos que colocar en los terminales de la carga para poder realizar esa maximización es el conjugado de"
+    },
+    {
+      "sample_id": "clase03_seg0238",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0238.wav",
+      "inicio": 4206.446,
+      "fin": 4217.62,
+      "duracion_seg": 11.174,
+      "gt_original": "la carga. La carga, por tanto, tiene que tener como valor el conjugado de la impedancia de Thévenin, ¿por qué?, porque la parte real de la impedancia de carga debe ser igual a la resistencia de Thévenin para que sea máxima potencia... máxima transferencia, y",
+      "gt_normalizado": "la carga la carga por tanto tiene que tener como valor el conjugado de la impedancia de thévenin por qué porque la parte real de la impedancia de carga debe ser igual a la resistencia de thévenin para que sea máxima potencia máxima transferencia y"
+    },
+    {
+      "sample_id": "clase03_seg0239",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0239.wav",
+      "inicio": 4218.077,
+      "fin": 4229.5,
+      "duracion_seg": 11.423,
+      "gt_original": "la parte imaginaria debe ser el negativo de la parte imaginaria de la impedancia de Thévenin. Entonces con el conjugado podemos resolver eso. Es decir que vamos a nosotros tener que",
+      "gt_normalizado": "la parte imaginaria debe ser el negativo de la parte imaginaria de la impedancia de thévenin entonces con el conjugado podemos resolver eso es decir que vamos a nosotros tener que"
+    },
+    {
+      "sample_id": "clase03_seg0240",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0240.wav",
+      "inicio": 4230.18,
+      "fin": 4246.08,
+      "duracion_seg": 15.9,
+      "gt_original": "el equivalente de la... de la red fuente, que tiene voltaje de Thévenin e impedancia de Thévenin, y la carga, pues, va a tener resistencia y reactancia, pero su reactancia va a ser el negativo de la reactancia de Thévenin, es decir que se estarían cancelando",
+      "gt_normalizado": "el equivalente de la de la red fuente que tiene voltaje de thévenin e impedancia de thévenin y la carga pues va a tener resistencia y reactancia pero su reactancia va a ser el negativo de la reactancia de thévenin es decir que se estarían cancelando"
+    },
+    {
+      "sample_id": "clase03_seg0241",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0241.wav",
+      "inicio": 4247.22,
+      "fin": 4260.48,
+      "duracion_seg": 13.26,
+      "gt_original": "porque están en serie, en serie se suman, y como estas dos tienen el mismo valor pero con signo contrario, se le está cancelando la inductancia con la reactancia. El circuito equivalente va a tener ¿qué cosa?, va a tener sólo la fuente y dos veces",
+      "gt_normalizado": "porque están en serie en serie se suman y como estas dos tienen el mismo valor pero con signo contrario se le está cancelando la inductancia con la reactancia el circuito equivalente va a tener qué cosa va a tener sólo la fuente y dos veces"
+    },
+    {
+      "sample_id": "clase03_seg0242",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0242.wav",
+      "inicio": 4260.84,
+      "fin": 4273.69,
+      "duracion_seg": 12.85,
+      "gt_original": "la resistencia de Thévenin. Entonces, el resultado ¿tiene o no tiene sentido?, tiene bastante sentido. ¿Cuál es la manera en la cual va a llegarle a la impedancia de la carga la mayor cantidad posible de potencia? Que",
+      "gt_normalizado": "la resistencia de thévenin entonces el resultado tiene o no tiene sentido tiene bastante sentido cuál es la manera en la cual va a llegarle a la impedancia de la carga la mayor cantidad posible de potencia que"
+    },
+    {
+      "sample_id": "clase03_seg0243",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0243.wav",
+      "inicio": 4274.13,
+      "fin": 4291.26,
+      "duracion_seg": 17.13,
+      "gt_original": "no haya reactancia, porque habíamos dicho que la reactancia hace que las corrientes sean muy grandes, y debido a los divisores de voltaje con las corrientes más altas, se pierde energía. Lo ideal para que le llegue la mayor cantidad de potencia a la resistencia es que no haya reactancia, ¿verdad?, que es justamente lo que hacemos con el mejoramiento de factor de potencia en el caso de una carga típica.",
+      "gt_normalizado": "no haya reactancia porque habíamos dicho que la reactancia hace que las corrientes sean muy grandes y debido a los divisores de voltaje con las corrientes más altas se pierde energía lo ideal para que le llegue la mayor cantidad de potencia a la resistencia es que no haya reactancia verdad que es justamente lo que hacemos con el mejoramiento de factor de potencia en el caso de una carga típica"
+    },
+    {
+      "sample_id": "clase03_seg0244",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0244.wav",
+      "inicio": 4292.4,
+      "fin": 4317.358,
+      "duracion_seg": 24.958,
+      "gt_original": "¿Y por qué dos veces la resistencia de Thévenin?, porque ya habíamos visto que si solamente hay resistencias en DC, el valor de resistencia de carga que maximizaba era precisamente el valor de la resistencia de Thévenin. Entonces tiene bastante sentido. ¿Cuánto es el valor numérico de este máximo valor de potencia? Es $I^2 \\times$ la resistencia de carga, que en este caso vale resistencia de Thévenin, y el $I^2$, si se dan cuenta, es voltaje de Thévenin dividido para dos veces la resistencia de Thévenin,",
+      "gt_normalizado": "y por qué dos veces la resistencia de thévenin porque ya habíamos visto que si solamente hay resistencias en dc el valor de resistencia de carga que maximizaba era precisamente el valor de la resistencia de thévenin entonces tiene bastante sentido cuánto es el valor numérico de este máximo valor de potencia es i 2 times la resistencia de carga que en este caso vale resistencia de thévenin y el i 2 si se dan cuenta es voltaje de thévenin dividido para dos veces la resistencia de thévenin"
+    },
+    {
+      "sample_id": "clase03_seg0245",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0245.wav",
+      "inicio": 4317.358,
+      "fin": 4328.306,
+      "duracion_seg": 10.948,
+      "gt_original": "como está al cuadrado, cuatro veces la resistencia al cuadrado. Es decir que el valor de potencia máxima nos da lo mismo que obteníamos cuando estábamos trabajando en DC,",
+      "gt_normalizado": "como está al cuadrado cuatro veces la resistencia al cuadrado es decir que el valor de potencia máxima nos da lo mismo que obteníamos cuando estábamos trabajando en dc"
+    },
+    {
+      "sample_id": "clase03_seg0246",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0246.wav",
+      "inicio": 4328.85,
+      "fin": 4342.35,
+      "duracion_seg": 13.5,
+      "gt_original": "voltaje al cuadrado dividido para cuatro veces la resistencia de Thévenin. La única diferencia está en que obviamente aquí ya no estamos hablando de el valor de DC del voltaje al cuadrado, sino del valor RMS de la",
+      "gt_normalizado": "voltaje al cuadrado dividido para cuatro veces la resistencia de thévenin la única diferencia está en que obviamente aquí ya no estamos hablando de el valor de dc del voltaje al cuadrado sino del valor rms de la"
+    },
+    {
+      "sample_id": "clase03_seg0247",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0247.wav",
+      "inicio": 4343.304,
+      "fin": 4354.08,
+      "duracion_seg": 10.776,
+      "gt_original": "fuente de voltaje de Thévenin. ¿Preguntas hasta aquí? Bueno, dada la hora, yo creo que no",
+      "gt_normalizado": "fuente de voltaje de thévenin preguntas hasta aquí bueno dada la hora yo creo que no"
+    },
+    {
+      "sample_id": "clase03_seg0248",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0248.wav",
+      "inicio": 4370.91,
+      "fin": 4381.65,
+      "duracion_seg": 10.74,
+      "gt_original": "alcanzamos a hacer un problemita. Empezamos la siguiente clase con el problema de máxima transferencia de potencia. Pero aparte de esto, la siguiente clase vamos a ver lo que se conoce como",
+      "gt_normalizado": "alcanzamos a hacer un problemita empezamos la siguiente clase con el problema de máxima transferencia de potencia pero aparte de esto la siguiente clase vamos a ver lo que se conoce como"
+    },
+    {
+      "sample_id": "clase03_seg0249",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0249.wav",
+      "inicio": 4382.1,
+      "fin": 4394.31,
+      "duracion_seg": 12.21,
+      "gt_original": "respuesta de frecuencia. Para la siguiente clase quiero que todos vengan preparando una mini investigación. Quiero que averigüen",
+      "gt_normalizado": "respuesta de frecuencia para la siguiente clase quiero que todos vengan preparando una mini investigación quiero que averigüen"
+    },
+    {
+      "sample_id": "clase03_seg0250",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0250.wav",
+      "inicio": 4398.09,
+      "fin": 4412.89,
+      "duracion_seg": 14.8,
+      "gt_original": "cuáles son las frecuencias de operación de las señales eléctricas, electromagnéticas en general, de",
+      "gt_normalizado": "cuáles son las frecuencias de operación de las señales eléctricas electromagnéticas en general de"
+    },
+    {
+      "sample_id": "clase03_seg0251",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0251.wav",
+      "inicio": 4419.12,
+      "fin": 4430.04,
+      "duracion_seg": 10.92,
+      "gt_original": "todas las señales electromagnéticas. Entonces, eso ¿qué debería incluir? Debería incluir energía, por ejemplo, la señal del tomacorriente de $60\\text{ Hz}$ en ciertos países, $50\\text{ Hz}$ en otros países;",
+      "gt_normalizado": "todas las señales electromagnéticas entonces eso qué debería incluir debería incluir energía por ejemplo la señal del tomacorriente de 60 text hz en ciertos países 50 text hz en otros países"
+    },
+    {
+      "sample_id": "clase03_seg0252",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0252.wav",
+      "inicio": 4431.03,
+      "fin": 4442.263,
+      "duracion_seg": 11.233,
+      "gt_original": "debería incluir telecomunicaciones con los distintos rangos que implica eso, ¿no? Es decir, señales Wi-Fi, señales de radio FM y AM,",
+      "gt_normalizado": "debería incluir telecomunicaciones con los distintos rangos que implica eso no es decir señales wi fi señales de radio fm y am"
+    },
+    {
+      "sample_id": "clase03_seg0253",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0253.wav",
+      "inicio": 4443.51,
+      "fin": 4453.78,
+      "duracion_seg": 10.27,
+      "gt_original": "señales 4G, señales 3G, las señales electromagnéticas también incluyen las señales, por ejemplo, de radar, las",
+      "gt_normalizado": "señales 4g señales 3g las señales electromagnéticas también incluyen las señales por ejemplo de radar las"
+    },
+    {
+      "sample_id": "clase03_seg0254",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0254.wav",
+      "inicio": 4454.486,
+      "fin": 4467.91,
+      "duracion_seg": 13.424,
+      "gt_original": "señales de electrocardiogramas, las señales de radiografías. La investigación debe concluir... debe contener al menos dos páginas de",
+      "gt_normalizado": "señales de electrocardiogramas las señales de radiografías la investigación debe concluir debe contener al menos dos páginas de"
+    },
+    {
+      "sample_id": "clase03_seg0255",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0255.wav",
+      "inicio": 4468.8,
+      "fin": 4488.51,
+      "duracion_seg": 19.71,
+      "gt_original": "palabras, eso es unas $1500$ palabras. Si tiene imágenes, pues las imágenes no pueden hacer... las dos páginas no pueden estar hechas de imágenes. Esto lo traen para la siguiente clase, de hecho lo voy a poner en el aula virtual para que lo suban. ¿Dudas al respecto? ¿Se lo",
+      "gt_normalizado": "palabras eso es unas 1500 palabras si tiene imágenes pues las imágenes no pueden hacer las dos páginas no pueden estar hechas de imágenes esto lo traen para la siguiente clase de hecho lo voy a poner en el aula virtual para que lo suban dudas al respecto se lo"
+    },
+    {
+      "sample_id": "clase03_seg0256",
+      "clase_id": "clase03",
+      "ruta_audio": "data/processed/chunks/clase03/clase03_seg0256.wav",
+      "inicio": 4491.859,
+      "fin": 4513.739,
+      "duracion_seg": 21.879,
+      "gt_original": "entrega antes de la clase, profe? Voy a poner la fecha de entrega para justamente la hora de la clase. Ya, profe. Muy bien. Listo, jóvenes, cuídense mucho, nos vemos el día martes... el día lunes... no, martes, martes, el día martes. Gracias, profe, pase bien. Ya, también pasen bien, hasta luego.",
+      "gt_normalizado": "entrega antes de la clase profe voy a poner la fecha de entrega para justamente la hora de la clase ya profe muy bien listo jóvenes cuídense mucho nos vemos el día martes el día lunes no martes martes el día martes gracias profe pase bien ya también pasen bien hasta luego"
+    }
+  ]
+}

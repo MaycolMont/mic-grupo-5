@@ -1,12 +1,27 @@
-librosa
-soundfile
-numpy
-pandas
-torch
-transformers
-jiwer
-vosk
-openai-whisper
-tqdm
-pytest
-jupyter
+# --- Núcleo de audio y datos ---
+librosa>=0.10.2
+soundfile>=0.12.1
+pydub>=0.25.1
+webvtt-py>=0.5.1
+numpy>=1.26
+pandas>=2.0
+tqdm>=4.66
+requests>=2.31
+
+# --- Alineación forzada (motor Vosk, funciona en CPU) ---
+vosk>=0.3.45
+
+# --- Opcionales para motores CTC/GPU ---
+# torch>=2.2
+# transformers>=4.40
+# ctc-forced-aligner==1.0.2   # requiere Microsoft C++ Build Tools en Windows
+# whisperx                    # requiere torch/torchaudio y GPU para velocidades prácticas
+# onnxruntime>=1.17
+
+# --- Evaluación ASR y pruebas ---
+jiwer>=3.0
+openai-whisper>=20231117
+transformers>=4.40
+torch>=2.2
+pytest>=8.0
+jupyter>=1.0

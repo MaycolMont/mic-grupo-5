@@ -1,0 +1,2301 @@
+{
+  "clase_id": "clase08",
+  "audio_stem": "yt_redes-de-datos_20201201_20YYRXdIZMw",
+  "audio_path": "data/interim/wav_16k/yt_redes-de-datos_20201201_20YYRXdIZMw.wav",
+  "duracion_audio_seg": 4129.657,
+  "palabras_gt": 7700,
+  "palabras_reconocidas": 5872,
+  "ratio_anclaje": 0.2265,
+  "chunks": [
+    {
+      "sample_id": "clase08_seg0001",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0001.wav",
+      "inicio": 17.49,
+      "fin": 28.71,
+      "duracion_seg": 11.22,
+      "gt_original": "Okay. Último tema del capítulo 3: EIGRP. Vamos es a hablar un poquito de los protocolos de enrutamiento y a hablar algo de la configuración.",
+      "gt_normalizado": "okay último tema del capítulo 3 eigrp vamos es a hablar un poquito de los protocolos de enrutamiento y a hablar algo de la configuración"
+    },
+    {
+      "sample_id": "clase08_seg0002",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0002.wav",
+      "inicio": 29.685,
+      "fin": 46.5,
+      "duracion_seg": 16.815,
+      "gt_original": "Esta sesión tiene tres partes. La primera es una introducción al protocolo de enrutamiento. Nosotros ya estuvimos revisando al menos de forma ligera los protocolos de enrutamiento y vamos a hablar de las características",
+      "gt_normalizado": "esta sesión tiene tres partes la primera es una introducción al protocolo de enrutamiento nosotros ya estuvimos revisando al menos de forma ligera los protocolos de enrutamiento y vamos a hablar de las características"
+    },
+    {
+      "sample_id": "clase08_seg0003",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0003.wav",
+      "inicio": 47.04,
+      "fin": 59.34,
+      "duracion_seg": 12.3,
+      "gt_original": "de funcionamiento de EIGRP y configuración tanto en IPv4 e IPv6. Cuando nosotros hablamos de protocolos de enrutamiento, hay que tener ese",
+      "gt_normalizado": "de funcionamiento de eigrp y configuración tanto en ipv4 e ipv6 cuando nosotros hablamos de protocolos de enrutamiento hay que tener ese"
+    },
+    {
+      "sample_id": "clase08_seg0004",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0004.wav",
+      "inicio": 59.991,
+      "fin": 71.28,
+      "duracion_seg": 11.289,
+      "gt_original": "cuadro de forma que se lo puedan graham, en sí, para aquellos que son de Telemática o, sí, para los que van todo este camino de redes, y que les gustó la parte de redes, si quieren seguir avanzando",
+      "gt_normalizado": "cuadro de forma que se lo puedan graham en sí para aquellos que son de telemática o sí para los que van todo este camino de redes y que les gustó la parte de redes si quieren seguir avanzando"
+    },
+    {
+      "sample_id": "clase08_seg0005",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0005.wav",
+      "inicio": 72.18,
+      "fin": 86.22,
+      "duracion_seg": 14.04,
+      "gt_original": "es necesariamente aprenderse este tipo de protocolos que voy a poder utilizar. Si yo me baso en este cuadro conceptual, como dice, tengo muchos protocolos de enrutamiento que están separados en dos clasificaciones.",
+      "gt_normalizado": "es necesariamente aprenderse este tipo de protocolos que voy a poder utilizar si yo me baso en este cuadro conceptual como dice tengo muchos protocolos de enrutamiento que están separados en dos clasificaciones"
+    },
+    {
+      "sample_id": "clase08_seg0006",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0006.wav",
+      "inicio": 86.588,
+      "fin": 104.19,
+      "duracion_seg": 17.602,
+      "gt_original": "La primera son protocolos de borde interior, los que voy a poder utilizar dentro de mi red, y los protocolos de borde exterior, los que van a ser utilizados por proveedores de internet o fuera de la red. Cuando yo trabajo a nivel de redes de datos",
+      "gt_normalizado": "la primera son protocolos de borde interior los que voy a poder utilizar dentro de mi red y los protocolos de borde exterior los que van a ser utilizados por proveedores de internet o fuera de la red cuando yo trabajo a nivel de redes de datos"
+    },
+    {
+      "sample_id": "clase08_seg0007",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0007.wav",
+      "inicio": 104.548,
+      "fin": 116.79,
+      "duracion_seg": 12.242,
+      "gt_original": "y en el mundo de redes internas, yo tengo dos subclasificaciones. El primer protocolo, protocolos de enrutamiento por vector distancia.",
+      "gt_normalizado": "y en el mundo de redes internas yo tengo dos subclasificaciones el primer protocolo protocolos de enrutamiento por vector distancia"
+    },
+    {
+      "sample_id": "clase08_seg0008",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0008.wav",
+      "inicio": 117.535,
+      "fin": 133.41,
+      "duracion_seg": 15.875,
+      "gt_original": "El segundo, protocolo de enrutamiento por estado de enlace. Dependiendo de cuál yo use, van a haber ciertas características cada uno de ellos, y así mismos, voy a poder utilizar o llegar a una ruta o utilizar una ruta dependiendo de este tipo de protocolo.",
+      "gt_normalizado": "el segundo protocolo de enrutamiento por estado de enlace dependiendo de cuál yo use van a haber ciertas características cada uno de ellos y así mismos voy a poder utilizar o llegar a una ruta o utilizar una ruta dependiendo de este tipo de protocolo"
+    },
+    {
+      "sample_id": "clase08_seg0009",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0009.wav",
+      "inicio": 133.893,
+      "fin": 149.76,
+      "duracion_seg": 15.867,
+      "gt_original": "Si yo me voy a la parte de protocolos de exterior, yo tengo un protocolo de enrutamiento basado en camino, basado en encaminamiento, en donde el más conocido es el BGP. Como ven, esto ya es un nivel de redes avanzadas, así que simplemente es conocerlo. Sin",
+      "gt_normalizado": "si yo me voy a la parte de protocolos de exterior yo tengo un protocolo de enrutamiento basado en camino basado en encaminamiento en donde el más conocido es el bgp como ven esto ya es un nivel de redes avanzadas así que simplemente es conocerlo sin"
+    },
+    {
+      "sample_id": "clase08_seg0010",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0010.wav",
+      "inicio": 150.145,
+      "fin": 162.09,
+      "duracion_seg": 11.945,
+      "gt_original": "embargo, a nivel de redes internas, si yo me voy a la parte de protocolos de enrutamiento de vector distancia, yo tengo Rip versión 1 o Rip versión",
+      "gt_normalizado": "embargo a nivel de redes internas si yo me voy a la parte de protocolos de enrutamiento de vector distancia yo tengo rip versión 1 o rip versión"
+    },
+    {
+      "sample_id": "clase08_seg0011",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0011.wav",
+      "inicio": 162.66,
+      "fin": 174.19,
+      "duracion_seg": 11.53,
+      "gt_original": "2, que ya prácticamente no se les usa mucho, va a depender solamente como laboratorio si quieren conocer este tipo de protocolo. El otro es el protocolo el",
+      "gt_normalizado": "2 que ya prácticamente no se les usa mucho va a depender solamente como laboratorio si quieren conocer este tipo de protocolo el otro es el protocolo el"
+    },
+    {
+      "sample_id": "clase08_seg0012",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0012.wav",
+      "inicio": 176.421,
+      "fin": 192.637,
+      "duracion_seg": 16.215,
+      "gt_original": "protocolo de enrutamiento de borde interior, el IGP, y el protocolo EIGRP, que en cambio es el mismo protocolo pero mejorado, el enhanced, la E. Si yo me voy a los protocolos de enrutamiento de estado de enlace, es que yo tengo el que se conoce",
+      "gt_normalizado": "protocolo de enrutamiento de borde interior el igp y el protocolo eigrp que en cambio es el mismo protocolo pero mejorado el enhanced la e si yo me voy a los protocolos de enrutamiento de estado de enlace es que yo tengo el que se conoce"
+    },
+    {
+      "sample_id": "clase08_seg0013",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0013.wav",
+      "inicio": 193.283,
+      "fin": 207.9,
+      "duracion_seg": 14.617,
+      "gt_original": "como OSPF y IS-IS. OSPF y IS-IS se lo ven, como digo, en otras materias, nosotros vamos ahorita solamente a ver el EIGRP, un protocolo basado en vector distancia, por dos razones... bueno, por una razón muy",
+      "gt_normalizado": "como ospf y is is ospf y is is se lo ven como digo en otras materias nosotros vamos ahorita solamente a ver el eigrp un protocolo basado en vector distancia por dos razones bueno por una razón muy"
+    },
+    {
+      "sample_id": "clase08_seg0014",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0014.wav",
+      "inicio": 208.875,
+      "fin": 220.32,
+      "duracion_seg": 11.445,
+      "gt_original": "grande. La primera, como dice ahí, está en la clasificación de vector distancia. Sin embargo, como ser un protocolo... al ser un protocolo mejorado,",
+      "gt_normalizado": "grande la primera como dice ahí está en la clasificación de vector distancia sin embargo como ser un protocolo al ser un protocolo mejorado"
+    },
+    {
+      "sample_id": "clase08_seg0015",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0015.wav",
+      "inicio": 220.74,
+      "fin": 233.37,
+      "duracion_seg": 12.63,
+      "gt_original": "tiene ciertas características de enrutamiento de estado de enlace. Por eso es que vamos a ver este para entender algunos aspectos de un protocolo de enrutamiento como tal.",
+      "gt_normalizado": "tiene ciertas características de enrutamiento de estado de enlace por eso es que vamos a ver este para entender algunos aspectos de un protocolo de enrutamiento como tal"
+    },
+    {
+      "sample_id": "clase08_seg0016",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0016.wav",
+      "inicio": 235.98,
+      "fin": 258.24,
+      "duracion_seg": 22.26,
+      "gt_original": "Algo interesante que a modo de conocimiento general, bueno, cuando yo trabajo con protocolos de vector distancia, y quizás los de Computación habrán escuchado más ese término, yo trabajo con el algoritmo de Bellman-Ford. Si yo trabajo en cambio con el EIGRP, sólo para este este EIGRP, como les estaba diciendo, al ser un protocolo que tiene ciertas características de OSPF, tiene su propio algoritmo.",
+      "gt_normalizado": "algo interesante que a modo de conocimiento general bueno cuando yo trabajo con protocolos de vector distancia y quizás los de computación habrán escuchado más ese término yo trabajo con el algoritmo de bellman ford si yo trabajo en cambio con el eigrp sólo para este este eigrp como les estaba diciendo al ser un protocolo que tiene ciertas características de ospf tiene su propio algoritmo"
+    },
+    {
+      "sample_id": "clase08_seg0017",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0017.wav",
+      "inicio": 258.657,
+      "fin": 268.8,
+      "duracion_seg": 10.143,
+      "gt_original": "El algoritmo con el que trabaja se llama DUAL, Algoritmo por Actualización de Difusiones o envío de mensajes. OSPF, creo que sí es el más conocido",
+      "gt_normalizado": "el algoritmo con el que trabaja se llama dual algoritmo por actualización de difusiones o envío de mensajes ospf creo que sí es el más conocido"
+    },
+    {
+      "sample_id": "clase08_seg0018",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0018.wav",
+      "inicio": 269.94,
+      "fin": 282.569,
+      "duracion_seg": 12.629,
+      "gt_original": "debido a que trabaja con el algoritmo de Dijkstra, el algoritmo de, para encontrar los caminos más cortos; y IS-IS y BGP en cambio ya tienen otro mecanismo diferente. Consultas hasta ahí.",
+      "gt_normalizado": "debido a que trabaja con el algoritmo de dijkstra el algoritmo de para encontrar los caminos más cortos y is is y bgp en cambio ya tienen otro mecanismo diferente consultas hasta ahí"
+    },
+    {
+      "sample_id": "clase08_seg0019",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0019.wav",
+      "inicio": 284.73,
+      "fin": 297.0,
+      "duracion_seg": 12.27,
+      "gt_original": "Profe, ¿y EIGRP también no trabaja con Dijkstra? No, el EIGRP tiene su propio algoritmo llamado DUAL, y DUAL lo que hace es",
+      "gt_normalizado": "profe y eigrp también no trabaja con dijkstra no el eigrp tiene su propio algoritmo llamado dual y dual lo que hace es"
+    },
+    {
+      "sample_id": "clase08_seg0020",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0020.wav",
+      "inicio": 297.36,
+      "fin": 311.722,
+      "duracion_seg": 14.362,
+      "gt_original": "utilizar una serie de mensajes. Recuerden que cuando yo mando un mensaje, un paquete a través de IP que se circula por la red, el EIGRP tiene sus propios mensajes para conocer qué es lo que pasa en la red interna. ¿Alguna",
+      "gt_normalizado": "utilizar una serie de mensajes recuerden que cuando yo mando un mensaje un paquete a través de ip que se circula por la red el eigrp tiene sus propios mensajes para conocer qué es lo que pasa en la red interna alguna"
+    },
+    {
+      "sample_id": "clase08_seg0021",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0021.wav",
+      "inicio": 314.493,
+      "fin": 324.51,
+      "duracion_seg": 10.017,
+      "gt_original": "otra consulta? No. Perfecto. Okay, entonces como regla así general para todos,",
+      "gt_normalizado": "otra consulta no perfecto okay entonces como regla así general para todos"
+    },
+    {
+      "sample_id": "clase08_seg0022",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0022.wav",
+      "inicio": 325.35,
+      "fin": 336.78,
+      "duracion_seg": 11.43,
+      "gt_original": "sería bueno que al menos conozcan esta pequeña clasificación de los protocolos más básicos que pueden ustedes encontrarse a lo largo del camino de redes o cualquier otra materia superior que vayan a ver a nivel de pregrado.",
+      "gt_normalizado": "sería bueno que al menos conozcan esta pequeña clasificación de los protocolos más básicos que pueden ustedes encontrarse a lo largo del camino de redes o cualquier otra materia superior que vayan a ver a nivel de pregrado"
+    },
+    {
+      "sample_id": "clase08_seg0023",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0023.wav",
+      "inicio": 337.56,
+      "fin": 349.05,
+      "duracion_seg": 11.49,
+      "gt_original": "Perfecto. Características básicas de EIGRP: Primero, este es un protocolo propietario de Cisco,",
+      "gt_normalizado": "perfecto características básicas de eigrp primero este es un protocolo propietario de cisco"
+    },
+    {
+      "sample_id": "clase08_seg0024",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0024.wav",
+      "inicio": 349.41,
+      "fin": 360.127,
+      "duracion_seg": 10.717,
+      "gt_original": "es decir, solamente lo van a poder encontrar o configurar en routers marca Cisco. Si ustedes tienen algún otro router, por ejemplo, un",
+      "gt_normalizado": "es decir solamente lo van a poder encontrar o configurar en routers marca cisco si ustedes tienen algún otro router por ejemplo un"
+    },
+    {
+      "sample_id": "clase08_seg0025",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0025.wav",
+      "inicio": 360.87,
+      "fin": 373.079,
+      "duracion_seg": 12.209,
+      "gt_original": "router MikroTik o router IBM, no van a poder configurar este protocolo, y ahí en vez de usar el EIGRP, utilizábamos OSPF para que al menos haya una conexión entre dos marcas",
+      "gt_normalizado": "router mikrotik o router ibm no van a poder configurar este protocolo y ahí en vez de usar el eigrp utilizábamos ospf para que al menos haya una conexión entre dos marcas"
+    },
+    {
+      "sample_id": "clase08_seg0026",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0026.wav",
+      "inicio": 373.507,
+      "fin": 388.779,
+      "duracion_seg": 15.272,
+      "gt_original": "distintas de enrutadores. EIGRP fue lanzado en el 2013 de forma como un estándar abierto para que la comunidad pueda empezar a desarrollarse y tengan otros protocolos y que puedan conocer al menos el algoritmo que fluye a través",
+      "gt_normalizado": "distintas de enrutadores eigrp fue lanzado en el 2013 de forma como un estándar abierto para que la comunidad pueda empezar a desarrollarse y tengan otros protocolos y que puedan conocer al menos el algoritmo que fluye a través"
+    },
+    {
+      "sample_id": "clase08_seg0027",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0027.wav",
+      "inicio": 389.245,
+      "fin": 407.25,
+      "duracion_seg": 18.005,
+      "gt_original": "de este protocolo. Les había dicho, es un protocolo basado en vector distancia, pero avanzado, la cual coge ciertas características de OSPF, de estado de enlace, debido a que un protocolo de estado de enlace también manda difusión, utiliza ciertos mensajes para poder conocer su red,",
+      "gt_normalizado": "de este protocolo les había dicho es un protocolo basado en vector distancia pero avanzado la cual coge ciertas características de ospf de estado de enlace debido a que un protocolo de estado de enlace también manda difusión utiliza ciertos mensajes para poder conocer su red"
+    },
+    {
+      "sample_id": "clase08_seg0028",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0028.wav",
+      "inicio": 407.7,
+      "fin": 418.47,
+      "duracion_seg": 10.77,
+      "gt_original": "y eso es lo que tiene EIGRP, esa parte de conocimiento o de tratar de encontrar qué sucede en su red para poder ya sea actualizarse,",
+      "gt_normalizado": "y eso es lo que tiene eigrp esa parte de conocimiento o de tratar de encontrar qué sucede en su red para poder ya sea actualizarse"
+    },
+    {
+      "sample_id": "clase08_seg0029",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0029.wav",
+      "inicio": 419.122,
+      "fin": 440.266,
+      "duracion_seg": 21.144,
+      "gt_original": "actualizar la tabla de enrutamiento... perdón, actualizar la tabla de enrutamiento y demás otra información. El algoritmo que se usa, como dice ahí, es DUAL, ese algoritmo por actualización de difusión, es decir, yo voy a poder mandar mensajes a mi red dependiendo... perdón, disculpen. Okay, chicos,",
+      "gt_normalizado": "actualizar la tabla de enrutamiento perdón actualizar la tabla de enrutamiento y demás otra información el algoritmo que se usa como dice ahí es dual ese algoritmo por actualización de difusión es decir yo voy a poder mandar mensajes a mi red dependiendo perdón disculpen okay chicos"
+    },
+    {
+      "sample_id": "clase08_seg0030",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0030.wav",
+      "inicio": 478.47,
+      "fin": 488.7,
+      "duracion_seg": 10.23,
+      "gt_original": "disculpen. Entonces, estaba diciendo que tenemos DUAL, y el algoritmo DUAL se basa en envío de mensajes, envío de mensajes ya sea a un solo router,",
+      "gt_normalizado": "disculpen entonces estaba diciendo que tenemos dual y el algoritmo dual se basa en envío de mensajes envío de mensajes ya sea a un solo router"
+    },
+    {
+      "sample_id": "clase08_seg0031",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0031.wav",
+      "inicio": 489.09,
+      "fin": 501.27,
+      "duracion_seg": 12.18,
+      "gt_original": "envío de mensajes a un grupo de routers o a todos los routers, a todos los routers que tengan en su propia área, ya sea, dice, para calcular el mejor camino hacia un destino",
+      "gt_normalizado": "envío de mensajes a un grupo de routers o a todos los routers a todos los routers que tengan en su propia área ya sea dice para calcular el mejor camino hacia un destino"
+    },
+    {
+      "sample_id": "clase08_seg0032",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0032.wav",
+      "inicio": 501.66,
+      "fin": 515.59,
+      "duracion_seg": 13.93,
+      "gt_original": "y tanto asimismo un camino de vuelta, el mejor camino que se pueda tener de un punto a otro. Este punto es el que más mi interesa: establecimiento de adyacencia de vecinos. Y",
+      "gt_normalizado": "y tanto asimismo un camino de vuelta el mejor camino que se pueda tener de un punto a otro este punto es el que más mi interesa establecimiento de adyacencia de vecinos y"
+    },
+    {
+      "sample_id": "clase08_seg0033",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0033.wav",
+      "inicio": 516.647,
+      "fin": 530.49,
+      "duracion_seg": 13.843,
+      "gt_original": "para esto, lo que voy a hacer es que tengo aquí un pequeño... no un ejercicio, sino más bien el esquema. Estoy diciendo que EIGRP trabaja de forma de conocimiento mediante mensajes.",
+      "gt_normalizado": "para esto lo que voy a hacer es que tengo aquí un pequeño no un ejercicio sino más bien el esquema estoy diciendo que eigrp trabaja de forma de conocimiento mediante mensajes"
+    },
+    {
+      "sample_id": "clase08_seg0034",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0034.wav",
+      "inicio": 531.36,
+      "fin": 548.227,
+      "duracion_seg": 16.867,
+      "gt_original": "Sin embargo, cada router, cuando yo trato de configurar el EIGRP para que funcione en cada uno de ellos, lo que yo tengo que recordar en la configuración, es decir, si yo estoy en el router 3, en este de aquí, router 1 3,",
+      "gt_normalizado": "sin embargo cada router cuando yo trato de configurar el eigrp para que funcione en cada uno de ellos lo que yo tengo que recordar en la configuración es decir si yo estoy en el router 3 en este de aquí router 1 3"
+    },
+    {
+      "sample_id": "clase08_seg0035",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0035.wav",
+      "inicio": 548.91,
+      "fin": 563.04,
+      "duracion_seg": 14.13,
+      "gt_original": "¿quiénes son mis vecinos? Los vecinos es este, nada más. Si yo estoy en el router 1 4, el router 1 4 tiene que hacerse esa pregunta: ¿Quiénes son mis",
+      "gt_normalizado": "quiénes son mis vecinos los vecinos es este nada más si yo estoy en el router 1 4 el router 1 4 tiene que hacerse esa pregunta quiénes son mis"
+    },
+    {
+      "sample_id": "clase08_seg0036",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0036.wav",
+      "inicio": 565.367,
+      "fin": 578.04,
+      "duracion_seg": 12.673,
+      "gt_original": "vecinos? Los vecinos de él son uno, dos, tres, cuatro. Esa pregunta se tienen que hacer por cada router para identificar cuáles son sus vecinos,",
+      "gt_normalizado": "vecinos los vecinos de él son uno dos tres cuatro esa pregunta se tienen que hacer por cada router para identificar cuáles son sus vecinos"
+    },
+    {
+      "sample_id": "clase08_seg0037",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0037.wav",
+      "inicio": 578.516,
+      "fin": 600.174,
+      "duracion_seg": 21.658,
+      "gt_original": "y a eso es lo que se conoce como la adyacencia de los vecinos, para poder decir: este router tiene adyacencia o está en su vecindario el router 1 3, 1 2, 1 5, 1 1. Lo mismo si yo me pregunto por el router 1 5, me hago la, el mismo producto, ¿quiénes están en mi vecindad, quiénes son",
+      "gt_normalizado": "y a eso es lo que se conoce como la adyacencia de los vecinos para poder decir este router tiene adyacencia o está en su vecindario el router 1 3 1 2 1 5 1 1 lo mismo si yo me pregunto por el router 1 5 me hago la el mismo producto quiénes están en mi vecindad quiénes son"
+    },
+    {
+      "sample_id": "clase08_seg0038",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0038.wav",
+      "inicio": 605.886,
+      "fin": 619.38,
+      "duracion_seg": 13.494,
+      "gt_original": "mis vecinos, con quién yo tengo adyacencia? Este, con esto, y con esto. Entonces, esa es una característica importante de EIGRP. Si ustedes con esa parte que estoy diciendo, que reconocen cuáles son los vecinos y las adyacencias de un router a otro,",
+      "gt_normalizado": "mis vecinos con quién yo tengo adyacencia este con esto y con esto entonces esa es una característica importante de eigrp si ustedes con esa parte que estoy diciendo que reconocen cuáles son los vecinos y las adyacencias de un router a otro"
+    },
+    {
+      "sample_id": "clase08_seg0039",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0039.wav",
+      "inicio": 620.52,
+      "fin": 638.22,
+      "duracion_seg": 17.7,
+      "gt_original": "aprendieron el EIGRP, pero así de simple es la configuración. Cuando yo trabajo con un EIGRP, y recuerden que si estuviera hablando de en la capa 4, cuando al menos se inició este mundo del modelo OSI, yo les dije que en la capa 4 ustedes iban a tener el protocolo",
+      "gt_normalizado": "aprendieron el eigrp pero así de simple es la configuración cuando yo trabajo con un eigrp y recuerden que si estuviera hablando de en la capa 4 cuando al menos se inició este mundo del modelo osi yo les dije que en la capa 4 ustedes iban a tener el protocolo"
+    },
+    {
+      "sample_id": "clase08_seg0040",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0040.wav",
+      "inicio": 638.69,
+      "fin": 652.29,
+      "duracion_seg": 13.6,
+      "gt_original": "TCP, protocolo UDP para mandar mensajes, yo se los... no sé si recuerdan. Sin embargo, el EIGRP tiene su propio protocolo de transporte. El protocolo de transporte EIGRP se llama RTP,",
+      "gt_normalizado": "tcp protocolo udp para mandar mensajes yo se los no sé si recuerdan sin embargo el eigrp tiene su propio protocolo de transporte el protocolo de transporte eigrp se llama rtp"
+    },
+    {
+      "sample_id": "clase08_seg0041",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0041.wav",
+      "inicio": 653.25,
+      "fin": 667.11,
+      "duracion_seg": 13.86,
+      "gt_original": "Protocolo de Transporte Confiable, la cual se usa este tipo de protocolo de transporte para el envío de todos los mensajes que fluyen a lo largo de toda la red. Otro punto,",
+      "gt_normalizado": "protocolo de transporte confiable la cual se usa este tipo de protocolo de transporte para el envío de todos los mensajes que fluyen a lo largo de toda la red otro punto"
+    },
+    {
+      "sample_id": "clase08_seg0042",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0042.wav",
+      "inicio": 667.98,
+      "fin": 684.013,
+      "duracion_seg": 16.033,
+      "gt_original": "esas actualizaciones o ese envío de mensajes en la red, como dije, puede ser unicast, es decir, envío a un solo router; puede ser parcial, mando a un conjunto de routers; o puede ser a toda la red, un multicast.",
+      "gt_normalizado": "esas actualizaciones o ese envío de mensajes en la red como dije puede ser unicast es decir envío a un solo router puede ser parcial mando a un conjunto de routers o puede ser a toda la red un multicast"
+    },
+    {
+      "sample_id": "clase08_seg0043",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0043.wav",
+      "inicio": 684.45,
+      "fin": 695.115,
+      "duracion_seg": 10.665,
+      "gt_original": "Todo va a depender de qué es lo que sucede en la red. ¿Se agregó un nuevo router? Hay que... si se agregó un nuevo router, hay que avisar a toda la red que hay un nuevo cambio. ¿Se",
+      "gt_normalizado": "todo va a depender de qué es lo que sucede en la red se agregó un nuevo router hay que si se agregó un nuevo router hay que avisar a toda la red que hay un nuevo cambio se"
+    },
+    {
+      "sample_id": "clase08_seg0044",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0044.wav",
+      "inicio": 695.7,
+      "fin": 706.92,
+      "duracion_seg": 11.22,
+      "gt_original": "quitó un router? Hay que avisar a la red que hay ese cambio, que existe ese cambio. Y ahí es que se envían todos los diferentes mensajes",
+      "gt_normalizado": "quitó un router hay que avisar a la red que hay ese cambio que existe ese cambio y ahí es que se envían todos los diferentes mensajes"
+    },
+    {
+      "sample_id": "clase08_seg0045",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0045.wav",
+      "inicio": 707.655,
+      "fin": 723.78,
+      "duracion_seg": 16.125,
+      "gt_original": "por cualquier vía, este, unicast, multicast, o parciales. ¿Consultas hasta ahí en las características? Interesante. Aprenderé los protocolos.",
+      "gt_normalizado": "por cualquier vía este unicast multicast o parciales consultas hasta ahí en las características interesante aprenderé los protocolos"
+    },
+    {
+      "sample_id": "clase08_seg0046",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0046.wav",
+      "inicio": 729.06,
+      "fin": 751.5,
+      "duracion_seg": 22.44,
+      "gt_original": "No. Adelante, Angélica. ¿Sí se me escucha? Ya, es una pregunta. Usted cuando dice que cuando hay un cambio, hay que avisarle a toda la red, ¿a qué se refiere? Porque no sé si entendí mal, pero al tener esto de los vecinos, ¿no se supone que ya no es necesario que toda la red conozca toda la topología? Correcto, correcto,",
+      "gt_normalizado": "no adelante angélica sí se me escucha ya es una pregunta usted cuando dice que cuando hay un cambio hay que avisarle a toda la red a qué se refiere porque no sé si entendí mal pero al tener esto de los vecinos no se supone que ya no es necesario que toda la red conozca toda la topología correcto correcto"
+    },
+    {
+      "sample_id": "clase08_seg0047",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0047.wav",
+      "inicio": 751.92,
+      "fin": 765.937,
+      "duracion_seg": 14.017,
+      "gt_original": "correcto, correcto. Cuando digamos que este es el cambio, este... este es el router, esta línea se elimina, ¿qué sucede?",
+      "gt_normalizado": "correcto correcto cuando digamos que este es el cambio este este es el router esta línea se elimina qué sucede"
+    },
+    {
+      "sample_id": "clase08_seg0048",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0048.wav",
+      "inicio": 774.3,
+      "fin": 787.83,
+      "duracion_seg": 13.53,
+      "gt_original": "No hay esa línea, sin embargo, el vecino reconoce que ya no hay ese... ese... ese camino hacia el router. Por lo tanto, debe enviar actualizaciones",
+      "gt_normalizado": "no hay esa línea sin embargo el vecino reconoce que ya no hay ese ese ese camino hacia el router por lo tanto debe enviar actualizaciones"
+    },
+    {
+      "sample_id": "clase08_seg0049",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0049.wav",
+      "inicio": 788.19,
+      "fin": 798.543,
+      "duracion_seg": 10.353,
+      "gt_original": "de que este camino ya no existe, y esas actualizaciones las envía a todos sus vecinos para que, al mismo tiempo, se actualicen las tablas",
+      "gt_normalizado": "de que este camino ya no existe y esas actualizaciones las envía a todos sus vecinos para que al mismo tiempo se actualicen las tablas"
+    },
+    {
+      "sample_id": "clase08_seg0050",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0050.wav",
+      "inicio": 798.955,
+      "fin": 810.42,
+      "duracion_seg": 11.465,
+      "gt_original": "de enrutamiento de cada uno de ellos. ¿Y esa actualización sólo llega hasta ahí, hasta el vecino, o los vecinos también avisan a los otros vecinos? Los vecinos,",
+      "gt_normalizado": "de enrutamiento de cada uno de ellos y esa actualización sólo llega hasta ahí hasta el vecino o los vecinos también avisan a los otros vecinos los vecinos"
+    },
+    {
+      "sample_id": "clase08_seg0051",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0051.wav",
+      "inicio": 810.78,
+      "fin": 823.02,
+      "duracion_seg": 12.24,
+      "gt_original": "dependiendo si este vecino o este de aquí, este de aquí, en el momento que se actualiza su tabla de enrutamiento y no hubo ningún desfase con respecto a hasta dónde quiera llegar o algo,",
+      "gt_normalizado": "dependiendo si este vecino o este de aquí este de aquí en el momento que se actualiza su tabla de enrutamiento y no hubo ningún desfase con respecto a hasta dónde quiera llegar o algo"
+    },
+    {
+      "sample_id": "clase08_seg0052",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0052.wav",
+      "inicio": 823.544,
+      "fin": 836.52,
+      "duracion_seg": 12.976,
+      "gt_original": "no avisa, porque el momento que le llega un paquete a este de aquí, y digamos que trata de dejar de enviarlo a este punto de acá, lo único que él va a saber, es decir, que tiene que tratar de enviar a este punto de aquí,",
+      "gt_normalizado": "no avisa porque el momento que le llega un paquete a este de aquí y digamos que trata de dejar de enviarlo a este punto de acá lo único que él va a saber es decir que tiene que tratar de enviar a este punto de aquí"
+    },
+    {
+      "sample_id": "clase08_seg0053",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0053.wav",
+      "inicio": 836.88,
+      "fin": 849.236,
+      "duracion_seg": 12.356,
+      "gt_original": "pero este le va a decir: \"no, ya no existe, ya no tengo ese camino\". Y para esto es que existen... cuando trabajo con el EIGRP, yo no solamente tengo una tabla de enrutamiento como lo hemos estado",
+      "gt_normalizado": "pero este le va a decir no ya no existe ya no tengo ese camino y para esto es que existen cuando trabajo con el eigrp yo no solamente tengo una tabla de enrutamiento como lo hemos estado"
+    },
+    {
+      "sample_id": "clase08_seg0054",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0054.wav",
+      "inicio": 849.63,
+      "fin": 865.26,
+      "duracion_seg": 15.63,
+      "gt_original": "viendo en el enrutamiento estático, que era lo que quería llegar. Recuerden, cuando yo trabajaba con enrutamiento estático, yo les decía: \"hagan un show ip route\" y veían la tabla de enrutamiento, y ustedes podían ver las líneas de la red a la cual ustedes pueden alcanzar por una interfaz,",
+      "gt_normalizado": "viendo en el enrutamiento estático que era lo que quería llegar recuerden cuando yo trabajaba con enrutamiento estático yo les decía hagan un show ip route y veían la tabla de enrutamiento y ustedes podían ver las líneas de la red a la cual ustedes pueden alcanzar por una interfaz"
+    },
+    {
+      "sample_id": "clase08_seg0055",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0055.wav",
+      "inicio": 865.95,
+      "fin": 883.71,
+      "duracion_seg": 17.76,
+      "gt_original": "¿verdad? Eso es lo que es, y sí se acuerdan de esta parte que acabamos de ver en enrutamiento estático. Pero si llega a ver este cambio de que hay una falla o un problema o se cayó un router, o una interfaz no vale, hay que hacer actualizaciones,",
+      "gt_normalizado": "verdad eso es lo que es y sí se acuerdan de esta parte que acabamos de ver en enrutamiento estático pero si llega a ver este cambio de que hay una falla o un problema o se cayó un router o una interfaz no vale hay que hacer actualizaciones"
+    },
+    {
+      "sample_id": "clase08_seg0056",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0056.wav",
+      "inicio": 884.31,
+      "fin": 894.39,
+      "duracion_seg": 10.08,
+      "gt_original": "es decir, enviar mensajes de que la red tome sus medidas y que se vuelva de nuevo a tener un consenso",
+      "gt_normalizado": "es decir enviar mensajes de que la red tome sus medidas y que se vuelva de nuevo a tener un consenso"
+    },
+    {
+      "sample_id": "clase08_seg0057",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0057.wav",
+      "inicio": 894.75,
+      "fin": 905.85,
+      "duracion_seg": 11.1,
+      "gt_original": "de que todos los routers conozcan qué es lo que ha pasado. Para eso el EIGRP tiene tres tablas de enrutamiento. La primera es la que ustedes ya",
+      "gt_normalizado": "de que todos los routers conozcan qué es lo que ha pasado para eso el eigrp tiene tres tablas de enrutamiento la primera es la que ustedes ya"
+    },
+    {
+      "sample_id": "clase08_seg0058",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0058.wav",
+      "inicio": 906.383,
+      "fin": 919.89,
+      "duracion_seg": 13.507,
+      "gt_original": "conocen, la tabla de enrutamiento normal, en la cual ustedes van a tener la dirección de red, el salto y la interfaz por la cual tiene que salir. Sin embargo, el EIGRP tiene dos tablas",
+      "gt_normalizado": "conocen la tabla de enrutamiento normal en la cual ustedes van a tener la dirección de red el salto y la interfaz por la cual tiene que salir sin embargo el eigrp tiene dos tablas"
+    },
+    {
+      "sample_id": "clase08_seg0059",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0059.wav",
+      "inicio": 920.55,
+      "fin": 934.32,
+      "duracion_seg": 13.77,
+      "gt_original": "adicionales. La primera es la tabla de vecinos, en la cual... en la tabla de vecinos lo que va a decir es que cada router va a tener su propia tabla de vecinos y va a configurar su vecindario.",
+      "gt_normalizado": "adicionales la primera es la tabla de vecinos en la cual en la tabla de vecinos lo que va a decir es que cada router va a tener su propia tabla de vecinos y va a configurar su vecindario"
+    },
+    {
+      "sample_id": "clase08_seg0060",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0060.wav",
+      "inicio": 935.76,
+      "fin": 946.47,
+      "duracion_seg": 10.71,
+      "gt_original": "Este sólo va a tener estos dos, este sólo estos dos, y este obvio tenía los cuatro, esa es su tabla de vecinos. Siguiente,",
+      "gt_normalizado": "este sólo va a tener estos dos este sólo estos dos y este obvio tenía los cuatro esa es su tabla de vecinos siguiente"
+    },
+    {
+      "sample_id": "clase08_seg0061",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0061.wav",
+      "inicio": 947.22,
+      "fin": 960.63,
+      "duracion_seg": 13.41,
+      "gt_original": "la tabla de topologías, y esta es la que interesa en la parte de actualizaciones, porque la tabla de topología a mí me va a indicar es cuál va a ser... aquí viene el nuevo concepto... cuál va a ser mi sucesor",
+      "gt_normalizado": "la tabla de topologías y esta es la que interesa en la parte de actualizaciones porque la tabla de topología a mí me va a indicar es cuál va a ser aquí viene el nuevo concepto cuál va a ser mi sucesor"
+    },
+    {
+      "sample_id": "clase08_seg0062",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0062.wav",
+      "inicio": 961.38,
+      "fin": 986.28,
+      "duracion_seg": 24.9,
+      "gt_original": "y cuál es mi sucesor factible, debido a que el sucesor viene a ser el primer enlace en el cual se encuentra también en la tabla de enrutamiento. Si ese sucesor se llega a caer y digamos que existe otra línea por allá que llegue al router que se cayó, o si ya no existe o no sé, es por uno u otro",
+      "gt_normalizado": "y cuál es mi sucesor factible debido a que el sucesor viene a ser el primer enlace en el cual se encuentra también en la tabla de enrutamiento si ese sucesor se llega a caer y digamos que existe otra línea por allá que llegue al router que se cayó o si ya no existe o no sé es por uno u otro"
+    },
+    {
+      "sample_id": "clase08_seg0063",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0063.wav",
+      "inicio": 986.28,
+      "fin": 1002.45,
+      "duracion_seg": 16.17,
+      "gt_original": "motivo, si ese es el sucesor, sigue a traer el sucesor factible que el EIGRP ha calculado ya, porque ya conoce toda la topología de la red, y dicen: \"no, mi sucesor se cayó, sin",
+      "gt_normalizado": "motivo si ese es el sucesor sigue a traer el sucesor factible que el eigrp ha calculado ya porque ya conoce toda la topología de la red y dicen no mi sucesor se cayó sin"
+    },
+    {
+      "sample_id": "clase08_seg0064",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0064.wav",
+      "inicio": 1002.955,
+      "fin": 1015.95,
+      "duracion_seg": 12.995,
+      "gt_original": "embargo, yo conozco que para llegar a ese mismo destino se puede ir por otra ruta\", y para eso es que él también calcula un sucesor factible para, en el momento que ese sucesor se caiga,",
+      "gt_normalizado": "embargo yo conozco que para llegar a ese mismo destino se puede ir por otra ruta y para eso es que él también calcula un sucesor factible para en el momento que ese sucesor se caiga"
+    },
+    {
+      "sample_id": "clase08_seg0065",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0065.wav",
+      "inicio": 1016.76,
+      "fin": 1028.46,
+      "duracion_seg": 11.7,
+      "gt_original": "tener una ruta alterna. Una vez que pasa a ese cambio, el sucesor factible se configura en la tabla de enrutamiento como sucesor,",
+      "gt_normalizado": "tener una ruta alterna una vez que pasa a ese cambio el sucesor factible se configura en la tabla de enrutamiento como sucesor"
+    },
+    {
+      "sample_id": "clase08_seg0066",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0066.wav",
+      "inicio": 1029.24,
+      "fin": 1041.6,
+      "duracion_seg": 12.36,
+      "gt_original": "y vuelve otra vez el EIGRP a mandar una serie de mensajes, porque hay que volver a calcular sucesores factibles y armar una nueva tabla de topología basado en los... en los cambios que han habido.",
+      "gt_normalizado": "y vuelve otra vez el eigrp a mandar una serie de mensajes porque hay que volver a calcular sucesores factibles y armar una nueva tabla de topología basado en los en los cambios que han habido"
+    },
+    {
+      "sample_id": "clase08_seg0067",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0067.wav",
+      "inicio": 1044.42,
+      "fin": 1061.19,
+      "duracion_seg": 16.77,
+      "gt_original": "Para eso es estas tres tablas: tabla de vecinos, conocer... cada router conoce su vecindario; tabla de topología, cada router debe conocer al menos ciertas cosas de la topología de toda la red para saber cuál va a ser el sucesor y el sucesor factible;",
+      "gt_normalizado": "para eso es estas tres tablas tabla de vecinos conocer cada router conoce su vecindario tabla de topología cada router debe conocer al menos ciertas cosas de la topología de toda la red para saber cuál va a ser el sucesor y el sucesor factible"
+    },
+    {
+      "sample_id": "clase08_seg0068",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0068.wav",
+      "inicio": 1061.638,
+      "fin": 1077.3,
+      "duracion_seg": 15.662,
+      "gt_original": "y la tabla de enrutamiento, en la cual se encuentra el sucesor, que sería el camino más óptimo que el EIGRP ha encontrado hacia un destino. ¿Preguntas? ¿Se entendió o se me perdieron? Vamos,",
+      "gt_normalizado": "y la tabla de enrutamiento en la cual se encuentra el sucesor que sería el camino más óptimo que el eigrp ha encontrado hacia un destino preguntas se entendió o se me perdieron vamos"
+    },
+    {
+      "sample_id": "clase08_seg0069",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0069.wav",
+      "inicio": 1088.22,
+      "fin": 1089.24,
+      "duracion_seg": 1.02,
+      "gt_original": "chicos, preguntas.",
+      "gt_normalizado": "chicos preguntas"
+    },
+    {
+      "sample_id": "clase08_seg0070",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0070.wav",
+      "inicio": 1102.2,
+      "fin": 1117.469,
+      "duracion_seg": 15.269,
+      "gt_original": "No, ¿estamos bien entonces? Perfecto. Como yo tengo que enviar mensajes, el EIGRP tiene cinco tipos de mensajes para poder... o que fluyen a lo largo",
+      "gt_normalizado": "no estamos bien entonces perfecto como yo tengo que enviar mensajes el eigrp tiene cinco tipos de mensajes para poder o que fluyen a lo largo"
+    },
+    {
+      "sample_id": "clase08_seg0071",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0071.wav",
+      "inicio": 1118.114,
+      "fin": 1130.61,
+      "duracion_seg": 12.496,
+      "gt_original": "de toda la red. El primero, updates, actualizaciones. Las actualizaciones contienen información de las rutas que envían ciertas...",
+      "gt_normalizado": "de toda la red el primero updates actualizaciones las actualizaciones contienen información de las rutas que envían ciertas"
+    },
+    {
+      "sample_id": "clase08_seg0072",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0072.wav",
+      "inicio": 1131.09,
+      "fin": 1143.39,
+      "duracion_seg": 12.3,
+      "gt_original": "ciertos valores de métrica o ciertos valores de cambio de topología; dice, ah, también dicen que es confiable. Interesante, cuando yo trabajo con mensajes updates se envían de forma confiable, es decir, que debe",
+      "gt_normalizado": "ciertos valores de métrica o ciertos valores de cambio de topología dice ah también dicen que es confiable interesante cuando yo trabajo con mensajes updates se envían de forma confiable es decir que debe"
+    },
+    {
+      "sample_id": "clase08_seg0073",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0073.wav",
+      "inicio": 1143.81,
+      "fin": 1157.88,
+      "duracion_seg": 14.07,
+      "gt_original": "obligatoriamente llegar a los routers; son enviadas de forma múltiple, es decir, a un grupo de routers; y bueno, posiblemente se... sabían, cuando hay nuevos",
+      "gt_normalizado": "obligatoriamente llegar a los routers son enviadas de forma múltiple es decir a un grupo de routers y bueno posiblemente se sabían cuando hay nuevos"
+    },
+    {
+      "sample_id": "clase08_seg0074",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0074.wav",
+      "inicio": 1158.326,
+      "fin": 1183.26,
+      "duracion_seg": 24.934,
+      "gt_original": "vecinos, cuando hubo un cambio, hubo un nuevo router que se agregó, esas son actualizaciones. Un mensaje de query, o de solicitud, se envía dependiendo de qué es que un router está solicitando algún evento; solicitan, o solicita, una nueva actualización o algo de que haya pasado. Los routers envían este tipo de solicitudes cuando ellos se dan cuenta que han perdido, o se ha perdido, un",
+      "gt_normalizado": "vecinos cuando hubo un cambio hubo un nuevo router que se agregó esas son actualizaciones un mensaje de query o de solicitud se envía dependiendo de qué es que un router está solicitando algún evento solicitan o solicita una nueva actualización o algo de que haya pasado los routers envían este tipo de solicitudes cuando ellos se dan cuenta que han perdido o se ha perdido un"
+    },
+    {
+      "sample_id": "clase08_seg0075",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0075.wav",
+      "inicio": 1183.26,
+      "fin": 1194.37,
+      "duracion_seg": 11.11,
+      "gt_original": "camino en particular de la red, y hay que buscar una alternativa, un camino alterno hacia un mismo destino. Reply es",
+      "gt_normalizado": "camino en particular de la red y hay que buscar una alternativa un camino alterno hacia un mismo destino reply es"
+    },
+    {
+      "sample_id": "clase08_seg0076",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0076.wav",
+      "inicio": 1194.87,
+      "fin": 1212.823,
+      "duracion_seg": 17.953,
+      "gt_original": "la respuesta que se envía a las queries, a los queries, a las solicitudes de los routers. Esas respuestas son enviadas en formas únicas, porque el momento que ya el query fue enviado de forma multicast a algunos routers, el",
+      "gt_normalizado": "la respuesta que se envía a las queries a los queries a las solicitudes de los routers esas respuestas son enviadas en formas únicas porque el momento que ya el query fue enviado de forma multicast a algunos routers el"
+    },
+    {
+      "sample_id": "clase08_seg0077",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0077.wav",
+      "inicio": 1213.53,
+      "fin": 1226.28,
+      "duracion_seg": 12.75,
+      "gt_original": "router que le contesta, perdón, el router que le contesta, le envía directamente al router que hizo su solicitud. Hello... el hello es muy, muy interesante y muy... este...",
+      "gt_normalizado": "router que le contesta perdón el router que le contesta le envía directamente al router que hizo su solicitud hello el hello es muy muy interesante y muy este"
+    },
+    {
+      "sample_id": "clase08_seg0078",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0078.wav",
+      "inicio": 1228.05,
+      "fin": 1249.155,
+      "duracion_seg": 21.105,
+      "gt_original": "muy beneficioso a lo largo de trabajar con EIGRP. Y él lo dice, usado para descubrir a los vecinos. El momento que ustedes configuran el EIGRP y colocan el primer comando del EIGRP para agregar un vecino, o conocer cuáles son sus vecinos, conocer el vecindario de ese router, se envían",
+      "gt_normalizado": "muy beneficioso a lo largo de trabajar con eigrp y él lo dice usado para descubrir a los vecinos el momento que ustedes configuran el eigrp y colocan el primer comando del eigrp para agregar un vecino o conocer cuáles son sus vecinos conocer el vecindario de ese router se envían"
+    },
+    {
+      "sample_id": "clase08_seg0079",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0079.wav",
+      "inicio": 1249.53,
+      "fin": 1264.065,
+      "duracion_seg": 14.535,
+      "gt_original": "paquetes hello para decir: \"hey, hola, hola, hola\". Sin embargo, el hello no necesita respuesta obligatoriamente, no necesita que se envíe una respuesta de los routers vecinos, no es",
+      "gt_normalizado": "paquetes hello para decir hey hola hola hola sin embargo el hello no necesita respuesta obligatoriamente no necesita que se envíe una respuesta de los routers vecinos no es"
+    },
+    {
+      "sample_id": "clase08_seg0080",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0080.wav",
+      "inicio": 1264.639,
+      "fin": 1288.2,
+      "duracion_seg": 23.561,
+      "gt_original": "necesario. Y tenemos el siguiente paquete que es el acknowledgement, los ACK. Los ACK se envían en respuesta tanto a updates como a unicast, y generalmente no son... no se envían de forma confiable, es decir, que pueden llegarle los ACK al router como no.",
+      "gt_normalizado": "necesario y tenemos el siguiente paquete que es el acknowledgement los ack los ack se envían en respuesta tanto a updates como a unicast y generalmente no son no se envían de forma confiable es decir que pueden llegarle los ack al router como no"
+    },
+    {
+      "sample_id": "clase08_seg0081",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0081.wav",
+      "inicio": 1290.0,
+      "fin": 1302.42,
+      "duracion_seg": 12.42,
+      "gt_original": "Sin embargo, de estos de estos cinco mensajes, el que le estaba diciendo, el que más me interesa es en que entiendan hello, porque es lo que va a decir si un router",
+      "gt_normalizado": "sin embargo de estos de estos cinco mensajes el que le estaba diciendo el que más me interesa es en que entiendan hello porque es lo que va a decir si un router"
+    },
+    {
+      "sample_id": "clase08_seg0082",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0082.wav",
+      "inicio": 1302.9,
+      "fin": 1323.81,
+      "duracion_seg": 20.91,
+      "gt_original": "se cae o está activo. Vamos a leer lo que dice aquí cuando los mensajes hello son usados para descubrir, dice, vecinos. Así que si yo trato de encontrar a mi vecindario, porque mediante mi vecindario es que voy a poder armar mis tres tablas de enrutamiento, que son necesarias para conocer toda la topología.",
+      "gt_normalizado": "se cae o está activo vamos a leer lo que dice aquí cuando los mensajes hello son usados para descubrir dice vecinos así que si yo trato de encontrar a mi vecindario porque mediante mi vecindario es que voy a poder armar mis tres tablas de enrutamiento que son necesarias para conocer toda la topología"
+    },
+    {
+      "sample_id": "clase08_seg0083",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0083.wav",
+      "inicio": 1324.672,
+      "fin": 1341.487,
+      "duracion_seg": 16.815,
+      "gt_original": "Se envían mensajes para mantener, dice, adyacencias, conocer los vecinos, y generalmente es el paquete hello. Envío mediante mensajes IPv4 o IP... v6 de forma multicast, tanto los cuales...",
+      "gt_normalizado": "se envían mensajes para mantener dice adyacencias conocer los vecinos y generalmente es el paquete hello envío mediante mensajes ipv4 o ip v6 de forma multicast tanto los cuales"
+    },
+    {
+      "sample_id": "clase08_seg0084",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0084.wav",
+      "inicio": 1344.51,
+      "fin": 1356.142,
+      "duracion_seg": 11.632,
+      "gt_original": "Recuerden cuando estuvimos hablando de direccionamiento con clase, les dije que existen ciertos tipos de direcciones que son reservadas. Por ejemplo, EIGRP utiliza en",
+      "gt_normalizado": "recuerden cuando estuvimos hablando de direccionamiento con clase les dije que existen ciertos tipos de direcciones que son reservadas por ejemplo eigrp utiliza en"
+    },
+    {
+      "sample_id": "clase08_seg0085",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0085.wav",
+      "inicio": 1356.57,
+      "fin": 1368.075,
+      "duracion_seg": 11.505,
+      "gt_original": "IP versión 4 la 224.0.0.10 para mandar mensajes multicast, o en IP versión 6 la FF02::A para mandar mensajes multicast.",
+      "gt_normalizado": "ip versión 4 la 224 0 0 10 para mandar mensajes multicast o en ip versión 6 la ff02 a para mandar mensajes multicast"
+    },
+    {
+      "sample_id": "clase08_seg0086",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0086.wav",
+      "inicio": 1369.59,
+      "fin": 1380.16,
+      "duracion_seg": 10.57,
+      "gt_original": "El envío, como estaba... cuando yo trato de conocer nuevos vecinos o saber si es que un vecino se ha caído o mantener aquí adyacencia de entre vecinos, el",
+      "gt_normalizado": "el envío como estaba cuando yo trato de conocer nuevos vecinos o saber si es que un vecino se ha caído o mantener aquí adyacencia de entre vecinos el"
+    },
+    {
+      "sample_id": "clase08_seg0087",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0087.wav",
+      "inicio": 1381.59,
+      "fin": 1396.56,
+      "duracion_seg": 14.97,
+      "gt_original": "tiempo periódico que se envía un mensaje hello para conocer si ha pasado algo con el vecino es de 5 segundos. Cada 5 segundos van a tener que enviar sus mensajes, mensajes, mensajes, mensajes,",
+      "gt_normalizado": "tiempo periódico que se envía un mensaje hello para conocer si ha pasado algo con el vecino es de 5 segundos cada 5 segundos van a tener que enviar sus mensajes mensajes mensajes mensajes"
+    },
+    {
+      "sample_id": "clase08_seg0088",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0088.wav",
+      "inicio": 1396.972,
+      "fin": 1408.98,
+      "duracion_seg": 12.008,
+      "gt_original": "es decir, van a ver muchos paquetes hello fluyendo a través de toda su red. Sin embargo, si un router, por ejemplo, lo que sucedió aquí,",
+      "gt_normalizado": "es decir van a ver muchos paquetes hello fluyendo a través de toda su red sin embargo si un router por ejemplo lo que sucedió aquí"
+    },
+    {
+      "sample_id": "clase08_seg0089",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0089.wav",
+      "inicio": 1410.36,
+      "fin": 1421.535,
+      "duracion_seg": 11.175,
+      "gt_original": "este router está tratando de enviar mensajes... envió, 5 segundos, envió, envió, tratando de conocer qué está pasando con este router. Si",
+      "gt_normalizado": "este router está tratando de enviar mensajes envió 5 segundos envió envió tratando de conocer qué está pasando con este router si"
+    },
+    {
+      "sample_id": "clase08_seg0090",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0090.wav",
+      "inicio": 1421.94,
+      "fin": 1446.0,
+      "duracion_seg": 24.06,
+      "gt_original": "este router no contesta al tercer intento, se considera que ese vecino se ha caído y empieza, ahora sí, el cálculo de la nueva topología, el nuevo sucesor factible pasa ahora a ser sucesor para tener armado una topología totalmente estable. Consultas. Pero, ¿él",
+      "gt_normalizado": "este router no contesta al tercer intento se considera que ese vecino se ha caído y empieza ahora sí el cálculo de la nueva topología el nuevo sucesor factible pasa ahora a ser sucesor para tener armado una topología totalmente estable consultas pero él"
+    },
+    {
+      "sample_id": "clase08_seg0091",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0091.wav",
+      "inicio": 1451.97,
+      "fin": 1465.05,
+      "duracion_seg": 13.08,
+      "gt_original": "sólo tiene... Escucho, Érik, adelante. Solamente una pregunta. ¿Y si la red es demasiado grande, no se tendrían que andar calculando las tablas de enrutamiento a cada rato?",
+      "gt_normalizado": "sólo tiene escucho érik adelante solamente una pregunta y si la red es demasiado grande no se tendrían que andar calculando las tablas de enrutamiento a cada rato"
+    },
+    {
+      "sample_id": "clase08_seg0092",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0092.wav",
+      "inicio": 1465.62,
+      "fin": 1477.68,
+      "duracion_seg": 12.06,
+      "gt_original": "Porque, mientras más grande sea la red, es más probable que hayan problemas con los enrutadores, se caigan, entonces... Okay, pero es que, en teoría, no. Cuando ya la red está toda armada,",
+      "gt_normalizado": "porque mientras más grande sea la red es más probable que hayan problemas con los enrutadores se caigan entonces okay pero es que en teoría no cuando ya la red está toda armada"
+    },
+    {
+      "sample_id": "clase08_seg0093",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0093.wav",
+      "inicio": 1478.34,
+      "fin": 1491.471,
+      "duracion_seg": 13.131,
+      "gt_original": "ya la red converge, es decir, ya todos nos conocen, todo está totalmente tranquilo y todos ya deberían al menos tener armado su tabla de enrutamiento para saber cuál es su sucesor.",
+      "gt_normalizado": "ya la red converge es decir ya todos nos conocen todo está totalmente tranquilo y todos ya deberían al menos tener armado su tabla de enrutamiento para saber cuál es su sucesor"
+    },
+    {
+      "sample_id": "clase08_seg0094",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0094.wav",
+      "inicio": 1492.258,
+      "fin": 1502.7,
+      "duracion_seg": 10.442,
+      "gt_original": "Esas actualizaciones... ese movimiento brusco de que se envían muchos mensajes de queries o updates, depende si es que hay un nuevo... un cambio en la red. Se agregó un router,",
+      "gt_normalizado": "esas actualizaciones ese movimiento brusco de que se envían muchos mensajes de queries o updates depende si es que hay un nuevo un cambio en la red se agregó un router"
+    },
+    {
+      "sample_id": "clase08_seg0095",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0095.wav",
+      "inicio": 1503.328,
+      "fin": 1519.995,
+      "duracion_seg": 16.667,
+      "gt_original": "se quitó un cable, se tienen que enviar mensajes. Pero eso no sucede siempre. El único mensaje que sí se tiene que enviar es el paquete hello para poder decir: \"hey, hello, hello, hello\".",
+      "gt_normalizado": "se quitó un cable se tienen que enviar mensajes pero eso no sucede siempre el único mensaje que sí se tiene que enviar es el paquete hello para poder decir hey hello hello hello"
+    },
+    {
+      "sample_id": "clase08_seg0096",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0096.wav",
+      "inicio": 1520.82,
+      "fin": 1531.59,
+      "duracion_seg": 10.77,
+      "gt_original": "Tres veces no me contestó, hay que hacer un cálculo. Y eso va a depender si es que el router está bueno, si es que el cable está bueno o algo está fallando,",
+      "gt_normalizado": "tres veces no me contestó hay que hacer un cálculo y eso va a depender si es que el router está bueno si es que el cable está bueno o algo está fallando"
+    },
+    {
+      "sample_id": "clase08_seg0097",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0097.wav",
+      "inicio": 1532.415,
+      "fin": 1543.23,
+      "duracion_seg": 10.815,
+      "gt_original": "y el administrador de redes tiene que estar monitoreando eso también. Porque como usted mismo dijo, si es grande, y ya estuvimos viendo",
+      "gt_normalizado": "y el administrador de redes tiene que estar monitoreando eso también porque como usted mismo dijo si es grande y ya estuvimos viendo"
+    },
+    {
+      "sample_id": "clase08_seg0098",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0098.wav",
+      "inicio": 1544.348,
+      "fin": 1558.47,
+      "duracion_seg": 14.122,
+      "gt_original": "lo tedioso que es crear una ruta estática, un enrutamiento estático, entonces hay que hacerlo con protocolos de enrutamiento y la convergencia es muy, muy rápida, este... es alrededor de milisegundos la convergencia.",
+      "gt_normalizado": "lo tedioso que es crear una ruta estática un enrutamiento estático entonces hay que hacerlo con protocolos de enrutamiento y la convergencia es muy muy rápida este es alrededor de milisegundos la convergencia"
+    },
+    {
+      "sample_id": "clase08_seg0099",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0099.wav",
+      "inicio": 1578.39,
+      "fin": 1594.98,
+      "duracion_seg": 16.59,
+      "gt_original": "Seguimos entonces, estaba hablando de los tipos de mensajes. Vamos a ver aquí algo más en detalle de ellos. El paquete de actualizaciones es enviado justamente para propagar información de enrutamiento, sólo cuando es necesario,",
+      "gt_normalizado": "seguimos entonces estaba hablando de los tipos de mensajes vamos a ver aquí algo más en detalle de ellos el paquete de actualizaciones es enviado justamente para propagar información de enrutamiento sólo cuando es necesario"
+    },
+    {
+      "sample_id": "clase08_seg0100",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0100.wav",
+      "inicio": 1595.452,
+      "fin": 1605.69,
+      "duracion_seg": 10.238,
+      "gt_original": "nada más, cuando hay algún cambio. Este tipo de actualizaciones se envía parcial o en grupo. Sin embargo, para",
+      "gt_normalizado": "nada más cuando hay algún cambio este tipo de actualizaciones se envía parcial o en grupo sin embargo para"
+    },
+    {
+      "sample_id": "clase08_seg0101",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0101.wav",
+      "inicio": 1606.47,
+      "fin": 1623.6,
+      "duracion_seg": 17.13,
+      "gt_original": "el envío de esas actualizaciones, como estoy mandando utilizando el protocolo confiable RTP, yo necesito una respuesta, un ACK. Sin embargo, un ACK no necesariamente le va a llegar al router que ha enviado esas actualizaciones, porque lo hacen... éstos se envían de forma no confiable.",
+      "gt_normalizado": "el envío de esas actualizaciones como estoy mandando utilizando el protocolo confiable rtp yo necesito una respuesta un ack sin embargo un ack no necesariamente le va a llegar al router que ha enviado esas actualizaciones porque lo hacen éstos se envían de forma no confiable"
+    },
+    {
+      "sample_id": "clase08_seg0102",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0102.wav",
+      "inicio": 1626.27,
+      "fin": 1638.138,
+      "duracion_seg": 11.868,
+      "gt_original": "Ahora, si yo tengo un query, un mensaje query, es decir, mando una solicitud, es usado dice que cuando buscan una red, cuando se busca un nuevo camino o un camino alterno, cuando",
+      "gt_normalizado": "ahora si yo tengo un query un mensaje query es decir mando una solicitud es usado dice que cuando buscan una red cuando se busca un nuevo camino o un camino alterno cuando"
+    },
+    {
+      "sample_id": "clase08_seg0103",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0103.wav",
+      "inicio": 1638.54,
+      "fin": 1650.465,
+      "duracion_seg": 11.925,
+      "gt_original": "hubo el sucesor se cayó y pasamos ahora a trabajar con su sucesor factible, si ese cambio... ahí usamos los queries, los cuales, dice, se entregan de forma confiable, el cual puede ser multicast",
+      "gt_normalizado": "hubo el sucesor se cayó y pasamos ahora a trabajar con su sucesor factible si ese cambio ahí usamos los queries los cuales dice se entregan de forma confiable el cual puede ser multicast"
+    },
+    {
+      "sample_id": "clase08_seg0104",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0104.wav",
+      "inicio": 1651.05,
+      "fin": 1664.43,
+      "duracion_seg": 13.38,
+      "gt_original": "o dirigido a un solo router, unicast. Y la respuesta es que así son obligatorias, las respuestas se entregan de forma confiable, es decir, el router que está solicitando necesita conocer las respuestas.",
+      "gt_normalizado": "o dirigido a un solo router unicast y la respuesta es que así son obligatorias las respuestas se entregan de forma confiable es decir el router que está solicitando necesita conocer las respuestas"
+    },
+    {
+      "sample_id": "clase08_seg0105",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0105.wav",
+      "inicio": 1669.41,
+      "fin": 1682.917,
+      "duracion_seg": 13.507,
+      "gt_original": "Okay, viene aquí la trama. Nosotros hemos estado viendo todo este tipo de encapsulamiento, que cada capa le agrega diferentes cabeceras. En la capa 3,",
+      "gt_normalizado": "okay viene aquí la trama nosotros hemos estado viendo todo este tipo de encapsulamiento que cada capa le agrega diferentes cabeceras en la capa 3"
+    },
+    {
+      "sample_id": "clase08_seg0106",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0106.wav",
+      "inicio": 1683.63,
+      "fin": 1703.82,
+      "duracion_seg": 20.19,
+      "gt_original": "hemos dicho que agrega ciertas cabeceras, por ejemplo, de direccionamiento IP origen, de un IP destino, el tipo de protocolo, la versión. Miremos, cuando yo estoy mandando, si se fijan, estoy mandando es un paquete, pero un paquete de un protocolo para que conozca enrutamiento, se conozca o tengan que hacerse adyacencia a toda la red, no es un paquete de datos.",
+      "gt_normalizado": "hemos dicho que agrega ciertas cabeceras por ejemplo de direccionamiento ip origen de un ip destino el tipo de protocolo la versión miremos cuando yo estoy mandando si se fijan estoy mandando es un paquete pero un paquete de un protocolo para que conozca enrutamiento se conozca o tengan que hacerse adyacencia a toda la red no es un paquete de datos"
+    },
+    {
+      "sample_id": "clase08_seg0107",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0107.wav",
+      "inicio": 1704.72,
+      "fin": 1724.73,
+      "duracion_seg": 20.01,
+      "gt_original": "Entonces quiere decir que estoy trabajando con un protocolo, del protocolo tienes que enviar ciertas cabeceras también. Y lo único que hace es decir: \"okay, yo voy a trabajar con mensajes EIGRP, y lo que interesa aquí es agregar qué tipo de mensajes yo voy a enviar como un código\". Simplemente,",
+      "gt_normalizado": "entonces quiere decir que estoy trabajando con un protocolo del protocolo tienes que enviar ciertas cabeceras también y lo único que hace es decir okay yo voy a trabajar con mensajes eigrp y lo que interesa aquí es agregar qué tipo de mensajes yo voy a enviar como un código simplemente"
+    },
+    {
+      "sample_id": "clase08_seg0108",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0108.wav",
+      "inicio": 1725.51,
+      "fin": 1739.64,
+      "duracion_seg": 14.13,
+      "gt_original": "update es 1, query 3, reply 4, y el hello 5. Y ahora, fíjense qué más está ahí, el campo naranja me indica que también necesitamos tener un sistema autónomo. ¿Por qué? Nos",
+      "gt_normalizado": "update es 1 query 3 reply 4 y el hello 5 y ahora fíjense qué más está ahí el campo naranja me indica que también necesitamos tener un sistema autónomo por qué nos"
+    },
+    {
+      "sample_id": "clase08_seg0109",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0109.wav",
+      "inicio": 1742.01,
+      "fin": 1752.06,
+      "duracion_seg": 10.05,
+      "gt_original": "venimos acá. Cuando yo configuro un protocolo de vector distancia, no es necesario tener un sistema",
+      "gt_normalizado": "venimos acá cuando yo configuro un protocolo de vector distancia no es necesario tener un sistema"
+    },
+    {
+      "sample_id": "clase08_seg0110",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0110.wav",
+      "inicio": 1752.54,
+      "fin": 1769.16,
+      "duracion_seg": 16.62,
+      "gt_original": "autónomo. Sin embargo, yo les estaba diciendo que el EIGRP tiene ciertas características de un protocolo de estado de enlace como el OSPF. Lo que indica un sistema autónomo es que vamos a trabajar todos en conjunto,",
+      "gt_normalizado": "autónomo sin embargo yo les estaba diciendo que el eigrp tiene ciertas características de un protocolo de estado de enlace como el ospf lo que indica un sistema autónomo es que vamos a trabajar todos en conjunto"
+    },
+    {
+      "sample_id": "clase08_seg0111",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0111.wav",
+      "inicio": 1770.21,
+      "fin": 1780.47,
+      "duracion_seg": 10.26,
+      "gt_original": "la cual, cuando yo configuro el EIGRP, todos los routers deben especificar que en el sistema autónomo están ellos, o se encuentran ellos",
+      "gt_normalizado": "la cual cuando yo configuro el eigrp todos los routers deben especificar que en el sistema autónomo están ellos o se encuentran ellos"
+    },
+    {
+      "sample_id": "clase08_seg0112",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0112.wav",
+      "inicio": 1780.83,
+      "fin": 1795.141,
+      "duracion_seg": 14.311,
+      "gt_original": "en esa misma red. Por lo tanto, si voy a trabajar con todos estos routers en el EIGRP, todos estos routers deben llevar el mismo sistema autónomo. Si yo aquí configuro el sistema autónomo",
+      "gt_normalizado": "en esa misma red por lo tanto si voy a trabajar con todos estos routers en el eigrp todos estos routers deben llevar el mismo sistema autónomo si yo aquí configuro el sistema autónomo"
+    },
+    {
+      "sample_id": "clase08_seg0113",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0113.wav",
+      "inicio": 1795.702,
+      "fin": 1820.49,
+      "duracion_seg": 24.788,
+      "gt_original": "10, todos deben tener sistema autónomo 10. En el momento que hay ese cambio, yo le digo: \"sistema autónomo 5\", lo que hago es tratar de aislar una porción de red para que funcione en otro sistema autónomo, y para que exista una convergencia entre dos sistemas autónomos, debo colocar un router de borde que me permita configurar o trabajar con ellos; pero como digo, esto ya es un poco más",
+      "gt_normalizado": "10 todos deben tener sistema autónomo 10 en el momento que hay ese cambio yo le digo sistema autónomo 5 lo que hago es tratar de aislar una porción de red para que funcione en otro sistema autónomo y para que exista una convergencia entre dos sistemas autónomos debo colocar un router de borde que me permita configurar o trabajar con ellos pero como digo esto ya es un poco más"
+    },
+    {
+      "sample_id": "clase08_seg0114",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0114.wav",
+      "inicio": 1820.58,
+      "fin": 1833.555,
+      "duracion_seg": 12.975,
+      "gt_original": "a niveles de internet bobs. Pero hasta ahí quiero que quede claro: cuando yo trabajo en el EIGRP y yo deseo que todos mis routers de esa red converjan,",
+      "gt_normalizado": "a niveles de internet bobs pero hasta ahí quiero que quede claro cuando yo trabajo en el eigrp y yo deseo que todos mis routers de esa red converjan"
+    },
+    {
+      "sample_id": "clase08_seg0115",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0115.wav",
+      "inicio": 1834.17,
+      "fin": 1855.725,
+      "duracion_seg": 21.555,
+      "gt_original": "conozcan la topología, todos deben ser configurados en un mismo sistema autónomo. Entonces, los mensajes que van a ser enviados deben llevar también el sistema autónomo para que se identifiquen los routers que van a recibir esos mensajes. Cuando yo",
+      "gt_normalizado": "conozcan la topología todos deben ser configurados en un mismo sistema autónomo entonces los mensajes que van a ser enviados deben llevar también el sistema autónomo para que se identifiquen los routers que van a recibir esos mensajes cuando yo"
+    },
+    {
+      "sample_id": "clase08_seg0116",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0116.wav",
+      "inicio": 1863.001,
+      "fin": 1873.155,
+      "duracion_seg": 10.154,
+      "gt_original": "trabajo con protocolos de estado de enlace, como dice, OSPF, yo debo configurar un router ID.",
+      "gt_normalizado": "trabajo con protocolos de estado de enlace como dice ospf yo debo configurar un router id"
+    },
+    {
+      "sample_id": "clase08_seg0117",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0117.wav",
+      "inicio": 1874.499,
+      "fin": 1886.88,
+      "duracion_seg": 12.381,
+      "gt_original": "Y como les dije exactamente que trabajamos con ciertas características de OSPF, el EIGRP también necesita un router ID, el router ID, y es el que va a identificar a su router",
+      "gt_normalizado": "y como les dije exactamente que trabajamos con ciertas características de ospf el eigrp también necesita un router id el router id y es el que va a identificar a su router"
+    },
+    {
+      "sample_id": "clase08_seg0118",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0118.wav",
+      "inicio": 1887.48,
+      "fin": 1899.839,
+      "duracion_seg": 12.359,
+      "gt_original": "para poder decir: \"okay, quién está mandando el query, conozco un router ID. Quién está solicitando actualizaciones, ese router ID\", para poder ser identificado en todo su sistema",
+      "gt_normalizado": "para poder decir okay quién está mandando el query conozco un router id quién está solicitando actualizaciones ese router id para poder ser identificado en todo su sistema"
+    },
+    {
+      "sample_id": "clase08_seg0119",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0119.wav",
+      "inicio": 1900.363,
+      "fin": 1913.46,
+      "duracion_seg": 13.097,
+      "gt_original": "autónomo. El router ID no es más que la dirección IP con mayor valor configurada en los routers. Por ejemplo, si este router",
+      "gt_normalizado": "autónomo el router id no es más que la dirección ip con mayor valor configurada en los routers por ejemplo si este router"
+    },
+    {
+      "sample_id": "clase08_seg0120",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0120.wav",
+      "inicio": 1913.82,
+      "fin": 1934.01,
+      "duracion_seg": 20.19,
+      "gt_original": "tiene... siempre la interfaz configurada aquí: 172.16.3.2, acá 192.168.10.9, perdón, y esta 172.16.2.1, y tiene otra... okay,",
+      "gt_normalizado": "tiene siempre la interfaz configurada aquí 172 16 3 2 acá 192 168 10 9 perdón y esta 172 16 2 1 y tiene otra okay"
+    },
+    {
+      "sample_id": "clase08_seg0121",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0121.wav",
+      "inicio": 1941.75,
+      "fin": 1954.567,
+      "duracion_seg": 12.817,
+      "gt_original": "y tiene esta interfaz que está a 200.165.200.225, y dice: \"ah, okay, el router ID va a ser este de aquí, la interfaz de mayor valor\". Esta es la 172.16.3.1,",
+      "gt_normalizado": "y tiene esta interfaz que está a 200 165 200 225 y dice ah okay el router id va a ser este de aquí la interfaz de mayor valor esta es la 172 16 3 1"
+    },
+    {
+      "sample_id": "clase08_seg0122",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0122.wav",
+      "inicio": 1961.22,
+      "fin": 1967.857,
+      "duracion_seg": 6.637,
+      "gt_original": "y entonces 192.168.10.5, y 172.16.1.0, la de mayor valor: 192.168.10.5.",
+      "gt_normalizado": "y entonces 192 168 10 5 y 172 16 1 0 la de mayor valor 192 168 10 5"
+    },
+    {
+      "sample_id": "clase08_seg0123",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0123.wav",
+      "inicio": 1972.86,
+      "fin": 1987.05,
+      "duracion_seg": 14.19,
+      "gt_original": "Lo interesante es que el router ID se configura automáticamente en el momento que ustedes ya configuran o habilitan el EIGRP en un router, eso ustedes no configuran. Sin embargo, es bueno conocer",
+      "gt_normalizado": "lo interesante es que el router id se configura automáticamente en el momento que ustedes ya configuran o habilitan el eigrp en un router eso ustedes no configuran sin embargo es bueno conocer"
+    },
+    {
+      "sample_id": "clase08_seg0124",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0124.wav",
+      "inicio": 1988.85,
+      "fin": 2001.0,
+      "duracion_seg": 12.15,
+      "gt_original": "qué es lo que significa el router ID, y es eso simplemente: es el identificador de ese router dentro de una red EIGRP, y se configura con la dirección IP mayor, si la mayor",
+      "gt_normalizado": "qué es lo que significa el router id y es eso simplemente es el identificador de ese router dentro de una red eigrp y se configura con la dirección ip mayor si la mayor"
+    },
+    {
+      "sample_id": "clase08_seg0125",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0125.wav",
+      "inicio": 2003.88,
+      "fin": 2028.82,
+      "duracion_seg": 24.94,
+      "gt_original": "IP que tengamos configurado de todas las interfaces del router. Lo opuesto pasa cuando yo trabajo con IP versión 6. En IP versión 6, yo puedo tener configuradas las interfaces con dirección IP versión 6, sin embargo, el router ID en configuración IP versión 6 debe ser configurado el direccionamiento IP versión 4.",
+      "gt_normalizado": "ip que tengamos configurado de todas las interfaces del router lo opuesto pasa cuando yo trabajo con ip versión 6 en ip versión 6 yo puedo tener configuradas las interfaces con dirección ip versión 6 sin embargo el router id en configuración ip versión 6 debe ser configurado el direccionamiento ip versión 4"
+    },
+    {
+      "sample_id": "clase08_seg0126",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0126.wav",
+      "inicio": 2035.2,
+      "fin": 2051.737,
+      "duracion_seg": 16.537,
+      "gt_original": "¿Cómo configuro el EIGRP? Sencillo. Ingreso al modo de configuración global y digo: \"router eigrp\" y especifico el sistema autónomo en el cual yo voy a trabajar,",
+      "gt_normalizado": "cómo configuro el eigrp sencillo ingreso al modo de configuración global y digo router eigrp y especifico el sistema autónomo en el cual yo voy a trabajar"
+    },
+    {
+      "sample_id": "clase08_seg0127",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0127.wav",
+      "inicio": 2052.15,
+      "fin": 2067.194,
+      "duracion_seg": 15.044,
+      "gt_original": "router eigrp 10, router eigrp 5, router eigrp 8, y es en esa misma línea: \"router eigrp\" y el sistema autónomo, debe estar en todos los routers que ustedes configuren en esa misma red.",
+      "gt_normalizado": "router eigrp 10 router eigrp 5 router eigrp 8 y es en esa misma línea router eigrp y el sistema autónomo debe estar en todos los routers que ustedes configuren en esa misma red"
+    },
+    {
+      "sample_id": "clase08_seg0128",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0128.wav",
+      "inicio": 2067.69,
+      "fin": 2079.21,
+      "duracion_seg": 11.52,
+      "gt_original": "Luego viene eigrp router-id y dirección en IP versión 4. Esto puede ser ustedes mismos que la asignen, o que el router lo configure automáticamente.",
+      "gt_normalizado": "luego viene eigrp router id y dirección en ip versión 4 esto puede ser ustedes mismos que la asignen o que el router lo configure automáticamente"
+    },
+    {
+      "sample_id": "clase08_seg0129",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0129.wav",
+      "inicio": 2079.6,
+      "fin": 2090.64,
+      "duracion_seg": 11.04,
+      "gt_original": "Adelante, Rafael. Profe, yo tengo una duda con respecto a lo de lo... que hablamos de los sucesores factibles, ¿nos podría poner la diapositiva anterior?",
+      "gt_normalizado": "adelante rafael profe yo tengo una duda con respecto a lo de lo que hablamos de los sucesores factibles nos podría poner la diapositiva anterior"
+    },
+    {
+      "sample_id": "clase08_seg0130",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0130.wav",
+      "inicio": 2091.982,
+      "fin": 2111.88,
+      "duracion_seg": 19.898,
+      "gt_original": "No, no, no, la anterior. Después, o sea... digamos que yo, por ejemplo, tengo dispositivos conectados al R1, pues, no... hay dispositivos conectados, de tres, y yo quiero enviar paquetes pues desde un dispositivo en la red uno a un dispositivo",
+      "gt_normalizado": "no no no la anterior después o sea digamos que yo por ejemplo tengo dispositivos conectados al r1 pues no hay dispositivos conectados de tres y yo quiero enviar paquetes pues desde un dispositivo en la red uno a un dispositivo"
+    },
+    {
+      "sample_id": "clase08_seg0131",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0131.wav",
+      "inicio": 2112.574,
+      "fin": 2128.68,
+      "duracion_seg": 16.106,
+      "gt_original": "en R3, y se cae, por ejemplo, la, el enlace, porque entre una y otra tres, igual, ¿ya varían los paquetes? A ver si si le estoy entendiendo. Usted desea enviar de aquí acá, y se cae este enlace.",
+      "gt_normalizado": "en r3 y se cae por ejemplo la el enlace porque entre una y otra tres igual ya varían los paquetes a ver si si le estoy entendiendo usted desea enviar de aquí acá y se cae este enlace"
+    },
+    {
+      "sample_id": "clase08_seg0132",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0132.wav",
+      "inicio": 2130.54,
+      "fin": 2141.732,
+      "duracion_seg": 11.192,
+      "gt_original": "Ya, pero tiene una ruta alterna. Así, eso es lo que se practica, por ejemplo, de los sucesores factibles. Porque claro, eso es lo que me falta todavía explicar: cómo es que se calcula. Y a",
+      "gt_normalizado": "ya pero tiene una ruta alterna así eso es lo que se practica por ejemplo de los sucesores factibles porque claro eso es lo que me falta todavía explicar cómo es que se calcula y a"
+    },
+    {
+      "sample_id": "clase08_seg0133",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0133.wav",
+      "inicio": 2142.482,
+      "fin": 2152.98,
+      "duracion_seg": 10.498,
+      "gt_original": "eso ya, ya mismo voy a eso, porque yo solo les he dicho que hay un sucesor y hay sucesores factibles. El sucesor, el que va a estar en",
+      "gt_normalizado": "eso ya ya mismo voy a eso porque yo solo les he dicho que hay un sucesor y hay sucesores factibles el sucesor el que va a estar en"
+    },
+    {
+      "sample_id": "clase08_seg0134",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0134.wav",
+      "inicio": 2153.37,
+      "fin": 2165.167,
+      "duracion_seg": 11.797,
+      "gt_original": "la tabla de enrutamiento, así de simple, pero falta ver ahora cómo es que se calcula todo, porque hay ciertas reglas que se deben cumplir, y a eso voy. Buena pregunta, ya voy a ir a eso.",
+      "gt_normalizado": "la tabla de enrutamiento así de simple pero falta ver ahora cómo es que se calcula todo porque hay ciertas reglas que se deben cumplir y a eso voy buena pregunta ya voy a ir a eso"
+    },
+    {
+      "sample_id": "clase08_seg0135",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0135.wav",
+      "inicio": 2166.81,
+      "fin": 2177.782,
+      "duracion_seg": 10.972,
+      "gt_original": "Mientras tanto, ¿dónde nos quedamos? Para configurarlo, el router ID en una dirección en IP versión 4, a pesar de que trabajen en presencia",
+      "gt_normalizado": "mientras tanto dónde nos quedamos para configurarlo el router id en una dirección en ip versión 4 a pesar de que trabajen en presencia"
+    },
+    {
+      "sample_id": "clase08_seg0136",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0136.wav",
+      "inicio": 2178.632,
+      "fin": 2192.16,
+      "duracion_seg": 13.528,
+      "gt_original": "de... IP versión 6, con el trabajo de una dirección IP versión 4 de loopback puede ser usada como router ID. ¿Alguien de los presentes sabe qué es una dirección de loopback? No se",
+      "gt_normalizado": "de ip versión 6 con el trabajo de una dirección ip versión 4 de loopback puede ser usada como router id alguien de los presentes sabe qué es una dirección de loopback no se"
+    },
+    {
+      "sample_id": "clase08_seg0137",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0137.wav",
+      "inicio": 2203.89,
+      "fin": 2204.64,
+      "duracion_seg": 0.75,
+      "gt_original": "peleen, chicos.",
+      "gt_normalizado": "peleen chicos"
+    },
+    {
+      "sample_id": "clase08_seg0138",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0138.wav",
+      "inicio": 2210.49,
+      "fin": 2214.735,
+      "duracion_seg": 4.245,
+      "gt_original": "No. Okay. Se acuerdan que yo ya les he",
+      "gt_normalizado": "no okay se acuerdan que yo ya les he"
+    },
+    {
+      "sample_id": "clase08_seg0139",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0139.wav",
+      "inicio": 2221.167,
+      "fin": 2236.395,
+      "duracion_seg": 15.228,
+      "gt_original": "dicho que para poder ver la configuración, entonces, ifconfig, ¿verdad?, tienen ustedes para poder ver la configuración de su red, verdad, mi dirección es 192.168.100.5.",
+      "gt_normalizado": "dicho que para poder ver la configuración entonces ifconfig verdad tienen ustedes para poder ver la configuración de su red verdad mi dirección es 192 168 100 5"
+    },
+    {
+      "sample_id": "clase08_seg0140",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0140.wav",
+      "inicio": 2240.04,
+      "fin": 2250.42,
+      "duracion_seg": 10.38,
+      "gt_original": "Sin embargo, cada máquina que ustedes... o su propia máquina puede ser alcanzada, si trabajan de forma local",
+      "gt_normalizado": "sin embargo cada máquina que ustedes o su propia máquina puede ser alcanzada si trabajan de forma local"
+    },
+    {
+      "sample_id": "clase08_seg0141",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0141.wav",
+      "inicio": 2251.17,
+      "fin": 2264.692,
+      "duracion_seg": 13.522,
+      "gt_original": "en su misma máquina, pueden ser alcanzadas de dos formas: con la dirección IP que les da el router, como quieran ustedes, si la 192.168.100.5, o con la",
+      "gt_normalizado": "en su misma máquina pueden ser alcanzadas de dos formas con la dirección ip que les da el router como quieran ustedes si la 192 168 100 5 o con la"
+    },
+    {
+      "sample_id": "clase08_seg0142",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0142.wav",
+      "inicio": 2266.138,
+      "fin": 2276.512,
+      "duracion_seg": 10.374,
+      "gt_original": "dirección del loopback de las máquinas, que generalmente... déjenme ver si la encuentro... no me aparece aquí,",
+      "gt_normalizado": "dirección del loopback de las máquinas que generalmente déjenme ver si la encuentro no me aparece aquí"
+    },
+    {
+      "sample_id": "clase08_seg0143",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0143.wav",
+      "inicio": 2277.3,
+      "fin": 2288.812,
+      "duracion_seg": 11.512,
+      "gt_original": "pero es la... sí, de 127.0.0.1. Creo que era lo que iba a decir, Angélica. No me aparece a mí aquí.",
+      "gt_normalizado": "pero es la sí de 127 0 0 1 creo que era lo que iba a decir angélica no me aparece a mí aquí"
+    },
+    {
+      "sample_id": "clase08_seg0144",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0144.wav",
+      "inicio": 2289.345,
+      "fin": 2305.979,
+      "duracion_seg": 16.635,
+      "gt_original": "Es la dirección de loopback de su propia máquina. Entonces, por ejemplo, ¿dónde podrían usar esto? Cuando ustedes... aquellos que son de Computación o Telemática, y quieran trabajar con servidores, o trabajar con aplicaciones web, desarrollar aplicaciones,",
+      "gt_normalizado": "es la dirección de loopback de su propia máquina entonces por ejemplo dónde podrían usar esto cuando ustedes aquellos que son de computación o telemática y quieran trabajar con servidores o trabajar con aplicaciones web desarrollar aplicaciones"
+    },
+    {
+      "sample_id": "clase08_seg0145",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0145.wav",
+      "inicio": 2306.49,
+      "fin": 2317.32,
+      "duracion_seg": 10.83,
+      "gt_original": "para testear este tipo de aplicaciones, ver algo de microservicios, ver comunicación y demás, ustedes testean no con la dirección que les da el router, porque esa varía, puede cambiar dependiendo de su ubicación,",
+      "gt_normalizado": "para testear este tipo de aplicaciones ver algo de microservicios ver comunicación y demás ustedes testean no con la dirección que les da el router porque esa varía puede cambiar dependiendo de su ubicación"
+    },
+    {
+      "sample_id": "clase08_seg0146",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0146.wav",
+      "inicio": 2317.71,
+      "fin": 2328.93,
+      "duracion_seg": 11.22,
+      "gt_original": "entonces utilizan la dirección de loopback 127.0.0.1 para que se haga referencia siempre a su máquina. Son cositas hay de, de envío de paquetes tanto de comunicación local.",
+      "gt_normalizado": "entonces utilizan la dirección de loopback 127 0 0 1 para que se haga referencia siempre a su máquina son cositas hay de de envío de paquetes tanto de comunicación local"
+    },
+    {
+      "sample_id": "clase08_seg0147",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0147.wav",
+      "inicio": 2329.98,
+      "fin": 2348.272,
+      "duracion_seg": 18.292,
+      "gt_original": "Sin embargo, si nos enfocamos ahora aquí, en la parte del router, si yo... si yo deseo que no se autoconfigure el router ID por el número de las interfaces o configuración de las redes de las interfaces, sino que yo deseo configurar eso, esos,",
+      "gt_normalizado": "sin embargo si nos enfocamos ahora aquí en la parte del router si yo si yo deseo que no se autoconfigure el router id por el número de las interfaces o configuración de las redes de las interfaces sino que yo deseo configurar eso esos"
+    },
+    {
+      "sample_id": "clase08_seg0148",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0148.wav",
+      "inicio": 2349.06,
+      "fin": 2362.372,
+      "duracion_seg": 13.312,
+      "gt_original": "aparte de tener esto de aquí, es que yo puedo crear una interfaz de loopback. Al interfaz del loopback yo solamente lo voy a poder hacer ping y localmente, no desde afuera, no desde el",
+      "gt_normalizado": "aparte de tener esto de aquí es que yo puedo crear una interfaz de loopback al interfaz del loopback yo solamente lo voy a poder hacer ping y localmente no desde afuera no desde el"
+    },
+    {
+      "sample_id": "clase08_seg0149",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0149.wav",
+      "inicio": 2363.072,
+      "fin": 2387.97,
+      "duracion_seg": 24.898,
+      "gt_original": "router hasta el router, no va a poder hacerlo, simplemente es mi lugar, y crea una interfaz loopback. La interesa es, yo mismo las creé, no se configuran dependiendo de que coloco un cable, es Fast, es Giga de internet, es serial, no. Es una interfaz del lugar que yo las creé, y las creo simplemente decir \"interfaz loopback\" un número que yo quiero darle, y le configuro una",
+      "gt_normalizado": "router hasta el router no va a poder hacerlo simplemente es mi lugar y crea una interfaz loopback la interesa es yo mismo las creé no se configuran dependiendo de que coloco un cable es fast es giga de internet es serial no es una interfaz del lugar que yo las creé y las creo simplemente decir interfaz loopback un número que yo quiero darle y le configuro una"
+    },
+    {
+      "sample_id": "clase08_seg0150",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0150.wav",
+      "inicio": 2387.97,
+      "fin": 2412.27,
+      "duracion_seg": 24.3,
+      "gt_original": "dirección IP. Y como estoy configurando una dirección de una interfaz de loopback, las loopback son las que les van a ganar absolutamente a todas las interfaces, y esa interfaz, entonces, configuradas como loopback es la que va a tomar como router ID. Perfecto, consultas, se perdieron o sí.",
+      "gt_normalizado": "dirección ip y como estoy configurando una dirección de una interfaz de loopback las loopback son las que les van a ganar absolutamente a todas las interfaces y esa interfaz entonces configuradas como loopback es la que va a tomar como router id perfecto consultas se perdieron o sí"
+    },
+    {
+      "sample_id": "clase08_seg0151",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0151.wav",
+      "inicio": 2424.0,
+      "fin": 2435.068,
+      "duracion_seg": 11.068,
+      "gt_original": "No, es perfecto. Ahora, y yo les estaba diciendo que los routers, en cada router",
+      "gt_normalizado": "no es perfecto ahora y yo les estaba diciendo que los routers en cada router"
+    },
+    {
+      "sample_id": "clase08_seg0152",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0152.wav",
+      "inicio": 2435.799,
+      "fin": 2454.0,
+      "duracion_seg": 18.201,
+      "gt_original": "EIGRP, ustedes deben conocer sus vecinos, y yo les dije al inicio, a hacerse la pregunta: ¿quiénes son mis vecinos? Porque si ya ustedes conocen los vecinos de cada router, ahora sólo hay que configurarlo y decir: \"okay,",
+      "gt_normalizado": "eigrp ustedes deben conocer sus vecinos y yo les dije al inicio a hacerse la pregunta quiénes son mis vecinos porque si ya ustedes conocen los vecinos de cada router ahora sólo hay que configurarlo y decir okay"
+    },
+    {
+      "sample_id": "clase08_seg0153",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0153.wav",
+      "inicio": 2455.44,
+      "fin": 2466.007,
+      "duracion_seg": 10.567,
+      "gt_original": "router eigrp 1, habilite el sistema autónomo 1 en EIGRP y digo: yo, router 1, tiene sus",
+      "gt_normalizado": "router eigrp 1 habilite el sistema autónomo 1 en eigrp y digo yo router 1 tiene sus"
+    },
+    {
+      "sample_id": "clase08_seg0154",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0154.wav",
+      "inicio": 2467.784,
+      "fin": 2477.79,
+      "duracion_seg": 10.006,
+      "gt_original": "vecinos la red esta y la red esta\". Así de simple, y ahí ustedes ya habilitaron EIGRP, pero ¿qué quiero",
+      "gt_normalizado": "vecinos la red esta y la red esta así de simple y ahí ustedes ya habilitaron eigrp pero qué quiero"
+    },
+    {
+      "sample_id": "clase08_seg0155",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0155.wav",
+      "inicio": 2478.169,
+      "fin": 2488.2,
+      "duracion_seg": 10.031,
+      "gt_original": "quede claro? Hay que hacer eso dependiendo de cada router. Este router 1 debe configurar el vecino: está este, este, este y es este. Este router",
+      "gt_normalizado": "quede claro hay que hacer eso dependiendo de cada router este router 1 debe configurar el vecino está este este este y es este este router"
+    },
+    {
+      "sample_id": "clase08_seg0156",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0156.wav",
+      "inicio": 2488.62,
+      "fin": 2501.604,
+      "duracion_seg": 12.984,
+      "gt_original": "debe solamente configurar, en un sistema autónomo el mismo, sólo este, y es este de acá, este de aquí. Sin embargo, si ustedes se fijan ahí, están",
+      "gt_normalizado": "debe solamente configurar en un sistema autónomo el mismo sólo este y es este de acá este de aquí sin embargo si ustedes se fijan ahí están"
+    },
+    {
+      "sample_id": "clase08_seg0157",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0157.wav",
+      "inicio": 2501.981,
+      "fin": 2512.86,
+      "duracion_seg": 10.879,
+      "gt_original": "diciendo: \"porque mi vecino es la red 172.16.0.0, y también es la red 192 y demás\", un etcétera. Pero cuando yo coloco así,",
+      "gt_normalizado": "diciendo porque mi vecino es la red 172 16 0 0 y también es la red 192 y demás un etcétera pero cuando yo coloco así"
+    },
+    {
+      "sample_id": "clase08_seg0158",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0158.wav",
+      "inicio": 2513.28,
+      "fin": 2525.714,
+      "duracion_seg": 12.434,
+      "gt_original": "existe un problema muy grande en el EIGRP, que se le conoce como la sumarización de las redes. Cuando yo trabajo de esta forma, se... viene el problema: si yo",
+      "gt_normalizado": "existe un problema muy grande en el eigrp que se le conoce como la sumarización de las redes cuando yo trabajo de esta forma se viene el problema si yo"
+    },
+    {
+      "sample_id": "clase08_seg0159",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0159.wav",
+      "inicio": 2553.025,
+      "fin": 2553.66,
+      "duracion_seg": 0.635,
+      "gt_original": "coloco, por ejemplo, 172.16.0.0, estoy sumarizando. Recuerden cuando vimos",
+      "gt_normalizado": "coloco por ejemplo 172 16 0 0 estoy sumarizando recuerden cuando vimos"
+    },
+    {
+      "sample_id": "clase08_seg0160",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0160.wav",
+      "inicio": 2559.213,
+      "fin": 2565.997,
+      "duracion_seg": 6.784,
+      "gt_original": "la red... válidas, y que podían agrupar, y este tipo de agrupaciones que se... redes más grandes, si tenían pequeñas, hacer las redes grandes. Cuando yo trabajo con EIGRP, EIGRP lo hace automáticamente. ¿Qué quiere decir? Si yo coloco las redes de la 172.16.0.0, me va a sumarizar la red 1.0 y la 3.0, y de distinta máscara, y eso no quiero, porque yo les he dicho, yo",
+      "gt_normalizado": "la red válidas y que podían agrupar y este tipo de agrupaciones que se redes más grandes si tenían pequeñas hacer las redes grandes cuando yo trabajo con eigrp eigrp lo hace automáticamente qué quiere decir si yo coloco las redes de la 172 16 0 0 me va a sumarizar la red 1 0 y la 3 0 y de distinta máscara y eso no quiero porque yo les he dicho yo"
+    },
+    {
+      "sample_id": "clase08_seg0161",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0161.wav",
+      "inicio": 2591.55,
+      "fin": 2592.09,
+      "duracion_seg": 0.54,
+      "gt_original": "ya no trabajo con direccionamiento con",
+      "gt_normalizado": "ya no trabajo con direccionamiento con"
+    },
+    {
+      "sample_id": "clase08_seg0162",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0162.wav",
+      "inicio": 2677.982,
+      "fin": 2689.297,
+      "duracion_seg": 11.315,
+      "gt_original": "clase, sino ahora con direccionamiento classless, y sin clase significa que yo tengo una máscara variable: una máscara 24, una máscara de 30, una máscara de 28, dependiendo de la máscara que yo tenga. Entonces, para evitar ese problema, es que ahora viene el uso de la máscara, ¿y cómo lo configuro? Sencillo. Ya no digo network y simplemente la dirección de red, sino que viene el concepto aquí de la wildcard mask, que no es más que otra cosa que la inversa de la máscara. Si mi máscara es, por ejemplo, máscara 255.255.255.252, para encontrar la wildcard hago una simple resta, una resta de todos los bits de una máscara de 32, menos una máscara, la que yo tengo en mi red. Esa resta me va a dar mi wildcard mask, y es la que yo coloco aquí. Okay, esa es la única pega que hay que tener presente y en cuenta cuando configuran el EIGRP: ya no es máscara, es la wildcard. Perfecto. ¿Alguna duda con ese de ahí? Ya evitó lo de la sumarización, porque es lo que digo, es: \"okay, esta red con esta wildcard es la única que va a hacer... o, mejor dicho, es la única que van a encontrar paquetes de este tipo de red, de esta red como tal\". Ya no me... ya no está sumarizada, no está en la red general grande dependiendo de la clase, sino con la máscara. Consultas, preguntas. Okay,",
+      "gt_normalizado": "clase sino ahora con direccionamiento classless y sin clase significa que yo tengo una máscara variable una máscara 24 una máscara de 30 una máscara de 28 dependiendo de la máscara que yo tenga entonces para evitar ese problema es que ahora viene el uso de la máscara y cómo lo configuro sencillo ya no digo network y simplemente la dirección de red sino que viene el concepto aquí de la wildcard mask que no es más que otra cosa que la inversa de la máscara si mi máscara es por ejemplo máscara 255 255 255 252 para encontrar la wildcard hago una simple resta una resta de todos los bits de una máscara de 32 menos una máscara la que yo tengo en mi red esa resta me va a dar mi wildcard mask y es la que yo coloco aquí okay esa es la única pega que hay que tener presente y en cuenta cuando configuran el eigrp ya no es máscara es la wildcard perfecto alguna duda con ese de ahí ya evitó lo de la sumarización porque es lo que digo es okay esta red con esta wildcard es la única que va a hacer o mejor dicho es la única que van a encontrar paquetes de este tipo de red de esta red como tal ya no me ya no está sumarizada no está en la red general grande dependiendo de la clase sino con la máscara consultas preguntas okay"
+    },
+    {
+      "sample_id": "clase08_seg0163",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0163.wav",
+      "inicio": 2705.978,
+      "fin": 2711.61,
+      "duracion_seg": 5.632,
+      "gt_original": "chicos, nos tomamos entonces unos cinco minutos y regresamos. Okay, chicos,",
+      "gt_normalizado": "chicos nos tomamos entonces unos cinco minutos y regresamos okay chicos"
+    },
+    {
+      "sample_id": "clase08_seg0164",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0164.wav",
+      "inicio": 3028.02,
+      "fin": 3030.27,
+      "duracion_seg": 2.25,
+      "gt_original": "están por favor levanten la mano para continuar.",
+      "gt_normalizado": "están por favor levanten la mano para continuar"
+    },
+    {
+      "sample_id": "clase08_seg0165",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0165.wav",
+      "inicio": 3042.87,
+      "fin": 3043.98,
+      "duracion_seg": 1.11,
+      "gt_original": "Pueden bajarla, gracias. Tiene el micrófono activo, Érik.",
+      "gt_normalizado": "pueden bajarla gracias tiene el micrófono activo érik"
+    },
+    {
+      "sample_id": "clase08_seg0166",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0166.wav",
+      "inicio": 3054.6,
+      "fin": 3065.73,
+      "duracion_seg": 11.13,
+      "gt_original": "Bien. Ustedes conocen el comando ya show ip route, sin embargo, si queremos ver a los vecinos del router, ustedes tienen el comando show ip eigrp neighbors. Con show",
+      "gt_normalizado": "bien ustedes conocen el comando ya show ip route sin embargo si queremos ver a los vecinos del router ustedes tienen el comando show ip eigrp neighbors con show"
+    },
+    {
+      "sample_id": "clase08_seg0167",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0167.wav",
+      "inicio": 3068.61,
+      "fin": 3079.29,
+      "duracion_seg": 10.68,
+      "gt_original": "ip eigrp neighbors ustedes van a poder encontrar los vecinos, las direcciones IP, la interfaz por la cual ustedes van a poder alcanzar ese vecino, y el",
+      "gt_normalizado": "ip eigrp neighbors ustedes van a poder encontrar los vecinos las direcciones ip la interfaz por la cual ustedes van a poder alcanzar ese vecino y el"
+    },
+    {
+      "sample_id": "clase08_seg0168",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0168.wav",
+      "inicio": 3080.25,
+      "fin": 3090.45,
+      "duracion_seg": 10.2,
+      "gt_original": "hold time. Que cada vez que se envía un paquete hello, y este contesta, este hold time se reinicia a 15 segundos. Si",
+      "gt_normalizado": "hold time que cada vez que se envía un paquete hello y este contesta este hold time se reinicia a 15 segundos si"
+    },
+    {
+      "sample_id": "clase08_seg0169",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0169.wav",
+      "inicio": 3091.319,
+      "fin": 3101.43,
+      "duracion_seg": 10.111,
+      "gt_original": "llega a ser 0, significa que no logró alcanzarse en los tres consecutivos hello, hay que calcular un sucesor factible.",
+      "gt_normalizado": "llega a ser 0 significa que no logró alcanzarse en los tres consecutivos hello hay que calcular un sucesor factible"
+    },
+    {
+      "sample_id": "clase08_seg0170",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0170.wav",
+      "inicio": 3102.93,
+      "fin": 3115.71,
+      "duracion_seg": 12.78,
+      "gt_original": "Y un up time desde la fecha, desde la hora en la cual se tiene adyacencia, o se creó una tabla de vecinos. Ahora viene el concepto clave que creo que me",
+      "gt_normalizado": "y un up time desde la fecha desde la hora en la cual se tiene adyacencia o se creó una tabla de vecinos ahora viene el concepto clave que creo que me"
+    },
+    {
+      "sample_id": "clase08_seg0171",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0171.wav",
+      "inicio": 3116.159,
+      "fin": 3127.92,
+      "duracion_seg": 11.761,
+      "gt_original": "preguntó... Rafael, creo que fue, cómo es que se calcula en este tipo de sucesores el sucesor factible. Todo esto depende de dos cosas claves.",
+      "gt_normalizado": "preguntó rafael creo que fue cómo es que se calcula en este tipo de sucesores el sucesor factible todo esto depende de dos cosas claves"
+    },
+    {
+      "sample_id": "clase08_seg0172",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0172.wav",
+      "inicio": 3130.11,
+      "fin": 3140.88,
+      "duracion_seg": 10.77,
+      "gt_original": "Ven que nosotros trabajábamos con el show ip route, viendo la tabla de enrutamiento, nosotros teníamos: conectado y decía que esta es mi red, y tenemos esto... él,",
+      "gt_normalizado": "ven que nosotros trabajábamos con el show ip route viendo la tabla de enrutamiento nosotros teníamos conectado y decía que esta es mi red y tenemos esto él"
+    },
+    {
+      "sample_id": "clase08_seg0173",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0173.wav",
+      "inicio": 3141.24,
+      "fin": 3151.41,
+      "duracion_seg": 10.17,
+      "gt_original": "teníamos la dirección y era la loopback, perfecto; si era estático, la S, y demás. Sin embargo, cuando yo trabajo con protocolos de enrutamiento: Rip versión 1,",
+      "gt_normalizado": "teníamos la dirección y era la loopback perfecto si era estático la s y demás sin embargo cuando yo trabajo con protocolos de enrutamiento rip versión 1"
+    },
+    {
+      "sample_id": "clase08_seg0174",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0174.wav",
+      "inicio": 3151.992,
+      "fin": 3163.89,
+      "duracion_seg": 11.898,
+      "gt_original": "Rip versión 2, EIGRP, EIGRP, OSPF, IS-IS, BGP, el que ustedes deseen, hay dos cosas claves en este cuadrito. El primero",
+      "gt_normalizado": "rip versión 2 eigrp eigrp ospf is is bgp el que ustedes deseen hay dos cosas claves en este cuadrito el primero"
+    },
+    {
+      "sample_id": "clase08_seg0175",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0175.wav",
+      "inicio": 3166.83,
+      "fin": 3178.23,
+      "duracion_seg": 11.4,
+      "gt_original": "significa la distancia administrativa, y el segundo la métrica. Primer punto, la distancia administrativa",
+      "gt_normalizado": "significa la distancia administrativa y el segundo la métrica primer punto la distancia administrativa"
+    },
+    {
+      "sample_id": "clase08_seg0176",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0176.wav",
+      "inicio": 3178.59,
+      "fin": 3188.7,
+      "duracion_seg": 10.11,
+      "gt_original": "es una de las medidas que se usa, utilizan los routers para seleccionar la mejor ruta, y cuando hay varios protocolos configurados en un mismo router, porque",
+      "gt_normalizado": "es una de las medidas que se usa utilizan los routers para seleccionar la mejor ruta y cuando hay varios protocolos configurados en un mismo router porque"
+    },
+    {
+      "sample_id": "clase08_seg0177",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0177.wav",
+      "inicio": 3189.54,
+      "fin": 3205.83,
+      "duracion_seg": 16.29,
+      "gt_original": "incluso ustedes lo pueden hacer: en un mismo router vamos a poder configurar Rip versión 2, OSPF, EIGRP. Sin embargo, ¿quién entra en acción? ¿Quién entra en acción? ¿Quién toma la batuta de todo el... en cambio, el enrutamiento? Primero",
+      "gt_normalizado": "incluso ustedes lo pueden hacer en un mismo router vamos a poder configurar rip versión 2 ospf eigrp sin embargo quién entra en acción quién entra en acción quién toma la batuta de todo el en cambio el enrutamiento primero"
+    },
+    {
+      "sample_id": "clase08_seg0178",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0178.wav",
+      "inicio": 3206.22,
+      "fin": 3216.75,
+      "duracion_seg": 10.53,
+      "gt_original": "va a depender de la distancia administrativa. La distancia administrativa de EIGRP es 90, y eso ya es regla. Distancia administrativa",
+      "gt_normalizado": "va a depender de la distancia administrativa la distancia administrativa de eigrp es 90 y eso ya es regla distancia administrativa"
+    },
+    {
+      "sample_id": "clase08_seg0179",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0179.wav",
+      "inicio": 3217.695,
+      "fin": 3237.66,
+      "duracion_seg": 19.965,
+      "gt_original": "de OSPF es 110, sin embargo, la distancia administrativa de Rip es 120. Entonces, si yo configuro los tres protocolos, el que va a tomar la batuta es EIGRP en routers cisco, eso quiero que quede claro, en routers cisco. Si se configuró en routers que tal vez no son cisco,",
+      "gt_normalizado": "de ospf es 110 sin embargo la distancia administrativa de rip es 120 entonces si yo configuro los tres protocolos el que va a tomar la batuta es eigrp en routers cisco eso quiero que quede claro en routers cisco si se configuró en routers que tal vez no son cisco"
+    },
+    {
+      "sample_id": "clase08_seg0180",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0180.wav",
+      "inicio": 3238.185,
+      "fin": 3248.543,
+      "duracion_seg": 10.358,
+      "gt_original": "el que tomaría la batuta sería OSPF. Todo por distancia administrativa. Una vez que sabemos quién va a ser el que va a tomar",
+      "gt_normalizado": "el que tomaría la batuta sería ospf todo por distancia administrativa una vez que sabemos quién va a ser el que va a tomar"
+    },
+    {
+      "sample_id": "clase08_seg0181",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0181.wav",
+      "inicio": 3248.992,
+      "fin": 3273.959,
+      "duracion_seg": 24.968,
+      "gt_original": "a lo largo de toda la red por distancia administrativa, hay que ahora ver las métricas. Y la métrica no es más que nada, es un análisis que se basa en algoritmos dependiendo del protocolo, y en la cual utiliza, por ejemplo, el número de saltos que le toman llegar al destino, el pulso, los costes, el ancho de banda y muchas otras variables para poder calcular la",
+      "gt_normalizado": "a lo largo de toda la red por distancia administrativa hay que ahora ver las métricas y la métrica no es más que nada es un análisis que se basa en algoritmos dependiendo del protocolo y en la cual utiliza por ejemplo el número de saltos que le toman llegar al destino el pulso los costes el ancho de banda y muchas otras variables para poder calcular la"
+    },
+    {
+      "sample_id": "clase08_seg0182",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0182.wav",
+      "inicio": 3273.959,
+      "fin": 3284.085,
+      "duracion_seg": 10.126,
+      "gt_original": "métrica, dependiendo de la métrica como dijo Rafael. Okay, si yo lo conozco... métrica aquí para llegar a este destino",
+      "gt_normalizado": "métrica dependiendo de la métrica como dijo rafael okay si yo lo conozco métrica aquí para llegar a este destino"
+    },
+    {
+      "sample_id": "clase08_seg0183",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0183.wav",
+      "inicio": 3284.544,
+      "fin": 3298.74,
+      "duracion_seg": 14.196,
+      "gt_original": "y métrica están... por este camino mi métrica va a ser... por este camino mayor, porque hay dos saltos; este es un solo salto. Entonces por eso, porque la métrica es más baja,",
+      "gt_normalizado": "y métrica están por este camino mi métrica va a ser por este camino mayor porque hay dos saltos este es un solo salto entonces por eso porque la métrica es más baja"
+    },
+    {
+      "sample_id": "clase08_seg0184",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0184.wav",
+      "inicio": 3299.4,
+      "fin": 3310.905,
+      "duracion_seg": 11.505,
+      "gt_original": "este es mi sucesor, esta será mi sucesor factible. Si mi sucesor se cae, debe empezar mi sucesor factible a tomar... a reacomodarse en",
+      "gt_normalizado": "este es mi sucesor esta será mi sucesor factible si mi sucesor se cae debe empezar mi sucesor factible a tomar a reacomodarse en"
+    },
+    {
+      "sample_id": "clase08_seg0185",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0185.wav",
+      "inicio": 3311.26,
+      "fin": 3323.024,
+      "duracion_seg": 11.764,
+      "gt_original": "la tabla de enrutamiento también, pero todos dependiendo de la métrica una vez que se tiene ya el protocolo de enrutamiento que va a trabajar. Si hubiera... conozco ahí entonces que se calcula",
+      "gt_normalizado": "la tabla de enrutamiento también pero todos dependiendo de la métrica una vez que se tiene ya el protocolo de enrutamiento que va a trabajar si hubiera conozco ahí entonces que se calcula"
+    },
+    {
+      "sample_id": "clase08_seg0186",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0186.wav",
+      "inicio": 3324.069,
+      "fin": 3337.989,
+      "duracion_seg": 13.92,
+      "gt_original": "la métrica, y la métrica depende de muchas cosas. EIGRP toma en consideración dos cosas importantes: la primera, el ancho de banda, y el retardo que tiene ese ese cambio. De",
+      "gt_normalizado": "la métrica y la métrica depende de muchas cosas eigrp toma en consideración dos cosas importantes la primera el ancho de banda y el retardo que tiene ese ese cambio de"
+    },
+    {
+      "sample_id": "clase08_seg0187",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0187.wav",
+      "inicio": 3339.03,
+      "fin": 3349.86,
+      "duracion_seg": 10.83,
+      "gt_original": "la ecuación para calcular la métrica, utiliza 5 constantes: ancho de banda, carga, retardo,",
+      "gt_normalizado": "la ecuación para calcular la métrica utiliza 5 constantes ancho de banda carga retardo"
+    },
+    {
+      "sample_id": "clase08_seg0188",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0188.wav",
+      "inicio": 3350.43,
+      "fin": 3361.132,
+      "duracion_seg": 10.702,
+      "gt_original": "y confiabilidad. Sin embargo, por defecto solamente utiliza el ancho de banda y el retardo, el resto se puede obviar o",
+      "gt_normalizado": "y confiabilidad sin embargo por defecto solamente utiliza el ancho de banda y el retardo el resto se puede obviar o"
+    },
+    {
+      "sample_id": "clase08_seg0189",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0189.wav",
+      "inicio": 3362.97,
+      "fin": 3376.26,
+      "duracion_seg": 13.29,
+      "gt_original": "viene, mejor, no nos viene configurado. Pero si ustedes, al momento, son administradores de redes y quieren ustedes mismos configurar la métrica, configurar el mejor camino, no dejárselo al EIGRP, ustedes lo que hacen es jugar con las métricas,",
+      "gt_normalizado": "viene mejor no nos viene configurado pero si ustedes al momento son administradores de redes y quieren ustedes mismos configurar la métrica configurar el mejor camino no dejárselo al eigrp ustedes lo que hacen es jugar con las métricas"
+    },
+    {
+      "sample_id": "clase08_seg0190",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0190.wav",
+      "inicio": 3376.74,
+      "fin": 3391.41,
+      "duracion_seg": 14.67,
+      "gt_original": "y agregan los pesos a cada una de las constantes para decir: \"okay, yo no quiero que el EIGRP tome este... este camino como ustedes lo calculan, sino que quiero que tome este porque yo sé que este es más rápido\", y lo configuró,",
+      "gt_normalizado": "y agregan los pesos a cada una de las constantes para decir okay yo no quiero que el eigrp tome este este camino como ustedes lo calculan sino que quiero que tome este porque yo sé que este es más rápido y lo configuró"
+    },
+    {
+      "sample_id": "clase08_seg0191",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0191.wav",
+      "inicio": 3391.8,
+      "fin": 3407.843,
+      "duracion_seg": 16.043,
+      "gt_original": "que le cambié las métricas, y de esa forma, ustedes van a poder tener que el EIGRP obligatoriamente tome como sucesor ese camino. ¿Cómo es que las cosas... Recuerden que yo les dije,",
+      "gt_normalizado": "que le cambié las métricas y de esa forma ustedes van a poder tener que el eigrp obligatoriamente tome como sucesor ese camino cómo es que las cosas recuerden que yo les dije"
+    },
+    {
+      "sample_id": "clase08_seg0192",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0192.wav",
+      "inicio": 3408.697,
+      "fin": 3429.69,
+      "duracion_seg": 20.993,
+      "gt_original": "routers que tenían su interfaz y tenían para poder observar información de la interfaz, en donde la interfaz, ustedes... yo les dije que pueden ver cuál es la dirección si estaban como dce o dte, tipo de protocolo si está activo, y demás otra información. Y aquí es la que ustedes van a poder encontrar en las",
+      "gt_normalizado": "routers que tenían su interfaz y tenían para poder observar información de la interfaz en donde la interfaz ustedes yo les dije que pueden ver cuál es la dirección si estaban como dce o dte tipo de protocolo si está activo y demás otra información y aquí es la que ustedes van a poder encontrar en las"
+    },
+    {
+      "sample_id": "clase08_seg0193",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0193.wav",
+      "inicio": 3430.17,
+      "fin": 3440.171,
+      "duracion_seg": 10.001,
+      "gt_original": "variables, bueno, cuáles funcionan, la métrica del EIGRP. Para claros de EIGRP, OSPF más tienen otro tipo de forma de cálculo de métrica:",
+      "gt_normalizado": "variables bueno cuáles funcionan la métrica del eigrp para claros de eigrp ospf más tienen otro tipo de forma de cálculo de métrica"
+    },
+    {
+      "sample_id": "clase08_seg0194",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0194.wav",
+      "inicio": 3440.793,
+      "fin": 3451.32,
+      "duracion_seg": 10.527,
+      "gt_original": "primero, el ancho de banda, el retardo, la confiabilidad, que el 255 sólo, sí, por 5, significa que es muy, muy confiable este cable;",
+      "gt_normalizado": "primero el ancho de banda el retardo la confiabilidad que el 255 sólo sí por 5 significa que es muy muy confiable este cable"
+    },
+    {
+      "sample_id": "clase08_seg0195",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0195.wav",
+      "inicio": 3452.1,
+      "fin": 3465.87,
+      "duracion_seg": 13.77,
+      "gt_original": "transferencia de carga, y transferencia de salida: TX, RX. Sin embargo, como digo, solamente en la métrica por defecto toma es el ancho de banda y el retardo.",
+      "gt_normalizado": "transferencia de carga y transferencia de salida tx rx sin embargo como digo solamente en la métrica por defecto toma es el ancho de banda y el retardo"
+    },
+    {
+      "sample_id": "clase08_seg0196",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0196.wav",
+      "inicio": 3468.36,
+      "fin": 3493.08,
+      "duracion_seg": 24.72,
+      "gt_original": "Ahora, por cable, si ustedes tienen un cable... si van a trabajar con... y tienen compás con Giga, y están utilizando el EIGRP, el retardo por cada uno de ellos ya es base: porque Ethernet tienes 1000, por Fast 100, Giga tiene 10... y por el resto, y hace eso nuestro tipo de cálculo que asuma... más bajo, que casi iniciando el programa, Token Ring y FDDI, y entonces tiene un retardo",
+      "gt_normalizado": "ahora por cable si ustedes tienen un cable si van a trabajar con y tienen compás con giga y están utilizando el eigrp el retardo por cada uno de ellos ya es base porque ethernet tienes 1000 por fast 100 giga tiene 10 y por el resto y hace eso nuestro tipo de cálculo que asuma más bajo que casi iniciando el programa token ring y fddi y entonces tiene un retardo"
+    },
+    {
+      "sample_id": "clase08_seg0197",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0197.wav",
+      "inicio": 3493.14,
+      "fin": 3502.777,
+      "duracion_seg": 9.637,
+      "gt_original": "ya estándar, y es el que se utiliza a lo largo de la métrica. Consultas. En el anterior...",
+      "gt_normalizado": "ya estándar y es el que se utiliza a lo largo de la métrica consultas en el anterior"
+    },
+    {
+      "sample_id": "clase08_seg0198",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0198.wav",
+      "inicio": 3509.49,
+      "fin": 3522.0,
+      "duracion_seg": 12.51,
+      "gt_original": "profe, ¿y no sé... también he visto, creo que la distancia administrativa puede tomar valores, por ejemplo, como de 170? ¿Por qué pasa eso? Pero es que depende del protocolo, ¿qué protocolo vio que estaba",
+      "gt_normalizado": "profe y no sé también he visto creo que la distancia administrativa puede tomar valores por ejemplo como de 170 por qué pasa eso pero es que depende del protocolo qué protocolo vio que estaba"
+    },
+    {
+      "sample_id": "clase08_seg0199",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0199.wav",
+      "inicio": 3522.6,
+      "fin": 3547.387,
+      "duracion_seg": 24.787,
+      "gt_original": "con 170? Yo creo que fue EIGRP también, porque puede hacer creo que 90 o 170. Sí, puede ser, pero es que depende de la infraestructura que vaya a utilizar, perfectamente 90 es interno y el externo es el que utiliza el 170, si mal no recuerdo. Sí, creo que sí, creo que sí. En internas 90",
+      "gt_normalizado": "con 170 yo creo que fue eigrp también porque puede hacer creo que 90 o 170 sí puede ser pero es que depende de la infraestructura que vaya a utilizar perfectamente 90 es interno y el externo es el que utiliza el 170 si mal no recuerdo sí creo que sí creo que sí en internas 90"
+    },
+    {
+      "sample_id": "clase08_seg0200",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0200.wav",
+      "inicio": 3547.387,
+      "fin": 3561.582,
+      "duracion_seg": 14.195,
+      "gt_original": "y externa, 170, y ahí... OSPF 110, Rip versión 2, 120, son los que más recuerdo",
+      "gt_normalizado": "y externa 170 y ahí ospf 110 rip versión 2 120 son los que más recuerdo"
+    },
+    {
+      "sample_id": "clase08_seg0201",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0201.wav",
+      "inicio": 3562.416,
+      "fin": 3576.21,
+      "duracion_seg": 13.794,
+      "gt_original": "del protocolo que se va a usar. De ahí, por ejemplo, si trabajamos con BGP, el BGP trabaja para exteriores, BGP en cambio es protocolo de gateway de borde, configurados los enrutadores y trabajan en otro mecanismo,",
+      "gt_normalizado": "del protocolo que se va a usar de ahí por ejemplo si trabajamos con bgp el bgp trabaja para exteriores bgp en cambio es protocolo de gateway de borde configurados los enrutadores y trabajan en otro mecanismo"
+    },
+    {
+      "sample_id": "clase08_seg0202",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0202.wav",
+      "inicio": 3577.17,
+      "fin": 3592.02,
+      "duracion_seg": 14.85,
+      "gt_original": "peor si, por ejemplo, funciono con el MPLS. Creo que tenía un tema de MPLS, el proyecto de... se trabaja con etiquetas, en la cual MPLS, como básico, es que cada protocolo... en un enrutador es el que dice: \"mira, no me importa qué tipo",
+      "gt_normalizado": "peor si por ejemplo funciono con el mpls creo que tenía un tema de mpls el proyecto de se trabaja con etiquetas en la cual mpls como básico es que cada protocolo en un enrutador es el que dice mira no me importa qué tipo"
+    },
+    {
+      "sample_id": "clase08_seg0203",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0203.wav",
+      "inicio": 3592.507,
+      "fin": 3605.37,
+      "duracion_seg": 12.863,
+      "gt_original": "de protocolo tengas interno, dame tú la trama, que yo me encargo de enviar el paquete, no me interesa lo que tú tengas dentro\". Algo así es lo que dice en esencia. Entonces va a depender del tipo de protocolo,",
+      "gt_normalizado": "de protocolo tengas interno dame tú la trama que yo me encargo de enviar el paquete no me interesa lo que tú tengas dentro algo así es lo que dice en esencia entonces va a depender del tipo de protocolo"
+    },
+    {
+      "sample_id": "clase08_seg0204",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0204.wav",
+      "inicio": 3605.802,
+      "fin": 3617.085,
+      "duracion_seg": 11.283,
+      "gt_original": "por ver por ahora simplemente de redes internas, que es los que estamos viendo, y de redes interiores, y específicamente de vectores distancia, que, la distancia administrativa es 90, el",
+      "gt_normalizado": "por ver por ahora simplemente de redes internas que es los que estamos viendo y de redes interiores y específicamente de vectores distancia que la distancia administrativa es 90 el"
+    },
+    {
+      "sample_id": "clase08_seg0205",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0205.wav",
+      "inicio": 3617.61,
+      "fin": 3631.56,
+      "duracion_seg": 13.95,
+      "gt_original": "resto simplemente como conocimiento general para ustedes, esto no es que vengan examen de redes ni nada de eso, porque no se toma eso. Okay, ¿hasta ahí otra consulta?",
+      "gt_normalizado": "resto simplemente como conocimiento general para ustedes esto no es que vengan examen de redes ni nada de eso porque no se toma eso okay hasta ahí otra consulta"
+    },
+    {
+      "sample_id": "clase08_seg0206",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0206.wav",
+      "inicio": 3645.87,
+      "fin": 3658.29,
+      "duracion_seg": 12.42,
+      "gt_original": "Sigamos entonces. Okay, y tienen ustedes el comando show ip protocols, y ustedes van a poder observar...",
+      "gt_normalizado": "sigamos entonces okay y tienen ustedes el comando show ip protocols y ustedes van a poder observar"
+    },
+    {
+      "sample_id": "clase08_seg0207",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0207.wav",
+      "inicio": 3658.68,
+      "fin": 3670.14,
+      "duracion_seg": 11.46,
+      "gt_original": "ya no los vecinos, bueno... ya no los vecinos, sino más bien la topología para poder encontrar",
+      "gt_normalizado": "ya no los vecinos bueno ya no los vecinos sino más bien la topología para poder encontrar"
+    },
+    {
+      "sample_id": "clase08_seg0208",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0208.wav",
+      "inicio": 3670.89,
+      "fin": 3694.39,
+      "duracion_seg": 23.5,
+      "gt_original": "quién va a ser sucesor, quién sucesor factible y demás. Entonces ustedes van a poder mirar cuál es el siguiente salto, que sería su respectivo... van a poder encontrar la distancia factible, que es la que calcula el propio router, y una distancia reportada, que es la que en cambio el router a la cual desea alcanzar le reporta como distancia, la",
+      "gt_normalizado": "quién va a ser sucesor quién sucesor factible y demás entonces ustedes van a poder mirar cuál es el siguiente salto que sería su respectivo van a poder encontrar la distancia factible que es la que calcula el propio router y una distancia reportada que es la que en cambio el router a la cual desea alcanzar le reporta como distancia la"
+    },
+    {
+      "sample_id": "clase08_seg0209",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0209.wav",
+      "inicio": 3694.92,
+      "fin": 3707.49,
+      "duracion_seg": 12.57,
+      "gt_original": "distancia al router que está solicitando, y por la interfaz de salida de ese router, generalmente, como condición, la distancia reportada por un router es",
+      "gt_normalizado": "distancia al router que está solicitando y por la interfaz de salida de ese router generalmente como condición la distancia reportada por un router es"
+    },
+    {
+      "sample_id": "clase08_seg0210",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0210.wav",
+      "inicio": 3707.85,
+      "fin": 3719.61,
+      "duracion_seg": 11.76,
+      "gt_original": "menor a la distancia factible calculada por el router de origen, del router que está tratando de calcular su tabla de topología. Y cómo es que",
+      "gt_normalizado": "menor a la distancia factible calculada por el router de origen del router que está tratando de calcular su tabla de topología y cómo es que"
+    },
+    {
+      "sample_id": "clase08_seg0211",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0211.wav",
+      "inicio": 3721.5,
+      "fin": 3732.72,
+      "duracion_seg": 11.22,
+      "gt_original": "pasa la convergencia? Cómo es que el algoritmo igual trata de que converja toda la red? Simple, como ya les expliqué: pérdida de conectividad de un sucesor,",
+      "gt_normalizado": "pasa la convergencia cómo es que el algoritmo igual trata de que converja toda la red simple como ya les expliqué pérdida de conectividad de un sucesor"
+    },
+    {
+      "sample_id": "clase08_seg0212",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0212.wav",
+      "inicio": 3733.26,
+      "fin": 3752.655,
+      "duracion_seg": 19.395,
+      "gt_original": "pregunta primero si hay un sucesor factible, si lo hay, ¿qué pasa?, lo promueve a sucesor, agrega a la tabla de enrutamiento, porque en la de enrutamiento que van a estar todas las redes primarias por donde tienen que, todos los que se van a enrutar o van a elegir una salida. Se",
+      "gt_normalizado": "pregunta primero si hay un sucesor factible si lo hay qué pasa lo promueve a sucesor agrega a la tabla de enrutamiento porque en la de enrutamiento que van a estar todas las redes primarias por donde tienen que todos los que se van a enrutar o van a elegir una salida se"
+    },
+    {
+      "sample_id": "clase08_seg0213",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0213.wav",
+      "inicio": 3753.582,
+      "fin": 3766.62,
+      "duracion_seg": 13.038,
+      "gt_original": "debe seleccionar un nuevo sucesor, porque hace selección no... está instalada ya en la tabla de enrutamiento, y finalmente se necesita calcular un nuevo sucesor factible, si es que lo hay, ¿verdad? Y si es que es ahí, en esta tabla de topología,",
+      "gt_normalizado": "debe seleccionar un nuevo sucesor porque hace selección no está instalada ya en la tabla de enrutamiento y finalmente se necesita calcular un nuevo sucesor factible si es que lo hay verdad y si es que es ahí en esta tabla de topología"
+    },
+    {
+      "sample_id": "clase08_seg0214",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0214.wav",
+      "inicio": 3768.18,
+      "fin": 3788.49,
+      "duracion_seg": 20.31,
+      "gt_original": "sino al sucesor factible... se dice que el destino o la red se está activa, pero es que no, no, no se logra alcanzar, se puede decir, y se trata de enviar mensajes, se envían solicitudes a todos los routers para que se pueda tratar de llegar a una convergencia.",
+      "gt_normalizado": "sino al sucesor factible se dice que el destino o la red se está activa pero es que no no no se logra alcanzar se puede decir y se trata de enviar mensajes se envían solicitudes a todos los routers para que se pueda tratar de llegar a una convergencia"
+    },
+    {
+      "sample_id": "clase08_seg0215",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0215.wav",
+      "inicio": 3789.93,
+      "fin": 3802.753,
+      "duracion_seg": 12.823,
+      "gt_original": "Uno o más routers nuevos; si no, no lo hay, okay, lastimosamente no, no sabemos cómo llegar a ese periodo, se remueve la... tabla de enrutamiento, será un... la tabla de topología,",
+      "gt_normalizado": "uno o más routers nuevos si no no lo hay okay lastimosamente no no sabemos cómo llegar a ese periodo se remueve la tabla de enrutamiento será un la tabla de topología"
+    },
+    {
+      "sample_id": "clase08_seg0216",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0216.wav",
+      "inicio": 3803.127,
+      "fin": 3821.317,
+      "duracion_seg": 18.19,
+      "gt_original": "y hay una ruta nueva o un nuevo router para que nos permita poder llegar, okay, se selecciona ese sucesor y se calcula un sucesor factible de nuevo para esta ruta, y puede coincidir, a veces, que el sucesor sea el mismo sucesor factible, y si se perdieron los dos, la tabla de topología murió. Si nos",
+      "gt_normalizado": "y hay una ruta nueva o un nuevo router para que nos permita poder llegar okay se selecciona ese sucesor y se calcula un sucesor factible de nuevo para esta ruta y puede coincidir a veces que el sucesor sea el mismo sucesor factible y si se perdieron los dos la tabla de topología murió si nos"
+    },
+    {
+      "sample_id": "clase08_seg0217",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0217.wav",
+      "inicio": 3826.5,
+      "fin": 3837.9,
+      "duracion_seg": 11.4,
+      "gt_original": "referimos ahora, en cambio, a este, versión 6 con respecto a lo que estudiamos y se está hablando de configuración y versión 4, la única diferencia que ustedes van a poder encontrar entre ambas versiones de direccionamiento del protocolo IP",
+      "gt_normalizado": "referimos ahora en cambio a este versión 6 con respecto a lo que estudiamos y se está hablando de configuración y versión 4 la única diferencia que ustedes van a poder encontrar entre ambas versiones de direccionamiento del protocolo ip"
+    },
+    {
+      "sample_id": "clase08_seg0218",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0218.wav",
+      "inicio": 3838.47,
+      "fin": 3851.347,
+      "duracion_seg": 12.877,
+      "gt_original": "es, obvio, la dirección multi- cast, y en la parte de seguridad: en el versión 4, la versión 4, la parte de autenticación a nivel de protocolos, encapsulamiento en redes WAN, es",
+      "gt_normalizado": "es obvio la dirección multi cast y en la parte de seguridad en el versión 4 la versión 4 la parte de autenticación a nivel de protocolos encapsulamiento en redes wan es"
+    },
+    {
+      "sample_id": "clase08_seg0219",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0219.wav",
+      "inicio": 3852.6,
+      "fin": 3863.94,
+      "duracion_seg": 11.34,
+      "gt_original": "texto plano o MD5, y en cambio en IP versión 6, solo es MD5. MD5 es una forma de encriptar o cifrar",
+      "gt_normalizado": "texto plano o md5 y en cambio en ip versión 6 solo es md5 md5 es una forma de encriptar o cifrar"
+    },
+    {
+      "sample_id": "clase08_seg0220",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0220.wav",
+      "inicio": 3864.99,
+      "fin": 3876.36,
+      "duracion_seg": 11.37,
+      "gt_original": "las, sí, serían las contraseñas o cifrados, la data que se están enviando por un canal de comunicación, ese es MD5. Y",
+      "gt_normalizado": "las sí serían las contraseñas o cifrados la data que se están enviando por un canal de comunicación ese es md5 y"
+    },
+    {
+      "sample_id": "clase08_seg0221",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0221.wav",
+      "inicio": 3877.08,
+      "fin": 3893.55,
+      "duracion_seg": 16.47,
+      "gt_original": "para hacer configuración en el EIGRP IP versión 6 yo tengo... ya no puedo decir un IP address y la dirección IPv4, sino que tengo que activar IPv6 en los enrutadores. Para activarlo,",
+      "gt_normalizado": "para hacer configuración en el eigrp ip versión 6 yo tengo ya no puedo decir un ip address y la dirección ipv4 sino que tengo que activar ipv6 en los enrutadores para activarlo"
+    },
+    {
+      "sample_id": "clase08_seg0222",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0222.wav",
+      "inicio": 3894.045,
+      "fin": 3906.48,
+      "duracion_seg": 12.435,
+      "gt_original": "yo tengo... me tenía que activar... yo tengo que decir que voy a trabajar ipv6 unicast- routing e indicar ipv6 router eigrp sistema autónomo",
+      "gt_normalizado": "yo tengo me tenía que activar yo tengo que decir que voy a trabajar ipv6 unicast routing e indicar ipv6 router eigrp sistema autónomo"
+    },
+    {
+      "sample_id": "clase08_seg0223",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0223.wav",
+      "inicio": 3907.042,
+      "fin": 3918.06,
+      "duracion_seg": 11.018,
+      "gt_original": "2, eigrp mi router-id, y fíjense que sigue siendo trabajando en dirección IPv4, a pesar de que estoy activa en versión 6, y configuro mis vecinos.",
+      "gt_normalizado": "2 eigrp mi router id y fíjense que sigue siendo trabajando en dirección ipv4 a pesar de que estoy activa en versión 6 y configuro mis vecinos"
+    },
+    {
+      "sample_id": "clase08_seg0224",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0224.wav",
+      "inicio": 3920.76,
+      "fin": 3938.017,
+      "duracion_seg": 17.257,
+      "gt_original": "Y para activarlos, lastimosamente, o bueno, no lastimosamente, IP versión 6 tiene algunas formas de trabajar el direccionamiento. Una de ellas es la conocida como link-local, link-local address, y se configura en las interfaz. Esto lo veremos en mayor detalle en el siguiente",
+      "gt_normalizado": "y para activarlos lastimosamente o bueno no lastimosamente ip versión 6 tiene algunas formas de trabajar el direccionamiento una de ellas es la conocida como link local link local address y se configura en las interfaz esto lo veremos en mayor detalle en el siguiente"
+    },
+    {
+      "sample_id": "clase08_seg0225",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0225.wav",
+      "inicio": 3946.23,
+      "fin": 3960.84,
+      "duracion_seg": 14.61,
+      "gt_original": "capítulo: cómo hacemos ese, es el reconocimiento de este tipo de direccionamiento IP versión 6 voy a trabajar. Con versión 6 es exactamente lo mismo configurar, configurar, configurar, configurar, sin embargo, quiero que quede claro: el router ID debe ser en versión 4, de eso no nos salvamos.",
+      "gt_normalizado": "capítulo cómo hacemos ese es el reconocimiento de este tipo de direccionamiento ip versión 6 voy a trabajar con versión 6 es exactamente lo mismo configurar configurar configurar configurar sin embargo quiero que quede claro el router id debe ser en versión 4 de eso no nos salvamos"
+    },
+    {
+      "sample_id": "clase08_seg0226",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0226.wav",
+      "inicio": 3961.56,
+      "fin": 3973.8,
+      "duracion_seg": 12.24,
+      "gt_original": "Y puedo utilizar los comandos que ya ustedes conocen: show ipv6 interface brief, pero con versión 6. Si quiero agregar una dirección",
+      "gt_normalizado": "y puedo utilizar los comandos que ya ustedes conocen show ipv6 interface brief pero con versión 6 si quiero agregar una dirección"
+    },
+    {
+      "sample_id": "clase08_seg0227",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0227.wav",
+      "inicio": 3974.291,
+      "fin": 3986.7,
+      "duracion_seg": 12.409,
+      "gt_original": "a una interfaz, ya no es ip address, sino ipv6 address y la dirección, o ipv6 address la dirección y que voy a trabajar link-local. Como digo, esto lo veremos mayor detalle",
+      "gt_normalizado": "a una interfaz ya no es ip address sino ipv6 address y la dirección o ipv6 address la dirección y que voy a trabajar link local como digo esto lo veremos mayor detalle"
+    },
+    {
+      "sample_id": "clase08_seg0228",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0228.wav",
+      "inicio": 3987.33,
+      "fin": 4011.63,
+      "duracion_seg": 24.3,
+      "gt_original": "cuando veamos versión 6 en el próximo capítulo. Y fíjense, show ipv6, show ipv6, show ipv6, protocols y demás, y lo mismo si hacen ustedes en cambio un show ipv6 neighbors para ver los vecinos. Si están con versión 6, les va a salir lo mismo que saldría con versión 4: la dirección, la interfaz a la que se asocia,",
+      "gt_normalizado": "cuando veamos versión 6 en el próximo capítulo y fíjense show ipv6 show ipv6 show ipv6 protocols y demás y lo mismo si hacen ustedes en cambio un show ipv6 neighbors para ver los vecinos si están con versión 6 les va a salir lo mismo que saldría con versión 4 la dirección la interfaz a la que se asocia"
+    },
+    {
+      "sample_id": "clase08_seg0229",
+      "clase_id": "clase08",
+      "ruta_audio": "data/processed/chunks/clase08/clase08_seg0229.wav",
+      "inicio": 4012.099,
+      "fin": 4015.8,
+      "duracion_seg": 3.701,
+      "gt_original": "el hold time, y el tiempo que lleva...",
+      "gt_normalizado": "el hold time y el tiempo que lleva"
+    }
+  ]
+}

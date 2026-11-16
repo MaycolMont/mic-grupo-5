@@ -1,0 +1,1461 @@
+{
+  "clase_id": "clase05",
+  "audio_stem": "yt_fisica-pre-de-espol_20160405_006",
+  "audio_path": "data/interim/wav_16k/yt_fisica-pre-de-espol_20160405_006.wav",
+  "duracion_audio_seg": 3021.497,
+  "palabras_gt": 3289,
+  "palabras_reconocidas": 2440,
+  "ratio_anclaje": 0.4822,
+  "chunks": [
+    {
+      "sample_id": "clase05_seg0001",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0001.wav",
+      "inicio": 0.713,
+      "fin": 20.481,
+      "duracion_seg": 19.768,
+      "gt_original": "¿Qué pasó? Deje ver si su calculadora está bien. ¡Ujum! Está en radianes tu calculadora. Tu calculadora sólo tiene que... Y ahí está. Tiene que estar en DEG. Ahora sí. A ver y ya que",
+      "gt_normalizado": "qué pasó deje ver si su calculadora está bien ujum está en radianes tu calculadora tu calculadora sólo tiene que y ahí está tiene que estar en deg ahora sí a ver y ya que"
+    },
+    {
+      "sample_id": "clase05_seg0002",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0002.wav",
+      "inicio": 37.59,
+      "fin": 43.458,
+      "duracion_seg": 5.868,
+      "gt_original": "estamos en esto de una vez, visualicemos lo. ¿Sí? De una vez visualicemos esto. En donde en este",
+      "gt_normalizado": "estamos en esto de una vez visualicemos lo sí de una vez visualicemos esto en donde en este"
+    },
+    {
+      "sample_id": "clase05_seg0003",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0003.wav",
+      "inicio": 62.538,
+      "fin": 75.87,
+      "duracion_seg": 13.332,
+      "gt_original": "caso mi vector erre tiene componente positiva en ye, positiva en... Perdón, positiva en equis, positiva en ye y negativa en zeta",
+      "gt_normalizado": "caso mi vector erre tiene componente positiva en ye positiva en perdón positiva en equis positiva en ye y negativa en zeta"
+    },
+    {
+      "sample_id": "clase05_seg0004",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0004.wav",
+      "inicio": 77.58,
+      "fin": 100.058,
+      "duracion_seg": 22.478,
+      "gt_original": "lo que implica irse 12 unidades hacia el frente. ¿Sí? Irse 12 unidades hacia el frente. Es decir a favor del eje de las equis y luego irse 5 unidades a favor de ye. ¿No? Y",
+      "gt_normalizado": "lo que implica irse 12 unidades hacia el frente sí irse 12 unidades hacia el frente es decir a favor del eje de las equis y luego irse 5 unidades a favor de ye no y"
+    },
+    {
+      "sample_id": "clase05_seg0005",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0005.wav",
+      "inicio": 120.648,
+      "fin": 132.192,
+      "duracion_seg": 11.544,
+      "gt_original": "luego 6 unidades pero en contra del eje de la zeta. O sea que en este caso tendré que irme para abajo.",
+      "gt_normalizado": "luego 6 unidades pero en contra del eje de la zeta o sea que en este caso tendré que irme para abajo"
+    },
+    {
+      "sample_id": "clase05_seg0006",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0006.wav",
+      "inicio": 137.58,
+      "fin": 149.065,
+      "duracion_seg": 11.485,
+      "gt_original": "Por favor. Espacialmente, espacialmente eso significa que mi vector está en el salón de clases de aquí abajo.",
+      "gt_normalizado": "por favor espacialmente espacialmente eso significa que mi vector está en el salón de clases de aquí abajo"
+    },
+    {
+      "sample_id": "clase05_seg0007",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0007.wav",
+      "inicio": 151.35,
+      "fin": 163.45,
+      "duracion_seg": 12.1,
+      "gt_original": "Recuerde de que cuando yo represento al espacio tridimensional mediante los ejes cartesianos. Esos planos principales dividen en",
+      "gt_normalizado": "recuerde de que cuando yo represento al espacio tridimensional mediante los ejes cartesianos esos planos principales dividen en"
+    },
+    {
+      "sample_id": "clase05_seg0008",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0008.wav",
+      "inicio": 164.34,
+      "fin": 175.514,
+      "duracion_seg": 11.174,
+      "gt_original": "ocho lugares, ocho regiones y esas ocho En dos dimensiones hablamos de cuadrantes, en tres",
+      "gt_normalizado": "ocho lugares ocho regiones y esas ocho en dos dimensiones hablamos de cuadrantes en tres"
+    },
+    {
+      "sample_id": "clase05_seg0009",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0009.wav",
+      "inicio": 176.28,
+      "fin": 187.454,
+      "duracion_seg": 11.174,
+      "gt_original": "dimensiones en cambio hablamos de octantes. Se supone que si mi origen está aquí, yo estoy dentro de un octante.",
+      "gt_normalizado": "dimensiones en cambio hablamos de octantes se supone que si mi origen está aquí yo estoy dentro de un octante"
+    },
+    {
+      "sample_id": "clase05_seg0010",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0010.wav",
+      "inicio": 188.46,
+      "fin": 198.87,
+      "duracion_seg": 10.41,
+      "gt_original": "Acá a lado, esa aula sería otro octante. Las dos aulas de ahí abajo serían otros dos octantes más, ¿verdad?",
+      "gt_normalizado": "acá a lado esa aula sería otro octante las dos aulas de ahí abajo serían otros dos octantes más verdad"
+    },
+    {
+      "sample_id": "clase05_seg0011",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0011.wav",
+      "inicio": 200.4,
+      "fin": 214.574,
+      "duracion_seg": 14.174,
+      "gt_original": "Y todavía falta los cuatro octantes que tendrían que estar acá atrás. Obviamente aquí en nuestro caso no hay aulas, pero imagínense que hubieran aulas allá atrás. ¿Sí?",
+      "gt_normalizado": "y todavía falta los cuatro octantes que tendrían que estar acá atrás obviamente aquí en nuestro caso no hay aulas pero imagínense que hubieran aulas allá atrás sí"
+    },
+    {
+      "sample_id": "clase05_seg0012",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0012.wav",
+      "inicio": 215.04,
+      "fin": 225.94,
+      "duracion_seg": 10.9,
+      "gt_original": "Entonces habría una aula detrás nuestro, habría otra aula detrás del aula de aquí al lado y también habrían aulas detrás de las aulas de abajo, ¿verdad? En",
+      "gt_normalizado": "entonces habría una aula detrás nuestro habría otra aula detrás del aula de aquí al lado y también habrían aulas detrás de las aulas de abajo verdad en"
+    },
+    {
+      "sample_id": "clase05_seg0013",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0013.wav",
+      "inicio": 226.44,
+      "fin": 239.441,
+      "duracion_seg": 13.001,
+      "gt_original": "total habrían ocho aulas, cada aula representaría lo que estoy llamando un octante. Entonces, nuestro vector se encontraría en el",
+      "gt_normalizado": "total habrían ocho aulas cada aula representaría lo que estoy llamando un octante entonces nuestro vector se encontraría en el"
+    },
+    {
+      "sample_id": "clase05_seg0014",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0014.wav",
+      "inicio": 240.72,
+      "fin": 251.411,
+      "duracion_seg": 10.691,
+      "gt_original": "salón de clases de allá abajo. Insisto, la idea es que ustedes desarrollen esa ubicación espacial. Dense",
+      "gt_normalizado": "salón de clases de allá abajo insisto la idea es que ustedes desarrollen esa ubicación espacial dense"
+    },
+    {
+      "sample_id": "clase05_seg0015",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0015.wav",
+      "inicio": 253.417,
+      "fin": 263.73,
+      "duracion_seg": 10.313,
+      "gt_original": "cuenta que yo estoy representando aquí, un vector en tres dimensiones en algo que apenas me ofrece cuantas dimensiones, dos.",
+      "gt_normalizado": "cuenta que yo estoy representando aquí un vector en tres dimensiones en algo que apenas me ofrece cuantas dimensiones dos"
+    },
+    {
+      "sample_id": "clase05_seg0016",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0016.wav",
+      "inicio": 269.79,
+      "fin": 272.171,
+      "duracion_seg": 2.381,
+      "gt_original": "¿Sí? Si yo trazara paralelas... Si yo",
+      "gt_normalizado": "sí si yo trazara paralelas si yo"
+    },
+    {
+      "sample_id": "clase05_seg0017",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0017.wav",
+      "inicio": 295.504,
+      "fin": 308.564,
+      "duracion_seg": 13.06,
+      "gt_original": "trazo paralelas lo que ustedes deberían ver ahí es justamente un paralelepípedo, el aula de allá abajo. Ahí está nuestro vector, entonces en esta",
+      "gt_normalizado": "trazo paralelas lo que ustedes deberían ver ahí es justamente un paralelepípedo el aula de allá abajo ahí está nuestro vector entonces en esta"
+    },
+    {
+      "sample_id": "clase05_seg0018",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0018.wav",
+      "inicio": 310.44,
+      "fin": 325.711,
+      "duracion_seg": 15.271,
+      "gt_original": "gráfica ustedes podrían darse cuenta de que efectivamente mi vector erre forma un ángulo interpretado como agudo. Si ustedes se dan cuenta el ángulo de 33.07,",
+      "gt_normalizado": "gráfica ustedes podrían darse cuenta de que efectivamente mi vector erre forma un ángulo interpretado como agudo si ustedes se dan cuenta el ángulo de 33 07"
+    },
+    {
+      "sample_id": "clase05_seg0019",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0019.wav",
+      "inicio": 327.78,
+      "fin": 343.491,
+      "duracion_seg": 15.711,
+      "gt_original": "aquí está ese ángulo alfa es igual a 33.07 grados. Aquí está mi vector y aquí está el eje de la ye y qué ángulo dice que hay ahí 69.56 grados.",
+      "gt_normalizado": "aquí está ese ángulo alfa es igual a 33 07 grados aquí está mi vector y aquí está el eje de la ye y qué ángulo dice que hay ahí 69 56 grados"
+    },
+    {
+      "sample_id": "clase05_seg0020",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0020.wav",
+      "inicio": 349.35,
+      "fin": 362.61,
+      "duracion_seg": 13.26,
+      "gt_original": "Pero mi vector está abajo, ¿verdad? Por esa razón es que el ángulo que forma con el eje de la zeta, pienso yo que está mucho más claro que ese ángulo es",
+      "gt_normalizado": "pero mi vector está abajo verdad por esa razón es que el ángulo que forma con el eje de la zeta pienso yo que está mucho más claro que ese ángulo es"
+    },
+    {
+      "sample_id": "clase05_seg0021",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0021.wav",
+      "inicio": 363.21,
+      "fin": 373.393,
+      "duracion_seg": 10.183,
+      "gt_original": "obtuso. Ese ángulo de acuerdo con los cálculos que hicimos ese ángulo desde 114.77 grados. ¿Preguntas,",
+      "gt_normalizado": "obtuso ese ángulo de acuerdo con los cálculos que hicimos ese ángulo desde 114 77 grados preguntas"
+    },
+    {
+      "sample_id": "clase05_seg0022",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0022.wav",
+      "inicio": 402.84,
+      "fin": 403.54,
+      "duracion_seg": 0.7,
+      "gt_original": "jóvenes? Y",
+      "gt_normalizado": "jóvenes y"
+    },
+    {
+      "sample_id": "clase05_seg0023",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0023.wav",
+      "inicio": 410.85,
+      "fin": 417.42,
+      "duracion_seg": 6.57,
+      "gt_original": "entonces vamos ahora sí con la segunda parte del problema.",
+      "gt_normalizado": "entonces vamos ahora sí con la segunda parte del problema"
+    },
+    {
+      "sample_id": "clase05_seg0024",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0024.wav",
+      "inicio": 434.43,
+      "fin": 435.868,
+      "duracion_seg": 1.438,
+      "gt_original": "¿Puedo borrar esto? ¿Qué me",
+      "gt_normalizado": "puedo borrar esto qué me"
+    },
+    {
+      "sample_id": "clase05_seg0025",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0025.wav",
+      "inicio": 457.106,
+      "fin": 468.441,
+      "duracion_seg": 11.335,
+      "gt_original": "pide en el literal be? Un vector de módulo 8 y que tenga la misma dirección del vector erre.",
+      "gt_normalizado": "pide en el literal be un vector de módulo 8 y que tenga la misma dirección del vector erre"
+    },
+    {
+      "sample_id": "clase05_seg0026",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0026.wav",
+      "inicio": 471.96,
+      "fin": 482.22,
+      "duracion_seg": 10.26,
+      "gt_original": "¿Qué significa que tengan la misma dirección? Los mismos cosenos directores, en definitiva, el mismo vector",
+      "gt_normalizado": "qué significa que tengan la misma dirección los mismos cosenos directores en definitiva el mismo vector"
+    },
+    {
+      "sample_id": "clase05_seg0027",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0027.wav",
+      "inicio": 482.79,
+      "fin": 494.184,
+      "duracion_seg": 11.394,
+      "gt_original": "unitario. La misma dirección, eh... Si el problema me hubiera dicho un vector del módulo 8 que sea paralelo al vector erre",
+      "gt_normalizado": "unitario la misma dirección eh si el problema me hubiera dicho un vector del módulo 8 que sea paralelo al vector erre"
+    },
+    {
+      "sample_id": "clase05_seg0028",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0028.wav",
+      "inicio": 494.58,
+      "fin": 507.39,
+      "duracion_seg": 12.81,
+      "gt_original": "significaba lo mismo porque dos vectores son paralelos cuando tienen la misma dirección. Si tienen la misma dirección, insisto eso es equivalente a que tienen el mismo vector",
+      "gt_normalizado": "significaba lo mismo porque dos vectores son paralelos cuando tienen la misma dirección si tienen la misma dirección insisto eso es equivalente a que tienen el mismo vector"
+    },
+    {
+      "sample_id": "clase05_seg0029",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0029.wav",
+      "inicio": 507.96,
+      "fin": 518.82,
+      "duracion_seg": 10.86,
+      "gt_original": "unitario el mismo vector unitario y esa es la clave para el literal.",
+      "gt_normalizado": "unitario el mismo vector unitario y esa es la clave para el literal"
+    },
+    {
+      "sample_id": "clase05_seg0030",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0030.wav",
+      "inicio": 519.75,
+      "fin": 531.781,
+      "duracion_seg": 12.031,
+      "gt_original": "Es decir, el unitario del vector que me están solicitando tiene que ser igual al unitario de quien,",
+      "gt_normalizado": "es decir el unitario del vector que me están solicitando tiene que ser igual al unitario de quien"
+    },
+    {
+      "sample_id": "clase05_seg0031",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0031.wav",
+      "inicio": 532.92,
+      "fin": 544.668,
+      "duracion_seg": 11.748,
+      "gt_original": "del vector erre. Y por definición del unitario de un vector esto a, ¿qué era igual? Eso es el",
+      "gt_normalizado": "del vector erre y por definición del unitario de un vector esto a qué era igual eso es el"
+    },
+    {
+      "sample_id": "clase05_seg0032",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0032.wav",
+      "inicio": 546.288,
+      "fin": 558.162,
+      "duracion_seg": 11.874,
+      "gt_original": "vector dividido para su módulo, ¿verdad? O sea que esto es igual a el vector dividido para su módulo.",
+      "gt_normalizado": "vector dividido para su módulo verdad o sea que esto es igual a el vector dividido para su módulo"
+    },
+    {
+      "sample_id": "clase05_seg0033",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0033.wav",
+      "inicio": 565.41,
+      "fin": 573.25,
+      "duracion_seg": 7.84,
+      "gt_original": "Aquí está lo que me están solicitando, me están solicitando el vector ve. Así que el vector be será... Si",
+      "gt_normalizado": "aquí está lo que me están solicitando me están solicitando el vector ve así que el vector be será si"
+    },
+    {
+      "sample_id": "clase05_seg0034",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0034.wav",
+      "inicio": 586.83,
+      "fin": 600.818,
+      "duracion_seg": 13.988,
+      "gt_original": "ustedes se dan cuenta esto es vector es igual al módulo multiplicado por ¿quién? Por el unitario, pero no es el unitario de cualquier vector que me dé la gana sino que es el unitario que",
+      "gt_normalizado": "ustedes se dan cuenta esto es vector es igual al módulo multiplicado por quién por el unitario pero no es el unitario de cualquier vector que me dé la gana sino que es el unitario que"
+    },
+    {
+      "sample_id": "clase05_seg0035",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0035.wav",
+      "inicio": 602.159,
+      "fin": 612.96,
+      "duracion_seg": 10.801,
+      "gt_original": "corresponde al unitario del vector erre porque me dice el problema que tiene la misma dirección del vector erre. Yo he arrancado de eso. Yo he arrancado,",
+      "gt_normalizado": "corresponde al unitario del vector erre porque me dice el problema que tiene la misma dirección del vector erre yo he arrancado de eso yo he arrancado"
+    },
+    {
+      "sample_id": "clase05_seg0036",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0036.wav",
+      "inicio": 613.77,
+      "fin": 624.0,
+      "duracion_seg": 10.23,
+      "gt_original": "planteando justamente el hecho de que tienen las mismas direcciones. ¿Qué significa que tengan las mismas direcciones? Significa que tienen el mismo vector",
+      "gt_normalizado": "planteando justamente el hecho de que tienen las mismas direcciones qué significa que tengan las mismas direcciones significa que tienen el mismo vector"
+    },
+    {
+      "sample_id": "clase05_seg0037",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0037.wav",
+      "inicio": 624.66,
+      "fin": 639.18,
+      "duracion_seg": 14.52,
+      "gt_original": "unitario. No había borrado justamente el vector erre para tenerlo ahí. Mi vector ve, entonces",
+      "gt_normalizado": "unitario no había borrado justamente el vector erre para tenerlo ahí mi vector ve entonces"
+    },
+    {
+      "sample_id": "clase05_seg0038",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0038.wav",
+      "inicio": 640.23,
+      "fin": 655.628,
+      "duracion_seg": 15.398,
+      "gt_original": "la magnitud de ve que vale 8, ¿no? Sobre la magnitud de erre, ¿cuánto era? 14.32. Y eso que multiplica a 12 i más 5",
+      "gt_normalizado": "la magnitud de ve que vale 8 no sobre la magnitud de erre cuánto era 14 32 y eso que multiplica a 12 i más 5"
+    },
+    {
+      "sample_id": "clase05_seg0039",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0039.wav",
+      "inicio": 658.41,
+      "fin": 680.571,
+      "duracion_seg": 22.161,
+      "gt_original": "jota menos 6 ka. En definitiva, 8 por 12 y dividido a 14.32, 8 por 5 y dividido a 14.32 y hasta cubrir en la componente el zeta. Por favor, ustedes calculen y",
+      "gt_normalizado": "jota menos 6 ka en definitiva 8 por 12 y dividido a 14 32 8 por 5 y dividido a 14 32 y hasta cubrir en la componente el zeta por favor ustedes calculen y"
+    },
+    {
+      "sample_id": "clase05_seg0040",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0040.wav",
+      "inicio": 709.11,
+      "fin": 723.413,
+      "duracion_seg": 14.303,
+      "gt_original": "verifican los resultados que yo estoy colocando ahí. Por favor. Confirmen ese resultado. Si ustedes le sacan la magnitud a ese vector. ¿Cuánto debería darles?",
+      "gt_normalizado": "verifican los resultados que yo estoy colocando ahí por favor confirmen ese resultado si ustedes le sacan la magnitud a ese vector cuánto debería darles"
+    },
+    {
+      "sample_id": "clase05_seg0041",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0041.wav",
+      "inicio": 751.02,
+      "fin": 765.937,
+      "duracion_seg": 14.917,
+      "gt_original": "Debería darle 8. Obviamente si hemos perdido decimales por ahí, si hemos dejado un poco la exactitud, entonces probablemente no vamos a obtener 8 cerrado, ¿no? Sino un valor muy cercano a 8.",
+      "gt_normalizado": "debería darle 8 obviamente si hemos perdido decimales por ahí si hemos dejado un poco la exactitud entonces probablemente no vamos a obtener 8 cerrado no sino un valor muy cercano a 8"
+    },
+    {
+      "sample_id": "clase05_seg0042",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0042.wav",
+      "inicio": 768.69,
+      "fin": 779.7,
+      "duracion_seg": 11.01,
+      "gt_original": "¿Preguntas? No olvidemos en este problema hemos",
+      "gt_normalizado": "preguntas no olvidemos en este problema hemos"
+    },
+    {
+      "sample_id": "clase05_seg0043",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0043.wav",
+      "inicio": 782.13,
+      "fin": 805.458,
+      "duracion_seg": 23.328,
+      "gt_original": "visto de que si dos vectores tienen la misma dirección significa que tienen igual vector unitario. Fue a raíz de eso, fue a raíz de que tiene la misma dirección, tienen el mismo vector unitario, entonces a partir de ello es que hemos logrado determinar el vector ve que me",
+      "gt_normalizado": "visto de que si dos vectores tienen la misma dirección significa que tienen igual vector unitario fue a raíz de eso fue a raíz de que tiene la misma dirección tienen el mismo vector unitario entonces a partir de ello es que hemos logrado determinar el vector ve que me"
+    },
+    {
+      "sample_id": "clase05_seg0044",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0044.wav",
+      "inicio": 805.956,
+      "fin": 826.17,
+      "duracion_seg": 20.214,
+      "gt_original": "solicitan. ¿Preguntas? Esto es de suma importancia para todos aquellos que en el futuro vayan a ver, por ejemplo, estática. Porque en estática ustedes les dan las dimensiones de un",
+      "gt_normalizado": "solicitan preguntas esto es de suma importancia para todos aquellos que en el futuro vayan a ver por ejemplo estática porque en estática ustedes les dan las dimensiones de un"
+    },
+    {
+      "sample_id": "clase05_seg0045",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0045.wav",
+      "inicio": 849.547,
+      "fin": 860.114,
+      "duracion_seg": 10.567,
+      "gt_original": "lugar y ustedes tienen que determinar a una fuerza. Tienen que determinar al vector fuerza. Y para determinar al vector fuerza en forma cartesiana, van a necesitar justamente el unitario de el lugar que se está analizando. Ejemplifico lo que les estoy diciendo. ¿Puedo borrar yo esto?",
+      "gt_normalizado": "lugar y ustedes tienen que determinar a una fuerza tienen que determinar al vector fuerza y para determinar al vector fuerza en forma cartesiana van a necesitar justamente el unitario de el lugar que se está analizando ejemplifico lo que les estoy diciendo puedo borrar yo esto"
+    },
+    {
+      "sample_id": "clase05_seg0046",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0046.wav",
+      "inicio": 876.6,
+      "fin": 890.029,
+      "duracion_seg": 13.429,
+      "gt_original": "Es dato del problema. El problema te dice determina un vector de módulo 8, ¿sí? Esa es como la condición que te están diciendo, tu vector tiene que tener módulo 8. Ustedes tracen",
+      "gt_normalizado": "es dato del problema el problema te dice determina un vector de módulo 8 sí esa es como la condición que te están diciendo tu vector tiene que tener módulo 8 ustedes tracen"
+    },
+    {
+      "sample_id": "clase05_seg0047",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0047.wav",
+      "inicio": 994.29,
+      "fin": 1019.208,
+      "duracion_seg": 24.918,
+      "gt_original": "rectas paralelas a los ejes y solitos se les va a formar el paralelepípedo. Entonces... Y eso que estoy marcando con rojo, entiéndase que es una cuerda, eso es una cuerda. Una cuerda que está tensada y obviamente estando tensada esa cuerda a mí me están diciendo que",
+      "gt_normalizado": "rectas paralelas a los ejes y solitos se les va a formar el paralelepípedo entonces y eso que estoy marcando con rojo entiéndase que es una cuerda eso es una cuerda una cuerda que está tensada y obviamente estando tensada esa cuerda a mí me están diciendo que"
+    },
+    {
+      "sample_id": "clase05_seg0048",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0048.wav",
+      "inicio": 1019.208,
+      "fin": 1044.197,
+      "duracion_seg": 24.989,
+      "gt_original": "la magnitud de esas tensión es de 70 Newtons. La magnitud de esa tensión es 70 Newtons. Si ustedes se dan cuenta, yo estoy dando las dimensiones de un lugar definido, ¿no? En el eje de las equis, estoy colocando 7 metros; en el de las zeta, 5",
+      "gt_normalizado": "la magnitud de esas tensión es de 70 newtons la magnitud de esa tensión es 70 newtons si ustedes se dan cuenta yo estoy dando las dimensiones de un lugar definido no en el eje de las equis estoy colocando 7 metros en el de las zeta 5"
+    },
+    {
+      "sample_id": "clase05_seg0049",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0049.wav",
+      "inicio": 1044.197,
+      "fin": 1052.527,
+      "duracion_seg": 8.33,
+      "gt_original": "metros; y en el de las ye, 15 metros. Es una edificación si se quiere decir y en",
+      "gt_normalizado": "metros y en el de las ye 15 metros es una edificación si se quiere decir y en"
+    },
+    {
+      "sample_id": "clase05_seg0050",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0050.wav",
+      "inicio": 1160.79,
+      "fin": 1171.292,
+      "duracion_seg": 10.502,
+      "gt_original": "edificación resulta que hay una cuerda. Una cuerda que está tensada con una",
+      "gt_normalizado": "edificación resulta que hay una cuerda una cuerda que está tensada con una"
+    },
+    {
+      "sample_id": "clase05_seg0051",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0051.wav",
+      "inicio": 1171.77,
+      "fin": 1181.921,
+      "duracion_seg": 10.151,
+      "gt_original": "magnitud de 70 Newtons. ¿Qué me pide a mí? Determine los componentes de la fuerza de tensión en el",
+      "gt_normalizado": "magnitud de 70 newtons qué me pide a mí determine los componentes de la fuerza de tensión en el"
+    },
+    {
+      "sample_id": "clase05_seg0052",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0052.wav",
+      "inicio": 1182.33,
+      "fin": 1195.316,
+      "duracion_seg": 12.986,
+      "gt_original": "cable de la figura. Pongámosle. Entonces pongámonos de acuerdo. Y pongamos entonces un cable. Es un cable eso de ahí.",
+      "gt_normalizado": "cable de la figura pongámosle entonces pongámonos de acuerdo y pongamos entonces un cable es un cable eso de ahí"
+    },
+    {
+      "sample_id": "clase05_seg0053",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0053.wav",
+      "inicio": 1202.76,
+      "fin": 1203.607,
+      "duracion_seg": 0.847,
+      "gt_original": "Entonces... ¿Qué",
+      "gt_normalizado": "entonces qué"
+    },
+    {
+      "sample_id": "clase05_seg0054",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0054.wav",
+      "inicio": 1208.617,
+      "fin": 1222.18,
+      "duracion_seg": 13.564,
+      "gt_original": "similitud podrían ustedes buscar o encontrar entre la fuerza de tensión y ese cable? ¿Qué, qué",
+      "gt_normalizado": "similitud podrían ustedes buscar o encontrar entre la fuerza de tensión y ese cable qué qué"
+    },
+    {
+      "sample_id": "clase05_seg0055",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0055.wav",
+      "inicio": 1223.07,
+      "fin": 1234.89,
+      "duracion_seg": 11.82,
+      "gt_original": "similitud pudieran encontrar? ¿Cómo para poder compararlos? Lo que si no les aceptaría es que ustedes me digan de que las componentes de la fuerza de tensión",
+      "gt_normalizado": "similitud pudieran encontrar cómo para poder compararlos lo que si no les aceptaría es que ustedes me digan de que las componentes de la fuerza de tensión"
+    },
+    {
+      "sample_id": "clase05_seg0056",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0056.wav",
+      "inicio": 1235.43,
+      "fin": 1248.667,
+      "duracion_seg": 13.237,
+      "gt_original": "son por decirlo así... Lo que voy a escribir sería incorrecto jóvenes. Menos 7 i,",
+      "gt_normalizado": "son por decirlo así lo que voy a escribir sería incorrecto jóvenes menos 7 i"
+    },
+    {
+      "sample_id": "clase05_seg0057",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0057.wav",
+      "inicio": 1255.29,
+      "fin": 1268.641,
+      "duracion_seg": 13.351,
+      "gt_original": "menos 15 jota, y más 5 ka. Esto que está aquí no es la fuerza de tensión. No es la",
+      "gt_normalizado": "menos 15 jota y más 5 ka esto que está aquí no es la fuerza de tensión no es la"
+    },
+    {
+      "sample_id": "clase05_seg0058",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0058.wav",
+      "inicio": 1271.76,
+      "fin": 1284.427,
+      "duracion_seg": 12.667,
+      "gt_original": "fuerza de tensión. Ese es el lo que comúnmente suele equivocarse. ¿De dónde salió ese vector menos 7 i, menos 15 jota y más 5 ka que he colocado ahí?",
+      "gt_normalizado": "fuerza de tensión ese es el lo que comúnmente suele equivocarse de dónde salió ese vector menos 7 i menos 15 jota y más 5 ka que he colocado ahí"
+    },
+    {
+      "sample_id": "clase05_seg0059",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0059.wav",
+      "inicio": 1289.822,
+      "fin": 1302.69,
+      "duracion_seg": 12.868,
+      "gt_original": "¿Qué, qué está, qué está representando? ¿Qué está representando? ¡No, no, no! ¿Qué está representando aquí? Estaría representando",
+      "gt_normalizado": "qué qué está qué está representando qué está representando no no no qué está representando aquí estaría representando"
+    },
+    {
+      "sample_id": "clase05_seg0060",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0060.wav",
+      "inicio": 1303.47,
+      "fin": 1314.974,
+      "duracion_seg": 11.504,
+      "gt_original": "al cable. Si se dan cuenta, estaría yendo de aquí para acá. O sea, lo que yo estoy allí colocando es este",
+      "gt_normalizado": "al cable si se dan cuenta estaría yendo de aquí para acá o sea lo que yo estoy allí colocando es este"
+    },
+    {
+      "sample_id": "clase05_seg0061",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0061.wav",
+      "inicio": 1316.07,
+      "fin": 1327.95,
+      "duracion_seg": 11.88,
+      "gt_original": "vector. ¿Estarían de acuerdo ahora sí? Estarían de acuerdo que lo que yo coloqué es ese vector que acabo de señalarlo con negro.",
+      "gt_normalizado": "vector estarían de acuerdo ahora sí estarían de acuerdo que lo que yo coloqué es ese vector que acabo de señalarlo con negro"
+    },
+    {
+      "sample_id": "clase05_seg0062",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0062.wav",
+      "inicio": 1330.41,
+      "fin": 1340.94,
+      "duracion_seg": 10.53,
+      "gt_original": "Por favor quisiera que estén de acuerdo con estas cosas, a pesar de que no es correcto decir que es la tensión, lo que sí quisiera que estén de acuerdo con estos valores de aquí para",
+      "gt_normalizado": "por favor quisiera que estén de acuerdo con estas cosas a pesar de que no es correcto decir que es la tensión lo que sí quisiera que estén de acuerdo con estos valores de aquí para"
+    },
+    {
+      "sample_id": "clase05_seg0063",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0063.wav",
+      "inicio": 1342.77,
+      "fin": 1355.25,
+      "duracion_seg": 12.48,
+      "gt_original": "ese vector. Llamémosle vector cable si quiere. Voy a ponerle ce. Ese vector ce está representando al",
+      "gt_normalizado": "ese vector llamémosle vector cable si quiere voy a ponerle ce ese vector ce está representando al"
+    },
+    {
+      "sample_id": "clase05_seg0064",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0064.wav",
+      "inicio": 1356.06,
+      "fin": 1366.59,
+      "duracion_seg": 10.53,
+      "gt_original": "cable, ¿sí? Está representando al cable, o sea, el vector cable sería, vuelvo a insistir, sería",
+      "gt_normalizado": "cable sí está representando al cable o sea el vector cable sería vuelvo a insistir sería"
+    },
+    {
+      "sample_id": "clase05_seg0065",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0065.wav",
+      "inicio": 1367.46,
+      "fin": 1381.127,
+      "duracion_seg": 13.667,
+      "gt_original": "menos 7 i, menos 15 jota y más 5 ka. Y ojo que todo esto está en metros. Todo eso está en metros. Por",
+      "gt_normalizado": "menos 7 i menos 15 jota y más 5 ka y ojo que todo esto está en metros todo eso está en metros por"
+    },
+    {
+      "sample_id": "clase05_seg0066",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0066.wav",
+      "inicio": 1383.06,
+      "fin": 1404.804,
+      "duracion_seg": 21.744,
+      "gt_original": "favor, si alguno todavía no está de acuerdo, recuerden lo que les había sugerido. Vayan paralelo a cada uno de los ejes. Si mi vector empieza aquí y termina acá, yo me voy paralelo al eje de las equis, luego paralelo al eje de las ye y",
+      "gt_normalizado": "favor si alguno todavía no está de acuerdo recuerden lo que les había sugerido vayan paralelo a cada uno de los ejes si mi vector empieza aquí y termina acá yo me voy paralelo al eje de las equis luego paralelo al eje de las ye y"
+    },
+    {
+      "sample_id": "clase05_seg0067",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0067.wav",
+      "inicio": 1410.57,
+      "fin": 1421.28,
+      "duracion_seg": 10.71,
+      "gt_original": "finalmente paralelo al eje de las zeta. ¿Cómo me estoy yendo en principio? En contra, ¿verdad?",
+      "gt_normalizado": "finalmente paralelo al eje de las zeta cómo me estoy yendo en principio en contra verdad"
+    },
+    {
+      "sample_id": "clase05_seg0068",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0068.wav",
+      "inicio": 1423.71,
+      "fin": 1440.21,
+      "duracion_seg": 16.5,
+      "gt_original": "Luego, en contra de ye y finalmente a favor de zeta. Pero vuelvo a insistir, ese vector estaría representando ¿a quién?",
+      "gt_normalizado": "luego en contra de ye y finalmente a favor de zeta pero vuelvo a insistir ese vector estaría representando a quién"
+    },
+    {
+      "sample_id": "clase05_seg0069",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0069.wav",
+      "inicio": 1441.53,
+      "fin": 1453.35,
+      "duracion_seg": 11.82,
+      "gt_original": "Al cable mas no a la fuerza. Este vector tiene unidades ¿de qué? De longitud no de fuerza.",
+      "gt_normalizado": "al cable mas no a la fuerza este vector tiene unidades de qué de longitud no de fuerza"
+    },
+    {
+      "sample_id": "clase05_seg0070",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0070.wav",
+      "inicio": 1455.93,
+      "fin": 1470.37,
+      "duracion_seg": 14.44,
+      "gt_original": "Pero, ¿qué es lo que deberíamos notar nosotros que tienen en común ese vector cable con el vector fuerza de tensión? La misma dirección. Eso es lo que ustedes se",
+      "gt_normalizado": "pero qué es lo que deberíamos notar nosotros que tienen en común ese vector cable con el vector fuerza de tensión la misma dirección eso es lo que ustedes se"
+    },
+    {
+      "sample_id": "clase05_seg0071",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0071.wav",
+      "inicio": 1471.14,
+      "fin": 1489.33,
+      "duracion_seg": 18.19,
+      "gt_original": "tendrían que dar cuenta y si ustedes ya se han dado cuenta de que la tensión como vector, como vector fuerza, y ese vector que le hemos llamado nosotros el vector cable, que no es otra cosa que un vector, es un vector de longitudes, ¿sí?",
+      "gt_normalizado": "tendrían que dar cuenta y si ustedes ya se han dado cuenta de que la tensión como vector como vector fuerza y ese vector que le hemos llamado nosotros el vector cable que no es otra cosa que un vector es un vector de longitudes sí"
+    },
+    {
+      "sample_id": "clase05_seg0072",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0072.wav",
+      "inicio": 1490.61,
+      "fin": 1501.2,
+      "duracion_seg": 10.59,
+      "gt_original": "Asocia las longitudes. Lo que tienen en común es ¿qué cosa? La dirección lo que significa que tiene en común los vectores unitarios. Entonces",
+      "gt_normalizado": "asocia las longitudes lo que tienen en común es qué cosa la dirección lo que significa que tiene en común los vectores unitarios entonces"
+    },
+    {
+      "sample_id": "clase05_seg0073",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0073.wav",
+      "inicio": 1505.55,
+      "fin": 1515.72,
+      "duracion_seg": 10.17,
+      "gt_original": "el unitario del vector tensión, que es el que estoy buscando, es igual al unitario de ese vector cable que yo le he llamado.",
+      "gt_normalizado": "el unitario del vector tensión que es el que estoy buscando es igual al unitario de ese vector cable que yo le he llamado"
+    },
+    {
+      "sample_id": "clase05_seg0074",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0074.wav",
+      "inicio": 1517.07,
+      "fin": 1528.8,
+      "duracion_seg": 11.73,
+      "gt_original": "En donde esto sería la tensión como vector dividido para su módulo y esto sería el cable como vector",
+      "gt_normalizado": "en donde esto sería la tensión como vector dividido para su módulo y esto sería el cable como vector"
+    },
+    {
+      "sample_id": "clase05_seg0075",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0075.wav",
+      "inicio": 1530.03,
+      "fin": 1541.79,
+      "duracion_seg": 11.76,
+      "gt_original": "dividido para su módulo. ¿A quién estamos buscando? Al vector tensión. Entonces esto sería...",
+      "gt_normalizado": "dividido para su módulo a quién estamos buscando al vector tensión entonces esto sería"
+    },
+    {
+      "sample_id": "clase05_seg0076",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0076.wav",
+      "inicio": 1547.49,
+      "fin": 1569.623,
+      "duracion_seg": 22.133,
+      "gt_original": "Y ojo dense cuenta que el vector cable está en unidades, ¿de qué? De metros. ¿Y la magnitud de ese vector en qué unidades estará? En metros también, ¿pues no? Entonces obviamente metro y metro se simplificará y lo que me va a quedar son las unidades, ¿de quién? De la tensión de la fuerza en este caso que sería en Newtons.",
+      "gt_normalizado": "y ojo dense cuenta que el vector cable está en unidades de qué de metros y la magnitud de ese vector en qué unidades estará en metros también pues no entonces obviamente metro y metro se simplificará y lo que me va a quedar son las unidades de quién de la tensión de la fuerza en este caso que sería en newtons"
+    },
+    {
+      "sample_id": "clase05_seg0077",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0077.wav",
+      "inicio": 1578.81,
+      "fin": 1581.69,
+      "duracion_seg": 2.88,
+      "gt_original": "Eso es pan nuestro de cada día en estática muchachos.",
+      "gt_normalizado": "eso es pan nuestro de cada día en estática muchachos"
+    },
+    {
+      "sample_id": "clase05_seg0078",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0078.wav",
+      "inicio": 1593.15,
+      "fin": 1604.67,
+      "duracion_seg": 11.52,
+      "gt_original": "¿Quiénes ven estática en sus mallas? Mecánicos, industriales, ciencias de la tierra",
+      "gt_normalizado": "quiénes ven estática en sus mallas mecánicos industriales ciencias de la tierra"
+    },
+    {
+      "sample_id": "clase05_seg0079",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0079.wav",
+      "inicio": 1605.99,
+      "fin": 1623.6,
+      "duracion_seg": 17.61,
+      "gt_original": "todos ellos ven. Antes los de potencia veían estática, pero creo que ahora ya no, creo. Ok, entonces estábamos vector tensión era te sobre ce, multiplicado por el vector cable.",
+      "gt_normalizado": "todos ellos ven antes los de potencia veían estática pero creo que ahora ya no creo ok entonces estábamos vector tensión era te sobre ce multiplicado por el vector cable"
+    },
+    {
+      "sample_id": "clase05_seg0080",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0080.wav",
+      "inicio": 1626.33,
+      "fin": 1638.94,
+      "duracion_seg": 12.61,
+      "gt_original": "Por favor, si he colocado así es precisamente para tener aquí dos números, ¿no? Dos números que en total sería un escalar multiplicado por un vector, ¿no? Ya saben que el producto de",
+      "gt_normalizado": "por favor si he colocado así es precisamente para tener aquí dos números no dos números que en total sería un escalar multiplicado por un vector no ya saben que el producto de"
+    },
+    {
+      "sample_id": "clase05_seg0081",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0081.wav",
+      "inicio": 1639.62,
+      "fin": 1658.107,
+      "duracion_seg": 18.487,
+      "gt_original": "un escalar por un vector me da como resultado otro vector. Magnitud de la tensión 70. Magnitud del cable, del vector cable que le llame, no lo hemos determinado así que",
+      "gt_normalizado": "un escalar por un vector me da como resultado otro vector magnitud de la tensión 70 magnitud del cable del vector cable que le llame no lo hemos determinado así que"
+    },
+    {
+      "sample_id": "clase05_seg0082",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0082.wav",
+      "inicio": 1663.56,
+      "fin": 1684.86,
+      "duracion_seg": 21.3,
+      "gt_original": "sería siete al cuadrado más quince al cuadrado más cinco al cuadrado, ¿no? ¿Cuánto sería esto? ¿Esto está en qué? Ya, ¿esto está en qué? En metros. Sí, eso estaba en metros.",
+      "gt_normalizado": "sería siete al cuadrado más quince al cuadrado más cinco al cuadrado no cuánto sería esto esto está en qué ya esto está en qué en metros sí eso estaba en metros"
+    },
+    {
+      "sample_id": "clase05_seg0083",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0083.wav",
+      "inicio": 1694.52,
+      "fin": 1705.3,
+      "duracion_seg": 10.78,
+      "gt_original": "Y eso que multiplica a el vector ce que es menos 7 i, menos 15 jota, y más 5",
+      "gt_normalizado": "y eso que multiplica a el vector ce que es menos 7 i menos 15 jota y más 5"
+    },
+    {
+      "sample_id": "clase05_seg0084",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0084.wav",
+      "inicio": 1706.55,
+      "fin": 1719.501,
+      "duracion_seg": 12.951,
+      "gt_original": "ka. Por lo tanto, el vector te automáticamente voy a tener las componentes, ¿pues no? Automáticamente voy a visualizar las componentes.",
+      "gt_normalizado": "ka por lo tanto el vector te automáticamente voy a tener las componentes pues no automáticamente voy a visualizar las componentes"
+    },
+    {
+      "sample_id": "clase05_seg0085",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0085.wav",
+      "inicio": 1726.47,
+      "fin": 1750.236,
+      "duracion_seg": 23.766,
+      "gt_original": "No debe resultar para ustedes de admiración de que por aquí estemos trabajando con 7 metros y se lo vea bastante apreciable y que acá diga 70 Newton. ¿Cómo es eso? Que si aquí es 70 y acá es 7, ¿no debería ser diez veces más grande? No, porque no tienen las mismas unidades pues muchachos, ¿sí? ¿Cuánto",
+      "gt_normalizado": "no debe resultar para ustedes de admiración de que por aquí estemos trabajando con 7 metros y se lo vea bastante apreciable y que acá diga 70 newton cómo es eso que si aquí es 70 y acá es 7 no debería ser diez veces más grande no porque no tienen las mismas unidades pues muchachos sí cuánto"
+    },
+    {
+      "sample_id": "clase05_seg0086",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0086.wav",
+      "inicio": 1774.38,
+      "fin": 1774.95,
+      "duracion_seg": 0.57,
+      "gt_original": "queda esto?",
+      "gt_normalizado": "queda esto"
+    },
+    {
+      "sample_id": "clase05_seg0087",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0087.wav",
+      "inicio": 1781.04,
+      "fin": 1782.04,
+      "duracion_seg": 1.0,
+      "gt_original": "Menos 28",
+      "gt_normalizado": "menos 28"
+    },
+    {
+      "sample_id": "clase05_seg0088",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0088.wav",
+      "inicio": 1791.362,
+      "fin": 1795.99,
+      "duracion_seg": 4.628,
+      "gt_original": "punto... 60.75 jota ¿En",
+      "gt_normalizado": "punto 60 75 jota en"
+    },
+    {
+      "sample_id": "clase05_seg0089",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0089.wav",
+      "inicio": 1802.52,
+      "fin": 1816.989,
+      "duracion_seg": 14.469,
+      "gt_original": "qué unidades está esto? Newtons. Entonces... Y aquí automáticamente estamos viendo la componente en equis de",
+      "gt_normalizado": "qué unidades está esto newtons entonces y aquí automáticamente estamos viendo la componente en equis de"
+    },
+    {
+      "sample_id": "clase05_seg0090",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0090.wav",
+      "inicio": 1817.46,
+      "fin": 1828.121,
+      "duracion_seg": 10.661,
+      "gt_original": "la tensión, la componente de la tensión ye y la componente en zeta de la tensión automáticamente. No olvidemos que la tensión como fuerza es un",
+      "gt_normalizado": "la tensión la componente de la tensión ye y la componente en zeta de la tensión automáticamente no olvidemos que la tensión como fuerza es un"
+    },
+    {
+      "sample_id": "clase05_seg0091",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0091.wav",
+      "inicio": 1830.416,
+      "fin": 1840.865,
+      "duracion_seg": 10.449,
+      "gt_original": "vector, ¿sí? Es un vector. Si sacamos la magnitud de ese vector, se supone que debería de darnos alrededor de los 70 Newtons.",
+      "gt_normalizado": "vector sí es un vector si sacamos la magnitud de ese vector se supone que debería de darnos alrededor de los 70 newtons"
+    },
+    {
+      "sample_id": "clase05_seg0092",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0092.wav",
+      "inicio": 1863.51,
+      "fin": 1865.55,
+      "duracion_seg": 2.04,
+      "gt_original": "Vamos a ver cómo lo abordan.",
+      "gt_normalizado": "vamos a ver cómo lo abordan"
+    },
+    {
+      "sample_id": "clase05_seg0093",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0093.wav",
+      "inicio": 1871.37,
+      "fin": 1872.24,
+      "duracion_seg": 0.87,
+      "gt_original": "Determine",
+      "gt_normalizado": "determine"
+    },
+    {
+      "sample_id": "clase05_seg0094",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0094.wav",
+      "inicio": 1878.24,
+      "fin": 1882.421,
+      "duracion_seg": 4.181,
+      "gt_original": "un vector pe. Determine un vector pe de 11",
+      "gt_normalizado": "un vector pe determine un vector pe de 11"
+    },
+    {
+      "sample_id": "clase05_seg0095",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0095.wav",
+      "inicio": 1887.72,
+      "fin": 1891.95,
+      "duracion_seg": 4.23,
+      "gt_original": "unidades de magnitud, de 11 unidades de magnitud",
+      "gt_normalizado": "unidades de magnitud de 11 unidades de magnitud"
+    },
+    {
+      "sample_id": "clase05_seg0096",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0096.wav",
+      "inicio": 1897.98,
+      "fin": 1899.31,
+      "duracion_seg": 1.33,
+      "gt_original": "y qué forma 55",
+      "gt_normalizado": "y qué forma 55"
+    },
+    {
+      "sample_id": "clase05_seg0097",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0097.wav",
+      "inicio": 1907.19,
+      "fin": 1909.434,
+      "duracion_seg": 2.244,
+      "gt_original": "grados con el eje de las equis y 80",
+      "gt_normalizado": "grados con el eje de las equis y 80"
+    },
+    {
+      "sample_id": "clase05_seg0098",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0098.wav",
+      "inicio": 1917.69,
+      "fin": 1919.76,
+      "duracion_seg": 2.07,
+      "gt_original": "grados con el eje de las zeta.",
+      "gt_normalizado": "grados con el eje de las zeta"
+    },
+    {
+      "sample_id": "clase05_seg0099",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0099.wav",
+      "inicio": 1931.04,
+      "fin": 1942.56,
+      "duracion_seg": 11.52,
+      "gt_original": "Nada más, lean por favor. Es el típico problema. Lean lo primero, lean, lean.",
+      "gt_normalizado": "nada más lean por favor es el típico problema lean lo primero lean lean"
+    },
+    {
+      "sample_id": "clase05_seg0100",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0100.wav",
+      "inicio": 1957.432,
+      "fin": 1982.042,
+      "duracion_seg": 24.609,
+      "gt_original": "Lean bien los datos que les estoy dando. No asuman nada. Confirmen si fue eso lo que les dicté. Determine un vector pe de 11 unidades de magnitud y que forma 55 grados con el eje de las zeta y 80 grados con el",
+      "gt_normalizado": "lean bien los datos que les estoy dando no asuman nada confirmen si fue eso lo que les dicté determine un vector pe de 11 unidades de magnitud y que forma 55 grados con el eje de las zeta y 80 grados con el"
+    },
+    {
+      "sample_id": "clase05_seg0101",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0101.wav",
+      "inicio": 1982.042,
+      "fin": 1992.934,
+      "duracion_seg": 10.893,
+      "gt_original": "eje de las zeta. Y debería de nacerles una pregunta y una interrogante. ¿Qué debería de, qué interrogante",
+      "gt_normalizado": "eje de las zeta y debería de nacerles una pregunta y una interrogante qué debería de qué interrogante"
+    },
+    {
+      "sample_id": "clase05_seg0102",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0102.wav",
+      "inicio": 2043.21,
+      "fin": 2044.497,
+      "duracion_seg": 1.287,
+      "gt_original": "debería ya de",
+      "gt_normalizado": "debería ya de"
+    },
+    {
+      "sample_id": "clase05_seg0103",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0103.wav",
+      "inicio": 2050.95,
+      "fin": 2051.7,
+      "duracion_seg": 0.75,
+      "gt_original": "haberles nacido?",
+      "gt_normalizado": "haberles nacido"
+    },
+    {
+      "sample_id": "clase05_seg0104",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0104.wav",
+      "inicio": 2056.83,
+      "fin": 2067.99,
+      "duracion_seg": 11.16,
+      "gt_original": "¿Cuál? ¿Cuál es el ángulo que forma con el eje de las ye? Me están dando dos ángulos directores.",
+      "gt_normalizado": "cuál cuál es el ángulo que forma con el eje de las ye me están dando dos ángulos directores"
+    },
+    {
+      "sample_id": "clase05_seg0105",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0105.wav",
+      "inicio": 2070.15,
+      "fin": 2081.76,
+      "duracion_seg": 11.61,
+      "gt_original": "Ya sabemos nosotros que esos dos ángulos directores los podemos aprovechar para formar el unitario, ¿verdad? Pero me hace falta,",
+      "gt_normalizado": "ya sabemos nosotros que esos dos ángulos directores los podemos aprovechar para formar el unitario verdad pero me hace falta"
+    },
+    {
+      "sample_id": "clase05_seg0106",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0106.wav",
+      "inicio": 2083.11,
+      "fin": 2094.6,
+      "duracion_seg": 11.49,
+      "gt_original": "entre comillas me hace falta del tercer ángulo director. Ok, vamos ya les estoy planteando en qué pensar. Recuerden que tenemos",
+      "gt_normalizado": "entre comillas me hace falta del tercer ángulo director ok vamos ya les estoy planteando en qué pensar recuerden que tenemos"
+    },
+    {
+      "sample_id": "clase05_seg0107",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0107.wav",
+      "inicio": 2095.8,
+      "fin": 2110.572,
+      "duracion_seg": 14.772,
+      "gt_original": "varias herramientas que encerramos hace unos momentos. Si tienen alguna pregunta o duda me indican para guiarlos. Ok. ¿Cómo les va?",
+      "gt_normalizado": "varias herramientas que encerramos hace unos momentos si tienen alguna pregunta o duda me indican para guiarlos ok cómo les va"
+    },
+    {
+      "sample_id": "clase05_seg0108",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0108.wav",
+      "inicio": 2300.82,
+      "fin": 2305.772,
+      "duracion_seg": 4.952,
+      "gt_original": "¿Lo hizo? Dejame ver. Chuta, pero ahí si me la pusiste",
+      "gt_normalizado": "lo hizo dejame ver chuta pero ahí si me la pusiste"
+    },
+    {
+      "sample_id": "clase05_seg0109",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0109.wav",
+      "inicio": 2342.067,
+      "fin": 2364.763,
+      "duracion_seg": 22.695,
+      "gt_original": "difícil. Ahí si te digo que vas a tener que buscar el manual nomás. De hecho trajiste de las normalitas. Traelas, traelas. Ok. ¿Cuánto dice que sale? A ver, vector pe 6.31 i. A ver, ahí hay",
+      "gt_normalizado": "difícil ahí si te digo que vas a tener que buscar el manual nomás de hecho trajiste de las normalitas traelas traelas ok cuánto dice que sale a ver vector pe 6 31 i a ver ahí hay"
+    },
+    {
+      "sample_id": "clase05_seg0110",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0110.wav",
+      "inicio": 2370.27,
+      "fin": 2394.916,
+      "duracion_seg": 24.646,
+      "gt_original": "diferencia. 8.81 jota, más... ¿Quiénes se acercan a ese resultado? ¿En jota tiene 5? Ya. ¿Alguien tiene diferente en jota? Ok, vamos entonces a a salir de dudas. Mucha atención por favor. En lo que deberían haber discrepado es el signo de éste, de esta",
+      "gt_normalizado": "diferencia 8 81 jota más quiénes se acercan a ese resultado en jota tiene 5 ya alguien tiene diferente en jota ok vamos entonces a a salir de dudas mucha atención por favor en lo que deberían haber discrepado es el signo de éste de esta"
+    },
+    {
+      "sample_id": "clase05_seg0111",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0111.wav",
+      "inicio": 2394.916,
+      "fin": 2419.425,
+      "duracion_seg": 24.508,
+      "gt_original": "componente en ye. Pero de ahí en los valores tenían que haber sido los mismos. Mucha atención por favor. Me está solicitando un vector pe, ¿verdad? Cuya magnitud me la dan a conocer pero no conozco ¿a quién? El unitario. De acuerdo a los datos que nos están dando, nos estaban dando en este caso dos ángulos directores, ¿verdad? Esos",
+      "gt_normalizado": "componente en ye pero de ahí en los valores tenían que haber sido los mismos mucha atención por favor me está solicitando un vector pe verdad cuya magnitud me la dan a conocer pero no conozco a quién el unitario de acuerdo a los datos que nos están dando nos estaban dando en este caso dos ángulos directores verdad esos"
+    },
+    {
+      "sample_id": "clase05_seg0112",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0112.wav",
+      "inicio": 2419.425,
+      "fin": 2444.086,
+      "duracion_seg": 24.661,
+      "gt_original": "ángulos directores deberían a mí haberme puesto a pensar en esto de aquí. ¿Sí o no? ¿Buscaron esa manera para encontrar el vector unitario? Pero, ¿cuál es el pero aquí? Conozco esto. Conozco esto de acá, pero no conozco esto. ¿De qué manera puedo determinar el coseno de beta? Que realmente ésta es mi interrogante aquí. Mi interrogante",
+      "gt_normalizado": "ángulos directores deberían a mí haberme puesto a pensar en esto de aquí sí o no buscaron esa manera para encontrar el vector unitario pero cuál es el pero aquí conozco esto conozco esto de acá pero no conozco esto de qué manera puedo determinar el coseno de beta que realmente ésta es mi interrogante aquí mi interrogante"
+    },
+    {
+      "sample_id": "clase05_seg0113",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0113.wav",
+      "inicio": 2444.086,
+      "fin": 2459.042,
+      "duracion_seg": 14.956,
+      "gt_original": "aquí es ¿cuál es el coseno de beta? No es necesario que me ponga a buscar a beta, si puedo encontrar el coseno de beta. Y para eso le hice a ustedes notar esta expresión, ¿verdad? ¿A cuánto es igual",
+      "gt_normalizado": "aquí es cuál es el coseno de beta no es necesario que me ponga a buscar a beta si puedo encontrar el coseno de beta y para eso le hice a ustedes notar esta expresión verdad a cuánto es igual"
+    },
+    {
+      "sample_id": "clase05_seg0114",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0114.wav",
+      "inicio": 2467.35,
+      "fin": 2469.389,
+      "duracion_seg": 2.039,
+      "gt_original": "esto? A 1. Entonces de",
+      "gt_normalizado": "esto a 1 entonces de"
+    },
+    {
+      "sample_id": "clase05_seg0115",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0115.wav",
+      "inicio": 2484.45,
+      "fin": 2492.332,
+      "duracion_seg": 7.882,
+      "gt_original": "esa última expresión es de donde nosotros vamos a buscar. ¿Qué cosas vamos a",
+      "gt_normalizado": "esa última expresión es de donde nosotros vamos a buscar qué cosas vamos a"
+    },
+    {
+      "sample_id": "clase05_seg0116",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0116.wav",
+      "inicio": 2519.4,
+      "fin": 2520.16,
+      "duracion_seg": 0.76,
+      "gt_original": "buscar de",
+      "gt_normalizado": "buscar de"
+    },
+    {
+      "sample_id": "clase05_seg0117",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0117.wav",
+      "inicio": 2551.65,
+      "fin": 2568.905,
+      "duracion_seg": 17.255,
+      "gt_original": "última expresión? El coseno de beta. Y ahí es donde considero que ustedes no es que se hayan equivocado pero se olvidaron de considerar lo siguiente. Esto es la",
+      "gt_normalizado": "última expresión el coseno de beta y ahí es donde considero que ustedes no es que se hayan equivocado pero se olvidaron de considerar lo siguiente esto es la"
+    },
+    {
+      "sample_id": "clase05_seg0118",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0118.wav",
+      "inicio": 2578.946,
+      "fin": 2591.97,
+      "duracion_seg": 13.024,
+      "gt_original": "raíz cuadrada de un número positivo y por lo tanto eso implica que tienen tanto valor con valor positivo como valor negativo.",
+      "gt_normalizado": "raíz cuadrada de un número positivo y por lo tanto eso implica que tienen tanto valor con valor positivo como valor negativo"
+    },
+    {
+      "sample_id": "clase05_seg0119",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0119.wav",
+      "inicio": 2597.04,
+      "fin": 2607.441,
+      "duracion_seg": 10.401,
+      "gt_original": "Parecería ser que ustedes consideraron solo el valor positivo. Eso es lo que yo he querido expresarles en esta gráfica muchachos. Este par de",
+      "gt_normalizado": "parecería ser que ustedes consideraron solo el valor positivo eso es lo que yo he querido expresarles en esta gráfica muchachos este par de"
+    },
+    {
+      "sample_id": "clase05_seg0120",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0120.wav",
+      "inicio": 2609.792,
+      "fin": 2622.852,
+      "duracion_seg": 13.06,
+      "gt_original": "vectores puede ser que tenga el mismo ángulo director en equis, el mismo ángulo director en zeta, pero no tiene el mismo ángulo director, ¿en qué? En ye. De hecho",
+      "gt_normalizado": "vectores puede ser que tenga el mismo ángulo director en equis el mismo ángulo director en zeta pero no tiene el mismo ángulo director en qué en ye de hecho"
+    },
+    {
+      "sample_id": "clase05_seg0121",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0121.wav",
+      "inicio": 2625.39,
+      "fin": 2636.31,
+      "duracion_seg": 10.92,
+      "gt_original": "no me daban nada con respecto al eje ye, ¿pues no? El punto está en que no es un solo. No es un solo vector el que cumple con estas condiciones,",
+      "gt_normalizado": "no me daban nada con respecto al eje ye pues no el punto está en que no es un solo no es un solo vector el que cumple con estas condiciones"
+    },
+    {
+      "sample_id": "clase05_seg0122",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0122.wav",
+      "inicio": 2638.08,
+      "fin": 2648.79,
+      "duracion_seg": 10.71,
+      "gt_original": "sino que van a ver dos vectores que cumplen con esas condiciones. Eso es lo que yo he tratado de simbolizar aquí. Si ustedes se dan cuenta,",
+      "gt_normalizado": "sino que van a ver dos vectores que cumplen con esas condiciones eso es lo que yo he tratado de simbolizar aquí si ustedes se dan cuenta"
+    },
+    {
+      "sample_id": "clase05_seg0123",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0123.wav",
+      "inicio": 2650.08,
+      "fin": 2663.064,
+      "duracion_seg": 12.984,
+      "gt_original": "yo he puesto ve y ve prima. Considerando que estos paralelepípedos son iguales. Obviamente ya saben que esto es tres dimensiones dibujado en algo que tiene tan solo",
+      "gt_normalizado": "yo he puesto ve y ve prima considerando que estos paralelepípedos son iguales obviamente ya saben que esto es tres dimensiones dibujado en algo que tiene tan solo"
+    },
+    {
+      "sample_id": "clase05_seg0124",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0124.wav",
+      "inicio": 2663.55,
+      "fin": 2678.521,
+      "duracion_seg": 14.971,
+      "gt_original": "dos dimensiones, pero al menos creo yo que sí se nota de que el ángulo que este vector forma con el eje de las ye distan mucho del ángulo que forma este de acá, ¿verdad? Que este",
+      "gt_normalizado": "dos dimensiones pero al menos creo yo que sí se nota de que el ángulo que este vector forma con el eje de las ye distan mucho del ángulo que forma este de acá verdad que este"
+    },
+    {
+      "sample_id": "clase05_seg0125",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0125.wav",
+      "inicio": 2680.865,
+      "fin": 2692.988,
+      "duracion_seg": 12.123,
+      "gt_original": "vector que está aquí. ¿Sí o no?, que tiene una componente en zeta negativa. Pero que este vector que está acá en cambio tiene una componente en zeta positiva. Ahí",
+      "gt_normalizado": "vector que está aquí sí o no que tiene una componente en zeta negativa pero que este vector que está acá en cambio tiene una componente en zeta positiva ahí"
+    },
+    {
+      "sample_id": "clase05_seg0126",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0126.wav",
+      "inicio": 2696.25,
+      "fin": 2708.13,
+      "duracion_seg": 11.88,
+      "gt_original": "están esas dos posibilidades jóvenes. Es común que a veces consideremos solo al positivo pero en este caso",
+      "gt_normalizado": "están esas dos posibilidades jóvenes es común que a veces consideremos solo al positivo pero en este caso"
+    },
+    {
+      "sample_id": "clase05_seg0127",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0127.wav",
+      "inicio": 2709.0,
+      "fin": 2726.91,
+      "duracion_seg": 17.91,
+      "gt_original": "realmente el negativo también tiene... También cumpliría con las condiciones dadas en el problema. El problema me pide un vector pe que cumpla con esas condiciones 55 grados con el eje equis y 80 grados con el eje zeta, pero no me dice nada, ¿de quién?",
+      "gt_normalizado": "realmente el negativo también tiene también cumpliría con las condiciones dadas en el problema el problema me pide un vector pe que cumpla con esas condiciones 55 grados con el eje equis y 80 grados con el eje zeta pero no me dice nada de quién"
+    },
+    {
+      "sample_id": "clase05_seg0128",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0128.wav",
+      "inicio": 2728.44,
+      "fin": 2753.051,
+      "duracion_seg": 24.611,
+      "gt_original": "Del eje ye. Por lo tanto, ambos vectores cumplirían con eso aunque no sean los mismos vectores porque tienen componentes en ye diferentes. Por favor, más menos la raíz de uno menos coseno de 55,",
+      "gt_normalizado": "del eje ye por lo tanto ambos vectores cumplirían con eso aunque no sean los mismos vectores porque tienen componentes en ye diferentes por favor más menos la raíz de uno menos coseno de 55"
+    },
+    {
+      "sample_id": "clase05_seg0129",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0129.wav",
+      "inicio": 2758.38,
+      "fin": 2767.838,
+      "duracion_seg": 9.458,
+      "gt_original": "coseno cuadrado de 55, menos coseno cuadrado de 80. ¿Cuánto",
+      "gt_normalizado": "coseno cuadrado de 55 menos coseno cuadrado de 80 cuánto"
+    },
+    {
+      "sample_id": "clase05_seg0130",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0130.wav",
+      "inicio": 2777.28,
+      "fin": 2796.868,
+      "duracion_seg": 19.588,
+      "gt_original": "sale esto de aquí? Vamos todos calculen y todos deberían estar de acuerdo. 0 punto... Deme tres decimales. Tres decimales. ¿800? Ah,",
+      "gt_normalizado": "sale esto de aquí vamos todos calculen y todos deberían estar de acuerdo 0 punto deme tres decimales tres decimales 800 ah"
+    },
+    {
+      "sample_id": "clase05_seg0131",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0131.wav",
+      "inicio": 2801.88,
+      "fin": 2811.118,
+      "duracion_seg": 9.238,
+      "gt_original": "ya 0.800, perfecto. Me parece que escuche algo diferente a uno de ustedes. Por favor confirmen ese valor. 801, ya.",
+      "gt_normalizado": "ya 0 800 perfecto me parece que escuche algo diferente a uno de ustedes por favor confirmen ese valor 801 ya"
+    },
+    {
+      "sample_id": "clase05_seg0132",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0132.wav",
+      "inicio": 2816.58,
+      "fin": 2820.032,
+      "duracion_seg": 3.452,
+      "gt_original": "Parece que escuché por allá de alguien 600 algo. O sea el",
+      "gt_normalizado": "parece que escuché por allá de alguien 600 algo o sea el"
+    },
+    {
+      "sample_id": "clase05_seg0133",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0133.wav",
+      "inicio": 2830.14,
+      "fin": 2833.98,
+      "duracion_seg": 3.84,
+      "gt_original": "vector pe realmente no ha sido un solo vector sino que va a ser dos vectores.",
+      "gt_normalizado": "vector pe realmente no ha sido un solo vector sino que va a ser dos vectores"
+    },
+    {
+      "sample_id": "clase05_seg0134",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0134.wav",
+      "inicio": 2840.28,
+      "fin": 2853.971,
+      "duracion_seg": 13.691,
+      "gt_original": "Porque en el caso de las magnitud es 11 pero en el caso del unitario podemos considerar al unitario como coseno de 55",
+      "gt_normalizado": "porque en el caso de las magnitud es 11 pero en el caso del unitario podemos considerar al unitario como coseno de 55"
+    },
+    {
+      "sample_id": "clase05_seg0135",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0135.wav",
+      "inicio": 2854.53,
+      "fin": 2867.62,
+      "duracion_seg": 13.09,
+      "gt_original": "grados y más 0.801 jota, más el coseno de 80 grados ka.",
+      "gt_normalizado": "grados y más 0 801 jota más el coseno de 80 grados ka"
+    },
+    {
+      "sample_id": "clase05_seg0136",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0136.wav",
+      "inicio": 2868.66,
+      "fin": 2885.01,
+      "duracion_seg": 16.35,
+      "gt_original": "Ese sería un vector unitario. ¿Y cuál sería el otro vector unitario? El mismo solo que aquí iría con menos.",
+      "gt_normalizado": "ese sería un vector unitario y cuál sería el otro vector unitario el mismo solo que aquí iría con menos"
+    },
+    {
+      "sample_id": "clase05_seg0137",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0137.wav",
+      "inicio": 2895.87,
+      "fin": 2909.22,
+      "duracion_seg": 13.35,
+      "gt_original": "Insisto comprendese que son dos los vectores unitarios que cumplen con las condiciones que me da el problema porque de lleno me decían nada.",
+      "gt_normalizado": "insisto comprendese que son dos los vectores unitarios que cumplen con las condiciones que me da el problema porque de lleno me decían nada"
+    },
+    {
+      "sample_id": "clase05_seg0138",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0138.wav",
+      "inicio": 2911.26,
+      "fin": 2923.417,
+      "duracion_seg": 12.157,
+      "gt_original": "Así que sí de lleno me decían nada, ambos cumplen las condiciones establecidas ahí. Entonces mi vector pe que",
+      "gt_normalizado": "así que sí de lleno me decían nada ambos cumplen las condiciones establecidas ahí entonces mi vector pe que"
+    },
+    {
+      "sample_id": "clase05_seg0139",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0139.wav",
+      "inicio": 2925.99,
+      "fin": 2937.264,
+      "duracion_seg": 11.274,
+      "gt_original": "no han sido, no ha sido sólo uno, sino dos sería... Ayúdenme, por favor, 11 por esto por lo de acá y por lo de acá.",
+      "gt_normalizado": "no han sido no ha sido sólo uno sino dos sería ayúdenme por favor 11 por esto por lo de acá y por lo de acá"
+    },
+    {
+      "sample_id": "clase05_seg0140",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0140.wav",
+      "inicio": 2938.29,
+      "fin": 2948.784,
+      "duracion_seg": 10.494,
+      "gt_original": "¿Confirmaron eso de ahí o estaba mal? ¿Confirmaron? 6.31 i, más 8.81",
+      "gt_normalizado": "confirmaron eso de ahí o estaba mal confirmaron 6 31 i más 8 81"
+    },
+    {
+      "sample_id": "clase05_seg0141",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0141.wav",
+      "inicio": 2950.454,
+      "fin": 2962.734,
+      "duracion_seg": 12.279,
+      "gt_original": "jota, y mas 1.91 ka. Ese es el uno y el otro sería 6.31 i, menos 8.81",
+      "gt_normalizado": "jota y mas 1 91 ka ese es el uno y el otro sería 6 31 i menos 8 81"
+    },
+    {
+      "sample_id": "clase05_seg0142",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0142.wav",
+      "inicio": 2964.674,
+      "fin": 2975.13,
+      "duracion_seg": 10.456,
+      "gt_original": "jota, más 1.91 ka. Cualquiera de estos dos vectores",
+      "gt_normalizado": "jota más 1 91 ka cualquiera de estos dos vectores"
+    },
+    {
+      "sample_id": "clase05_seg0143",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0143.wav",
+      "inicio": 2977.8,
+      "fin": 2990.8,
+      "duracion_seg": 13.0,
+      "gt_original": "son válidos. Cualquiera de ellos dos cumpliría con esto, cumpliría con tener 11 unidades de magnitud y cumpliría con formar 55",
+      "gt_normalizado": "son válidos cualquiera de ellos dos cumpliría con esto cumpliría con tener 11 unidades de magnitud y cumpliría con formar 55"
+    },
+    {
+      "sample_id": "clase05_seg0144",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0144.wav",
+      "inicio": 2991.33,
+      "fin": 3003.606,
+      "duracion_seg": 12.276,
+      "gt_original": "grados con equis y 80 grados con zeta. Que no sean los mismos en cuanto a ye. No me están condicionando nada en cuanto a ye. Así que",
+      "gt_normalizado": "grados con equis y 80 grados con zeta que no sean los mismos en cuanto a ye no me están condicionando nada en cuanto a ye así que"
+    },
+    {
+      "sample_id": "clase05_seg0145",
+      "clase_id": "clase05",
+      "ruta_audio": "data/processed/chunks/clase05/clase05_seg0145.wav",
+      "inicio": 3004.05,
+      "fin": 3019.77,
+      "duracion_seg": 15.72,
+      "gt_original": "los dos son respuestas completamente válidas. Bien, nos vamos a quedar el día de hoy hasta ahí. La próxima clase practicamos producto punto.",
+      "gt_normalizado": "los dos son respuestas completamente válidas bien nos vamos a quedar el día de hoy hasta ahí la próxima clase practicamos producto punto"
+    }
+  ]
+}

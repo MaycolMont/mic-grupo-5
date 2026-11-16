@@ -1,0 +1,1621 @@
+{
+  "clase_id": "clase01",
+  "audio_stem": "yt_algebra-lineal-latam_20221107_ixuTGcPHbpA",
+  "audio_path": "data/interim/wav_16k/yt_algebra-lineal-latam_20221107_ixuTGcPHbpA.wav",
+  "duracion_audio_seg": 4015.287,
+  "palabras_gt": 4939,
+  "palabras_reconocidas": 5774,
+  "ratio_anclaje": 0.4936,
+  "chunks": [
+    {
+      "sample_id": "clase01_seg0001",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0001.wav",
+      "inicio": 0.57,
+      "fin": 16.05,
+      "duracion_seg": 15.48,
+      "gt_original": "Perfecto. Okay, entonces para este curso de álgebra lineal, vamos a empezar con conceptos básicos. Usualmente, pues se suele iniciar o dar introducción con matrices, tipo de matrices y ese tipo de cosas.",
+      "gt_normalizado": "perfecto okay entonces para este curso de álgebra lineal vamos a empezar con conceptos básicos usualmente pues se suele iniciar o dar introducción con matrices tipo de matrices y ese tipo de cosas"
+    },
+    {
+      "sample_id": "clase01_seg0002",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0002.wav",
+      "inicio": 16.59,
+      "fin": 33.9,
+      "duracion_seg": 17.31,
+      "gt_original": "Pero, pues yo entiendo también que es algo que hoy ya vieron en clase o ya saben desde el pre. Pero si hay palabras o hay conceptos o tipos de matrices que no les queda claro, no tengan miedo de preguntar, tanto alzando el micrófono —no tengo problemas con que me interrumpan— o con que escriban al chat, pues voy a estar pendiente también de esta veces.",
+      "gt_normalizado": "pero pues yo entiendo también que es algo que hoy ya vieron en clase o ya saben desde el pre pero si hay palabras o hay conceptos o tipos de matrices que no les queda claro no tengan miedo de preguntar tanto alzando el micrófono no tengo problemas con que me interrumpan o con que escriban al chat pues voy a estar pendiente también de esta veces"
+    },
+    {
+      "sample_id": "clase01_seg0003",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0003.wav",
+      "inicio": 34.95,
+      "fin": 49.17,
+      "duracion_seg": 14.22,
+      "gt_original": "Entonces, listo, para dar inicio a esta parte o a este curso en específico, creo que lo primordial y lo más importante, usualmente vamos a seguir el orden que está en el syllabus del curso. Entonces, la idea es que no vayamos",
+      "gt_normalizado": "entonces listo para dar inicio a esta parte o a este curso en específico creo que lo primordial y lo más importante usualmente vamos a seguir el orden que está en el syllabus del curso entonces la idea es que no vayamos"
+    },
+    {
+      "sample_id": "clase01_seg0004",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0004.wav",
+      "inicio": 49.86,
+      "fin": 62.13,
+      "duracion_seg": 12.27,
+      "gt_original": "en desorden, sino que vayamos a nivel o al ritmo que se supone que está planificado cada curso. Por lo tanto, va a haber un punto en el que llegamos a estar adelantados como por un uno o dos temas, no más de eso,",
+      "gt_normalizado": "en desorden sino que vayamos a nivel o al ritmo que se supone que está planificado cada curso por lo tanto va a haber un punto en el que llegamos a estar adelantados como por un uno o dos temas no más de eso"
+    },
+    {
+      "sample_id": "clase01_seg0005",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0005.wav",
+      "inicio": 63.33,
+      "fin": 78.33,
+      "duracion_seg": 15.0,
+      "gt_original": "lo cual es básicamente la idea de todo esto: entonces se vayan preparando tanto para reforzar el conocimiento que les quedó dudas en clase o, pues, para irse adelantando, y que sus notas lleguen a ser mejores a largo plazo. Por lo tanto, vamos a dar inicio, vamos a empezar con",
+      "gt_normalizado": "lo cual es básicamente la idea de todo esto entonces se vayan preparando tanto para reforzar el conocimiento que les quedó dudas en clase o pues para irse adelantando y que sus notas lleguen a ser mejores a largo plazo por lo tanto vamos a dar inicio vamos a empezar con"
+    },
+    {
+      "sample_id": "clase01_seg0006",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0006.wav",
+      "inicio": 78.78,
+      "fin": 98.275,
+      "duracion_seg": 19.495,
+      "gt_original": "sistemas de ecuaciones. ¿Qué es un sistema de ecuaciones? Esto es algo que ya se ha estado viendo desde... desde la escuela creo, o desde el colegio. Desde el colegio lo más probable. Un sistema de ecuaciones, lo típico, te dan una llavecita y te dan, qué sé yo, dos ecuaciones: 5x 2y 3 3x y 7;",
+      "gt_normalizado": "sistemas de ecuaciones qué es un sistema de ecuaciones esto es algo que ya se ha estado viendo desde desde la escuela creo o desde el colegio desde el colegio lo más probable un sistema de ecuaciones lo típico te dan una llavecita y te dan qué sé yo dos ecuaciones 5x 2y 3 3x y 7"
+    },
+    {
+      "sample_id": "clase01_seg0007",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0007.wav",
+      "inicio": 105.302,
+      "fin": 117.78,
+      "duracion_seg": 12.478,
+      "gt_original": "qué sé yo, esto. Y te dice: \"Encuentra la solución\", y pues te enseñan muchas formas de hacerlo. Te enseñan a sumar una ecuación con la otra, te enseñan a despejar una y meterla en la otra. Hay muchas formas de resolver sistemas de ecuaciones, pero",
+      "gt_normalizado": "qué sé yo esto y te dice encuentra la solución y pues te enseñan muchas formas de hacerlo te enseñan a sumar una ecuación con la otra te enseñan a despejar una y meterla en la otra hay muchas formas de resolver sistemas de ecuaciones pero"
+    },
+    {
+      "sample_id": "clase01_seg0008",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0008.wav",
+      "inicio": 119.52,
+      "fin": 132.54,
+      "duracion_seg": 13.02,
+      "gt_original": "ya estamos en un punto de nuestra vida académica en la cual resulta relevante y aún más importante el entender por qué hacemos las cosas o, en específico, el entender qué es lo que estamos trabajando. Por lo tanto,",
+      "gt_normalizado": "ya estamos en un punto de nuestra vida académica en la cual resulta relevante y aún más importante el entender por qué hacemos las cosas o en específico el entender qué es lo que estamos trabajando por lo tanto"
+    },
+    {
+      "sample_id": "clase01_seg0009",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0009.wav",
+      "inicio": 132.93,
+      "fin": 143.94,
+      "duracion_seg": 11.01,
+      "gt_original": "ahorita vamos a dar una pequeña introducción a lo que detrás de toda esa llave, o detrás de todo ese conjunto de procesos o formas de resolver un sistema de ecuaciones, ¿qué es lo que estamos haciendo?",
+      "gt_normalizado": "ahorita vamos a dar una pequeña introducción a lo que detrás de toda esa llave o detrás de todo ese conjunto de procesos o formas de resolver un sistema de ecuaciones qué es lo que estamos haciendo"
+    },
+    {
+      "sample_id": "clase01_seg0010",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0010.wav",
+      "inicio": 145.26,
+      "fin": 155.43,
+      "duracion_seg": 10.17,
+      "gt_original": "Entonces, para esto hay que entender que un sistema de ecuaciones lineales, como el que teníamos antes, es esto: ecuaciones lineales, que si tú las despejas, pues técnicamente",
+      "gt_normalizado": "entonces para esto hay que entender que un sistema de ecuaciones lineales como el que teníamos antes es esto ecuaciones lineales que si tú las despejas pues técnicamente"
+    },
+    {
+      "sample_id": "clase01_seg0011",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0011.wav",
+      "inicio": 155.97,
+      "fin": 165.99,
+      "duracion_seg": 10.02,
+      "gt_original": "tienes las típicas funciones que, qué sé yo, esto es y (3 5x) 2, y esta de aquí es",
+      "gt_normalizado": "tienes las típicas funciones que qué sé yo esto es y 3 5x 2 y esta de aquí es"
+    },
+    {
+      "sample_id": "clase01_seg0012",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0012.wav",
+      "inicio": 166.83,
+      "fin": 177.653,
+      "duracion_seg": 10.823,
+      "gt_original": "igual a y 7 3x. Estas son funciones, claro, son funciones lineales. Terminan siendo, de otra forma, el f(x) (3 5x) 2",
+      "gt_normalizado": "igual a y 7 3x estas son funciones claro son funciones lineales terminan siendo de otra forma el f x 3 5x 2"
+    },
+    {
+      "sample_id": "clase01_seg0013",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0013.wav",
+      "inicio": 180.99,
+      "fin": 191.23,
+      "duracion_seg": 10.24,
+      "gt_original": "y esto va a terminar siendo el g(x) 7 3x. Las típicas ecuaciones lineales, ¿no? ¿Cómo son las ecuaciones lineales? Vamos a",
+      "gt_normalizado": "y esto va a terminar siendo el g x 7 3x las típicas ecuaciones lineales no cómo son las ecuaciones lineales vamos a"
+    },
+    {
+      "sample_id": "clase01_seg0014",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0014.wav",
+      "inicio": 191.82,
+      "fin": 206.118,
+      "duracion_seg": 14.298,
+      "gt_original": "hacer un ejemplo sencillo, no necesariamente esta, pero las funciones lineales son... son rectas, son rectas. Son así, o son así, qué sé yo, o",
+      "gt_normalizado": "hacer un ejemplo sencillo no necesariamente esta pero las funciones lineales son son rectas son rectas son así o son así qué sé yo o"
+    },
+    {
+      "sample_id": "clase01_seg0015",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0015.wav",
+      "inicio": 206.52,
+      "fin": 217.479,
+      "duracion_seg": 10.959,
+      "gt_original": "son así. Hay muchas formas de hacer ecuaciones lineales, pero la generalidad o la característica compartida que llegan a tener cada una de estas es que son rectas; y si son",
+      "gt_normalizado": "son así hay muchas formas de hacer ecuaciones lineales pero la generalidad o la característica compartida que llegan a tener cada una de estas es que son rectas y si son"
+    },
+    {
+      "sample_id": "clase01_seg0016",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0016.wav",
+      "inicio": 217.89,
+      "fin": 229.14,
+      "duracion_seg": 11.25,
+      "gt_original": "rectas, hay solo tres posibilidades con cualquier cantidad de rectas que haya. Por ejemplo, en este caso particular, vamos a llamarlo uno, en este caso uno,",
+      "gt_normalizado": "rectas hay solo tres posibilidades con cualquier cantidad de rectas que haya por ejemplo en este caso particular vamos a llamarlo uno en este caso uno"
+    },
+    {
+      "sample_id": "clase01_seg0017",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0017.wav",
+      "inicio": 234.36,
+      "fin": 248.16,
+      "duracion_seg": 13.8,
+      "gt_original": "¿cuántas intersecciones hay? Hay solo una, aquí en ese punto, en este punto (x_0, y_0). Hay una intersección. ¿Puede haber más de una intersección? No,",
+      "gt_normalizado": "cuántas intersecciones hay hay solo una aquí en ese punto en este punto x 0 y 0 hay una intersección puede haber más de una intersección no"
+    },
+    {
+      "sample_id": "clase01_seg0018",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0018.wav",
+      "inicio": 249.0,
+      "fin": 259.71,
+      "duracion_seg": 10.71,
+      "gt_original": "porque son rectas; esta línea verde no se va a doblar de casualidad y va a pasar por aquí otra vez. Esto va hasta el infinito, son rectas que se extienden. Por lo tanto,",
+      "gt_normalizado": "porque son rectas esta línea verde no se va a doblar de casualidad y va a pasar por aquí otra vez esto va hasta el infinito son rectas que se extienden por lo tanto"
+    },
+    {
+      "sample_id": "clase01_seg0019",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0019.wav",
+      "inicio": 260.16,
+      "fin": 277.56,
+      "duracion_seg": 17.4,
+      "gt_original": "no llega a haber la posibilidad de que haya más de una solución. ¿A qué llamamos solución? Precisamente al punto en el cual se intersectan. ¿Por qué? Porque estamos analizandor rectas, ecuaciones que están en un sistema. Si estamos viendo un sistema, quiere decir que lo único que nos importa de esas rectas",
+      "gt_normalizado": "no llega a haber la posibilidad de que haya más de una solución a qué llamamos solución precisamente al punto en el cual se intersectan por qué porque estamos analizandor rectas ecuaciones que están en un sistema si estamos viendo un sistema quiere decir que lo único que nos importa de esas rectas"
+    },
+    {
+      "sample_id": "clase01_seg0020",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0020.wav",
+      "inicio": 278.28,
+      "fin": 296.35,
+      "duracion_seg": 18.07,
+      "gt_original": "es si existe una solución que dé o que deje satisfecha tanto a la primera expresión como a la segunda. Es lo que buscamos aquí en un sistema de ecuaciones; es decir, a nivel analítico, que vamos a buscar un conjunto de puntos, un conjunto de soluciones que",
+      "gt_normalizado": "es si existe una solución que dé o que deje satisfecha tanto a la primera expresión como a la segunda es lo que buscamos aquí en un sistema de ecuaciones es decir a nivel analítico que vamos a buscar un conjunto de puntos un conjunto de soluciones que"
+    },
+    {
+      "sample_id": "clase01_seg0021",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0021.wav",
+      "inicio": 296.79,
+      "fin": 314.447,
+      "duracion_seg": 17.657,
+      "gt_original": "cumplan esta regla, la primera o la segunda; y a nivel gráfico, intersecciones de rectas. Ahora, dije que esa no era la única posibilidad con respecto a las rectas. ¿Qué pasa también? ¿Qué puede llegar a pasar? Puede llegar a pasar que son rectas que no se",
+      "gt_normalizado": "cumplan esta regla la primera o la segunda y a nivel gráfico intersecciones de rectas ahora dije que esa no era la única posibilidad con respecto a las rectas qué pasa también qué puede llegar a pasar puede llegar a pasar que son rectas que no se"
+    },
+    {
+      "sample_id": "clase01_seg0022",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0022.wav",
+      "inicio": 315.15,
+      "fin": 328.02,
+      "duracion_seg": 12.87,
+      "gt_original": "chocan nunca, que no se intersectan nunca. Por ejemplo, digo esta y esta otra. Son rectas paralelas. Esta es la situación dos.",
+      "gt_normalizado": "chocan nunca que no se intersectan nunca por ejemplo digo esta y esta otra son rectas paralelas esta es la situación dos"
+    },
+    {
+      "sample_id": "clase01_seg0023",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0023.wav",
+      "inicio": 334.41,
+      "fin": 345.21,
+      "duracion_seg": 10.8,
+      "gt_original": "Ahora, también existe una posibilidad que es esta de aquí —que solo hay tres realmente, solo hay tres—, que tengo esta recta roja,",
+      "gt_normalizado": "ahora también existe una posibilidad que es esta de aquí que solo hay tres realmente solo hay tres que tengo esta recta roja"
+    },
+    {
+      "sample_id": "clase01_seg0024",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0024.wav",
+      "inicio": 349.38,
+      "fin": 364.809,
+      "duracion_seg": 15.429,
+      "gt_original": "y tengo esta recta verde. Si se dan cuenta, coinciden. ¿Por qué? Porque son exactamente la misma recta. Si son exactamente la misma recta, si yo agarro... ya voy a",
+      "gt_normalizado": "y tengo esta recta verde si se dan cuenta coinciden por qué porque son exactamente la misma recta si son exactamente la misma recta si yo agarro ya voy a"
+    },
+    {
+      "sample_id": "clase01_seg0025",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0025.wav",
+      "inicio": 367.56,
+      "fin": 379.24,
+      "duracion_seg": 11.68,
+      "gt_original": "moverlo para que lo puedan ver mejor... si yo lo muevo un poquito, ustedes se dan cuenta que coinciden totalmente. Entonces, ¿en cuáles puntos o en qué puntos de todo el dominio de",
+      "gt_normalizado": "moverlo para que lo puedan ver mejor si yo lo muevo un poquito ustedes se dan cuenta que coinciden totalmente entonces en cuáles puntos o en qué puntos de todo el dominio de"
+    },
+    {
+      "sample_id": "clase01_seg0026",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0026.wav",
+      "inicio": 379.602,
+      "fin": 389.802,
+      "duracion_seg": 10.2,
+      "gt_original": "ambas rectas coincide la verde con la roja? En todas. Y como la recta se extiende infinitamente, entendemos o se",
+      "gt_normalizado": "ambas rectas coincide la verde con la roja en todas y como la recta se extiende infinitamente entendemos o se"
+    },
+    {
+      "sample_id": "clase01_seg0027",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0027.wav",
+      "inicio": 390.27,
+      "fin": 415.14,
+      "duracion_seg": 24.87,
+      "gt_original": "dice usualmente que estas van a ser... este es un sistema, realmente es un sistema con infinitas soluciones. Eso es a lo que se conoce como un sistema con soluciones infinitas, y es lo que nos va a importar. Entonces, este es un concepto que usualmente no se explica, que hay profesores que realmente te dicen: \"Okay, hay soluciones infinitas\", pero ¿qué implica que haya soluciones infinitas? Implica que es la misma",
+      "gt_normalizado": "dice usualmente que estas van a ser este es un sistema realmente es un sistema con infinitas soluciones eso es a lo que se conoce como un sistema con soluciones infinitas y es lo que nos va a importar entonces este es un concepto que usualmente no se explica que hay profesores que realmente te dicen okay hay soluciones infinitas pero qué implica que haya soluciones infinitas implica que es la misma"
+    },
+    {
+      "sample_id": "clase01_seg0028",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0028.wav",
+      "inicio": 415.14,
+      "fin": 425.46,
+      "duracion_seg": 10.32,
+      "gt_original": "recta, no hay más. Entonces, opciones: uno, que coinciden en un solo punto —no puede coincidir en más, es decir, que solamente hay una solución—;",
+      "gt_normalizado": "recta no hay más entonces opciones uno que coinciden en un solo punto no puede coincidir en más es decir que solamente hay una solución"
+    },
+    {
+      "sample_id": "clase01_seg0029",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0029.wav",
+      "inicio": 426.09,
+      "fin": 440.34,
+      "duracion_seg": 14.25,
+      "gt_original": "dos, que no coinciden en ninguna; o tres, que coinciden absolutamente en todas. Ahora, para esto, existen formas, ¿no? La forma general, vamos a empezar con definiciones.",
+      "gt_normalizado": "dos que no coinciden en ninguna o tres que coinciden absolutamente en todas ahora para esto existen formas no la forma general vamos a empezar con definiciones"
+    },
+    {
+      "sample_id": "clase01_seg0030",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0030.wav",
+      "inicio": 447.81,
+      "fin": 461.28,
+      "duracion_seg": 13.47,
+      "gt_original": "Definiciones de saber qué es lo que estamos trabajando a nivel riguroso. Entonces, ¿qué dice aquí? Un sistema se define... un sistema de ecuaciones lineales de m ecuaciones",
+      "gt_normalizado": "definiciones de saber qué es lo que estamos trabajando a nivel riguroso entonces qué dice aquí un sistema se define un sistema de ecuaciones lineales de m ecuaciones"
+    },
+    {
+      "sample_id": "clase01_seg0031",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0031.wav",
+      "inicio": 468.87,
+      "fin": 481.416,
+      "duracion_seg": 12.546,
+      "gt_original": "con n variables, por supuesto, —n variables, o claro, o incógnitas, pueden ser x_1, x_2, x_3, x_n—",
+      "gt_normalizado": "con n variables por supuesto n variables o claro o incógnitas pueden ser x 1 x 2 x 3 x n"
+    },
+    {
+      "sample_id": "clase01_seg0032",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0032.wav",
+      "inicio": 490.05,
+      "fin": 491.656,
+      "duracion_seg": 1.606,
+      "gt_original": "es un conjunto de la",
+      "gt_normalizado": "es un conjunto de la"
+    },
+    {
+      "sample_id": "clase01_seg0033",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0033.wav",
+      "inicio": 497.82,
+      "fin": 511.194,
+      "duracion_seg": 13.374,
+      "gt_original": "forma... Y aquí ya viene la forma general o cómo luce de forma general un sistema de ecuaciones. Y aquí",
+      "gt_normalizado": "forma y aquí ya viene la forma general o cómo luce de forma general un sistema de ecuaciones y aquí"
+    },
+    {
+      "sample_id": "clase01_seg0034",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0034.wav",
+      "inicio": 532.08,
+      "fin": 541.401,
+      "duracion_seg": 9.321,
+      "gt_original": "tenemos: a_11 x_1 a_12 x_2 a_1n x_n b_1. Y tenemos: a_21 x_1 a_22 x_2 a_2n x_n b_2. Entonces, aquí ya",
+      "gt_normalizado": "tenemos a 11 x 1 a 12 x 2 a 1n x n b 1 y tenemos a 21 x 1 a 22 x 2 a 2n x n b 2 entonces aquí ya"
+    },
+    {
+      "sample_id": "clase01_seg0035",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0035.wav",
+      "inicio": 547.53,
+      "fin": 559.308,
+      "duracion_seg": 11.778,
+      "gt_original": "podemos ver el patrón, miren. Un texto va así también, de forma que aquí tenemos: a_m1 x_1 a_m2 x_2",
+      "gt_normalizado": "podemos ver el patrón miren un texto va así también de forma que aquí tenemos a m1 x 1 a m2 x 2"
+    },
+    {
+      "sample_id": "clase01_seg0036",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0036.wav",
+      "inicio": 567.27,
+      "fin": 571.2,
+      "duracion_seg": 3.93,
+      "gt_original": "para acá también, a_mn x_n b_m.",
+      "gt_normalizado": "para acá también a mn x n b m"
+    },
+    {
+      "sample_id": "clase01_seg0037",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0037.wav",
+      "inicio": 576.78,
+      "fin": 589.03,
+      "duracion_seg": 12.25,
+      "gt_original": "Todo esto pues con las llaves para denotar que esas tres ecuaciones o esas m ecuaciones están relacionadas de alguna forma, o es lo que yo busco. Busco ver si están relacionadas, cómo se relacionan por ese punto que,",
+      "gt_normalizado": "todo esto pues con las llaves para denotar que esas tres ecuaciones o esas m ecuaciones están relacionadas de alguna forma o es lo que yo busco busco ver si están relacionadas cómo se relacionan por ese punto que"
+    },
+    {
+      "sample_id": "clase01_seg0038",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0038.wav",
+      "inicio": 590.13,
+      "fin": 600.54,
+      "duracion_seg": 10.41,
+      "gt_original": "claro, ese conjunto solución es ese punto que deja satisfecha absolutamente las mismas ecuaciones. Ahora, para esto vamos a tener también...",
+      "gt_normalizado": "claro ese conjunto solución es ese punto que deja satisfecha absolutamente las mismas ecuaciones ahora para esto vamos a tener también"
+    },
+    {
+      "sample_id": "clase01_seg0039",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0039.wav",
+      "inicio": 601.11,
+      "fin": 614.59,
+      "duracion_seg": 13.48,
+      "gt_original": "vamos a sacar información, vamos a sacar información. Primero vamos a separar esto en una forma matricial, porque este es un sistema de ecuaciones lineales en forma de ecuación. Now,",
+      "gt_normalizado": "vamos a sacar información vamos a sacar información primero vamos a separar esto en una forma matricial porque este es un sistema de ecuaciones lineales en forma de ecuación now"
+    },
+    {
+      "sample_id": "clase01_seg0040",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0040.wav",
+      "inicio": 619.641,
+      "fin": 635.446,
+      "duracion_seg": 15.805,
+      "gt_original": "vamos a llamar a esto también... vamos a poner aquí una barrita que se separe a una forma matricial. Aquí, esto vamos a formar aquí un sistema de ecuaciones lineales en su forma matricial. ¿Cómo es la forma matricial de un",
+      "gt_normalizado": "vamos a llamar a esto también vamos a poner aquí una barrita que se separe a una forma matricial aquí esto vamos a formar aquí un sistema de ecuaciones lineales en su forma matricial cómo es la forma matricial de un"
+    },
+    {
+      "sample_id": "clase01_seg0041",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0041.wav",
+      "inicio": 641.461,
+      "fin": 654.22,
+      "duracion_seg": 12.759,
+      "gt_original": "sistema de ecuaciones? Pues, realmente es una matriz A, vamos a escribirla acá abajo, acá: es una matriz que se multiplica a una matriz X,",
+      "gt_normalizado": "sistema de ecuaciones pues realmente es una matriz a vamos a escribirla acá abajo acá es una matriz que se multiplica a una matriz x"
+    },
+    {
+      "sample_id": "clase01_seg0042",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0042.wav",
+      "inicio": 654.84,
+      "fin": 666.64,
+      "duracion_seg": 11.8,
+      "gt_original": "que me da una matriz B. ¿Qué es la matriz A, la matriz X y la matriz B? ¿De dónde sale todo esto? Sencillo. Esto es la matriz de coeficientes, la",
+      "gt_normalizado": "que me da una matriz b qué es la matriz a la matriz x y la matriz b de dónde sale todo esto sencillo esto es la matriz de coeficientes la"
+    },
+    {
+      "sample_id": "clase01_seg0043",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0043.wav",
+      "inicio": 667.104,
+      "fin": 690.39,
+      "duracion_seg": 23.285,
+      "gt_original": "matriz de incógnitas y la matriz de términos independientes, claro. Términos independientes, y eso lo formamos, ¿cómo lo formamos?, a partir de esta forma de ecuaciones, realmente no hay bastante ciencia. Entonces, yo digo que A es igual a: a_11 a_12 a_1n a_21 a_22 a_2n a_m1 a_m2 a_mn",
+      "gt_normalizado": "matriz de incógnitas y la matriz de términos independientes claro términos independientes y eso lo formamos cómo lo formamos a partir de esta forma de ecuaciones realmente no hay bastante ciencia entonces yo digo que a es igual a a 11 a 12 a 1n a 21 a 22 a 2n a m1 a m2 a mn"
+    },
+    {
+      "sample_id": "clase01_seg0044",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0044.wav",
+      "inicio": 715.29,
+      "fin": 726.64,
+      "duracion_seg": 11.35,
+      "gt_original": "Genial. Mi matriz X va a ser mi matriz de incógnitas. ¿Cuál va a ser mi matriz?, que realmente es una matriz columna: x_1 x_2 x_n Y mi",
+      "gt_normalizado": "genial mi matriz x va a ser mi matriz de incógnitas cuál va a ser mi matriz que realmente es una matriz columna x 1 x 2 x n y mi"
+    },
+    {
+      "sample_id": "clase01_seg0045",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0045.wav",
+      "inicio": 733.942,
+      "fin": 744.415,
+      "duracion_seg": 10.474,
+      "gt_original": "matriz B va a ser igual a, pues, la matriz columna de términos independientes: b_1 b_2 b_m Así es.",
+      "gt_normalizado": "matriz b va a ser igual a pues la matriz columna de términos independientes b 1 b 2 b m así es"
+    },
+    {
+      "sample_id": "clase01_seg0046",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0046.wav",
+      "inicio": 755.67,
+      "fin": 769.02,
+      "duracion_seg": 13.35,
+      "gt_original": "Entonces, ahora entendemos por qué; porque si agarramos esas tres matrices y las multiplicamos, vamos a obtener precisamente esto. Claro, ¿por qué?, porque estas incógnitas se distribuyen a lo largo de todos estos,",
+      "gt_normalizado": "entonces ahora entendemos por qué porque si agarramos esas tres matrices y las multiplicamos vamos a obtener precisamente esto claro por qué porque estas incógnitas se distribuyen a lo largo de todos estos"
+    },
+    {
+      "sample_id": "clase01_seg0047",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0047.wav",
+      "inicio": 770.25,
+      "fin": 782.76,
+      "duracion_seg": 12.51,
+      "gt_original": "y pues luego vamos y se suman, porque así se multiplican matrices, ¿no? Sabemos cómo se multiplican matrices. Y que... y si lo igualamos a esta matriz B, pues vamos a tener, de hecho, nuestro sistema de ecuaciones en la forma tradicional, o en la forma que hemos visto desde el colegio.",
+      "gt_normalizado": "y pues luego vamos y se suman porque así se multiplican matrices no sabemos cómo se multiplican matrices y que y si lo igualamos a esta matriz b pues vamos a tener de hecho nuestro sistema de ecuaciones en la forma tradicional o en la forma que hemos visto desde el colegio"
+    },
+    {
+      "sample_id": "clase01_seg0048",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0048.wav",
+      "inicio": 783.36,
+      "fin": 793.93,
+      "duracion_seg": 10.57,
+      "gt_original": "Pero ahora nos interesa esta forma matricial, esta es nuestra joyita, esto es lo que nos va a importar el día de hoy. ¿Por qué nos va a",
+      "gt_normalizado": "pero ahora nos interesa esta forma matricial esta es nuestra joyita esto es lo que nos va a importar el día de hoy por qué nos va a"
+    },
+    {
+      "sample_id": "clase01_seg0049",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0049.wav",
+      "inicio": 794.73,
+      "fin": 807.04,
+      "duracion_seg": 12.31,
+      "gt_original": "importar? Porque vamos a aplicar conocimientos de matrices, vamos a desarrollar conocimientos de matrices que nos va a solucionar la vida y nos va a facilitar el hecho de encontrar este... sistema... las",
+      "gt_normalizado": "importar porque vamos a aplicar conocimientos de matrices vamos a desarrollar conocimientos de matrices que nos va a solucionar la vida y nos va a facilitar el hecho de encontrar este sistema las"
+    },
+    {
+      "sample_id": "clase01_seg0050",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0050.wav",
+      "inicio": 807.429,
+      "fin": 824.29,
+      "duracion_seg": 16.861,
+      "gt_original": "soluciones para este sistema de ecuaciones. ¿Por qué?, porque ¿cuántas formas conocemos de encontrar soluciones para la forma usual?, las que nos enseñaron en el colegio: la de reducción... para esto existe reducción, qué sé yo, igualación.",
+      "gt_normalizado": "soluciones para este sistema de ecuaciones por qué porque cuántas formas conocemos de encontrar soluciones para la forma usual las que nos enseñaron en el colegio la de reducción para esto existe reducción qué sé yo igualación"
+    },
+    {
+      "sample_id": "clase01_seg0051",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0051.wav",
+      "inicio": 831.42,
+      "fin": 845.04,
+      "duracion_seg": 13.62,
+      "gt_original": "Hay un montón de formas que hay para eso sobre el sistema de ecuaciones. Pero con matrices, llegamos a entender que hay un proceso más allá y hay una nueva forma; ahorita vamos a desbloquear una nueva habilidad matemática, que es el poder",
+      "gt_normalizado": "hay un montón de formas que hay para eso sobre el sistema de ecuaciones pero con matrices llegamos a entender que hay un proceso más allá y hay una nueva forma ahorita vamos a desbloquear una nueva habilidad matemática que es el poder"
+    },
+    {
+      "sample_id": "clase01_seg0052",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0052.wav",
+      "inicio": 846.33,
+      "fin": 865.83,
+      "duracion_seg": 19.5,
+      "gt_original": "reducir matrices. Vamos a ver qué quiere decir esto. Pero antes de empezar con esto, vamos a darle nombre a estas tres situaciones que teníamos aquí arriba. Cuando en la situación uno decíamos que tenía solución, ahora a esto se lo va a llamar consistente.",
+      "gt_normalizado": "reducir matrices vamos a ver qué quiere decir esto pero antes de empezar con esto vamos a darle nombre a estas tres situaciones que teníamos aquí arriba cuando en la situación uno decíamos que tenía solución ahora a esto se lo va a llamar consistente"
+    },
+    {
+      "sample_id": "clase01_seg0053",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0053.wav",
+      "inicio": 883.71,
+      "fin": 887.88,
+      "duracion_seg": 4.17,
+      "gt_original": "Tiene apellido esto, sí, tiene apellido: es consistente determinado.",
+      "gt_normalizado": "tiene apellido esto sí tiene apellido es consistente determinado"
+    },
+    {
+      "sample_id": "clase01_seg0054",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0054.wav",
+      "inicio": 894.18,
+      "fin": 916.24,
+      "duracion_seg": 22.06,
+      "gt_original": "La situación dos, ¿tiene solución? No, no tiene solución. Se llama inconsistente, y ese se queda ahí no más: inconsistente. La tercera situación también tiene nombre. Sí, ¿cómo se llama? ¿Tiene solución? Sí, sí tiene solución; entonces, su primer nombre va a ser consistente. Ah,",
+      "gt_normalizado": "la situación dos tiene solución no no tiene solución se llama inconsistente y ese se queda ahí no más inconsistente la tercera situación también tiene nombre sí cómo se llama tiene solución sí sí tiene solución entonces su primer nombre va a ser consistente ah"
+    },
+    {
+      "sample_id": "clase01_seg0055",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0055.wav",
+      "inicio": 922.443,
+      "fin": 932.79,
+      "duracion_seg": 10.347,
+      "gt_original": "pero tiene que diferenciarse de alguna forma del de la primera situación: indeterminado. ¿Por qué se llama",
+      "gt_normalizado": "pero tiene que diferenciarse de alguna forma del de la primera situación indeterminado por qué se llama"
+    },
+    {
+      "sample_id": "clase01_seg0056",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0056.wav",
+      "inicio": 933.24,
+      "fin": 944.7,
+      "duracion_seg": 11.46,
+      "gt_original": "o se usa la palabra consistente o inconsistente? Porque recuerden que estamos en un sistema de ecuaciones. El sistema de ecuaciones lo que busca es preguntar, es hacer una pregunta a voz alta; es decir: \"Estos...",
+      "gt_normalizado": "o se usa la palabra consistente o inconsistente porque recuerden que estamos en un sistema de ecuaciones el sistema de ecuaciones lo que busca es preguntar es hacer una pregunta a voz alta es decir estos"
+    },
+    {
+      "sample_id": "clase01_seg0057",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0057.wav",
+      "inicio": 945.21,
+      "fin": 969.87,
+      "duracion_seg": 24.66,
+      "gt_original": "estas m ecuaciones, estas dos ecuaciones que yo tengo aquí dentro de mis llaves, de alguna forma asumo que tienen solución\", es decir, que tienen esa intersección. Ahora, si yo digo eso, yo digo: \"Estas dos ecuaciones que están aquí...\" —voy a ponerle una flechita, porque estoy que señalo y no me pueden ver—, entonces, yo... yo digo: \"Esas dos ecuaciones que están ahí tienen solución\", si tienen solución y lo que yo digo es verdad,",
+      "gt_normalizado": "estas m ecuaciones estas dos ecuaciones que yo tengo aquí dentro de mis llaves de alguna forma asumo que tienen solución es decir que tienen esa intersección ahora si yo digo eso yo digo estas dos ecuaciones que están aquí voy a ponerle una flechita porque estoy que señalo y no me pueden ver entonces yo yo digo esas dos ecuaciones que están ahí tienen solución si tienen solución y lo que yo digo es verdad"
+    },
+    {
+      "sample_id": "clase01_seg0058",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0058.wav",
+      "inicio": 969.9,
+      "fin": 980.19,
+      "duracion_seg": 10.29,
+      "gt_original": "entonces lo que digo es consistente, porque es cierto; y no solamente es cierto, sino que es determinado, porque puedo determinarlas. ¿Cuántas hay? Hay una única; es tener única solución.",
+      "gt_normalizado": "entonces lo que digo es consistente porque es cierto y no solamente es cierto sino que es determinado porque puedo determinarlas cuántas hay hay una única es tener única solución"
+    },
+    {
+      "sample_id": "clase01_seg0059",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0059.wav",
+      "inicio": 981.33,
+      "fin": 994.77,
+      "duracion_seg": 13.44,
+      "gt_original": "La situación dos es si lo que yo digo: \"Estas dos ecuaciones ahí tienen solución\", y es mentira, entonces yo estoy diciendo inconsistencias, por eso se conoce como inconsistente, porque no tiene solución. Y la tercera pues es consistente, sí,",
+      "gt_normalizado": "la situación dos es si lo que yo digo estas dos ecuaciones ahí tienen solución y es mentira entonces yo estoy diciendo inconsistencias por eso se conoce como inconsistente porque no tiene solución y la tercera pues es consistente sí"
+    },
+    {
+      "sample_id": "clase01_seg0060",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0060.wav",
+      "inicio": 995.13,
+      "fin": 1007.319,
+      "duracion_seg": 12.189,
+      "gt_original": "porque lo que yo digo es cierto, sí tiene solución, pero tiene muchísimas; entonces, no es del todo determinado, va indeterminado. Se acabó. El sentido de esto aquí es poder",
+      "gt_normalizado": "porque lo que yo digo es cierto sí tiene solución pero tiene muchísimas entonces no es del todo determinado va indeterminado se acabó el sentido de esto aquí es poder"
+    },
+    {
+      "sample_id": "clase01_seg0061",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0061.wav",
+      "inicio": 1007.67,
+      "fin": 1025.97,
+      "duracion_seg": 18.3,
+      "gt_original": "no estudiar en el sentido riguroso de que tú te metes a las cosas y pues te las aprendes, y lees y lees, y te metes mucha... mucha información para que en el examen tú recuerdes cosas. El chiste de esto, y la forma en la que se aprende mucho mejor matemáticas, es cuando tú",
+      "gt_normalizado": "no estudiar en el sentido riguroso de que tú te metes a las cosas y pues te las aprendes y lees y lees y te metes mucha mucha información para que en el examen tú recuerdes cosas el chiste de esto y la forma en la que se aprende mucho mejor matemáticas es cuando tú"
+    },
+    {
+      "sample_id": "clase01_seg0062",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0062.wav",
+      "inicio": 1026.69,
+      "fin": 1043.987,
+      "duracion_seg": 17.297,
+      "gt_original": "entiendes las cosas, y realmente no necesitas estudiar tanto, necesitas practicar, que es muy diferente, porque hace más divertido esto de aquí. Ahora, listo, una vez que terminamos con la introducción y la presentación de este tema, vamos a hacer una separación aquí, y vamos a",
+      "gt_normalizado": "entiendes las cosas y realmente no necesitas estudiar tanto necesitas practicar que es muy diferente porque hace más divertido esto de aquí ahora listo una vez que terminamos con la introducción y la presentación de este tema vamos a hacer una separación aquí y vamos a"
+    },
+    {
+      "sample_id": "clase01_seg0063",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0063.wav",
+      "inicio": 1046.82,
+      "fin": 1051.8,
+      "duracion_seg": 4.98,
+      "gt_original": "entrar con... con definiciones. Vamos a ir con otra definición:",
+      "gt_normalizado": "entrar con con definiciones vamos a ir con otra definición"
+    },
+    {
+      "sample_id": "clase01_seg0064",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0064.wav",
+      "inicio": 1060.625,
+      "fin": 1067.68,
+      "duracion_seg": 7.055,
+      "gt_original": "definiciones, vamos a poner aquí uno. Bueno, aquí, entonces vamos a estar con la",
+      "gt_normalizado": "definiciones vamos a poner aquí uno bueno aquí entonces vamos a estar con la"
+    },
+    {
+      "sample_id": "clase01_seg0065",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0065.wav",
+      "inicio": 1072.83,
+      "fin": 1093.877,
+      "duracion_seg": 21.047,
+      "gt_original": "definición dos. Listo, ¿qué nos dice esta definición dos? Esta definición nos dice: \"Mira, supón... supongamos que existen dos sistemas de ecuaciones\" —no lo vamos a escribir con la forma de ecuación porque es muy largo, vamos a escribirlo pues con la forma de matrices que nos facilita hasta la escritura—: A X B y C X D,",
+      "gt_normalizado": "definición dos listo qué nos dice esta definición dos esta definición nos dice mira supón supongamos que existen dos sistemas de ecuaciones no lo vamos a escribir con la forma de ecuación porque es muy largo vamos a escribirlo pues con la forma de matrices que nos facilita hasta la escritura a x b y c x d"
+    },
+    {
+      "sample_id": "clase01_seg0066",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0066.wav",
+      "inicio": 1101.6,
+      "fin": 1114.967,
+      "duracion_seg": 13.367,
+      "gt_original": "dos sistemas de ecuaciones, el primero de ecuaciones lineales, listo, de m y n incógnitas, lo típico, ¿no? Se dice que estos",
+      "gt_normalizado": "dos sistemas de ecuaciones el primero de ecuaciones lineales listo de m y n incógnitas lo típico no se dice que estos"
+    },
+    {
+      "sample_id": "clase01_seg0067",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0067.wav",
+      "inicio": 1120.094,
+      "fin": 1121.837,
+      "duracion_seg": 1.742,
+      "gt_original": "sistemas... que estos",
+      "gt_normalizado": "sistemas que estos"
+    },
+    {
+      "sample_id": "clase01_seg0068",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0068.wav",
+      "inicio": 1128.082,
+      "fin": 1132.51,
+      "duracion_seg": 4.428,
+      "gt_original": "sistemas son equivalentes son",
+      "gt_normalizado": "sistemas son equivalentes son"
+    },
+    {
+      "sample_id": "clase01_seg0069",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0069.wav",
+      "inicio": 1139.85,
+      "fin": 1158.309,
+      "duracion_seg": 18.459,
+      "gt_original": "equivalentes, si la matriz A ampliada a la matriz B, y la matriz C ampliada con la matriz D son equivalentes por fila. ¿Qué",
+      "gt_normalizado": "equivalentes si la matriz a ampliada a la matriz b y la matriz c ampliada con la matriz d son equivalentes por fila qué"
+    },
+    {
+      "sample_id": "clase01_seg0070",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0070.wav",
+      "inicio": 1168.5,
+      "fin": 1179.96,
+      "duracion_seg": 11.46,
+      "gt_original": "quiere decir que sean equivalentes por fila? Vamos a hacer aquí una acotación: equivalentes por fila.",
+      "gt_normalizado": "quiere decir que sean equivalentes por fila vamos a hacer aquí una acotación equivalentes por fila"
+    },
+    {
+      "sample_id": "clase01_seg0071",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0071.wav",
+      "inicio": 1183.14,
+      "fin": 1198.77,
+      "duracion_seg": 15.63,
+      "gt_original": "Quiere decir que es un concepto tan sencillo como decir que a la matriz A ampliada a la matriz B, le voy a aplicar una serie de operaciones elementales por fila —que era la típica: agarro fila uno, la sumo con la fila dos;",
+      "gt_normalizado": "quiere decir que es un concepto tan sencillo como decir que a la matriz a ampliada a la matriz b le voy a aplicar una serie de operaciones elementales por fila que era la típica agarro fila uno la sumo con la fila dos"
+    },
+    {
+      "sample_id": "clase01_seg0072",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0072.wav",
+      "inicio": 1199.19,
+      "fin": 1209.63,
+      "duracion_seg": 10.44,
+      "gt_original": "la fila uno la multiplico con el número dos, la resto; así, operaciones elementales por fila—. Si yo aplico todo eso, obtengo",
+      "gt_normalizado": "la fila uno la multiplico con el número dos la resto así operaciones elementales por fila si yo aplico todo eso obtengo"
+    },
+    {
+      "sample_id": "clase01_seg0073",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0073.wav",
+      "inicio": 1210.29,
+      "fin": 1221.008,
+      "duracion_seg": 10.718,
+      "gt_original": "la matriz CD. Entonces se dice que la matriz ampliada AB es equivalente por fila a la matriz ampliada CD. Equivalencia por fila. Otra...",
+      "gt_normalizado": "la matriz cd entonces se dice que la matriz ampliada ab es equivalente por fila a la matriz ampliada cd equivalencia por fila otra"
+    },
+    {
+      "sample_id": "clase01_seg0074",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0074.wav",
+      "inicio": 1221.87,
+      "fin": 1233.13,
+      "duracion_seg": 11.26,
+      "gt_original": "otra acotación: ¿qué significa esto?, (A|B), (C|D). ¿Qué... qué implica esto? ¿Qué chota",
+      "gt_normalizado": "otra acotación qué significa esto a b c d qué qué implica esto qué chota"
+    },
+    {
+      "sample_id": "clase01_seg0075",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0075.wav",
+      "inicio": 1233.57,
+      "fin": 1244.238,
+      "duracion_seg": 10.668,
+      "gt_original": "significa eso? Sencillo. Esto no es más que la matriz A —vamos a dar un ejemplo, la identidad—: 1 0 0 0 1 0 0 0 1",
+      "gt_normalizado": "significa eso sencillo esto no es más que la matriz a vamos a dar un ejemplo la identidad 1 0 0 0 1 0 0 0 1"
+    },
+    {
+      "sample_id": "clase01_seg0076",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0076.wav",
+      "inicio": 1248.6,
+      "fin": 1264.655,
+      "duracion_seg": 16.055,
+      "gt_original": "Ampliada quiere decir que yo pongo una... una línea, una barra como para saber que hasta aquí es la matriz A, y todo lo que está acá es otra matriz, que, qué sé yo: 2 1 3 4 5 6 7 8 0",
+      "gt_normalizado": "ampliada quiere decir que yo pongo una una línea una barra como para saber que hasta aquí es la matriz a y todo lo que está acá es otra matriz que qué sé yo 2 1 3 4 5 6 7 8 0"
+    },
+    {
+      "sample_id": "clase01_seg0077",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0077.wav",
+      "inicio": 1270.95,
+      "fin": 1288.886,
+      "duracion_seg": 17.936,
+      "gt_original": "Y esto es B. Esto significa la barra. Pues, (C|D) es lo mismo, quiere decir que tengo: 1 2 3 4 5 6 7 8 9 ampliada a otra matriz, 1 0 1 2 3 5 0 0 1 Todo",
+      "gt_normalizado": "y esto es b esto significa la barra pues c d es lo mismo quiere decir que tengo 1 2 3 4 5 6 7 8 9 ampliada a otra matriz 1 0 1 2 3 5 0 0 1 todo"
+    },
+    {
+      "sample_id": "clase01_seg0078",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0078.wav",
+      "inicio": 1294.95,
+      "fin": 1305.3,
+      "duracion_seg": 10.35,
+      "gt_original": "esto es C y todo esto es D. Ahora, ¿por qué uno hace esto? ¿Por qué se toma la molestia de ampliarlo? Sencillo. Porque",
+      "gt_normalizado": "esto es c y todo esto es d ahora por qué uno hace esto por qué se toma la molestia de ampliarlo sencillo porque"
+    },
+    {
+      "sample_id": "clase01_seg0079",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0079.wav",
+      "inicio": 1306.02,
+      "fin": 1321.217,
+      "duracion_seg": 15.197,
+      "gt_original": "una matriz ampliada, yo digo que todo esto es una sola matriz. Si yo digo que todo eso es una sola matriz, entonces las operaciones elementales por fila que yo haga afectan a",
+      "gt_normalizado": "una matriz ampliada yo digo que todo esto es una sola matriz si yo digo que todo eso es una sola matriz entonces las operaciones elementales por fila que yo haga afectan a"
+    },
+    {
+      "sample_id": "clase01_seg0080",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0080.wav",
+      "inicio": 1322.1,
+      "fin": 1334.31,
+      "duracion_seg": 12.21,
+      "gt_original": "todo. Entonces, qué sé yo, si yo multiplico toda la fila uno por dos, afecta a todo esto, a todo esto. Es un solo bloque, la estoy ampliando, la estoy",
+      "gt_normalizado": "todo entonces qué sé yo si yo multiplico toda la fila uno por dos afecta a todo esto a todo esto es un solo bloque la estoy ampliando la estoy"
+    },
+    {
+      "sample_id": "clase01_seg0081",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0081.wav",
+      "inicio": 1334.82,
+      "fin": 1346.22,
+      "duracion_seg": 11.4,
+      "gt_original": "agarrando y la trabajo como si fuera una sola, pero muy grande. Es todo el concepto. Entonces, ¿qué implica esto para nuestra definición en el sistema de ecuaciones?",
+      "gt_normalizado": "agarrando y la trabajo como si fuera una sola pero muy grande es todo el concepto entonces qué implica esto para nuestra definición en el sistema de ecuaciones"
+    },
+    {
+      "sample_id": "clase01_seg0082",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0082.wav",
+      "inicio": 1347.21,
+      "fin": 1361.079,
+      "duracion_seg": 13.869,
+      "gt_original": "Sencillo. Yo recuerdo que la matriz ampliada (A|B) es la matriz de coeficientes, la estoy ampliando a la matriz de términos independientes que ya la habíamos definido aquí, ya la habíamos definido aquí. Entonces,",
+      "gt_normalizado": "sencillo yo recuerdo que la matriz ampliada a b es la matriz de coeficientes la estoy ampliando a la matriz de términos independientes que ya la habíamos definido aquí ya la habíamos definido aquí entonces"
+    },
+    {
+      "sample_id": "clase01_seg0083",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0083.wav",
+      "inicio": 1361.67,
+      "fin": 1372.68,
+      "duracion_seg": 11.01,
+      "gt_original": "es simplemente eso: agarro la matriz de coeficientes y la extiendo... o la amplío con la matriz de términos independientes, y tengo que revisar eso, tengo que revisar si esas dos cosas son equivalentes por fila.",
+      "gt_normalizado": "es simplemente eso agarro la matriz de coeficientes y la extiendo o la amplío con la matriz de términos independientes y tengo que revisar eso tengo que revisar si esas dos cosas son equivalentes por fila"
+    },
+    {
+      "sample_id": "clase01_seg0084",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0084.wav",
+      "inicio": 1373.64,
+      "fin": 1386.807,
+      "duracion_seg": 13.167,
+      "gt_original": "Ahora, ¿por qué me explicas esto de que sean equivalentes por fila? ¿Qué me importa? Pues va a importar algo, va a importar algo, ya vamos a ver por qué. Vamos a",
+      "gt_normalizado": "ahora por qué me explicas esto de que sean equivalentes por fila qué me importa pues va a importar algo va a importar algo ya vamos a ver por qué vamos a"
+    },
+    {
+      "sample_id": "clase01_seg0085",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0085.wav",
+      "inicio": 1387.62,
+      "fin": 1399.71,
+      "duracion_seg": 12.09,
+      "gt_original": "irnos ahora por una definición tres, que va a ser importante... bueno no, esto ya no es una definición, esto es un teorema, así es, es un teorema. Ya empezamos con teoremas,",
+      "gt_normalizado": "irnos ahora por una definición tres que va a ser importante bueno no esto ya no es una definición esto es un teorema así es es un teorema ya empezamos con teoremas"
+    },
+    {
+      "sample_id": "clase01_seg0086",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0086.wav",
+      "inicio": 1400.61,
+      "fin": 1420.74,
+      "duracion_seg": 20.13,
+      "gt_original": "primera clase del curso y ya empezamos... lo nombraremos así: teorema 1. ¿Qué me dice este teorema, este resultado tan útil? Me dice: si dos sistemas de ecuaciones lineales son",
+      "gt_normalizado": "primera clase del curso y ya empezamos lo nombraremos así teorema 1 qué me dice este teorema este resultado tan útil me dice si dos sistemas de ecuaciones lineales son"
+    },
+    {
+      "sample_id": "clase01_seg0087",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0087.wav",
+      "inicio": 1428.57,
+      "fin": 1442.5,
+      "duracion_seg": 13.93,
+      "gt_original": "equivalentes, entonces... entonces —esta es la parte que nos importa—, entonces tienen el mismo conjunto solución, el",
+      "gt_normalizado": "equivalentes entonces entonces esta es la parte que nos importa entonces tienen el mismo conjunto solución el"
+    },
+    {
+      "sample_id": "clase01_seg0088",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0088.wav",
+      "inicio": 1455.3,
+      "fin": 1473.03,
+      "duracion_seg": 17.73,
+      "gt_original": "mismo conjunto solución. Y esta es la razón por la que recordamos o enunciamos esta definición dos, porque nos va a facilitar un montón la vida, un montón, ton, ton la vida. Ya vamos a ver por qué, ya vamos a ver por qué. Vamos a ver ahorita un ejemplo. Vamos con ejemplo,",
+      "gt_normalizado": "mismo conjunto solución y esta es la razón por la que recordamos o enunciamos esta definición dos porque nos va a facilitar un montón la vida un montón ton ton la vida ya vamos a ver por qué ya vamos a ver por qué vamos a ver ahorita un ejemplo vamos con ejemplo"
+    },
+    {
+      "sample_id": "clase01_seg0089",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0089.wav",
+      "inicio": 1478.31,
+      "fin": 1498.629,
+      "duracion_seg": 20.319,
+      "gt_original": "para que vayamos viendo que todo lo que estamos enunciando aquí es cierto, y no solo es cierto, sino que es útil, y no sea un montón de letras o palabras vacías que les estoy hablando porque estoy loquito. Vamos a ver este: vamos a pensar, okay. 2x y z 1",
+      "gt_normalizado": "para que vayamos viendo que todo lo que estamos enunciando aquí es cierto y no solo es cierto sino que es útil y no sea un montón de letras o palabras vacías que les estoy hablando porque estoy loquito vamos a ver este vamos a pensar okay 2x y z 1"
+    },
+    {
+      "sample_id": "clase01_seg0090",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0090.wav",
+      "inicio": 1505.49,
+      "fin": 1509.067,
+      "duracion_seg": 3.577,
+      "gt_original": "mi primera ecuación. Mi segunda ecuación me dice: 2x y 5z 5 y",
+      "gt_normalizado": "mi primera ecuación mi segunda ecuación me dice 2x y 5z 5 y"
+    },
+    {
+      "sample_id": "clase01_seg0091",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0091.wav",
+      "inicio": 1517.25,
+      "fin": 1528.62,
+      "duracion_seg": 11.37,
+      "gt_original": "la tercera me dice que -y 3z 2; y pues, todo esto es un sistema de ecuaciones. Genial. Entonces,",
+      "gt_normalizado": "la tercera me dice que y 3z 2 y pues todo esto es un sistema de ecuaciones genial entonces"
+    },
+    {
+      "sample_id": "clase01_seg0092",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0092.wav",
+      "inicio": 1529.13,
+      "fin": 1547.125,
+      "duracion_seg": 17.995,
+      "gt_original": "aplicando esto que tenemos aquí, esto que aprendimos aquí, vamos a formar primero nuestro (A|B), vamos a formar nuestra matriz ampliada. Entonces, la matriz ampliada, recordemos que es mi matriz de coeficientes: es 2, 1, -1, 2, -1, 5,",
+      "gt_normalizado": "aplicando esto que tenemos aquí esto que aprendimos aquí vamos a formar primero nuestro a b vamos a formar nuestra matriz ampliada entonces la matriz ampliada recordemos que es mi matriz de coeficientes es 2 1 1 2 1 5"
+    },
+    {
+      "sample_id": "clase01_seg0093",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0093.wav",
+      "inicio": 1556.1,
+      "fin": 1572.286,
+      "duracion_seg": 16.186,
+      "gt_original": "y 0, -1, 3. Y esto lo voy a ampliar —claro, es lo que me está diciendo aquí, mi matriz ampliada hay que a la de términos independientes, o sea, lo que está después del igual, básicamente lo que no tiene incógnita—: 1, 5, 2.",
+      "gt_normalizado": "y 0 1 3 y esto lo voy a ampliar claro es lo que me está diciendo aquí mi matriz ampliada hay que a la de términos independientes o sea lo que está después del igual básicamente lo que no tiene incógnita 1 5 2"
+    },
+    {
+      "sample_id": "clase01_seg0094",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0094.wav",
+      "inicio": 1578.0,
+      "fin": 1591.05,
+      "duracion_seg": 13.05,
+      "gt_original": "Entonces, ya tengo esta forma matricial, ya la tengo, ya puedo aplicar lo que aprendimos más arriba. Vamos a encontrar una matriz que sea equivalente por fila... que sean equivalentes a esta matriz (A|B), es decir, tenemos que encontrar",
+      "gt_normalizado": "entonces ya tengo esta forma matricial ya la tengo ya puedo aplicar lo que aprendimos más arriba vamos a encontrar una matriz que sea equivalente por fila que sean equivalentes a esta matriz a b es decir tenemos que encontrar"
+    },
+    {
+      "sample_id": "clase01_seg0095",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0095.wav",
+      "inicio": 1591.62,
+      "fin": 1604.1,
+      "duracion_seg": 12.48,
+      "gt_original": "nuestra matriz (C|D), no la conozco, vamos a conocerla. ¿Qué tengo que hacer? Tengo que reducirlas por filas, claro, para encontrar una que sea equivalente,",
+      "gt_normalizado": "nuestra matriz c d no la conozco vamos a conocerla qué tengo que hacer tengo que reducirlas por filas claro para encontrar una que sea equivalente"
+    },
+    {
+      "sample_id": "clase01_seg0096",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0096.wav",
+      "inicio": 1604.82,
+      "fin": 1617.451,
+      "duracion_seg": 12.631,
+      "gt_original": "vamos a irla reduciendo. Es: 2, 1, -1, 1; vamos a hacerlo aquí abajo. Vamos a",
+      "gt_normalizado": "vamos a irla reduciendo es 2 1 1 1 vamos a hacerlo aquí abajo vamos a"
+    },
+    {
+      "sample_id": "clase01_seg0097",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0097.wav",
+      "inicio": 1619.82,
+      "fin": 1634.64,
+      "duracion_seg": 14.82,
+      "gt_original": "borrar esto para que no nos ocupe tanto espacio. Aquí voy a hacer fácilmente fila uno menos fila dos, porque este es mi pivote, tengo que hacer cero todo lo que está debajo; y pues la tercera no me importa, porque ya está hecho",
+      "gt_normalizado": "borrar esto para que no nos ocupe tanto espacio aquí voy a hacer fácilmente fila uno menos fila dos porque este es mi pivote tengo que hacer cero todo lo que está debajo y pues la tercera no me importa porque ya está hecho"
+    },
+    {
+      "sample_id": "clase01_seg0098",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0098.wav",
+      "inicio": 1662.99,
+      "fin": 1680.13,
+      "duracion_seg": 17.14,
+      "gt_original": "cero. Entonces, 2 2 0; 1 (-1), esto es dos; y -1 5, esto es menos 6; 1 5 -4. Y esta queda exactamente igual: fila tres y dos. Y",
+      "gt_normalizado": "cero entonces 2 2 0 1 1 esto es dos y 1 5 esto es menos 6 1 5 4 y esta queda exactamente igual fila tres y dos y"
+    },
+    {
+      "sample_id": "clase01_seg0099",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0099.wav",
+      "inicio": 1693.23,
+      "fin": 1707.188,
+      "duracion_seg": 13.958,
+      "gt_original": "acá: 0 2 0 0, 2 2, eso también es 0; esto es menos 6 más 6... menos seis más seis también es 0,",
+      "gt_normalizado": "acá 0 2 0 0 2 2 eso también es 0 esto es menos 6 más 6 menos seis más seis también es 0"
+    },
+    {
+      "sample_id": "clase01_seg0100",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0100.wav",
+      "inicio": 1708.26,
+      "fin": 1719.227,
+      "duracion_seg": 10.967,
+      "gt_original": "y menos cuatro... menos cuatro más cuatro también es cero. ¡Genial! Entonces, recordemos que tenemos esta matriz ampliada aquí.",
+      "gt_normalizado": "y menos cuatro menos cuatro más cuatro también es cero genial entonces recordemos que tenemos esta matriz ampliada aquí"
+    },
+    {
+      "sample_id": "clase01_seg0101",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0101.wav",
+      "inicio": 1723.53,
+      "fin": 1737.136,
+      "duracion_seg": 13.606,
+      "gt_original": "Mi barrita usualmente no la pongo yo porque entiendo que esta es la matriz ampliada, la planteo así y luego sigo, porque una vez escribiendo esa barrita, la verdad me da pereza; entonces, si no la escribo pues es por eso realmente. Ahora, ¿puedo",
+      "gt_normalizado": "mi barrita usualmente no la pongo yo porque entiendo que esta es la matriz ampliada la planteo así y luego sigo porque una vez escribiendo esa barrita la verdad me da pereza entonces si no la escribo pues es por eso realmente ahora puedo"
+    },
+    {
+      "sample_id": "clase01_seg0102",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0102.wav",
+      "inicio": 1737.638,
+      "fin": 1758.264,
+      "duracion_seg": 20.626,
+      "gt_original": "seguir reduciendo esto? Tal vez... tal vez puedo andar dividiendo esto para dos, para que quede... para que queden los pivotes en uno, pero realmente si la dejamos ahí está perfecto, y esto es lo que quiero que vean, ¿por qué? Esto de aquí es la matriz CD. ¿Por qué?",
+      "gt_normalizado": "seguir reduciendo esto tal vez tal vez puedo andar dividiendo esto para dos para que quede para que queden los pivotes en uno pero realmente si la dejamos ahí está perfecto y esto es lo que quiero que vean por qué esto de aquí es la matriz cd por qué"
+    },
+    {
+      "sample_id": "clase01_seg0103",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0103.wav",
+      "inicio": 1765.95,
+      "fin": 1777.606,
+      "duracion_seg": 11.656,
+      "gt_original": "Porque es lo que habíamos dicho antes: son equivalentes por fila. Es decir, que si yo a la matriz ampliada AB le aplico operaciones por fila, operaciones elementales, llego a la matriz CD. Sí, ya lo vimos, este es el proceso. Si se",
+      "gt_normalizado": "porque es lo que habíamos dicho antes son equivalentes por fila es decir que si yo a la matriz ampliada ab le aplico operaciones por fila operaciones elementales llego a la matriz cd sí ya lo vimos este es el proceso si se"
+    },
+    {
+      "sample_id": "clase01_seg0104",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0104.wav",
+      "inicio": 1778.07,
+      "fin": 1788.88,
+      "duracion_seg": 10.81,
+      "gt_original": "puede reducir y llegar a esta matriz, entonces, ¿qué sabemos? Sabemos que hay... para escribirlo por aquí, la matriz ampliada AB",
+      "gt_normalizado": "puede reducir y llegar a esta matriz entonces qué sabemos sabemos que hay para escribirlo por aquí la matriz ampliada ab"
+    },
+    {
+      "sample_id": "clase01_seg0105",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0105.wav",
+      "inicio": 1789.41,
+      "fin": 1809.99,
+      "duracion_seg": 20.58,
+      "gt_original": "es equivalente a la matriz CD. Listo. Entonces, ya sabemos que es equivalente. Podemos aplicar este teorema que está aquí, dice: \"Mira, si dos sistemas de ecuaciones lineales son equivalentes, si se cumple el antecedente, entonces tienen el mismo conjunto solución\". Exactamente el mismo.",
+      "gt_normalizado": "es equivalente a la matriz cd listo entonces ya sabemos que es equivalente podemos aplicar este teorema que está aquí dice mira si dos sistemas de ecuaciones lineales son equivalentes si se cumple el antecedente entonces tienen el mismo conjunto solución exactamente el mismo"
+    },
+    {
+      "sample_id": "clase01_seg0106",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0106.wav",
+      "inicio": 1810.86,
+      "fin": 1824.78,
+      "duracion_seg": 13.92,
+      "gt_original": "Ahora, ¿por qué me importa esto? Porque esto está mucho más sencillo de despejar, si te das cuenta. Eso está muy sencillo, ¿por qué?, porque me elimino de plano no solamente una incógnita, aquí ya no está, ya no me importa,",
+      "gt_normalizado": "ahora por qué me importa esto porque esto está mucho más sencillo de despejar si te das cuenta eso está muy sencillo por qué porque me elimino de plano no solamente una incógnita aquí ya no está ya no me importa"
+    },
+    {
+      "sample_id": "clase01_seg0107",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0107.wav",
+      "inicio": 1825.17,
+      "fin": 1835.25,
+      "duracion_seg": 10.08,
+      "gt_original": "sino que me eliminó toda una fila. No sé, esto está mucho más sencillo de despejar que la primera, y ese es el punto.",
+      "gt_normalizado": "sino que me eliminó toda una fila no sé esto está mucho más sencillo de despejar que la primera y ese es el punto"
+    },
+    {
+      "sample_id": "clase01_seg0108",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0108.wav",
+      "inicio": 1836.09,
+      "fin": 1848.33,
+      "duracion_seg": 12.24,
+      "gt_original": "Porque si ambas tienen el mismo sistema solución, y aquí me tengo que sacar la madre despejando o... o reduciendo o reemplazando, igualando, cualquier forma que hay antes sobre el sistema de ecuaciones,",
+      "gt_normalizado": "porque si ambas tienen el mismo sistema solución y aquí me tengo que sacar la madre despejando o o reduciendo o reemplazando igualando cualquier forma que hay antes sobre el sistema de ecuaciones"
+    },
+    {
+      "sample_id": "clase01_seg0109",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0109.wav",
+      "inicio": 1848.84,
+      "fin": 1859.61,
+      "duracion_seg": 10.77,
+      "gt_original": "prefiero simplemente despejar acá, prefiero simplemente despejar acá. Porque si tienes el mismo sistema de solución, y me da lo mismo hacerlo aquí que hacerlo aquí, yo prefiero mil veces hacerlo en la que está más fácil.",
+      "gt_normalizado": "prefiero simplemente despejar acá prefiero simplemente despejar acá porque si tienes el mismo sistema de solución y me da lo mismo hacerlo aquí que hacerlo aquí yo prefiero mil veces hacerlo en la que está más fácil"
+    },
+    {
+      "sample_id": "clase01_seg0110",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0110.wav",
+      "inicio": 1865.58,
+      "fin": 1877.28,
+      "duracion_seg": 11.7,
+      "gt_original": "Eso es todo, ese es el sentido de reducir, y es la razón por la cual la llegamos a hacer. Ahora, hay una forma... hay dos formas de reducir esto. Esta es la forma",
+      "gt_normalizado": "eso es todo ese es el sentido de reducir y es la razón por la cual la llegamos a hacer ahora hay una forma hay dos formas de reducir esto esta es la forma"
+    },
+    {
+      "sample_id": "clase01_seg0111",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0111.wav",
+      "inicio": 1877.7,
+      "fin": 1894.082,
+      "duracion_seg": 16.382,
+      "gt_original": "escalonada, esto estamos escalonando; aquí está escalonada. And hay la escalonada reducida. ¿Cómo es la escalonada reducida? Es realmente seguir reduciendo esto para que me quede la forma de la identidad,",
+      "gt_normalizado": "escalonada esto estamos escalonando aquí está escalonada and hay la escalonada reducida cómo es la escalonada reducida es realmente seguir reduciendo esto para que me quede la forma de la identidad"
+    },
+    {
+      "sample_id": "clase01_seg0112",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0112.wav",
+      "inicio": 1898.16,
+      "fin": 1911.026,
+      "duracion_seg": 12.866,
+      "gt_original": "ampliada aquí a, qué sé yo, a, b, c. Porque si bien aquí tenemos que hacer un esfuerzo extra por despejar, por ejemplo, aquí tendríamos que hacer: 2y 6z -4, tenemos que ir",
+      "gt_normalizado": "ampliada aquí a qué sé yo a b c porque si bien aquí tenemos que hacer un esfuerzo extra por despejar por ejemplo aquí tendríamos que hacer 2y 6z 4 tenemos que ir"
+    },
+    {
+      "sample_id": "clase01_seg0113",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0113.wav",
+      "inicio": 1915.777,
+      "fin": 1930.6,
+      "duracion_seg": 14.823,
+      "gt_original": "despejando y hacer un pequeño esfuerzo extra. Aquí es básicamente al ojo, decimos que x es igual a a, que y es igual a b, y que z es igual a c.",
+      "gt_normalizado": "despejando y hacer un pequeño esfuerzo extra aquí es básicamente al ojo decimos que x es igual a a que y es igual a b y que z es igual a c"
+    },
+    {
+      "sample_id": "clase01_seg0114",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0114.wav",
+      "inicio": 1938.39,
+      "fin": 1950.748,
+      "duracion_seg": 12.358,
+      "gt_original": "Aquí es automático. Pero, realmente, con que la escalones, está perfecto. Si quieres seguir y escalonarla hasta el final, pues también puedes hacerlo, está muy bien.",
+      "gt_normalizado": "aquí es automático pero realmente con que la escalones está perfecto si quieres seguir y escalonarla hasta el final pues también puedes hacerlo está muy bien"
+    },
+    {
+      "sample_id": "clase01_seg0115",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0115.wav",
+      "inicio": 1951.32,
+      "fin": 1970.289,
+      "duracion_seg": 18.969,
+      "gt_original": "Pero ambas te van a dar... te van a terminar dando lo mismo realmente, ahí es cuestión de gustos, cuestión de cómo se acostumbre, y también cuestión de tiempo, realmente. Entonces, ya por fin entendemos no solo por qué reducimos, cuál es el sentido de reducir, sino que también acabamos de desbloquear una nueva forma de... de... de...",
+      "gt_normalizado": "pero ambas te van a dar te van a terminar dando lo mismo realmente ahí es cuestión de gustos cuestión de cómo se acostumbre y también cuestión de tiempo realmente entonces ya por fin entendemos no solo por qué reducimos cuál es el sentido de reducir sino que también acabamos de desbloquear una nueva forma de de de"
+    },
+    {
+      "sample_id": "clase01_seg0116",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0116.wav",
+      "inicio": 1973.755,
+      "fin": 1984.11,
+      "duracion_seg": 10.355,
+      "gt_original": "resolver, o de encontrar soluciones para sistemas de ecuaciones lineales. Ahora, vamos a ver ahorita, que ya sabemos reducir, sabemos cuál es la forma de estas reducciones,",
+      "gt_normalizado": "resolver o de encontrar soluciones para sistemas de ecuaciones lineales ahora vamos a ver ahorita que ya sabemos reducir sabemos cuál es la forma de estas reducciones"
+    },
+    {
+      "sample_id": "clase01_seg0117",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0117.wav",
+      "inicio": 1984.74,
+      "fin": 1996.629,
+      "duracion_seg": 11.889,
+      "gt_original": "vamos a ver otro tema. Vamos a ver un teorema nuevo; la primera vez, una definición que haga... que tenga sentido, que cobre sentido este problema.",
+      "gt_normalizado": "vamos a ver otro tema vamos a ver un teorema nuevo la primera vez una definición que haga que tenga sentido que cobre sentido este problema"
+    },
+    {
+      "sample_id": "clase01_seg0118",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0118.wav",
+      "inicio": 1997.34,
+      "fin": 2010.39,
+      "duracion_seg": 13.05,
+      "gt_original": "Definición: ¿qué me dice esta definición? Esta definición, vamos a ver, vamos a tratar del rango. Entonces,",
+      "gt_normalizado": "definición qué me dice esta definición esta definición vamos a ver vamos a tratar del rango entonces"
+    },
+    {
+      "sample_id": "clase01_seg0119",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0119.wav",
+      "inicio": 2011.2,
+      "fin": 2022.42,
+      "duracion_seg": 11.22,
+      "gt_original": "para esta definición, vamos a caracterizar a una matriz A; o sea, a una matriz de m x n, una matriz cualquiera, no me importa; y",
+      "gt_normalizado": "para esta definición vamos a caracterizar a una matriz a o sea a una matriz de m x n una matriz cualquiera no me importa y"
+    },
+    {
+      "sample_id": "clase01_seg0120",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0120.wav",
+      "inicio": 2023.74,
+      "fin": 2041.778,
+      "duracion_seg": 18.038,
+      "gt_original": "una matriz C que sea escalonada equivalente por fila a la matriz A —es eso, es equivalente a A—, perfecto. Entonces, se define el rango; para esto, se dice que el rango de A",
+      "gt_normalizado": "una matriz c que sea escalonada equivalente por fila a la matriz a es eso es equivalente a a perfecto entonces se define el rango para esto se dice que el rango de a"
+    },
+    {
+      "sample_id": "clase01_seg0121",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0121.wav",
+      "inicio": 2047.35,
+      "fin": 2058.947,
+      "duracion_seg": 11.597,
+      "gt_original": "es el número de filas no nulas de C, seco.",
+      "gt_normalizado": "es el número de filas no nulas de c seco"
+    },
+    {
+      "sample_id": "clase01_seg0122",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0122.wav",
+      "inicio": 2065.74,
+      "fin": 2074.756,
+      "duracion_seg": 9.016,
+      "gt_original": "El rango se denota por Rango(A) n o r(A) n.",
+      "gt_normalizado": "el rango se denota por rango a n o r a n"
+    },
+    {
+      "sample_id": "clase01_seg0123",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0123.wav",
+      "inicio": 2080.44,
+      "fin": 2095.15,
+      "duracion_seg": 14.71,
+      "gt_original": "Está... yo prefiero hacerlo así, la verdad, más rápido; pero con esta definición basta. Ahora, según este ejemplo, o esta caracterización, ¿cuál es el rango de esta matriz AB que tenemos aquí? Un segundo. Listo.",
+      "gt_normalizado": "está yo prefiero hacerlo así la verdad más rápido pero con esta definición basta ahora según este ejemplo o esta caracterización cuál es el rango de esta matriz ab que tenemos aquí un segundo listo"
+    },
+    {
+      "sample_id": "clase01_seg0124",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0124.wav",
+      "inicio": 2102.1,
+      "fin": 2122.89,
+      "duracion_seg": 20.79,
+      "gt_original": "Ahora, ¿cuál es el rango de esta matriz AB? Recordemos que el rango se define como el número de filas no nulas que hay al escalonar esa matriz. Entonces, vamos a quitar estas equis que había puesto aquí. No se puede hacerlo sin borrar todo. ¡Genial!",
+      "gt_normalizado": "ahora cuál es el rango de esta matriz ab recordemos que el rango se define como el número de filas no nulas que hay al escalonar esa matriz entonces vamos a quitar estas equis que había puesto aquí no se puede hacerlo sin borrar todo genial"
+    },
+    {
+      "sample_id": "clase01_seg0125",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0125.wav",
+      "inicio": 2130.6,
+      "fin": 2141.04,
+      "duracion_seg": 10.44,
+      "gt_original": "Ahora, ¿cuántas filas no nulas tiene esta matriz CD? Vamos a ver. Tiene una, tiene dos. ¡Ah!, aquí no tiene, esta se hizo totalmente nula.",
+      "gt_normalizado": "ahora cuántas filas no nulas tiene esta matriz cd vamos a ver tiene una tiene dos ah aquí no tiene esta se hizo totalmente nula"
+    },
+    {
+      "sample_id": "clase01_seg0126",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0126.wav",
+      "inicio": 2141.79,
+      "fin": 2153.34,
+      "duracion_seg": 11.55,
+      "gt_original": "Entonces, ¿cuál es el rango, entonces, de AB? Vamos a escribirlo, el rango de AB... A ver,",
+      "gt_normalizado": "entonces cuál es el rango entonces de ab vamos a escribirlo el rango de ab a ver"
+    },
+    {
+      "sample_id": "clase01_seg0127",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0127.wav",
+      "inicio": 2155.53,
+      "fin": 2166.78,
+      "duracion_seg": 11.25,
+      "gt_original": "estos, ya en función a esta definición, ya podemos saber cuál es el rango de una matriz, perfecto. Es algo que no sabíamos también, que ahora estamos aprendiendo.",
+      "gt_normalizado": "estos ya en función a esta definición ya podemos saber cuál es el rango de una matriz perfecto es algo que no sabíamos también que ahora estamos aprendiendo"
+    },
+    {
+      "sample_id": "clase01_seg0128",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0128.wav",
+      "inicio": 2167.62,
+      "fin": 2182.03,
+      "duracion_seg": 14.41,
+      "gt_original": "Ahora sí, con esta definición, el siguiente teorema va a tener todo el sentido del mundo. Teorema: ¿qué me dice este teorema? Este teorema me cuenta, me explica que",
+      "gt_normalizado": "ahora sí con esta definición el siguiente teorema va a tener todo el sentido del mundo teorema qué me dice este teorema este teorema me cuenta me explica que"
+    },
+    {
+      "sample_id": "clase01_seg0129",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0129.wav",
+      "inicio": 2185.5,
+      "fin": 2195.086,
+      "duracion_seg": 9.586,
+      "gt_original": "sea A una matriz cualquiera de orden m x n, y considerando que A",
+      "gt_normalizado": "sea a una matriz cualquiera de orden m x n y considerando que a"
+    },
+    {
+      "sample_id": "clase01_seg0130",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0130.wav",
+      "inicio": 2200.77,
+      "fin": 2217.6,
+      "duracion_seg": 16.83,
+      "gt_original": "X B un sistema de ecuaciones lineales, lo típico de mis ecuaciones y n incógnitas. Entonces,",
+      "gt_normalizado": "x b un sistema de ecuaciones lineales lo típico de mis ecuaciones y n incógnitas entonces"
+    },
+    {
+      "sample_id": "clase01_seg0131",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0131.wav",
+      "inicio": 2225.7,
+      "fin": 2237.911,
+      "duracion_seg": 12.211,
+      "gt_original": "uno... me explica varias cosas, miren. Bueno, el sistema dado... Bueno, vamos a escribirlo como implicaciones. Si el rango de A es",
+      "gt_normalizado": "uno me explica varias cosas miren bueno el sistema dado bueno vamos a escribirlo como implicaciones si el rango de a es"
+    },
+    {
+      "sample_id": "clase01_seg0132",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0132.wav",
+      "inicio": 2243.518,
+      "fin": 2248.231,
+      "duracion_seg": 4.713,
+      "gt_original": "igual al rango de la matriz ampliada AB, then...",
+      "gt_normalizado": "igual al rango de la matriz ampliada ab then"
+    },
+    {
+      "sample_id": "clase01_seg0133",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0133.wav",
+      "inicio": 2255.31,
+      "fin": 2267.992,
+      "duracion_seg": 12.682,
+      "gt_original": "entonces esto es consistente, el sistema de ecuaciones lineales es consistente. Vamos a ver si... si estamos... ya van a ver, si",
+      "gt_normalizado": "entonces esto es consistente el sistema de ecuaciones lineales es consistente vamos a ver si si estamos ya van a ver si"
+    },
+    {
+      "sample_id": "clase01_seg0134",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0134.wav",
+      "inicio": 2270.97,
+      "fin": 2288.911,
+      "duracion_seg": 17.941,
+      "gt_original": "después le agregamos más cosas. 1.1: Ah, bueno, vamos a ponerlo como 1.1. ¿Qué más me cuenta? Me dice: si... solamente si n es",
+      "gt_normalizado": "después le agregamos más cosas 1 1 ah bueno vamos a ponerlo como 1 1 qué más me cuenta me dice si solamente si n es"
+    },
+    {
+      "sample_id": "clase01_seg0135",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0135.wav",
+      "inicio": 2295.45,
+      "fin": 2309.814,
+      "duracion_seg": 14.364,
+      "gt_original": "igual al rango de AB —bueno el rango de AB—, entonces esto es consistente determinado. ¿Qué más me",
+      "gt_normalizado": "igual al rango de ab bueno el rango de ab entonces esto es consistente determinado qué más me"
+    },
+    {
+      "sample_id": "clase01_seg0136",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0136.wav",
+      "inicio": 2324.261,
+      "fin": 2337.25,
+      "duracion_seg": 12.989,
+      "gt_original": "cuenta esto? Me dice que si el rango de AB es menor a n,",
+      "gt_normalizado": "cuenta esto me dice que si el rango de ab es menor a n"
+    },
+    {
+      "sample_id": "clase01_seg0137",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0137.wav",
+      "inicio": 2340.03,
+      "fin": 2352.45,
+      "duracion_seg": 12.42,
+      "gt_original": "entonces es consistente también, pero indeterminado. Indeterminado.",
+      "gt_normalizado": "entonces es consistente también pero indeterminado indeterminado"
+    },
+    {
+      "sample_id": "clase01_seg0138",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0138.wav",
+      "inicio": 2357.13,
+      "fin": 2370.73,
+      "duracion_seg": 13.6,
+      "gt_original": "Ahora, lo típico, ¿qué es n? ¿De dónde me sacas n, genio? De aquí, recordemos también que X es el número o es la matriz de incógnitas de",
+      "gt_normalizado": "ahora lo típico qué es n de dónde me sacas n genio de aquí recordemos también que x es el número o es la matriz de incógnitas de"
+    },
+    {
+      "sample_id": "clase01_seg0139",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0139.wav",
+      "inicio": 2372.28,
+      "fin": 2391.398,
+      "duracion_seg": 19.118,
+      "gt_original": "orden... tiene n filas y tiene una columna, es de orden n x 1. Entonces, básicamente, el número de incógnitas, n es el número de incógnitas. ¿Qué más... qué más tenemos aquí? Dos: si el rango de A",
+      "gt_normalizado": "orden tiene n filas y tiene una columna es de orden n x 1 entonces básicamente el número de incógnitas n es el número de incógnitas qué más qué más tenemos aquí dos si el rango de a"
+    },
+    {
+      "sample_id": "clase01_seg0140",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0140.wav",
+      "inicio": 2396.46,
+      "fin": 2400.976,
+      "duracion_seg": 4.516,
+      "gt_original": "es menor al rango de AB,",
+      "gt_normalizado": "es menor al rango de ab"
+    },
+    {
+      "sample_id": "clase01_seg0141",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0141.wav",
+      "inicio": 2406.18,
+      "fin": 2408.37,
+      "duracion_seg": 2.19,
+      "gt_original": "entonces esto es inconsistente.",
+      "gt_normalizado": "entonces esto es inconsistente"
+    },
+    {
+      "sample_id": "clase01_seg0142",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0142.wav",
+      "inicio": 2415.9,
+      "fin": 2436.027,
+      "duracion_seg": 20.127,
+      "gt_original": "Así es, es inconsistente. Este es el teorema nuevo que estamos viendo y que vamos a ver que es cierto también, y que nos va a ayudar a poder saber qué esperarnos de un sistema antes de empezar a determinar solución. Solamente reduciéndolo ya podemos ir viendo qué podemos esperarnos gracias a este teorema. Vamos a ver el ejemplo que",
+      "gt_normalizado": "así es es inconsistente este es el teorema nuevo que estamos viendo y que vamos a ver que es cierto también y que nos va a ayudar a poder saber qué esperarnos de un sistema antes de empezar a determinar solución solamente reduciéndolo ya podemos ir viendo qué podemos esperarnos gracias a este teorema vamos a ver el ejemplo que"
+    },
+    {
+      "sample_id": "clase01_seg0143",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0143.wav",
+      "inicio": 2436.57,
+      "fin": 2457.107,
+      "duracion_seg": 20.537,
+      "gt_original": "tenemos aquí, aquí arriba. A ver cuál es lo que tienen, cuál es el rango. Vamos a... sí, vamos a ver ese ejemplo, pero vamos a jalarme esto aquí porque... seleccionar rectángulo y vamos a",
+      "gt_normalizado": "tenemos aquí aquí arriba a ver cuál es lo que tienen cuál es el rango vamos a sí vamos a ver ese ejemplo pero vamos a jalarme esto aquí porque seleccionar rectángulo y vamos a"
+    },
+    {
+      "sample_id": "clase01_seg0144",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0144.wav",
+      "inicio": 2462.31,
+      "fin": 2473.531,
+      "duracion_seg": 11.221,
+      "gt_original": "ponerlo bonito. Vamos a poder... tres, vas a poner otra situación más aquí, se hacen muy parecidas. vamos a",
+      "gt_normalizado": "ponerlo bonito vamos a poder tres vas a poner otra situación más aquí se hacen muy parecidas vamos a"
+    },
+    {
+      "sample_id": "clase01_seg0145",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0145.wav",
+      "inicio": 2481.236,
+      "fin": 2492.98,
+      "duracion_seg": 11.744,
+      "gt_original": "quitar esto y esto, y vamos a cambiar aquí por un número cualquiera, que sería siete. Bien, esto es mi matriz ampliada AB,",
+      "gt_normalizado": "quitar esto y esto y vamos a cambiar aquí por un número cualquiera que sería siete bien esto es mi matriz ampliada ab"
+    },
+    {
+      "sample_id": "clase01_seg0146",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0146.wav",
+      "inicio": 2494.14,
+      "fin": 2506.95,
+      "duracion_seg": 12.81,
+      "gt_original": "bueno técnicamente CD. Y esta es otra matriz ampliada, qué sé yo, EF. Listo, en esta situación,",
+      "gt_normalizado": "bueno técnicamente cd y esta es otra matriz ampliada qué sé yo ef listo en esta situación"
+    },
+    {
+      "sample_id": "clase01_seg0147",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0147.wav",
+      "inicio": 2508.81,
+      "fin": 2521.59,
+      "duracion_seg": 12.78,
+      "gt_original": "esto es A, claro, esto termina siendo el número... estos... A, y esto es, a ver... ¿Por qué hago esas aclaraciones?",
+      "gt_normalizado": "esto es a claro esto termina siendo el número estos a y esto es a ver por qué hago esas aclaraciones"
+    },
+    {
+      "sample_id": "clase01_seg0148",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0148.wav",
+      "inicio": 2522.49,
+      "fin": 2536.081,
+      "duracion_seg": 13.591,
+      "gt_original": "Para poder identificar, ir viendo este, por ejemplo, el punto uno y el punto dos, que me hablaba el rango de A y el rango de AB por separado. Aquí a priori parece ser igual en la primera situación. ¿Por qué?",
+      "gt_normalizado": "para poder identificar ir viendo este por ejemplo el punto uno y el punto dos que me hablaba el rango de a y el rango de ab por separado aquí a priori parece ser igual en la primera situación por qué"
+    },
+    {
+      "sample_id": "clase01_seg0149",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0149.wav",
+      "inicio": 2539.41,
+      "fin": 2550.294,
+      "duracion_seg": 10.884,
+      "gt_original": "Porque el rango de A, ¿cuánto es? El número es... es el número de filas no nulas que tenemos al reducir A. ¿Y cómo es la reducción de A? Es esta cosa que está en celeste. Esa es",
+      "gt_normalizado": "porque el rango de a cuánto es el número es es el número de filas no nulas que tenemos al reducir a y cómo es la reducción de a es esta cosa que está en celeste esa es"
+    },
+    {
+      "sample_id": "clase01_seg0150",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0150.wav",
+      "inicio": 2556.96,
+      "fin": 2572.587,
+      "duracion_seg": 15.627,
+      "gt_original": "la reducción, ¿verdad? Y la de B... y la de AB es la que está en morado, es todo eso, básicamente. Vamos a hacer lo mismo acá: lo del morado es EF y lo de... y",
+      "gt_normalizado": "la reducción verdad y la de b y la de ab es la que está en morado es todo eso básicamente vamos a hacer lo mismo acá lo del morado es ef y lo de y"
+    },
+    {
+      "sample_id": "clase01_seg0151",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0151.wav",
+      "inicio": 2583.21,
+      "fin": 2592.57,
+      "duracion_seg": 9.36,
+      "gt_original": "este es... esto. Sí, ¿cuál es el rango de A en este caso?",
+      "gt_normalizado": "este es esto sí cuál es el rango de a en este caso"
+    },
+    {
+      "sample_id": "clase01_seg0152",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0152.wav",
+      "inicio": 2598.96,
+      "fin": 2611.562,
+      "duracion_seg": 12.602,
+      "gt_original": "El rango de A, el número de filas no nulas que está en la cajita celeste, es decir, uno y dos, es 2. Vamos a poner bien esto. ¿Cuánto es el rango de AB? Es el",
+      "gt_normalizado": "el rango de a el número de filas no nulas que está en la cajita celeste es decir uno y dos es 2 vamos a poner bien esto cuánto es el rango de ab es el"
+    },
+    {
+      "sample_id": "clase01_seg0153",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0153.wav",
+      "inicio": 2613.709,
+      "fin": 2625.51,
+      "duracion_seg": 11.801,
+      "gt_original": "número de filas no nulas de todo el conjunto de la matriz ampliada, entonces este también... ¡ah, mira!, son iguales. Casualidad. En esta situación,",
+      "gt_normalizado": "número de filas no nulas de todo el conjunto de la matriz ampliada entonces este también ah mira son iguales casualidad en esta situación"
+    },
+    {
+      "sample_id": "clase01_seg0154",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0154.wav",
+      "inicio": 2626.11,
+      "fin": 2642.04,
+      "duracion_seg": 15.93,
+      "gt_original": "el rango de A sería el número... el número de filas no nulas que hay en la cajita celeste: dos. And el rango de la matriz ampliada AB, en este caso...",
+      "gt_normalizado": "el rango de a sería el número el número de filas no nulas que hay en la cajita celeste dos and el rango de la matriz ampliada ab en este caso"
+    },
+    {
+      "sample_id": "clase01_seg0155",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0155.wav",
+      "inicio": 2647.83,
+      "fin": 2659.65,
+      "duracion_seg": 11.82,
+      "gt_original": "bueno, es el número de filas no nulas que hay dentro de toda la cajita rosada; es decir, hay uno, dos... ¡ah, mira!, aquí no es nula totalmente,",
+      "gt_normalizado": "bueno es el número de filas no nulas que hay dentro de toda la cajita rosada es decir hay uno dos ah mira aquí no es nula totalmente"
+    },
+    {
+      "sample_id": "clase01_seg0156",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0156.wav",
+      "inicio": 2660.4,
+      "fin": 2670.81,
+      "duracion_seg": 10.41,
+      "gt_original": "aquí no es totalmente nula, hay un 7, entonces hay tres filas. ¡Ah, mira! Sí puede pasar que sean diferentes, sí sean",
+      "gt_normalizado": "aquí no es totalmente nula hay un 7 entonces hay tres filas ah mira sí puede pasar que sean diferentes sí sean"
+    },
+    {
+      "sample_id": "clase01_seg0157",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0157.wav",
+      "inicio": 2673.571,
+      "fin": 2683.68,
+      "duracion_seg": 10.109,
+      "gt_original": "diferentes el rango de la matriz A puede llegar a ser diferente al rango de la matriz ampliada AB. Entonces, en función de esto, cuando son iguales, tenemos el primer caso, es decir, sabemos que es consistente.",
+      "gt_normalizado": "diferentes el rango de la matriz a puede llegar a ser diferente al rango de la matriz ampliada ab entonces en función de esto cuando son iguales tenemos el primer caso es decir sabemos que es consistente"
+    },
+    {
+      "sample_id": "clase01_seg0158",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0158.wav",
+      "inicio": 2684.37,
+      "fin": 2695.531,
+      "duracion_seg": 11.161,
+      "gt_original": "Ya con esto nos esperamos... uno: tiene solución. Por teorema sabemos que tiene solución, genial. ¿Qué más?",
+      "gt_normalizado": "ya con esto nos esperamos uno tiene solución por teorema sabemos que tiene solución genial qué más"
+    },
+    {
+      "sample_id": "clase01_seg0159",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0159.wav",
+      "inicio": 2697.18,
+      "fin": 2717.23,
+      "duracion_seg": 20.05,
+      "gt_original": "Mira aquí, en la primera situación, tiene... es igual, es decir, el número de incógnitas es igual al rango de la matriz ampliada, entonces es determinado. ¿Cuántas incógnitas tenía esto? Tenía uno, dos, tres. Entonces esto tiene tres incógnitas, y",
+      "gt_normalizado": "mira aquí en la primera situación tiene es igual es decir el número de incógnitas es igual al rango de la matriz ampliada entonces es determinado cuántas incógnitas tenía esto tenía uno dos tres entonces esto tiene tres incógnitas y"
+    },
+    {
+      "sample_id": "clase01_seg0160",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0160.wav",
+      "inicio": 2722.597,
+      "fin": 2745.31,
+      "duracion_seg": 22.713,
+      "gt_original": "el rango de AB es 2. Okay, aquí ya no se cumple el 1.1, que es que sean iguales, pero sí se cumple el segundo: miren, hay más número de incógnitas... el número de incógnitas es mayor que el rango de la matriz, por lo tanto cae en la segunda situación, es decir, esto es",
+      "gt_normalizado": "el rango de ab es 2 okay aquí ya no se cumple el 1 1 que es que sean iguales pero sí se cumple el segundo miren hay más número de incógnitas el número de incógnitas es mayor que el rango de la matriz por lo tanto cae en la segunda situación es decir esto es"
+    },
+    {
+      "sample_id": "clase01_seg0161",
+      "clase_id": "clase01",
+      "ruta_audio": "data/processed/chunks/clase01/clase01_seg0161.wav",
+      "inicio": 2753.88,
+      "fin": 2758.35,
+      "duracion_seg": 4.47,
+      "gt_original": "consistente indeterminado... consistente... bueno no, vamos a escribir así, sabemos",
+      "gt_normalizado": "consistente indeterminado consistente bueno no vamos a escribir así sabemos"
+    }
+  ]
+}

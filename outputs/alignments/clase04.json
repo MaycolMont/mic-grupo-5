@@ -1,0 +1,2581 @@
+{
+  "clase_id": "clase04",
+  "audio_stem": "yt_fisica-mecanica-ayudantias_20210927_003",
+  "audio_path": "data/interim/wav_16k/yt_fisica-mecanica-ayudantias_20210927_003.wav",
+  "duracion_audio_seg": 3747.121,
+  "palabras_gt": 9179,
+  "palabras_reconocidas": 6505,
+  "ratio_anclaje": 0.4925,
+  "chunks": [
+    {
+      "sample_id": "clase04_seg0001",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0001.wav",
+      "inicio": 0.41,
+      "fin": 19.83,
+      "duracion_seg": 19.42,
+      "gt_original": "Ya, listo. Entonces, cada observador, como yo les indicaba, tiene como eh un origen, ¿okay? Tiene una coordenada 0, 0, 0 que le va a indicar su origen. Entonces, él va a ver la posición con respecto a su origen. Ya. Por lo tanto, la posición va a ser relativa, va a depender del observador.",
+      "gt_normalizado": "ya listo entonces cada observador como yo les indicaba tiene como eh un origen okay tiene una coordenada 0 0 0 que le va a indicar su origen entonces él va a ver la posición con respecto a su origen ya por lo tanto la posición va a ser relativa va a depender del observador"
+    },
+    {
+      "sample_id": "clase04_seg0002",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0002.wav",
+      "inicio": 20.25,
+      "fin": 37.36,
+      "duracion_seg": 17.11,
+      "gt_original": "¿Ya? Entonces, ya más adelante vamos a ver que la velocidad y la aceleración también dependen, pero más que el observador va a depender del sistema de referencia que elijas, ¿okay? Y vamos a ver cuál es la diferencia entre observador y sistema de referencia. Eh,",
+      "gt_normalizado": "ya entonces ya más adelante vamos a ver que la velocidad y la aceleración también dependen pero más que el observador va a depender del sistema de referencia que elijas okay y vamos a ver cuál es la diferencia entre observador y sistema de referencia eh"
+    },
+    {
+      "sample_id": "clase04_seg0003",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0003.wav",
+      "inicio": 39.09,
+      "fin": 50.43,
+      "duracion_seg": 11.34,
+      "gt_original": "yo lo, o sea, yo lo separo así, ¿okay? Yo separo en eh observador y sistema de referencia como que lo separo, pero en realidad tiene que ver eh entre sí. Entonces, a ver, primero",
+      "gt_normalizado": "yo lo o sea yo lo separo así okay yo separo en eh observador y sistema de referencia como que lo separo pero en realidad tiene que ver eh entre sí entonces a ver primero"
+    },
+    {
+      "sample_id": "clase04_seg0004",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0004.wav",
+      "inicio": 51.39,
+      "fin": 62.01,
+      "duracion_seg": 10.62,
+      "gt_original": "supongamos que a tu izquierda ya estás en un cuarto y a tu izquierda estar ubicado eh una persona, ¿okay? Puede ser, qué sé yo, tu compañero.",
+      "gt_normalizado": "supongamos que a tu izquierda ya estás en un cuarto y a tu izquierda estar ubicado eh una persona okay puede ser qué sé yo tu compañero"
+    },
+    {
+      "sample_id": "clase04_seg0005",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0005.wav",
+      "inicio": 62.64,
+      "fin": 76.32,
+      "duracion_seg": 13.68,
+      "gt_original": "Entonces, tu compañero va a tener su origen acá. Entonces, el origen de tu compañero es 0, 0. Imaginemos que estamos viviendo en un plano de de dos dimensiones. ¿Okay? Y por eso es que tenemos simplemente el plano cartesiano,",
+      "gt_normalizado": "entonces tu compañero va a tener su origen acá entonces el origen de tu compañero es 0 0 imaginemos que estamos viviendo en un plano de de dos dimensiones okay y por eso es que tenemos simplemente el plano cartesiano"
+    },
+    {
+      "sample_id": "clase04_seg0006",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0006.wav",
+      "inicio": 77.43,
+      "fin": 95.621,
+      "duracion_seg": 18.191,
+      "gt_original": "ya no tenemos el eh con el eje zeta, ¿no? Ya. Ahora, supongamos que eh tú estás ubicado a tu derecha, ¿okay? Estás ubicado más o menos por acá y un poco hacia abajo, ¿no? ¿Por qué no? Entonces para ti tu origen es este, o sea, tu origen es 0, 0",
+      "gt_normalizado": "ya no tenemos el eh con el eje zeta no ya ahora supongamos que eh tú estás ubicado a tu derecha okay estás ubicado más o menos por acá y un poco hacia abajo no por qué no entonces para ti tu origen es este o sea tu origen es 0 0"
+    },
+    {
+      "sample_id": "clase04_seg0007",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0007.wav",
+      "inicio": 96.81,
+      "fin": 111.48,
+      "duracion_seg": 14.67,
+      "gt_original": "es distinto al del otro observador. ¿Okay? Entonces, lo que yo les indicaba, supongamos que eh ya listo, a la izquierda está tu compañero y tú estás a la derecha y su y vamos a suponer que un objeto va a estar entre los dos,",
+      "gt_normalizado": "es distinto al del otro observador okay entonces lo que yo les indicaba supongamos que eh ya listo a la izquierda está tu compañero y tú estás a la derecha y su y vamos a suponer que un objeto va a estar entre los dos"
+    },
+    {
+      "sample_id": "clase04_seg0008",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0008.wav",
+      "inicio": 111.84,
+      "fin": 122.35,
+      "duracion_seg": 10.51,
+      "gt_original": "¿okay? Vamos a tener un objeto como una esfera. Ya. Entonces, yo le pregunto a tu amigo, Oye, ¿sabes qué? La misma pregunta con la analogía de de los compañeros y la profesora. Eh,",
+      "gt_normalizado": "okay vamos a tener un objeto como una esfera ya entonces yo le pregunto a tu amigo oye sabes qué la misma pregunta con la analogía de de los compañeros y la profesora eh"
+    },
+    {
+      "sample_id": "clase04_seg0009",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0009.wav",
+      "inicio": 123.57,
+      "fin": 138.4,
+      "duracion_seg": 14.83,
+      "gt_original": "para ti esta pelota eh, ¿a qué posición está? Entonces, el man mide desde el punto de la pelota hacia su origen. ¿Okay? Entonces, el vector de erre de posición para esta persona, que vamos a llamarle eh",
+      "gt_normalizado": "para ti esta pelota eh a qué posición está entonces el man mide desde el punto de la pelota hacia su origen okay entonces el vector de erre de posición para esta persona que vamos a llamarle eh"
+    },
+    {
+      "sample_id": "clase04_seg0010",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0010.wav",
+      "inicio": 139.62,
+      "fin": 164.55,
+      "duracion_seg": 24.93,
+      "gt_original": "O y vamos a ponerle un apóstrofe, ¿okay? Y vamos a decir que eh tú tienes o vas a llamarte como O. ¿Okay? Entonces, la posición desde la pelota, perdón, desde el origen hasta la pelota es un vector que va hacia acá. Ahora yo le pregunto, yo te pregunto a ti, ¿okay? Que tú tienes un marco, perdón, un sistema de coordenadas que está un poco más a la",
+      "gt_normalizado": "o y vamos a ponerle un apóstrofe okay y vamos a decir que eh tú tienes o vas a llamarte como o okay entonces la posición desde la pelota perdón desde el origen hasta la pelota es un vector que va hacia acá ahora yo le pregunto yo te pregunto a ti okay que tú tienes un marco perdón un sistema de coordenadas que está un poco más a la"
+    },
+    {
+      "sample_id": "clase04_seg0011",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0011.wav",
+      "inicio": 164.55,
+      "fin": 175.138,
+      "duracion_seg": 10.588,
+      "gt_original": "derecha, tú eres otro observador. Por lo tanto, la posición que tú vas a ver, que tú vas a ver con a la pelota va a ser a la izquierda, ¿okay?",
+      "gt_normalizado": "derecha tú eres otro observador por lo tanto la posición que tú vas a ver que tú vas a ver con a la pelota va a ser a la izquierda okay"
+    },
+    {
+      "sample_id": "clase04_seg0012",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0012.wav",
+      "inicio": 176.19,
+      "fin": 186.711,
+      "duracion_seg": 10.521,
+      "gt_original": "Y va a ser un poco más largo, o sea, en magnitud va a valer más, ¿okay? Tú lo vas a tú lo vas a ver más distante en este caso. Por lo tanto, eh si te das cuenta eh esta",
+      "gt_normalizado": "y va a ser un poco más largo o sea en magnitud va a valer más okay tú lo vas a tú lo vas a ver más distante en este caso por lo tanto eh si te das cuenta eh esta"
+    },
+    {
+      "sample_id": "clase04_seg0013",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0013.wav",
+      "inicio": 188.31,
+      "fin": 204.724,
+      "duracion_seg": 16.414,
+      "gt_original": "posición va a ser relativa, va a ser la posición de la pelota pe con respecto al al observador O prima. Y este vector va a ser la posición de la pelota con respecto eh a O.",
+      "gt_normalizado": "posición va a ser relativa va a ser la posición de la pelota pe con respecto al al observador o prima y este vector va a ser la posición de la pelota con respecto eh a o"
+    },
+    {
+      "sample_id": "clase04_seg0014",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0014.wav",
+      "inicio": 205.38,
+      "fin": 216.956,
+      "duracion_seg": 11.576,
+      "gt_original": "¿Okay? Entonces vamos a tener eh distintas posiciones. Ahora, por ejemplo, si yo coloco otro objeto, vamos a a colocar un una caja, por ejemplo, y vamos a",
+      "gt_normalizado": "okay entonces vamos a tener eh distintas posiciones ahora por ejemplo si yo coloco otro objeto vamos a a colocar un una caja por ejemplo y vamos a"
+    },
+    {
+      "sample_id": "clase04_seg0015",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0015.wav",
+      "inicio": 217.5,
+      "fin": 228.431,
+      "duracion_seg": 10.931,
+      "gt_original": "trazar los eh vectores, ¿okay? Este vector de posición con respecto a O. Entonces, este es el vector de posición de la caja con respecto a O.",
+      "gt_normalizado": "trazar los eh vectores okay este vector de posición con respecto a o entonces este es el vector de posición de la caja con respecto a o"
+    },
+    {
+      "sample_id": "clase04_seg0016",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0016.wav",
+      "inicio": 228.87,
+      "fin": 239.76,
+      "duracion_seg": 10.89,
+      "gt_original": "Y ahora vamos a trazar eh esto para para que ustedes vean. Vamos a decir eh vamos a saber cuál es la posición de un observador con respecto al otro observador.",
+      "gt_normalizado": "y ahora vamos a trazar eh esto para para que ustedes vean vamos a decir eh vamos a saber cuál es la posición de un observador con respecto al otro observador"
+    },
+    {
+      "sample_id": "clase04_seg0017",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0017.wav",
+      "inicio": 240.24,
+      "fin": 252.309,
+      "duracion_seg": 12.069,
+      "gt_original": "¿Cómo hacemos eso? Simplemente eh tras vemos que el origen de este observador, el origen de este y vamos a trazar un vector posición, ¿okay? Vamos a decir que este",
+      "gt_normalizado": "cómo hacemos eso simplemente eh tras vemos que el origen de este observador el origen de este y vamos a trazar un vector posición okay vamos a decir que este"
+    },
+    {
+      "sample_id": "clase04_seg0018",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0018.wav",
+      "inicio": 252.81,
+      "fin": 264.42,
+      "duracion_seg": 11.61,
+      "gt_original": "vector ya es eh la posición del observador o con respecto al observador O prima. ¿Okay? ¿Para qué vamos a hacer eso?",
+      "gt_normalizado": "vector ya es eh la posición del observador o con respecto al observador o prima okay para qué vamos a hacer eso"
+    },
+    {
+      "sample_id": "clase04_seg0019",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0019.wav",
+      "inicio": 264.99,
+      "fin": 279.478,
+      "duracion_seg": 14.488,
+      "gt_original": "Ya para nosotros sacar la fórmula que nosotros lo usamos siempre, ¿ya? Pero no sabemos por qué la usamos. ¿Okay? Entonces, eh la fórmula es esta. Ya de una vez le les voy a poner la fórmula. Es que la posición de A",
+      "gt_normalizado": "ya para nosotros sacar la fórmula que nosotros lo usamos siempre ya pero no sabemos por qué la usamos okay entonces eh la fórmula es esta ya de una vez le les voy a poner la fórmula es que la posición de a"
+    },
+    {
+      "sample_id": "clase04_seg0020",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0020.wav",
+      "inicio": 286.17,
+      "fin": 302.281,
+      "duracion_seg": 16.111,
+      "gt_original": "con respecto a ce va a ser igual a la posición de A con respecto a be más la posición de be con respecto a ce. ¿Okay? Entonces, esta formulita la usamos eh a menudos. Seguramente no la usamos en términos de la posición, sino la usamos en términos de la velocidad. ¿Okay? Pero es lo",
+      "gt_normalizado": "con respecto a ce va a ser igual a la posición de a con respecto a be más la posición de be con respecto a ce okay entonces esta formulita la usamos eh a menudos seguramente no la usamos en términos de la posición sino la usamos en términos de la velocidad okay pero es lo"
+    },
+    {
+      "sample_id": "clase04_seg0021",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0021.wav",
+      "inicio": 303.664,
+      "fin": 314.25,
+      "duracion_seg": 10.586,
+      "gt_original": "mismo, ¿ya? Es es la misma fórmula. ¿Por qué? ¿De dónde sale esta fórmula? De esto. ¿Qué va a pasar si yo quiero saber la posición de la caja? Ya, la posición de la caja,",
+      "gt_normalizado": "mismo ya es es la misma fórmula por qué de dónde sale esta fórmula de esto qué va a pasar si yo quiero saber la posición de la caja ya la posición de la caja"
+    },
+    {
+      "sample_id": "clase04_seg0022",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0022.wav",
+      "inicio": 314.94,
+      "fin": 330.24,
+      "duracion_seg": 15.3,
+      "gt_original": "pero con respecto al O prima, simplemente trazo desde su origen hacia la caja. Trazo un vector, ¿verdad? Entonces, eh este vector eh va a ser erre eh caja con respecto al observador",
+      "gt_normalizado": "pero con respecto al o prima simplemente trazo desde su origen hacia la caja trazo un vector verdad entonces eh este vector eh va a ser erre eh caja con respecto al observador"
+    },
+    {
+      "sample_id": "clase04_seg0023",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0023.wav",
+      "inicio": 330.87,
+      "fin": 343.659,
+      "duracion_seg": 12.789,
+      "gt_original": "O prima. Ahora, si se dan cuenta y si saben sumar vectores, como se supone que todo el mundo sabemos sumar vectores, si yo sumo este vector que tengo acá",
+      "gt_normalizado": "o prima ahora si se dan cuenta y si saben sumar vectores como se supone que todo el mundo sabemos sumar vectores si yo sumo este vector que tengo acá"
+    },
+    {
+      "sample_id": "clase04_seg0024",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0024.wav",
+      "inicio": 344.49,
+      "fin": 360.96,
+      "duracion_seg": 16.47,
+      "gt_original": "más este vector, ya la suma, el resultado me tiene que dar eh por suma de vectores este vector que yo tracé, que es la posición de la caja con respecto a este observador. Por lo tanto, yo puedo decir",
+      "gt_normalizado": "más este vector ya la suma el resultado me tiene que dar eh por suma de vectores este vector que yo tracé que es la posición de la caja con respecto a este observador por lo tanto yo puedo decir"
+    },
+    {
+      "sample_id": "clase04_seg0025",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0025.wav",
+      "inicio": 361.38,
+      "fin": 379.948,
+      "duracion_seg": 18.568,
+      "gt_original": "intuitivamente y bueno, matemáticamente, ¿verdad? Justificado que la suma de este vector, ya, que es la posición de O eh con respecto a apóstrofe, más la posición de la caja con respecto a O, me tiene que dar de ley, o sea, de ley este",
+      "gt_normalizado": "intuitivamente y bueno matemáticamente verdad justificado que la suma de este vector ya que es la posición de o eh con respecto a apóstrofe más la posición de la caja con respecto a o me tiene que dar de ley o sea de ley este"
+    },
+    {
+      "sample_id": "clase04_seg0026",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0026.wav",
+      "inicio": 380.55,
+      "fin": 397.02,
+      "duracion_seg": 16.47,
+      "gt_original": "vector de acá. Ya. Y vamos a reordenar un poco para que que quiero que se aprendan como que un truquillo para saber si tú estás haciendo bien. Okay. Y simplemente vamos a intercambiar eh por la propiedad comutativa estos términos.",
+      "gt_normalizado": "vector de acá ya y vamos a reordenar un poco para que que quiero que se aprendan como que un truquillo para saber si tú estás haciendo bien okay y simplemente vamos a intercambiar eh por la propiedad comutativa estos términos"
+    },
+    {
+      "sample_id": "clase04_seg0027",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0027.wav",
+      "inicio": 397.62,
+      "fin": 407.64,
+      "duracion_seg": 10.02,
+      "gt_original": "Vamos eh a poner que esto es igual a erre ce eh sobre O más erre o sobre O prima. ¿Okay?,",
+      "gt_normalizado": "vamos eh a poner que esto es igual a erre ce eh sobre o más erre o sobre o prima okay"
+    },
+    {
+      "sample_id": "clase04_seg0028",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0028.wav",
+      "inicio": 408.42,
+      "fin": 424.29,
+      "duracion_seg": 15.87,
+      "gt_original": "ya. Yo quiero eh ponerlo así para para después enseñarles de alguna manera eh que se aprenda mucho más fácil esto. ¿Okay? Entonces, estamos justificando por qué tenemos que aprender esta fórmula. No estamos aprendiendo la fórmula así porque sí, si no hay un por qué. Okay.",
+      "gt_normalizado": "ya yo quiero eh ponerlo así para para después enseñarles de alguna manera eh que se aprenda mucho más fácil esto okay entonces estamos justificando por qué tenemos que aprender esta fórmula no estamos aprendiendo la fórmula así porque sí si no hay un por qué okay"
+    },
+    {
+      "sample_id": "clase04_seg0029",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0029.wav",
+      "inicio": 424.83,
+      "fin": 435.55,
+      "duracion_seg": 10.72,
+      "gt_original": "Entonces, eh, ¿qué va a pasar con la velocidad? ¿Qué va a pasar con la aceleración? Va a pasar lo mismo. ¿Por qué? Porque acuérdense que yo puedo derivar eh",
+      "gt_normalizado": "entonces eh qué va a pasar con la velocidad qué va a pasar con la aceleración va a pasar lo mismo por qué porque acuérdense que yo puedo derivar eh"
+    },
+    {
+      "sample_id": "clase04_seg0030",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0030.wav",
+      "inicio": 436.05,
+      "fin": 448.77,
+      "duracion_seg": 12.72,
+      "gt_original": "todo una una ecuación. Yo la puedo derivar. Si yo derivo a la izquierda, tengo que derivar a la derecha. Por lo tanto, derivamos todo con respecto al tiempo. Si tú derivas este término con respecto al tiempo,",
+      "gt_normalizado": "todo una una ecuación yo la puedo derivar si yo derivo a la izquierda tengo que derivar a la derecha por lo tanto derivamos todo con respecto al tiempo si tú derivas este término con respecto al tiempo"
+    },
+    {
+      "sample_id": "clase04_seg0031",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0031.wav",
+      "inicio": 449.13,
+      "fin": 460.5,
+      "duracion_seg": 11.37,
+      "gt_original": "te va a dar la velocidad de de A con respecto a ce. y así así mismo en las otras, ¿no? Por lo tanto, eh de alguna forma estamos",
+      "gt_normalizado": "te va a dar la velocidad de de a con respecto a ce y así así mismo en las otras no por lo tanto eh de alguna forma estamos"
+    },
+    {
+      "sample_id": "clase04_seg0032",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0032.wav",
+      "inicio": 461.04,
+      "fin": 477.21,
+      "duracion_seg": 16.17,
+      "gt_original": "partiendo desde eh lo primitivo, lo esencial y estamos como decir eh sacando otras fórmulas que simplemente es la misma pero con otras eh otros parámetros que es la velocidad y vamos a ver que la aceleración se comporta de la misma forma, ¿okay?",
+      "gt_normalizado": "partiendo desde eh lo primitivo lo esencial y estamos como decir eh sacando otras fórmulas que simplemente es la misma pero con otras eh otros parámetros que es la velocidad y vamos a ver que la aceleración se comporta de la misma forma okay"
+    },
+    {
+      "sample_id": "clase04_seg0033",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0033.wav",
+      "inicio": 478.32,
+      "fin": 490.29,
+      "duracion_seg": 11.97,
+      "gt_original": "Velocidad de be con respecto a ce. Entonces, esta fórmula es la famosa que utilizamos en el curso, ¿ya? Y ahora yo les voy a enseñar",
+      "gt_normalizado": "velocidad de be con respecto a ce entonces esta fórmula es la famosa que utilizamos en el curso ya y ahora yo les voy a enseñar"
+    },
+    {
+      "sample_id": "clase04_seg0034",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0034.wav",
+      "inicio": 490.65,
+      "fin": 501.435,
+      "duracion_seg": 10.785,
+      "gt_original": "para que de alguna manera eh se les haga más fácil en distintos casos, ¿okay? Porque esta fórmula no se utiliza en todos los casos, o sea, en realidad sí,",
+      "gt_normalizado": "para que de alguna manera eh se les haga más fácil en distintos casos okay porque esta fórmula no se utiliza en todos los casos o sea en realidad sí"
+    },
+    {
+      "sample_id": "clase04_seg0035",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0035.wav",
+      "inicio": 502.26,
+      "fin": 517.839,
+      "duracion_seg": 15.579,
+      "gt_original": "pero tú puedes aprenderte dos fórmulas ya para dos casos distintos y de alguna manera se te va a hacer mucho más fácil o por lo menos a mí se me hacía mucho más fácil y no me equivocaba o bueno, prácticamente eh sí le acertaba bastante.",
+      "gt_normalizado": "pero tú puedes aprenderte dos fórmulas ya para dos casos distintos y de alguna manera se te va a hacer mucho más fácil o por lo menos a mí se me hacía mucho más fácil y no me equivocaba o bueno prácticamente eh sí le acertaba bastante"
+    },
+    {
+      "sample_id": "clase04_seg0036",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0036.wav",
+      "inicio": 518.4,
+      "fin": 533.49,
+      "duracion_seg": 15.09,
+      "gt_original": "Entonces tenemos eh esta fórmula la vamos a dejar en términos de la velocidad porque me interesa. Okay, me interesa ahora, ¿por qué yo les dije que la posición vamos a tratar distinto a un sistema de referencia?",
+      "gt_normalizado": "entonces tenemos eh esta fórmula la vamos a dejar en términos de la velocidad porque me interesa okay me interesa ahora por qué yo les dije que la posición vamos a tratar distinto a un sistema de referencia"
+    },
+    {
+      "sample_id": "clase04_seg0037",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0037.wav",
+      "inicio": 534.15,
+      "fin": 544.26,
+      "duracion_seg": 10.11,
+      "gt_original": "Por este concepto que yo les yo les eh he traído, que en realidad no es mío, sino es de un profesor eh de la ESPOL, creo que era Alexander López.",
+      "gt_normalizado": "por este concepto que yo les yo les eh he traído que en realidad no es mío sino es de un profesor eh de la espol creo que era alexander lópez"
+    },
+    {
+      "sample_id": "clase04_seg0038",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0038.wav",
+      "inicio": 545.1,
+      "fin": 560.7,
+      "duracion_seg": 15.6,
+      "gt_original": "Okay, no me dio clases a mí, pero pero sí eh unos, perdón, no ayudantes, sino estudiantes del semestre pasado, pues eh me indicaron una diapositiva de él y pues pues vi, ¿okay? Esta definición es importante. ¿Por qué? Vamos a leerla.",
+      "gt_normalizado": "okay no me dio clases a mí pero pero sí eh unos perdón no ayudantes sino estudiantes del semestre pasado pues eh me indicaron una diapositiva de él y pues pues vi okay esta definición es importante por qué vamos a leerla"
+    },
+    {
+      "sample_id": "clase04_seg0039",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0039.wav",
+      "inicio": 561.27,
+      "fin": 571.62,
+      "duracion_seg": 10.35,
+      "gt_original": "Todos los observadores, ¿okay?, que estén en reposo relativo respecto, esto es importante, ¿de respecto a quién? respecto a otro observador",
+      "gt_normalizado": "todos los observadores okay que estén en reposo relativo respecto esto es importante de respecto a quién respecto a otro observador"
+    },
+    {
+      "sample_id": "clase04_seg0040",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0040.wav",
+      "inicio": 572.34,
+      "fin": 585.178,
+      "duracion_seg": 12.838,
+      "gt_original": "forma parte de un mismo sistema de referencia. ¿Okay? ¿Qué es resposo relativo? Ahora yo les pregunto, vamos a analizar o hacer analogía con la vida cotidiana. Si nosotros vamos en un bus y el bus está",
+      "gt_normalizado": "forma parte de un mismo sistema de referencia okay qué es resposo relativo ahora yo les pregunto vamos a analizar o hacer analogía con la vida cotidiana si nosotros vamos en un bus y el bus está"
+    },
+    {
+      "sample_id": "clase04_seg0041",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0041.wav",
+      "inicio": 586.142,
+      "fin": 603.6,
+      "duracion_seg": 17.458,
+      "gt_original": "hecho madres, ¿okay? Está yendo a a 70 kilómetros por hora y ustedes saben cómo son los chóferes, ¿no? Que van eh superveloces. Entonces, eh si yo veo al compañero de al lado, okay, vamos a suponer que escogiste justo el bus con un compañero del colegio, de la universidad,",
+      "gt_normalizado": "hecho madres okay está yendo a a 70 kilómetros por hora y ustedes saben cómo son los chóferes no que van eh superveloces entonces eh si yo veo al compañero de al lado okay vamos a suponer que escogiste justo el bus con un compañero del colegio de la universidad"
+    },
+    {
+      "sample_id": "clase04_seg0042",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0042.wav",
+      "inicio": 604.08,
+      "fin": 618.18,
+      "duracion_seg": 14.1,
+      "gt_original": "entonces eh tú estás viendo que el man está en reposo contigo. O sea, tú no tú no lo ves, oye, eh te estás moviendo, ¿no? O tienes una velocidad de tanto o no. Si no lo ves sentadito como tú.",
+      "gt_normalizado": "entonces eh tú estás viendo que el man está en reposo contigo o sea tú no tú no lo ves oye eh te estás moviendo no o tienes una velocidad de tanto o no si no lo ves sentadito como tú"
+    },
+    {
+      "sample_id": "clase04_seg0043",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0043.wav",
+      "inicio": 618.57,
+      "fin": 630.63,
+      "duracion_seg": 12.06,
+      "gt_original": "Ya. Entonces entre los dos se están viendo que están en reposo, ¿ya? Y eso es a lo que llamamos reposo relativo. Cuando o con un obserador o con otro,",
+      "gt_normalizado": "ya entonces entre los dos se están viendo que están en reposo ya y eso es a lo que llamamos reposo relativo cuando o con un obserador o con otro"
+    },
+    {
+      "sample_id": "clase04_seg0044",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0044.wav",
+      "inicio": 631.11,
+      "fin": 645.54,
+      "duracion_seg": 14.43,
+      "gt_original": "ambos tienen como que la misma velocidad. Okay. Ya. Entonces, si ambos van con la velocidad del bus, entonces se van a ver en reposo relativo. ¿Qué va a pasar cuando los observadores están en reposo relativo?",
+      "gt_normalizado": "ambos tienen como que la misma velocidad okay ya entonces si ambos van con la velocidad del bus entonces se van a ver en reposo relativo qué va a pasar cuando los observadores están en reposo relativo"
+    },
+    {
+      "sample_id": "clase04_seg0045",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0045.wav",
+      "inicio": 646.44,
+      "fin": 657.476,
+      "duracion_seg": 11.036,
+      "gt_original": "Ya van a formar un solo sistema de referencia. Por eso es que de alguna forma me gusta separar los conceptos. observador a sistema de referencia. ¿Por qué? Porque si eh, por",
+      "gt_normalizado": "ya van a formar un solo sistema de referencia por eso es que de alguna forma me gusta separar los conceptos observador a sistema de referencia por qué porque si eh por"
+    },
+    {
+      "sample_id": "clase04_seg0046",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0046.wav",
+      "inicio": 659.19,
+      "fin": 673.398,
+      "duracion_seg": 14.208,
+      "gt_original": "ejemplo, yo te estoy diciendo que tu amigo está yendo en el bus contigo, por lo tanto, si yo te pregunto cuál es la velocidad de tu amigo, vamos a ponerle eh amigo con respecto eh a",
+      "gt_normalizado": "ejemplo yo te estoy diciendo que tu amigo está yendo en el bus contigo por lo tanto si yo te pregunto cuál es la velocidad de tu amigo vamos a ponerle eh amigo con respecto eh a"
+    },
+    {
+      "sample_id": "clase04_seg0047",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0047.wav",
+      "inicio": 674.73,
+      "fin": 685.41,
+      "duracion_seg": 10.68,
+      "gt_original": "ti, ¿okay? ¿Cuál es la velocidad eh relativa? Va a ser cero. ¿Por qué? porque ambos están en reposo relativo entre sí. Por lo tanto,",
+      "gt_normalizado": "ti okay cuál es la velocidad eh relativa va a ser cero por qué porque ambos están en reposo relativo entre sí por lo tanto"
+    },
+    {
+      "sample_id": "clase04_seg0048",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0048.wav",
+      "inicio": 686.19,
+      "fin": 701.94,
+      "duracion_seg": 15.75,
+      "gt_original": "ambos forman un solo sistema de referencia y ese es el como decir la justificación, porque en los problemas te dicen, eh, hállame la velocidad ya del, por ejemplo, del avión con respecto a la Tierra. Okay, ¿cuánto es?",
+      "gt_normalizado": "ambos forman un solo sistema de referencia y ese es el como decir la justificación porque en los problemas te dicen eh hállame la velocidad ya del por ejemplo del avión con respecto a la tierra okay cuánto es"
+    },
+    {
+      "sample_id": "clase04_seg0049",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0049.wav",
+      "inicio": 702.33,
+      "fin": 712.77,
+      "duracion_seg": 10.44,
+      "gt_original": "Pero es lo mismo decir, hállame la velocidad del avión con respecto a una persona en la tierra. Okay. Entonces, ¿por qué es lo mismo?",
+      "gt_normalizado": "pero es lo mismo decir hállame la velocidad del avión con respecto a una persona en la tierra okay entonces por qué es lo mismo"
+    },
+    {
+      "sample_id": "clase04_seg0050",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0050.wav",
+      "inicio": 713.37,
+      "fin": 736.83,
+      "duracion_seg": 23.46,
+      "gt_original": "Porque de alguna manera una persona en reposo, ahorita que yo estoy sentado ya yo no me estoy moviendo ni trasladando, yo tengo la misma velocidad que que tiene la Tierra, si se dan cuenta, porque yo estoy montado encima de la Tierra, ya yo estoy eh yo estoy parado en la Tierra, por lo tanto, y no me estoy moviendo, por lo tanto, hay un reposo relativo entre mi persona y entre la tierra.",
+      "gt_normalizado": "porque de alguna manera una persona en reposo ahorita que yo estoy sentado ya yo no me estoy moviendo ni trasladando yo tengo la misma velocidad que que tiene la tierra si se dan cuenta porque yo estoy montado encima de la tierra ya yo estoy eh yo estoy parado en la tierra por lo tanto y no me estoy moviendo por lo tanto hay un reposo relativo entre mi persona y entre la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0051",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0051.wav",
+      "inicio": 737.28,
+      "fin": 752.806,
+      "duracion_seg": 15.526,
+      "gt_original": "¿Okay? Entonces, por eso que en algunos problemas da igual porque te pregunta lo mismo. Eh, por ejemplo, la velocidad de equis objeto con respecto a la Tierra, la velocidad de equis objeto con respecto a una persona en la orilla, la velocidad de de",
+      "gt_normalizado": "okay entonces por eso que en algunos problemas da igual porque te pregunta lo mismo eh por ejemplo la velocidad de equis objeto con respecto a la tierra la velocidad de equis objeto con respecto a una persona en la orilla la velocidad de de"
+    },
+    {
+      "sample_id": "clase04_seg0052",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0052.wav",
+      "inicio": 753.81,
+      "fin": 764.31,
+      "duracion_seg": 10.5,
+      "gt_original": "equis objeto con respecto a una persona en la tierra, ¿okay? Es lo mismo porque ambos forman parte de un mismo sistema de referencia. ¿Okay? Entonces, quiero que tengan bastante claro eso.",
+      "gt_normalizado": "equis objeto con respecto a una persona en la tierra okay es lo mismo porque ambos forman parte de un mismo sistema de referencia okay entonces quiero que tengan bastante claro eso"
+    },
+    {
+      "sample_id": "clase04_seg0053",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0053.wav",
+      "inicio": 765.3,
+      "fin": 790.11,
+      "duracion_seg": 24.81,
+      "gt_original": "Ahora, si yo les pregunto, eh, por ejemplo, tu amigo, el la misma situación, tu amigo y tú están en el bus y ven, ven a entrar a a cualquier pasajero, yo les pregunto, ¿la posición del pasajero con respecto a tu amigo ya es la misma del que la posición del ese pasajero con respecto a ti? No. ¿Por qué? Porque el observador tiene su propio origen.",
+      "gt_normalizado": "ahora si yo les pregunto eh por ejemplo tu amigo el la misma situación tu amigo y tú están en el bus y ven ven a entrar a a cualquier pasajero yo les pregunto la posición del pasajero con respecto a tu amigo ya es la misma del que la posición del ese pasajero con respecto a ti no por qué porque el observador tiene su propio origen"
+    },
+    {
+      "sample_id": "clase04_seg0054",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0054.wav",
+      "inicio": 790.11,
+      "fin": 802.71,
+      "duracion_seg": 12.6,
+      "gt_original": "El observador tiene su propio origen 0, 0. ¿Okay? Tiene su propio origen. Entonces la posición sí varía. Ya. Pero cuando hablas de velocidad y cuando hablas de aceleración,",
+      "gt_normalizado": "el observador tiene su propio origen 0 0 okay tiene su propio origen entonces la posición sí varía ya pero cuando hablas de velocidad y cuando hablas de aceleración"
+    },
+    {
+      "sample_id": "clase04_seg0055",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0055.wav",
+      "inicio": 803.37,
+      "fin": 819.39,
+      "duracion_seg": 16.02,
+      "gt_original": "ya ahí lo que te importa es analizar el sistema de referencia. ¿Okay? Entonces, más o menos es un poco complicado, yo creo que entenderlo a la a la primera, pero si tienen que repetir el video, repiten. ¿Okay? Si por lo menos yo lo veo así y de alguna forma se me hace mucho más fácil.",
+      "gt_normalizado": "ya ahí lo que te importa es analizar el sistema de referencia okay entonces más o menos es un poco complicado yo creo que entenderlo a la a la primera pero si tienen que repetir el video repiten okay si por lo menos yo lo veo así y de alguna forma se me hace mucho más fácil"
+    },
+    {
+      "sample_id": "clase04_seg0056",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0056.wav",
+      "inicio": 820.11,
+      "fin": 831.54,
+      "duracion_seg": 11.43,
+      "gt_original": "¿Okay? Entonces, eh vamos a hacer este truquillo que les quería enseñar. ¿Cuál es el truquillo? Cuando ustedes eh hacen",
+      "gt_normalizado": "okay entonces eh vamos a hacer este truquillo que les quería enseñar cuál es el truquillo cuando ustedes eh hacen"
+    },
+    {
+      "sample_id": "clase04_seg0057",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0057.wav",
+      "inicio": 832.02,
+      "fin": 843.39,
+      "duracion_seg": 11.37,
+      "gt_original": "o formulan esto, tienen que tener en cuenta algo. ¿Qué es ese algo? Que los subíndices ya estén acordes. ¿Por qué? Porque",
+      "gt_normalizado": "o formulan esto tienen que tener en cuenta algo qué es ese algo que los subíndices ya estén acordes por qué porque"
+    },
+    {
+      "sample_id": "clase04_seg0058",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0058.wav",
+      "inicio": 843.87,
+      "fin": 855.152,
+      "duracion_seg": 11.282,
+      "gt_original": "hay un tip, se podría decir, que vas a los subíndices, lo pones como un cociente, es decir, una división, ¿ya? Y lo multiplicas.",
+      "gt_normalizado": "hay un tip se podría decir que vas a los subíndices lo pones como un cociente es decir una división ya y lo multiplicas"
+    },
+    {
+      "sample_id": "clase04_seg0059",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0059.wav",
+      "inicio": 855.51,
+      "fin": 873.75,
+      "duracion_seg": 18.24,
+      "gt_original": "¿Okay? Multiplicas. Al hacer esto se te tienen que ir eh todo y tener la igualdad eh correcta. ¿Okay? Entonces, yo simplifico o en el numerador y en el denominador y me sale lo mismo, ¿okay? Me sale una igualdad. Por lo tanto, yo sé que esta eh esta fórmula",
+      "gt_normalizado": "okay multiplicas al hacer esto se te tienen que ir eh todo y tener la igualdad eh correcta okay entonces yo simplifico o en el numerador y en el denominador y me sale lo mismo okay me sale una igualdad por lo tanto yo sé que esta eh esta fórmula"
+    },
+    {
+      "sample_id": "clase04_seg0060",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0060.wav",
+      "inicio": 874.38,
+      "fin": 891.946,
+      "duracion_seg": 17.566,
+      "gt_original": "está correcta. Ahora, ¿por qué yo le indico esto? Capaz que ustedes piensan que esta es la única fórmula y y ya se trabaja todo con eso y es mentira. ¿Por qué? Porque en el mundo existimos millones de observadores, ¿okay? Millones. Eh, el",
+      "gt_normalizado": "está correcta ahora por qué yo le indico esto capaz que ustedes piensan que esta es la única fórmula y y ya se trabaja todo con eso y es mentira por qué porque en el mundo existimos millones de observadores okay millones eh el"
+    },
+    {
+      "sample_id": "clase04_seg0061",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0061.wav",
+      "inicio": 892.62,
+      "fin": 905.944,
+      "duracion_seg": 13.323,
+      "gt_original": "bus puede ser un sistema de referencia, un observador. Eh, un animal puede ser un observador, ¿no? Eh, existimos miles de personas, millones de personas que somos distintos observadores porque estamos en distintos lugares, ¿okay? Y",
+      "gt_normalizado": "bus puede ser un sistema de referencia un observador eh un animal puede ser un observador no eh existimos miles de personas millones de personas que somos distintos observadores porque estamos en distintos lugares okay y"
+    },
+    {
+      "sample_id": "clase04_seg0062",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0062.wav",
+      "inicio": 906.51,
+      "fin": 920.88,
+      "duracion_seg": 14.37,
+      "gt_original": "nos movemos distintos. Por lo tanto, eh es un poco irracional pensar que simplemente vamos a tener siempre tres observadores o dos. Okay, entonces les voy a dar eh esta fórmula general para que ustedes tengan",
+      "gt_normalizado": "nos movemos distintos por lo tanto eh es un poco irracional pensar que simplemente vamos a tener siempre tres observadores o dos okay entonces les voy a dar eh esta fórmula general para que ustedes tengan"
+    },
+    {
+      "sample_id": "clase04_seg0063",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0063.wav",
+      "inicio": 921.69,
+      "fin": 934.468,
+      "duracion_seg": 12.778,
+      "gt_original": "lo que sea de observadores y puedan formular. Entonces, vamos a decir y vamos a plantear eh una situación. Supongamos que tenemos un río, ¿okay? Tengamos un río y el",
+      "gt_normalizado": "lo que sea de observadores y puedan formular entonces vamos a decir y vamos a plantear eh una situación supongamos que tenemos un río okay tengamos un río y el"
+    },
+    {
+      "sample_id": "clase04_seg0064",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0064.wav",
+      "inicio": 939.901,
+      "fin": 952.89,
+      "duracion_seg": 12.989,
+      "gt_original": "río está yendo eh a una velocidad, ¿okay? Ya, el río está yendo a una velocidad. Vamos a poner que la velocidad del río con respecto a la tierra, porque el río se mueve en la tierra, ¿pues no? El el río no lo encontrar en un edificio, ¿no? El río",
+      "gt_normalizado": "río está yendo eh a una velocidad okay ya el río está yendo a una velocidad vamos a poner que la velocidad del río con respecto a la tierra porque el río se mueve en la tierra pues no el el río no lo encontrar en un edificio no el río"
+    },
+    {
+      "sample_id": "clase04_seg0065",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0065.wav",
+      "inicio": 954.03,
+      "fin": 964.138,
+      "duracion_seg": 10.108,
+      "gt_original": "está eh está encima de la Tierra, ¿no? Por lo tanto, la velocidad del río con respecto a la Tierra, vamos a indicar que es a la derecha, ¿ya? Eh, con una magnitud de 2",
+      "gt_normalizado": "está eh está encima de la tierra no por lo tanto la velocidad del río con respecto a la tierra vamos a indicar que es a la derecha ya eh con una magnitud de 2"
+    },
+    {
+      "sample_id": "clase04_seg0066",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0066.wav",
+      "inicio": 964.8,
+      "fin": 981.57,
+      "duracion_seg": 16.77,
+      "gt_original": "metros por segundo, ¿okay? y vamos a colocarle el vector unitario. Ahora, supongamos que justo ese día tú vas a viajar eh, no sé, vamos a decir que te vas a Miami y te vas a vacunar allá, que eso está en boca de todos. Por lo tanto, vamos a poner",
+      "gt_normalizado": "metros por segundo okay y vamos a colocarle el vector unitario ahora supongamos que justo ese día tú vas a viajar eh no sé vamos a decir que te vas a miami y te vas a vacunar allá que eso está en boca de todos por lo tanto vamos a poner"
+    },
+    {
+      "sample_id": "clase04_seg0067",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0067.wav",
+      "inicio": 983.28,
+      "fin": 998.16,
+      "duracion_seg": 14.88,
+      "gt_original": "algo así. Yo yo no dibujo muy bien las eh los aviones. Okay, más o menos vamos a poner así. Okay. No sé si aquí tiene una cola. Creo que sí. Listo. Entonces vamos a indicar que la velocidad del avión",
+      "gt_normalizado": "algo así yo yo no dibujo muy bien las eh los aviones okay más o menos vamos a poner así okay no sé si aquí tiene una cola creo que sí listo entonces vamos a indicar que la velocidad del avión"
+    },
+    {
+      "sample_id": "clase04_seg0068",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0068.wav",
+      "inicio": 1000.05,
+      "fin": 1016.97,
+      "duracion_seg": 16.92,
+      "gt_original": "ya con respecto a quién, a ver, el avión se está moviendo con respecto al viento, ¿okay? Con respecto al aire. Por lo tanto, vamos a ponerle esa velocidad relativa. La velocidad del avión con respecto al viento es igual, vamos a decir que también se mueva a la derecha,",
+      "gt_normalizado": "ya con respecto a quién a ver el avión se está moviendo con respecto al viento okay con respecto al aire por lo tanto vamos a ponerle esa velocidad relativa la velocidad del avión con respecto al viento es igual vamos a decir que también se mueva a la derecha"
+    },
+    {
+      "sample_id": "clase04_seg0069",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0069.wav",
+      "inicio": 1017.51,
+      "fin": 1032.814,
+      "duracion_seg": 15.304,
+      "gt_original": "pero este a 100 metros por segundo. Okay. A la derecha. Ahora vamos a ponerlo un poco más complejo y vamos a decir que tenemos eh en el río vamos a tener un barquito, ¿okay? Vamos a tener este barquito y este",
+      "gt_normalizado": "pero este a 100 metros por segundo okay a la derecha ahora vamos a ponerlo un poco más complejo y vamos a decir que tenemos eh en el río vamos a tener un barquito okay vamos a tener este barquito y este"
+    },
+    {
+      "sample_id": "clase04_seg0070",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0070.wav",
+      "inicio": 1033.83,
+      "fin": 1044.96,
+      "duracion_seg": 11.13,
+      "gt_original": "barquito obviamente va a ser tripulado por alguien, ¿no? Entonces vamos a ponerle a la persona dentro así, eh vamos a decir que es una chica, ¿ya? Y pero la chica está yendo hacia la izquierda,",
+      "gt_normalizado": "barquito obviamente va a ser tripulado por alguien no entonces vamos a ponerle a la persona dentro así eh vamos a decir que es una chica ya y pero la chica está yendo hacia la izquierda"
+    },
+    {
+      "sample_id": "clase04_seg0071",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0071.wav",
+      "inicio": 1045.47,
+      "fin": 1057.53,
+      "duracion_seg": 12.06,
+      "gt_original": "¿okay? Entonces, la velocidad del bote, ¿ya? O de la chica, si lo quieres ver así, si se dan cuenta que ambos forman un mismo sistema de referencia",
+      "gt_normalizado": "okay entonces la velocidad del bote ya o de la chica si lo quieres ver así si se dan cuenta que ambos forman un mismo sistema de referencia"
+    },
+    {
+      "sample_id": "clase04_seg0072",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0072.wav",
+      "inicio": 1058.19,
+      "fin": 1072.2,
+      "duracion_seg": 14.01,
+      "gt_original": "porque la chica y el bote están yendo a la misma velocidad, por lo tanto forman el mismo sistema de referencia. Entonces, da igual si yo en eh esta velocidad te pongo la velocidad del bote con respecto al río,",
+      "gt_normalizado": "porque la chica y el bote están yendo a la misma velocidad por lo tanto forman el mismo sistema de referencia entonces da igual si yo en eh esta velocidad te pongo la velocidad del bote con respecto al río"
+    },
+    {
+      "sample_id": "clase04_seg0073",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0073.wav",
+      "inicio": 1073.22,
+      "fin": 1095.39,
+      "duracion_seg": 22.17,
+      "gt_original": "ya, por ejemplo, equis, ¿okay? y que yo te diga la velocidad de la chica con respecto al río, ¿okay? Va a ser lo mismo porque ambos tienen el mismo sistema de referencia, comparten velocidades, ¿okay? Eh, y bueno, ya vamos a ver que también tiene que compartir aceleraciones. Entonces, la velocidad del bote con respecto en dónde se está moviendo el bote,",
+      "gt_normalizado": "ya por ejemplo equis okay y que yo te diga la velocidad de la chica con respecto al río okay va a ser lo mismo porque ambos tienen el mismo sistema de referencia comparten velocidades okay eh y bueno ya vamos a ver que también tiene que compartir aceleraciones entonces la velocidad del bote con respecto en dónde se está moviendo el bote"
+    },
+    {
+      "sample_id": "clase04_seg0074",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0074.wav",
+      "inicio": 1095.99,
+      "fin": 1106.07,
+      "duracion_seg": 10.08,
+      "gt_original": "en el río. Okay, en el río. Ya. Entonces, vamos a decir que se está moviendo a menos 1 metros por segundo hacia la izquierda. Okay.",
+      "gt_normalizado": "en el río okay en el río ya entonces vamos a decir que se está moviendo a menos 1 metros por segundo hacia la izquierda okay"
+    },
+    {
+      "sample_id": "clase04_seg0075",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0075.wav",
+      "inicio": 1107.12,
+      "fin": 1120.59,
+      "duracion_seg": 13.47,
+      "gt_original": "Ahora, si se dan cuenta, he puesto eh bastantes, ¿cómo decirlo, eh? Condiciones de alguna forma. Entonces, ustedes están medios mariados, están un pocos asustados porque no saben cómo plantear la fórmula.",
+      "gt_normalizado": "ahora si se dan cuenta he puesto eh bastantes cómo decirlo eh condiciones de alguna forma entonces ustedes están medios mariados están un pocos asustados porque no saben cómo plantear la fórmula"
+    },
+    {
+      "sample_id": "clase04_seg0076",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0076.wav",
+      "inicio": 1121.25,
+      "fin": 1131.9,
+      "duracion_seg": 10.65,
+      "gt_original": "Entonces, vamos a a preguntarnos distintas cosas. Por ejemplo, si yo les pregunto, eh, a ver, déjame ver, eso está yendo izquierda.",
+      "gt_normalizado": "entonces vamos a a preguntarnos distintas cosas por ejemplo si yo les pregunto eh a ver déjame ver eso está yendo izquierda"
+    },
+    {
+      "sample_id": "clase04_seg0077",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0077.wav",
+      "inicio": 1132.5,
+      "fin": 1143.141,
+      "duracion_seg": 10.641,
+      "gt_original": "Ya. Si yo te pregunto, ¿cuál es la velocidad de la chica con respecto a una persona que está en el avión? O sea, a ver, y",
+      "gt_normalizado": "ya si yo te pregunto cuál es la velocidad de la chica con respecto a una persona que está en el avión o sea a ver y"
+    },
+    {
+      "sample_id": "clase04_seg0078",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0078.wav",
+      "inicio": 1143.528,
+      "fin": 1163.301,
+      "duracion_seg": 19.773,
+      "gt_original": "esto eh para repetirlo de nuevo, si yo te pregunto cuál es la velocidad de la chica con respecto al avión, es lo mismo que preguntarte la velocidad de la chica con respecto a un pasajero. ¿Por qué? Porque el pasajero está eh yendo a la misma velocidad que la avión. Okay. Ya.",
+      "gt_normalizado": "esto eh para repetirlo de nuevo si yo te pregunto cuál es la velocidad de la chica con respecto al avión es lo mismo que preguntarte la velocidad de la chica con respecto a un pasajero por qué porque el pasajero está eh yendo a la misma velocidad que la avión okay ya"
+    },
+    {
+      "sample_id": "clase04_seg0079",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0079.wav",
+      "inicio": 1163.94,
+      "fin": 1176.69,
+      "duracion_seg": 12.75,
+      "gt_original": "Bueno, ya no vamos a entrar en detalles como decir, \"Oye, pero si el pasajero va al baño\", ya no está yendo a la misma velocidad. Pero son cosas que son muy muy reales, o sea, estamos simplificando un poco el el esquema,",
+      "gt_normalizado": "bueno ya no vamos a entrar en detalles como decir oye pero si el pasajero va al baño ya no está yendo a la misma velocidad pero son cosas que son muy muy reales o sea estamos simplificando un poco el el esquema"
+    },
+    {
+      "sample_id": "clase04_seg0080",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0080.wav",
+      "inicio": 1177.65,
+      "fin": 1187.76,
+      "duracion_seg": 10.11,
+      "gt_original": "pero entienden la idea. Okay. Entonces, ¿cuál es la velocidad de la chica con respecto al avión? Ya lo que ustedes tienen que hacer es simplemente hacer el truquillo que les dije.",
+      "gt_normalizado": "pero entienden la idea okay entonces cuál es la velocidad de la chica con respecto al avión ya lo que ustedes tienen que hacer es simplemente hacer el truquillo que les dije"
+    },
+    {
+      "sample_id": "clase04_seg0081",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0081.wav",
+      "inicio": 1188.69,
+      "fin": 1199.68,
+      "duracion_seg": 10.99,
+      "gt_original": "Ya vamos a bajar eh primero los subíndices ce sobre A. Y esto me y todo la sumatoria que yo pongo acá de velocidades me tiene que dar eh",
+      "gt_normalizado": "ya vamos a bajar eh primero los subíndices ce sobre a y esto me y todo la sumatoria que yo pongo acá de velocidades me tiene que dar eh"
+    },
+    {
+      "sample_id": "clase04_seg0082",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0082.wav",
+      "inicio": 1200.6,
+      "fin": 1218.21,
+      "duracion_seg": 17.61,
+      "gt_original": "congruencia, es decir, me tiene que dar una igualdad de subíndices. Vamos a poner eh sobre, sobre, sobre. No sé si son tres o son dos, pero igual yo pongo tres por si acaso. Ahora, ¿dónde vamos a partir? Vamos a partir desde la chica, o sea, desde el numerador, por decir así.",
+      "gt_normalizado": "congruencia es decir me tiene que dar una igualdad de subíndices vamos a poner eh sobre sobre sobre no sé si son tres o son dos pero igual yo pongo tres por si acaso ahora dónde vamos a partir vamos a partir desde la chica o sea desde el numerador por decir así"
+    },
+    {
+      "sample_id": "clase04_seg0083",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0083.wav",
+      "inicio": 1218.81,
+      "fin": 1229.642,
+      "duracion_seg": 10.832,
+      "gt_original": "Entonces, vamos a poner la velocidad de la chica. Ya, la velocidad de la chica. Ahora, ¿la chica en dónde se está moviendo? O sea, eh eh",
+      "gt_normalizado": "entonces vamos a poner la velocidad de la chica ya la velocidad de la chica ahora la chica en dónde se está moviendo o sea eh eh"
+    },
+    {
+      "sample_id": "clase04_seg0084",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0084.wav",
+      "inicio": 1230.75,
+      "fin": 1248.78,
+      "duracion_seg": 18.03,
+      "gt_original": "están eh montada en en qué, como decir, eh en qué espacio ya. El espacio donde está la chica es el río, ¿okay?, se está moviendo a través del río. Por lo tanto, eh voy a poner la velocidad de la chica en donde se está moviendo en el río. Por lo tanto, tenemos primero",
+      "gt_normalizado": "están eh montada en en qué como decir eh en qué espacio ya el espacio donde está la chica es el río okay se está moviendo a través del río por lo tanto eh voy a poner la velocidad de la chica en donde se está moviendo en el río por lo tanto tenemos primero"
+    },
+    {
+      "sample_id": "clase04_seg0085",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0085.wav",
+      "inicio": 1249.26,
+      "fin": 1271.88,
+      "duracion_seg": 22.62,
+      "gt_original": "comenzamos con el numerador, ya no importa lo que tengas abajo, ¿okay? Porque después se va a eliminar. Ahora, el río se está moviendo con respecto a alguien, ¿verdad? El río no es que está en el espacio y y se está eh moviendo con respecto a a ningún observador, si no se mueve con respecto a la Tierra. Por lo tanto, vamos a poner",
+      "gt_normalizado": "comenzamos con el numerador ya no importa lo que tengas abajo okay porque después se va a eliminar ahora el río se está moviendo con respecto a alguien verdad el río no es que está en el espacio y y se está eh moviendo con respecto a a ningún observador si no se mueve con respecto a la tierra por lo tanto vamos a poner"
+    },
+    {
+      "sample_id": "clase04_seg0086",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0086.wav",
+      "inicio": 1272.51,
+      "fin": 1278.63,
+      "duracion_seg": 6.12,
+      "gt_original": "ahora vamos a seguir en orden. Si tú pusiste el río como denominador, ahora busca",
+      "gt_normalizado": "ahora vamos a seguir en orden si tú pusiste el río como denominador ahora busca"
+    },
+    {
+      "sample_id": "clase04_seg0087",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0087.wav",
+      "inicio": 1283.82,
+      "fin": 1295.97,
+      "duracion_seg": 12.15,
+      "gt_original": "la velocidad del río con respecto en donde se está moviendo. Entonces ponemos la velocidad del río con respecto y en dónde se está en dónde se está moviendo en la Tierra. Por lo tanto, tenemos erre sobre te. Ya. Ahora, lo que nos falta ya",
+      "gt_normalizado": "la velocidad del río con respecto en donde se está moviendo entonces ponemos la velocidad del río con respecto y en dónde se está en dónde se está moviendo en la tierra por lo tanto tenemos erre sobre te ya ahora lo que nos falta ya"
+    },
+    {
+      "sample_id": "clase04_seg0088",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0088.wav",
+      "inicio": 1296.48,
+      "fin": 1308.18,
+      "duracion_seg": 11.7,
+      "gt_original": "para completar eh esta igualdad, si se dan cuenta que las erre se van, es tener una te arriba y una A abajo. ¿Okay? Entonces, si yo pongo esto,",
+      "gt_normalizado": "para completar eh esta igualdad si se dan cuenta que las erre se van es tener una te arriba y una a abajo okay entonces si yo pongo esto"
+    },
+    {
+      "sample_id": "clase04_seg0089",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0089.wav",
+      "inicio": 1308.54,
+      "fin": 1324.86,
+      "duracion_seg": 16.32,
+      "gt_original": "al final me va a dar eh la igualdad, ¿okay? Me va a dar correcto. Y ahí es cuando está planteado de una forma correcta, ¿ya? Entonces, esta es la velocidad de la Tierra con respecto al avión. ¿Okay? Con respecto al avión. Ahora, ustedes me preguntan,",
+      "gt_normalizado": "al final me va a dar eh la igualdad okay me va a dar correcto y ahí es cuando está planteado de una forma correcta ya entonces esta es la velocidad de la tierra con respecto al avión okay con respecto al avión ahora ustedes me preguntan"
+    },
+    {
+      "sample_id": "clase04_seg0090",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0090.wav",
+      "inicio": 1325.28,
+      "fin": 1339.5,
+      "duracion_seg": 14.22,
+      "gt_original": "\"Oye, yo nunca yo nunca nunca nunca he visto que pongan la velocidad de la Tierra con respecto a equis cosa. O sea, yo siempre he visto la velocidad de equis cosa con respecto a la tierra, ya. Pero nunca he visto esto.",
+      "gt_normalizado": "oye yo nunca yo nunca nunca nunca he visto que pongan la velocidad de la tierra con respecto a equis cosa o sea yo siempre he visto la velocidad de equis cosa con respecto a la tierra ya pero nunca he visto esto"
+    },
+    {
+      "sample_id": "clase04_seg0091",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0091.wav",
+      "inicio": 1339.92,
+      "fin": 1357.59,
+      "duracion_seg": 17.67,
+      "gt_original": "Entonces, ¿esto es correcto?\" Y sí, porque como la Tierra es un, bueno, es un ser vivo, de hecho, y es un observador más, por lo tanto, eh va a tener, o sea, se lo considera como observador. Así que tú puedes decir la eh velocidad de la Tierra con respecto a mí, por ejemplo, o al revés,",
+      "gt_normalizado": "entonces esto es correcto y sí porque como la tierra es un bueno es un ser vivo de hecho y es un observador más por lo tanto eh va a tener o sea se lo considera como observador así que tú puedes decir la eh velocidad de la tierra con respecto a mí por ejemplo o al revés"
+    },
+    {
+      "sample_id": "clase04_seg0092",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0092.wav",
+      "inicio": 1357.98,
+      "fin": 1378.11,
+      "duracion_seg": 20.13,
+      "gt_original": "¿ya? La única regla está en esto. Ya. Esto también es una fórmula que se deben aprender y es muy sencilla. La velocidad de A con respecto a be tiene que ser el negativo de la velocidad de be con respecto a A. Okay. Esto se aplica siempre,",
+      "gt_normalizado": "ya la única regla está en esto ya esto también es una fórmula que se deben aprender y es muy sencilla la velocidad de a con respecto a be tiene que ser el negativo de la velocidad de be con respecto a a okay esto se aplica siempre"
+    },
+    {
+      "sample_id": "clase04_seg0093",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0093.wav",
+      "inicio": 1378.59,
+      "fin": 1391.94,
+      "duracion_seg": 13.35,
+      "gt_original": "siempre, siempre. Por lo tanto, eh, si yo quiero poner, a ver, yo les pregunto, ¿tú tienes la velocidad de de la chica con respecto al río? Simón, sí la tienes",
+      "gt_normalizado": "siempre siempre por lo tanto eh si yo quiero poner a ver yo les pregunto tú tienes la velocidad de de la chica con respecto al río simón sí la tienes"
+    },
+    {
+      "sample_id": "clase04_seg0094",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0094.wav",
+      "inicio": 1392.36,
+      "fin": 1405.86,
+      "duracion_seg": 13.5,
+      "gt_original": "porque es la misma que la del bote que yo te dije que es menos 1. Tú tienes la velocidad del río con respecto a la tierra, simón, es 2 metros a la derecha. Ahora yo te pregunto, ¿tú tienes la velocidad de la tierra con respecto al avión?",
+      "gt_normalizado": "porque es la misma que la del bote que yo te dije que es menos 1 tú tienes la velocidad del río con respecto a la tierra simón es 2 metros a la derecha ahora yo te pregunto tú tienes la velocidad de la tierra con respecto al avión"
+    },
+    {
+      "sample_id": "clase04_seg0095",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0095.wav",
+      "inicio": 1406.58,
+      "fin": 1428.1,
+      "duracion_seg": 21.52,
+      "gt_original": "Ya. Vamos a ver si eh esta velocidad me indica ya eh no la tienes. A ver, de hecho, de hecho, perdón, eh aquí me faltó otro otra velocidad. Se está moviendo con respecto eh al viento a la derecha. Entonces, debemos poner el viento, ¿okay? La",
+      "gt_normalizado": "ya vamos a ver si eh esta velocidad me indica ya eh no la tienes a ver de hecho de hecho perdón eh aquí me faltó otro otra velocidad se está moviendo con respecto eh al viento a la derecha entonces debemos poner el viento okay la"
+    },
+    {
+      "sample_id": "clase04_seg0096",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0096.wav",
+      "inicio": 1428.538,
+      "fin": 1453.459,
+      "duracion_seg": 24.921,
+      "gt_original": "velocidad del viento con respecto a la Tierra, vamos a decir que es igual que justo el viento está soplando a la izquierda. Si bien que estoy complicando las cosas ya, pero no importa cuánto compliques las cosas, cuántos observadores pongas, siempre va a ser la misma técnica. Entonces va, ya vamos a ver que añadimos esto y se corrige solo y vamos a decir que el avión, perdón, que el viento está moviéndose con respecto",
+      "gt_normalizado": "velocidad del viento con respecto a la tierra vamos a decir que es igual que justo el viento está soplando a la izquierda si bien que estoy complicando las cosas ya pero no importa cuánto compliques las cosas cuántos observadores pongas siempre va a ser la misma técnica entonces va ya vamos a ver que añadimos esto y se corrige solo y vamos a decir que el avión perdón que el viento está moviéndose con respecto"
+    },
+    {
+      "sample_id": "clase04_seg0097",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0097.wav",
+      "inicio": 1453.459,
+      "fin": 1464.148,
+      "duracion_seg": 10.689,
+      "gt_original": "a la Tierra porque el viento está en la Tierra, ¿verdad? Se mueve en ese espacio. Va a ser de menos 10 metros por segundo a la izquierda. Okay, déjenme borrar esta",
+      "gt_normalizado": "a la tierra porque el viento está en la tierra verdad se mueve en ese espacio va a ser de menos 10 metros por segundo a la izquierda okay déjenme borrar esta"
+    },
+    {
+      "sample_id": "clase04_seg0098",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0098.wav",
+      "inicio": 1465.59,
+      "fin": 1480.195,
+      "duracion_seg": 14.605,
+      "gt_original": "parte. Entonces, ya vamos, eh, bueno, si ustedes quieren con eh, perdón, déjame ahí está dibujar acá. Ya vamos a",
+      "gt_normalizado": "parte entonces ya vamos eh bueno si ustedes quieren con eh perdón déjame ahí está dibujar acá ya vamos a"
+    },
+    {
+      "sample_id": "clase04_seg0099",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0099.wav",
+      "inicio": 1480.62,
+      "fin": 1491.09,
+      "duracion_seg": 10.47,
+      "gt_original": "añadir, no vamos a ni siquiera a borrar algo, sino vamos a añadir algo. ¿Por qué? Porque ya tú eliminaste te, ¿verdad? Ya tú eliminaste te.",
+      "gt_normalizado": "añadir no vamos a ni siquiera a borrar algo sino vamos a añadir algo por qué porque ya tú eliminaste te verdad ya tú eliminaste te"
+    },
+    {
+      "sample_id": "clase04_seg0100",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0100.wav",
+      "inicio": 1491.81,
+      "fin": 1503.586,
+      "duracion_seg": 11.776,
+      "gt_original": "Entonces, bueno, esta igualdad ya está completada, mejor dicho, ya está completada. Eh, a ver, eh, CA es igual a CA. Ya, pero pero tú no",
+      "gt_normalizado": "entonces bueno esta igualdad ya está completada mejor dicho ya está completada eh a ver eh ca es igual a ca ya pero pero tú no"
+    },
+    {
+      "sample_id": "clase04_seg0101",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0101.wav",
+      "inicio": 1504.26,
+      "fin": 1519.2,
+      "duracion_seg": 14.94,
+      "gt_original": "tienes la velocidad de la Tierra con respecto al avión, ¿okay? Tú no la tienes en ningún lado te lo puse, ¿verdad? Entonces, ¿cómo averiguamos? Primero que es mejor siempre, siempre, siempre, siempre",
+      "gt_normalizado": "tienes la velocidad de la tierra con respecto al avión okay tú no la tienes en ningún lado te lo puse verdad entonces cómo averiguamos primero que es mejor siempre siempre siempre siempre"
+    },
+    {
+      "sample_id": "clase04_seg0102",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0102.wav",
+      "inicio": 1519.56,
+      "fin": 1531.89,
+      "duracion_seg": 12.33,
+      "gt_original": "tener al revés, o sea, este subíndice eh no como que no está bien, no está tan bien. Entonces, lo vamos a poner, me interesa saber la velocidad del avión con respecto a la Tierra. Eso me interesa saber.",
+      "gt_normalizado": "tener al revés o sea este subíndice eh no como que no está bien no está tan bien entonces lo vamos a poner me interesa saber la velocidad del avión con respecto a la tierra eso me interesa saber"
+    },
+    {
+      "sample_id": "clase04_seg0103",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0103.wav",
+      "inicio": 1532.55,
+      "fin": 1544.245,
+      "duracion_seg": 11.695,
+      "gt_original": "Okay. Entonces, ustedes aplican lo que les enseñé, que simplemente es el negativo, ¿okay?. que simplemente es el negativo. Por lo tanto, de tener esta formulita,",
+      "gt_normalizado": "okay entonces ustedes aplican lo que les enseñé que simplemente es el negativo okay que simplemente es el negativo por lo tanto de tener esta formulita"
+    },
+    {
+      "sample_id": "clase04_seg0104",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0104.wav",
+      "inicio": 1545.09,
+      "fin": 1558.68,
+      "duracion_seg": 13.59,
+      "gt_original": "voy a pasar a tener la siguiente. Yo copio igual esto yo tengo, esto yo tengo, más la velocidad del río con respecto a la tierra, también tengo esto.",
+      "gt_normalizado": "voy a pasar a tener la siguiente yo copio igual esto yo tengo esto yo tengo más la velocidad del río con respecto a la tierra también tengo esto"
+    },
+    {
+      "sample_id": "clase04_seg0105",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0105.wav",
+      "inicio": 1559.46,
+      "fin": 1584.21,
+      "duracion_seg": 24.75,
+      "gt_original": "Ya, pero en vez de más, este lo vamos a reemplazar por esto, ¿okay? Entonces me quedaría un menos en realidad. Ya. Ahora, el único parámetro que me falta es ese, ¿no? La velocidad del avión con respecto a la Tierra. Entonces, ¿cómo haríamos eso? Simplemente hacemos lo mismo, el mismo el mismo truco de acá. La velocidad del avión con respecto a un observador en la Tierra",
+      "gt_normalizado": "ya pero en vez de más este lo vamos a reemplazar por esto okay entonces me quedaría un menos en realidad ya ahora el único parámetro que me falta es ese no la velocidad del avión con respecto a la tierra entonces cómo haríamos eso simplemente hacemos lo mismo el mismo el mismo truco de acá la velocidad del avión con respecto a un observador en la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0106",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0106.wav",
+      "inicio": 1584.57,
+      "fin": 1602.27,
+      "duracion_seg": 17.7,
+      "gt_original": "tiene que ser igual el avión en dónde se está moviendo a través del viento. Por lo tanto, la velocidad del avión con respecto al viento, ¿ya? más. Y el viento se está moviendo en dónde, en qué espacio en la Tierra. Por lo tanto, más la velocidad del viento con respecto a la Tierra.",
+      "gt_normalizado": "tiene que ser igual el avión en dónde se está moviendo a través del viento por lo tanto la velocidad del avión con respecto al viento ya más y el viento se está moviendo en dónde en qué espacio en la tierra por lo tanto más la velocidad del viento con respecto a la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0107",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0107.wav",
+      "inicio": 1603.29,
+      "fin": 1617.12,
+      "duracion_seg": 13.83,
+      "gt_original": "Vamos a poner su los subíndices. A sobre te tiene que ser igual a A sobre ve por ve sobre te. Se me va eh este término y me queda la igualdad. Por lo tanto, está muy bien desarrollado.",
+      "gt_normalizado": "vamos a poner su los subíndices a sobre te tiene que ser igual a a sobre ve por ve sobre te se me va eh este término y me queda la igualdad por lo tanto está muy bien desarrollado"
+    },
+    {
+      "sample_id": "clase04_seg0108",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0108.wav",
+      "inicio": 1617.54,
+      "fin": 1630.56,
+      "duracion_seg": 13.02,
+      "gt_original": "Ahora yo tengo esto, simón, yo te dije que la velocidad del avión con respecto al viento era igual a 100 metros por segundo a la derecha. Yo tengo la velocidad del viento con respecto a la tierra",
+      "gt_normalizado": "ahora yo tengo esto simón yo te dije que la velocidad del avión con respecto al viento era igual a 100 metros por segundo a la derecha yo tengo la velocidad del viento con respecto a la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0109",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0109.wav",
+      "inicio": 1631.07,
+      "fin": 1643.727,
+      "duracion_seg": 12.657,
+      "gt_original": "también. Por lo tanto, yo tengo esto. Simplemente lo reemplazo acá cuando hay este resultado y ya tengo el resultado acá. Okay, si tienen que ver el video varias veces, por favor véanlo. Eh,",
+      "gt_normalizado": "también por lo tanto yo tengo esto simplemente lo reemplazo acá cuando hay este resultado y ya tengo el resultado acá okay si tienen que ver el video varias veces por favor véanlo eh"
+    },
+    {
+      "sample_id": "clase04_seg0110",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0110.wav",
+      "inicio": 1644.75,
+      "fin": 1655.021,
+      "duracion_seg": 10.271,
+      "gt_original": "pero yo les compliqué bastante. Nunca les van a tomar eso, o sea, nunca, olvídense. Nunca, nunca. Ya, pero yo les doy para que de alguna forma ustedes vean que",
+      "gt_normalizado": "pero yo les compliqué bastante nunca les van a tomar eso o sea nunca olvídense nunca nunca ya pero yo les doy para que de alguna forma ustedes vean que"
+    },
+    {
+      "sample_id": "clase04_seg0111",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0111.wav",
+      "inicio": 1655.55,
+      "fin": 1668.24,
+      "duracion_seg": 12.69,
+      "gt_original": "supuestamente es complejo, ¿ya? Pero cuando tú dominas y tienes en tu cabeza ya primero el concepto que les dije que un observador es distinto que un sistema de referencia,",
+      "gt_normalizado": "supuestamente es complejo ya pero cuando tú dominas y tienes en tu cabeza ya primero el concepto que les dije que un observador es distinto que un sistema de referencia"
+    },
+    {
+      "sample_id": "clase04_seg0112",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0112.wav",
+      "inicio": 1668.72,
+      "fin": 1682.46,
+      "duracion_seg": 13.74,
+      "gt_original": "¿okay? es muy parecido. Ya yo lo quiero ver distinto. Eh, capaz que un libro me va a achacar y me dice que no, pero eh en la forma práctica sirve. Okay. Sirve. Por lo tanto, cuando hablamos de posición,",
+      "gt_normalizado": "okay es muy parecido ya yo lo quiero ver distinto eh capaz que un libro me va a achacar y me dice que no pero eh en la forma práctica sirve okay sirve por lo tanto cuando hablamos de posición"
+    },
+    {
+      "sample_id": "clase04_seg0113",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0113.wav",
+      "inicio": 1682.82,
+      "fin": 1697.966,
+      "duracion_seg": 15.146,
+      "gt_original": "ahí sí hablamos observador, porque ya la posición es depende depende de tu origen, ¿okay? Eh, cada uno como que mira las cosas desde su propia perspectiva, pero en cambio en términos de velocidad, en términos de aceleración, ahí sí te",
+      "gt_normalizado": "ahí sí hablamos observador porque ya la posición es depende depende de tu origen okay eh cada uno como que mira las cosas desde su propia perspectiva pero en cambio en términos de velocidad en términos de aceleración ahí sí te"
+    },
+    {
+      "sample_id": "clase04_seg0114",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0114.wav",
+      "inicio": 1698.33,
+      "fin": 1713.09,
+      "duracion_seg": 14.76,
+      "gt_original": "importa saber el sistema de referencia. Ahí sí te importa. Ya. Y por ejemplo, eh lo que yo les dije, acuérdense que, por ejemplo, la velocidad de la chica y el bote es la misma, por lo tanto, ambos forman el mismo sistema de referencia.",
+      "gt_normalizado": "importa saber el sistema de referencia ahí sí te importa ya y por ejemplo eh lo que yo les dije acuérdense que por ejemplo la velocidad de la chica y el bote es la misma por lo tanto ambos forman el mismo sistema de referencia"
+    },
+    {
+      "sample_id": "clase04_seg0115",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0115.wav",
+      "inicio": 1713.57,
+      "fin": 1735.17,
+      "duracion_seg": 21.6,
+      "gt_original": "Ya, no importa si tú te preguntas la velocidad de la chica con respecto al avión que preguntarse la velocidad del bote con respecto al avión. Es la misma pregunta, ¿okay? Es la eh va a ser te va a salir lo mismo. Ya. Y lo que quiero que no se olviden es siempre comprobar con esta fórmula, o sea, siempre los subíndices eh lo tienen que bajar como si fuera divisiones",
+      "gt_normalizado": "ya no importa si tú te preguntas la velocidad de la chica con respecto al avión que preguntarse la velocidad del bote con respecto al avión es la misma pregunta okay es la eh va a ser te va a salir lo mismo ya y lo que quiero que no se olviden es siempre comprobar con esta fórmula o sea siempre los subíndices eh lo tienen que bajar como si fuera divisiones"
+    },
+    {
+      "sample_id": "clase04_seg0116",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0116.wav",
+      "inicio": 1735.53,
+      "fin": 1748.49,
+      "duracion_seg": 12.96,
+      "gt_original": "y multiplicar los eh los subíndices de a la derecha, ¿okay? Los que están en la parte de la derecha, nada más. Y simplemente tienen que sumar, sumar, sumar hasta que les dé una congruencia, una igualdad.",
+      "gt_normalizado": "y multiplicar los eh los subíndices de a la derecha okay los que están en la parte de la derecha nada más y simplemente tienen que sumar sumar sumar hasta que les dé una congruencia una igualdad"
+    },
+    {
+      "sample_id": "clase04_seg0117",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0117.wav",
+      "inicio": 1749.15,
+      "fin": 1767.311,
+      "duracion_seg": 18.161,
+      "gt_original": "¿Okay? Y siempre vayan en orden. O sea, como yo fui primero eh me preguntaron esto, yo fui en orden, comencé con la chica, porque este es el numerador y yo visualicé la chica se está moviendo a través de qué, a través de qué espacio? del río. Okay. Entonces, le pongo velocidad con",
+      "gt_normalizado": "okay y siempre vayan en orden o sea como yo fui primero eh me preguntaron esto yo fui en orden comencé con la chica porque este es el numerador y yo visualicé la chica se está moviendo a través de qué a través de qué espacio del río okay entonces le pongo velocidad con"
+    },
+    {
+      "sample_id": "clase04_seg0118",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0118.wav",
+      "inicio": 1770.569,
+      "fin": 1783.821,
+      "duracion_seg": 13.252,
+      "gt_original": "respecto al río. Ahora, el río se está moviendo con respecto a algo, o sea, de ley, ya. Eh, no es que el río está en el espacio, ¿no? Por lo tanto, eh, el río con respecto a la Tierra. Entonces ahí se me va eliminando el río y yo wait, o sea, ya estoy avanzando algo, ¿no?",
+      "gt_normalizado": "respecto al río ahora el río se está moviendo con respecto a algo o sea de ley ya eh no es que el río está en el espacio no por lo tanto eh el río con respecto a la tierra entonces ahí se me va eliminando el río y yo wait o sea ya estoy avanzando algo no"
+    },
+    {
+      "sample_id": "clase04_seg0119",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0119.wav",
+      "inicio": 1784.67,
+      "fin": 1796.46,
+      "duracion_seg": 11.79,
+      "gt_original": "Ahora, eh, para nosotros eliminar y alcanzar la letra A, ya y este ya es el paso último, entonces yo eh puedo poner esto, ¿okay? Ya puedo poner esto para eliminar la tierra,",
+      "gt_normalizado": "ahora eh para nosotros eliminar y alcanzar la letra a ya y este ya es el paso último entonces yo eh puedo poner esto okay ya puedo poner esto para eliminar la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0120",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0120.wav",
+      "inicio": 1796.82,
+      "fin": 1811.55,
+      "duracion_seg": 14.73,
+      "gt_original": "pero me queda eh la velocidad de la tierra con respecto al avión, ¿ya? Y eso eh prácticamente lo tienes que cambiar, ¿okay? Entonces, lo tienes que cambiar por menos la velocidad del avión con respecto a la tierra. ¿Okay?",
+      "gt_normalizado": "pero me queda eh la velocidad de la tierra con respecto al avión ya y eso eh prácticamente lo tienes que cambiar okay entonces lo tienes que cambiar por menos la velocidad del avión con respecto a la tierra okay"
+    },
+    {
+      "sample_id": "clase04_seg0121",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0121.wav",
+      "inicio": 1812.21,
+      "fin": 1826.047,
+      "duracion_seg": 13.837,
+      "gt_original": "Ya, por esta formulita que también acuérdense esta fórmula que les puse acá, ya no se vayan a olvidar eso. Eso aplica para todo, o sea, en tres dimensiones, dos dimensiones con observador, eh, con cualquier observador. Y nada más eh",
+      "gt_normalizado": "ya por esta formulita que también acuérdense esta fórmula que les puse acá ya no se vayan a olvidar eso eso aplica para todo o sea en tres dimensiones dos dimensiones con observador eh con cualquier observador y nada más eh"
+    },
+    {
+      "sample_id": "clase04_seg0122",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0122.wav",
+      "inicio": 1827.21,
+      "fin": 1838.776,
+      "duracion_seg": 11.566,
+      "gt_original": "esto con respecto a la teoría de lo que sería el movimiento relativo. Ya, déjenme ver si es que, ah, cierto, les voy a dar los casos, ¿verdad? Me me estaba olvidando de los casos.",
+      "gt_normalizado": "esto con respecto a la teoría de lo que sería el movimiento relativo ya déjenme ver si es que ah cierto les voy a dar los casos verdad me me estaba olvidando de los casos"
+    },
+    {
+      "sample_id": "clase04_seg0123",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0123.wav",
+      "inicio": 1839.18,
+      "fin": 1851.75,
+      "duracion_seg": 12.57,
+      "gt_original": "Ahora, si se dan cuenta que esto es complejo, ¿verdad? Ya esto es medio complejo y es medio difícil de entender. Ya tienes que saber muy bien lo que es sistema de referencia, lo que es un observador, cuál es diferencia.",
+      "gt_normalizado": "ahora si se dan cuenta que esto es complejo verdad ya esto es medio complejo y es medio difícil de entender ya tienes que saber muy bien lo que es sistema de referencia lo que es un observador cuál es diferencia"
+    },
+    {
+      "sample_id": "clase04_seg0124",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0124.wav",
+      "inicio": 1852.41,
+      "fin": 1864.26,
+      "duracion_seg": 11.85,
+      "gt_original": "Pero si tú tienes un caso uno, que ya les voy a dar cuál es el caso uno. Ustedes van a aplicar simplemente esto, una resta de vectores,",
+      "gt_normalizado": "pero si tú tienes un caso uno que ya les voy a dar cuál es el caso uno ustedes van a aplicar simplemente esto una resta de vectores"
+    },
+    {
+      "sample_id": "clase04_seg0125",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0125.wav",
+      "inicio": 1865.31,
+      "fin": 1876.498,
+      "duracion_seg": 11.188,
+      "gt_original": "ya? Si te preguntan la velocidad de A con respecto a be, vas a hacer esto, la velocidad de A menos la velocidad de be. Okay. Esta",
+      "gt_normalizado": "ya si te preguntan la velocidad de a con respecto a be vas a hacer esto la velocidad de a menos la velocidad de be okay esta"
+    },
+    {
+      "sample_id": "clase04_seg0126",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0126.wav",
+      "inicio": 1876.957,
+      "fin": 1890.66,
+      "duracion_seg": 13.703,
+      "gt_original": "simple ecuación es muy poderosa. En el caso uno, ¿cuál es el caso uno? El caso uno ya es cuando ambos objetos que se están comparando en velocidades,",
+      "gt_normalizado": "simple ecuación es muy poderosa en el caso uno cuál es el caso uno el caso uno ya es cuando ambos objetos que se están comparando en velocidades"
+    },
+    {
+      "sample_id": "clase04_seg0127",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0127.wav",
+      "inicio": 1891.35,
+      "fin": 1901.372,
+      "duracion_seg": 10.022,
+      "gt_original": "¿okay? Se mueven a través de un mismo espacio, a través de un mismo sistema de referencia. Ambos objetos se mueven a",
+      "gt_normalizado": "okay se mueven a través de un mismo espacio a través de un mismo sistema de referencia ambos objetos se mueven a"
+    },
+    {
+      "sample_id": "clase04_seg0128",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0128.wav",
+      "inicio": 1903.2,
+      "fin": 1914.22,
+      "duracion_seg": 11.02,
+      "gt_original": "través del el mismo sistema de referencia o del mismo espacio, ¿okay? Vamos a decir que se mueven en la misma plataforma, ¿okay? Y vamos a ponerle que plataforma entre comillas porque eh",
+      "gt_normalizado": "través del el mismo sistema de referencia o del mismo espacio okay vamos a decir que se mueven en la misma plataforma okay y vamos a ponerle que plataforma entre comillas porque eh"
+    },
+    {
+      "sample_id": "clase04_seg0129",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0129.wav",
+      "inicio": 1916.91,
+      "fin": 1928.446,
+      "duracion_seg": 11.536,
+      "gt_original": "plataforma. Estamos hablando de espacio o de sistema de referencia. Okay. Ahora, ¿cuándo esto es válido? O o ¿A qué me refiero con la misma plataforma? Por ejemplo, si eh",
+      "gt_normalizado": "plataforma estamos hablando de espacio o de sistema de referencia okay ahora cuándo esto es válido o o a qué me refiero con la misma plataforma por ejemplo si eh"
+    },
+    {
+      "sample_id": "clase04_seg0130",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0130.wav",
+      "inicio": 1930.23,
+      "fin": 1942.48,
+      "duracion_seg": 12.25,
+      "gt_original": "un avión, ya un avión, vamos a dibujar un avión que vamos a ver si me sale. Ya, ahí está más o menos el avión. Se está moviendo eh, con un vector hacia allá, o sea, con un ángulo de",
+      "gt_normalizado": "un avión ya un avión vamos a dibujar un avión que vamos a ver si me sale ya ahí está más o menos el avión se está moviendo eh con un vector hacia allá o sea con un ángulo de"
+    },
+    {
+      "sample_id": "clase04_seg0131",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0131.wav",
+      "inicio": 1943.43,
+      "fin": 1955.82,
+      "duracion_seg": 12.39,
+      "gt_original": "teta. Okay. Ahora, eh imaginemos que el viento está soplando ya, está yendo hacia hacia acá, por ejemplo. Okay. El viento, la velocidad del viento con respecto a la Tierra",
+      "gt_normalizado": "teta okay ahora eh imaginemos que el viento está soplando ya está yendo hacia hacia acá por ejemplo okay el viento la velocidad del viento con respecto a la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0132",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0132.wav",
+      "inicio": 1956.57,
+      "fin": 1969.498,
+      "duracion_seg": 12.928,
+      "gt_original": "es tiene una dirección de tanto. ¿Qué va a pasar si tú tienes un avión que es vecino? Vamos a decir que es un avión eh que está muy cerca de este, ¿ya? Pero en cambio este",
+      "gt_normalizado": "es tiene una dirección de tanto qué va a pasar si tú tienes un avión que es vecino vamos a decir que es un avión eh que está muy cerca de este ya pero en cambio este"
+    },
+    {
+      "sample_id": "clase04_seg0133",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0133.wav",
+      "inicio": 1974.73,
+      "fin": 1985.291,
+      "duracion_seg": 10.561,
+      "gt_original": "avión se está moviendo a la derecha. ¿Okay? Ahora yo les pregunto, si este video lo vamos a llamar A y este be, ¿cuál es la velocidad de A con respecto a be? Ya, si te preguntan eso, ahí",
+      "gt_normalizado": "avión se está moviendo a la derecha okay ahora yo les pregunto si este video lo vamos a llamar a y este be cuál es la velocidad de a con respecto a be ya si te preguntan eso ahí"
+    },
+    {
+      "sample_id": "clase04_seg0134",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0134.wav",
+      "inicio": 1985.701,
+      "fin": 2001.491,
+      "duracion_seg": 15.79,
+      "gt_original": "tú primero dices: \"Chuta, pero este man me enseñó que, a ver, el avión ya, a ver, el avión A se está moviendo.\" A ver, te preguntan esto, ¿verdad? Entonces, yo les dije primero comiencen con A. A ver, eh, déjenme ver.",
+      "gt_normalizado": "tú primero dices chuta pero este man me enseñó que a ver el avión ya a ver el avión a se está moviendo a ver te preguntan esto verdad entonces yo les dije primero comiencen con a a ver eh déjenme ver"
+    },
+    {
+      "sample_id": "clase04_seg0135",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0135.wav",
+      "inicio": 2002.05,
+      "fin": 2015.97,
+      "duracion_seg": 13.92,
+      "gt_original": "¿Qué pregunta? Me tengo que ir. Muchas gracias. Dale, Joel. A ver, entonces me dicen la velocidad del avión, yo les enseño así, ¿no? Con respecto a dónde se está moviendo, se está moviendo a través del viento, ¿verdad?",
+      "gt_normalizado": "qué pregunta me tengo que ir muchas gracias dale joel a ver entonces me dicen la velocidad del avión yo les enseño así no con respecto a dónde se está moviendo se está moviendo a través del viento verdad"
+    },
+    {
+      "sample_id": "clase04_seg0136",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0136.wav",
+      "inicio": 2016.54,
+      "fin": 2037.87,
+      "duracion_seg": 21.33,
+      "gt_original": "Ya. Ahora, y así comenzamos la velocidad del viento. Entonces, ¿en dónde se está moviendo? En la Tierra. Ahora, la velocidad de la Tierra con respecto a be, ¿ya?, y ahí eliminas todos los subíndices, pero este no es la forma práctica. ¿Okay? Esta no es la forma práctica porque estás en el caso uno. Tú dices el caso uno, bacán.",
+      "gt_normalizado": "ya ahora y así comenzamos la velocidad del viento entonces en dónde se está moviendo en la tierra ahora la velocidad de la tierra con respecto a be ya y ahí eliminas todos los subíndices pero este no es la forma práctica okay esta no es la forma práctica porque estás en el caso uno tú dices el caso uno bacán"
+    },
+    {
+      "sample_id": "clase04_seg0137",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0137.wav",
+      "inicio": 2038.38,
+      "fin": 2056.018,
+      "duracion_seg": 17.638,
+      "gt_original": "Ya. ¿Por qué yo sé que se estamos hablando del caso uno? Porque ambos objetos se mueven en la misma plataforma, ¿okay? En la misma plataforma. ¿Cuál es esa plataforma o ese espacio? Es el viento. Este avión A se mueve a través del viento. Este",
+      "gt_normalizado": "ya por qué yo sé que se estamos hablando del caso uno porque ambos objetos se mueven en la misma plataforma okay en la misma plataforma cuál es esa plataforma o ese espacio es el viento este avión a se mueve a través del viento este"
+    },
+    {
+      "sample_id": "clase04_seg0138",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0138.wav",
+      "inicio": 2056.71,
+      "fin": 2067.16,
+      "duracion_seg": 10.45,
+      "gt_original": "avión be se mueve a través del viento. Por lo tanto, ambos se están moviendo en el mismo espacio, a través del mismo espacio. Entonces, tienes el caso uno y",
+      "gt_normalizado": "avión be se mueve a través del viento por lo tanto ambos se están moviendo en el mismo espacio a través del mismo espacio entonces tienes el caso uno y"
+    },
+    {
+      "sample_id": "clase04_seg0139",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0139.wav",
+      "inicio": 2067.612,
+      "fin": 2081.668,
+      "duracion_seg": 14.057,
+      "gt_original": "simplemente vas a hacer esto. La velocidad de A sobre be es igual a la resta de velocidades nada más. Okay, no se vayan a complicar. Y se preguntan, oye, esta",
+      "gt_normalizado": "simplemente vas a hacer esto la velocidad de a sobre be es igual a la resta de velocidades nada más okay no se vayan a complicar y se preguntan oye esta"
+    },
+    {
+      "sample_id": "clase04_seg0140",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0140.wav",
+      "inicio": 2082.391,
+      "fin": 2098.65,
+      "duracion_seg": 16.259,
+      "gt_original": "velocidad A es con respecto a algo y sí, las velocidades A y la velocidad be es con respecto a la misma plataforma. Okay. Entonces, en teoría, por ejemplo, eh ah, yo les indiqué, ¿verdad?, que la velocidad del avión",
+      "gt_normalizado": "velocidad a es con respecto a algo y sí las velocidades a y la velocidad be es con respecto a la misma plataforma okay entonces en teoría por ejemplo eh ah yo les indiqué verdad que la velocidad del avión"
+    },
+    {
+      "sample_id": "clase04_seg0141",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0141.wav",
+      "inicio": 2099.43,
+      "fin": 2112.206,
+      "duracion_seg": 12.776,
+      "gt_original": "con respecto al viento era este vector y la velocidad del avión be con respecto al viento era este vector. Por lo tanto, esta velocidad es la que",
+      "gt_normalizado": "con respecto al viento era este vector y la velocidad del avión be con respecto al viento era este vector por lo tanto esta velocidad es la que"
+    },
+    {
+      "sample_id": "clase04_seg0142",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0142.wav",
+      "inicio": 2114.37,
+      "fin": 2125.84,
+      "duracion_seg": 11.47,
+      "gt_original": "tienes que poner acá y esta velocidad es la que tienes que poner acá. ¿Okay? Ya. Y si se dan cuenta y somos un poco eh curiosos, ya vamos a ponerlos con subíndices para que ustedes vean. Ya,",
+      "gt_normalizado": "tienes que poner acá y esta velocidad es la que tienes que poner acá okay ya y si se dan cuenta y somos un poco eh curiosos ya vamos a ponerlos con subíndices para que ustedes vean ya"
+    },
+    {
+      "sample_id": "clase04_seg0143",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0143.wav",
+      "inicio": 2127.42,
+      "fin": 2138.829,
+      "duracion_seg": 11.409,
+      "gt_original": "menos la velocidad del viento con respecto al avión, al avión be. Déjenme borrar acá. Vamos a poner eh avión be. Ya. Si",
+      "gt_normalizado": "menos la velocidad del viento con respecto al avión al avión be déjenme borrar acá vamos a poner eh avión be ya si"
+    },
+    {
+      "sample_id": "clase04_seg0144",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0144.wav",
+      "inicio": 2141.01,
+      "fin": 2151.96,
+      "duracion_seg": 10.95,
+      "gt_original": "ustedes son eh curiosos, van a ver algo muy importante. A ver. Y vamos a poner la velocidad de A con respecto a be. Ya vamos a decir, vamos a reemplazar esto.",
+      "gt_normalizado": "ustedes son eh curiosos van a ver algo muy importante a ver y vamos a poner la velocidad de a con respecto a be ya vamos a decir vamos a reemplazar esto"
+    },
+    {
+      "sample_id": "clase04_seg0145",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0145.wav",
+      "inicio": 2153.43,
+      "fin": 2170.23,
+      "duracion_seg": 16.8,
+      "gt_original": "Ya yo les dije que la velocidad de equis cosa con respecto a equis cosa siempre es igual a menos y intercambias los subíndices. Okay. Por lo tanto, multiplicamos un menos. Este se hace más. Entonces",
+      "gt_normalizado": "ya yo les dije que la velocidad de equis cosa con respecto a equis cosa siempre es igual a menos y intercambias los subíndices okay por lo tanto multiplicamos un menos este se hace más entonces"
+    },
+    {
+      "sample_id": "clase04_seg0146",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0146.wav",
+      "inicio": 2170.89,
+      "fin": 2183.322,
+      "duracion_seg": 12.432,
+      "gt_original": "esto tiene que ser igual a esto. Entonces reemplazo la velocidad de A sobre be. más la velocidad de be sobre ve. Okay, vamos a",
+      "gt_normalizado": "esto tiene que ser igual a esto entonces reemplazo la velocidad de a sobre be más la velocidad de be sobre ve okay vamos a"
+    },
+    {
+      "sample_id": "clase04_seg0147",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0147.wav",
+      "inicio": 2184.63,
+      "fin": 2195.746,
+      "duracion_seg": 11.116,
+      "gt_original": "ponerle acá los estos gorritos. Entonces, si hacemos el truco de los subíndices para ver si está bien, nos vamos a dar cuenta que A sobre be es",
+      "gt_normalizado": "ponerle acá los estos gorritos entonces si hacemos el truco de los subíndices para ver si está bien nos vamos a dar cuenta que a sobre be es"
+    },
+    {
+      "sample_id": "clase04_seg0148",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0148.wav",
+      "inicio": 2196.191,
+      "fin": 2207.82,
+      "duracion_seg": 11.629,
+      "gt_original": "igual a A sobre ve por be sobre ve. Ah, perdón. A ver, acá sería Ah, no, a ver. Aquí me equivoqué. Es be. Es be. Acá",
+      "gt_normalizado": "igual a a sobre ve por be sobre ve ah perdón a ver acá sería ah no a ver aquí me equivoqué es be es be acá"
+    },
+    {
+      "sample_id": "clase04_seg0149",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0149.wav",
+      "inicio": 2211.63,
+      "fin": 2224.23,
+      "duracion_seg": 12.6,
+      "gt_original": "estamos hablando de be sobre ve y por lo tanto acá sería ve sobre be. Okay. Entonces, si se dan cuenta que se va a eliminar,",
+      "gt_normalizado": "estamos hablando de be sobre ve y por lo tanto acá sería ve sobre be okay entonces si se dan cuenta que se va a eliminar"
+    },
+    {
+      "sample_id": "clase04_seg0150",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0150.wav",
+      "inicio": 2225.16,
+      "fin": 2236.17,
+      "duracion_seg": 11.01,
+      "gt_original": "¿okay? Se va a eliminar y se va a cumplir la regla de verificación, ¿ya? Y vamos a tener la igualdad. Por lo tanto, esta fórmula es válida solo en el caso uno,",
+      "gt_normalizado": "okay se va a eliminar y se va a cumplir la regla de verificación ya y vamos a tener la igualdad por lo tanto esta fórmula es válida solo en el caso uno"
+    },
+    {
+      "sample_id": "clase04_seg0151",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0151.wav",
+      "inicio": 2236.77,
+      "fin": 2261.67,
+      "duracion_seg": 24.9,
+      "gt_original": "solo en el primer caso. ¿Okay? Ya. En el caso dos que vamos a ver ahora, el caso dos es cuando efectivamente tienes la fórmula que yo les indiqué al principio, por ejemplo, que la posición de A con respecto a ce tiene que ser igual a A con respecto a be más la posición de be con respecto a ce. Si tú derivas esta fórmula, te va a salir",
+      "gt_normalizado": "solo en el primer caso okay ya en el caso dos que vamos a ver ahora el caso dos es cuando efectivamente tienes la fórmula que yo les indiqué al principio por ejemplo que la posición de a con respecto a ce tiene que ser igual a a con respecto a be más la posición de be con respecto a ce si tú derivas esta fórmula te va a salir"
+    },
+    {
+      "sample_id": "clase04_seg0152",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0152.wav",
+      "inicio": 2261.73,
+      "fin": 2272.05,
+      "duracion_seg": 10.32,
+      "gt_original": "la que siempre usamos, ¿okay? La que siempre se usa y es como que eh la vieja confiable, ¿no? Así que ese va a ser el caso dos.",
+      "gt_normalizado": "la que siempre usamos okay la que siempre se usa y es como que eh la vieja confiable no así que ese va a ser el caso dos"
+    },
+    {
+      "sample_id": "clase04_seg0153",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0153.wav",
+      "inicio": 2272.71,
+      "fin": 2285.31,
+      "duracion_seg": 12.6,
+      "gt_original": "Entonces, el caso dos es cuando eh ambos sujetos se están moviendo en distintos eh por decir espacios. Por ejemplo, en el ejemplo que les puse de el río, ¿no?",
+      "gt_normalizado": "entonces el caso dos es cuando eh ambos sujetos se están moviendo en distintos eh por decir espacios por ejemplo en el ejemplo que les puse de el río no"
+    },
+    {
+      "sample_id": "clase04_seg0154",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0154.wav",
+      "inicio": 2285.88,
+      "fin": 2302.044,
+      "duracion_seg": 16.164,
+      "gt_original": "La chica se movía a través del río, ¿verdad? Ya. Y si yo quería saber cuál era su velocidad con respecto al avión, ya tenía que hacer necesariamente esta fórmula. ¿Por qué? Porque el avión no se",
+      "gt_normalizado": "la chica se movía a través del río verdad ya y si yo quería saber cuál era su velocidad con respecto al avión ya tenía que hacer necesariamente esta fórmula por qué porque el avión no se"
+    },
+    {
+      "sample_id": "clase04_seg0155",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0155.wav",
+      "inicio": 2303.64,
+      "fin": 2316.76,
+      "duracion_seg": 13.12,
+      "gt_original": "mueve en el río. El avión no se mueve, sino en el aire, ¿verdad? Okay. Entonces son distintas, como decir, se mueven a través de distintas cosas. Eh, ahí sí de ley es el caso dos. El caso dos ahí sí no puedes escapar. Ya.",
+      "gt_normalizado": "mueve en el río el avión no se mueve sino en el aire verdad okay entonces son distintas como decir se mueven a través de distintas cosas eh ahí sí de ley es el caso dos el caso dos ahí sí no puedes escapar ya"
+    },
+    {
+      "sample_id": "clase04_seg0156",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0156.wav",
+      "inicio": 2317.89,
+      "fin": 2333.266,
+      "duracion_seg": 15.376,
+      "gt_original": "Entonces, espero que esta teoría esté un poco eh digerida de alguna forma y vamos a practicar. Okay. No sé si tiene alguna pregunta. Así fue muy confuso, me dicen. Okay. O sea, si si en realidad no se entendió, eh, me",
+      "gt_normalizado": "entonces espero que esta teoría esté un poco eh digerida de alguna forma y vamos a practicar okay no sé si tiene alguna pregunta así fue muy confuso me dicen okay o sea si si en realidad no se entendió eh me"
+    },
+    {
+      "sample_id": "clase04_seg0157",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0157.wav",
+      "inicio": 2333.73,
+      "fin": 2347.12,
+      "duracion_seg": 13.39,
+      "gt_original": "dicen ya antes de hacer estos ejercicios. Ya. A ver, eh, vamos a ver qué me dice. Puedes volver al caso uno. Ya. A ver, a ver, Patricio. El",
+      "gt_normalizado": "dicen ya antes de hacer estos ejercicios ya a ver eh vamos a ver qué me dice puedes volver al caso uno ya a ver a ver patricio el"
+    },
+    {
+      "sample_id": "clase04_seg0158",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0158.wav",
+      "inicio": 2347.65,
+      "fin": 2360.398,
+      "duracion_seg": 12.748,
+      "gt_original": "caso uno, ya simplemente es la resta, ¿okay? Simplemente es la resta. Por ejemplo, te indicen la velocidad de A con respecto a be es la resta de ambas velocidades, ¿okay?",
+      "gt_normalizado": "caso uno ya simplemente es la resta okay simplemente es la resta por ejemplo te indicen la velocidad de a con respecto a be es la resta de ambas velocidades okay"
+    },
+    {
+      "sample_id": "clase04_seg0159",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0159.wav",
+      "inicio": 2360.76,
+      "fin": 2372.08,
+      "duracion_seg": 11.32,
+      "gt_original": "Siempre es la resta, pero siempre cuando ambos objetos se mueven en la misma plataforma, o sea, se están moviendo eh en el mismo escenario, ¿okay?, entre comillas, por ejemplo, si",
+      "gt_normalizado": "siempre es la resta pero siempre cuando ambos objetos se mueven en la misma plataforma o sea se están moviendo eh en el mismo escenario okay entre comillas por ejemplo si"
+    },
+    {
+      "sample_id": "clase04_seg0160",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0160.wav",
+      "inicio": 2373.39,
+      "fin": 2387.82,
+      "duracion_seg": 14.43,
+      "gt_original": "tú vas en tu bici, eh yo no sé dibujar bisis, pero si tú vas en tus bicis, ya tú vas contento, tú te estás moviendo en la tierra, ¿verdad? O sea, o a no ser que tú montes la bicicleta en el bus, pero no en la tierra.",
+      "gt_normalizado": "tú vas en tu bici eh yo no sé dibujar bisis pero si tú vas en tus bicis ya tú vas contento tú te estás moviendo en la tierra verdad o sea o a no ser que tú montes la bicicleta en el bus pero no en la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0161",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0161.wav",
+      "inicio": 2388.57,
+      "fin": 2400.99,
+      "duracion_seg": 12.42,
+      "gt_original": "Supongamos que te estás moviendo hacia la derecha y viene una persona trotando ya en la tierra, ya no va a trotar en el carro, ¿verdad? Ya esta persona está trotando a la izquierda.",
+      "gt_normalizado": "supongamos que te estás moviendo hacia la derecha y viene una persona trotando ya en la tierra ya no va a trotar en el carro verdad ya esta persona está trotando a la izquierda"
+    },
+    {
+      "sample_id": "clase04_seg0162",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0162.wav",
+      "inicio": 2402.55,
+      "fin": 2412.886,
+      "duracion_seg": 10.336,
+      "gt_original": "Entonces te pregunta, la velocidad de la bicicleta con respecto a la persona, ¿cuánto va a ser? Y ahí tú recuerdas. A ver,",
+      "gt_normalizado": "entonces te pregunta la velocidad de la bicicleta con respecto a la persona cuánto va a ser y ahí tú recuerdas a ver"
+    },
+    {
+      "sample_id": "clase04_seg0163",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0163.wav",
+      "inicio": 2413.53,
+      "fin": 2425.17,
+      "duracion_seg": 11.64,
+      "gt_original": "la bicicleta se mueve en la tierra y la persona está trotando en la tierra, por lo tanto, ambos objetos están moviendo en la misma plataforma, ¿okay? En el mismo espacio.",
+      "gt_normalizado": "la bicicleta se mueve en la tierra y la persona está trotando en la tierra por lo tanto ambos objetos están moviendo en la misma plataforma okay en el mismo espacio"
+    },
+    {
+      "sample_id": "clase04_seg0164",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0164.wav",
+      "inicio": 2425.95,
+      "fin": 2446.858,
+      "duracion_seg": 20.908,
+      "gt_original": "Entonces, simplemente, ah, okay, es la resta, ya está, no me complicó la vida. Ya, y es la resta. Y yo esta velocidad es con respecto a esa plataforma, o sea, es la velocidad de la bicicleta con respecto a la tierra. Y esta velocidad también es con respecto a la Tierra, ¿ya? O sea, a esa plataforma, a ese espacio en común. ¿Okay?",
+      "gt_normalizado": "entonces simplemente ah okay es la resta ya está no me complicó la vida ya y es la resta y yo esta velocidad es con respecto a esa plataforma o sea es la velocidad de la bicicleta con respecto a la tierra y esta velocidad también es con respecto a la tierra ya o sea a esa plataforma a ese espacio en común okay"
+    },
+    {
+      "sample_id": "clase04_seg0165",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0165.wav",
+      "inicio": 2447.46,
+      "fin": 2460.579,
+      "duracion_seg": 13.119,
+      "gt_original": "Entonces, y ahí te va a dar la velocidad relativa, o sea, ya está. Simplemente es una resta y no se complique. Eh, vamos a hacer ejercicio. No sé si Joel, ahí si entendiste mejor. A ver, me",
+      "gt_normalizado": "entonces y ahí te va a dar la velocidad relativa o sea ya está simplemente es una resta y no se complique eh vamos a hacer ejercicio no sé si joel ahí si entendiste mejor a ver me"
+    },
+    {
+      "sample_id": "clase04_seg0166",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0166.wav",
+      "inicio": 2461.56,
+      "fin": 2471.61,
+      "duracion_seg": 10.05,
+      "gt_original": "dices, ah, igual igual forma vamos a ver algunos ejercicios para que que quede un poco más claro. Déjame déjame",
+      "gt_normalizado": "dices ah igual igual forma vamos a ver algunos ejercicios para que que quede un poco más claro déjame déjame"
+    },
+    {
+      "sample_id": "clase04_seg0167",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0167.wav",
+      "inicio": 2471.97,
+      "fin": 2482.35,
+      "duracion_seg": 10.38,
+      "gt_original": "ver acá. Ya. Bueno, este en Bueno, vamos a hacer este, ¿por qué no? Vamos a tener dos aviones,",
+      "gt_normalizado": "ver acá ya bueno este en bueno vamos a hacer este por qué no vamos a tener dos aviones"
+    },
+    {
+      "sample_id": "clase04_seg0168",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0168.wav",
+      "inicio": 2483.55,
+      "fin": 2494.35,
+      "duracion_seg": 10.8,
+      "gt_original": "ya dos aviones se acercan en el espacio eh aéreo y tienen velocidades constantes a la derecha, a la derecha y el viento está a la derecha. ¿Okay?",
+      "gt_normalizado": "ya dos aviones se acercan en el espacio eh aéreo y tienen velocidades constantes a la derecha a la derecha y el viento está a la derecha okay"
+    },
+    {
+      "sample_id": "clase04_seg0169",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0169.wav",
+      "inicio": 2495.55,
+      "fin": 2508.216,
+      "duracion_seg": 12.666,
+      "gt_original": "Mientras que el viento está soplando, como se muestra en la figura. ¿Cuál debería ser la dirección a la que debe dirigirse el avión be si desea chocar perpendicularmente con A?",
+      "gt_normalizado": "mientras que el viento está soplando como se muestra en la figura cuál debería ser la dirección a la que debe dirigirse el avión be si desea chocar perpendicularmente con a"
+    },
+    {
+      "sample_id": "clase04_seg0170",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0170.wav",
+      "inicio": 2509.2,
+      "fin": 2519.324,
+      "duracion_seg": 10.124,
+      "gt_original": "O sea, ¿cuál es la dirección de este avioncito para que termine de chocar en esta dirección? O sea, tiene que ir así recto. Okay.",
+      "gt_normalizado": "o sea cuál es la dirección de este avioncito para que termine de chocar en esta dirección o sea tiene que ir así recto okay"
+    },
+    {
+      "sample_id": "clase04_seg0171",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0171.wav",
+      "inicio": 2522.43,
+      "fin": 2537.43,
+      "duracion_seg": 15.0,
+      "gt_original": "Ya. Para poder chocarse con este avión A. Entonces, ¿cómo vamos a hacer eso? A ver, eh, primero que tú quieres que la velocidad del avión be sea para abajo, o sea, sea menos jota.",
+      "gt_normalizado": "ya para poder chocarse con este avión a entonces cómo vamos a hacer eso a ver eh primero que tú quieres que la velocidad del avión be sea para abajo o sea sea menos jota"
+    },
+    {
+      "sample_id": "clase04_seg0172",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0172.wav",
+      "inicio": 2538.48,
+      "fin": 2557.996,
+      "duracion_seg": 19.516,
+      "gt_original": "No, da igual el número acá, o sea, te da igual el número, puede ser uno, puede ser dos, puede ser tres, da igual, pero la dirección te importa porque tú quieres chocar perpendicularmente, ¿okay? Entonces, vamos a a decir eso. Por lo tanto, esto tiene que trazarse así, ¿no? Es un vector hacia abajo.",
+      "gt_normalizado": "no da igual el número acá o sea te da igual el número puede ser uno puede ser dos puede ser tres da igual pero la dirección te importa porque tú quieres chocar perpendicularmente okay entonces vamos a a decir eso por lo tanto esto tiene que trazarse así no es un vector hacia abajo"
+    },
+    {
+      "sample_id": "clase04_seg0173",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0173.wav",
+      "inicio": 2558.49,
+      "fin": 2570.34,
+      "duracion_seg": 11.85,
+      "gt_original": "Ya, esta es la resultante. Ahora vamos a aplicar la fórmula eh la típica, ¿no? Vamos a decir que la velocidad de de be con respecto a la Tierra",
+      "gt_normalizado": "ya esta es la resultante ahora vamos a aplicar la fórmula eh la típica no vamos a decir que la velocidad de de be con respecto a la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0174",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0174.wav",
+      "inicio": 2570.91,
+      "fin": 2583.99,
+      "duracion_seg": 13.08,
+      "gt_original": "es la velocidad de be con respecto a dónde se esté moviendo. Se está moviendo a través del viento. ¡Chévere! Okay, a través del viento más la velocidad y el viento se mueve a través de la Tierra.",
+      "gt_normalizado": "es la velocidad de be con respecto a dónde se esté moviendo se está moviendo a través del viento chévere okay a través del viento más la velocidad y el viento se mueve a través de la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0175",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0175.wav",
+      "inicio": 2584.71,
+      "fin": 2595.69,
+      "duracion_seg": 10.98,
+      "gt_original": "Los subíndices se cancelan, simón. Y y queda perfecto. Entonces, eh sabemos que este vector va a ser la suma de dos vectores,",
+      "gt_normalizado": "los subíndices se cancelan simón y y queda perfecto entonces eh sabemos que este vector va a ser la suma de dos vectores"
+    },
+    {
+      "sample_id": "clase04_seg0176",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0176.wav",
+      "inicio": 2596.44,
+      "fin": 2610.15,
+      "duracion_seg": 13.71,
+      "gt_original": "¿okay? Entonces, de alguna forma, estos dos vectores, la resultante me tiene que dar hacia abajo. Entonces, vamos a averiguar si tenemos alguno de los vectores. Tenemos la velocidad del viento con respecto a la Tierra.",
+      "gt_normalizado": "okay entonces de alguna forma estos dos vectores la resultante me tiene que dar hacia abajo entonces vamos a averiguar si tenemos alguno de los vectores tenemos la velocidad del viento con respecto a la tierra"
+    },
+    {
+      "sample_id": "clase04_seg0177",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0177.wav",
+      "inicio": 2610.87,
+      "fin": 2624.07,
+      "duracion_seg": 13.2,
+      "gt_original": "Tenemos, simón, ¿cómo es? El vector es hacia la derecha. Por lo tanto, vamos a tener este vector hacia la derecha y tengo que encontrar la dirección del otro vector",
+      "gt_normalizado": "tenemos simón cómo es el vector es hacia la derecha por lo tanto vamos a tener este vector hacia la derecha y tengo que encontrar la dirección del otro vector"
+    },
+    {
+      "sample_id": "clase04_seg0178",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0178.wav",
+      "inicio": 2624.52,
+      "fin": 2636.65,
+      "duracion_seg": 12.13,
+      "gt_original": "para que al sumar me dé la resultante hacia abajo. Entonces, ¿cuál es ese vector? ¿En qué dirección debe ir? En esta dirección. ¿Por qué? Porque si",
+      "gt_normalizado": "para que al sumar me dé la resultante hacia abajo entonces cuál es ese vector en qué dirección debe ir en esta dirección por qué porque si"
+    },
+    {
+      "sample_id": "clase04_seg0179",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0179.wav",
+      "inicio": 2637.21,
+      "fin": 2647.5,
+      "duracion_seg": 10.29,
+      "gt_original": "yo eh hago la suma, coloco este vector y eh seguido del otro coloco este, me la suma siempre va",
+      "gt_normalizado": "yo eh hago la suma coloco este vector y eh seguido del otro coloco este me la suma siempre va"
+    },
+    {
+      "sample_id": "clase04_seg0180",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0180.wav",
+      "inicio": 2647.89,
+      "fin": 2658.3,
+      "duracion_seg": 10.41,
+      "gt_original": "desde la cola del primero hasta la punta del segundo, ¿okay? Entonces, eh así es que tú vayas la dirección, ¿okay? Sabiendo de antemano la dirección de la velocidad del",
+      "gt_normalizado": "desde la cola del primero hasta la punta del segundo okay entonces eh así es que tú vayas la dirección okay sabiendo de antemano la dirección de la velocidad del"
+    },
+    {
+      "sample_id": "clase04_seg0181",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0181.wav",
+      "inicio": 2658.78,
+      "fin": 2674.6,
+      "duracion_seg": 15.82,
+      "gt_original": "viento y sabiendo que tú quieres que vaya hacia abajo, ¿ya? Porque eso te lo dice el problema, que se choque perpendicularmente y nada, eh la respuesta es sería un vector con esta dirección. Eh,",
+      "gt_normalizado": "viento y sabiendo que tú quieres que vaya hacia abajo ya porque eso te lo dice el problema que se choque perpendicularmente y nada eh la respuesta es sería un vector con esta dirección eh"
+    },
+    {
+      "sample_id": "clase04_seg0182",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0182.wav",
+      "inicio": 2675.55,
+      "fin": 2687.85,
+      "duracion_seg": 12.3,
+      "gt_original": "entonces sería eh este no es, no es, no es, no es, sería este o sea eh sería E, ¿ok? Ahora",
+      "gt_normalizado": "entonces sería eh este no es no es no es no es sería este o sea eh sería e ok ahora"
+    },
+    {
+      "sample_id": "clase04_seg0183",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0183.wav",
+      "inicio": 2688.33,
+      "fin": 2701.8,
+      "duracion_seg": 13.47,
+      "gt_original": "vamos a hacer, uy, son las 9:54. Bueno, 9:53. Ya se terminan las 10, así que bueno, si tienen preguntas me dicen. De hecho, íbamos a ver movimiento curvilíneo, pero eh solo es una hora",
+      "gt_normalizado": "vamos a hacer uy son las 9 54 bueno 9 53 ya se terminan las 10 así que bueno si tienen preguntas me dicen de hecho íbamos a ver movimiento curvilíneo pero eh solo es una hora"
+    },
+    {
+      "sample_id": "clase04_seg0184",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0184.wav",
+      "inicio": 2702.34,
+      "fin": 2719.236,
+      "duracion_seg": 16.896,
+      "gt_original": "ya, así que vamos a hacer estas preguntas rápido. A ver, tenemos eh me dicen, tenemos una partícula que se mueve en el plano y tenemos dos observadores inerciales. Vamos a definir qué es un observador inercial. El",
+      "gt_normalizado": "ya así que vamos a hacer estas preguntas rápido a ver tenemos eh me dicen tenemos una partícula que se mueve en el plano y tenemos dos observadores inerciales vamos a definir qué es un observador inercial el"
+    },
+    {
+      "sample_id": "clase04_seg0185",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0185.wav",
+      "inicio": 2719.86,
+      "fin": 2733.21,
+      "duracion_seg": 13.35,
+      "gt_original": "observador que es inercial es porque la velocidad es constante, es decir, que la aceleración es igual a cero. No va a tener aceleración. Ya. Entonces, si ves a un a una bicicleta,",
+      "gt_normalizado": "observador que es inercial es porque la velocidad es constante es decir que la aceleración es igual a cero no va a tener aceleración ya entonces si ves a un a una bicicleta"
+    },
+    {
+      "sample_id": "clase04_seg0186",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0186.wav",
+      "inicio": 2733.72,
+      "fin": 2744.83,
+      "duracion_seg": 11.11,
+      "gt_original": "por ejemplo, pedaleando constantemente a una velocidad constante, ese observador es inercial. Si tú ves a un carro yendo a 60 kilómetros por hora, eh,",
+      "gt_normalizado": "por ejemplo pedaleando constantemente a una velocidad constante ese observador es inercial si tú ves a un carro yendo a 60 kilómetros por hora eh"
+    },
+    {
+      "sample_id": "clase04_seg0187",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0187.wav",
+      "inicio": 2745.75,
+      "fin": 2760.82,
+      "duracion_seg": 15.07,
+      "gt_original": "y no no varía la velocidad, ese el carro es un observador inercial. ¿Okay? Entonces, te está diciendo que vas a tener una partícula y dos observadores con velocidades constantes, ¿okay? en",
+      "gt_normalizado": "y no no varía la velocidad ese el carro es un observador inercial okay entonces te está diciendo que vas a tener una partícula y dos observadores con velocidades constantes okay en"
+    },
+    {
+      "sample_id": "clase04_seg0188",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0188.wav",
+      "inicio": 2761.534,
+      "fin": 2772.778,
+      "duracion_seg": 11.244,
+      "gt_original": "movimiento relativo entre sí, es decir, que no están en reposo entre sí, no están en reposo relativo, no están en reposo relativo. ¿Okay?",
+      "gt_normalizado": "movimiento relativo entre sí es decir que no están en reposo entre sí no están en reposo relativo no están en reposo relativo okay"
+    },
+    {
+      "sample_id": "clase04_seg0189",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0189.wav",
+      "inicio": 2774.19,
+      "fin": 2787.328,
+      "duracion_seg": 13.138,
+      "gt_original": "Entonces, lo que quiere decir es que, por ejemplo, un observador puede tener una velocidad eh hacia, por ejemplo, esta dirección y el otro puede tener la velocidad hacia abajo, por ejemplo. Okay.",
+      "gt_normalizado": "entonces lo que quiere decir es que por ejemplo un observador puede tener una velocidad eh hacia por ejemplo esta dirección y el otro puede tener la velocidad hacia abajo por ejemplo okay"
+    },
+    {
+      "sample_id": "clase04_seg0190",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0190.wav",
+      "inicio": 2789.07,
+      "fin": 2808.646,
+      "duracion_seg": 19.576,
+      "gt_original": "Ya no se están moviendo a la misma velocidad, no están en reposo relativo. Ahora me preguntan, eh, okay, ¿es correcto afirmar que el vector de posición instantánea de la partícula es el mismo? A ver,",
+      "gt_normalizado": "ya no se están moviendo a la misma velocidad no están en reposo relativo ahora me preguntan eh okay es correcto afirmar que el vector de posición instantánea de la partícula es el mismo a ver"
+    },
+    {
+      "sample_id": "clase04_seg0191",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0191.wav",
+      "inicio": 2809.89,
+      "fin": 2820.45,
+      "duracion_seg": 10.56,
+      "gt_original": "lo que yo les dije es que cada observador va a ver distinto ya el vector de posición porque cada uno tiene su propio origen.",
+      "gt_normalizado": "lo que yo les dije es que cada observador va a ver distinto ya el vector de posición porque cada uno tiene su propio origen"
+    },
+    {
+      "sample_id": "clase04_seg0192",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0192.wav",
+      "inicio": 2820.93,
+      "fin": 2831.73,
+      "duracion_seg": 10.8,
+      "gt_original": "Ya acuérdense del del de la situación de la del aula de estudiantes, ¿okay? el que se sienta primero ve a la profesora más cerca que el que se sienta al último.",
+      "gt_normalizado": "ya acuérdense del del de la situación de la del aula de estudiantes okay el que se sienta primero ve a la profesora más cerca que el que se sienta al último"
+    },
+    {
+      "sample_id": "clase04_seg0193",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0193.wav",
+      "inicio": 2832.18,
+      "fin": 2842.32,
+      "duracion_seg": 10.14,
+      "gt_original": "Por lo tanto, la posición siempre, casi siempre es relativa, a no ser que estén eh en el mismo el mismo punto de espacio, están juntitos,",
+      "gt_normalizado": "por lo tanto la posición siempre casi siempre es relativa a no ser que estén eh en el mismo el mismo punto de espacio están juntitos"
+    },
+    {
+      "sample_id": "clase04_seg0194",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0194.wav",
+      "inicio": 2843.22,
+      "fin": 2861.4,
+      "duracion_seg": 18.18,
+      "gt_original": "ya esa es la única condición, pero si no siempre va a ser distinta. Por lo tanto, esto es falso, ya porque son observadores distintos. Ahora me dicen, me dicen lo mismo, que una partícula que se mueve en el plano y tengo dos observadores con velocidades constantes",
+      "gt_normalizado": "ya esa es la única condición pero si no siempre va a ser distinta por lo tanto esto es falso ya porque son observadores distintos ahora me dicen me dicen lo mismo que una partícula que se mueve en el plano y tengo dos observadores con velocidades constantes"
+    },
+    {
+      "sample_id": "clase04_seg0195",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0195.wav",
+      "inicio": 2861.88,
+      "fin": 2875.684,
+      "duracion_seg": 13.804,
+      "gt_original": "y distintas porque están en movimiento relativo, no están en reposo relativo. Okay. Entonces, a ver, déjame, déjame ver que no veo acá. Entonces, es correcto afirmar que el",
+      "gt_normalizado": "y distintas porque están en movimiento relativo no están en reposo relativo okay entonces a ver déjame déjame ver que no veo acá entonces es correcto afirmar que el"
+    },
+    {
+      "sample_id": "clase04_seg0196",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0196.wav",
+      "inicio": 2876.19,
+      "fin": 2891.04,
+      "duracion_seg": 14.85,
+      "gt_original": "vector de velocidad instantánea es el mismo para ambos. Entonces, vamos a observar esto. A ver, eh cuando ustedes hablan de un sistema de referencia,",
+      "gt_normalizado": "vector de velocidad instantánea es el mismo para ambos entonces vamos a observar esto a ver eh cuando ustedes hablan de un sistema de referencia"
+    },
+    {
+      "sample_id": "clase04_seg0197",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0197.wav",
+      "inicio": 2891.88,
+      "fin": 2903.31,
+      "duracion_seg": 11.43,
+      "gt_original": "ya es porque eh los observadores ya en cuestión están eh en reposo relativo. Yo les dije, ¿no? Este concepto de acá, acuérdense de este concepto",
+      "gt_normalizado": "ya es porque eh los observadores ya en cuestión están eh en reposo relativo yo les dije no este concepto de acá acuérdense de este concepto"
+    },
+    {
+      "sample_id": "clase04_seg0198",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0198.wav",
+      "inicio": 2903.94,
+      "fin": 2915.91,
+      "duracion_seg": 11.97,
+      "gt_original": "de el de arriba, cuando están en reposo relativo forman un mismo sistema de referencia. Okay. Entonces, yo les puse esto,",
+      "gt_normalizado": "de el de arriba cuando están en reposo relativo forman un mismo sistema de referencia okay entonces yo les puse esto"
+    },
+    {
+      "sample_id": "clase04_seg0199",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0199.wav",
+      "inicio": 2916.87,
+      "fin": 2926.98,
+      "duracion_seg": 10.11,
+      "gt_original": "por ejemplo, el ejemplo de la del bote de la chica. Ya. Si yo quiero saber la velocidad de la partícula,",
+      "gt_normalizado": "por ejemplo el ejemplo de la del bote de la chica ya si yo quiero saber la velocidad de la partícula"
+    },
+    {
+      "sample_id": "clase04_seg0200",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0200.wav",
+      "inicio": 2927.34,
+      "fin": 2940.471,
+      "duracion_seg": 13.131,
+      "gt_original": "¿okay?, es lo mismo decir la velocidad de la partícula con respecto a la chica, ¿ya?, que decir La velocidad del bote con respecto a la chica. ¿Por qué?",
+      "gt_normalizado": "okay es lo mismo decir la velocidad de la partícula con respecto a la chica ya que decir la velocidad del bote con respecto a la chica por qué"
+    },
+    {
+      "sample_id": "clase04_seg0201",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0201.wav",
+      "inicio": 2941.05,
+      "fin": 2954.772,
+      "duracion_seg": 13.722,
+      "gt_original": "Porque ambos se están moviendo con la misma velocidad, ambos son un solo sistema de referencia. ¿Okay? Ahora yo les pregunto, vamos ahora a suponer, vamos a dejar el mismo la misma partícula ahí,",
+      "gt_normalizado": "porque ambos se están moviendo con la misma velocidad ambos son un solo sistema de referencia okay ahora yo les pregunto vamos ahora a suponer vamos a dejar el mismo la misma partícula ahí"
+    },
+    {
+      "sample_id": "clase04_seg0202",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0202.wav",
+      "inicio": 2955.18,
+      "fin": 2973.63,
+      "duracion_seg": 18.45,
+      "gt_original": "pero vamos a poner eh los observadores inerciales. Vamos a decir que uno se está moviendo a a la izquierda. Okay. Uno se está moviendo a la izquierda. Vamos a decir que es un un chico así todo punk se está moviendo a la izquierda y vamos a decir que es una chica,",
+      "gt_normalizado": "pero vamos a poner eh los observadores inerciales vamos a decir que uno se está moviendo a a la izquierda okay uno se está moviendo a la izquierda vamos a decir que es un un chico así todo punk se está moviendo a la izquierda y vamos a decir que es una chica"
+    },
+    {
+      "sample_id": "clase04_seg0203",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0203.wav",
+      "inicio": 2973.99,
+      "fin": 2988.69,
+      "duracion_seg": 14.7,
+      "gt_original": "la otra observadora que se está moviendo a la derecha. Entonces yo les pregunto, ¿forma un solo sistema de referencia? No, ¿verdad? No están formando un solo sistema de referencia. Entonces, si yo les pregunto",
+      "gt_normalizado": "la otra observadora que se está moviendo a la derecha entonces yo les pregunto forma un solo sistema de referencia no verdad no están formando un solo sistema de referencia entonces si yo les pregunto"
+    },
+    {
+      "sample_id": "clase04_seg0204",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0204.wav",
+      "inicio": 2989.08,
+      "fin": 3004.901,
+      "duracion_seg": 15.821,
+      "gt_original": "la velocidad de la partícula con respecto a la chica, vamos a dejar de hecho, vamos a dejar, vamos a hacer acá ya, si yo les pregunto la velocidad de la partícula con respecto a la chica es lo mismo que",
+      "gt_normalizado": "la velocidad de la partícula con respecto a la chica vamos a dejar de hecho vamos a dejar vamos a hacer acá ya si yo les pregunto la velocidad de la partícula con respecto a la chica es lo mismo que"
+    },
+    {
+      "sample_id": "clase04_seg0205",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0205.wav",
+      "inicio": 3005.46,
+      "fin": 3019.139,
+      "duracion_seg": 13.68,
+      "gt_original": "decir la velocidad de la partícula con respecto al chico, ¿ustedes qué me van a decir? ¿Sí o no? Ya. A ver si está Natasha está atendiendo en conjunto a a Patricio, creo que está.",
+      "gt_normalizado": "decir la velocidad de la partícula con respecto al chico ustedes qué me van a decir sí o no ya a ver si está natasha está atendiendo en conjunto a a patricio creo que está"
+    },
+    {
+      "sample_id": "clase04_seg0206",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0206.wav",
+      "inicio": 3020.04,
+      "fin": 3037.39,
+      "duracion_seg": 17.35,
+      "gt_original": "Ya. No, exacto. No, porque forman distintos sistemas de referencia. Entonces esto es una desigualdad, desigualdad. Por lo tanto, lo que me dice es correcto afirmar que el vector de velocidad instantánea es el mismo. Falso. Si",
+      "gt_normalizado": "ya no exacto no porque forman distintos sistemas de referencia entonces esto es una desigualdad desigualdad por lo tanto lo que me dice es correcto afirmar que el vector de velocidad instantánea es el mismo falso si"
+    },
+    {
+      "sample_id": "clase04_seg0207",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0207.wav",
+      "inicio": 3037.92,
+      "fin": 3048.27,
+      "duracion_seg": 10.35,
+      "gt_original": "estuviesen en un mismo sistema de referencia, ahí sí hubiera sido verdadero. ¿Okay? Ahora, eh, vamos a hacer la siguiente pregunta.",
+      "gt_normalizado": "estuviesen en un mismo sistema de referencia ahí sí hubiera sido verdadero okay ahora eh vamos a hacer la siguiente pregunta"
+    },
+    {
+      "sample_id": "clase04_seg0208",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0208.wav",
+      "inicio": 3049.89,
+      "fin": 3061.32,
+      "duracion_seg": 11.43,
+      "gt_original": "Me dicen la misma situación, ¿okay? Ojo con esta pregunta. La misma situación. Sin embargo, ahora no me preguntan por la velocidad de la partícula, sino por la aceleración de la partícula.",
+      "gt_normalizado": "me dicen la misma situación okay ojo con esta pregunta la misma situación sin embargo ahora no me preguntan por la velocidad de la partícula sino por la aceleración de la partícula"
+    },
+    {
+      "sample_id": "clase04_seg0209",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0209.wav",
+      "inicio": 3062.1,
+      "fin": 3077.91,
+      "duracion_seg": 15.81,
+      "gt_original": "¿Okay? Entonces, quiero que de alguna forma hagan analogía, ¿okay? Yo les pregunto, si este man está yendo a velocidad constante, que yo les dije porque son inerciales, ¿verdad?",
+      "gt_normalizado": "okay entonces quiero que de alguna forma hagan analogía okay yo les pregunto si este man está yendo a velocidad constante que yo les dije porque son inerciales verdad"
+    },
+    {
+      "sample_id": "clase04_seg0210",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0210.wav",
+      "inicio": 3078.48,
+      "fin": 3090.0,
+      "duracion_seg": 11.52,
+      "gt_original": "La chica a velocidad constante, distintas velocidades, pero velocidad constante, quiere decir que la aceleración del chico es cero y la aceleración de la chica es cero.",
+      "gt_normalizado": "la chica a velocidad constante distintas velocidades pero velocidad constante quiere decir que la aceleración del chico es cero y la aceleración de la chica es cero"
+    },
+    {
+      "sample_id": "clase04_seg0211",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0211.wav",
+      "inicio": 3091.77,
+      "fin": 3102.72,
+      "duracion_seg": 10.95,
+      "gt_original": "Entonces, yo sé que eh muy sencillo hasta ahora, ¿no? Entonces, yo les pregunto, la aceleración de la chica con respecto al chico,",
+      "gt_normalizado": "entonces yo sé que eh muy sencillo hasta ahora no entonces yo les pregunto la aceleración de la chica con respecto al chico"
+    },
+    {
+      "sample_id": "clase04_seg0212",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0212.wav",
+      "inicio": 3103.23,
+      "fin": 3118.11,
+      "duracion_seg": 14.88,
+      "gt_original": "¿cuánto es? Va a valer igual a cero. ¿Por qué? Primero porque eh tiene tienen cero ambos de aceleración, entonces no va a haber aceleración eh relativa entre ellos. Ahora",
+      "gt_normalizado": "cuánto es va a valer igual a cero por qué primero porque eh tiene tienen cero ambos de aceleración entonces no va a haber aceleración eh relativa entre ellos ahora"
+    },
+    {
+      "sample_id": "clase04_seg0213",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0213.wav",
+      "inicio": 3118.65,
+      "fin": 3138.49,
+      "duracion_seg": 19.84,
+      "gt_original": "les pongo este ejemplo para que no se confundan y para que los tenga eh bien digerido esto. Si yo te si yo digo que la aceleración del chico en equis caso, que en equis caso, en otro caso es otra situación es igual a 5 i menos 2 jota metros sobre segundos al cuadrado y",
+      "gt_normalizado": "les pongo este ejemplo para que no se confundan y para que los tenga eh bien digerido esto si yo te si yo digo que la aceleración del chico en equis caso que en equis caso en otro caso es otra situación es igual a 5 i menos 2 jota metros sobre segundos al cuadrado y"
+    },
+    {
+      "sample_id": "clase04_seg0214",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0214.wav",
+      "inicio": 3145.23,
+      "fin": 3155.46,
+      "duracion_seg": 10.23,
+      "gt_original": "la aceleración de la chica es el mismo vector, el mismo vector. Yo les pregunto, la aceleración que tiene la chica con respecto a al chico, ¿cuánto va a valer? Ya ahí sí me gustaría que responda. ¿Cuánto ustedes creen que va a valer",
+      "gt_normalizado": "la aceleración de la chica es el mismo vector el mismo vector yo les pregunto la aceleración que tiene la chica con respecto a al chico cuánto va a valer ya ahí sí me gustaría que responda cuánto ustedes creen que va a valer"
+    },
+    {
+      "sample_id": "clase04_seg0215",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0215.wav",
+      "inicio": 3157.26,
+      "fin": 3168.466,
+      "duracion_seg": 11.206,
+      "gt_original": "la aceleración relativa? A ver, eh, eso para que me respondan Natasha y y Patricio. Ya, si se equivocan mejor para mí, ¿no?",
+      "gt_normalizado": "la aceleración relativa a ver eh eso para que me respondan natasha y y patricio ya si se equivocan mejor para mí no"
+    },
+    {
+      "sample_id": "clase04_seg0216",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0216.wav",
+      "inicio": 3170.88,
+      "fin": 3181.38,
+      "duracion_seg": 10.5,
+      "gt_original": "Ya. Ambos tienen misma aceleración. Okay. Ambos tienen misma aceleración. Cero porque se resta. Exacto.",
+      "gt_normalizado": "ya ambos tienen misma aceleración okay ambos tienen misma aceleración cero porque se resta exacto"
+    },
+    {
+      "sample_id": "clase04_seg0217",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0217.wav",
+      "inicio": 3181.996,
+      "fin": 3195.81,
+      "duracion_seg": 13.814,
+      "gt_original": "Exacto. Eh, a ver cómo decirlo veanlo que de alguna véanlo como las velocidades, ¿okay? O sea, cuando ambos tienen la misma velocidad forman un solo sistema de referencia.",
+      "gt_normalizado": "exacto eh a ver cómo decirlo veanlo que de alguna véanlo como las velocidades okay o sea cuando ambos tienen la misma velocidad forman un solo sistema de referencia"
+    },
+    {
+      "sample_id": "clase04_seg0218",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0218.wav",
+      "inicio": 3196.32,
+      "fin": 3211.56,
+      "duracion_seg": 15.24,
+      "gt_original": "¿Okay? Ahora, cuando ambos tienen la misma aceleración, la aceleración con respecto a a entre sí va a ser cero. Eh, vamos de esta forma. Estás en el avión, vas a partir a Miami a que te vacune, ¿ya?",
+      "gt_normalizado": "okay ahora cuando ambos tienen la misma aceleración la aceleración con respecto a a entre sí va a ser cero eh vamos de esta forma estás en el avión vas a partir a miami a que te vacune ya"
+    },
+    {
+      "sample_id": "clase04_seg0219",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0219.wav",
+      "inicio": 3212.37,
+      "fin": 3223.18,
+      "duracion_seg": 10.81,
+      "gt_original": "Entonces, eh, capaz que me van a cancelar este video, imagínate que YouTube me dice, me me coloca un strike. Bueno, eh, entonces vas en el avión y",
+      "gt_normalizado": "entonces eh capaz que me van a cancelar este video imagínate que youtube me dice me me coloca un strike bueno eh entonces vas en el avión y"
+    },
+    {
+      "sample_id": "clase04_seg0220",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0220.wav",
+      "inicio": 3223.59,
+      "fin": 3240.24,
+      "duracion_seg": 16.65,
+      "gt_original": "vas con tu familia. Vamos, estás sentado al lado de tu mamá. Comienza a despegar el avión. Entonces, ¿qué estás qué estás sintiendo tú? Aceleración, ¿verdad? Ya estás acelerando, acelerándote y tu mamá también que está al lado tuyo. Entonces, tú observas a tu mamá,",
+      "gt_normalizado": "vas con tu familia vamos estás sentado al lado de tu mamá comienza a despegar el avión entonces qué estás qué estás sintiendo tú aceleración verdad ya estás acelerando acelerándote y tu mamá también que está al lado tuyo entonces tú observas a tu mamá"
+    },
+    {
+      "sample_id": "clase04_seg0221",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0221.wav",
+      "inicio": 3240.66,
+      "fin": 3254.11,
+      "duracion_seg": 13.45,
+      "gt_original": "¿ya? Y yo te pregunto, ¿tú ves que se está acelerando? Entonces, seguramente tú dices, \"No.\" ¿Por qué? Porque ambos tienen la misma aceleración. Entonces, ambos como que dicen, \"Okay, eh,",
+      "gt_normalizado": "ya y yo te pregunto tú ves que se está acelerando entonces seguramente tú dices no por qué porque ambos tienen la misma aceleración entonces ambos como que dicen okay eh"
+    },
+    {
+      "sample_id": "clase04_seg0222",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0222.wav",
+      "inicio": 3254.49,
+      "fin": 3267.281,
+      "duracion_seg": 12.791,
+      "gt_original": "no te estás acelerando porque tengo la misma aceleración que tú.\" Es eh es lo que va a pasar. ¿Okay? Por lo tanto, eh cuando esto pasa que",
+      "gt_normalizado": "no te estás acelerando porque tengo la misma aceleración que tú es eh es lo que va a pasar okay por lo tanto eh cuando esto pasa que"
+    },
+    {
+      "sample_id": "clase04_seg0223",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0223.wav",
+      "inicio": 3267.93,
+      "fin": 3280.008,
+      "duracion_seg": 12.078,
+      "gt_original": "ambos tengan la misma aceleración, ya, ahí sí, ahí sí va a ser verdadero que si tienes una partícula acelerándose eh a",
+      "gt_normalizado": "ambos tengan la misma aceleración ya ahí sí ahí sí va a ser verdadero que si tienes una partícula acelerándose eh a"
+    },
+    {
+      "sample_id": "clase04_seg0224",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0224.wav",
+      "inicio": 3281.083,
+      "fin": 3296.11,
+      "duracion_seg": 15.027,
+      "gt_original": "esa dirección, ya aceleración de la partícula, ahí sí la aceleración de la partícula con respecto al chico va a ser la misma que la aceleración de la partícula con respecto a la chica. Se",
+      "gt_normalizado": "esa dirección ya aceleración de la partícula ahí sí la aceleración de la partícula con respecto al chico va a ser la misma que la aceleración de la partícula con respecto a la chica se"
+    },
+    {
+      "sample_id": "clase04_seg0225",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0225.wav",
+      "inicio": 3297.84,
+      "fin": 3309.42,
+      "duracion_seg": 11.58,
+      "gt_original": "va a dar. ¿Por qué? Porque no hay aceleración relativa entre las dos. Entre los dos no hay. Okay. Por lo tanto, eh va a ser verdadero.",
+      "gt_normalizado": "va a dar por qué porque no hay aceleración relativa entre las dos entre los dos no hay okay por lo tanto eh va a ser verdadero"
+    },
+    {
+      "sample_id": "clase04_seg0226",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0226.wav",
+      "inicio": 3310.23,
+      "fin": 3320.827,
+      "duracion_seg": 10.597,
+      "gt_original": "Ya en eh lo hice con la aceleración para que vean que también toma aceleración ya. y espero que no se hayan confundido con con esto. Okay,",
+      "gt_normalizado": "ya en eh lo hice con la aceleración para que vean que también toma aceleración ya y espero que no se hayan confundido con con esto okay"
+    },
+    {
+      "sample_id": "clase04_seg0227",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0227.wav",
+      "inicio": 3321.9,
+      "fin": 3332.698,
+      "duracion_seg": 10.798,
+      "gt_original": "ya. Eh, las velocidades, eso sí, espero que lo tengan bastante claro, porque lo repetí bastante y creo que también fui muy claro con con qué es un observador, que es un sistema de referencia. Y lo",
+      "gt_normalizado": "ya eh las velocidades eso sí espero que lo tengan bastante claro porque lo repetí bastante y creo que también fui muy claro con con qué es un observador que es un sistema de referencia y lo"
+    },
+    {
+      "sample_id": "clase04_seg0228",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0228.wav",
+      "inicio": 3333.829,
+      "fin": 3346.17,
+      "duracion_seg": 12.341,
+      "gt_original": "último que les tenía para ustedes era esta pregunta, ¿ya? Pero esta pregunta tienes que saber eh qué es la aceleración normal, la aceleración tangencial.",
+      "gt_normalizado": "último que les tenía para ustedes era esta pregunta ya pero esta pregunta tienes que saber eh qué es la aceleración normal la aceleración tangencial"
+    },
+    {
+      "sample_id": "clase04_seg0229",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0229.wav",
+      "inicio": 3348.0,
+      "fin": 3367.77,
+      "duracion_seg": 19.77,
+      "gt_original": "¿Ya? Y que es la aceleración total. Ahora, eh, supongo yo que ustedes ya saben, por lo tanto, vamos a hacerla simplemente para acabar la clase con esta pregunta. Tenemos una partícula que se mueve a un plano con rapidez constante, o sea, que la magnitud de la velocidad es un número. Es un número",
+      "gt_normalizado": "ya y que es la aceleración total ahora eh supongo yo que ustedes ya saben por lo tanto vamos a hacerla simplemente para acabar la clase con esta pregunta tenemos una partícula que se mueve a un plano con rapidez constante o sea que la magnitud de la velocidad es un número es un número"
+    },
+    {
+      "sample_id": "clase04_seg0230",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0230.wav",
+      "inicio": 3368.25,
+      "fin": 3379.0,
+      "duracion_seg": 10.75,
+      "gt_original": "ka donde ka va a pertenecer a eh todos los enteros. Okay, puede ser negativo, positivo, lo que sea, y dirección variable, es",
+      "gt_normalizado": "ka donde ka va a pertenecer a eh todos los enteros okay puede ser negativo positivo lo que sea y dirección variable es"
+    },
+    {
+      "sample_id": "clase04_seg0231",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0231.wav",
+      "inicio": 3379.56,
+      "fin": 3389.652,
+      "duracion_seg": 10.092,
+      "gt_original": "decir, que la velocidad en términos del vector va a variar. Entonces, es verdad, eh, entonces es verdad que",
+      "gt_normalizado": "decir que la velocidad en términos del vector va a variar entonces es verdad eh entonces es verdad que"
+    },
+    {
+      "sample_id": "clase04_seg0232",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0232.wav",
+      "inicio": 3390.27,
+      "fin": 3404.73,
+      "duracion_seg": 14.46,
+      "gt_original": "la velocidad siempre es perpendicular a la posición. ¿Ya? Entonces, a ver, eh, ¿cómo cómo decirlo? Cuando ustedes se mueven,",
+      "gt_normalizado": "la velocidad siempre es perpendicular a la posición ya entonces a ver eh cómo cómo decirlo cuando ustedes se mueven"
+    },
+    {
+      "sample_id": "clase04_seg0233",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0233.wav",
+      "inicio": 3406.17,
+      "fin": 3416.31,
+      "duracion_seg": 10.14,
+      "gt_original": "ya o cualquier observador se mueve, la velocidad siempre va tangente a la trayectoria. En cualquier punto, tú dices,",
+      "gt_normalizado": "ya o cualquier observador se mueve la velocidad siempre va tangente a la trayectoria en cualquier punto tú dices"
+    },
+    {
+      "sample_id": "clase04_seg0234",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0234.wav",
+      "inicio": 3416.88,
+      "fin": 3429.851,
+      "duracion_seg": 12.971,
+      "gt_original": "\"En este punto la velocidad, ¿hacia dónde va?\" Tangente. En este punto, ¿hacia dónde va la velocidad? Tangente. ¿Okay? Entonces, de alguna forma, eh, se podría decir que",
+      "gt_normalizado": "en este punto la velocidad hacia dónde va tangente en este punto hacia dónde va la velocidad tangente okay entonces de alguna forma eh se podría decir que"
+    },
+    {
+      "sample_id": "clase04_seg0235",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0235.wav",
+      "inicio": 3430.92,
+      "fin": 3443.43,
+      "duracion_seg": 12.51,
+      "gt_original": "esto no es cierto. Okay, esto no es cierto. Ya. Eh, a ver, déjame ver. Si yo les coloco que se está moviendo en círculo.",
+      "gt_normalizado": "esto no es cierto okay esto no es cierto ya eh a ver déjame ver si yo les coloco que se está moviendo en círculo"
+    },
+    {
+      "sample_id": "clase04_seg0236",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0236.wav",
+      "inicio": 3446.07,
+      "fin": 3463.648,
+      "duracion_seg": 17.578,
+      "gt_original": "Ya. Bueno, aunque en el círculo sí se cumple. Sí, se cumple porque la posición está hallada desde el origen y la velocidad es siempre tangente a la trayectoria, por lo tanto, ahí sí siempre se cumple. Vamos a analizar, vamos a darle como standby porque el ejemplo de círculo se cumple, ¿okay?",
+      "gt_normalizado": "ya bueno aunque en el círculo sí se cumple sí se cumple porque la posición está hallada desde el origen y la velocidad es siempre tangente a la trayectoria por lo tanto ahí sí siempre se cumple vamos a analizar vamos a darle como standby porque el ejemplo de círculo se cumple okay"
+    },
+    {
+      "sample_id": "clase04_seg0237",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0237.wav",
+      "inicio": 3466.17,
+      "fin": 3477.118,
+      "duracion_seg": 10.948,
+      "gt_original": "Sería efe. Ah, déjame ver. A ver, vamos a ver la be. Su velocidad siempre es perpendicular a la aceleración. Y sí,",
+      "gt_normalizado": "sería efe ah déjame ver a ver vamos a ver la be su velocidad siempre es perpendicular a la aceleración y sí"
+    },
+    {
+      "sample_id": "clase04_seg0238",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0238.wav",
+      "inicio": 3478.68,
+      "fin": 3490.23,
+      "duracion_seg": 11.55,
+      "gt_original": "ahora, ¿por qué? Déjame... Solo be. Dice Patricio, dice solo be. Vamos a ver. Cuando la rapidez",
+      "gt_normalizado": "ahora por qué déjame solo be dice patricio dice solo be vamos a ver cuando la rapidez"
+    },
+    {
+      "sample_id": "clase04_seg0239",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0239.wav",
+      "inicio": 3490.65,
+      "fin": 3501.349,
+      "duracion_seg": 10.699,
+      "gt_original": "es constante, pero la dirección varía, tienes presencia de esto, está presente, o sea, te dice presente, ¿okay? Cuando este ocurra. Por lo tanto,",
+      "gt_normalizado": "es constante pero la dirección varía tienes presencia de esto está presente o sea te dice presente okay cuando este ocurra por lo tanto"
+    },
+    {
+      "sample_id": "clase04_seg0240",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0240.wav",
+      "inicio": 3501.78,
+      "fin": 3516.04,
+      "duracion_seg": 14.26,
+      "gt_original": "la aceleración normal siempre va a ser eh perpendicular a la velocidad. Ya, eso sí, entonces de cajón be sí es. Pero la posición no tiene la misma dirección que la y la velocidad, ¿eh?",
+      "gt_normalizado": "la aceleración normal siempre va a ser eh perpendicular a la velocidad ya eso sí entonces de cajón be sí es pero la posición no tiene la misma dirección que la y la velocidad eh"
+    },
+    {
+      "sample_id": "clase04_seg0241",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0241.wav",
+      "inicio": 3516.403,
+      "fin": 3528.646,
+      "duracion_seg": 12.243,
+      "gt_original": "No, no, no. No, por ejemplo, en en el en el ejemplo del círculo, tú mides del origen, ¿verdad? Si hace un movimiento circular, la posición se mide desde acá. Y, por",
+      "gt_normalizado": "no no no no por ejemplo en en el en el ejemplo del círculo tú mides del origen verdad si hace un movimiento circular la posición se mide desde acá y por"
+    },
+    {
+      "sample_id": "clase04_seg0242",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0242.wav",
+      "inicio": 3529.058,
+      "fin": 3541.901,
+      "duracion_seg": 12.843,
+      "gt_original": "ejemplo, si tú hallas en este punto, la velocidad está yendo hacia acá, ¿okay? No es lo mismo. Ese era el desplazamiento. Exacto. Exacto. Ya. Ahí sí. Ahí sí recuperaste el 10. Okay. ce,",
+      "gt_normalizado": "ejemplo si tú hallas en este punto la velocidad está yendo hacia acá okay no es lo mismo ese era el desplazamiento exacto exacto ya ahí sí ahí sí recuperaste el 10 okay ce"
+    },
+    {
+      "sample_id": "clase04_seg0243",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0243.wav",
+      "inicio": 3543.0,
+      "fin": 3553.68,
+      "duracion_seg": 10.68,
+      "gt_original": "la posición siempre es perpendicular a la aceleración. Ya. Y eh no, de hecho, en este ejemplo,",
+      "gt_normalizado": "la posición siempre es perpendicular a la aceleración ya y eh no de hecho en este ejemplo"
+    },
+    {
+      "sample_id": "clase04_seg0244",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0244.wav",
+      "inicio": 3554.55,
+      "fin": 3564.78,
+      "duracion_seg": 10.23,
+      "gt_original": "ya, por ejemplo, en este punto, la aceleración como es normal, es hacia dentro de la curva y es tangente eh a la trayectoria. en ese punto y la posición",
+      "gt_normalizado": "ya por ejemplo en este punto la aceleración como es normal es hacia dentro de la curva y es tangente eh a la trayectoria en ese punto y la posición"
+    },
+    {
+      "sample_id": "clase04_seg0245",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0245.wav",
+      "inicio": 3565.47,
+      "fin": 3576.96,
+      "duracion_seg": 11.49,
+      "gt_original": "en realidad es son están antiparalelos ya, pero no están formando 90 grados, ¿okay? No están formando. Entonces esta esta de ley no es ¿por qué? Porque tenemos un contraejemplo. Okay,",
+      "gt_normalizado": "en realidad es son están antiparalelos ya pero no están formando 90 grados okay no están formando entonces esta esta de ley no es por qué porque tenemos un contraejemplo okay"
+    },
+    {
+      "sample_id": "clase04_seg0246",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0246.wav",
+      "inicio": 3577.35,
+      "fin": 3588.577,
+      "duracion_seg": 11.227,
+      "gt_original": "ya con un contraejemplo, eh puedes justificar tranquilamente y no pasa nada. Entonces, ah, me dicen, solo A y be son ciertas, solo A y ce son ciertas. A ver, todo lo que tenga ce es eh no es",
+      "gt_normalizado": "ya con un contraejemplo eh puedes justificar tranquilamente y no pasa nada entonces ah me dicen solo a y be son ciertas solo a y ce son ciertas a ver todo lo que tenga ce es eh no es"
+    },
+    {
+      "sample_id": "clase04_seg0247",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0247.wav",
+      "inicio": 3590.94,
+      "fin": 3602.04,
+      "duracion_seg": 11.1,
+      "gt_original": "ya. Ahora, la velocidad siempre es perpendicular a la posición. Es que en este ejemplo sí, ¿ya? Y se está moviendo en un plano. Ya.",
+      "gt_normalizado": "ya ahora la velocidad siempre es perpendicular a la posición es que en este ejemplo sí ya y se está moviendo en un plano ya"
+    },
+    {
+      "sample_id": "clase04_seg0248",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0248.wav",
+      "inicio": 3603.12,
+      "fin": 3614.998,
+      "duracion_seg": 11.878,
+      "gt_original": "En teoría podríamos decir que también es verdadera. ¿Por qué? Porque en el ejemplo de del círculo, la posición en este punto este vector y el",
+      "gt_normalizado": "en teoría podríamos decir que también es verdadera por qué porque en el ejemplo de del círculo la posición en este punto este vector y el"
+    },
+    {
+      "sample_id": "clase04_seg0249",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0249.wav",
+      "inicio": 3615.36,
+      "fin": 3629.553,
+      "duracion_seg": 14.193,
+      "gt_original": "vector velocidad es tangente y está formando 90 grados. ¿Okay? Y en todos los puntos va a ser eh de la misma manera, forman 90 grados. Por lo tanto, vamos a seleccionar la de. Okay. Eh, esto",
+      "gt_normalizado": "vector velocidad es tangente y está formando 90 grados okay y en todos los puntos va a ser eh de la misma manera forman 90 grados por lo tanto vamos a seleccionar la de okay eh esto"
+    },
+    {
+      "sample_id": "clase04_seg0250",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0250.wav",
+      "inicio": 3630.435,
+      "fin": 3646.498,
+      "duracion_seg": 16.063,
+      "gt_original": "no traía respuestas, pero yo seleccionaría esta, ¿okay? Por el ejemplo que les digo. Ya. Aun eh, no, espérate, de hecho, de hecho, creo que así siempre se cumple. Si tuviéramos una trayectoria equis, okay,",
+      "gt_normalizado": "no traía respuestas pero yo seleccionaría esta okay por el ejemplo que les digo ya aun eh no espérate de hecho de hecho creo que así siempre se cumple si tuviéramos una trayectoria equis okay"
+    },
+    {
+      "sample_id": "clase04_seg0251",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0251.wav",
+      "inicio": 3647.37,
+      "fin": 3664.14,
+      "duracion_seg": 16.77,
+      "gt_original": "creo que también se cumpliría, pero es que hay en cambios el origen. ¿Cuál es el origen? Entonces, por eso es que un poco la confusión ya, porque si lo tomamos el origen desde acá, por ejemplo, pero es que no tiene sentido tomar el origen desde ahí. Ya,",
+      "gt_normalizado": "creo que también se cumpliría pero es que hay en cambios el origen cuál es el origen entonces por eso es que un poco la confusión ya porque si lo tomamos el origen desde acá por ejemplo pero es que no tiene sentido tomar el origen desde ahí ya"
+    },
+    {
+      "sample_id": "clase04_seg0252",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0252.wav",
+      "inicio": 3665.31,
+      "fin": 3677.809,
+      "duracion_seg": 12.499,
+      "gt_original": "pero en este ejemplo sí se cumple. Y yo creo que cuando te dicen esto es que te tienes que imaginar que se está moviendo en círculo así como eh como si fuera un bucle. Ujum. Así que",
+      "gt_normalizado": "pero en este ejemplo sí se cumple y yo creo que cuando te dicen esto es que te tienes que imaginar que se está moviendo en círculo así como eh como si fuera un bucle ujum así que"
+    },
+    {
+      "sample_id": "clase04_seg0253",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0253.wav",
+      "inicio": 3678.6,
+      "fin": 3692.56,
+      "duracion_seg": 13.96,
+      "gt_original": "por esa razón marcamos eh solo A y be. Así que bueno, son las 10:09. Vamos a dejar hasta aquí la clase. Eh, cualquier cosa me escriben. Ah, cierto, verdad. Eh ya que están los dos, eh,",
+      "gt_normalizado": "por esa razón marcamos eh solo a y be así que bueno son las 10 09 vamos a dejar hasta aquí la clase eh cualquier cosa me escriben ah cierto verdad eh ya que están los dos eh"
+    },
+    {
+      "sample_id": "clase04_seg0254",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0254.wav",
+      "inicio": 3693.21,
+      "fin": 3703.5,
+      "duracion_seg": 10.29,
+      "gt_original": "Natasha, creo que es la primera vez que vienes, vamos eh a darles el enlace que recién hice el día de hoy,",
+      "gt_normalizado": "natasha creo que es la primera vez que vienes vamos eh a darles el enlace que recién hice el día de hoy"
+    },
+    {
+      "sample_id": "clase04_seg0255",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0255.wav",
+      "inicio": 3704.73,
+      "fin": 3717.9,
+      "duracion_seg": 13.17,
+      "gt_original": "donde aquí este va a ser el grupo de de física donde vamos a tener en la descripción eh siempre las ayudantías en Zoom para que no estén buscando en no sé si en el Excel, no sé que les mandaron a ustedes",
+      "gt_normalizado": "donde aquí este va a ser el grupo de de física donde vamos a tener en la descripción eh siempre las ayudantías en zoom para que no estén buscando en no sé si en el excel no sé que les mandaron a ustedes"
+    },
+    {
+      "sample_id": "clase04_seg0256",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0256.wav",
+      "inicio": 3718.59,
+      "fin": 3732.581,
+      "duracion_seg": 13.991,
+      "gt_original": "ya para que ustedes puedan hacer clic y directamente lo les vaya a la clase. Las ayudantías grabadas, eh que aquí voy a poner todas las clases. Le les recomiendo ver estas clases de César Izquierdo, que es un youtuber que",
+      "gt_normalizado": "ya para que ustedes puedan hacer clic y directamente lo les vaya a la clase las ayudantías grabadas eh que aquí voy a poner todas las clases le les recomiendo ver estas clases de césar izquierdo que es un youtuber que"
+    },
+    {
+      "sample_id": "clase04_seg0257",
+      "clase_id": "clase04",
+      "ruta_audio": "data/processed/chunks/clase04/clase04_seg0257.wav",
+      "inicio": 3733.045,
+      "fin": 3747.121,
+      "duracion_seg": 14.076,
+      "gt_original": "no sé por qué he dejado de subir, pero es muy bueno, es demasiado bueno. Entonces, les va a llevar a este playlist. Eh, no sé si voy a dejar de grabar, ¿okay? Eh bueno, gracias chicos, voy a dejar de grabar.",
+      "gt_normalizado": "no sé por qué he dejado de subir pero es muy bueno es demasiado bueno entonces les va a llevar a este playlist eh no sé si voy a dejar de grabar okay eh bueno gracias chicos voy a dejar de grabar"
+    }
+  ]
+}

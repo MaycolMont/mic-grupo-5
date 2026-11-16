@@ -1,0 +1,2351 @@
+{
+  "clase_id": "clase07",
+  "audio_stem": "yt_mecanica-de-maquinarias_20210622_005",
+  "audio_path": "data/interim/wav_16k/yt_mecanica-de-maquinarias_20210622_005.wav",
+  "duracion_audio_seg": 4213.307,
+  "palabras_gt": 6721,
+  "palabras_reconocidas": 3210,
+  "ratio_anclaje": 0.2971,
+  "chunks": [
+    {
+      "sample_id": "clase07_seg0001",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0001.wav",
+      "inicio": 9.086,
+      "fin": 22.223,
+      "duracion_seg": 13.137,
+      "gt_original": "Okay, okay, ahora sí. Bueno, ¿en qué estabamos? Vamos a ver. Ah, voy a repetir esta parte que me recuerdo que ahí fue donde dejaron de... Se dejó de poder ver, ¿eh? Okay. Eh, vamos a ver. Lo que",
+      "gt_normalizado": "okay okay ahora sí bueno en qué estabamos vamos a ver ah voy a repetir esta parte que me recuerdo que ahí fue donde dejaron de se dejó de poder ver eh okay eh vamos a ver lo que"
+    },
+    {
+      "sample_id": "clase07_seg0002",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0002.wav",
+      "inicio": 49.02,
+      "fin": 63.598,
+      "duracion_seg": 14.578,
+      "gt_original": "tenemos pendiente era lo de trenes de engranes. ¿Sí? Ya habíamos quedado como era la el engranaje entre piñón y engranes. Y ahora lo que nos íbamos a dedicar es a trenes de engranes, es decir, eh trenes de engranes",
+      "gt_normalizado": "tenemos pendiente era lo de trenes de engranes sí ya habíamos quedado como era la el engranaje entre piñón y engranes y ahora lo que nos íbamos a dedicar es a trenes de engranes es decir eh trenes de engranes"
+    },
+    {
+      "sample_id": "clase07_seg0003",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0003.wav",
+      "inicio": 65.1,
+      "fin": 76.59,
+      "duracion_seg": 11.49,
+      "gt_original": "compuestos y iniciábamos con lo que eran trenes de engranes en dientes rectos. ¿Okay? Aquí abajo",
+      "gt_normalizado": "compuestos y iniciábamos con lo que eran trenes de engranes en dientes rectos okay aquí abajo"
+    },
+    {
+      "sample_id": "clase07_seg0004",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0004.wav",
+      "inicio": 77.73,
+      "fin": 87.99,
+      "duracion_seg": 10.26,
+      "gt_original": "yo les presento una configuración de un sistema de un tren de engrane. ¿Sí? La particularidad es que usted tiene que darse cuenta que el engranaje",
+      "gt_normalizado": "yo les presento una configuración de un sistema de un tren de engrane sí la particularidad es que usted tiene que darse cuenta que el engranaje"
+    },
+    {
+      "sample_id": "clase07_seg0005",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0005.wav",
+      "inicio": 88.95,
+      "fin": 102.603,
+      "duracion_seg": 13.653,
+      "gt_original": "está aquí, ¿okay? Ahí usted puede ver un engranaje. ¿Sí? Y también es particularidad o es depende de usted también que debe darse que aquí hay otro engranaje. ¿Sí?",
+      "gt_normalizado": "está aquí okay ahí usted puede ver un engranaje sí y también es particularidad o es depende de usted también que debe darse que aquí hay otro engranaje sí"
+    },
+    {
+      "sample_id": "clase07_seg0006",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0006.wav",
+      "inicio": 103.5,
+      "fin": 114.93,
+      "duracion_seg": 11.43,
+      "gt_original": "Entonces, si usted se da cuenta, un tren de engranaje, un tren de de engranes es básicamente un conjunto de engranes, de engranajes conectados entre sí. La la",
+      "gt_normalizado": "entonces si usted se da cuenta un tren de engranaje un tren de de engranes es básicamente un conjunto de engranes de engranajes conectados entre sí la la"
+    },
+    {
+      "sample_id": "clase07_seg0007",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0007.wav",
+      "inicio": 115.5,
+      "fin": 126.43,
+      "duracion_seg": 10.93,
+      "gt_original": "parte interesante o lo que me llama la atención o lo que une la interface es este de aquí. Este de aquí, este de aquí es el que está eh",
+      "gt_normalizado": "parte interesante o lo que me llama la atención o lo que une la interface es este de aquí este de aquí este de aquí es el que está eh"
+    },
+    {
+      "sample_id": "clase07_seg0008",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0008.wav",
+      "inicio": 127.02,
+      "fin": 142.237,
+      "duracion_seg": 15.217,
+      "gt_original": "tiene dos engranes en un mismo eje. ¿Sí? Por ende, vamos a poner el nombre. Sería dos, tres, cuatro, cinco. El número tres y el número cuatro, ellos están conectados por el mismo eje. ¿Sí?",
+      "gt_normalizado": "tiene dos engranes en un mismo eje sí por ende vamos a poner el nombre sería dos tres cuatro cinco el número tres y el número cuatro ellos están conectados por el mismo eje sí"
+    },
+    {
+      "sample_id": "clase07_seg0009",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0009.wav",
+      "inicio": 143.25,
+      "fin": 154.14,
+      "duracion_seg": 10.89,
+      "gt_original": "Entonces, independiente de cuál sea la relación de transmisión de cada uno, ellos van a tener la misma velocidad. Entonces, eso es lo que nos ayuda a conectar los sistemas.",
+      "gt_normalizado": "entonces independiente de cuál sea la relación de transmisión de cada uno ellos van a tener la misma velocidad entonces eso es lo que nos ayuda a conectar los sistemas"
+    },
+    {
+      "sample_id": "clase07_seg0010",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0010.wav",
+      "inicio": 154.92,
+      "fin": 166.123,
+      "duracion_seg": 11.203,
+      "gt_original": "Por ejemplo, en el primero aquí de esta unión, en el azul, yo voy a tener una relación de transmisión de velocidad. Y acá yo voy a",
+      "gt_normalizado": "por ejemplo en el primero aquí de esta unión en el azul yo voy a tener una relación de transmisión de velocidad y acá yo voy a"
+    },
+    {
+      "sample_id": "clase07_seg0011",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0011.wav",
+      "inicio": 167.022,
+      "fin": 178.908,
+      "duracion_seg": 11.886,
+      "gt_original": "tener otra relación de transmisión de velocidad. ¿Sí? A este le voy a llamar eh dos. A este le voy a llamar uno y esta de",
+      "gt_normalizado": "tener otra relación de transmisión de velocidad sí a este le voy a llamar eh dos a este le voy a llamar uno y esta de"
+    },
+    {
+      "sample_id": "clase07_seg0012",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0012.wav",
+      "inicio": 179.82,
+      "fin": 193.254,
+      "duracion_seg": 13.434,
+      "gt_original": "aquí, la de amarillo, básicamente eh lo que me la la la compatibilidad que me da es de que omega 3 es igual a omega 4. ¿Sí?",
+      "gt_normalizado": "aquí la de amarillo básicamente eh lo que me la la la compatibilidad que me da es de que omega 3 es igual a omega 4 sí"
+    },
+    {
+      "sample_id": "clase07_seg0013",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0013.wav",
+      "inicio": 195.93,
+      "fin": 211.821,
+      "duracion_seg": 15.891,
+      "gt_original": "Entonces, eso es lo que yo tengo que tener claro cuando estoy analizando los engranes. ¿Alguna pregunta hasta ahí? No creo, pero bueno, si si lo tiene me la me la puede hacer. Bien,",
+      "gt_normalizado": "entonces eso es lo que yo tengo que tener claro cuando estoy analizando los engranes alguna pregunta hasta ahí no creo pero bueno si si lo tiene me la me la puede hacer bien"
+    },
+    {
+      "sample_id": "clase07_seg0014",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0014.wav",
+      "inicio": 212.76,
+      "fin": 222.813,
+      "duracion_seg": 10.053,
+      "gt_original": "siguiendo con eso, vamos a ver qué otra cosa me puedo dar cuenta. Supongamos que yo voy a",
+      "gt_normalizado": "siguiendo con eso vamos a ver qué otra cosa me puedo dar cuenta supongamos que yo voy a"
+    },
+    {
+      "sample_id": "clase07_seg0015",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0015.wav",
+      "inicio": 224.662,
+      "fin": 235.3,
+      "duracion_seg": 10.638,
+      "gt_original": "definir que esta es la entrada. Ingreso, yo quiero ver cómo va a ser la salida. Entonces, si el omega 2 se mueve en este sentido, el",
+      "gt_normalizado": "definir que esta es la entrada ingreso yo quiero ver cómo va a ser la salida entonces si el omega 2 se mueve en este sentido el"
+    },
+    {
+      "sample_id": "clase07_seg0016",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0016.wav",
+      "inicio": 235.89,
+      "fin": 249.04,
+      "duracion_seg": 13.15,
+      "gt_original": "omega 3 como está conectado con los dientes se va a mover en este sentido. ¿Okay? Ahora, omega 3 y 4 están conectados por el mismo eje, quiere decir que ellos van a tener el mismo sentido de movimiento. Es",
+      "gt_normalizado": "omega 3 como está conectado con los dientes se va a mover en este sentido okay ahora omega 3 y 4 están conectados por el mismo eje quiere decir que ellos van a tener el mismo sentido de movimiento es"
+    },
+    {
+      "sample_id": "clase07_seg0017",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0017.wav",
+      "inicio": 249.48,
+      "fin": 264.123,
+      "duracion_seg": 14.643,
+      "gt_original": "decir, este se mueve así y omega 4 y 5 están conectados, así que le va a cambiar el movimiento a 5. ¿Por qué les está cambiando el movimiento? Porque ya habíamos visto que cuando ellos están conectados de forma exterior se cambia el",
+      "gt_normalizado": "decir este se mueve así y omega 4 y 5 están conectados así que le va a cambiar el movimiento a 5 por qué les está cambiando el movimiento porque ya habíamos visto que cuando ellos están conectados de forma exterior se cambia el"
+    },
+    {
+      "sample_id": "clase07_seg0018",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0018.wav",
+      "inicio": 264.544,
+      "fin": 274.8,
+      "duracion_seg": 10.256,
+      "gt_original": "sentido de movimiento y cuando están conectados de forma interior mantiene el sentido de movimiento. ¿Sí? Ahora, ¿cómo hacemos para extender ese análisis?",
+      "gt_normalizado": "sentido de movimiento y cuando están conectados de forma interior mantiene el sentido de movimiento sí ahora cómo hacemos para extender ese análisis"
+    },
+    {
+      "sample_id": "clase07_seg0019",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0019.wav",
+      "inicio": 276.03,
+      "fin": 289.75,
+      "duracion_seg": 13.72,
+      "gt_original": "Primero, nosotros definimos un sistema de referencia, ¿sí? Es decir, yo voy a decir eh",
+      "gt_normalizado": "primero nosotros definimos un sistema de referencia sí es decir yo voy a decir eh"
+    },
+    {
+      "sample_id": "clase07_seg0020",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0020.wav",
+      "inicio": 293.64,
+      "fin": 304.883,
+      "duracion_seg": 11.243,
+      "gt_original": "por ejemplo yo digo en este sentido de giro voy a considerar como positivo, ¿okay? Y ahí",
+      "gt_normalizado": "por ejemplo yo digo en este sentido de giro voy a considerar como positivo okay y ahí"
+    },
+    {
+      "sample_id": "clase07_seg0021",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0021.wav",
+      "inicio": 308.969,
+      "fin": 322.32,
+      "duracion_seg": 13.351,
+      "gt_original": "estoy viendo, quiere decir que yo voy a ver hacia allá como positivo. ¿Sí? Ahora, quiere decir que si yo veo de la derecha hacia acá o si yo veo de frente",
+      "gt_normalizado": "estoy viendo quiere decir que yo voy a ver hacia allá como positivo sí ahora quiere decir que si yo veo de la derecha hacia acá o si yo veo de frente"
+    },
+    {
+      "sample_id": "clase07_seg0022",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0022.wav",
+      "inicio": 322.77,
+      "fin": 339.378,
+      "duracion_seg": 16.608,
+      "gt_original": "en en giro en ese sentido va a ser positivo. Segundo, sí, eh yo puedo hacer un un... Yo puedo hacer como un esquema o puedo hacer directamente en base a lo que veo. Voy a hacer de las dos formas, ¿sí?",
+      "gt_normalizado": "en en giro en ese sentido va a ser positivo segundo sí eh yo puedo hacer un un yo puedo hacer como un esquema o puedo hacer directamente en base a lo que veo voy a hacer de las dos formas sí"
+    },
+    {
+      "sample_id": "clase07_seg0023",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0023.wav",
+      "inicio": 340.47,
+      "fin": 358.46,
+      "duracion_seg": 17.99,
+      "gt_original": "Entonces yo puedo analizar y yo sé que en mi relación aquí vamos a definir ene 2, ene 3, ene 4, ene 5, que son los números de dientes de cada uno de esos de esos eh engranes. Ahora, aquí voy a",
+      "gt_normalizado": "entonces yo puedo analizar y yo sé que en mi relación aquí vamos a definir ene 2 ene 3 ene 4 ene 5 que son los números de dientes de cada uno de esos de esos eh engranes ahora aquí voy a"
+    },
+    {
+      "sample_id": "clase07_seg0024",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0024.wav",
+      "inicio": 361.109,
+      "fin": 371.993,
+      "duracion_seg": 10.884,
+      "gt_original": "tener omega 1 sobre omega 2, velocidad de entrada, velocidad de salida. Yo sé que como son externos, esto va a ser ene 2 sobre ene 1. ¿Okay?",
+      "gt_normalizado": "tener omega 1 sobre omega 2 velocidad de entrada velocidad de salida yo sé que como son externos esto va a ser ene 2 sobre ene 1 okay"
+    },
+    {
+      "sample_id": "clase07_seg0025",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0025.wav",
+      "inicio": 374.76,
+      "fin": 388.0,
+      "duracion_seg": 13.24,
+      "gt_original": "Ahora, yo sé que de esa ecuación yo puedo decir que omega 1 es igual a menos ene 2 sobre ene 1 multiplicado por omega 2.",
+      "gt_normalizado": "ahora yo sé que de esa ecuación yo puedo decir que omega 1 es igual a menos ene 2 sobre ene 1 multiplicado por omega 2"
+    },
+    {
+      "sample_id": "clase07_seg0026",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0026.wav",
+      "inicio": 389.97,
+      "fin": 408.45,
+      "duracion_seg": 18.48,
+      "gt_original": "Además, yo sé que ¿qué más puedo decir? Que omega, perdón, estoy confundiendo los subíndices, no hay una. Aquí sería",
+      "gt_normalizado": "además yo sé que qué más puedo decir que omega perdón estoy confundiendo los subíndices no hay una aquí sería"
+    },
+    {
+      "sample_id": "clase07_seg0027",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0027.wav",
+      "inicio": 424.17,
+      "fin": 434.08,
+      "duracion_seg": 9.91,
+      "gt_original": "omega 1, omega 3, 2 y sería 2, 3, 2 y 3. Ahora tengo la particularidad de que omega 3 y omega 4 son son iguales porque están montados en el mismo eje y de lo cual también puedo decir que omega 4 a",
+      "gt_normalizado": "omega 1 omega 3 2 y sería 2 3 2 y 3 ahora tengo la particularidad de que omega 3 y omega 4 son son iguales porque están montados en el mismo eje y de lo cual también puedo decir que omega 4 a"
+    },
+    {
+      "sample_id": "clase07_seg0028",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0028.wav",
+      "inicio": 439.35,
+      "fin": 442.201,
+      "duracion_seg": 2.851,
+      "gt_original": "omega 5 es igual a menos ene 5",
+      "gt_normalizado": "omega 5 es igual a menos ene 5"
+    },
+    {
+      "sample_id": "clase07_seg0029",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0029.wav",
+      "inicio": 454.74,
+      "fin": 466.68,
+      "duracion_seg": 11.94,
+      "gt_original": "sobre ene 4 entonces tendría omega 4 ene 5 sobre ene 4 multiplicado por omega 5, ¿sí? De eso, ¿qué puedo hacer como una relación?",
+      "gt_normalizado": "sobre ene 4 entonces tendría omega 4 ene 5 sobre ene 4 multiplicado por omega 5 sí de eso qué puedo hacer como una relación"
+    },
+    {
+      "sample_id": "clase07_seg0030",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0030.wav",
+      "inicio": 468.36,
+      "fin": 480.438,
+      "duracion_seg": 12.078,
+      "gt_original": "Bueno, eh esta ecuación la puedo reemplazar. Profesor, disculpe. Ahí arriba sería igual. Sí, se va con la partita de abajo. Este de",
+      "gt_normalizado": "bueno eh esta ecuación la puedo reemplazar profesor disculpe ahí arriba sería igual sí se va con la partita de abajo este de"
+    },
+    {
+      "sample_id": "clase07_seg0031",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0031.wav",
+      "inicio": 483.27,
+      "fin": 502.689,
+      "duracion_seg": 19.419,
+      "gt_original": "aquí lo puedo reemplazar acá y esto de aquí lo puedo reemplazar acá. ¿Okay? Entonces, omega 2 sería igual a menos ene 3 sobre ene 2 multiplicado por menos el ene 5 sobre el ene 4 multiplicado por omega 5.",
+      "gt_normalizado": "aquí lo puedo reemplazar acá y esto de aquí lo puedo reemplazar acá okay entonces omega 2 sería igual a menos ene 3 sobre ene 2 multiplicado por menos el ene 5 sobre el ene 4 multiplicado por omega 5"
+    },
+    {
+      "sample_id": "clase07_seg0032",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0032.wav",
+      "inicio": 508.71,
+      "fin": 519.453,
+      "duracion_seg": 10.743,
+      "gt_original": "Entonces, si usted se da cuenta, aquí hay varias cosas que analizar. Esto de aquí es la velocidad de ingreso. Este de aquí",
+      "gt_normalizado": "entonces si usted se da cuenta aquí hay varias cosas que analizar esto de aquí es la velocidad de ingreso este de aquí"
+    },
+    {
+      "sample_id": "clase07_seg0033",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0033.wav",
+      "inicio": 521.4,
+      "fin": 535.407,
+      "duracion_seg": 14.007,
+      "gt_original": "es la velocidad de salida. Y esto de aquí, ¿qué sería? Esto sería la relación de transmisión de reducción 1 y este sería la",
+      "gt_normalizado": "es la velocidad de salida y esto de aquí qué sería esto sería la relación de transmisión de reducción 1 y este sería la"
+    },
+    {
+      "sample_id": "clase07_seg0034",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0034.wav",
+      "inicio": 537.41,
+      "fin": 558.162,
+      "duracion_seg": 20.752,
+      "gt_original": "reducción de relación de reducción 2. ¿Okay? Ahora, dicho eso, yo puedo extender ese análisis porque siempre hay un patrón cuando son trenes de engranes compuestos y externos. Entonces yo podría decir omega in omega",
+      "gt_normalizado": "reducción de relación de reducción 2 okay ahora dicho eso yo puedo extender ese análisis porque siempre hay un patrón cuando son trenes de engranes compuestos y externos entonces yo podría decir omega in omega"
+    },
+    {
+      "sample_id": "clase07_seg0035",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0035.wav",
+      "inicio": 566.76,
+      "fin": 569.364,
+      "duracion_seg": 2.604,
+      "gt_original": "out es igual al producto de la relación de reducción 1 por la relación de reducción dos. ¿Okay?",
+      "gt_normalizado": "out es igual al producto de la relación de reducción 1 por la relación de reducción dos okay"
+    },
+    {
+      "sample_id": "clase07_seg0036",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0036.wav",
+      "inicio": 585.93,
+      "fin": 587.523,
+      "duracion_seg": 1.593,
+      "gt_original": "Ahora, si los si el",
+      "gt_normalizado": "ahora si los si el"
+    },
+    {
+      "sample_id": "clase07_seg0037",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0037.wav",
+      "inicio": 592.675,
+      "fin": 593.789,
+      "duracion_seg": 1.114,
+      "gt_original": "engranaje es eh",
+      "gt_normalizado": "engranaje es eh"
+    },
+    {
+      "sample_id": "clase07_seg0038",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0038.wav",
+      "inicio": 600.39,
+      "fin": 601.504,
+      "duracion_seg": 1.114,
+      "gt_original": "externo, ¿sí? ¿Qué",
+      "gt_normalizado": "externo sí qué"
+    },
+    {
+      "sample_id": "clase07_seg0039",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0039.wav",
+      "inicio": 607.304,
+      "fin": 627.42,
+      "duracion_seg": 20.116,
+      "gt_original": "sucede? Pues si es un número par de sistemas de reducción, entonces ese valor de reducciones sería positivo. Es decir, la velocidad de salida sería el mismo sentido de la velocidad de entrada. Si el sistema de reducción es un número impar,",
+      "gt_normalizado": "sucede pues si es un número par de sistemas de reducción entonces ese valor de reducciones sería positivo es decir la velocidad de salida sería el mismo sentido de la velocidad de entrada si el sistema de reducción es un número impar"
+    },
+    {
+      "sample_id": "clase07_seg0040",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0040.wav",
+      "inicio": 630.96,
+      "fin": 646.02,
+      "duracion_seg": 15.06,
+      "gt_original": "tendría yo un valor negativo, ¿sí? Aquí se da cuenta. Usted tiene aquí dos y tiene un número par porque menos por menos le va a dar más, pero como si fuera impar, o sea, si solo tuviera yo la azul esta de aquí,",
+      "gt_normalizado": "tendría yo un valor negativo sí aquí se da cuenta usted tiene aquí dos y tiene un número par porque menos por menos le va a dar más pero como si fuera impar o sea si solo tuviera yo la azul esta de aquí"
+    },
+    {
+      "sample_id": "clase07_seg0041",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0041.wav",
+      "inicio": 646.56,
+      "fin": 656.938,
+      "duracion_seg": 10.378,
+      "gt_original": "sería un número negativo, quiere decir que está cambiando el sentido de la velocidad. Es eso es lo que quiere decir eso de ahí. Ahora, una forma eh yo yo no",
+      "gt_normalizado": "sería un número negativo quiere decir que está cambiando el sentido de la velocidad es eso es lo que quiere decir eso de ahí ahora una forma eh yo yo no"
+    },
+    {
+      "sample_id": "clase07_seg0042",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0042.wav",
+      "inicio": 661.11,
+      "fin": 676.22,
+      "duracion_seg": 15.11,
+      "gt_original": "esperaría que que usted haga eh o sea que que dibuje, por ejemplo, todo el los engranes y los dientes. No no no no no se espera eso.",
+      "gt_normalizado": "esperaría que que usted haga eh o sea que que dibuje por ejemplo todo el los engranes y los dientes no no no no no se espera eso"
+    },
+    {
+      "sample_id": "clase07_seg0043",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0043.wav",
+      "inicio": 677.88,
+      "fin": 702.756,
+      "duracion_seg": 24.876,
+      "gt_original": "Tomaría mucho tiempo. Entonces, nosotros lo que hacemos es hacemos unos eh esquemas, ¿sí?, más o menos representando lo que sería los engranes. Okay. Entonces, si usted se da cuenta, aquí tiene esto de aquí es lo que denominamos eje y esto de aquí son los es la chumacera",
+      "gt_normalizado": "tomaría mucho tiempo entonces nosotros lo que hacemos es hacemos unos eh esquemas sí más o menos representando lo que sería los engranes okay entonces si usted se da cuenta aquí tiene esto de aquí es lo que denominamos eje y esto de aquí son los es la chumacera"
+    },
+    {
+      "sample_id": "clase07_seg0044",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0044.wav",
+      "inicio": 702.756,
+      "fin": 704.747,
+      "duracion_seg": 1.991,
+      "gt_original": "en la cual están los",
+      "gt_normalizado": "en la cual están los"
+    },
+    {
+      "sample_id": "clase07_seg0045",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0045.wav",
+      "inicio": 759.57,
+      "fin": 764.853,
+      "duracion_seg": 5.283,
+      "gt_original": "rodamientos. ¿Sí? Entonces, yo los puedo",
+      "gt_normalizado": "rodamientos sí entonces yo los puedo"
+    },
+    {
+      "sample_id": "clase07_seg0046",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0046.wav",
+      "inicio": 781.601,
+      "fin": 799.03,
+      "duracion_seg": 17.429,
+      "gt_original": "representar de esa manera. ¿Sí? Entonces, al hacer eso, yo estoy representando eso con un diagrama cinemático de alguna forma y yo puedo decir, por ejemplo, visto desde arriba, es decir, si la velocidad en",
+      "gt_normalizado": "representar de esa manera sí entonces al hacer eso yo estoy representando eso con un diagrama cinemático de alguna forma y yo puedo decir por ejemplo visto desde arriba es decir si la velocidad en"
+    },
+    {
+      "sample_id": "clase07_seg0047",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0047.wav",
+      "inicio": 805.65,
+      "fin": 809.493,
+      "duracion_seg": 3.843,
+      "gt_original": "aquí va a ser 2, 3, 4, 5 esta velocidad omega",
+      "gt_normalizado": "aquí va a ser 2 3 4 5 esta velocidad omega"
+    },
+    {
+      "sample_id": "clase07_seg0048",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0048.wav",
+      "inicio": 816.63,
+      "fin": 829.209,
+      "duracion_seg": 12.579,
+      "gt_original": "ingreso va en este sentido. Quiere decir que el engrane aquí gira hacia allá y el otro engrane gira hacia acá. Quiere decir que 4 también va en el mismo sentido y que 5",
+      "gt_normalizado": "ingreso va en este sentido quiere decir que el engrane aquí gira hacia allá y el otro engrane gira hacia acá quiere decir que 4 también va en el mismo sentido y que 5"
+    },
+    {
+      "sample_id": "clase07_seg0049",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0049.wav",
+      "inicio": 830.825,
+      "fin": 849.82,
+      "duracion_seg": 18.995,
+      "gt_original": "va en este sentido. ¿Okay? Entonces, de esa forma también puedo estimar gráficamente el sentido en el que van a a hacer el movimiento de salida. ¿Todos hasta ahí? Una observación. para para que para dientes rectos. ¿Sí?",
+      "gt_normalizado": "va en este sentido okay entonces de esa forma también puedo estimar gráficamente el sentido en el que van a a hacer el movimiento de salida todos hasta ahí una observación para para que para dientes rectos sí"
+    },
+    {
+      "sample_id": "clase07_seg0050",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0050.wav",
+      "inicio": 860.34,
+      "fin": 862.69,
+      "duracion_seg": 2.35,
+      "gt_original": "Existe un límite de diseño. Eso",
+      "gt_normalizado": "existe un límite de diseño eso"
+    },
+    {
+      "sample_id": "clase07_seg0051",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0051.wav",
+      "inicio": 876.39,
+      "fin": 888.239,
+      "duracion_seg": 11.849,
+      "gt_original": "quiere decir que se recomienda que la relación de transmisión, ¿sí? Eh, sea menor o igual a una",
+      "gt_normalizado": "quiere decir que se recomienda que la relación de transmisión sí eh sea menor o igual a una"
+    },
+    {
+      "sample_id": "clase07_seg0052",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0052.wav",
+      "inicio": 888.777,
+      "fin": 899.35,
+      "duracion_seg": 10.573,
+      "gt_original": "relación de 10 a 1. ¿Okay? ¿Está claro eso? Entonces, es decir, cuando yo tenga mi",
+      "gt_normalizado": "relación de 10 a 1 okay está claro eso entonces es decir cuando yo tenga mi"
+    },
+    {
+      "sample_id": "clase07_seg0053",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0053.wav",
+      "inicio": 899.79,
+      "fin": 915.813,
+      "duracion_seg": 16.023,
+      "gt_original": "relación de dientes o de entrada de salida, omega de entrada, omega salida, mi relación no debería ser mayor o igual a una relación de 10 a 1. ¿Okay? Este es un factor limitante para esto de aquí, ¿sí? Un momento. Okay.",
+      "gt_normalizado": "relación de dientes o de entrada de salida omega de entrada omega salida mi relación no debería ser mayor o igual a una relación de 10 a 1 okay este es un factor limitante para esto de aquí sí un momento okay"
+    },
+    {
+      "sample_id": "clase07_seg0054",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0054.wav",
+      "inicio": 935.55,
+      "fin": 952.726,
+      "duracion_seg": 17.176,
+      "gt_original": "¿Alguna pregunta hasta aquí? ¿Ingeniero? Sí. Lo de la recomendación que... Ah, perdón, ahí. Sí, así ya. Eh, la recomendación que da, ¿verdad?, de RB menor igual de 10 a 1, ¿es entre cada dos engranes, por",
+      "gt_normalizado": "alguna pregunta hasta aquí ingeniero sí lo de la recomendación que ah perdón ahí sí así ya eh la recomendación que da verdad de rb menor igual de 10 a 1 es entre cada dos engranes por"
+    },
+    {
+      "sample_id": "clase07_seg0055",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0055.wav",
+      "inicio": 953.708,
+      "fin": 978.453,
+      "duracion_seg": 24.746,
+      "gt_original": "ejemplo, o o en general en todo el conjunto? En todo el conjunto. Déjenme poner aquí total. O sea, que por ejemplo en este tren compuesto la relación máxima que puede haber es de 10 a 1. No, espera. No, no, es de cada uno. Ah, ya. Estoy hablando individual. O sea, ¿cada dos en granes cómo quieras?",
+      "gt_normalizado": "ejemplo o o en general en todo el conjunto en todo el conjunto déjenme poner aquí total o sea que por ejemplo en este tren compuesto la relación máxima que puede haber es de 10 a 1 no espera no no es de cada uno ah ya estoy hablando individual o sea cada dos en granes cómo quieras"
+    },
+    {
+      "sample_id": "clase07_seg0056",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0056.wav",
+      "inicio": 980.07,
+      "fin": 993.905,
+      "duracion_seg": 13.835,
+      "gt_original": "Sería del engranaje. ¿Qué? O sea, por ejemplo, entre 2 y 3 ahorita no puede haber una relación mayor a mayor a 10 a 1. Así es. El 10 a 1",
+      "gt_normalizado": "sería del engranaje qué o sea por ejemplo entre 2 y 3 ahorita no puede haber una relación mayor a mayor a 10 a 1 así es el 10 a 1"
+    },
+    {
+      "sample_id": "clase07_seg0057",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0057.wav",
+      "inicio": 995.242,
+      "fin": 1006.6,
+      "duracion_seg": 11.358,
+      "gt_original": "tiene que ser la relación, ¿sí? Ya sea de reducción o de incremento de 10 a 1 es la relación entre los dientes. Ahora porque estamos ahí es algo",
+      "gt_normalizado": "tiene que ser la relación sí ya sea de reducción o de incremento de 10 a 1 es la relación entre los dientes ahora porque estamos ahí es algo"
+    },
+    {
+      "sample_id": "clase07_seg0058",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0058.wav",
+      "inicio": 1007.55,
+      "fin": 1025.706,
+      "duracion_seg": 18.156,
+      "gt_original": "clásico, por así decirlo. Si estuviera con con ¿cómo se llama? harmonic drive, eso ya es diferente porque es un principio un poco distinto, pero eso eso no no no topamos ahora. Okay. Eh, todos hasta aquí. Bien. Eh, ¿de qué me sirve eso? Sí,",
+      "gt_normalizado": "clásico por así decirlo si estuviera con con cómo se llama harmonic drive eso ya es diferente porque es un principio un poco distinto pero eso eso no no no topamos ahora okay eh todos hasta aquí bien eh de qué me sirve eso sí"
+    },
+    {
+      "sample_id": "clase07_seg0059",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0059.wav",
+      "inicio": 1031.85,
+      "fin": 1035.24,
+      "duracion_seg": 3.39,
+      "gt_original": "supongamos eh que yo le digo a usted,",
+      "gt_normalizado": "supongamos eh que yo le digo a usted"
+    },
+    {
+      "sample_id": "clase07_seg0060",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0060.wav",
+      "inicio": 1044.51,
+      "fin": 1061.294,
+      "duracion_seg": 16.784,
+      "gt_original": "tengo una caja reductora, ¿sí? Y yo le voy a decir que la reducción sea de 18 a 1. ¿Okay? Entonces, yo le",
+      "gt_normalizado": "tengo una caja reductora sí y yo le voy a decir que la reducción sea de 18 a 1 okay entonces yo le"
+    },
+    {
+      "sample_id": "clase07_seg0061",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0061.wav",
+      "inicio": 1070.828,
+      "fin": 1081.08,
+      "duracion_seg": 10.252,
+      "gt_original": "pido eh realiza un esquema, puede ser aproximado",
+      "gt_normalizado": "pido eh realiza un esquema puede ser aproximado"
+    },
+    {
+      "sample_id": "clase07_seg0062",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0062.wav",
+      "inicio": 1083.63,
+      "fin": 1100.961,
+      "duracion_seg": 17.331,
+      "gt_original": "del sistema de engranes. ¿Qué hacemos ahí? Así puede ser un problema. Es válido que yo pregunte eso. Así. ¿Qué hacemos primero ahí para resolver eso? Tendría que",
+      "gt_normalizado": "del sistema de engranes qué hacemos ahí así puede ser un problema es válido que yo pregunte eso así qué hacemos primero ahí para resolver eso tendría que"
+    },
+    {
+      "sample_id": "clase07_seg0063",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0063.wav",
+      "inicio": 1112.85,
+      "fin": 1131.48,
+      "duracion_seg": 18.63,
+      "gt_original": "tratar de calcular cuántos engranes necesito para llegar a esa relación sin cumplir, sin dejar de cumplir la otra. Eso, muy bien. Entonces, eh primero yo realizo el como que un diseño de forma. Okay, cuando diseño de forma",
+      "gt_normalizado": "tratar de calcular cuántos engranes necesito para llegar a esa relación sin cumplir sin dejar de cumplir la otra eso muy bien entonces eh primero yo realizo el como que un diseño de forma okay cuando diseño de forma"
+    },
+    {
+      "sample_id": "clase07_seg0064",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0064.wav",
+      "inicio": 1139.961,
+      "fin": 1143.693,
+      "duracion_seg": 3.732,
+      "gt_original": "quiere decir, yo voy a decir, ¿sabes qué? Voy a",
+      "gt_normalizado": "quiere decir yo voy a decir sabes qué voy a"
+    },
+    {
+      "sample_id": "clase07_seg0065",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0065.wav",
+      "inicio": 1159.77,
+      "fin": 1169.994,
+      "duracion_seg": 10.224,
+      "gt_original": "hacerlo así. ¿Qué tal? Puedo hacerlo así. Si, si yo quiero. A ver, vamos a llamarlo a este de aquí. Dos, tres,",
+      "gt_normalizado": "hacerlo así qué tal puedo hacerlo así si si yo quiero a ver vamos a llamarlo a este de aquí dos tres"
+    },
+    {
+      "sample_id": "clase07_seg0066",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0066.wav",
+      "inicio": 1173.06,
+      "fin": 1191.82,
+      "duracion_seg": 18.76,
+      "gt_original": "cuatro. cinco. ¿Qué podría hacer ahí? Si yo considero esa forma, ¿qué puedo hacer? Aparte de este diseño de forma, ¿qué más debo considerar? Yo debo considerar que, bueno, ¿qué más podría considerar ahí,",
+      "gt_normalizado": "cuatro cinco qué podría hacer ahí si yo considero esa forma qué puedo hacer aparte de este diseño de forma qué más debo considerar yo debo considerar que bueno qué más podría considerar ahí"
+    },
+    {
+      "sample_id": "clase07_seg0067",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0067.wav",
+      "inicio": 1197.66,
+      "fin": 1198.81,
+      "duracion_seg": 1.15,
+      "gt_original": "chicos, chicas? Las",
+      "gt_normalizado": "chicos chicas las"
+    },
+    {
+      "sample_id": "clase07_seg0068",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0068.wav",
+      "inicio": 1204.41,
+      "fin": 1217.98,
+      "duracion_seg": 13.57,
+      "gt_original": "también las relaciones de lo de cada par de engranajes también se cumplen entre sí. Ahí yo tendría que con omega ingreso, omega de salida, ¿cómo sería?",
+      "gt_normalizado": "también las relaciones de lo de cada par de engranajes también se cumplen entre sí ahí yo tendría que con omega ingreso omega de salida cómo sería"
+    },
+    {
+      "sample_id": "clase07_seg0069",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0069.wav",
+      "inicio": 1226.55,
+      "fin": 1233.84,
+      "duracion_seg": 7.29,
+      "gt_original": "Vamos a ver. Yo podría tener entonces una relación de dos este sistemas de reducción,",
+      "gt_normalizado": "vamos a ver yo podría tener entonces una relación de dos este sistemas de reducción"
+    },
+    {
+      "sample_id": "clase07_seg0070",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0070.wav",
+      "inicio": 1240.08,
+      "fin": 1243.76,
+      "duracion_seg": 3.68,
+      "gt_original": "¿sí? Todos hasta ahí. Y si asumo que erre 1 es igual a erre 2,",
+      "gt_normalizado": "sí todos hasta ahí y si asumo que erre 1 es igual a erre 2"
+    },
+    {
+      "sample_id": "clase07_seg0071",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0071.wav",
+      "inicio": 1249.95,
+      "fin": 1261.236,
+      "duracion_seg": 11.286,
+      "gt_original": "porque no tengo nada más información, esto sería erre i al cuadrado. ¿Sí? Y yo sé que erre i, ¿qué cosa tiene que ser? Menor",
+      "gt_normalizado": "porque no tengo nada más información esto sería erre i al cuadrado sí y yo sé que erre i qué cosa tiene que ser menor"
+    },
+    {
+      "sample_id": "clase07_seg0072",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0072.wav",
+      "inicio": 1271.985,
+      "fin": 1285.83,
+      "duracion_seg": 13.845,
+      "gt_original": "igual, menor igual a a una reducción de 10 a 1, menor igual a 10 debe ser. Básicamente eso es lo que damos a entender. Tiene que ser menor o igual a 10. Ahora, en este caso, si usted se da cuenta, usted puede terminar que la forma de, por ejemplo, sería",
+      "gt_normalizado": "igual menor igual a a una reducción de 10 a 1 menor igual a 10 debe ser básicamente eso es lo que damos a entender tiene que ser menor o igual a 10 ahora en este caso si usted se da cuenta usted puede terminar que la forma de por ejemplo sería"
+    },
+    {
+      "sample_id": "clase07_seg0073",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0073.wav",
+      "inicio": 1286.43,
+      "fin": 1304.181,
+      "duracion_seg": 17.751,
+      "gt_original": "erre i igual a la raíz cuadrada de 10. Perdón, perdón, perdón, perdón, perdón, me he equivocado. erre i debería ser igual a la raíz cuadrada de 180, que es su valor, el valor que está buscando. Ahora, ¿qué hago ahí? ¿Cuánto es",
+      "gt_normalizado": "erre i igual a la raíz cuadrada de 10 perdón perdón perdón perdón perdón me he equivocado erre i debería ser igual a la raíz cuadrada de 180 que es su valor el valor que está buscando ahora qué hago ahí cuánto es"
+    },
+    {
+      "sample_id": "clase07_seg0074",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0074.wav",
+      "inicio": 1306.501,
+      "fin": 1314.546,
+      "duracion_seg": 8.045,
+      "gt_original": "eso? Eso quiere decir que erre es... ¿Cuánto me queda eso? 13.41. Ya. 13.41. Si yo tengo 13.41,",
+      "gt_normalizado": "eso eso quiere decir que erre es cuánto me queda eso 13 41 ya 13 41 si yo tengo 13 41"
+    },
+    {
+      "sample_id": "clase07_seg0075",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0075.wav",
+      "inicio": 1321.11,
+      "fin": 1321.77,
+      "duracion_seg": 0.66,
+      "gt_original": "entonces eh",
+      "gt_normalizado": "entonces eh"
+    },
+    {
+      "sample_id": "clase07_seg0076",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0076.wav",
+      "inicio": 1327.5,
+      "fin": 1337.604,
+      "duracion_seg": 10.104,
+      "gt_original": "no cumple no cumple la condición de diseño, ¿sí? Entonces esta configuración no me va a servir. ¿Okay?",
+      "gt_normalizado": "no cumple no cumple la condición de diseño sí entonces esta configuración no me va a servir okay"
+    },
+    {
+      "sample_id": "clase07_seg0077",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0077.wav",
+      "inicio": 1338.78,
+      "fin": 1355.254,
+      "duracion_seg": 16.474,
+      "gt_original": "Entonces, ¿qué debo hacer yo ahí? Bueno, entonces ahí lo que tengo que hacer, este sería primera iteración. Tengo que hacer una segunda. Okey. Entonces yo podría decir erre 1, erre 2, erre 3, ¿sí? Entonces,",
+      "gt_normalizado": "entonces qué debo hacer yo ahí bueno entonces ahí lo que tengo que hacer este sería primera iteración tengo que hacer una segunda okey entonces yo podría decir erre 1 erre 2 erre 3 sí entonces"
+    },
+    {
+      "sample_id": "clase07_seg0078",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0078.wav",
+      "inicio": 1392.54,
+      "fin": 1395.323,
+      "duracion_seg": 2.783,
+      "gt_original": "haciendo una segunda iteración, yo tendría que eso me",
+      "gt_normalizado": "haciendo una segunda iteración yo tendría que eso me"
+    },
+    {
+      "sample_id": "clase07_seg0079",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0079.wav",
+      "inicio": 1401.217,
+      "fin": 1416.03,
+      "duracion_seg": 14.813,
+      "gt_original": "debería dar erre i al cubo. Entonces, erre i es igual a la raíz cúbica de 180, que esto me debe dar 5.4 64 4 6 5 4 6, ¿okay?",
+      "gt_normalizado": "debería dar erre i al cubo entonces erre i es igual a la raíz cúbica de 180 que esto me debe dar 5 4 64 4 6 5 4 6 okay"
+    },
+    {
+      "sample_id": "clase07_seg0080",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0080.wav",
+      "inicio": 1428.24,
+      "fin": 1439.527,
+      "duracion_seg": 11.287,
+      "gt_original": "Ahora, ¿eso qué quiere decir? Eso quiere decir que esto es menor que 10. Entonces estoy okay, ¿sí? Puedo hacer un tren de engranes",
+      "gt_normalizado": "ahora eso qué quiere decir eso quiere decir que esto es menor que 10 entonces estoy okay sí puedo hacer un tren de engranes"
+    },
+    {
+      "sample_id": "clase07_seg0081",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0081.wav",
+      "inicio": 1442.61,
+      "fin": 1461.15,
+      "duracion_seg": 18.54,
+      "gt_original": "con un sistema de reducción de tres de tres partes. Eso es lo que quiere decir. Considerando erre i, erre i, erre i. Entonces ahí ya tengo una parte del problema, ¿sí? ¿Qué debo hacer ahora?",
+      "gt_normalizado": "con un sistema de reducción de tres de tres partes eso es lo que quiere decir considerando erre i erre i erre i entonces ahí ya tengo una parte del problema sí qué debo hacer ahora"
+    },
+    {
+      "sample_id": "clase07_seg0082",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0082.wav",
+      "inicio": 1472.91,
+      "fin": 1483.23,
+      "duracion_seg": 10.32,
+      "gt_original": "Profesor, una pregunta. ¿Sí? Si digamos hay un ejercicio y tengo así ese sistema que me dicen, por ejemplo, un número grande así a uno, eh, ¿es necesario",
+      "gt_normalizado": "profesor una pregunta sí si digamos hay un ejercicio y tengo así ese sistema que me dicen por ejemplo un número grande así a uno eh es necesario"
+    },
+    {
+      "sample_id": "clase07_seg0083",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0083.wav",
+      "inicio": 1483.68,
+      "fin": 1495.919,
+      "duracion_seg": 12.239,
+      "gt_original": "comenzar con la primera iteración de un sistema de dos? No, no, no. Eh, eh, tú puedes este comenzar de tres, cuatro, lo que sea, ¿sí? Tú",
+      "gt_normalizado": "comenzar con la primera iteración de un sistema de dos no no no eh eh tú puedes este comenzar de tres cuatro lo que sea sí tú"
+    },
+    {
+      "sample_id": "clase07_seg0084",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0084.wav",
+      "inicio": 1497.48,
+      "fin": 1521.85,
+      "duracion_seg": 24.37,
+      "gt_original": "puedes hacer de la forma que quieras. Yo comencé con dos solo para que usted vea que que yo hice así para que usted vea que no le va a dar, ¿sí? Entonces, para demostrarle que si si sale mayor que 10, yo debo hacer otra iteración para buscar una relación que cumple, ¿sí? Gracias, profe. Hay casos, hay casos en los que usted hace con una con dos y ya le sale, le sale 8, por ejemplo, y ya cumple, ¿sí?",
+      "gt_normalizado": "puedes hacer de la forma que quieras yo comencé con dos solo para que usted vea que que yo hice así para que usted vea que no le va a dar sí entonces para demostrarle que si si sale mayor que 10 yo debo hacer otra iteración para buscar una relación que cumple sí gracias profe hay casos hay casos en los que usted hace con una con dos y ya le sale le sale 8 por ejemplo y ya cumple sí"
+    },
+    {
+      "sample_id": "clase07_seg0085",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0085.wav",
+      "inicio": 1522.83,
+      "fin": 1527.842,
+      "duracion_seg": 5.012,
+      "gt_original": "Pero, ¿por qué es importante esta parte? Porque nos da una idea del siguiente paso que es",
+      "gt_normalizado": "pero por qué es importante esta parte porque nos da una idea del siguiente paso que es"
+    },
+    {
+      "sample_id": "clase07_seg0086",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0086.wav",
+      "inicio": 1537.8,
+      "fin": 1555.427,
+      "duracion_seg": 17.627,
+      "gt_original": "definir el número de dientes. Sí, ya definí cuánto es la relación, pero ahora tengo que ver que cada en grande cuántos dientes va a tener, porque en base a eso yo voy a ver después cómo va a ser las dimensiones. Tengo que seleccionar el paso, paso diametral, paso circular o el módulo si quiere trabajar en sistema internacional. ¿Okay? Eh, ¿qué hago ahí",
+      "gt_normalizado": "definir el número de dientes sí ya definí cuánto es la relación pero ahora tengo que ver que cada en grande cuántos dientes va a tener porque en base a eso yo voy a ver después cómo va a ser las dimensiones tengo que seleccionar el paso paso diametral paso circular o el módulo si quiere trabajar en sistema internacional okay eh qué hago ahí"
+    },
+    {
+      "sample_id": "clase07_seg0087",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0087.wav",
+      "inicio": 1562.94,
+      "fin": 1574.61,
+      "duracion_seg": 11.67,
+      "gt_original": "para definir el número de dientes? Ahí lo que tengo que recordar es que, por ejemplo, primero yo tenía que el ángulo de presión,",
+      "gt_normalizado": "para definir el número de dientes ahí lo que tengo que recordar es que por ejemplo primero yo tenía que el ángulo de presión"
+    },
+    {
+      "sample_id": "clase07_seg0088",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0088.wav",
+      "inicio": 1576.17,
+      "fin": 1590.395,
+      "duracion_seg": 14.225,
+      "gt_original": "¿sí? Podía ser 14.5 porque les había dicho que este ya no se usa, que puede ser 20 y que puede ser 25. ¿Okay?",
+      "gt_normalizado": "sí podía ser 14 5 porque les había dicho que este ya no se usa que puede ser 20 y que puede ser 25 okay"
+    },
+    {
+      "sample_id": "clase07_seg0089",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0089.wav",
+      "inicio": 1591.14,
+      "fin": 1605.839,
+      "duracion_seg": 14.699,
+      "gt_original": "Eso habíamos hablado la última vez. Ahora, ¿por qué eso es importante? Porque yo puedo definir ahora una tabla. ¿En qué puedo definir? Puedo definir relación de transmisión. Puedo",
+      "gt_normalizado": "eso habíamos hablado la última vez ahora por qué eso es importante porque yo puedo definir ahora una tabla en qué puedo definir puedo definir relación de transmisión puedo"
+    },
+    {
+      "sample_id": "clase07_seg0090",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0090.wav",
+      "inicio": 1611.088,
+      "fin": 1612.12,
+      "duracion_seg": 1.032,
+      "gt_original": "decir eh",
+      "gt_normalizado": "decir eh"
+    },
+    {
+      "sample_id": "clase07_seg0091",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0091.wav",
+      "inicio": 1617.78,
+      "fin": 1618.515,
+      "duracion_seg": 0.735,
+      "gt_original": "número de",
+      "gt_normalizado": "número de"
+    },
+    {
+      "sample_id": "clase07_seg0092",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0092.wav",
+      "inicio": 1623.78,
+      "fin": 1631.242,
+      "duracion_seg": 7.462,
+      "gt_original": "dientes, piñón, número de dientes del engrane, ¿okay? Ahora, este de aquí es, si mal no",
+      "gt_normalizado": "dientes piñón número de dientes del engrane okay ahora este de aquí es si mal no"
+    },
+    {
+      "sample_id": "clase07_seg0093",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0093.wav",
+      "inicio": 1640.1,
+      "fin": 1658.674,
+      "duracion_seg": 18.574,
+      "gt_original": "recuerdo, 5.646. Okay. Y como es la misma, ¿qué debo hacer ahí? ¿Desde dónde comienza el número de dientes de piñón? ¿Alguien se acuerdan que hablamos de eso",
+      "gt_normalizado": "recuerdo 5 646 okay y como es la misma qué debo hacer ahí desde dónde comienza el número de dientes de piñón alguien se acuerdan que hablamos de eso"
+    },
+    {
+      "sample_id": "clase07_seg0094",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0094.wav",
+      "inicio": 1686.96,
+      "fin": 1698.933,
+      "duracion_seg": 11.973,
+      "gt_original": "hace una clase? Bueno, sí técnicamente. ¿Alguien? Desde los 17 Um, más menos. Para el piñón era 17, 16, 15, 14, o 13. Hacia allá vamos. Muy bien, déjame abrir la diapositiva. Por algún lado ha de estar, pero existe esa información, ¿eh? A ver, creo que es este de aquí. Sí, aquí está. Bueno,",
+      "gt_normalizado": "hace una clase bueno sí técnicamente alguien desde los 17 um más menos para el piñón era 17 16 15 14 o 13 hacia allá vamos muy bien déjame abrir la diapositiva por algún lado ha de estar pero existe esa información eh a ver creo que es este de aquí sí aquí está bueno"
+    },
+    {
+      "sample_id": "clase07_seg0095",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0095.wav",
+      "inicio": 1728.63,
+      "fin": 1729.813,
+      "duracion_seg": 1.183,
+      "gt_original": "debería estar. Eh,",
+      "gt_normalizado": "debería estar eh"
+    },
+    {
+      "sample_id": "clase07_seg0096",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0096.wav",
+      "inicio": 1737.09,
+      "fin": 1750.39,
+      "duracion_seg": 13.3,
+      "gt_original": "ninguno de estos garabatos que hicimos, eh, es donde está el dibujito de la tuerca, del piñón abajo, que dice que el ángulo de presión de 14.5 tiene 32",
+      "gt_normalizado": "ninguno de estos garabatos que hicimos eh es donde está el dibujito de la tuerca del piñón abajo que dice que el ángulo de presión de 14 5 tiene 32"
+    },
+    {
+      "sample_id": "clase07_seg0097",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0097.wav",
+      "inicio": 1750.95,
+      "fin": 1762.41,
+      "duracion_seg": 11.46,
+      "gt_original": "piñones, eh, dientes mínimos. Esta de aquí. Esta de aquí. Sí. Esta tabla. ¿Okay? Esta tabla",
+      "gt_normalizado": "piñones eh dientes mínimos esta de aquí esta de aquí sí esta tabla okay esta tabla"
+    },
+    {
+      "sample_id": "clase07_seg0098",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0098.wav",
+      "inicio": 1763.73,
+      "fin": 1776.47,
+      "duracion_seg": 12.74,
+      "gt_original": "aquí. Bueno, tenemos varias tablas, pero de estas tablas específicamente tenemos que buscar qué vamos a hacer, ¿no verdad? Entonces, eh eh ya pues hay que ver, ¿no?",
+      "gt_normalizado": "aquí bueno tenemos varias tablas pero de estas tablas específicamente tenemos que buscar qué vamos a hacer no verdad entonces eh eh ya pues hay que ver no"
+    },
+    {
+      "sample_id": "clase07_seg0099",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0099.wav",
+      "inicio": 1779.864,
+      "fin": 1793.5,
+      "duracion_seg": 13.636,
+      "gt_original": "Entonces, número mínimo de dientes del piñón, número de mínimo de dientes del piñón, eh, y aquí tengo para los diferentes ángulos. Sí. Ahora, eh",
+      "gt_normalizado": "entonces número mínimo de dientes del piñón número de mínimo de dientes del piñón eh y aquí tengo para los diferentes ángulos sí ahora eh"
+    },
+    {
+      "sample_id": "clase07_seg0100",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0100.wav",
+      "inicio": 1800.96,
+      "fin": 1812.163,
+      "duracion_seg": 11.203,
+      "gt_original": "aquí esta tabla es específicamente para 20 grados, por cierto, ¿sí? Sí. Ahora acá tengo otros tipos de de de",
+      "gt_normalizado": "aquí esta tabla es específicamente para 20 grados por cierto sí sí ahora acá tengo otros tipos de de de"
+    },
+    {
+      "sample_id": "clase07_seg0101",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0101.wav",
+      "inicio": 1812.78,
+      "fin": 1824.382,
+      "duracion_seg": 11.602,
+      "gt_original": "tablas. Una que me dice que va desde para 12 y 25, que va desde desde 12 y otro que va, bueno, va desde 21 y 14,",
+      "gt_normalizado": "tablas una que me dice que va desde para 12 y 25 que va desde desde 12 y otro que va bueno va desde 21 y 14"
+    },
+    {
+      "sample_id": "clase07_seg0102",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0102.wav",
+      "inicio": 1826.789,
+      "fin": 1837.418,
+      "duracion_seg": 10.629,
+      "gt_original": "pero ojo lo que dice para evitar su acabado cuando se talla con una fresa. Es decir, cuando usted está maquinando esto y hace el tallado, es decir, le hace esta forma el involuta y",
+      "gt_normalizado": "pero ojo lo que dice para evitar su acabado cuando se talla con una fresa es decir cuando usted está maquinando esto y hace el tallado es decir le hace esta forma el involuta y"
+    },
+    {
+      "sample_id": "clase07_seg0103",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0103.wav",
+      "inicio": 1838.76,
+      "fin": 1851.813,
+      "duracion_seg": 13.053,
+      "gt_original": "está con la fresa para que evite eso, mínimo 14 con 25, mínimo 21 con un ángulo de presión de 20. Ahora, si es que su aplicación es de cremallera piñón, ¿sí? Que no es",
+      "gt_normalizado": "está con la fresa para que evite eso mínimo 14 con 25 mínimo 21 con un ángulo de presión de 20 ahora si es que su aplicación es de cremallera piñón sí que no es"
+    },
+    {
+      "sample_id": "clase07_seg0104",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0104.wav",
+      "inicio": 1855.38,
+      "fin": 1872.293,
+      "duracion_seg": 16.913,
+      "gt_original": "nuestro caso, usted puede comenzar con desde 12 ángulo 25 y desde 18 con ángulo de 20. No es nuestro caso este de aquí. Eh, podríamos iniciar desde acá, eh, no había problema, ¿sí? Sí, todo está ahí. Bueno, eh, ¿qué hago ahí?",
+      "gt_normalizado": "nuestro caso usted puede comenzar con desde 12 ángulo 25 y desde 18 con ángulo de 20 no es nuestro caso este de aquí eh podríamos iniciar desde acá eh no había problema sí sí todo está ahí bueno eh qué hago ahí"
+    },
+    {
+      "sample_id": "clase07_seg0105",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0105.wav",
+      "inicio": 1882.68,
+      "fin": 1891.974,
+      "duracion_seg": 9.294,
+      "gt_original": "Supongamos que por curiosidad y digo, \"Ah, ¿sabes qué? Voy a darle con 12. A ver, ya si sale, sale.\" 12, 13, 14, 15, 16, 17, 18, 19. Bueno hasta ahí nomás.",
+      "gt_normalizado": "supongamos que por curiosidad y digo ah sabes qué voy a darle con 12 a ver ya si sale sale 12 13 14 15 16 17 18 19 bueno hasta ahí nomás"
+    },
+    {
+      "sample_id": "clase07_seg0106",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0106.wav",
+      "inicio": 1912.29,
+      "fin": 1916.099,
+      "duracion_seg": 3.809,
+      "gt_original": "Ahora, ¿qué hago ahí? El ene engrane va a ser",
+      "gt_normalizado": "ahora qué hago ahí el ene engrane va a ser"
+    },
+    {
+      "sample_id": "clase07_seg0107",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0107.wav",
+      "inicio": 1937.1,
+      "fin": 1950.945,
+      "duracion_seg": 13.845,
+      "gt_original": "igual a relación por ene el piñón. Entonces multiplico esto por esto. Alguien me puede diciendo, use los tres decimales, por favor. ¿Cuánto me sale primero? Sale unos... 67.75.",
+      "gt_normalizado": "igual a relación por ene el piñón entonces multiplico esto por esto alguien me puede diciendo use los tres decimales por favor cuánto me sale primero sale unos 67 75"
+    },
+    {
+      "sample_id": "clase07_seg0108",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0108.wav",
+      "inicio": 1956.42,
+      "fin": 1977.737,
+      "duracion_seg": 21.317,
+      "gt_original": "Dejémoslo en dos al final, ¿eh? A ver, el siguiente me van diciendo. 77.752. ¿Cuál? El siguiente. Siguiente. El siguiente dejémoslo con dos decimales aquí. 73.49 40 79.05 sería 84.60. ¿Qué más? ¿Alguien más? 69 el",
+      "gt_normalizado": "dejémoslo en dos al final eh a ver el siguiente me van diciendo 77 752 cuál el siguiente siguiente el siguiente dejémoslo con dos decimales aquí 73 49 40 79 05 sería 84 60 qué más alguien más 69 el"
+    },
+    {
+      "sample_id": "clase07_seg0109",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0109.wav",
+      "inicio": 1992.268,
+      "fin": 1999.996,
+      "duracion_seg": 7.728,
+      "gt_original": "anterior, o sea, 84.69. Por 16 es 90.34. 90.34 95.98 Ya. 101 62, 63. Ya, el último. 107.27. Okay.",
+      "gt_normalizado": "anterior o sea 84 69 por 16 es 90 34 90 34 95 98 ya 101 62 63 ya el último 107 27 okay"
+    },
+    {
+      "sample_id": "clase07_seg0110",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0110.wav",
+      "inicio": 2023.47,
+      "fin": 2035.884,
+      "duracion_seg": 12.414,
+      "gt_original": "Tenemos para todos los gustos. Okay. Como todo en la vida. Pero, ¿cuál elijo yo? Si usted se da cuenta, este es un número par o un",
+      "gt_normalizado": "tenemos para todos los gustos okay como todo en la vida pero cuál elijo yo si usted se da cuenta este es un número par o un"
+    },
+    {
+      "sample_id": "clase07_seg0111",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0111.wav",
+      "inicio": 2037.073,
+      "fin": 2048.159,
+      "duracion_seg": 11.086,
+      "gt_original": "perdón, es un número entero porque también tenemos un primo aquí, ¿no? Como siempre, pero eh estos números enteros me indica que yo voy a tener eh un",
+      "gt_normalizado": "perdón es un número entero porque también tenemos un primo aquí no como siempre pero eh estos números enteros me indica que yo voy a tener eh un"
+    },
+    {
+      "sample_id": "clase07_seg0112",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0112.wav",
+      "inicio": 2049.78,
+      "fin": 2062.98,
+      "duracion_seg": 13.2,
+      "gt_original": "piñón, un engrane con con dientes enteros, ¿verdad? Y en la vida real, yo sé que no puedo tener diente. No sé, sería un engrane chimuelo, ¿pues no? Le faltarían, no puede faltarle un diente, pues entonces un pedazo. Entonces,",
+      "gt_normalizado": "piñón un engrane con con dientes enteros verdad y en la vida real yo sé que no puedo tener diente no sé sería un engrane chimuelo pues no le faltarían no puede faltarle un diente pues entonces un pedazo entonces"
+    },
+    {
+      "sample_id": "clase07_seg0113",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0113.wav",
+      "inicio": 2063.4,
+      "fin": 2079.385,
+      "duracion_seg": 15.985,
+      "gt_original": "por ejemplo, estas opciones así de de de 80.60, 84.69 no son opciones reales. No puedo tener un diente mocho en engrane. Ahora, ¿cómo elijo uno de estos? ¿Cuál elijo?",
+      "gt_normalizado": "por ejemplo estas opciones así de de de 80 60 84 69 no son opciones reales no puedo tener un diente mocho en engrane ahora cómo elijo uno de estos cuál elijo"
+    },
+    {
+      "sample_id": "clase07_seg0114",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0114.wav",
+      "inicio": 2084.7,
+      "fin": 2091.75,
+      "duracion_seg": 7.05,
+      "gt_original": "Hay varias formas. Primero, yo tengo que definir con cuál de estos angulitos voy a trabajar. Si yo digo...",
+      "gt_normalizado": "hay varias formas primero yo tengo que definir con cuál de estos angulitos voy a trabajar si yo digo"
+    },
+    {
+      "sample_id": "clase07_seg0115",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0115.wav",
+      "inicio": 2100.96,
+      "fin": 2113.17,
+      "duracion_seg": 12.21,
+      "gt_original": "Había visto aquí que yo puedo trabajar desde 14 estoy trabajando con un ángulo de 25 porque no estoy con cremallera, estoy con dos engranes y quiero decir que no vaya su acabado cuando lo tallo con la fresa. Entonces la tabla 9.B, la de aquí abajo,",
+      "gt_normalizado": "había visto aquí que yo puedo trabajar desde 14 estoy trabajando con un ángulo de 25 porque no estoy con cremallera estoy con dos engranes y quiero decir que no vaya su acabado cuando lo tallo con la fresa entonces la tabla 9 b la de aquí abajo"
+    },
+    {
+      "sample_id": "clase07_seg0116",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0116.wav",
+      "inicio": 2113.65,
+      "fin": 2123.67,
+      "duracion_seg": 10.02,
+      "gt_original": "esa de ahí debería ser la que use. Puedo usar si es con 20 grados, mínimo 21. Y si es con 25 grados, mínimo 14, ¿okay? Entonces,",
+      "gt_normalizado": "esa de ahí debería ser la que use puedo usar si es con 20 grados mínimo 21 y si es con 25 grados mínimo 14 okay entonces"
+    },
+    {
+      "sample_id": "clase07_seg0117",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0117.wav",
+      "inicio": 2124.48,
+      "fin": 2135.926,
+      "duracion_seg": 11.446,
+      "gt_original": "aquí sería un mínimo 14. Yo sé que podía entrar desde 12 si es que estaba trabajando con con la fresa y cremallero, pero el factor más importante aquí es este. Es 67.65.",
+      "gt_normalizado": "aquí sería un mínimo 14 yo sé que podía entrar desde 12 si es que estaba trabajando con con la fresa y cremallero pero el factor más importante aquí es este es 67 65"
+    },
+    {
+      "sample_id": "clase07_seg0118",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0118.wav",
+      "inicio": 2138.07,
+      "fin": 2150.413,
+      "duracion_seg": 12.343,
+      "gt_original": "De todos estos números hay dos que se aproximan más a un entero. Son estos dos. Estas dos opciones se aproximan más a un entero, ¿sí? De la",
+      "gt_normalizado": "de todos estos números hay dos que se aproximan más a un entero son estos dos estas dos opciones se aproximan más a un entero sí de la"
+    },
+    {
+      "sample_id": "clase07_seg0119",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0119.wav",
+      "inicio": 2151.363,
+      "fin": 2165.094,
+      "duracion_seg": 13.731,
+      "gt_original": "cual 14 es el número mínimo si es que yo escojo un ángulo de presión de 95. Entonces, voy a escoger un ángulo de presión de 95 de de perdón de 25. Y en base a eso, yo sé que el mínimo es este de acá arriba. Y en",
+      "gt_normalizado": "cual 14 es el número mínimo si es que yo escojo un ángulo de presión de 95 entonces voy a escoger un ángulo de presión de 95 de de perdón de 25 y en base a eso yo sé que el mínimo es este de acá arriba y en"
+    },
+    {
+      "sample_id": "clase07_seg0120",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0120.wav",
+      "inicio": 2165.82,
+      "fin": 2181.017,
+      "duracion_seg": 15.197,
+      "gt_original": "base a eso yo sé que ya 79.5 05. ¿Por qué? Porque es el más próximo un entero. Este es el más próximo a 79. Y este de acá es el más próximo a 96. ¿Okay? En el",
+      "gt_normalizado": "base a eso yo sé que ya 79 5 05 por qué porque es el más próximo un entero este es el más próximo a 79 y este de acá es el más próximo a 96 okay en el"
+    },
+    {
+      "sample_id": "clase07_seg0121",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0121.wav",
+      "inicio": 2182.95,
+      "fin": 2196.81,
+      "duracion_seg": 13.86,
+      "gt_original": "uno avanzo, en el otro me retrocedo, pero es el más próximo. Es de hecho están ahí, ¿sí? Ahora, los dos son los más próximos a un número entero, pero este es el número mínimo de dientes. ¿Por qué yo voy por el número mínimo de dientes?",
+      "gt_normalizado": "uno avanzo en el otro me retrocedo pero es el más próximo es de hecho están ahí sí ahora los dos son los más próximos a un número entero pero este es el número mínimo de dientes por qué yo voy por el número mínimo de dientes"
+    },
+    {
+      "sample_id": "clase07_seg0122",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0122.wav",
+      "inicio": 2197.41,
+      "fin": 2210.811,
+      "duracion_seg": 13.401,
+      "gt_original": "Porque eso hace que la dimensión del engrane sea más pequeña. ¿Sí? Mientras más grande el engrane, más pesado, más material, etcétera, etcétera. ¿Ahora todo hasta ahí? ¿Sí? Okay.",
+      "gt_normalizado": "porque eso hace que la dimensión del engrane sea más pequeña sí mientras más grande el engrane más pesado más material etcétera etcétera ahora todo hasta ahí sí okay"
+    },
+    {
+      "sample_id": "clase07_seg0123",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0123.wav",
+      "inicio": 2214.9,
+      "fin": 2235.67,
+      "duracion_seg": 20.77,
+      "gt_original": "¿Qué quiere decir eso? Eso que he hecho ahí. ¿Cómo cómo cómo yo eh eh doy un paso más adelante con esa información? Yo tendría que decir que yo tendría más o menos eso. Quiere decir que",
+      "gt_normalizado": "qué quiere decir eso eso que he hecho ahí cómo cómo cómo yo eh eh doy un paso más adelante con esa información yo tendría que decir que yo tendría más o menos eso quiere decir que"
+    },
+    {
+      "sample_id": "clase07_seg0124",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0124.wav",
+      "inicio": 2271.69,
+      "fin": 2272.524,
+      "duracion_seg": 0.834,
+      "gt_original": "aquí. Este",
+      "gt_normalizado": "aquí este"
+    },
+    {
+      "sample_id": "clase07_seg0125",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0125.wav",
+      "inicio": 2279.97,
+      "fin": 2284.188,
+      "duracion_seg": 4.218,
+      "gt_original": "amiguito son varios amiguitos",
+      "gt_normalizado": "amiguito son varios amiguitos"
+    },
+    {
+      "sample_id": "clase07_seg0126",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0126.wav",
+      "inicio": 2290.438,
+      "fin": 2308.24,
+      "duracion_seg": 17.802,
+      "gt_original": "aquí. Vamos a poner, ¿qué significa esto de aquí? Uno es entrada y otro de salida, ¿no es verdad? ¿Todos hasta ahí? Entonces que aquí yo tendría una relación de reducción de 5.646. Acá también. y",
+      "gt_normalizado": "aquí vamos a poner qué significa esto de aquí uno es entrada y otro de salida no es verdad todos hasta ahí entonces que aquí yo tendría una relación de reducción de 5 646 acá también y"
+    },
+    {
+      "sample_id": "clase07_seg0127",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0127.wav",
+      "inicio": 2315.46,
+      "fin": 2331.307,
+      "duracion_seg": 15.847,
+      "gt_original": "acá. Okay. Entonces, también quiere decir que en los engranes uno va a ser el piñón y uno va a ser el engrane. ¿Cuál va a ser el piñón? ¿Cuál va a ser el engrane? Ah, si estoy",
+      "gt_normalizado": "acá okay entonces también quiere decir que en los engranes uno va a ser el piñón y uno va a ser el engrane cuál va a ser el piñón cuál va a ser el engrane ah si estoy"
+    },
+    {
+      "sample_id": "clase07_seg0128",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0128.wav",
+      "inicio": 2338.912,
+      "fin": 2349.369,
+      "duracion_seg": 10.457,
+      "gt_original": "reduciendo. El de más la izquierda. Aquí, aquí en cada uno usted se da cuenta que tiene una combinación, el resto es igual. ¿Cuál es",
+      "gt_normalizado": "reduciendo el de más la izquierda aquí aquí en cada uno usted se da cuenta que tiene una combinación el resto es igual cuál es"
+    },
+    {
+      "sample_id": "clase07_seg0129",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0129.wav",
+      "inicio": 2349.9,
+      "fin": 2365.794,
+      "duracion_seg": 15.894,
+      "gt_original": "cuál? El piñón sería el de la izquierda. ¿Por qué? El de la izquierda, que esta más a la izquierda el piñón. ¿Por qué? ¿Cuál? ¿Cuál es cual? Ajá. Eso quiero que que tengan claro.",
+      "gt_normalizado": "cuál el piñón sería el de la izquierda por qué el de la izquierda que esta más a la izquierda el piñón por qué cuál cuál es cual ajá eso quiero que que tengan claro"
+    },
+    {
+      "sample_id": "clase07_seg0130",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0130.wav",
+      "inicio": 2369.91,
+      "fin": 2383.261,
+      "duracion_seg": 13.351,
+      "gt_original": "Porque el piñón mueve al engrane y nosotros estaríamos dándole el movimiento al de más a la izquierda. Okay. Básicamente porque uno es entrada y otra es salida. Esa era",
+      "gt_normalizado": "porque el piñón mueve al engrane y nosotros estaríamos dándole el movimiento al de más a la izquierda okay básicamente porque uno es entrada y otra es salida esa era"
+    },
+    {
+      "sample_id": "clase07_seg0131",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0131.wav",
+      "inicio": 2387.705,
+      "fin": 2399.258,
+      "duracion_seg": 11.554,
+      "gt_original": "la respuesta, ¿no? Entonces eh este de aquí es la salida, que sería un 79 y esta es la entrada que sería un 14. Entonces, aquí tendría dientes 14 y aquí tendría 79 14 79. Sin",
+      "gt_normalizado": "la respuesta no entonces eh este de aquí es la salida que sería un 79 y esta es la entrada que sería un 14 entonces aquí tendría dientes 14 y aquí tendría 79 14 79 sin"
+    },
+    {
+      "sample_id": "clase07_seg0132",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0132.wav",
+      "inicio": 2401.545,
+      "fin": 2414.219,
+      "duracion_seg": 12.674,
+      "gt_original": "embargo, cuando yo hago de esta forma, al escoger esto, yo voy a tener inherentemente en el sistema un error. Entonces, yo puedo calcular ese error diciendo es el",
+      "gt_normalizado": "embargo cuando yo hago de esta forma al escoger esto yo voy a tener inherentemente en el sistema un error entonces yo puedo calcular ese error diciendo es el"
+    },
+    {
+      "sample_id": "clase07_seg0133",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0133.wav",
+      "inicio": 2416.588,
+      "fin": 2433.154,
+      "duracion_seg": 16.566,
+      "gt_original": "valor es 180 menos, ¿cuánto sería aquí? La relación de transmisión al cubo, ¿cuánto me sale? Me sale 179.98 Es decir, 5.646 al cubo, me sale eso. Sería 179.98 divido para 180 multiplicado por 100. Eso quiere decir que mi",
+      "gt_normalizado": "valor es 180 menos cuánto sería aquí la relación de transmisión al cubo cuánto me sale me sale 179 98 es decir 5 646 al cubo me sale eso sería 179 98 divido para 180 multiplicado por 100 eso quiere decir que mi"
+    },
+    {
+      "sample_id": "clase07_seg0134",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0134.wav",
+      "inicio": 2446.92,
+      "fin": 2461.196,
+      "duracion_seg": 14.276,
+      "gt_original": "sistema inmediatamente va a tener un error, ¿sí?,s en la precisión de aproximadamente 0.01 por ciento. Eh, está bien. ¿Alguien me puede hacer esta? 0.01102. Ah, bueno. A ver,",
+      "gt_normalizado": "sistema inmediatamente va a tener un error sí s en la precisión de aproximadamente 0 01 por ciento eh está bien alguien me puede hacer esta 0 01102 ah bueno a ver"
+    },
+    {
+      "sample_id": "clase07_seg0135",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0135.wav",
+      "inicio": 2473.14,
+      "fin": 2476.856,
+      "duracion_seg": 3.716,
+      "gt_original": "ya. ¿Y 0.2% sería? ¿No? 011 011. Ya",
+      "gt_normalizado": "ya y 0 2 sería no 011 011 ya"
+    },
+    {
+      "sample_id": "clase07_seg0136",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0136.wav",
+      "inicio": 2484.72,
+      "fin": 2496.351,
+      "duracion_seg": 11.631,
+      "gt_original": "multiplicado por 100, ¿no? Sí, sí. Ya, ese sería el error. Eso, ¿qué quiere decir? Eh, me gustar una imagen que se vea más",
+      "gt_normalizado": "multiplicado por 100 no sí sí ya ese sería el error eso qué quiere decir eh me gustar una imagen que se vea más"
+    },
+    {
+      "sample_id": "clase07_seg0137",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0137.wav",
+      "inicio": 2499.9,
+      "fin": 2519.522,
+      "duracion_seg": 19.622,
+      "gt_original": "bonito. Eso quiere decir aquí que cuando estos amiguitos avancen, por ejemplo, si tengo un nivel de referencia. Perdón, disculpen, no es no es 0.11 por ciento. ¿Sino? 0.011. Ajá. 0.011. Okay. 0.011 por ciento. Okay. Ese sería el",
+      "gt_normalizado": "bonito eso quiere decir aquí que cuando estos amiguitos avancen por ejemplo si tengo un nivel de referencia perdón disculpen no es no es 0 11 por ciento sino 0 011 ajá 0 011 okay 0 011 por ciento okay ese sería el"
+    },
+    {
+      "sample_id": "clase07_seg0138",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0138.wav",
+      "inicio": 2529.193,
+      "fin": 2541.309,
+      "duracion_seg": 12.116,
+      "gt_original": "error. ¿Qué quiere decir eso? Que si es que yo tengo un sistema de alta precisión, cada que esto avance, yo voy a tener un error angular aquí, ¿sí?",
+      "gt_normalizado": "error qué quiere decir eso que si es que yo tengo un sistema de alta precisión cada que esto avance yo voy a tener un error angular aquí sí"
+    },
+    {
+      "sample_id": "clase07_seg0139",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0139.wav",
+      "inicio": 2543.01,
+      "fin": 2554.41,
+      "duracion_seg": 11.4,
+      "gt_original": "Yo tendría que tener eso en cuenta cuando estoy diseñando, en el caso de que sea un sistema de alta precisión. Si es algo que quiero solo quiero que se mueva ya más que suficiente, ¿sí? Más que suficiente. Ahora,",
+      "gt_normalizado": "yo tendría que tener eso en cuenta cuando estoy diseñando en el caso de que sea un sistema de alta precisión si es algo que quiero solo quiero que se mueva ya más que suficiente sí más que suficiente ahora"
+    },
+    {
+      "sample_id": "clase07_seg0140",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0140.wav",
+      "inicio": 2554.92,
+      "fin": 2566.08,
+      "duracion_seg": 11.16,
+      "gt_original": "profesor, ¿es la única forma de hacer esto? No, no, no es la única forma. ¿Cómo podría hacer esto de otra manera? ¿Alguien que nos de una idea? No",
+      "gt_normalizado": "profesor es la única forma de hacer esto no no no es la única forma cómo podría hacer esto de otra manera alguien que nos de una idea no"
+    },
+    {
+      "sample_id": "clase07_seg0141",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0141.wav",
+      "inicio": 2577.18,
+      "fin": 2590.74,
+      "duracion_seg": 13.56,
+      "gt_original": "podría. ¿Se podría escoger un ángulo de presión diferente para cada conexión? Eh, sí podrías hacerlo,",
+      "gt_normalizado": "podría se podría escoger un ángulo de presión diferente para cada conexión eh sí podrías hacerlo"
+    },
+    {
+      "sample_id": "clase07_seg0142",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0142.wav",
+      "inicio": 2591.46,
+      "fin": 2604.802,
+      "duracion_seg": 13.342,
+      "gt_original": "pero tendrías que hacer un cálculo para cada uno y después ver que cada uno esté menor que 180. Sí, lo puedes hacer, pero eh tendrías que hacer esto, pero tres veces más o menos. Una forma alternativa es,",
+      "gt_normalizado": "pero tendrías que hacer un cálculo para cada uno y después ver que cada uno esté menor que 180 sí lo puedes hacer pero eh tendrías que hacer esto pero tres veces más o menos una forma alternativa es"
+    },
+    {
+      "sample_id": "clase07_seg0143",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0143.wav",
+      "inicio": 2605.439,
+      "fin": 2617.51,
+      "duracion_seg": 12.071,
+      "gt_original": "por ejemplo, sacar descomponerlo, sería 180. Si yo saco la mitad, sería 90. Si yo saco la mitad, sería 45.",
+      "gt_normalizado": "por ejemplo sacar descomponerlo sería 180 si yo saco la mitad sería 90 si yo saco la mitad sería 45"
+    },
+    {
+      "sample_id": "clase07_seg0144",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0144.wav",
+      "inicio": 2618.43,
+      "fin": 2629.534,
+      "duracion_seg": 11.104,
+      "gt_original": "La tercera 15. La tercera 5. Y la quinta 1, ¿okay? Al descomponer estos factores, yo los puedo combinar. Los puedo",
+      "gt_normalizado": "la tercera 15 la tercera 5 y la quinta 1 okay al descomponer estos factores yo los puedo combinar los puedo"
+    },
+    {
+      "sample_id": "clase07_seg0145",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0145.wav",
+      "inicio": 2630.4,
+      "fin": 2642.349,
+      "duracion_seg": 11.949,
+      "gt_original": "combinar de qué forma. Puedo decir, voy a hacer una relación de transmisión de 6, 6, 5 o una combinación de 4, 9, 5 o",
+      "gt_normalizado": "combinar de qué forma puedo decir voy a hacer una relación de transmisión de 6 6 5 o una combinación de 4 9 5 o"
+    },
+    {
+      "sample_id": "clase07_seg0146",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0146.wav",
+      "inicio": 2645.77,
+      "fin": 2660.677,
+      "duracion_seg": 14.907,
+      "gt_original": "una de 2, 6, 5 y así sucesivamente. ¿Sí? Eh, ¿sí me entienden lo que quiero decir? Por ejemplo, 2 por 3 y 2 por 3 me da 6 6 y me quedan un 5.",
+      "gt_normalizado": "una de 2 6 5 y así sucesivamente sí eh sí me entienden lo que quiero decir por ejemplo 2 por 3 y 2 por 3 me da 6 6 y me quedan un 5"
+    },
+    {
+      "sample_id": "clase07_seg0147",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0147.wav",
+      "inicio": 2663.43,
+      "fin": 2678.541,
+      "duracion_seg": 15.111,
+      "gt_original": "O puedo decir 2 por 2 4 y 3 por 3 9 y 1 5. O puedo decir 2 por 6 por bueno, aquí sería 15. Sería 15. Sí, viendo las posibles combinaciones de esto de aquí,",
+      "gt_normalizado": "o puedo decir 2 por 2 4 y 3 por 3 9 y 1 5 o puedo decir 2 por 6 por bueno aquí sería 15 sería 15 sí viendo las posibles combinaciones de esto de aquí"
+    },
+    {
+      "sample_id": "clase07_seg0148",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0148.wav",
+      "inicio": 2680.26,
+      "fin": 2695.649,
+      "duracion_seg": 15.389,
+      "gt_original": "todas esas combinaciones de relación de reducción total, porque sería total me darían 180, ¿okay? Y cada una de ellas es menor de 10,",
+      "gt_normalizado": "todas esas combinaciones de relación de reducción total porque sería total me darían 180 okay y cada una de ellas es menor de 10"
+    },
+    {
+      "sample_id": "clase07_seg0149",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0149.wav",
+      "inicio": 2696.7,
+      "fin": 2708.07,
+      "duracion_seg": 11.37,
+      "gt_original": "excepto esta. Esta ya no cumpliría, pero todas estas son menores que 10, si se da cuenta, ¿sí? Menor que 10. Menor que 10. Menor que 10. Entonces, por ejemplo, estas de aquí yo las podría elegir.",
+      "gt_normalizado": "excepto esta esta ya no cumpliría pero todas estas son menores que 10 si se da cuenta sí menor que 10 menor que 10 menor que 10 entonces por ejemplo estas de aquí yo las podría elegir"
+    },
+    {
+      "sample_id": "clase07_seg0150",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0150.wav",
+      "inicio": 2708.52,
+      "fin": 2721.312,
+      "duracion_seg": 12.792,
+      "gt_original": "Sin embargo, yo no elegiría la de aquí abajo porque aquí uno de relación de 4, relación de 9, relación de 5, es muy disparejo. Entonces, es probable que ese sistema no esté muy balanceado. Yo podría elegir esta de aquí y",
+      "gt_normalizado": "sin embargo yo no elegiría la de aquí abajo porque aquí uno de relación de 4 relación de 9 relación de 5 es muy disparejo entonces es probable que ese sistema no esté muy balanceado yo podría elegir esta de aquí y"
+    },
+    {
+      "sample_id": "clase07_seg0151",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0151.wav",
+      "inicio": 2721.973,
+      "fin": 2737.318,
+      "duracion_seg": 15.345,
+      "gt_original": "decir la relación va a ser 6 5 6. De alguna forma le doy un balance al sistema, ¿sí? En el segundo parcial vamos a hablar de balanceo. Entonces, no es poca cosa, sí es importante. Okay. Y aquí",
+      "gt_normalizado": "decir la relación va a ser 6 5 6 de alguna forma le doy un balance al sistema sí en el segundo parcial vamos a hablar de balanceo entonces no es poca cosa sí es importante okay y aquí"
+    },
+    {
+      "sample_id": "clase07_seg0152",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0152.wav",
+      "inicio": 2749.17,
+      "fin": 2761.11,
+      "duracion_seg": 11.94,
+      "gt_original": "sería 6, 5, 6, ¿okay? De esa manera yo lo puedo hacer también, no hay ningún problema. Ahora, eh una observación final,",
+      "gt_normalizado": "sería 6 5 6 okay de esa manera yo lo puedo hacer también no hay ningún problema ahora eh una observación final"
+    },
+    {
+      "sample_id": "clase07_seg0153",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0153.wav",
+      "inicio": 2761.77,
+      "fin": 2771.82,
+      "duracion_seg": 10.05,
+      "gt_original": "esto de la que la relación de de reducción sea menor que 10, ¿sí? Lo puedo aplicar para dientes",
+      "gt_normalizado": "esto de la que la relación de de reducción sea menor que 10 sí lo puedo aplicar para dientes"
+    },
+    {
+      "sample_id": "clase07_seg0154",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0154.wav",
+      "inicio": 2773.41,
+      "fin": 2785.605,
+      "duracion_seg": 12.195,
+      "gt_original": "rectos, helicoidales, y cónicos, ¿sí? ¿Todos hasta ahí? Sí, no sé si lo dijo, pero hay un como un",
+      "gt_normalizado": "rectos helicoidales y cónicos sí todos hasta ahí sí no sé si lo dijo pero hay un como un"
+    },
+    {
+      "sample_id": "clase07_seg0155",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0155.wav",
+      "inicio": 2790.09,
+      "fin": 2812.148,
+      "duracion_seg": 22.058,
+      "gt_original": "límite de error tal vez o no. O sea, estaría relacionado con el número de relación de transmisión, pero de ahí no no es que te dice el límite de error. Si esto es mayor a 1 por ciento, sencillamente el sistema está un poco turro. Eso quería saber como que cuánto era el...",
+      "gt_normalizado": "límite de error tal vez o no o sea estaría relacionado con el número de relación de transmisión pero de ahí no no es que te dice el límite de error si esto es mayor a 1 por ciento sencillamente el sistema está un poco turro eso quería saber como que cuánto era el"
+    },
+    {
+      "sample_id": "clase07_seg0156",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0156.wav",
+      "inicio": 2813.414,
+      "fin": 2826.359,
+      "duracion_seg": 12.945,
+      "gt_original": "Ya 1 por ciento ya. Ya depende de no es que 1 por ciento se se va a notar bastante, ¿sí me entiendes? Claro. Sí, sí entiendo. Es poco. Okay. Eh, bueno, ¿todos hasta ahí? ¿Alguna",
+      "gt_normalizado": "ya 1 por ciento ya ya depende de no es que 1 por ciento se se va a notar bastante sí me entiendes claro sí sí entiendo es poco okay eh bueno todos hasta ahí alguna"
+    },
+    {
+      "sample_id": "clase07_seg0157",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0157.wav",
+      "inicio": 2839.26,
+      "fin": 2852.97,
+      "duracion_seg": 13.71,
+      "gt_original": "pregunta? ¿Preguntas? Con respecto al error, hay una especie de error permisible, o sea, hasta un límite. Estaría relacionado con el límite de la relación. Por ejemplo, si ya es mayor a 10, tu error",
+      "gt_normalizado": "pregunta preguntas con respecto al error hay una especie de error permisible o sea hasta un límite estaría relacionado con el límite de la relación por ejemplo si ya es mayor a 10 tu error"
+    },
+    {
+      "sample_id": "clase07_seg0158",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0158.wav",
+      "inicio": 2853.78,
+      "fin": 2869.36,
+      "duracion_seg": 15.58,
+      "gt_original": "también se comienza a disparar. También realmente por lo general son bajos los errores porque si te das cuenta, la relación de cada uno son pequeñas, pero al final es un número aproximado a esta relación inicial, ¿sí?",
+      "gt_normalizado": "también se comienza a disparar también realmente por lo general son bajos los errores porque si te das cuenta la relación de cada uno son pequeñas pero al final es un número aproximado a esta relación inicial sí"
+    },
+    {
+      "sample_id": "clase07_seg0159",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0159.wav",
+      "inicio": 2870.01,
+      "fin": 2891.303,
+      "duracion_seg": 21.293,
+      "gt_original": "Aquí abajo no hay error, ¿no? Aquí está exactamente te da el valor 180, pero los errores por lo general son pequeños. No, no, no, no es muy admisible en maquinaria errores grandes porque eso ya vamos a ver en el segundo parcial comienza a crear desbalances y y eso daña, sencillamente, no no es muy aceptable, ¿okay? ¿Todos",
+      "gt_normalizado": "aquí abajo no hay error no aquí está exactamente te da el valor 180 pero los errores por lo general son pequeños no no no no es muy admisible en maquinaria errores grandes porque eso ya vamos a ver en el segundo parcial comienza a crear desbalances y y eso daña sencillamente no no es muy aceptable okay todos"
+    },
+    {
+      "sample_id": "clase07_seg0160",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0160.wav",
+      "inicio": 2897.1,
+      "fin": 2903.92,
+      "duracion_seg": 6.82,
+      "gt_original": "hasta ahí? Bien, hasta ahí trenes de engranes compuestos. Ahora vamos a ver lo que son eh",
+      "gt_normalizado": "hasta ahí bien hasta ahí trenes de engranes compuestos ahora vamos a ver lo que son eh"
+    },
+    {
+      "sample_id": "clase07_seg0161",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0161.wav",
+      "inicio": 2910.69,
+      "fin": 2913.024,
+      "duracion_seg": 2.334,
+      "gt_original": "trenes de granes planetarios. Okay.",
+      "gt_normalizado": "trenes de granes planetarios okay"
+    },
+    {
+      "sample_id": "clase07_seg0162",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0162.wav",
+      "inicio": 2924.04,
+      "fin": 2928.697,
+      "duracion_seg": 4.657,
+      "gt_original": "¿Cómo hacemos ahí? ¿Qué haríamos ahí? Primero, ¿qué es un",
+      "gt_normalizado": "cómo hacemos ahí qué haríamos ahí primero qué es un"
+    },
+    {
+      "sample_id": "clase07_seg0163",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0163.wav",
+      "inicio": 2934.748,
+      "fin": 2946.371,
+      "duracion_seg": 11.623,
+      "gt_original": "planetario? Un planetario es básicamente un sistema de engranes en el cual, supongamos que este es el piñón y este es el engrane.",
+      "gt_normalizado": "planetario un planetario es básicamente un sistema de engranes en el cual supongamos que este es el piñón y este es el engrane"
+    },
+    {
+      "sample_id": "clase07_seg0164",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0164.wav",
+      "inicio": 2949.87,
+      "fin": 2960.4,
+      "duracion_seg": 10.53,
+      "gt_original": "¿Sí? El detalle es que el piñón está fijo a a una parte que sería bancada, pero el piñón tiene movimiento, ¿sí? Y está sobre su eje. Ahora,",
+      "gt_normalizado": "sí el detalle es que el piñón está fijo a a una parte que sería bancada pero el piñón tiene movimiento sí y está sobre su eje ahora"
+    },
+    {
+      "sample_id": "clase07_seg0165",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0165.wav",
+      "inicio": 2962.62,
+      "fin": 2973.73,
+      "duracion_seg": 11.11,
+      "gt_original": "ese piñón tiene fuerza de matriz, ¿okay? Y el detalle es que el engrane no está fijo. El engrane está conectado al piñón por medio de un brazo. ¿Okay? Ahora, el",
+      "gt_normalizado": "ese piñón tiene fuerza de matriz okay y el detalle es que el engrane no está fijo el engrane está conectado al piñón por medio de un brazo okay ahora el"
+    },
+    {
+      "sample_id": "clase07_seg0166",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0166.wav",
+      "inicio": 2974.62,
+      "fin": 2989.13,
+      "duracion_seg": 14.51,
+      "gt_original": "piñón gira en este sentido y el engrané también. Sin embargo, si el brazo gira hacia acá, él le da como un efecto relativo a este engrane y lo va a hacer mover más rápido. ¿Sí? Eso es lo que está",
+      "gt_normalizado": "piñón gira en este sentido y el engrané también sin embargo si el brazo gira hacia acá él le da como un efecto relativo a este engrane y lo va a hacer mover más rápido sí eso es lo que está"
+    },
+    {
+      "sample_id": "clase07_seg0167",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0167.wav",
+      "inicio": 2989.977,
+      "fin": 3002.801,
+      "duracion_seg": 12.825,
+      "gt_original": "pasando. Entonces, ¿por qué se denomina planetario? Porque ahí a este lo denominamos como el sol, a este lo denominamos como el planeta y a este lo denominamos como el brazo. Así de",
+      "gt_normalizado": "pasando entonces por qué se denomina planetario porque ahí a este lo denominamos como el sol a este lo denominamos como el planeta y a este lo denominamos como el brazo así de"
+    },
+    {
+      "sample_id": "clase07_seg0168",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0168.wav",
+      "inicio": 3003.87,
+      "fin": 3016.35,
+      "duracion_seg": 12.48,
+      "gt_original": "simple. Sí. Y lo mismo ocurre. Este es un sistema externo y también ocurre en un sistema interno. Cuando tenemos un sistema interno, por ejemplo, aquí seguimos con el sol, planeta,",
+      "gt_normalizado": "simple sí y lo mismo ocurre este es un sistema externo y también ocurre en un sistema interno cuando tenemos un sistema interno por ejemplo aquí seguimos con el sol planeta"
+    },
+    {
+      "sample_id": "clase07_seg0169",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0169.wav",
+      "inicio": 3017.43,
+      "fin": 3028.05,
+      "duracion_seg": 10.62,
+      "gt_original": "¿sí? Pero a este de aquí que está que cubre todo se lo denomina corona, ¿okay? Entonces usted tiene varias relaciones, tiene una relación",
+      "gt_normalizado": "sí pero a este de aquí que está que cubre todo se lo denomina corona okay entonces usted tiene varias relaciones tiene una relación"
+    },
+    {
+      "sample_id": "clase07_seg0170",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0170.wav",
+      "inicio": 3029.1,
+      "fin": 3040.86,
+      "duracion_seg": 11.76,
+      "gt_original": "externa dentro de ellos y acá tiene una relación interna. Y ahí juega un papel muy importante porque el brazo también se está desplazando, entonces se crean eh efectos de velocidades relativas, lo que hace que se acelere más el movimiento.,",
+      "gt_normalizado": "externa dentro de ellos y acá tiene una relación interna y ahí juega un papel muy importante porque el brazo también se está desplazando entonces se crean eh efectos de velocidades relativas lo que hace que se acelere más el movimiento"
+    },
+    {
+      "sample_id": "clase07_seg0171",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0171.wav",
+      "inicio": 3041.64,
+      "fin": 3053.1,
+      "duracion_seg": 11.46,
+      "gt_original": "¿sí? Y realmente eso le crea una mayor reducción al final. Pero hay que tener mucho cuidado porque si usted se da cuenta, si el brazo se mueve para acá, la velocidad del engrande se va a acelerar,",
+      "gt_normalizado": "sí y realmente eso le crea una mayor reducción al final pero hay que tener mucho cuidado porque si usted se da cuenta si el brazo se mueve para acá la velocidad del engrande se va a acelerar"
+    },
+    {
+      "sample_id": "clase07_seg0172",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0172.wav",
+      "inicio": 3053.52,
+      "fin": 3074.55,
+      "duracion_seg": 21.03,
+      "gt_original": "pero si el brazo se llega a mover hacia acá, la velocidad del engrane va a disminuir. ¿Sí? Y eso es lo que tenemos que ver ahora, cómo determinamos unas eh formas para expresar matemáticamente eso de ahí. ¿Todos hasta ahí? Hola, ¿preguntas? Bien, ¿cómo hacemos eso, profesor?",
+      "gt_normalizado": "pero si el brazo se llega a mover hacia acá la velocidad del engrane va a disminuir sí y eso es lo que tenemos que ver ahora cómo determinamos unas eh formas para expresar matemáticamente eso de ahí todos hasta ahí hola preguntas bien cómo hacemos eso profesor"
+    },
+    {
+      "sample_id": "clase07_seg0173",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0173.wav",
+      "inicio": 3081.0,
+      "fin": 3089.794,
+      "duracion_seg": 8.794,
+      "gt_original": "Bueno, ya les dije que tiene diferentes partes esto de aquí, ¿no es verdad? Habíamos visto que de las diferentes partes",
+      "gt_normalizado": "bueno ya les dije que tiene diferentes partes esto de aquí no es verdad habíamos visto que de las diferentes partes"
+    },
+    {
+      "sample_id": "clase07_seg0174",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0174.wav",
+      "inicio": 3095.04,
+      "fin": 3107.83,
+      "duracion_seg": 12.79,
+      "gt_original": "tenemos el sol, planeta, y el brazo. ¿Okay? Ahora yo",
+      "gt_normalizado": "tenemos el sol planeta y el brazo okay ahora yo"
+    },
+    {
+      "sample_id": "clase07_seg0175",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0175.wav",
+      "inicio": 3109.671,
+      "fin": 3120.702,
+      "duracion_seg": 11.031,
+      "gt_original": "puedo hacer un diagrama cinemático de esto de aquí. Eh, lo voy a hacer más o menos así. Primero, segundo. ¿Sí? Y a",
+      "gt_normalizado": "puedo hacer un diagrama cinemático de esto de aquí eh lo voy a hacer más o menos así primero segundo sí y a"
+    },
+    {
+      "sample_id": "clase07_seg0176",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0176.wav",
+      "inicio": 3134.015,
+      "fin": 3152.783,
+      "duracion_seg": 18.768,
+      "gt_original": "ellos les voy a poner el sistema sobre el que giran. Debería haber un eje ahí y las uno mediante el brazo. Okay. Ah, este de aquí, este es un",
+      "gt_normalizado": "ellos les voy a poner el sistema sobre el que giran debería haber un eje ahí y las uno mediante el brazo okay ah este de aquí este es un"
+    },
+    {
+      "sample_id": "clase07_seg0177",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0177.wav",
+      "inicio": 3159.63,
+      "fin": 3162.71,
+      "duracion_seg": 3.08,
+      "gt_original": "error. Este de aquí va a ser un eje",
+      "gt_normalizado": "error este de aquí va a ser un eje"
+    },
+    {
+      "sample_id": "clase07_seg0178",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0178.wav",
+      "inicio": 3169.98,
+      "fin": 3181.848,
+      "duracion_seg": 11.868,
+      "gt_original": "móvil. Este de acá va a ser un eje fijo. Sí, suponiendo eso, a este le voy a decir 1. Aquí el",
+      "gt_normalizado": "móvil este de acá va a ser un eje fijo sí suponiendo eso a este le voy a decir 1 aquí el"
+    },
+    {
+      "sample_id": "clase07_seg0179",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0179.wav",
+      "inicio": 3182.689,
+      "fin": 3199.509,
+      "duracion_seg": 16.82,
+      "gt_original": "brazo va a poder moverse y este le voy a decir 3 y a este le voy a decir 2. ¿Okay? Ahora, lo mismo puedo hacer para el otro sistema. ¿Ok? Tendría elemento 1, la corona, elemento 3, que sería el brazo y",
+      "gt_normalizado": "brazo va a poder moverse y este le voy a decir 3 y a este le voy a decir 2 okay ahora lo mismo puedo hacer para el otro sistema ok tendría elemento 1 la corona elemento 3 que sería el brazo y"
+    },
+    {
+      "sample_id": "clase07_seg0180",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0180.wav",
+      "inicio": 3239.34,
+      "fin": 3250.65,
+      "duracion_seg": 11.31,
+      "gt_original": "elemento 2, que es el planeta, ¿sí? Eh, planeta puede ir así y el brazo puede ir en otro sentido.",
+      "gt_normalizado": "elemento 2 que es el planeta sí eh planeta puede ir así y el brazo puede ir en otro sentido"
+    },
+    {
+      "sample_id": "clase07_seg0181",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0181.wav",
+      "inicio": 3251.868,
+      "fin": 3264.42,
+      "duracion_seg": 12.552,
+      "gt_original": "No, no, no hay problema. No necesariamente tienen que estar en el mismo sentido. Ahora, para esto, para analizar esto, se utiliza",
+      "gt_normalizado": "no no no hay problema no necesariamente tienen que estar en el mismo sentido ahora para esto para analizar esto se utiliza"
+    },
+    {
+      "sample_id": "clase07_seg0182",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0182.wav",
+      "inicio": 3268.41,
+      "fin": 3288.804,
+      "duracion_seg": 20.394,
+      "gt_original": "velocidades relativas. ¿Okay? ¿Cuáles son estas velocidades relativas? Yo puedo decir omega 2 1, eso quiere decir velocidad angular de 2",
+      "gt_normalizado": "velocidades relativas okay cuáles son estas velocidades relativas yo puedo decir omega 2 1 eso quiere decir velocidad angular de 2"
+    },
+    {
+      "sample_id": "clase07_seg0183",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0183.wav",
+      "inicio": 3294.12,
+      "fin": 3311.527,
+      "duracion_seg": 17.407,
+      "gt_original": "relativa a 1. Ojo, no digo respecto, digo relativa. Que sería omega 3 1, que sería velocidad angular de 3 relativa a 1 y",
+      "gt_normalizado": "relativa a 1 ojo no digo respecto digo relativa que sería omega 3 1 que sería velocidad angular de 3 relativa a 1 y"
+    },
+    {
+      "sample_id": "clase07_seg0184",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0184.wav",
+      "inicio": 3324.471,
+      "fin": 3336.46,
+      "duracion_seg": 11.989,
+      "gt_original": "omega de 2 a 3, que sería la velocidad angular de 2 relativa a 3.",
+      "gt_normalizado": "omega de 2 a 3 que sería la velocidad angular de 2 relativa a 3"
+    },
+    {
+      "sample_id": "clase07_seg0185",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0185.wav",
+      "inicio": 3338.58,
+      "fin": 3358.805,
+      "duracion_seg": 20.225,
+      "gt_original": "Esa de 2 a 3 es básicamente la velocidad del planeta respecto al brazo. De 3 a 1 es la velocidad del planeta respecto a la bancada y de 2 a 1 básicamente es la velocidad del planeta respecto a la bancada. ¿Sí? Es decir, esta y esta serían absolutas y esta básicamente es relativa, por así decirlo. Uno es la",
+      "gt_normalizado": "esa de 2 a 3 es básicamente la velocidad del planeta respecto al brazo de 3 a 1 es la velocidad del planeta respecto a la bancada y de 2 a 1 básicamente es la velocidad del planeta respecto a la bancada sí es decir esta y esta serían absolutas y esta básicamente es relativa por así decirlo uno es la"
+    },
+    {
+      "sample_id": "clase07_seg0186",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0186.wav",
+      "inicio": 3359.34,
+      "fin": 3369.398,
+      "duracion_seg": 10.058,
+      "gt_original": "bancada, si no se mueve, ¿no es verdad? Ahora, al decir eso, yo puedo representar omega de 2 a 3 como",
+      "gt_normalizado": "bancada si no se mueve no es verdad ahora al decir eso yo puedo representar omega de 2 a 3 como"
+    },
+    {
+      "sample_id": "clase07_seg0187",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0187.wav",
+      "inicio": 3370.26,
+      "fin": 3380.92,
+      "duracion_seg": 10.66,
+      "gt_original": "omega 2 1 menos omega 3 1. Y yo puedo básicamente reordenar esa ecuación. Y si Omega de 2 1 igual a",
+      "gt_normalizado": "omega 2 1 menos omega 3 1 y yo puedo básicamente reordenar esa ecuación y si omega de 2 1 igual a"
+    },
+    {
+      "sample_id": "clase07_seg0188",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0188.wav",
+      "inicio": 3384.09,
+      "fin": 3396.513,
+      "duracion_seg": 12.423,
+      "gt_original": "omega de 3 1 más omega de 2 3. Okay. Entonces, omega de 2 1 sobre",
+      "gt_normalizado": "omega de 3 1 más omega de 2 3 okay entonces omega de 2 1 sobre"
+    },
+    {
+      "sample_id": "clase07_seg0189",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0189.wav",
+      "inicio": 3398.64,
+      "fin": 3409.158,
+      "duracion_seg": 10.518,
+      "gt_original": "omega de 3 1 yo lo puedo dividir todo para omega de 3 1, ¿no es verdad? Puedo hacer eso si quiera, ¿no? Entonces me quedaría esto igual a 1 más",
+      "gt_normalizado": "omega de 3 1 yo lo puedo dividir todo para omega de 3 1 no es verdad puedo hacer eso si quiera no entonces me quedaría esto igual a 1 más"
+    },
+    {
+      "sample_id": "clase07_seg0190",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0190.wav",
+      "inicio": 3409.65,
+      "fin": 3420.39,
+      "duracion_seg": 10.74,
+      "gt_original": "omega de 2 3 sobre omega de 3 1. Profesor, ¿y por qué hace eso? ¿Por qué hago eso? Porque",
+      "gt_normalizado": "omega de 2 3 sobre omega de 3 1 profesor y por qué hace eso por qué hago eso porque"
+    },
+    {
+      "sample_id": "clase07_seg0191",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0191.wav",
+      "inicio": 3422.13,
+      "fin": 3436.062,
+      "duracion_seg": 13.932,
+      "gt_original": "yo puedo ahora me doy cuenta que tengo relaciones en esas velocidades. Pero, ¿por qué hago específicamente esos ratios? Específicamente trabajo con esos ratios porque si usted se da",
+      "gt_normalizado": "yo puedo ahora me doy cuenta que tengo relaciones en esas velocidades pero por qué hago específicamente esos ratios específicamente trabajo con esos ratios porque si usted se da"
+    },
+    {
+      "sample_id": "clase07_seg0192",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0192.wav",
+      "inicio": 3446.13,
+      "fin": 3458.993,
+      "duracion_seg": 12.863,
+      "gt_original": "cuenta aquí yo puedo hacer una voy a hacer una inversión cinemática. Profesor, ¿y cómo es eso de inversión cinemática?",
+      "gt_normalizado": "cuenta aquí yo puedo hacer una voy a hacer una inversión cinemática profesor y cómo es eso de inversión cinemática"
+    },
+    {
+      "sample_id": "clase07_seg0193",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0193.wav",
+      "inicio": 3459.42,
+      "fin": 3480.63,
+      "duracion_seg": 21.21,
+      "gt_original": "Quiere decir que si al uno ya no va a estar fijo. Es decir, al inicialmente yo había dicho que que 1 estaba fijo, pero ahora yo voy a decir que no. ¿Sabe que eh el que va a estar fijo ahora va a ser 3, es decir, omega 3 va a estar fijo.",
+      "gt_normalizado": "quiere decir que si al uno ya no va a estar fijo es decir al inicialmente yo había dicho que que 1 estaba fijo pero ahora yo voy a decir que no sabe que eh el que va a estar fijo ahora va a ser 3 es decir omega 3 va a estar fijo"
+    },
+    {
+      "sample_id": "clase07_seg0194",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0194.wav",
+      "inicio": 3486.84,
+      "fin": 3498.682,
+      "duracion_seg": 11.842,
+      "gt_original": "Al decir eso, ¿qué quiere decir? Quiere decir que este 3 no se va a mover y va a actuar como bancada y que el 2 es como que",
+      "gt_normalizado": "al decir eso qué quiere decir quiere decir que este 3 no se va a mover y va a actuar como bancada y que el 2 es como que"
+    },
+    {
+      "sample_id": "clase07_seg0195",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0195.wav",
+      "inicio": 3499.209,
+      "fin": 3511.647,
+      "duracion_seg": 12.438,
+      "gt_original": "estuviera así. Al hacer eso, quiere decir, si yo digo omega 2 se mueve para acá, omega 1 se mueve para acá y el 3 es igual a",
+      "gt_normalizado": "estuviera así al hacer eso quiere decir si yo digo omega 2 se mueve para acá omega 1 se mueve para acá y el 3 es igual a"
+    },
+    {
+      "sample_id": "clase07_seg0196",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0196.wav",
+      "inicio": 3512.392,
+      "fin": 3523.512,
+      "duracion_seg": 11.12,
+      "gt_original": "cero en ese caso. Entonces yo cambio la cambio al hacer esa inversión, yo cambio toda la perspectiva y puedo decir que omega de 2 a 3 es igual a omega de 1 a 3 y eso es",
+      "gt_normalizado": "cero en ese caso entonces yo cambio la cambio al hacer esa inversión yo cambio toda la perspectiva y puedo decir que omega de 2 a 3 es igual a omega de 1 a 3 y eso es"
+    },
+    {
+      "sample_id": "clase07_seg0197",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0197.wav",
+      "inicio": 3524.819,
+      "fin": 3540.618,
+      "duracion_seg": 15.799,
+      "gt_original": "igual a menos ene 1 sobre ene 2. Esto sería ene 2 y este sería ene 1. Es básicamente el caso de engranaje normal que tengo. ¿Por qué digo por respecto a 3? Porque es respecto al brazo. El brazo es el que ahora está fijo.",
+      "gt_normalizado": "igual a menos ene 1 sobre ene 2 esto sería ene 2 y este sería ene 1 es básicamente el caso de engranaje normal que tengo por qué digo por respecto a 3 porque es respecto al brazo el brazo es el que ahora está fijo"
+    },
+    {
+      "sample_id": "clase07_seg0198",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0198.wav",
+      "inicio": 3542.19,
+      "fin": 3553.644,
+      "duracion_seg": 11.454,
+      "gt_original": "¿Sí? Y eso es lo que hice una inversión sistemática de la relación en este punto que habíamos visto anteriormente. ¿Por qué hago eso? Porque este de aquí yo lo puedo reemplazar acá y de",
+      "gt_normalizado": "sí y eso es lo que hice una inversión sistemática de la relación en este punto que habíamos visto anteriormente por qué hago eso porque este de aquí yo lo puedo reemplazar acá y de"
+    },
+    {
+      "sample_id": "clase07_seg0199",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0199.wav",
+      "inicio": 3554.418,
+      "fin": 3565.02,
+      "duracion_seg": 10.602,
+      "gt_original": "alguna forma relacionar las velocidades relativas con el número de dientes. Eso es lo que estoy haciendo, básicamente. Ahora, aquí yo tengo que hacer un cambio de variable y decir",
+      "gt_normalizado": "alguna forma relacionar las velocidades relativas con el número de dientes eso es lo que estoy haciendo básicamente ahora aquí yo tengo que hacer un cambio de variable y decir"
+    },
+    {
+      "sample_id": "clase07_seg0200",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0200.wav",
+      "inicio": 3565.71,
+      "fin": 3587.284,
+      "duracion_seg": 21.574,
+      "gt_original": "omega 3 1, el orden, mejor dicho, es igual a menos omega de 1 a 3. Entonces, ¿qué queda omega de 2 a 3? Omega de 3 a 1 es igual a, ¿qué cosa? Sería eh ene 1 sobre ene 2. Entonces, al",
+      "gt_normalizado": "omega 3 1 el orden mejor dicho es igual a menos omega de 1 a 3 entonces qué queda omega de 2 a 3 omega de 3 a 1 es igual a qué cosa sería eh ene 1 sobre ene 2 entonces al"
+    },
+    {
+      "sample_id": "clase07_seg0201",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0201.wav",
+      "inicio": 3600.54,
+      "fin": 3612.975,
+      "duracion_seg": 12.435,
+      "gt_original": "reemplazar esto me va a quedar omega de 2 1 sobre omega de 3 1. Eso es igual a 1 más ene 1 sobre ene 2. Okay. Y de esta manera yo puedo relacionar las velocidades relativas en función de los números de dientes. Si usted se da cuenta, la relación entre los engranes 2 y 3, entre el entre el engrane 2 y el brazo, eh también la puedo relacionar, como usted está viendo, puedo",
+      "gt_normalizado": "reemplazar esto me va a quedar omega de 2 1 sobre omega de 3 1 eso es igual a 1 más ene 1 sobre ene 2 okay y de esta manera yo puedo relacionar las velocidades relativas en función de los números de dientes si usted se da cuenta la relación entre los engranes 2 y 3 entre el entre el engrane 2 y el brazo eh también la puedo relacionar como usted está viendo puedo"
+    },
+    {
+      "sample_id": "clase07_seg0202",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0202.wav",
+      "inicio": 3619.676,
+      "fin": 3622.35,
+      "duracion_seg": 2.674,
+      "gt_original": "relacionarla en función",
+      "gt_normalizado": "relacionarla en función"
+    },
+    {
+      "sample_id": "clase07_seg0203",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0203.wav",
+      "inicio": 3635.43,
+      "fin": 3657.837,
+      "duracion_seg": 22.407,
+      "gt_original": "del número de dientes. Eso también me puede ayudar para para determinar el movimiento del sistema. Ahora, solamente puedo hacer eso para esa configuración, ¿no? También lo puedo hacer para este, ¿sí? Por ejemplo, yo podría definir omega de 2 1 sobre omega de 3 1 igual a 1 menos omega de 2 3 omega de 1 3. Sí, al",
+      "gt_normalizado": "del número de dientes eso también me puede ayudar para para determinar el movimiento del sistema ahora solamente puedo hacer eso para esa configuración no también lo puedo hacer para este sí por ejemplo yo podría definir omega de 2 1 sobre omega de 3 1 igual a 1 menos omega de 2 3 omega de 1 3 sí al"
+    },
+    {
+      "sample_id": "clase07_seg0204",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0204.wav",
+      "inicio": 3661.768,
+      "fin": 3673.601,
+      "duracion_seg": 11.834,
+      "gt_original": "tener eso también puedo hacer lo mismo de de considerarlo como una inversión cinemática. Al hacer inversión cinemática quiere decir que voy a fijar otro de esos elementos, es",
+      "gt_normalizado": "tener eso también puedo hacer lo mismo de de considerarlo como una inversión cinemática al hacer inversión cinemática quiere decir que voy a fijar otro de esos elementos es"
+    },
+    {
+      "sample_id": "clase07_seg0205",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0205.wav",
+      "inicio": 3679.71,
+      "fin": 3690.21,
+      "duracion_seg": 10.5,
+      "gt_original": "decir, voy a fijar el brazo, supongamos. Si yo fijo el brazo es como que tuviera",
+      "gt_normalizado": "decir voy a fijar el brazo supongamos si yo fijo el brazo es como que tuviera"
+    },
+    {
+      "sample_id": "clase07_seg0206",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0206.wav",
+      "inicio": 3691.893,
+      "fin": 3709.56,
+      "duracion_seg": 17.667,
+      "gt_original": "que, ¿qué pasaría ahí? Como que estuviera esto fijo. Ahora tendría omega de 2 3 sobre omega de 1 3 es igual a más 1 sobre ene 2. Yo al reemplazar esto,",
+      "gt_normalizado": "que qué pasaría ahí como que estuviera esto fijo ahora tendría omega de 2 3 sobre omega de 1 3 es igual a más 1 sobre ene 2 yo al reemplazar esto"
+    },
+    {
+      "sample_id": "clase07_seg0207",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0207.wav",
+      "inicio": 3711.18,
+      "fin": 3721.55,
+      "duracion_seg": 10.37,
+      "gt_original": "obviamente, tengo que cambiar ya ya cambiando el signo, lo puedo reemplazar acá. Entonces me quedaría omega de 2 1 sobre omega de 3 1 igual a 1 menos ene 1",
+      "gt_normalizado": "obviamente tengo que cambiar ya ya cambiando el signo lo puedo reemplazar acá entonces me quedaría omega de 2 1 sobre omega de 3 1 igual a 1 menos ene 1"
+    },
+    {
+      "sample_id": "clase07_seg0208",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0208.wav",
+      "inicio": 3721.935,
+      "fin": 3733.906,
+      "duracion_seg": 11.971,
+      "gt_original": "sobre ene 2. Okay. Y de la misma forma puedo relacionar las velocidades relativas de omega 2 y omega 3, omega 3 es el brazo con respecto al número de dientes de los elementos. ¿Okay?",
+      "gt_normalizado": "sobre ene 2 okay y de la misma forma puedo relacionar las velocidades relativas de omega 2 y omega 3 omega 3 es el brazo con respecto al número de dientes de los elementos okay"
+    },
+    {
+      "sample_id": "clase07_seg0209",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0209.wav",
+      "inicio": 3735.33,
+      "fin": 3746.52,
+      "duracion_seg": 11.19,
+      "gt_original": "Profesor, ¿y y y para qué eso? ¿Qué hacemos con todo eso de ahí? Bueno, eso me sirve",
+      "gt_normalizado": "profesor y y y para qué eso qué hacemos con todo eso de ahí bueno eso me sirve"
+    },
+    {
+      "sample_id": "clase07_seg0210",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0210.wav",
+      "inicio": 3748.32,
+      "fin": 3758.88,
+      "duracion_seg": 10.56,
+      "gt_original": "para determinar una relación general del comportamiento de",
+      "gt_normalizado": "para determinar una relación general del comportamiento de"
+    },
+    {
+      "sample_id": "clase07_seg0211",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0211.wav",
+      "inicio": 3759.87,
+      "fin": 3777.87,
+      "duracion_seg": 18.0,
+      "gt_original": "sistemas planetarios. Sí. ¿Cómo es eso, profesor? Aquí, supongamos, voy a borrar esto. ¿Sí? Voy a cambiar un poquito el sistema.",
+      "gt_normalizado": "sistemas planetarios sí cómo es eso profesor aquí supongamos voy a borrar esto sí voy a cambiar un poquito el sistema"
+    },
+    {
+      "sample_id": "clase07_seg0212",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0212.wav",
+      "inicio": 3782.97,
+      "fin": 3792.874,
+      "duracion_seg": 9.904,
+      "gt_original": "Supongamos que ahora la bancada la voy a denominar como 1. ¿Sí? Y ahora el brazo este va a ser el elemento 2. Este va a ser elemento 3 y el brazo va a ser elemento cuatro.",
+      "gt_normalizado": "supongamos que ahora la bancada la voy a denominar como 1 sí y ahora el brazo este va a ser el elemento 2 este va a ser elemento 3 y el brazo va a ser elemento cuatro"
+    },
+    {
+      "sample_id": "clase07_seg0213",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0213.wav",
+      "inicio": 3800.91,
+      "fin": 3810.767,
+      "duracion_seg": 9.857,
+      "gt_original": "En este denominado trenes planetarios, ¿qué hago ahí? Yo",
+      "gt_normalizado": "en este denominado trenes planetarios qué hago ahí yo"
+    },
+    {
+      "sample_id": "clase07_seg0214",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0214.wav",
+      "inicio": 3816.418,
+      "fin": 3829.527,
+      "duracion_seg": 13.109,
+      "gt_original": "podría decir omega de 2 a 4 es igual a omega de 2 a 1 menos omega de 4 a 1 y",
+      "gt_normalizado": "podría decir omega de 2 a 4 es igual a omega de 2 a 1 menos omega de 4 a 1 y"
+    },
+    {
+      "sample_id": "clase07_seg0215",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0215.wav",
+      "inicio": 3832.5,
+      "fin": 3848.763,
+      "duracion_seg": 16.263,
+      "gt_original": "omega de 3 a 4 es igual a omega de 3 a 1 menos omega de 4 a 1. ¿Qué quiere decir eso? Uno es la bancada. Quiere decir que uno es el sistema de referencia ahora. Okay. Por eso",
+      "gt_normalizado": "omega de 3 a 4 es igual a omega de 3 a 1 menos omega de 4 a 1 qué quiere decir eso uno es la bancada quiere decir que uno es el sistema de referencia ahora okay por eso"
+    },
+    {
+      "sample_id": "clase07_seg0216",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0216.wav",
+      "inicio": 3850.77,
+      "fin": 3862.657,
+      "duracion_seg": 11.887,
+      "gt_original": "le pongo 1. Es como que diga omega 2 respecto a tierra o omega 2 respecto al sistema global. Es lo que estoy diciendo. Ahora, estas de aquí, si usted se da cuenta, son absolutas y esta de",
+      "gt_normalizado": "le pongo 1 es como que diga omega 2 respecto a tierra o omega 2 respecto al sistema global es lo que estoy diciendo ahora estas de aquí si usted se da cuenta son absolutas y esta de"
+    },
+    {
+      "sample_id": "clase07_seg0217",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0217.wav",
+      "inicio": 3866.162,
+      "fin": 3884.46,
+      "duracion_seg": 18.298,
+      "gt_original": "acá es relativa. ¿Okay? Omega de 2 respecto a 4. Omega de 3 respecto a 4 y eso es igual omega de 2 respecto a 1, es decir, a a la bancada menos omega de 4 respecto a 1, es decir, a la bancada, ¿sí? ¿Estoy, estoy analizando qué cosa? La velocidad del engrane 2 respecto al brazo",
+      "gt_normalizado": "acá es relativa okay omega de 2 respecto a 4 omega de 3 respecto a 4 y eso es igual omega de 2 respecto a 1 es decir a a la bancada menos omega de 4 respecto a 1 es decir a la bancada sí estoy estoy analizando qué cosa la velocidad del engrane 2 respecto al brazo"
+    },
+    {
+      "sample_id": "clase07_seg0218",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0218.wav",
+      "inicio": 3888.36,
+      "fin": 3899.083,
+      "duracion_seg": 10.723,
+      "gt_original": "y la velocidad del engrane 3 respecto al brazo. Eso es lo que estoy haciendo. ¿Y por qué hago eso? Porque yo puedo combinar esas ecuaciones, ¿sí? Al combinarlas yo obtengo esto. Omega de 2 a 4,",
+      "gt_normalizado": "y la velocidad del engrane 3 respecto al brazo eso es lo que estoy haciendo y por qué hago eso porque yo puedo combinar esas ecuaciones sí al combinarlas yo obtengo esto omega de 2 a 4"
+    },
+    {
+      "sample_id": "clase07_seg0219",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0219.wav",
+      "inicio": 3901.38,
+      "fin": 3911.487,
+      "duracion_seg": 10.107,
+      "gt_original": "omega de 3 a 4 eso es igual a omega de 2 a 1 menos omega de 4 a 1 dividido para omega de 3 a 1 menos omega de 4 a 1, ¿sí?",
+      "gt_normalizado": "omega de 3 a 4 eso es igual a omega de 2 a 1 menos omega de 4 a 1 dividido para omega de 3 a 1 menos omega de 4 a 1 sí"
+    },
+    {
+      "sample_id": "clase07_seg0220",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0220.wav",
+      "inicio": 3913.32,
+      "fin": 3927.359,
+      "duracion_seg": 14.039,
+      "gt_original": "Aquí tengo una primera ecuación para poder amenizar el movimiento relativo de los tres engranes. Además, yo tengo que omega de 2 a 4 y omega de 3 a 4, ¿sí? Es igual a",
+      "gt_normalizado": "aquí tengo una primera ecuación para poder amenizar el movimiento relativo de los tres engranes además yo tengo que omega de 2 a 4 y omega de 3 a 4 sí es igual a"
+    },
+    {
+      "sample_id": "clase07_seg0221",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0221.wav",
+      "inicio": 3927.87,
+      "fin": 3940.41,
+      "duracion_seg": 12.54,
+      "gt_original": "menos ene 3 sobre ene 2. ¿De dónde saco eso? Que cuando yo hago inversión cinemática y considero el elemento 4 como el sistema de referencia,",
+      "gt_normalizado": "menos ene 3 sobre ene 2 de dónde saco eso que cuando yo hago inversión cinemática y considero el elemento 4 como el sistema de referencia"
+    },
+    {
+      "sample_id": "clase07_seg0222",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0222.wav",
+      "inicio": 3940.92,
+      "fin": 3955.27,
+      "duracion_seg": 14.35,
+      "gt_original": "es como que tuviera dos engranes moviéndose respecto a sus ejes y en movimiento y conectados entre sí. ¿Sí? Eso es lo que está pasando ahí. Entonces, estas dos ecuaciones son ecuaciones que me permiten analizar el movimiento. Sin embargo, observe que",
+      "gt_normalizado": "es como que tuviera dos engranes moviéndose respecto a sus ejes y en movimiento y conectados entre sí sí eso es lo que está pasando ahí entonces estas dos ecuaciones son ecuaciones que me permiten analizar el movimiento sin embargo observe que"
+    },
+    {
+      "sample_id": "clase07_seg0223",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0223.wav",
+      "inicio": 3956.64,
+      "fin": 3974.657,
+      "duracion_seg": 18.017,
+      "gt_original": "juega una vital importancia de que yo estoy eh analizando eh con respecto al brazo y con respecto a a la a la a la bancada. Sí, son mis dos puntos de de referencia, un punto global y un punto relativo. Ahora, esto de aquí se puede generalizar. ¿Sí? Okay. Por sus",
+      "gt_normalizado": "juega una vital importancia de que yo estoy eh analizando eh con respecto al brazo y con respecto a a la a la a la bancada sí son mis dos puntos de de referencia un punto global y un punto relativo ahora esto de aquí se puede generalizar sí okay por sus"
+    },
+    {
+      "sample_id": "clase07_seg0224",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0224.wav",
+      "inicio": 4017.021,
+      "fin": 4021.81,
+      "duracion_seg": 4.789,
+      "gt_original": "siglas en inglés usted en las referencias puede encontrar esta ecuación. ¿Sí?",
+      "gt_normalizado": "siglas en inglés usted en las referencias puede encontrar esta ecuación sí"
+    },
+    {
+      "sample_id": "clase07_seg0225",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0225.wav",
+      "inicio": 4050.48,
+      "fin": 4051.63,
+      "duracion_seg": 1.15,
+      "gt_original": "Ese ratio se",
+      "gt_normalizado": "ese ratio se"
+    },
+    {
+      "sample_id": "clase07_seg0226",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0226.wav",
+      "inicio": 4061.07,
+      "fin": 4062.72,
+      "duracion_seg": 1.65,
+      "gt_original": "denomina un ratio",
+      "gt_normalizado": "denomina un ratio"
+    },
+    {
+      "sample_id": "clase07_seg0227",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0227.wav",
+      "inicio": 4071.99,
+      "fin": 4086.324,
+      "duracion_seg": 14.334,
+      "gt_original": "último al primero, ¿sí? Ambos relativos al brazo. ¿Todos hasta ahí? Y si se da",
+      "gt_normalizado": "último al primero sí ambos relativos al brazo todos hasta ahí y si se da"
+    },
+    {
+      "sample_id": "clase07_seg0228",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0228.wav",
+      "inicio": 4091.97,
+      "fin": 4105.899,
+      "duracion_seg": 13.929,
+      "gt_original": "cuenta tiene la misma forma que si yo lo hubiera hecho de esta manera con números, ¿sí? Eso de ahí me sirve para analizar los trenes de engranes. Ya vamos a hacer ahora la particularidad es que observen nuevamente este de",
+      "gt_normalizado": "cuenta tiene la misma forma que si yo lo hubiera hecho de esta manera con números sí eso de ahí me sirve para analizar los trenes de engranes ya vamos a hacer ahora la particularidad es que observen nuevamente este de"
+    },
+    {
+      "sample_id": "clase07_seg0229",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0229.wav",
+      "inicio": 4108.695,
+      "fin": 4119.07,
+      "duracion_seg": 10.375,
+      "gt_original": "aquí son relativas y estas de acá son",
+      "gt_normalizado": "aquí son relativas y estas de acá son"
+    },
+    {
+      "sample_id": "clase07_seg0230",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0230.wav",
+      "inicio": 4123.5,
+      "fin": 4137.758,
+      "duracion_seg": 14.258,
+      "gt_original": "absolutas. ¿Okay? ¿Dónde alguna pregunta? ¿Eh, o sea, solo con los signos, o sea, y aquí ya está, o sea, no",
+      "gt_normalizado": "absolutas okay dónde alguna pregunta eh o sea solo con los signos o sea y aquí ya está o sea no"
+    },
+    {
+      "sample_id": "clase07_seg0231",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0231.wav",
+      "inicio": 4139.79,
+      "fin": 4163.134,
+      "duracion_seg": 23.344,
+      "gt_original": "considero una referencia aquí o cómo? Claro que estás considerando. Ya. Ah, por eso, a por eso ya te conteste. Claro, yo voy a definir positivo hacia acá, por ejemplo, y en base a eso, yo sé lo que va positivo es lo que va en el mismo sentido y lo que va así va a ser negativo, ¿okay? Ya voy a hacer un par de ejercicios. Creo que se refiere a que no hay una letra específica para la bancada dentro de las",
+      "gt_normalizado": "considero una referencia aquí o cómo claro que estás considerando ya ah por eso a por eso ya te conteste claro yo voy a definir positivo hacia acá por ejemplo y en base a eso yo sé lo que va positivo es lo que va en el mismo sentido y lo que va así va a ser negativo okay ya voy a hacer un par de ejercicios creo que se refiere a que no hay una letra específica para la bancada dentro de las"
+    },
+    {
+      "sample_id": "clase07_seg0232",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0232.wav",
+      "inicio": 4163.49,
+      "fin": 4177.68,
+      "duracion_seg": 14.19,
+      "gt_original": "absolutas, sino que no se pone nada. Ah, sí, sí, sí. Cuando lo encuentra esto, les dije que ustedes encuentran en las referencias esto de aquí en los textos muchas veces le menciona esto, pero es básicamente, por ejemplo, es como que le dice doble ve a, pero es doble ve del brazo,",
+      "gt_normalizado": "absolutas sino que no se pone nada ah sí sí sí cuando lo encuentra esto les dije que ustedes encuentran en las referencias esto de aquí en los textos muchas veces le menciona esto pero es básicamente por ejemplo es como que le dice doble ve a pero es doble ve del brazo"
+    },
+    {
+      "sample_id": "clase07_seg0233",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0233.wav",
+      "inicio": 4178.4,
+      "fin": 4192.237,
+      "duracion_seg": 13.837,
+      "gt_original": "pero eso de ahí es eh es respecto a la bancada. Sí, por eso yo le hice esa explicación aquí arriba. Okay, ¿todo hasta ahí?",
+      "gt_normalizado": "pero eso de ahí es eh es respecto a la bancada sí por eso yo le hice esa explicación aquí arriba okay todo hasta ahí"
+    },
+    {
+      "sample_id": "clase07_seg0234",
+      "clase_id": "clase07",
+      "ruta_audio": "data/processed/chunks/clase07/clase07_seg0234.wav",
+      "inicio": 4194.03,
+      "fin": 4208.923,
+      "duracion_seg": 14.893,
+      "gt_original": "Buena pregunta. ¿Preguntas, otra más? Bueno, vamos a quedar hasta ahí, ¿okay? ¿Alguna pregunta?",
+      "gt_normalizado": "buena pregunta preguntas otra más bueno vamos a quedar hasta ahí okay alguna pregunta"
+    }
+  ]
+}
